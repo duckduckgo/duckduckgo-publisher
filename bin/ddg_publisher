@@ -1,0 +1,7 @@
+#!/usr/bin/env perl
+# PODNAME: ddg_publisher
+# ABSTRACT: Generating static parts of DuckDuckGo
+
+use DDG::App::Publisher;
+
+DDG::App::Publisher->new_with_options->run;
