@@ -39,7 +39,7 @@ sub publish_to {
 	for my $site (@{$self->sites}) {
 		for my $dir (values %{$site->dirs}) {
 			for (sort { $a->fullpath cmp $b->fullpath } values %{$dir->fullpath_files}) {
-				my $real_file = file($target,$_->fullpath)->absolute;
+				my $real_file = file($target,$site->key,$_->fullpath)->absolute;
 				$real_file->dir->mkpath unless -f $real_file->dir->absolute->stringify;
 				io($real_file->stringify)->print($_->content);
 				$count++;
