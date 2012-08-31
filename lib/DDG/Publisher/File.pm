@@ -71,12 +71,16 @@ has content => (
 
 sub _build_content {
 	my ( $self ) = @_;
+	my $site_code = $self->dir->site->can('code');
+	my $dir_code = $self->dir->can('code');
 	my %vars = (
 		f => $self,
 		d => $self->dir,
 		s => $self->dir->site,
-		$self->code->($self),
 	);
+	%vars = ( %vars, $site_code->($self,\%vars) ) if $site_code;
+	%vars = ( %vars, $dir_code->($self,\%vars) ) if $dir_code;
+	%vars = ( %vars, $self->code->($self,\%vars) );
 	return $self->dir->site->template_engine->render($self->template,\%vars);
 }
 

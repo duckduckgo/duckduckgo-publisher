@@ -4,11 +4,12 @@ use MooX::Role;
 use Class::Load ':all';
 use Text::Xslate qw( mark_raw );
 use File::ShareDir::ProjectDistDir;
+use Locale::Simple;
 
 requires qw(
 	default_hostname
 	dirs_classes
-	locales
+	locale_package
 );
 
 has key => (
@@ -27,6 +28,17 @@ has dirs => (
 	builder => 1,
 	lazy => 1,
 );
+
+sub load_locale_package {
+	my ( $self ) = @_;
+	load_class($self->locale_package) unless (is_class_loaded($self->locale_package));
+}
+
+sub locales {
+	my ( $self ) = @_;
+	$self->load_locale_package;
+	return (keys $self->locale_package->locales);
+}
 
 sub _build_dirs {
 	my ( $self ) = @_;
@@ -47,11 +59,13 @@ has template_engine => (
 
 sub _build_template_engine {
 	my ( $self ) = @_;
-	my $template_root = join('/',dist_dir('DDG-Publisher'),'site',$self->key);
+	my $site_template_root = join('/',dist_dir('DDG-Publisher'),'site',$self->key);
+	my $core_template_root = join('/',dist_dir('DDG-Publisher'),'core');
 	return Text::Xslate->new(
-		path => [$template_root],
+		path => [$site_template_root,$core_template_root],
 		function => {
-			ul => sub { $self->locale_url(@_) },
+			u => sub { $self->locale_url(@_) },
+			%{ Locale::Simple->coderef_hash },
 		},
 	);
 }

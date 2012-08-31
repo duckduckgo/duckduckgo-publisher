@@ -13,7 +13,7 @@ sub dirs_classes {qw(
 	Root
 )}
 
-sub locales { return (keys DDGC::Locale::DuckduckgoDuckduckgo->locales); }
+sub locale_package { 'DDGC::Locale::DuckduckgoDuckduckgo' }
 
 sub base {
 
