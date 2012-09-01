@@ -15,6 +15,11 @@ has sites => (
 	builder => 1,
 );
 
+has no_compression => (
+	is => 'ro',
+	default => sub { 0 },
+);
+
 sub _build_sites {
 	my ( $self ) = @_;
 	return [map {
@@ -41,7 +46,11 @@ sub publish_to {
 			for (sort { $a->fullpath cmp $b->fullpath } values %{$dir->fullpath_files}) {
 				my $real_file = file($target,$site->key,$_->fullpath)->absolute;
 				$real_file->dir->mkpath unless -f $real_file->dir->absolute->stringify;
-				io($real_file->stringify)->print($_->content);
+				my $content = $_->content;
+				unless ($self->no_compression) {
+					
+				}
+				io($real_file->stringify)->print($content);
 				$count++;
 			}
 		}

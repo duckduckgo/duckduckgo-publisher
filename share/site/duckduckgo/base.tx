@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="<: $f.locale :>">
+  <head><: include "head.tx" :></head>
+  <body>
+    <: include "header.tx" :>
+    <: include $maintemplate :>
+    <: include "footer.tx" :>
+  </body>
+</html>

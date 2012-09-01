@@ -10,6 +10,7 @@ requires qw(
 	default_hostname
 	dirs_classes
 	locale_package
+	locale_domain
 );
 
 has key => (
@@ -39,6 +40,17 @@ sub locales {
 	$self->load_locale_package;
 	return (keys $self->locale_package->locales);
 }
+
+# has locale_domain => (
+# 	is => 'ro',
+# 	builder => 1,
+# 	lazy => 1,
+# );
+
+# sub _build_locale_domain {
+# 	my ( $self ) = @_;
+	
+# }
 
 sub _build_dirs {
 	my ( $self ) = @_;

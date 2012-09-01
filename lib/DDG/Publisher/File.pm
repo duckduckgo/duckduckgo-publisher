@@ -1,6 +1,8 @@
 package DDG::Publisher::File;
 
 use MooX;
+use Locale::Simple;
+use File::ShareDir::ProjectDistDir;
 
 sub fullpath {
 	my ( $self ) = @_;
@@ -71,17 +73,27 @@ has content => (
 
 sub _build_content {
 	my ( $self ) = @_;
-	my $site_code = $self->dir->site->can('code');
-	my $dir_code = $self->dir->can('code');
+
+	# setting localization
+	l_dir(dist_dir($self->dir->site->locale_package));
+	ltd($self->dir->site->locale_domain);
+	l_lang($self->locale);
+
 	my %vars = (
 		f => $self,
 		d => $self->dir,
 		s => $self->dir->site,
+		maintemplate => $self->template,
 	);
+
+	my $site_code = $self->dir->site->can('code');
+	my $dir_code = $self->dir->can('code');
+
 	%vars = ( %vars, $site_code->($self,\%vars) ) if $site_code;
 	%vars = ( %vars, $dir_code->($self,\%vars) ) if $dir_code;
 	%vars = ( %vars, $self->code->($self,\%vars) );
-	return $self->dir->site->template_engine->render($self->template,\%vars);
+
+	return $self->dir->site->template_engine->render('base.tx',\%vars);
 }
 
 1;

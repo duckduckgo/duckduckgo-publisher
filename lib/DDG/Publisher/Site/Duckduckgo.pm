@@ -14,9 +14,6 @@ sub dirs_classes {qw(
 )}
 
 sub locale_package { 'DDGC::Locale::DuckduckgoDuckduckgo' }
-
-sub base {
-
-}
+sub locale_domain { 'duckduckgo-duckduckgo' }
 
 1;
