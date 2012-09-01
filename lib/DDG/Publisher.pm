@@ -1,4 +1,5 @@
 package DDG::Publisher;
+# ABSTRACT: Generation of the static pages of DuckDuckGo
 
 use MooX;
 use Path::Class;
