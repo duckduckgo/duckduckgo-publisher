@@ -5,6 +5,11 @@ use MooX::Options protect_argv => 0;
 use Path::Class;
 use DDG::Publisher;
 
+option no_compression => (
+	is => 'ro',
+	default => sub { 0 },
+);
+
 sub run {
 	my ( $self ) = @_;
 	my $target = @ARGV
@@ -13,7 +18,9 @@ sub run {
 			? $ENV{DDG_PUBLISHER_TARGETDIR}
 			: die "Require a target path or DDG_PUBLISHER_TARGETDIR set";
 	my $dir = dir($target)->absolute;
-	my $publisher = DDG::Publisher->new;
+	my $publisher = DDG::Publisher->new(
+		no_compression => $self->no_compression,
+	);
 	print "Publishing to ".$dir." ... ";
 	my $count;
 	eval {

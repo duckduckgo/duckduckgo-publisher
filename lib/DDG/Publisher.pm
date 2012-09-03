@@ -8,6 +8,8 @@ use IO::All;
 
 sub site_classes {qw(
 	Duckduckgo
+	Donttrackus
+	Dontbubbleus
 )}
 
 has sites => (
