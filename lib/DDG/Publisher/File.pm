@@ -2,7 +2,7 @@ package DDG::Publisher::File;
 
 use MooX;
 use Locale::Simple;
-use File::ShareDir::ProjectDistDir;
+use File::ShareDir ':ALL';
 
 sub fullpath {
 	my ( $self ) = @_;
@@ -75,7 +75,7 @@ sub _build_content {
 	my ( $self ) = @_;
 
 	# setting localization
-	l_dir(dist_dir($self->dir->site->locale_package));
+	l_dir(dist_dir($self->dir->site->locale_dist));
 	ltd($self->dir->site->locale_domain);
 	l_lang($self->locale);
 

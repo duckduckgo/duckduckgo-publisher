@@ -10,6 +10,11 @@ option no_compression => (
 	default => sub { 0 },
 );
 
+option publish_version => (
+	is => 'ro',
+	default => sub { 0 }
+);
+
 sub run {
 	my ( $self ) = @_;
 	my $target = @ARGV
@@ -20,6 +25,7 @@ sub run {
 	my $dir = dir($target)->absolute;
 	my $publisher = DDG::Publisher->new(
 		no_compression => $self->no_compression,
+		$self->publish_version ? ( publish_version => $self->publish_version ) : (),
 	);
 	print "Publishing to ".$dir." ... ";
 	my $count;

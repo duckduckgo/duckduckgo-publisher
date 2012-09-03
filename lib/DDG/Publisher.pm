@@ -4,7 +4,7 @@ package DDG::Publisher;
 use MooX;
 use Path::Class;
 use Class::Load ':all';
-use IO::All;
+use IO::All -utf8;
 
 sub site_classes {qw(
 	Duckduckgo
@@ -23,7 +23,12 @@ has no_compression => (
 	default => sub { 0 },
 );
 
-sub _build_sites {
+has publish_version => (
+	is => 'ro',
+	predicate => 'has_publish_version',
+);
+
+sub _build_sites { 
 	my ( $self ) = @_;
 	return [map {
 		my $class = 'DDG::Publisher::Site::'.$_;
