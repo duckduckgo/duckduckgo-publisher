@@ -5,6 +5,7 @@ use MooX;
 use Path::Class;
 use Class::Load ':all';
 use IO::All -utf8;
+use HTML::Packer;
 
 sub site_classes {qw(
 	Duckduckgo
@@ -49,14 +50,24 @@ sub publish_to {
 	my $target_dir = dir($target);
 	$target_dir->mkpath unless -d "$target_dir";
 	my $count = 0;
+	my $packer;
+	unless ($self->no_compression) {
+		$packer = HTML::Packer->init();
+	}
 	for my $site (@{$self->sites}) {
 		for my $dir (values %{$site->dirs}) {
 			for (sort { $a->fullpath cmp $b->fullpath } values %{$dir->fullpath_files}) {
 				my $real_file = file($target,$site->key,$_->fullpath)->absolute;
 				$real_file->dir->mkpath unless -f $real_file->dir->absolute->stringify;
 				my $content = $_->content;
-				unless ($self->no_compression) {
-					
+				if ($packer) {
+					$packer->minify(\$content,{
+						remove_comments => 1,
+						remove_newlines => 1,
+						do_javascript => 1,
+						do_stylesheet => 1,
+						no_compress_comments => 1,
+					})
 				}
 				io($real_file->stringify)->print($content);
 				$count++;
