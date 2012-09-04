@@ -19,9 +19,6 @@
 		    <div id="links_wrapper">
 			  <div id="links">			  
 				<div id="content_internal">
-
-	<: } else { :> 
-	
 	<: } :>
     
     <: include $maintemplate :>
@@ -35,8 +32,6 @@
 	  </div> <!-- content_wrapper //-->
 	  <!-- template d -->
 	  <: include "footer.tx" :>
-	<: } else { :> 
-	
 	<: } :>
     
   </body>

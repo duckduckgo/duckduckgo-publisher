@@ -9,7 +9,9 @@ with qw(
 sub path { '/' }
 
 sub pages {{
-	index => sub {},
+	index => sub {
+		no_wrapper => 1,
+	},
 	about => sub {},
 	feedback => sub {},
 	privacy => sub {},
