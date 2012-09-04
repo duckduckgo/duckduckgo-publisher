@@ -1,9 +1,43 @@
 <!DOCTYPE html>
-<html lang="<: $f.locale :>">
+<!--[if IEMobile 7 ]> <html lang="<: $f.locale :>" class="no-js iem7"> <![endif]-->
+<!--[if lt IE 7]> <html class="ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="<: $f.locale :>"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 lt-ie10 lt-ie9 lt-ie8" lang="<: $f.locale :>"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 lt-ie10 lt-ie9" lang="<: $f.locale :>"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9 lt-ie10" lang="<: $f.locale :>"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="<: $f.locale :>"><!--<![endif]-->
+
   <head><: include "head.tx" :></head>
-  <body>
-    <: include "header.tx" :>
+  <body id="pg-<: $f.filebase :>">
+  
+	<: if !$no_wrapper { :> 
+	  <: include "header.tx" :>
+	  <div id="content_wrapper">
+		<div id="content">
+		  <: if $f.filebase != "about" { :>
+		  <a href="/?q=&t=i" title="DuckDuckGo"><div id="logo_internal"></div></a>
+		  <: } :>
+		    <div id="links_wrapper">
+			  <div id="links">			  
+				<div id="content_internal">
+
+	<: } else { :> 
+	
+	<: } :>
+    
     <: include $maintemplate :>
-    <: include "footer.tx" :>
+	
+	<: if !$no_wrapper { :> 	  	  
+			   <div id="bottom_spacing2"></div>
+		     </div> <!-- content_internal //-->
+	       </div> <!-- links //-->
+	     </div> <!-- links_wrapper //-->
+	    </div> <!-- content //-->
+	  </div> <!-- content_wrapper //-->
+	  <!-- template d -->
+	  <: include "footer.tx" :>
+	<: } else { :> 
+	
+	<: } :>
+    
   </body>
 </html>
