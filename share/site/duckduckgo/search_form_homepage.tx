@@ -1,0 +1,11 @@
+		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about.html">
+			<div id="logo_homepage">About DuckDuckGo</div>
+		</a>
+		<form name="x" method="POST" action="/html" id="search_form_homepage" onSubmit="return nbr()">
+			<div id="search_wrapper_homepage">
+				<input id="search_button_homepage" tabindex="2" type="submit" value=""/>
+				<a id="search_dropdown_homepage" class="btn" href="javascript:;" onClick="nbc(1);"></a>
+			</div>
+			<input type="text" autocomplete="off" name="q" autofocus tabindex="1" onclick="if (this.value=='put search terms here') {this.value='';this.style.color='#000000';};if (is_mobile) DDG.toggle('footer_homepage');" onblur="if (is_mobile) DDG.toggle('footer_homepage',1)" id="search_form_input_homepage" onFocus="if ('rc' in window) {nua('nro',rc)};fq=1;" onBlur="fq=0" value="">
+			<select id="bang" size="2" onChange="if (ip) nbb(this);" onClick="if (!ip) nbb(this);" onBlur="nbc(1)"></select>
+		</form>

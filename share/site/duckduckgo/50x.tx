@@ -1,0 +1,5 @@
+<!-- <: $f.locale :> <: l('All Settings') :> -->
+		<div id="error_homepage" style="display:block">
+			Oops, there was an error. &nbsp;Please try again.<br><br>If it persists, please email ops@duckduckgo.com
+		</div>
+		<div style="clear:both;margin-top:20px;"></div>

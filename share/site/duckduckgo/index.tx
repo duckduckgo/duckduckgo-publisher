@@ -1,1 +1,4 @@
-index.tx <: $f.locale :> <: l('All Settings') :>
+<!-- <: $f.locale :> <: l('All Settings') :> -->
+						
+		<div id="error_homepage"></div>
+		<div style="clear:both;margin-top:20px;"></div>	

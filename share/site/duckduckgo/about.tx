@@ -1,1 +1,112 @@
-about.tx
+<script src="js/jquery/jquery-1.7.2.min.js"></script>
+<script src="js/mediaelement/mediaelement-and-player.min.2.9.1.js"></script>
+<link rel="stylesheet" href="mediaelementplayer.css" />
+<style> .video-container, .video-container video { max-height: 368px; } </style>
+
+<div class="video-container">
+
+<video width="640" height="360" id="about-video" poster="assets/about/about-duckduckgo-posterimg.jpg" controls="controls" style="width: 100%; height: 100%;" preload="none">
+	<!-- M4V source must come first for iOS -->
+	<source type="video/x-m4v" src="//dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.m4v" />
+	<!-- MP4 for almost everyone -->
+	<source type="video/mp4" src="//dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" />
+	<!-- WebM for Firefox 4 and Opera -->
+	<source type="video/webm" src="//dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.webm" />
+	<!-- OGG for Firefox 3 -->
+	<source type="video/ogg" src="//dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.ogv" />
+	<!-- Fallback flash player for no-HTML5 browsers with JavaScript turned off -->
+	<object width="640" height="360" type="application/x-shockwave-flash" data="flashmediaelement.swf"> 		
+		<param name="movie" value="flashmediaelement.swf" /> 
+		<param name="flashvars" value="controls=true&poster=assets/about/about-duckduckgo-posterimg.jpg&file=//dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" /> 		
+		<!-- Image fall back for non-HTML5 browser with JavaScript turned off and no Flash player installed (wow just wow) -->
+		<img src="assets/about/about-duckduckgo-posterimg.jpg" width="640" height="360" alt="DuckDuckGo" 
+			title="No video playback capabilities" />
+	</object> 	
+</video>
+<div class="share-buttons"><a class="share-button" href="#" onclick="DDG.toggle('share-panel')">share this</a></div>
+</div>
+<div id="share-panel">
+	<script>function fbs_click() {u=location.href;t=document.title;window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=960,height=544');return false;}	
+	</script>
+	<a href="http://www.facebook.com/share.php?u=https://duckduckgo.com/about.html" class="shareon facebook" target="_blank" onClick="return fbs_click()">Share on Facebook</a>
+	<a href="https://twitter.com/?status=Check+out+the+'About+@DuckDuckGo'+video:+https://duckduckgo.com/about.html" class="shareon twitter" target="_blank">Share on Twitter</a>
+	<br style="clear: both;"/>
+	<br/>
+	Embed Elsewhere:
+	<br/>
+	<div class="embed-code">&lt;iframe src="https://duckduckgo.com/about-video.html" width="640" height="360"&gt;&lt;/iframe&gt;</div>
+</div>
+<h2>What our search engine does better:</h2>
+<hr/>
+  <div id="features">
+    <ul>	 
+	  <li class="answers"><a href="https://duckduckgo.com/goodies.html">
+	   Better <em>instant answers.</em>
+	   <!--blockquote>We have lots of goodies for all types of people.</blockquote-->
+	   </a></li>
+	
+	   <li class="clutter">Less spam and clutter.
+	    <!--blockquote>We focus on a cleaner search experience.</blockquote-->
+	   </li>
+	  
+	   <li class="privacy"><a href="http://donttrack.us/">
+	    We don't <em>track you</em>.
+	    <!--blockquote>We do not collect or share personal information.</blockquote-->
+	   </a></li>
+	  	  
+	   <li class="bubble"><a href="http://dontbubble.us/">
+	    We don't <em>filter bubble</em> you.
+	    <!--blockquote>We do not bias your search results.</blockquote-->
+	   </a></li>
+	  
+	</ul>
+  </div>
+
+<h2>Perhaps you've heard about us in&hellip;</h2>
+<hr/>
+  <div id="quotes">
+    <ul>
+	  <li id="time"><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html"><img src="assets/about/logo_time-full.png" alt="TIME" style="width: 135px;" /><blockquote class="noquote">Top 50 Best Websites of 2011.</blockquote></a></li>
+	  <li id="nyt"><a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3"><img src="assets/about/logo_nyt-full.png" alt="The New York Times" style="width: 320px;"/><blockquote>Distinguishes itself with a &ldquo;We do not track or bubble you!&rdquo; policy.</blockquote></a></li>	 
+	   <li id="sel"><a href="http://searchengineland.com/could-duckduckgo-be-the-biggest-long-term-threat-to-google-118117"><img src="assets/about/logo_sel-full.png" alt="SearchEngineLand" style="width: 230px;" /><blockquote>Could DuckDuckGo Be The Biggest Long-Term Threat To Google?</blockquote></a></li>
+	  <li id="pc"><a href="http://www.pcmag.com/article2/0,2817,2397697,00.asp"><img src="assets/about/logo_pcmag-full.png" alt="PC Mag" style="width: 70px;" /><blockquote class="noquote">Top 100 Best Websites of 2011.</blockquote></a></li>	  
+	  <li id="lhck"><a href="http://lifehacker.com/5912105/add-duckduckgos-smart-zero+click-info-results-to-google-searches-in-chrome"><img src="assets/about/logo_lifehacker-full.png" alt="lifehacker" style="width: 153px;" /><blockquote>Our favorite alternative search engine, DuckDuckGo</blockquote></a></li>
+	 	  
+	  <!--li id="about"><a href="http://websearch.about.com/od/2011-readers-choice-awards/ss/2011-About-Web-Search-Readers-Choice-Awards-The-Winners_2.htm"><img src="assets/about/logo_about-full.png" alt="About.com" /><blockquote class="noquote"><img src="assets/best-search-engine-2011.jpg" alt="About.com 2011 Reader's Choice Award Winner" /></blockquote></a></li-->
+	  <!--li id="wired"><img src="assets/about/logo_wired-full.png" alt="Wired" /><blockquote>Still room for <br/>innovation in search.</blockquote></li-->
+	  <!--li id="cnn"><img src="assets/about/logo_cnn-full.png" alt="CNN" /><blockquote>It has less clutter.</blockquote></li-->
+	  <!--li id="tnw"><img src="assets/about/logo_tnw-full.png" alt="The Next web" /><blockquote>If DuckDuckGo has anything to say about it, the future of search with be hackable.</blockquote></li-->
+	  <!--li id="tc"><img src="assets/about/logo_tc-full.png" alt="TechCrunch" /><blockquote>a search engine that prides itself on having more relevant results than Google or Bing.</blockquote></li-->
+	 
+	</ul>
+  </div>
+
+<h2>What are you waiting for?</h2>
+<hr/>
+  <div id="spread">
+
+<p class="big"><a href="https://duckduckgo.com/">Search</a> us. &nbsp;<a href="https://duckduckgo.com/spread.html">Join</a> us. &nbsp;<a href="http://duckduckhack.com">Hack</a> us.</p>
+
+<div class="newsletter"></div>
+<form action="https://flash.duckduckgo.com/e.js" method="post">
+<span class="clu">
+Monthly newsletter: &nbsp;
+<input type="text" size="15" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
+<input type="submit" value="Go">
+<input type="hidden" name="add3" value="1">
+</span>
+</form>
+
+<div class="like"></div>
+<a href="http://twitter.com/duckduckgo" class="twitter-follow-button">Follow @duckduckgo</a>
+<script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+<div class="like"></div>
+<div id="fb-root"></div><script src="https://connect.facebook.net/en_US/all.js#appId=161709093903193&amp;xfbml=1"></script><fb:like href="http://facebook.com/duckduckgo" send="false" width="300" show_faces="false" action="like" font="segoe ui"></fb:like>
+
+</div>
+
+<script>
+$('video,audio').mediaelementplayer(/* Options go here - we don't need no stinking options{mode:'auto_plugin'}*/);
+$('#search_form_input').attr('value':'About DuckDuckGo','placeholder':'About DuckDuckGo');
+</script>

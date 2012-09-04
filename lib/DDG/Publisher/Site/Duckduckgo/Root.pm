@@ -11,11 +11,15 @@ sub path { '/' }
 sub pages {{
 	index => sub {
 		no_wrapper => 1,
+		homepage -> 1,
 	},
 	about => sub {},
 	feedback => sub {},
 	privacy => sub {},
 	spread => sub {},
+	about-video => sub {
+		no_wrapper => 1,
+	},	
 }}
 
 1;

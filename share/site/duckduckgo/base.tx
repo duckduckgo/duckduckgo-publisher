@@ -6,9 +6,15 @@
 <!--[if IE 9]>    <html class="ie9 lt-ie10" lang="<: $f.locale :>"> <![endif]-->
 <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="<: $f.locale :>"><!--<![endif]-->
 
-  <head><: include "head.tx" :></head>
+  <head>
+    <: include "head.tx" :>
+	<: if $homepage { :> 
+	  <: include "head_homepage.tx" :>
+	<: } :>
+  </head>
   <body id="pg-<: $f.filebase :>">
-  
+    <div id="add_to_browser" class="add_to_browser"></div>
+	<div id="add_to_browser_homepage" class="add_to_browser"></div>
 	<: if !$no_wrapper { :> 
 	  <: include "header.tx" :>
 	  <div id="content_wrapper">
@@ -19,8 +25,14 @@
 		    <div id="links_wrapper">
 			  <div id="links">			  
 				<div id="content_internal">
+	<: } else {:>
+      <: if $homepage { :>
+	    <div id="content_wrapper_homepage">
+	      <div id="content_homepage">
+		    <: include "search_form_homepage.tx" :>
+	  <: } :>
 	<: } :>
-    
+	
     <: include $maintemplate :>
 	
 	<: if !$no_wrapper { :> 	  	  
@@ -29,9 +41,14 @@
 	       </div> <!-- links //-->
 	     </div> <!-- links_wrapper //-->
 	    </div> <!-- content //-->
-	  </div> <!-- content_wrapper //-->
-	  <!-- template d -->
+	  </div> <!-- content_wrapper //-->	  
 	  <: include "footer.tx" :>
+	<: } else { :>
+	  <: if $homepage { :>
+	    	 </div> <!-- content_homepage //-->
+	      </div> <!-- content_wrapper_homepage //-->	
+	    <: include "footer_homepage.tx" :>
+	  <: } :>
 	<: } :>
     
   </body>

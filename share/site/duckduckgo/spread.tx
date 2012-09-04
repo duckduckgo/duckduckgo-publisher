@@ -1,1 +1,188 @@
-spread.tx
+<style type="text/css">
+.spread {
+  float: right;
+  clear: right;
+}
+</style>
+
+
+<div id="zero_click_header">Spread DDG!</div>
+
+<div style="margin-top:30px;"></div>
+
+<b>Unfortunate fact:</b> most people have never heard of DuckDuckGo.
+<div style="margin-top:15px;"></div>
+So we'd really appreciate your help in getting the word out!
+
+<div style="margin-top:45px;"></div>
+<b>Level 1:&nbsp; Use DuckDuckGo</b>
+
+<div style="margin-left: 20px;">
+
+<div style="margin-top:20px;"></div>
+<span class="clu">
+<script type="text/javascript">nib(0,'','Add to: ','',0,0)</script>
+</span>
+
+<div style="margin-top:12px;"></div>
+<span class="clu">
+<script type="text/javascript">nib(0,'','Set as: ','',0,1)</script>
+</span>
+
+</div>
+
+
+<div style="margin-top:45px;"></div>
+<b>Level 2:&nbsp; Share DuckDuckGo</b>
+<div style="margin-left: 20px;">
+
+<div style="margin-top:20px;"></div>
+<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://duckduckgo.com/" data-text="I now use DuckDuckGo as my primary search engine and you should too!" data-count="horizontal" data-via="duckduckgo">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+
+<div style="margin-top:12px;"></div>
+<div id="fb-root"></div><script src="https://connect.facebook.net/en_US/all.js#appId=161709093903193&amp;xfbml=1"></script><fb:like href="http://facebook.com/duckduckgo" send="false" width="300" show_faces="false" action="like" font="segoe ui"></fb:like>
+
+<!--<div style="margin-top:12px;"></div>
+<div id="fb-root"></div><script src="https://connect.facebook.net/en_US/all.js#appId=161709093903193&amp;xfbml=1"></script><fb:like href="http://duckduckgo.com/" send="false" width="300" show_faces="false" action="like" font="segoe ui"></fb:like>//-->
+
+<div style="margin-top:12px;"></div>
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone href="http://duckduckgo.com/"></g:plusone>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+</div>
+
+
+<div style="margin-top:45px;"></div>
+<b>Level 3:&nbsp; Follow DuckDuckGo</b>
+
+<div style="margin-left: 20px;">
+
+<div style="margin-top:20px;"></div>
+<a href="http://twitter.com/duckduckgo" class="twitter-follow-button">Follow @duckduckgo</a>
+<script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+<p style="margin-top: 10px;">
+<form action="https://flash.duckduckgo.com/e.js" method="post">
+<span class="clu">
+Newsletter: &nbsp;
+<input type="text" size="15" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
+<input type="submit" value="Go">
+<input type="hidden" name="add3" value="1">
+</span>
+</form>
+
+</div>
+
+
+
+<div style="margin-top:45px;"></div>
+<b>Level 4:&nbsp; Promote DuckDuckGo Online</b>
+<div style="margin-left: 20px;">
+
+<div style="margin-top:20px;"></div>
+<span class="clu">
+Use a DuckDuckGo link or <a href="https://duck.co/#topic/28469000000437075">userbar</a> for your email signature.
+</span>
+
+<div style="margin-top:12px;"></div>
+<span class="clu">
+Add a <a href="http://duckduckgo.com/search_box.html">search box</a> to your site.
+</span>
+
+<div style="margin-top:12px;"></div>
+<span class="clu">
+Write a blog post.
+</span>
+
+<div style="margin-top:12px;"></div>
+<span class="clu">
+Comment on relevant news articles about DuckDuckGo.
+</span>
+
+<div style="margin-top:12px;"></div>
+<span class="clu">
+Get a <a href="http://dukgo.com/">dukgo.com account</a>.
+</span>
+
+<p style="margin-top: 8px;">
+<form action="https://flash.duckduckgo.com/e.js" method="post">
+<span class="clu">
+Spread list (infrequent):
+<input type="text" size="15" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
+<input type="submit" value="Go">
+<input type="hidden" name="add3" value="1">
+</span>
+</form>
+
+</div>
+
+
+<div style="margin-top:45px;"></div>
+<b>Level 5:&nbsp; Promote DuckDuckGo Offline</b>
+<div style="margin-left: 20px;">
+
+<div style="margin-top:20px;"></div>
+<span class="clu">
+Hang <a href="https://duck.co/topic/flyer-campaign">DuckDuckGo flyers</a> or make your own.
+</span>
+
+<div style="margin-top:12px;"></div>
+<span class="clu">
+Put <a href="http://stickermule.com/duckduckgo">DuckDuckGo stickers</a> on your laptop/car/phone.
+</span>
+
+<div style="margin-top:12px;"></div>
+<span class="clu">
+Wear a <a href="http://cafepress.com/duckduckgo/">DuckDuckGo t-shirt</a>.
+</span>
+
+</div>
+
+
+
+<div style="margin-top:45px;"></div>
+<b>Level 6:&nbsp; Develop DuckDuckGo</b>
+<div style="margin-left: 20px;">
+
+<div style="margin-top:20px;"></div>
+<span class="clu">
+Join us at <a href="http://duck.co/">our forum</a> or <a href="http://webchat.freenode.net/?channels=duckduckgo">chat room</a>.
+</span>
+
+<div style="margin-top:12px;"></div>
+<span class="clu">
+Code <a href="https://github.com/duckduckgo/duckduckgo/wiki">Zero-click Info</a>.
+</span>
+
+<div style="margin-top:12px;"></div>
+<span class="clu">
+Build on our <a href="http://api.duckduckgo.com/">Zero-click API</a>.
+</span>
+
+<p style="margin-top: 8px;">
+<form action="https://flash.duckduckgo.com/e.js" method="post">
+<span class="clu">
+Testing (infrequent): 
+<input type="text" size="15" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
+<input type="submit" value="Go">
+<input type="hidden" name="add2" value="1">
+</span>
+</form>
+
+</div>
+
+<div style="margin-top:45px;"></div>
+<b>Level 7:</b>
+<div style="margin-left: 20px;">
+
+<div style="margin-top:20px;"></div>
+<img src="/spread/spread4.png">
