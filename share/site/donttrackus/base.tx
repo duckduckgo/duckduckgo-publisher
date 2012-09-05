@@ -1,7 +1,40 @@
 <!DOCTYPE html>
-<html lang="<: $f.locale :>">
-  <head><: include "head.tx" :></head>
-  <body>
-    <: include $maintemplate :>
+<!--[if IEMobile 7 ]> <html lang="<: $f.locale :>" class="no-js iem7"> <![endif]-->
+<!--[if lt IE 7]> <html class="ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="<: $f.locale :>"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 lt-ie10 lt-ie9 lt-ie8" lang="<: $f.locale :>"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 lt-ie10 lt-ie9" lang="<: $f.locale :>"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9 lt-ie10" lang="<: $f.locale :>"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="<: $f.locale :>"><!--<![endif]-->
+
+  <head>
+	<: include "head.tx" :>
+  </head>
+  <body id="pg-<: $f.filebase :>">
+  
+	<div id="wrapper">
+	  <div id="add_to_browser" class="add_to_browser"></div>
+	  <a name="top"></a>	  
+	  <div class="content-wrap">
+	    <div style="position:absolute;right:0;top:0;" class="daklang"></div>
+	    <div style="font-size:20px; text-align: center;" class="dakwak">
+	    <: include "header.tx" :>
+	    <: include $maintemplate :>
+		<: include "share_footer.tx" :>
+	  </div>
+	  
+	</div>
+	
+    <: include "share_modal.tx" :>
+	<script src="js/plugins.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	
+	<script type="text/javascript" src="http://dakwak.com/dakwak.js?USkpEggLkCT"></script>
+	<script type="text/javascript">
+	if (typeof(Dakwak) == "object"){
+	Dakwak.langs = {"languages":[{"language":"Afrikaans","value":"af"},{"language":"Albanian","value":"sq"},{"language":"Arabic","value":"ar"},{"language":"Armenian","value":"hy"},{"language":"Azerbaijani","value":"az"},{"language":"Basque","value":"eu"},{"language":"Belarusian","value":"be"},{"language":"Bulgarian","value":"bg"},{"language":"Burmese","value":"my"},{"language":"Catalan","value":"ca"},{"language":"Chinese","value":"zh"},{"language":"Croatian","value":"hr"},{"language":"Czech","value":"cs"},{"language":"Danish","value":"da"},{"language":"Dutch","value":"nl"},{"language":"English","value":"en"},{"language":"Estonian","value":"et"},{"language":"Filipino","value":"tl"},{"language":"Finnish","value":"fi"},{"language":"French","value":"fr"},{"language":"Galician","value":"gl"},{"language":"Georgian","value":"ka"},{"language":"German","value":"de"},{"language":"Greek","value":"el"},{"language":"Hebrew","value":"iw"},{"language":"Hindi","value":"hi"},{"language":"Hungarian","value":"hu"},{"language":"Icelandic","value":"is"},{"language":"Indonesian","value":"id"},{"language":"Irish","value":"ga"},{"language":"Italian","value":"it"},{"language":"Japanese","value":"ja"},{"language":"Korean","value":"ko"},{"language":"Laothian","value":"lo"},{"language":"Latvian","value":"lv"},{"language":"Lithuanian","value":"lt"},{"language":"Macedonian","value":"mk"},{"language":"Malay","value":"ms"},{"language":"Maltese","value":"mt"},{"language":"Norwegian","value":"no"},{"language":"Persian","value":"fa"},{"language":"Polish","value":"pl"},{"language":"Portuguese","value":"pt-PT"},{"language":"Romanian","value":"ro"},{"language":"Russian","value":"ru"},{"language":"Serbian","value":"sr"},{"language":"Slovak","value":"sk"},{"language":"Slovenian","value":"sl"},{"language":"Spanish","value":"es"},{"language":"Swahili","value":"sw"},{"language":"Swedish","value":"sv"},{"language":"Thai","value":"th"},{"language":"Turkish","value":"tr"},{"language":"Ukrainian","value":"uk"},{"language":"Urdu","value":"ur"},{"language":"Vietnamese","value":"vi"},{"language":"Welsh","value":"cy"},{"language":"Yiddish","value":"yi"}]};
+	Dakwak.apikey = "4d3af47a0517b57dee0000054d3af42f0517b57dee000003";
+	Dakwak.init();
+	}
+	</script>
   </body>
 </html>

@@ -1,0 +1,25 @@
+<div id="zero_click_header">DuckDuckGo Bot</div>
+
+
+<div style="margin-top: 30px;"></div>
+DuckDuckBot is the Web crawler for <a href="/?q=&t=i">DuckDuckGo</a>.  It respects <a class="le" href="http://www.robotstxt.org/"><q>robots.txt</q></a> files via <a href="https://metacpan.org/module/WWW::RobotRules">WWW::RobotRules</a> and originates from these IP addresses:
+
+<div style="margin-top: 5px;"></div>
+ &nbsp;  &nbsp; 72.94.249.34
+<br> &nbsp;  &nbsp; 72.94.249.35
+<br> &nbsp;  &nbsp; 72.94.249.36
+<br> &nbsp;  &nbsp; 72.94.249.37
+<br> &nbsp;  &nbsp; 72.94.249.38
+
+<div style="margin-top: 15px;"></div>
+If you have any questions or concerns, please <a href="/feedback.html">let us know</a>.
+
+
+<div style="margin-top: 30px;"></div>
+<i>Changelog</i>
+
+<div style="margin-top: 15px;"></div>
+DuckDuckBot/1.1 - Bug fix: was not respecting robots.txt in some cases.
+
+<div style="margin-top: 15px;"></div>
+DuckDuckBot/1.0 - Initial version.

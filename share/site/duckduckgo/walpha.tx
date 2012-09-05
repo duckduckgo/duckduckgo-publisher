@@ -1,0 +1,427 @@
+<style type="text/css">
+body {
+  background-color: #F99D2C !important;
+  font-family: arial;
+  background: none no-repeat fixed left center transparent;
+}
+
+pre {
+  background-color:#EEEEEE;
+  font-family:Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+  padding:10px;
+  word-wrap: break-word;
+  font-size: 10pt;
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+}
+
+#t {
+  -moz-border-radius: 20px 20px;
+  border-radius: 20px 20px / 20px 20px;
+}
+</style>
+
+<div id="c" style="padding-right:0px;padding-top:50px;padding-bottom:50px;">
+
+<div id="t" style="width: 630px; padding-left:30px; padding-right:30px; background-color:#fff;border:2px #f47f1d solid; margin:auto;">
+
+<div style="margin-top:20px;font-size:20pt">DuckDuckGo + Wolfram|Alpha</div>
+
+<div style="padding-top:15px;"></div>
+This page contains open-sourced code that we use to integrate <a href="http://www.wolframalpha.com">WolframAlpha</a> (a knowledge engine) into <a href="http://duckduckgo.com/?t=yegg">DuckDuckGo</a> (a search engine). It is also <a href="https://github.com/duckduckgo/walpha">on github</a>.
+
+<div style="padding-top:15px;"></div>
+This integration consists of the following Perl regular expressions to identify query types that WolframAlpha answers well. These queries then get proxied via the WWW::WolframAlpha Perl module, which we also maintain <a href="http://search.cpan.org/search?query=WWW%3AWolframAlpha&mode=all">on CPAN</a>.
+
+<div style="padding-top:30px;"></div>
+<i>Some variables used</i>
+<div style="padding-top:10px;"></div>
+<code><pre>
+$into_qr = qr/\s(?:\-|en|in|to|in ?to)\s/i;
+
+$q_check = $q;
+$q_check =~ s/^\!//;
+$q_check =~ s/\?$//;
+
+$q_escape = encode_for_link($q);
+
+$q_internal is $q minus special chars
+</pre></code>
+
+<div style="padding-top:30px;"></div>
+<b>Chemical Formulas</b>
+<div style="padding-top:10px;" class="clu">
+Queries consisting fully of one or more chemical element blocks, e.g. Si4 or O8.
+</div>
+<div style="padding-top:10px;"></div>
+<code><pre>
+$q =~ /^!?(?:(?:\()*(?=[ABCDEFGHIKLMNOPRSTUVWXYZ])(?:S[gnbmreic]?|N[eoabdip]?|G[dae]|B[ariehk]?|U(?:u[ptsohq])?|P[troamdbu]?|M[dgton]|A[ltrmgcus]|I[nr]?|R[bengaufh]|C[rnldumofsae]?|L[ruia]|E[rus]|T[hlacemib]|D[ys]|H[eogsaf]?|F[emr]?|Kr?|Yb?|Z[rn]|Os?|[VW]|Xe)(?:\d|\))*)+$/ && $q =~ /(\d+)/ && $1<20
+</pre></code>
+<div style="padding-top:5px;" class="clu">
+<i>Examples</i>
+<ul>
+<li><a href="http://duckduckgo.com/?q=SiO4">Si04</a>
+<li><a href="http://duckduckgo.com/?q=H2O3C5">H2O3C5</a>
+</ul>
+</div>
+
+<div style="padding-top:30px;"></div>
+<b>Calendar</b>
+<div style="padding-top:10px;" class="clu">
+Calendars.
+</div>
+<div style="padding-top:10px;"></div>
+<code><pre>
+$q_check =~ /\bcal[ea]nd[ae]r\b/i && $q_check =~ /\b(?:\d{4}|jan(?:uary|)|feb(?:r?uary|)|mar(?:ch|)|apr(?:il|)|may|june?|july?|aug(?:ust|)|sep(?:tember|)|oct(?:ober|)|nov(?:ember|)|dec(?:ember|))\b/
+</pre></code>
+<div style="padding-top:5px;" class="clu">
+<i>Examples</i>
+<ul>
+<li><a href="http://duckduckgo.com/?q=may+2011">may 2011</a>
+<li><a href="http://duckduckgo.com/?q=june+calendar">june calendar</a>
+</ul>
+</div>
+
+<div style="padding-top:30px;"></div>
+<b>Conversions</b>
+<div style="padding-top:10px;" class="clu">
+Queries with a number, unit, conversion word and conversion target.
+</div>
+<div style="padding-top:10px;"></div>
+<code><pre>
+$q_check =~ /^(?:convert\s|)[^a-z]?\d[\d\,\.]*\s?.{1,10}$into_qr(?:.{1,15}|[^\s]+)$/i
+
+$q_check =~ /^.{1,10}\s*[^a-z]?\d[\d\,\.]*$into_qr(?:.{1,15}|[^\s]+)$/i
+
+$q_escape =~ s/(\b|\%20)cad(\b|\%20)/$1canadian dollars$2/i;
+$q_escape =~ s/(\%20)en(\%20)/$1in$2/i;
+$q_escape =~ s/(\b|\%20)jst(\b|\%20)/$1jt$2/i;
+$q_escape =~ s/(\b|\%20)bht(\b|\%20)/$1thb$2/i;
+$q_escape =~ s/(\d)\%2C(\d{2})(?!\d)/$1.$2/i;
+</pre></code>
+<div style="padding-top:5px;" class="clu">
+<i>Examples</i>
+<ul>
+<li><a href="http://duckduckgo.com/?q=60mph+in+kph">60mph in kph</a>
+<li><a href="http://duckduckgo.com/?q=USD+5+in+CAD">USD 5 in CAD</a>
+</ul>
+</div>
+
+<div style="padding-top:30px;"></div>
+<b>Currency</b>
+<div style="padding-top:10px;" class="clu">
+Currency conversions not caught by above.
+</div>
+<div style="padding-top:10px;"></div>
+<code><pre>
+my $currency_qr = qr/\b(?=[abcdefghijklmnopqrstuvwxyz])(?:a(?:o[an]|r[asp]|fa|ll|[mue]d|[wn]g|zm)|d(?:zd|kk|jf|op)|u(?:a[hk]|sd|[gz]s|yu|kp)|e(?:ur|gp|ek|tb|cs|rn)|x(?:cd|[apo]f|eu)|n(?:ok|[za]d|pr|ic|gn)|b(?:o[bp]|[shbzmn]d|dt|yr|am|wp|[rg]l|if|tn|uk)|k(?:hr|[yw]d|mf|zt|[eg]s|[pr]w)|c(?:l[fp]|[as]d|ve|ny|[ou]p|rc|zk|hf|dz)|t(?:pe|[wtn]d|jr|zs|hb|op|ry|mm)|f(?:kp|jd)|g(?:[my]d|el|hc|[ibw]p|tq|ns|qe)|h(?:r[kd]|tg|nl|kd|uf)|i(?:sk|[ndr]r|qd|ls)|j(?:[mo]d|py)|l(?:s[lm]|ak|[vt]l|bp|[ry]d|kr)|m(?:x[np]|op|[ka]d|[gl]f|[wm]k|[yvu]r|ro|dl|nt|zm)|p(?:e[ins]|l[nz]|kr|gk|yg|hp|ab)|r(?:u[br]|ol|wf)|s(?:[tgb]d|[acu]r|[lz]l|os|[hy]p|[dr]g|ek)|z(?:ar|mk|rz)|v(?:uv|ef|nd)|y(?:er|dd)|(?:om|qa)r|wst)\b/i;
+
+$q_check =~ /^$currency_qr$into_qr$currency_qr$/i
+
+$q_escape =~ s/(\%20)en(\%20)/$1in$2/i;
+</pre></code>
+<div style="padding-top:5px;" class="clu">
+<i>Examples</i>
+<ul>
+<li><a href="http://duckduckgo.com/?q=60mph+in+kph">60mph in kph</a>
+<li><a href="http://duckduckgo.com/?q=USD+5+in+CAD">USD 5 in CAD</a>
+</ul>
+</div>
+
+<div style="padding-top:30px;"></div>
+<b>Dates</b>
+<div style="padding-top:10px;" class="clu">
+Enter a date and get the day of week.
+</div>
+<div style="padding-top:10px;"></div>
+<code><pre>
+my ($ss,$mm,$hh,$day,$month,$year,$zone) = strptime($q);
+{
+    if ($day && length($day)==4) {
+        $year = $day;
+        $day = '';
+    }
+}
+if ($month && ($day || $year)) {
+  my $tmp_q = $q_escape;
+  if ($month && $day) {
+  if (!$year) {
+    my ($sec,$min,$hour,$mday,$mon,$year2,$wday,$yday,$isdst) =
+    localtime(time);
+    $year2 = $year2 + 1900;
+    $year2 += 1 if $month<$mon || ($month==$mon && $day<$mday);
+    $q_escape .= qq(+$year2);
+  }
+} elsif ($month && $year) {
+
+}
+</pre></code>
+<div style="padding-top:5px;" class="clu">
+<i>Examples</i>
+<ul>
+<li><a href="http://duckduckgo.com/?q=Jan+1+1990">Jan 1 1990</a>
+<li><a href="http://duckduckgo.com/?q=Dec 15">Dec 15</a>
+</ul>
+</div>
+
+
+<div style="padding-top:30px;"></div>
+<b>General Answers</b>
+<div style="padding-top:10px;" class="clu">
+Queries starting/ending with keywords WA answers well.
+</div>
+<div style="padding-top:10px;"></div>
+<code><pre>
+$query =~ /^(?:(?:number|height|volume|area|circumference|capital) of|mass|radius|density|distance|elevation|population|age|(?:birth|death)\s?(?:year|date)|weight|sun(?:rise|set)|calories|tides?)\s+.*$/i
+
+$query =~ /^.*\s+(?:mass|radius|density|distance|elevation|population|age|(?:birth|death)\s?(?:year|date)|weight|sun(?:rise|set)|calories|tides?)$/i
+
+$query =~ /\bhow many\b.*\b(?:in|on)\b/i
+</pre></code>
+<div style="padding-top:5px;" class="clu">
+<i>Examples</i>
+<ul>
+<li><a href="http://duckduckgo.com/?q=age+of+joan+rivers">age of joan rivers</a>
+<li><a href="http://duckduckgo.com/?q=moon+mass">moon mass</a>
+</ul>
+</div>
+
+
+<div style="padding-top:30px;"></div>
+<b>Holidays</b>
+<div style="padding-top:10px;" class="clu">
+Queries matching holiday names (using a lower case and punctuation free version of $query).
+</div>
+<div style="padding-top:10px;"></div>
+<code><pre>
+my %holidays = map { $_ => undef } (
+    'mlk day',
+    'mlk',
+    'martin luther king day',
+    'martin luther king',
+    'martin luther kings birthday',
+    'presidents day',
+    'presidents',
+    'washingtons birthday',
+    'memorial day',
+    'memorial',
+    'independence day',
+    'independence',
+    'labor day',
+    'labor',
+    'columbus day',
+    'columbus',
+    'veterans day',
+    'veterans',
+    'thanksgiving',
+    'fathers day',
+    'fathers',
+    'mothers day',
+    'mothers',
+    'inauguration day',
+    'inauguration',
+    'ash wednesday',
+    'shrove tuesday',
+    'groundhog day',
+    'groundhog',
+    'saint patricks day',
+    'saint patricks',
+    'easter',
+    'earth day',
+    'earth',
+    'arbor day',
+    'arbor',
+    'cinco de mayo',
+    'st patricks day',
+    'st patricks',
+    'flag day',
+    'flag',
+    'rosh hashanah',
+    'yom kippur',
+    'passover',
+    'halloween',
+    'election day',
+    'election',
+    'hanukkah',
+    'christmas',
+    'christmas day',
+);
+
+exists $holidays{$query}
+
+$q_internal =~ /^!?(?:date\s|day\s|\d{4}\s|\d{2}\s)+(?:of\s|)(.*)\??$/ || $q_internal =~ /^!?(?:(?:when|what) is |(?:how many |)days (?:to |till |until? |for |of )|)(.*?)(?: date| day| \d{4}| \d{2})*\??$/) && exists $holidays{$1}
+
+$tmp_q_escape =~ s/\%27//g;
+$tmp_q_escape =~ s/\b(\d{2})\b/my $a = $1;($a<20) ? ($a+=2000) : ($a+=1900)/e;
+</pre></code>
+<div style="padding-top:5px;" class="clu">
+<i>Examples</i>
+<ul>
+<li><a href="http://duckduckgo.com/?q=fathers+day+2011">fathers day 2011</a>
+<li><a href="http://duckduckgo.com/?q=election+day">election day</a>
+</ul>
+</div>
+
+<div style="padding-top:30px;"></div>
+<b>Location</b>
+<div style="padding-top:10px;" class="clu">
+Queries about weather.
+</div>
+<div style="padding-top:10px;"></div>
+<code><pre>
+my %location_results = map { $_ => undef } (
+    'time',
+    'current time',
+    'local time',
+    'weather',
+    'sunrise',
+    'sunset',
+    'tide',
+    'tides',
+    );
+
+exists $location_results{$q_check} && $q_check ne 'weather'
+</pre></code>
+<div style="padding-top:5px;" class="clu">
+<i>Examples</i>
+<ul>
+<li><a href="http://duckduckgo.com/?q=tides">tides</a>
+<li><a href="http://duckduckgo.com/?q=sunset">sunset</a>
+</ul>
+</div>
+
+<div style="padding-top:30px;"></div>
+<b>Math</b>
+<div style="padding-top:10px;" class="clu">
+Queries with complicated math (I do simple calcs myself).
+</div>
+<div style="padding-top:10px;"></div>
+<code><pre>
+$q_check =~ /^\d+\!$/ 
+
+$q_check =~ /^\(?[\d,]+\s?[a-z]+\s*[\^\-\*\(\)\+\/]\s*\d+/i
+
+($q_check =~ /^[xX\^\-\*\(\)\+\/\s\d\,]+$/ && $q !~ /^[\d,]+$/)
+
+($q =~ /(?:\d|\b(?:pi|[xX]|e|one|two|three|four|five|six|seven|eight|nine|ten)\b)/ && $q =~ /(?:\b(?:pi|sqrt|lim|sin|cos|tan|sec|csc|cot|arcsin|arccis|arctan|arccsc|sinh|mod|cosh|tanh|csch|arsinh|arccsch|ln|log|lg|exp|int|choose|integral|days|integrate|sum|derivative|times|divided by|plus|minus|prime|factori[zs]e|sq(?:uare) root)\b|\% of|=)/i)
+</pre></code>
+<div style="padding-top:5px;" class="clu">
+<i>Examples</i>
+<ul>
+<li><a href="http://duckduckgo.com/?q=9!">9!</a>
+<li><a href="http://duckduckgo.com/?q=arcsin(1)">arcsin(1)</a>
+</ul>
+</div>
+
+
+<div style="padding-top:30px;"></div>
+<b>Stocks</b>
+<div style="padding-top:10px;" class="clu">
+Ticker quotes.
+</div>
+<div style="padding-top:10px;"></div>
+<code><pre>
+exists $stocks{lc $query}
+</pre></code>
+<div style="padding-top:5px;" class="clu">
+<i>Examples</i>
+<ul>
+<li><a href="http://duckduckgo.com/?q=msft">msft</a>
+</ul>
+</div>
+
+<div style="padding-top:30px;"></div>
+<b>Unicode</b>
+<div style="padding-top:10px;" class="clu">
+Information about characters.
+</div>
+<div style="padding-top:10px;"></div>
+<code><pre>
+length($q)==1
+
+$q_check =~ /^U\+([\da-f]{4})$/i
+</pre></code>
+<div style="padding-top:5px;" class="clu">
+<i>Examples</i>
+<ul>
+<li><a href="http://duckduckgo.com/?q=%E0%A7%B3">char</a>
+</ul>
+</div>
+
+<div style="padding-top:30px;"></div>
+<b>Time</b>
+<div style="padding-top:10px;" class="clu">
+Queries about time.
+</div>
+<div style="padding-top:10px;"></div>
+<code><pre>
+$query eq 'time'
+
+$query =~ /^(?:current\s|what\s|)(?:(?:local\s?|)time|clock)\s(.*)$/i
+
+$query =~ /\s(?:current\s|what\s|)(?:(?:local\s?|)time|clock)$/i
+
+$query =~ /^(?:what is|what\'s|)\s*(?:today\'?s|)\s*date\s*(?:today|)$/i
+
+$query =~ /^\d{1,2}\:?\d{0,2}[ap]\.?m\.?(?:\s|\Z)/i
+
+$q_escape =~ s/clock/time/i;
+$q_escape .= '+time' if $q_escape !~ /time$/i;
+</pre></code>
+<div style="padding-top:5px;" class="clu">
+<i>Examples</i>
+<ul>
+<li><a href="http://duckduckgo.com/?q=time+in+philly">time in philly</a>
+<li><a href="http://duckduckgo.com/?q=boston+to+philly+time">boston to philly time</a>
+</ul>
+</div>
+
+<div style="padding-top:30px;"></div>
+<b>Notes</b>
+<div style="padding-top:5px;" class="clu">
+<ul>
+<li>You can <a href="http://duckduckgo.com/?q=regexp+/(.*%3F)+(.*%3F)+(.*)/+duck+duck+go">test regexp</a> using DuckDuckGo. Also note the <a href="http://www.perl.com/doc/manual/html/pod/perlre.html">perlre man page</a>.
+<li>Here's the license  (<a href="http://en.wikipedia.org/wiki/MIT_License">MIT</a>) for the above software:
+</ul>
+</div>
+<div style="padding-top:10px;"></div>
+<code><pre>
+ Copyright (c) 2010 Duck Duck Go, Inc.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+</pre></code>
+
+
+<div style="padding-top:30px;"></div>
+Here are some areas where I could use some help:
+<ul>
+<li>New categories (where WA <a href="http://www.wolframalpha.com/examples/">has useful info</a> in the search context).
+<li>False positives, i.e. reduce current regexp where appropriate.
+<li>False negatives, i.e. expand current regexp where appropriate.
+<li>Ideas on which pieces of info to show from WA and how to format them.
+</ul>
+<div style="padding-top:5px;"></div>
+If you think of anything, please <a href="https://duckduckgo.com/feedback.html">let me know</a>. 
+
+<div style="padding-top:30px;"></div>
+
+</div>
+</div>

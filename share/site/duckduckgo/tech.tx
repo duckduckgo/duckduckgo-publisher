@@ -1,0 +1,452 @@
+<style type="text/css">
+.zcl {
+  margin-top: 5px;
+}
+.zcli {
+  display: inline;
+  vertical-align: text-top;
+  height: 16px;
+  width: 16px;
+  margin-left: 10px;
+}
+
+#techbangs{
+    width:620px;
+    height:2075px;
+    overflow:hidden;
+    margin:auto;
+}
+
+#techbangs iframe {
+    width:745px;
+    height:2650px;
+    margin-top:-585px;   
+    margin-left:-65px;
+}
+</style>
+
+<div id="zero_click_header">Tech Goodies</div>
+
+<script type="text/JavaScript">
+function goodie(id) {
+  var val = d.getElementById(id);
+  if (val && val.value) {
+    d.x.q.value = val.value;
+    d.x.submit();
+  }
+}
+</script>
+
+<div style="margin-bottom:20px;"></div>
+<div style="background:#fef9cd;border:#e1d980 1px solid;padding:3px;" class="clu">For general goodies (non-tech), check out our <a href="/goodies.html">goodies page</a>.</div>
+<div style="clear:both;padding-bottom:30px;"></div>
+
+<div style="float:left; width: 280px; margin-right: 60px; margin-bottom: 40px;"> 
+
+<div class="small">
+<b>Calculations</b>
+<div style="margin-top: 2px;"></div>
+<input type="text" value="c/489E-4" id="constants">
+<input type="button" onclick="goodie('constants')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="cos(x) + sin(x)" id="calc">
+<input type="button" onclick="goodie('calc')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="integrate(2x^2)" id="calc2">
+<input type="button" onclick="goodie('calc2')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="lim(m^2+4m+4/5m^2)" id="calc3">
+<input type="button" onclick="goodie('calc3')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="is seven prime" id="calc4">
+<input type="button" onclick="goodie('calc4')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="factorize 39" id="calc5">
+<input type="button" onclick="goodie('calc5')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="multiples of 42" id="calc6">
+<input type="button" onclick="goodie('calc6')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="median 89.2 45.6 127.53" id="med">
+<input type="button" onclick="goodie('med')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/nogoodnickleft">@nogoodnickleft</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Average.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="mean 89.2 45.6 127.53" id="rms">
+<input type="button" onclick="goodie('rms')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="http://hunterlang.com/">hunterlang</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Average.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="chars this" id="chars">
+<input type="button" onclick="goodie('chars')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/MithrandirAgain">@MithrandirAgain</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Chars.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="sigfigs 31200.020" id="sf">
+<input type="button" onclick="goodie('sf')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="http://hunterlang.com/">hunterlang</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/SigFigs.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="%err 45.125 44.992" id="err">
+<input type="button" onclick="goodie('err')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="http://hunterlang.com/">hunterlang</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/PercentError.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="4 xor 8 xor 2" id="xor">
+<input type="button" onclick="goodie('xor')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/MithrandirAgain">@MithrandirAgain</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Xor.pm">code</a>)
+
+<div style="margin-top: 30px;"></div>
+<b>Computing Info</b>
+<div style="margin-top: 2px;"></div>
+<input type="text" value="alternative to notepad" id="alternTo">
+<input type="button" onclick="goodie('alternTo')" value="go"><br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com#!/mr__shu">@mr__shu</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/AlternativeTo.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="arch awesome" id="archPkg">
+<input type="button" onclick="goodie('archPkg')" value="go"><br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com#!/mr__shu">@mr__shu</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-fathead/tree/master/arch_pkgs">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="ip address" id="ip">
+<input type="button" onclick="goodie('ip')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="64.207.122.151" id="ip2">
+<input type="button" onclick="goodie('ip2')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="port 24" id="port">
+<input type="button" onclick="goodie('port')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/_gagan">@_gagan</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-fathead/tree/master/port_lookup">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="useragent" id="useragent">
+<input type="button" onclick="goodie('useragent')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="whois duckduckgo.com" id="whois">
+<input type="button" onclick="goodie('whois')" value="go">
+<br> &nbsp; via <a href="http://whoisxmlapi.com/">WhoisAPI</a>
+<div style="margin-top: 5px;"></div>
+<input type="text" value="is duckduckgo.com up" id="isitup">
+<input type="button" onclick="goodie('isitup')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/mr__shu">@mr__shu</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/share/spice/is_it_up/spice.js">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="#368798" id="color">
+<input type="button" onclick="goodie('color')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="rgb 173 216 230" id="colorcodes">
+<input type="button" onclick="goodie('colorcodes')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="hsl 194 0.53 0.79" id="colorcodes2">
+<input type="button" onclick="goodie('colorcodes2')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="hex color code for cyan" id="colorcodes3">
+<input type="button" onclick="goodie('colorcodes3')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/crazedpsyc">@crazedpsyc</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/ColorCodes.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="golden ratio 5:?" id="color2">
+<input type="button" onclick="goodie('color2')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/andrearonsen">@andrearonsen</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/GoldenRatio.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="aspect ratio 16:9 800:?" id="ratio">
+<input type="button" onclick="goodie('ratio')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/mr__shu">@mr__shu</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/AspectRatio.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="U+4034" id="unicode">
+<input type="button" onclick="goodie('unicode')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/nogoodnickleft">@nogoodnickleft</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Unicode.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="unicode `" id="unicode2">
+<input type="button" onclick="goodie('unicode2')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="&amp;#37972;" id="unicode3">
+<input type="button" onclick="goodie('unicode3')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/crazedpsyc">@crazedpsyc</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/HTMLEntities.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="unidecode &#21271;&#20144;" id="unicode4">
+<input type="button" onclick="goodie('unicode4')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/nogoodnickleft">@nogoodnickleft</a> (<a href="https://github.com
+/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Unidecode.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="iso639 spanish" id="iso639">
+<input type="button" onclick="goodie('iso639')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/tantalor">@tantalor</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/ISO639.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="default password Belkin f5d6130" id="router-passwords">
+<input type="button" onclick="goodie('router-passwords')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="http://dylansserver.com">Dylan Lloyd</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/RouterPasswords.pm">code</a>)
+
+<div style="margin-top: 30px;"></div>
+<b>Computing Tools</b>
+<div style="margin-top: 2px;"></div>
+<input type="text" value="idn Bücher.ch" id="IDN">
+<input type="button" onclick="goodie('IDN')" value="go"><br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="http://7bits.nl/">habbie</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/IDN.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="color(12,120,15)" id="wa_color">
+<input type="button" onclick="goodie('wa_color')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="expand http://bit.ly/a" id="expand">
+<input type="button" onclick="goodie('expand')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="http://bit.ly/LiyPH8" id="exurl">
+<input type="button" onclick="goodie('exurl')" value="go"><br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!adman_x">@adman_x</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/ExpandURL.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="password 15 strong" id="pw">
+<input type="button" onclick="goodie('pw')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="passphrase 4 words" id="pw2">
+<input type="button" onclick="goodie('pw2')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="http://hunterlang.com/">hunterlang</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Passphrase.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="qrcode http://ddg.gg/" id="qr">
+<input type="button" onclick="goodie('qr')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://github.com/mstratman">mstratman</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/QRCode.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="regexp /(.*)/ ddg" id="regexp">
+<input type="button" onclick="goodie('regexp')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="uuid" id="uuid">
+<input type="button" onclick="goodie('uuid')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="guid" id="guid">
+<input type="button" onclick="goodie('guid')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/raudssus">@raudssus</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/GUID.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="epoch" id="epoch">
+<input type="button" onclick="goodie('epoch')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="3/15/2011 3:38:34PM EDT in epoch" id="epoch2">
+<input type="button" onclick="goodie('epoch2')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="12343435 time" id="epoch3">
+<input type="button" onclick="goodie('epoch3')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/codejoust">@codejoust</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/UnixTime.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="http://wolframalpha.com/" id="url">
+<input type="button" onclick="goodie('url')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="crontab 0 0 * * * /usr/bin/nice -n 15 /usr/local/ddg/sysadmin/log/logrotate_ubuntu.sh" id="parsecron">
+<input type="button" onclick="goodie('parsecron')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://github.com/IndelibleStamp">IndelibleStamp</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/ParseCron.pm">code</a>)
+
+<div style="margin-top: 30px;"></div>
+<b>Conversions</b>
+<div style="margin-top: 5px;"></div>
+<input type="text" value="6GB/700KB/s in min" id="convert">
+<input type="button" onclick="goodie('convert')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="10 px to em" id="convert2">
+<input type="button" onclick="goodie('convert2')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/yodatravis">@yodatravis</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/EmToPx.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="255 in hex" id="convert3">
+<input type="button" onclick="goodie('convert3')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="255 in base 16" id="convert4">
+<input type="button" onclick="goodie('convert4')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="42 in base 2" id="convert5">
+<input type="button" onclick="goodie('convert5')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/nogoodnickleft">@nogoodnickleft</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Base.pm">code</a>)
+
+
+<div style="margin-top: 30px;"></div>
+<b>Formulas</b>
+<div style="margin-top: 5px;"></div>
+<input type="text" value="volume of a sphere" id="volume">
+<input type="button" onclick="goodie('volume')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="area of a trapezoid" id="area">
+<input type="button" onclick="goodie('area')" value="go">
+
+<div style="margin-top: 30px;"></div>
+<b>Forums</b>
+<div style="margin-top: 2px;"></div>
+<input type="text" value="/r/duckduckgo" id="redditsub">
+<input type="button" onclick="goodie('redditsub')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="reddit duckduckgo" id="reddit">
+<input type="button" onclick="goodie('reddit')" value="go"><br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="http://dylansserver.com">Dylan Lloyd</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/RedditSearch.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="hn postgresql" id="hackernews">
+<input type="button" onclick="goodie('hackernews')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!adman_x">@adman_x</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/share/spice/hacker_news/spice.js">code</a>)
+
+<div style="margin-top: 30px;"></div>
+<b>Physical Properties</b>
+<div style="margin-top: 5px;"></div>
+<input type="text" value="SiO10" id="chemical">
+<input type="button" onclick="goodie('chemical')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="density of the earth" id="density">
+<input type="button" onclick="goodie('density')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="mass of jupiter" id="mass">
+<input type="button" onclick="goodie('mass')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="gravitational constant" id="constant">
+<input type="button" onclick="goodie('constant')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="circumference of the earth" id="circumference">
+<input type="button" onclick="goodie('circumference')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="radius of the moon" id="radius">
+<input type="button" onclick="goodie('radius')" value="go">
+
+<div style="margin-top: 30px;"></div>
+<b>Programming</b>
+<div style="margin-top: 2px;"></div>
+<input type="text" value="hayoo add" id="hayoo">
+<input type="button" onclick="goodie('hayoo')" value="go"><br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://github.com/headprogrammingczar">headprogrammingczar</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/Hayoo.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="github duckduckgo" id="Github">
+<input type="button" onclick="goodie('Github')" value="go"><br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="http://dylansserver.com">Dylan Lloyd</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/Github.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="perl jobs in san francisco" id="GithubJobs">
+<input type="button" onclick="goodie('GithubJobs')" value="go"><br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://github.com/jagtalon">jagtalon</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/GithubJobs.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="cobol sin" id="searchcode">
+<input type="button" onclick="goodie('searchcode')" value="go"><br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/boyter">@boyter</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/SearchCode.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="hello world in Perl" id="hello_world">
+<input type="button" onclick="goodie('hello_world')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/jperla">@jperla</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-fathead/tree/master/hello_world">code</a>)
+
+<div style="margin-top: 30px;"></div>
+<b>Transformations</b>
+<div style="margin-top: 5px;"></div>
+<input type="text" value="md5 this" id="md5">
+<input type="button" onclick="goodie('md5')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="base64 this" id="base64">
+<input type="button" onclick="goodie('base64')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/crazedpsyc">@crazedpsyc</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Base64.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="that to binary" id="binary">
+<input type="button" onclick="goodie('binary')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="http://hunterlang.com/">hunterlang</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Binary.pm">code</a>)
+<input type="text" value="Ox1e to binary" id="binary2">
+<input type="button" onclick="goodie('binary2')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/ogudacity">@ogudacity</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Binary.pm">code</a>)
+<input type="text" value="01110100011010000110000101110100 to ascii" id="ascii">
+<input type="button" onclick="goodie('ascii')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://github.com/margolisj">margolisj</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Ascii.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="sha this" id="sha">
+<input type="button" onclick="goodie('sha')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="urlencode /this" id="encode">
+<input type="button" onclick="goodie('encode')" value="go">
+<div style="margin-top: 5px;"></div>
+<input type="text" value="rot13 this" id="rot13">
+<input type="button" onclick="goodie('rot13')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://github.com/unlisted">unlisted</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Rot13.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="reverse this phrase" id="reverse">
+<input type="button" onclick="goodie('reverse')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/ironclad">@ironclad</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Reverse.pm">code</a>)
+<div style="margin-top: 5px;"></div>
+<input type="text" value="morse SOS" id="morse">
+<input type="button" onclick="goodie('morse')" value="go">
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/und3f">@und3f</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Morse.pm">code</a>)
+
+</div>
+</div>
+
+<div style="float:left; width: 280px; margin-right: 0px; margin-bottom: 40px;">
+
+<div class="small">
+<b>Cheat Sheets</b>
+<ul>
+<li><a href="/?q=color+codes">color codes</a>
+<li><a href="/?q=url+escape">url escape</a>
+<li><a href="/?q=ascii+table">ascii table</a>
+<li><a href="/?q=html+chars">html chars</a>
+<li><a href="/?q=lorem+ipsum">lorem ipsum</a>
+<li><a href="/?q=public+dns">public dns</a>
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/warthurton">@warthurton</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/PublicDNS.pm">code</a>)
+<li><a href="/?q=private+ips">private ips</a>
+<br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="https://twitter.com/#!/warthurton">@warthurton</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/PrivateNetwork.pm">code</a>)
+</ul>
+</div>
+
+<p style="margin-top: 30px;">
+<div class="small">
+<b>Software Zero-click Info Sources</b>
+<div class="zcl"><img src="/i/github.com.ico" class="zcli"> Github - <a href="/?q=html5+boilerplate">html5 boilerplate</a></div>
+<div class="zcl"><img src="/i/alternativeto.net.ico" class="zcli"> AlternativeTo - <a href="/?q=alternative+to+firefox">alternative to firefox</a></div>
+<div class="zcl"><img src="/i/freshmeat.net.ico" class="zcli"> Freshmeat - <a href="/?q=gluid">gluid</a></div>
+<div class="zcl"><img src="/i/launchpad.net.ico" class="zcli"> Launchpad - <a href="/?q=partalog">partalog</a></div>
+<div class="zcl"><img src="/i/sourceforge.net.ico" class="zcli"> SourceForge - <a href="/?q=mdsoutlier">mdsoutlier</a></div>
+</div>
+
+<p style="margin-top: 30px;">
+<div class="small">
+<b>Reference Zero-click Info Sources</b>
+<div class="zcl"><img src="/i/httpd.apache.org.ico" class="zcli"> Apache - <a href="/?q=enablemmap">enablemmap</a></div>
+<div class="zcl"><img src="/i/clojure.github.com.ico" class="zcli"> Clojure - <a href="/?q=delete-file">delete-file</a></div>
+<div class="zcl"><img src="/i/www.cobol.com.ico" class="zcli"> Cobol - <a href="/?q=cobol+sin">cobol sin</a></div>
+<div class="zcl"><img src="/i/developer.mozilla.org.ico" class="zcli"> CSS - <a href="/?q=background-attachment">background-attachment</a></div>
+<div class="zcl"><img src="/i/www.cs.princeton.edu.ico" class="zcli"> Emacs - <a href="/?q=emacs+c-q">emacs c-q</a></div>
+<div class="zci"><img src="/i/www.fossil-scm.org.ico" class="zcli"> Fossil - <a href="/?q=fossil+commit">Fossil commit</a></div>
+<div class="zcl"><img src="/i/en.wikipedia.org.ico" class="zcli"> FTP - <a href="/?q=ftp+200">ftp 200</a></div>
+<div class="zcl"><img src="/i/www.kernel.org.ico" class="zcli"> Git - <a href="/?q=git-stash">git-stash</a></div>
+<div class="zcl"><img src="/i/html5doctor.com.ico" class="zcli"> HTML - <a href="/?q=html+abbr">html abbr</a> | by <a href="https://twitter.com/#!/lsmagalhaes">@lsmagalhaes</a></div>
+<div class="zcl"><img src="/i/en.wikipedia.org.ico" class="zcli"> HTTP - <a href="/?q=http+304">http 304</a></div>
+<div class="zcl"><img src="/i/msdn.microsoft.com/en-us/library.ico" class="zcli"> HRESULT - <a href="/?q=hresult+com">HRESULT COM</a></div>
+<div class="zcl"><img src="/i/developer.apple.com.ico" class="zcli"> iOS - <a href="/?q=resolveInstanceMethod+ios">resolveInstanceMethod ios</a></div>
+<div class="zcl"><img src="/i/download.oracle.com.ico" class="zcli"> Java - <a href="/?q=setPatternSeparator">setPatternSeparator</a></div>
+<div class="zcl"><img src="/i/api.jquery.com.ico" class="zcli"> jQuery - <a href="/?q=jQuery.merge()">jQuery.merge()</a></div>
+<div class="zcl"><img src="/i/sysinf0.klabs.be.ico" class="zcli"> Linux - <a href="/?q=ldconfig">ldconfig</a></div>
+<div class="zcl"><img src="/i/www.selenic.com.ico" class="zcli"> Mercurial - <a href="/?q=hg+add">hg add</a></div>
+<div class="zcl"><img src="/i/dev.mysql.com.ico" class="zcli"> MySQL - <a href="/?q=CONVERT_TZ">CONVERT_TZ</a></div>
+<div class="zcl"><img src="/i/nodejs.org.ico" class="zcli"> Node.js - <a href="/?q=file_Modules">file_Modules</a></div>
+<div class="zcl"><img src="/i/msdn.microsoft.com/en-us/library.ico" class="zcli"> NT Status - <a href="/?q=nt+status+0x00000000">nt status 0x00000000</a></div>
+<div class="zcl"><img src="/i/developer.apple.com.ico" class="zcli"> OSX - <a href="/?q=arrayWithContentsOfURL+osx">arrayWithContentsOfURL osx</a></div>
+<div class="zcl"><img src="/i/perldoc.perl.org.ico" class="zcli"> Perl - <a href="/?q=perl+seek">perl seek</a></div>
+<div class="zcl"><img src="/i/www.searchforphp.com.ico" class="zcli"> PHP - <a href="/?q=ssh2_shell">ssh2_shell</a></div>
+<div class="zcl"><img src="/i/docs.python.org.ico" class="zcli"> Python - <a href="/?q=guess_type">guess_type</a></div>
+<div class="zcl"><img src="/i/pypi.python.org.ico" class="zcli"> PyPI - <a href="/?q=pypi+twisted">pypi twisted</a> | by <a href="https://github.com/ezgraphs">ezgraphs</a></div>
+<div class="zcl"><img src="/i/redis.io.ico" class="zcli"> Redis - <a href="/?q=redis+sort">redis sort</a> | by <a href="https://twitter.com/djworth">@djworth</a></div>
+<div class="zcl"><img src="/i/www.rfc-editor.org.ico" class="zcli"> RFC - <a href="/?q=rfc+10">rfc 10</a> | by <a href="https://github.com/jkg">jkg</a></div>
+<div class="zcl"><img src="/i/www.smarty.netico" class="zcli"> Smarty - <a href="/?q=smarty+php">smarty php</a></div>
+<div class="zcl"><img src="/i/svnbook.red-bean.com.ico" class="zcli"> Svn - <a href="/?q=svn+commit">svn commit</a></div>
+<div class="zcl"><img src="/i/www.tcl.tk.ico" class="zcli"> Tcl/Tk - <a href="/?q=tcl+wish">tcl wish</a> | by <a href="https://twitter.com/#!/anoved">@anoved</a></div>
+<div class="zcl"><img src="/i/documentcloud.github.com/underscore/.ico" class="zcli"> Underscore.js - <a href="/?q=underscore.js+bind">underscore.js bind</a></div>
+<div class="zcl"><img src="/i/www.vb6.us.ico" class="zcli"> VB6 - <a href="/?q=vb6+date">vb6 date</a></div>
+<div class="zcl"><img src="/i/technet.microsoft.com.ico" class="zcli"> Windows - <a href="/?q=freedisk">freedisk</a></div>
+<div class="zcl"><img src="/i/xmpp.org.ico" class="zcli"> XEP - <a href="/?q=xep+0011">xep 0011</a> | by <a href="https://twitter.com/#!/metajack">@metajack</a></div>
+<br>From <a href="http://searchco.de">Search[co.de]</a> and <a href="https://github.com/duckduckgo/zeroclickinfo-fathead">Fathead</a>
+</div>
+
+<p style="margin-top: 30px;">
+<div class="small">
+<b>Q/A Zero-click Info Sources</b>
+<div class="zcl"><img src="/i/www.stackoverflow.com.ico" class="zcli"> StackOverflow - <a href="/?q=nginx+apache">nginx apache</a></div>
+<div class="zcl"><img src="/i/www.serverfault.com.ico" class="zcli"> ServerFault - <a href="/?q=backup+exchange+2007">backup exchange 2007</a></div>
+<div class="zcl"><img src="/i/www.superuser.com.ico" class="zcli"> SuperUser - <a href="/?q=pdf+viewer+windows">pdf viewer windows</a></div>
+<div class="zcl"><img src="/i/webapps.stackexchange.com.ico" class="zcli"> Web Apps - <a href="/?q=gmail+auto-forward">gmail auto-forward</a></div>
+<div class="zcl"><img src="/i/www.askubuntu.com.ico" class="zcli"> Ask Ubuntu - <a href="/?q=8.04+LTS+10.04+LTS">8.04 LTS 10.04 LTS</a></div>
+<div class="zcl"><img src="/i/math.stackexchange.com.ico" class="zcli"> Math SE - <a href="/?q=different+kinds+infinities">different kinds infinities</a></div>
+<!--<div class="zcl"><img src="/i/programmers.stackexchange.com.ico" class="zcli"> Programmers SE - <a href="/?q=programming+joke">programming joke</a></div>//-->
+<!--<div class="zcl"><img src="/i/gaming.stackexchange.com.ico" class="zcli"> Gaming SE - <a href="/?q=tower+defense+PC">tower defense PC</a></div>//-->
+<div class="zcl"><img src="/i/tex.stackexchange.com.ico" class="zcli"> TeX - <a href="/?q=macros+LyX">macros Lyx</a></div>
+<div class="zcl"><img src="/i/webmasters.stackexchange.com.ico" class="zcli"> Webmasters SE - <a href="/?q=looks+various+browsers">looks various browsers</a></div>
+<!--<div class="zcl"><img src="/i/gamedev.stackexchange.com.ico" class="zcli"> GameDev SE - <a href="/?q=2D+graphics+engines">2D graphics engines</a></div>//-->
+<div class="zcl"><img src="/i/cstheory.stackexchange.com.ico" class="zcli"> CS Theory SE - <a href="/?q=generalizing+FFT">generalizing FFT</a></div>
+<div class="zcl"><img src="/i/stats.stackexchange.com.ico" class="zcli"> Cross Validated - <a href="/?q=ANOVA+binary">ANOVA binary</a></div>
+<div class="zcl"><img src="/i/android.stackexchange.com.ico" class="zcli"> Android SE - <a href="/?q=name+android+device">name android device</a></div>
+<div class="zcl"><img src="/i/apple.stackexchange.com.ico" class="zcli"> Ask Different - <a href="/?q=root+password+os+x">root password os x</a></div>
+<!--<div class="zcl"><img src="/i/electronics.stackexchange.com.ico" class="zcli"> Electronics Design SE - <a href="/?q=types+of+solder">types of solder</a></div>//-->
+<div class="zcl"><img src="/i/gis.stackexchange.com.ico" class="zcli"> GIS SE - <a href="/?q=open+source+gis">open source gis</a></div>
+<div class="zcl"><img src="/i/unix.stackexchange.com.ico" class="zcli"> Unix & Linux SE - <a href="/?q=rc.local+shutdown">rc.local shutdown</a></div>
+<div class="zcl"><img src="/i/wordpress.stackexchange.com.ico" class="zcli"> WordPress SE - <a href="/?q=wordpress+theme+agpl">wordpress theme agpl</a></div>
+<br>From <a href="http://stackexchange.com">StackExchange</a>
+</div>
+
+</div>
+
+<br style="clear:both"/> 
+<div class="small">
+<b>!bang Syntax</b>
+
+<p style="margin-top:5px;">
+<input type="text" value="!github ruby" id="github">
+<input type="button" onclick="goodie('github')" value="go">
+
+</div>
+<br style="clear:both"/> 
+<div style="background-color: #fafafa; text-align: left;margin-top:20px;padding-bottom:10px;">
+<div style="border-bottom: 1px dotted #ccc;margin-bottom:10px;"></div>
+&nbsp; If you have an idea for something new, please <a href="https://duckduckgo.com/feedback.html">suggest it</a> or <a href="http://duckduckhack.com/">go for it</a>!
+</div>

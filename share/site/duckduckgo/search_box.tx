@@ -1,0 +1,131 @@
+<style type="text/css">
+pre {
+  background-color:#FAFAFA;
+  font-family:Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+  padding:10px;
+  word-wrap: break-word;
+  font-size: 10pt;
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+}
+</style>
+
+
+<div id="zero_click_header">Search Box</div>
+
+
+<div style="margin-bottom:30px;"></div>
+Add a DuckDuckGo search box to your site! 
+
+<div style="margin-bottom:15px;"></div>
+One of many ways to help <a href="/spread.html">spread DuckDuckGo</a>.
+
+<div style="margin-bottom:15px;"></div>
+Feel free to adjust the settings below. Then, just copy and paste the code into your website!
+
+<div style="margin-bottom:30px;"></div>
+<i>Regular search box</i>
+<div style="margin-bottom:10px;"></div>
+<iframe id="code_frame" src="/search.html" style="overflow:hidden;margin:0;padding:0;width:550px;height:39px;" frameborder="0"></iframe>
+<pre id="code">
+&lt;iframe src="http://duckduckgo.com/search.html" style="overflow:hidden;margin:0;padding:0;width:550px;height:60px;" frameborder="0"&gt;&lt;/iframe&gt;
+</pre>
+<script type="text/javascript">
+new_code_width = '';
+new_code_duck = '';
+new_code_spread = '';
+new_code_prefill = 'Search DuckDuckGo';
+new_code_ssearch = '';
+new_code_bgcolor = '';
+new_code_focus = '';
+function new_code() {
+  var code,str,params,height;
+
+  params = '';
+  if (new_code_width) params += '&width=' + new_code_width;
+  if (new_code_duck) params += '&duck=' + new_code_duck;
+  if (new_code_spread) params += '&t=' + new_code_spread;
+  if (new_code_ssearch) params += '&site=' + new_code_ssearch;
+  if (new_code_prefill) params += '&prefill=' + new_code_prefill;
+  if (new_code_bgcolor) params += '&bgcolor=' + new_code_bgcolor;
+  if (new_code_focus) params += '&focus=' + new_code_focus;
+
+  if (params) params = '?' + params.substring(1,params.length);
+
+  height = '40px';
+  if (new_code_duck && new_code_duck=='yes') height = '60px';
+
+  width = 398;
+  if (new_code_width) width=parseInt(new_code_width)+48;
+  if (new_code_duck=='yes') width+=75;
+  else if (new_code_duck=='small') width+=34;
+
+  str = '&lt;iframe src=\"http://duckduckgo.com/search.html';
+  if (params) str += params;
+  str += '\" style=\"overflow:hidden;margin:0;padding:0;';
+  str += 'width:'+width+'px;height:'+height+';\" frameborder=\"0\"&gt;&lt;/iframe&gt;';
+  code = d.getElementById("code");
+  code.innerHTML = str;
+
+  code = d.getElementById("code_frame");
+  code.src = '/search.html' + params;
+  YAHOO.util.Dom.setStyle(code,'height',height); 
+}
+new_code();
+</script>
+<span class="clu">
+<ul>
+<li>Width: <input type="text" style="width:40px;" onkeyup="new_code_width=this.value;new_code();">px (The example above uses 398 pixels)
+<div style="margin-bottom:7px;"></div>
+<li>Duck logo: 
+
+<input type="radio" name="duck" checked onchange="if (this.checked) new_code_duck=''; else new_code_duck='';new_code();"> Off
+&nbsp; <input type="radio" name="duck" onchange="if (this.checked) new_code_duck='yes'; else new_code_duck='';new_code();"> On
+<!--&nbsp; <input type="radio" name="duck" onchange="if (this.checked) new_code_duck='small'; else new_code_duck='';new_code();"> Small//-->
+
+<div style="margin-bottom:7px;"></div>
+<li>Background Color: #<input type="text" style="width:60px;" onkeyup="new_code_bgcolor=this.value;new_code();"> ex: #000000 (Color Cheet Sheet <a href="https://duckduckgo.com/?q=color+codes">here</a>)
+
+<!--
+<div style="margin-bottom:7px;"></div>
+<li>Spread page name: <input type="text" style="width:100px;" onkeyup="new_code_spread=this.value;new_code();">
+//-->
+
+<div style="margin-bottom:7px;"></div>
+<li>Site search: <input type="text" style="width:200px;" onkeyup="new_code_ssearch=this.value;new_code();"> ex: yourwebsite.com
+<div style="margin-bottom:7px;"></div>
+<li>Prefill: <input type="text" style="width:200px;" onkeyup="new_code_prefill=this.value;new_code();" value="Search DuckDuckGo"> ex: Search DuckDuckGo
+<div style="margin-bottom:7px;"></div>
+<li>Autofocus: 
+<input type="radio" name="focus" checked onchange="if (this.checked) new_code_focus=''; else new_code_focus='';new_code();"> Off
+&nbsp; <input type="radio" name="focus" onchange="if (this.checked) new_code_focus='yes'; else new_code_focus='';new_code();"> On (If On, the cursor will automatically be in the search box when the page loads)
+<div style="margin-bottom:7px;"></div>                                        
+<li>You can also use the <a href="/params.html">URL params</a> for DDG settings
+</ul>
+</span>
+
+<div style="margin-bottom:45px;"></div>
+<i>Banner version</i>
+<div style="margin-bottom:5px;"></div>
+<div style="border:1px solid #000;width:250px;">
+<div style="background-color:#000;border:2px solid #FFF;padding:5px;text-align:center;">
+<img src="http://duckduckgo.com/nduck.v106.small.png" alt="DuckDuckGo logo"/> 
+<div style="color:#fff;font-size:12px;padding:5px;">DuckDuckGo is a search engine that protects privacy and has lots of features.</div> 
+<form action="http://duckduckgo.com/"> 
+<input type="text" name="q" style="width:160px;border:1px solid #666;background-color:#000;color:#fff;padding:1px;border-radius:4px;font-size:14px;"/> 
+<input type="submit" style="background-color:#000;color:#fff;font-size:12px;padding:2px;" value="Search">
+</form> 
+</div>
+</div>
+<pre>
+&lt;div style="margin-bottom:5px;"&gt;&lt;/div&gt;&lt;div style="border:1px solid #000;width:250px;"&gt;&lt;div style="background-color:#000;border:2px solid #FFF;padding:5px;text-align:center;"&gt;&lt;img src="http://tmbg.duckduckgo.com/nduck.v106.small.png" alt="DuckDuckGo logo"/&gt;&lt;div style="color:#fff;font-size:12px;padding:5px;"&gt;DuckDuckGo is a search engine that protects privacy and has lots of features.&lt;/div&gt;&lt;form action="http://duckduckgo.com/"&gt;&lt;input type="text" name="q" style="width:160px;border:1px solid #666;background-color:#000;color:#fff;padding:1px;border-radius:4px;font-size:14px;"/&gt;&lt;input type="submit" style="background-color:#000;color:#fff;font-size:12px;padding:2px;" value="Search"&gt;&lt;input type="hidden" name="t" value=""/&gt;&lt;/form&gt;&lt;/div&gt;&lt;/div&gt;
+</pre>
+<span class="clu">
+<ul>
+<!--<li>To track for spread page add your name where it says value=""///-->
+<li>Modify message (or anything) to fit your audience
+<li>Originally made by <a href="http://twitter.com/#!/blaxpirit">@blaxpirit</a>
+</ul>
+</span>

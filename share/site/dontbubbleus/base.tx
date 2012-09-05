@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]> <html lang="<: $f.locale :>" class="no-js iem7"> <![endif]-->
+<!--[if lt IE 7]> <html class="ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="<: $f.locale :>"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 lt-ie10 lt-ie9 lt-ie8" lang="<: $f.locale :>"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 lt-ie10 lt-ie9" lang="<: $f.locale :>"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9 lt-ie10" lang="<: $f.locale :>"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="<: $f.locale :>"><!--<![endif]-->
+
+  <head>
+	<: include "head.tx" :>
+  </head>
+  <body id="pg-<: $f.filebase :>">
+  
+	<div id="wrapper">
+	
+	  <: include "header.tx" :>
+	  
+	  <div class="content-wrap">
+	    <: include $maintemplate :>
+		<: include "share_footer.tx" :>
+	  </div>
+	  
+	</div>
+	
+    <: include "share_modal.tx" :>
+	<script src="js/plugins.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	
+  </body>
+</html>

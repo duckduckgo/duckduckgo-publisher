@@ -1,0 +1,262 @@
+<style type="text/css">
+pre {
+  background-color:#EEE;
+  font-family:Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+  padding:10px;
+  word-wrap: break-word;
+  font-size: 10pt;
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  margin-top:5px;
+}
+</style>
+
+<div id="zero_click_header">Zero-click Info API</div>
+
+<div style="margin-bottom:30px;"></div>
+
+Our Zero-click Info API gives you free access to much of our  
+<a href="http://duckduckgo.com/?q=valley+forge+national+park">topic summaries</a> 
+(<a href="http://api.duckduckgo.com/?q=valley+forge+national+park&format=json&pretty=1">API example</a>), 
+<a href="http://duckduckgo.com/?q=simpsons+characters">categories</a>
+(<a href="http://api.duckduckgo.com/?q=simpsons+characters&format=json&pretty=1">API example</a>), 
+<a href="http://duckduckgo.com/?q=apple">disambiguation</a>  
+(<a href="http://api.duckduckgo.com/?q=apple&format=json&pretty=1">API example</a>),  
+<a href="/bang.html">!bang redirects</a>
+(<a href="http://api.duckduckgo.com/?q=!imdb+rushmore&format=json&pretty=1&no_redirect=1">API example</a>),
+<a href="http://duckduckgo.com/?q=define+ostensibly">definitions</a> 
+(<a href="http://api.duckduckgo.com/?q=define+ostensibly&format=json&pretty=1">API example</a>),
+and 
+<a href="http://duckduckgo.com/?q=24*60*60">more</a>  
+(<a href="http://api.duckduckgo.com/?q=24*60*60&format=json&pretty=1">API example</a>).
+ 
+
+<p style="margin-top: 25px;">
+This information comes from a variety of sources, including <a href="http://wikipedia.org">Wikipedia</a>, <a href="http://wikia.com/">Wikia</a>, <a href="http://crunchbase.com">Crunchbase</a>, <a href="http://github.com">GitHub</a>, <a href="http://wikihow.com">WikiHow</a>, <a href="http://thefreedictionary.com">The Free Dictionary</a> and dozens more.
+</p>
+
+<p style="margin-top: 25px;">
+  This API serves <a href="/traffic.html">over 5,000,000 queries a day</a> for a variety of uses, e.g.:
+</p>
+<ul>
+<li>Defines people, places, things, words and concepts.
+<li>Provides direct links to other services (via <a href="/bang.html">!bang syntax</a>).
+<li>Lists related topics.
+<li>Gives official sites when available.
+</ul>
+
+
+<p style="margin-top: 25px;">
+Some consumers of this API:
+</p>
+
+<p style="margin-top: 15px;">
+<table>
+<tr>
+<td valign="top" class="small" align="center">
+<a href="/tools.html"><img src="/tools/ios.png"></a>
+<a href="/tools.html">Our Apps</a>
+</td>
+<td valign="top" class="small" style="padding-left: 30px;" align="center">
+<a href="http://itunes.apple.com/app/cyberspace/id403114491?mt=8"><img src="/tools/cyberspace.png"></a>
+<a href="http://itunes.apple.com/app/cyberspace/id403114491?mt=8">Cyberspace</a>
+</td>
+<td valign="top" class="small" style="padding-left: 30px;" align="center">
+<a href="https://addons.mozilla.org/en-US/firefox/addon/9825/"><img src="/tools/fastestfox.png"></a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/9825/">FastestFox</a>
+</td>
+<td valign="top" class="small" style="padding-left: 30px;">
+<a href="http://blekko.com/"><img src="/tools/blekko.png"></a>
+</td>
+</tr>
+</table>
+</p>
+<p style="margin-top: 25px;">
+To consume it yourself, you can use one of the language libraries listed below or simply add '&format=json' (or xml if you have a death wish) onto any query URL in the api subdomain, e.g.
+<br><a href="http://api.duckduckgo.com/?q=DuckDuckGo&format=xml&pretty=1">http://api.duckduckgo.com/?q=DuckDuckGo&format=xml</a>
+</p>
+
+<p style="margin-top: 25px;">
+The only requirement is link attribution in each place you use the info for both us and any underlying source. Our goal is to get more people using DuckDuckGo, so keep that in mind. Also, please use a descriptive useragent.
+
+</p>
+
+<p style="margin-top: 25px;">
+Here are the return fields:
+<pre>
+Abstract: topic summary (can contain HTML, e.g. italics)
+AbstractText: topic summary (with no HTML)
+AbstractSource: name of Abstract source
+AbstractURL: deep link to expanded topic page in AbstractSource
+Image: link to image that goes with Abstract
+Heading: name of topic that goes with Abstract
+
+Answer: instant answer
+AnswerType: type of Answer, e.g. calc, color, digest, info, ip, iploc, phone, pw, rand, regexp, unicode, upc, or zip (see <a href="http://duckduckgo.com/goodies.html">goodies</a> & <a href="http://duckduckgo.com/tech.html">tech</a> pages for examples).
+
+Definition: dictionary definition (may differ from Abstract)
+DefinitionSource: name of Definition source
+DefinitionURL: deep link to expanded definition page in DefinitionSource
+
+RelatedTopics: array of internal links to related topics associated with Abstract
+  Result: HTML link(s) to related topic(s)
+  FirstURL: first URL in Result
+  Icon: icon associated with related topic(s)
+    URL: URL of icon
+    Height: height of icon (px)
+    Width: width of icon (px)
+  Text: text from first URL
+
+Results: array of external links associated with Abstract
+  Result: HTML link(s) to external site(s)
+  FirstURL: first URL in Result
+  Icon: icon associated with FirstURL
+    URL: URL of icon
+    Height: height of icon (px)
+    Width: width of icon (px)
+  Text: text from FirstURL
+
+Type: response category, i.e. A (article), D (disambiguation), C (category), N (name), E (exclusive), or nothing.
+
+Redirect: !bang redirect URL
+</pre>
+
+</p>
+
+<p style="margin-top: 20px;">
+Here are all the parameters:
+<pre>
+q: query
+
+
+format: output format (json or xml)
+
+If format=='json', you can also pass:
+
+callback: function to callback (JSONP format)
+pretty: 1 to make JSON look pretty (like JSONView for <a href="https://chrome.google.com/extensions/detail/chklaanhfefbnpoihckbnefhakgolnmc">Chrome</a>/<a href="https://addons.mozilla.org/en-US/firefox/addon/10869/">Firefox</a>)
+
+
+no_redirect: 1 to skip HTTP redirects (for !bang commands).
+
+
+no_html: 1 to remove HTML from text, e.g. bold and italics.
+
+
+skip_disambig: 1 to skip disambiguation (D) Type.
+</pre>
+
+</p>
+<p style="margin-top: 35px;">
+<b>Notes</b>
+<ul>
+<li class="small">As this is a Zero-click Info API, most deep queries (non topic names) will be blank.
+<pre>
+{
+Abstract: ""
+AbstractText: ""
+AbstractSource: ""
+AbstractURL: ""
+Image: ""
+Heading: ""
+Answer: ""
+Redirect: ""
+AnswerType: ""
+Definition: ""
+DefinitionSource: ""
+DefinitionURL: ""
+RelatedTopics: [ ]
+Results: [ ]
+Type: ""
+}
+</pre>
+</li>
+
+</p>
+<!--
+<p style="margin-top: 5px;">
+<li class="small">If there is no icon for a given Topic or Result, Icon will be a blank hash, i.e. {}, instead of a hash with every sub-field being an empty string. 
+</p>
+//-->
+
+
+<p style="margin-top: 5px;">
+<li class="small">Icons, i.e. the underlying images, may be greater than their specified Width/Height. You should explicitly set them to the specified measurements (if provided).
+</p>
+
+<p style="margin-top: 5px;">
+<li class="small">For disambiguation pages (Type=='D'), RelatedTopics can be grouped into sections. In that case, RelatedTopics is an array of hashes. Each hash has a Name key and a Topics array matching the above RelatedTopics description. If you want to avoid this case altogether, use the disambiguation skip parameter (skip_disambig).</li>
+</p>
+
+<p style="margin-top: 5px;">
+<li class="small">For <a href="/bang.html">!bang commands</a>, the redirect will happen at the HTTP level (since that is fastest), but it will also be returned in the content (for parsing). If you don't want the redirect to happen in the HTTP header, use the no_redirect flag.</li>
+</p>
+
+<p style="margin-top: 5px;">
+<li class="small">Queries can be case sensitive e.g. 
+<a href="/?q=blackberry">blackberry</a> (<a href="http://api.duckduckgo.com/?q=blackberry&format=json&pretty=1">API example</a>)
+vs
+<a href="/?q=BlackBerry">BlackBerry</a> (<a href="http://api.duckduckgo.com/?q=BlackBerry&format=json&pretty=1">API example</a>). In the first case (lowercase blackberry) it returns a disambiguation page; in the latter case (MixedCase BlackBerry) it returns info primarly about the device (inferring what you meant from the case).
+</li>
+</p>
+<p style="margin-top: 5px;">
+<li class="small">This API can work over an encrypted (SSL/HTTPS) connection.</li>
+</p>
+</ul>
+
+
+
+
+<p style="margin-top: 35px;">
+<b>FAQ</b>
+</p>
+
+<p style="margin-top: 10px;">
+<i>Are there supporting library integrations?</i> 
+</p>
+<p style="margin-top: 5px;">
+<ul>
+<span class="small">
+<li>You can consume this API via <a href="http://www.mashape.com/apis/DuckDuckGo%20Zero-click%20Info">Mashape</a>, which provides PHP, Ruby, Python, Objective-C and Java (including Android) libraries. To do so, <a href="http://www.mashape.com/account/request-alpha-invite?apiName=DuckDuckGo%20Zero-click%20Info">sign up</a> (use the code DUCKDUCK) and <a href="http://www.mashape.com/account/login?apiName=DuckDuckGo%20Zero-click%20Info">login</a>.</li>
+<li><a href="http://search.cpan.org/perldoc?WWW::DuckDuckGo">Perl module</a> & <a href="http://search.cpan.org/perldoc?duckduckgo">command line app</a> by <a href="http://twitter.com/#!/raudssus">@raudssus</a>. </li>
+<li><a href="http://pypi.python.org/pypi/duckduckgo2/0.2">Python library</a> by mikejs. </li>
+<li><a href="http://dhruvbird.com/ddb/zc.html">Zero-click jQuery Search Widget</a> by <a href="http://twitter.com/#!/dhruvbird">@dhruvbird</a> that provides info for you in iframe format. </li>
+<li><a href="https://github.com/SiegfriedEhret/jddg">jddg jQuery plugin</a> [<a href="http://dev.federalbureauofinhumanity.org/jddg/demo/">demo</a>] by <a href="http://federalbureauofinhumanity.org/">Siegfried Ehret</a></li>
+<li><a href="https://github.com/andrewrjones/ruby-duck-duck-go">Ruby Gem</a> by <a href="http://andrew-jones.com/">Andrew Jones</a></li>
+<li><a href="https://github.com/ajanicij/goduckgo">Go library</a> by <a href="https://github.com/ajanicij">ajanicij</a></li>
+<li>If you make another supporting library, we'll add it here!</li>
+</span>
+</ul>
+</p>
+
+<p style="margin-top: 25px;">
+<i>Why is x query blank? Where are all the Web links like on the main site?</i> 
+</p>
+
+<p style="margin-top: 5px;">
+<span class="small">This is a Zero-click Info API, and not a full results API. However, there are some Web links within it, e.g. official sites.</span>
+</p>
+
+<p style="margin-top: 25px;">
+<i>So is there then another API with all the Web links?</i>
+</p>
+
+<p style="margin-top: 5px;">
+<span class="small">Since we use many underlying APIs in our full results (merged with our own indexes), we do not have rights at this time provide an API with all our Web links. We do, however, provide <a href="/search_box.html">search box</a> integration.</span>
+</p>
+
+<p style="margin-top: 25px;">
+<i>Why is y query blank? I see Zero-click Info on the main site!</i> 
+</p>
+
+<p style="margin-top: 5px;">
+<span class="small">
+Not all of our Zero-click Info is available via this API for a variety of reasons. However, if you would like to see something please <a href="/feedback.html">let us know</a> and perhaps we can make it happen.
+</span>
+</p>
+
+<p style="margin-top: 25px;">
+If you have more questions, please <a href="/feedback.html">let us know</a>.
+</p>

@@ -1,0 +1,39 @@
+<div id="zero_click_header">Stickers</div>
+
+
+<div style="margin-bottom:20px;"></div>
+<div style="background:#fef9cd;border:#e1d980 1px solid;padding:3px;" class="clu">Please note: stickers can take months to arrive because we do them manually.</div>
+
+<div style="margin-bottom:30px;"></div>
+
+
+<form name="x" style="margin-top:30px;" method="post" action="https://flash.duckduckgo.com/e.js">
+
+<input type="radio" name="sticker_us" value="1"> US 
+&nbsp;
+<input type="radio" name="sticker_us" value="-1"> Non-US
+
+<div style="padding-top:30px;"></div>
+Full address (including name):
+<br><textarea name="sticker_address" cols="40" rows="5"></textarea>
+<br>Please include full country on the last line if not in the US. 
+<br>Please format exactly how one should address from the US.
+<br>Please use multiple lines (as it would be printed on an envelope).
+
+<div style="padding-top:30px;"></div>
+Email (optional): 
+<br><input type="text" name="from" size="30">
+
+<div style="padding-top:30px;"></div>
+Comments (optional):
+<br><textarea name="sticker_comments" cols="40" rows="2"></textarea>
+
+<input type="hidden" value="On" name="back">
+
+<div style="padding-top:20px;"></div>
+<input type="submit" value="Submit">
+<input type="hidden" name="go">
+
+<div style="padding-top:40px;"></div>
+
+</form>

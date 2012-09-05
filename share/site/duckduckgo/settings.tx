@@ -1,0 +1,302 @@
+<div class="yui-skin-sam">
+
+<div id="yui-picker-panel" class="yui-picker-panel" style="display:none">
+  <div class="hd" id="yui-picker-msg">Please choose a color:</div>
+  <div class="bd">
+      <div class="yui-picker" id="yui-picker"></div>
+    </div>
+  <div class="ft"></div>
+</div>
+<div id="color" class="cn"></div>
+
+
+<div id="saveDialog" style="display:none">
+    <div class="hd">Cloud Save</div>
+    <div class="bd">
+        <p>
+        Save your settings anonymously in the cloud!
+        </p>
+            <!-- since we're encouraging people to use a pass phrase of actual words, we won't turn off autocorrect. -->
+            <p id="pwbox"><input type="text" name="pw" class="userinfo" id="cloud_pw" size="50" autocapitalize="off" onfocus="YD.setStyle('pwstrengthbox', 'display', 'block')" onchange="S.pwstr();" onkeyup="S.pwstr();" onkeydown="S.pwstr();" placeholder="pass phrase"/> <!-- onkeypress="phrasing();" -->
+            <br><a class="xb" onclick="S.passphrase();">suggest</a>
+            </p>
+
+            <div id="pwstrengthbox">
+                Pass phrase strength
+                <div id="pwstrength">
+                    <div id="pwmeter"></div>
+                </div>
+                <div id="pwmsg"></div>
+            </div>
+    </div>
+</div>
+
+<div id="loadDialog" style="display:none">
+    <div class="hd">Load Cloud Settings</div>
+    <div class="bd">
+          <p>Enter your pass phrase to load your settings from the cloud.</p>
+        <p id="pwbox"><input type="password" name="pw" class="userinfo" id="cloud_load_pw" size="50" autocapitalize="off" placeholder="pass phrase"/></p>
+        <!-- <a class="xb" onclick="toggleLoadPW(this);">Show pass phrase</a> -->
+        <input type="checkbox" id="togpw" onclick="S.toggleLoadPW(this);" /> <label for="togpw">Show pass phrase</label>
+    </div>
+</div>
+
+    <script type="text/javascript">
+      <!--
+      var JSON;
+      if (!JSON) {
+        document.write('<script src="json2.js" type="text/javascript"></script' + '>');
+      }
+      // -->
+    </script>
+
+    <script src="js/r/settings268.js" type="text/javascript"></script>
+	
+	<div id="zero_click_header">Settings</div>
+
+
+    <div id="x_preview">
+      <p>Preview</p>
+      <div id="x_preview_content">
+        <div id="r1-1" class="results_links_deep highlight_d2" onmouseover="YD.addClass(this,'highlight')" onmouseout="YD.removeClass(this,'highlight')">
+          <div id="xp_icon" class="icon_fav2">
+            <a title="search domain">
+                <img id="i16" width="16" height="16" title="Search domain en.wikipedia.org" style="visibility: visible">
+            </a>
+          </div>
+          <div id="xp_links" class="links_main links_deep">
+            <h2 id="xp_title"><a class="large">Search result title</a></h2>
+            <div id="xp_snippet" class="snippet">
+              snippet text
+            </div>
+            <div id="xp_ka"><a class="url">link to the site</a></div>
+          </div>
+        </div>
+      </div><!-- x_preview_content -->
+    </div>
+
+    <script type="text/javascript"><!--
+        S.printCategories();
+    --></script>
+
+<div id="resetall">
+    <div id="reset_inner">
+        <div style="display:block; float:right"><a class="xb" href="javascript:;" onclick="S.resetToDefaults(true)">Reset all settings to defaults</a></div>
+        <div id="mib" style="display:inline-block">
+            <a class="xb" onclick="DDG.toggle('more_data');" title="Show details of your settings including bookmarklet">Bookmarklet and settings data</a>
+        </div>
+    </div>
+</div>
+
+
+    <div id="more_data" style="display:none">
+
+
+    <div id="otherways">
+
+    <p>
+    By default, your settings are stored in non-personal browser cookies (in your
+    browser). You can use Anonymous Cloud Save to store your settings in a more
+    permanent way (on a remote server in the cloud). No personally identifiable
+    information will be stored in the cloud, and your pass phrase will never leave
+    your browser.
+    </p>
+
+        <ul>
+          <li class="wides">
+                <p>
+                  <em>Your settings as a URL parameter bookmarklet:</em>
+                </p>
+                <div id="params"></div>
+                  <p style="padding-left:18px;">(see the <a href="http://duckduckgo.com/params.html">URL Parameters</a> page for detailed descriptions)</p>
+            </li>
+
+            <li id="cloudkeynotice" class="wides">
+                <p>
+                <em>Your settings as a cloud save bookmarklet:</em>
+                </p>
+                <p><a target="_new" id="cloudbookmarklet"></a></p>
+            </li>
+            
+            <li id="objectkeynotice" class="wides">
+                <p>
+                <em>Direct link to your settings in the cloud</em>
+                </p>
+                <p><a target="_new" id="objectlink"></a></p>
+            </li>
+
+            <li class="mids midsl">
+                <p>
+                <em>Your settings in JSON format:</em>
+                </p>
+                <div id="jso"></div>
+            </li>
+
+
+            <li class="mids"><em>Your browser cookies:</em>
+                <div id="cook"></div>
+            </li>
+        </ul>
+
+    </div><!-- otherways -->
+
+    </div> <!-- more_data -->
+
+
+<!-- <div id="cloudish"></div> -->
+<div id="xcl">
+
+    <div id="cloudset">
+
+
+
+        <div id="aabox">
+            <div id="status_text"></div>
+            <div>
+                <!-- <input id="stopCloudButton" type="button" value="Disable" display="none" onclick="S.disableCloud();"> -->
+                <!-- <input id="deleteButton" type="button" value="Delete my data" display="none" onclick="S.deleteUserData();"> -->
+                <input id="stopCloudButton" type="button" value="Disable" display="none" \>
+                <input id="deleteButton" type="button" value="Delete my data" display="none" \>
+            </div>
+
+
+        </div>
+
+
+
+        <div id="loadForm">
+
+            <h4>Cloud Save</h4>
+
+            <p>
+            Save your settings anonymously in the cloud!
+            </p>
+
+            <p>
+            <!-- <input id="saveButton" type="button" value="Save Settings" onclick="S.showSaveDialog();"/> -->
+            <!-- <input id="loadButton" type="button" value="Load Settings" onclick="S.showLoadDialog();"/> -->
+            <input id="saveButton" type="button" value="Save Settings" />
+            <input id="loadButton" type="button" value="Load Settings" />
+            </p>
+
+            <p>
+            <a class="xb" onclick="DDG.toggle('whatisthis');">What is this?</a>
+            </p>
+            <div id="whatisthis" style="display:none">
+
+              <h5>Cloud Save FAQ</h5>
+
+              <p>
+              Cloud Save lets you save your settings more permanently by entering a passphrase. It is entirely optional.
+              </p>
+
+              <p>
+              This has a few benefits:
+              </p>
+
+              <ul>
+                <li>You can share your settings among computers and browsers.</li>
+                <li>You can restore your settings after deleting cookies</li>
+                <li>You can store several sets of settings for different purposes.</li>
+              </ul>
+
+
+              <h5>What information gets saved?</h5>
+
+              <p>Only the settings that you have changed. They are detailed on the <a href="https://duckduckgo.com/params.html">URL Parameters</a> page.</p>
+              
+
+              <h5>How does it work?</h5>
+
+              <p>Your passphrase is used to generate a key using the Secure Hash Algorithm known
+              as <a href="http://en.wikipedia.org/wiki/SHA-2">SHA-2</a>, using a 512 bit key. Your passphrase never leaves the browser,
+              only the key and the settings file associated with it.  We save the settings
+              file on Amazon S3 using the generated key as the name. In the interest of
+              transparency, this data is not encrypted: you can see exactly what information we store.</p>
+
+              <ul>
+              <li>Passphrases cannot feasibly be reverse engineered from a key</li>
+              <li>Even if you could do that, there is no point since all the information is there in the open, unencrypted,
+              provided you know the key.</li>
+              <li>DuckDuckGo does not ever know your passphrase.</li>
+              </ul>
+
+              <h5>What is the cloud save bookmarklet and how does it differ from the URL parameter bookmarklet?</h5>
+
+              <p>
+              The cloud save bookmarklet is a URL that automatically enables cloud save.The benefit of this over using the URL parameters
+              bookmarklet is that when you change settings, they will automatically be saved in the cloud.
+              </p>
+
+              <h5>How is it anonymous?</h5>
+
+              <p>We do not have usernames and we don't store any personally identifiable information.</p>
+
+              <h5>How does passphrase generation work?</h5>
+
+              <p>Each time you ask for a passphrase suggestion, we get a reasonably large list of random words
+              from the DuckDuckGo servers.  In the browser, we then select four or five random words from that list,
+              ensuring that it is at least 18-20 characters long. It is easier to remember four or five words
+              than 10 random letters and numbers, and far more secure.</p>
+
+              <h5>How do I change my passphrase?</h5>
+
+              <p>You can do this by saving your settings under a different passphrase, optionally deleting the first set.</p>
+
+              <ol>
+              <li>Enable cloud save by enter your existing passphrase.</li>
+              <li>Push "Delete my data". This removes the data from the cloud, but it remains in your browser until
+              you click on "reset all settings to defaults".</li>
+              <li>Enter a new passphrase and click Save Settings. This will save your data under your new passphrase.</li>
+              </ol>
+
+              <h5>I forgot my passphrase. Can you recover it?</h5>
+
+              <p>No. Unless you deleted your settings, the settings file will still be there but we have no
+              way of associating it with you. We cannot reverse the passphrase key generation. We don't associate
+              your IP address or browser fingerprint or any other information with the file.</p>
+
+              <h5>Is deleted data really deleted?</h5>
+
+              <p>Yes</p> 
+
+
+              <h6>See Also</h6>
+
+              <ul>
+                <li><a href="https://duck.co/topic/a-preview-of-the-new-settings-system">Cloud Save discussion on duck.co</a></li>
+                <li><a href="http://help.duckduckgo.com/customer/portal/topics/97187-settings/articles">DuckDuckGo Support Center</a></li>
+              </ul>
+              
+
+              <p style="line-height:3;vertical-align:bottom">
+              <a class="xb" onclick="DDG.toggle('whatisthis')">hide this FAQ</a>
+              </p>
+
+              <p style="line-height:2;vertical-align:bottom;font-size:smaller">
+              cloud image by <a href="http://www.vecteezy.com/members/boldodonahue">BoldODonahue</a> 
+              </p>
+
+            </div>
+
+        </div><!-- loadForm -->
+
+
+
+    </div><!-- cloudset -->
+</div> <!-- xcl -->
+
+    <div id="expfooter">
+    <!-- You can also <a href="javascript:;" onclick="load()">load settings</a> from a URL parameter string. -->
+    <!-- Or <a href="javascript:;" onclick="resetToDefaults()">reset all settings</a>. -->
+        <p>
+        This page requires Javascript to function.
+        If you want to use DuckDuckGo without JavaScript, please use our <a href="/html">HTML</a> or <a href="/lite">lite</a> versions.
+        </p>
+
+    </div>
+
+
+    <div id="bottom_spacing2"></div>
+	
+</div>

@@ -1,0 +1,35 @@
+<div id="zero_click_header">!Bang</div>
+
+<div class="small">
+
+<div style="margin-bottom:30px;"></div>
+DuckDuckGo enables you to search 100s of other sites directly.
+
+<div style="margin-bottom:15px;"></div>
+Just use this dropdown next to the search box. As you use it, your most frequented sites will automatically be displayed at the top.
+
+<div style="margin-bottom:20px;"></div>
+Or you can type in a command like '!amazon bags', which will take you to Amazon.com and auto-search it for 'bags'. 
+
+<div style="margin-bottom:15px;"></div>
+We call these commands !bangs, and this syntax works for 100s of sites:
+
+<div class="clu">
+<p style="margin-top: 3px;">
+<ul>
+<li>Most big sites work, e.g. !youtube (see full list below)
+<p style="margin-top: 5px;">
+<li>Most generic keywords work too, e.g. !images
+<p style="margin-top: 5px;">
+<li>There are also shorter versions, e.g. !g (google) !i (images) !yt (youtube)
+<p style="margin-top: 5px;">
+<li>!ducky or '! ' or '\' will take you to the first result.
+<p style="margin-top: 5px;">
+<li>!safeoff will run a search with safe search off.
+</ul>
+</div>
+
+<!-- Full List Here -->
+
+<div style="margin-bottom:15px;"></div>
+<b>If you'd like to add or edit a !bang, please <a href="/newbang.html">submit it here</a>!</b>

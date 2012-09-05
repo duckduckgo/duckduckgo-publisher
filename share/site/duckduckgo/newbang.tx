@@ -1,0 +1,260 @@
+<div id="zero_click_header">New !bang</div>
+
+<script type="text/JavaScript">
+var i;
+function fill_subcat(i){
+d.y.bang_subcat.options.length = 0;
+if (i > 0) {
+    d.y.bang_subcat.style.visibility = 'visible';
+}
+switch(i){
+case 0:
+  d.y.bang_subcat.style.visibility = 'hidden';
+  break;
+case 1:
+  d.y.bang_subcat.options[0] =new Option('Choose Subcategory','')
+  d.y.bang_subcat.options[1] =new Option('Blogs','Blogs')
+  d.y.bang_subcat.options[2] =new Option('Blogs (intl)','Blogs (intl)')
+  d.y.bang_subcat.options[3] =new Option('Chakra','Chakra')
+  d.y.bang_subcat.options[4] =new Option('Companies','Companies')
+  d.y.bang_subcat.options[5] =new Option('Design','Design')
+  d.y.bang_subcat.options[6] =new Option('Domains','Domains')
+  d.y.bang_subcat.options[7] =new Option('Downloads','Downloads')
+  d.y.bang_subcat.options[8] =new Option('Downloads (add-ons)','Downloads (add-ons)')
+  d.y.bang_subcat.options[9] =new Option('Downloads (apps)','Downloads (apps)')
+  d.y.bang_subcat.options[10] =new Option('Downloads (code)','Downloads (code)')
+  d.y.bang_subcat.options[11] =new Option('Downloads (intl)','Downloads (intl)')
+  d.y.bang_subcat.options[12] =new Option('Downloads (software)','Downloads (software)')
+  d.y.bang_subcat.options[13] =new Option('Language (perl)','Language (perl)')
+  d.y.bang_subcat.options[14] =new Option('Languages (.net)','Languages (.net)')
+  d.y.bang_subcat.options[15] =new Option('Languages (ada)','Languages (ada)')
+  d.y.bang_subcat.options[16] =new Option('Languages (adobe)','Languages (adobe)')
+  d.y.bang_subcat.options[17] =new Option('Languages (c++)','Languages (c++)')
+  d.y.bang_subcat.options[18] =new Option('Languages (clojure)','Languages (clojure)')
+  d.y.bang_subcat.options[19] =new Option('Languages (cocoa)','Languages (cocoa)')
+  d.y.bang_subcat.options[20] =new Option('Languages (coldfusion)','Languages (coldfusion)')
+  d.y.bang_subcat.options[21] =new Option('Languages (csharp)','Languages (csharp)')
+  d.y.bang_subcat.options[22] =new Option('Languages (d)','Languages (d)')
+  d.y.bang_subcat.options[23] =new Option('Languages (erlang)','Languages (erlang)')
+  d.y.bang_subcat.options[24] =new Option('Languages (go)','Languages (go)')
+  d.y.bang_subcat.options[25] =new Option('Languages (haskell)','Languages (haskell)')
+  d.y.bang_subcat.options[26] =new Option('Languages (html)','Languages (html)')
+  d.y.bang_subcat.options[27] =new Option('Languages (java)','Languages (java)')
+  d.y.bang_subcat.options[28] =new Option('Languages (javascript)','Languages (javascript)')
+  d.y.bang_subcat.options[29] =new Option('Languages (latex)','Languages (latex)')
+  d.y.bang_subcat.options[30] =new Option('Languages (lisp)','Languages (lisp)')
+  d.y.bang_subcat.options[31] =new Option('Languages (lua)','Languages (lua)')
+  d.y.bang_subcat.options[32] =new Option('Languages (Mathematica)','Languages (Mathematica)')
+  d.y.bang_subcat.options[33] =new Option('Languages (Matlab)','Languages (Matlab)')
+  d.y.bang_subcat.options[34] =new Option('Languages (other)','Languages (other)')
+  d.y.bang_subcat.options[35] =new Option('Languages (perl)','Languages (perl)')
+  d.y.bang_subcat.options[36] =new Option('Languages (php)','Languages (php)')
+  d.y.bang_subcat.options[37] =new Option('Languages (processing)','Languages (processing)')
+  d.y.bang_subcat.options[38] =new Option('Languages (python)','Languages (python)')
+  d.y.bang_subcat.options[39] =new Option('Languages (r)','Languages (r)')
+  d.y.bang_subcat.options[40] =new Option('Languages (racket)','Languages (racket)')
+  d.y.bang_subcat.options[41] =new Option('Languages (ruby)','Languages (ruby)')
+  d.y.bang_subcat.options[42] =new Option('Languages (scala)','Languages (scala)')
+  d.y.bang_subcat.options[43] =new Option('Languages (scheme)','Languages (scheme)')
+  d.y.bang_subcat.options[44] =new Option('Languages (vala)','Languages (vala)')
+  d.y.bang_subcat.options[45] =new Option('Languages (xda)','Languages (xda)')
+  d.y.bang_subcat.options[46] =new Option('Libraries/Frameworks','Libraries/Frameworks')
+  d.y.bang_subcat.options[47] =new Option('Libraries/Frameworks (KDE)','Libraries/Frameworks (KDE)')
+  d.y.bang_subcat.options[48] =new Option('Libraries/Frameworks (wordpress)','Libraries/Frameworks (wordpress)')
+  d.y.bang_subcat.options[49] =new Option('Programming','Programming')
+  d.y.bang_subcat.options[50] =new Option('Startups','Startups')
+  d.y.bang_subcat.options[51] =new Option('Sysadmin','Sysadmin')
+  d.y.bang_subcat.options[52] =new Option('Sysadmin (Arch)','Sysadmin (Arch)')
+  d.y.bang_subcat.options[53] =new Option('Sysadmin (debian)','Sysadmin (debian)')
+  d.y.bang_subcat.options[54] =new Option('Sysadmin (Fedora)','Sysadmin (Fedora)')
+  d.y.bang_subcat.options[55] =new Option('Sysadmin (FreeBSD)','Sysadmin (FreeBSD)')
+  d.y.bang_subcat.options[56] =new Option('Sysadmin (Gentoo)','Sysadmin (Gentoo)')
+  d.y.bang_subcat.options[57] =new Option('Sysadmin (man)','Sysadmin (man)')
+  d.y.bang_subcat.options[58] =new Option('Sysadmin (network)','Sysadmin (network)')
+  d.y.bang_subcat.options[59] =new Option('Sysadmin (packages)','Sysadmin (packages)')
+  d.y.bang_subcat.options[60] =new Option('Sysadmin (RedHat)','Sysadmin (RedHat)')
+  d.y.bang_subcat.options[61] =new Option('Sysadmin (Solaris)','Sysadmin (Solaris)')
+  d.y.bang_subcat.options[62] =new Option('Sysadmin (Ubuntu)','Sysadmin (Ubuntu)')
+break;
+case 2:
+  d.y.bang_subcat.options[0] =new Option('Choose Subcategory','')
+  d.y.bang_subcat.options[1] =new Option('Big box/department','Big box/department')
+  d.y.bang_subcat.options[2] =new Option('Online','Online')
+  d.y.bang_subcat.options[3] =new Option('Online (deals)','Online (deals)')
+  d.y.bang_subcat.options[4] =new Option('Online (intl)','Online (intl)')
+  d.y.bang_subcat.options[5] =new Option('Online (marketplace)','Online (marketplace)')
+  d.y.bang_subcat.options[6] =new Option('Services','Services')
+  d.y.bang_subcat.options[7] =new Option('Tech','Tech')
+  d.y.bang_subcat.options[8] =new Option('Tech (domains)','Tech (domains)')
+break;
+case 3:
+  d.y.bang_subcat.options[0] =new Option('Choose Subcategory','')
+  d.y.bang_subcat.options[1] =new Option('Academic','Academic')
+  d.y.bang_subcat.options[2] =new Option('Academic (math/cs)','Academic (math/cs)')
+  d.y.bang_subcat.options[3] =new Option('Food','Food')
+  d.y.bang_subcat.options[4] =new Option('Government','Government')
+  d.y.bang_subcat.options[5] =new Option('Health','Health')
+  d.y.bang_subcat.options[6] =new Option('Law','Law')
+  d.y.bang_subcat.options[7] =new Option('Learning','Learning')
+  d.y.bang_subcat.options[8] =new Option('Learning (intl)','Learning (intl)')
+  d.y.bang_subcat.options[9] =new Option('Local','Local')
+  d.y.bang_subcat.options[10] =new Option('Real Estate','Real Estate')
+  d.y.bang_subcat.options[11] =new Option('Reference','Reference')
+  d.y.bang_subcat.options[12] =new Option('Reference (fun)','Reference (fun)')
+  d.y.bang_subcat.options[13] =new Option('Reference (religion)','Reference (religion)')
+  d.y.bang_subcat.options[14] =new Option('Reference (science)','Reference (science)')
+  d.y.bang_subcat.options[15] =new Option('Reference (words intl)','Reference (words intl)')
+  d.y.bang_subcat.options[16] =new Option('Reference (words)','Reference (words)')
+  d.y.bang_subcat.options[17] =new Option('Topical','Topical')
+  d.y.bang_subcat.options[18] =new Option('Travel','Travel')
+break;
+case 4:
+  d.y.bang_subcat.options[0] =new Option('Choose Subcategory','')
+  d.y.bang_subcat.options[1] =new Option('Google','Google')
+  d.y.bang_subcat.options[2] =new Option('Jobs','Jobs')
+  d.y.bang_subcat.options[3] =new Option('Maps','Maps')
+  d.y.bang_subcat.options[4] =new Option('Search','Search')
+  d.y.bang_subcat.options[5] =new Option('Search (DDG)','Search (DDG)')
+  d.y.bang_subcat.options[6] =new Option('Search (non-US)','Search (non-US)')
+  d.y.bang_subcat.options[7] =new Option('Search (P2P)','Search (P2P)')
+  d.y.bang_subcat.options[8] =new Option('Search (Private)','Search (Private)')
+  d.y.bang_subcat.options[9] =new Option('Search (Real-time)','Search (Real-time)')
+  d.y.bang_subcat.options[10] =new Option('Social','Social')
+  d.y.bang_subcat.options[11] =new Option('Social (intl)','Social (intl)')
+  d.y.bang_subcat.options[12] =new Option('Social news/links','Social news/links')
+  d.y.bang_subcat.options[13] =new Option('Tools','Tools')
+  d.y.bang_subcat.options[14] =new Option('Tools (fundraising)','Tools (fundraising)')
+  d.y.bang_subcat.options[15] =new Option('Tools (URLs)','Tools (URLs)')
+  d.y.bang_subcat.options[16] =new Option('Tracking','Tracking')
+break;
+case 5:
+  d.y.bang_subcat.options[0] =new Option('Choose Subcategory','')
+  d.y.bang_subcat.options[1] =new Option('Aggregators','Aggregators')
+  d.y.bang_subcat.options[2] =new Option('Broadcast','Broadcast')
+  d.y.bang_subcat.options[3] =new Option('Business','Business')
+  d.y.bang_subcat.options[4] =new Option('International','International')
+  d.y.bang_subcat.options[5] =new Option('Magazine','Magazine')
+  d.y.bang_subcat.options[6] =new Option('Magazine (car)','Magazine (car)')
+  d.y.bang_subcat.options[7] =new Option('Magazine (fashion)','Magazine (fashion)')
+  d.y.bang_subcat.options[8] =new Option('Newspaper','Newspaper')
+  d.y.bang_subcat.options[9] =new Option('Newspaper (intl)','Newspaper (intl)')
+  d.y.bang_subcat.options[10] =new Option('Specialty','Specialty')
+  d.y.bang_subcat.options[11] =new Option('Weather','Weather')
+break;
+case 6:
+  d.y.bang_subcat.options[0] =new Option('Choose Subcategory','')
+  d.y.bang_subcat.options[1] =new Option('Books','Books')
+  d.y.bang_subcat.options[2] =new Option('Docs','Docs')
+  d.y.bang_subcat.options[3] =new Option('General','General')
+  d.y.bang_subcat.options[4] =new Option('Images','Images')
+  d.y.bang_subcat.options[5] =new Option('Music','Music')
+  d.y.bang_subcat.options[6] =new Option('Music (Folk)','Music (Folk)')
+  d.y.bang_subcat.options[7] =new Option('Music (Lyrics)','Music (Lyrics)')
+  d.y.bang_subcat.options[8] =new Option('Video','Video')
+break;
+case 7:
+  d.y.bang_subcat.options[0] =new Option('Choose Subcategory','')
+  d.y.bang_subcat.options[1] =new Option('Audio','Audio')
+  d.y.bang_subcat.options[2] =new Option('Blogs','Blogs')
+  d.y.bang_subcat.options[3] =new Option('Blogs (intl)','Blogs (intl)')
+  d.y.bang_subcat.options[4] =new Option('Comics','Comics')
+  d.y.bang_subcat.options[5] =new Option('Events','Events')
+  d.y.bang_subcat.options[6] =new Option('Forum','Forum')
+  d.y.bang_subcat.options[7] =new Option('Games (general)','Games (general)')
+  d.y.bang_subcat.options[8] =new Option('Games (Minecraft)','Games (Minecraft)')
+  d.y.bang_subcat.options[9] =new Option('Games (offline)','Games (offline)')
+  d.y.bang_subcat.options[10] =new Option('Games (Pokemon)','Games (Pokemon)')
+  d.y.bang_subcat.options[11] =new Option('Games (specific)','Games (specific)')
+  d.y.bang_subcat.options[12] =new Option('Games (WOW)','Games (WOW)')
+  d.y.bang_subcat.options[13] =new Option('Misc','Misc')
+  d.y.bang_subcat.options[14] =new Option('Movies','Movies')
+  d.y.bang_subcat.options[15] =new Option('Radio','Radio')
+  d.y.bang_subcat.options[16] =new Option('Sports','Sports')
+  d.y.bang_subcat.options[17] =new Option('TV','TV')
+break;
+}
+}
+
+window.onload=function(){fill_subcat(d.y.bang_subcat.selectedIndex);}
+
+function validate_form (){ 
+    valid = true;
+    missing = "";
+    if (d.y.bang_site.value == ""){
+        missing += "\t-Site name\n";
+        valid = false;
+    }
+    if (d.y.bang_command.value == ""){
+        missing += "\t-Band command\n";
+        valid = false;
+    }
+    if (d.y.bang_url.value == ""){
+        missing += "\t-Bang url\n";
+        valid = false;
+    }
+    if (d.y.bang_cat.value == ""){
+        missing += "\t-Category\n";
+        valid = false;
+    } 
+    if (d.y.bang_subcat.value == ""){
+        missing += "\t-Subcategory\n";
+        valid = false;
+    }
+    if (valid){
+        return valid;
+    }
+    else {
+        alert ("The following required fields were not filled:\n" + missing);
+        return valid;
+    }
+}
+</script>
+
+<div style="margin-bottom:30px;"></div>
+
+<form name="y" style="margin-top:20px;" method="post" action="https://flash.duckduckgo.com/e.js" onsubmit="return validate_form ();">
+
+Email (optional): 
+<br><input type="text" name="from" size="20">
+
+<div style="padding-top:20px;"></div>
+Site name, e.g. DuckDuckGo or The New York Times
+<br><input type="text" name="bang_site" size="20">
+
+<div style="padding-top:20px;"></div>
+Bang command, e.g. duckduckgo (usually is domain name, e.g. nytimes)
+<br>!<input type="text" name="bang_command" size="10">
+
+<div style="padding-top:20px;"></div>
+Bang Url, e.g. http://duckduckgo.com/?q={{{s}}}
+<br> &nbsp; Mark where the search goes with {{{s}}}
+<br><input type="text" name="bang_url" size="40">
+
+<div style="padding-top:20px;"></div>
+Bang category
+<br>
+<select name="bang_cat" onChange="fill_subcat(this.selectedIndex);">
+  <option value="">Choose Category</option>
+  <option value="Tech">Tech</option>
+  <option value="Shopping">Shopping</option>
+  <option value="Research">Research</option>
+  <option value="Online Services">Online Services</option>
+  <option value="News">News</option>
+  <option value="Multimedia">Multimedia</option>
+  <option value="Entertainment">Entertainment</option>
+</select>
+<select name="bang_subcat" class="invisible"></select>
+
+<div style="padding-top:20px;"></div>
+Comments (optional):
+<br><textarea name="bang_comments" cols="40" rows="2"></textarea>
+
+<input type="hidden" value="On" name="back">
+
+<div style="padding-top:20px;"></div>
+<input type="submit" value="Submit">
+<input type="hidden" name="go">
+
+<div style="padding-top:40px;"></div>
+
+</form>

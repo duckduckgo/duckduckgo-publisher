@@ -108,5 +108,6 @@ Monthly newsletter: &nbsp;
 
 <script>
 $('video,audio').mediaelementplayer(/* Options go here - we don't need no stinking options{mode:'auto_plugin'}*/);
-$('#search_form_input').attr('value':'About DuckDuckGo','placeholder':'About DuckDuckGo');
+$('#search_form_input').attr('value','About DuckDuckGo');
+$('#search_form_input').attr('placeholder','About DuckDuckGo');
 </script>

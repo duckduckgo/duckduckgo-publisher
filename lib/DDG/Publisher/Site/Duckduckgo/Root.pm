@@ -12,11 +12,14 @@ sub pages {{
 	index => sub {
 		no_wrapper => 1,
 		homepage => 1,
-	},
+	},	
 	about => sub {},
 	feedback => sub {},
 	privacy => sub {},
 	spread => sub {},	
+	walpha => sub {
+		no_wrapper => 1,
+	},
 }}
 
 1;

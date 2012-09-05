@@ -1,0 +1,22 @@
+			<hr/>
+			<h6><strong>Help your friends escape the filter bubble!</strong></h6>
+			<div class="sharebuttons">
+				<a class="facebook" target="_facebook" href="https://facebook.com/sharer.php?u=http://dontbubble.us/">Share on Facebook</a>
+				<a class="twitter" target="_twitter" href="https://twitter.com/?status=Escape+your+search+engine's+filter+bubble.+An+illustrated+guide+by+@duckduckgo:+http://DontBubble.us/">Share on Twitter</a>
+				<a class="email" data-reveal-id="share-email">Email to Friends</a>
+			</div>
+			<hr/>
+			
+			<div class="moreinfo">
+				<h6>For more on Filter Bubbles, check out Eli Pariser's <a target="_blank" href="http://www.thefilterbubble.com/ted-talk">Ted Talk</a>.</h6>
+
+				<h6>For more on DuckDuckGo, check out our 
+				<a target="_blank" href="https://duckduckgo.com/about.html">about page</a> 
+				and 
+				<a target="_blank" href="https://duckduckgo.com/">search</a>!
+				</h6>
+			</div>
+			
+			<hr/>
+			
+			<p class="copyright">&copy;2012 DuckDuckGo. All Rights Reserved.</p>
