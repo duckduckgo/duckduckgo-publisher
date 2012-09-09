@@ -55,7 +55,6 @@ sub publish_to {
 		$packer = HTML::Packer->init();
 	}
 	for my $site (@{$self->sites}) {
-		$site->meta_config;
 		for my $dir (values %{$site->dirs}) {
 			for (sort { $a->fullpath cmp $b->fullpath } values %{$dir->fullpath_files}) {
 				my $real_file = file($target,$site->key,$_->fullpath)->absolute;

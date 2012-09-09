@@ -41,17 +41,17 @@ sub _build_files {
 			$files{$page}->{$locale} = $file;
 		}
 	}
-	my $default_locale = $self->dir->site->default_locale;
+	my $default_locale = $self->site->default_locale;
 	my %statics = %{$self->statics_coderefs};
 	for my $static (keys %statics) {
-		my $code = $pages{$page};
+		my $code = $statics{$static};
 		my $file = DDG::Publisher::File->new(
 			code => $code,
 			filebase => $static,
 			locale => $default_locale,
 			dir => $self,
 		);
-		$files{$page} = $file;
+		$files{$static} = $file;
 	}
 	return \%files;
 }
@@ -66,9 +66,14 @@ sub _build_fullpath_files {
 	my ( $self ) = @_;
 	my %fullpath_files;
 	for (values %{$self->files}) {
-		for (values %{$_}) {
+		if (ref $_ eq 'HASH') {
+			for (values %{$_}) {
+				die "The file ".$_->fullpath." already exist!!!" if defined $fullpath_files{$_->fullpath};
+				$fullpath_files{$_->fullpath} = $_;
+			}
+		} else {
 			die "The file ".$_->fullpath." already exist!!!" if defined $fullpath_files{$_->fullpath};
-			$fullpath_files{$_->fullpath} = $_;
+			$fullpath_files{$_->fullpath} = $_;			
 		}
 	}
 	return \%fullpath_files;
@@ -86,11 +91,15 @@ has pages_coderefs => (
 	builder => 'pages',
 );
 
+sub pages {{}}
+
 has statics_coderefs => (
 	is => 'ro',
 	lazy => 1,
 	builder => 'statics',
 );
+
+sub statics {{}}
 
 has web_path => (
 	is => 'ro',
