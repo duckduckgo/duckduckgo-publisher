@@ -5,6 +5,9 @@ use Class::Load ':all';
 use Text::Xslate qw( mark_raw );
 use File::ShareDir::ProjectDistDir;
 use Locale::Simple;
+use Config::INI::Reader;
+use Path::Class;
+use DDG::Publisher::Meta;
 
 requires qw(
 	default_hostname
@@ -30,27 +33,13 @@ has dirs => (
 	lazy => 1,
 );
 
-sub load_locale_package {
-	my ( $self ) = @_;
-	load_class($self->locale_package) unless (is_class_loaded($self->locale_package));
-}
+has default_locale => (
+	is => 'ro',
+	builder => 1,
+	lazy => 1,
+);
 
-sub locales {
-	my ( $self ) = @_;
-	$self->load_locale_package;
-	return (keys $self->locale_package->locales);
-}
-
-# has locale_domain => (
-# 	is => 'ro',
-# 	builder => 1,
-# 	lazy => 1,
-# );
-
-# sub _build_locale_domain {
-# 	my ( $self ) = @_;
-	
-# }
+sub _build_default_locale { 'en_US' }
 
 sub _build_dirs {
 	my ( $self ) = @_;
@@ -63,6 +52,29 @@ sub _build_dirs {
 	} $self->dirs_classes};
 }
 
+has meta_default => (
+	is => 'ro',
+	builder => 1,
+	lazy => 1,
+);
+
+sub _build_meta_default {
+	my ( $self ) = @_;
+	my $meta_default = Config::INI::Reader->read_file(file(dist_dir('DDG-Publisher'),'core','config.ini'));
+	return DDG::Publisher::Meta->new_from_ini($meta_default);
+}
+
+sub load_locale_package {
+	my ( $self ) = @_;
+	load_class($self->locale_package) unless (is_class_loaded($self->locale_package));
+}
+
+sub locales {
+	my ( $self ) = @_;
+	$self->load_locale_package;
+	return (keys $self->locale_package->locales);
+}
+
 has template_engine => (
 	is => 'ro',
 	lazy => 1,
@@ -71,8 +83,8 @@ has template_engine => (
 
 sub _build_template_engine {
 	my ( $self ) = @_;
-	my $site_template_root = join('/',dist_dir('DDG-Publisher'),'site',$self->key);
-	my $core_template_root = join('/',dist_dir('DDG-Publisher'),'core');
+	my $site_template_root = dir(dist_dir('DDG-Publisher'),'site',$self->key)->stringify;
+	my $core_template_root = dir(dist_dir('DDG-Publisher'),'core')->stringify;
 	return Text::Xslate->new(
 		path => [$site_template_root,$core_template_root],
 		function => {

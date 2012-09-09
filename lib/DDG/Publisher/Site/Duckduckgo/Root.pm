@@ -16,7 +16,10 @@ sub pages {{
 	about => sub {},
 	feedback => sub {},
 	privacy => sub {},
-	spread => sub {},	
+	spread => sub {},
+}}
+
+sub statics {{
 	walpha => sub {
 		no_wrapper => 1,
 	},

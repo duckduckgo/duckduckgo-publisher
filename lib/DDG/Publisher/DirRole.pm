@@ -41,6 +41,18 @@ sub _build_files {
 			$files{$page}->{$locale} = $file;
 		}
 	}
+	my $default_locale = $self->dir->site->default_locale;
+	my %statics = %{$self->statics_coderefs};
+	for my $static (keys %statics) {
+		my $code = $pages{$page};
+		my $file = DDG::Publisher::File->new(
+			code => $code,
+			filebase => $static,
+			locale => $default_locale,
+			dir => $self,
+		);
+		$files{$page} = $file;
+	}
 	return \%files;
 }
 
@@ -64,6 +76,7 @@ sub _build_fullpath_files {
 
 sub locale_url {
 	my ( $self, $page, $locale ) = @_;
+	return $self->files->{$page}->fullpath if (ref $self->files->{$page} eq 'DDG::Publisher::File');
 	return $self->files->{$page}->{$locale}->fullpath;
 }
 
@@ -71,6 +84,12 @@ has pages_coderefs => (
 	is => 'ro',
 	lazy => 1,
 	builder => 'pages',
+);
+
+has statics_coderefs => (
+	is => 'ro',
+	lazy => 1,
+	builder => 'statics',
 );
 
 has web_path => (

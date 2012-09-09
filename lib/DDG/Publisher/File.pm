@@ -26,7 +26,7 @@ has file => (
 sub _build_file {
 	my ( $self ) = @_;
 	my $file = $self->filebase;
-	$file .= '.'.$self->locale unless $self->locale eq 'en_US';
+	$file .= '.'.$self->locale unless $self->locale eq $self->dir->site->default_locale;
 	$file .= '.html';
 	return $file;
 }
