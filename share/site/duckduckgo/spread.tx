@@ -6,16 +6,16 @@
 </style>
 
 
-<div id="zero_click_header">Spread DDG!</div>
+<div id="zero_click_header"><:l('Spread DDG!'):></div>
 
 <div style="margin-top:30px;"></div>
 
-<b>Unfortunate fact:</b> most people have never heard of DuckDuckGo.
+<b><:l('Unfortunate fact:'):></b> <:l('most people have never heard of DuckDuckGo.'):>
 <div style="margin-top:15px;"></div>
-So we'd really appreciate your help in getting the word out!
+<:l('So we\'d really appreciate your help in getting the word out!'):>
 
 <div style="margin-top:45px;"></div>
-<b>Level 1:&nbsp; Use DuckDuckGo</b>
+<b><:l('Level 1:'):>&nbsp; <:l('Use DuckDuckGo'):></b>
 
 <div style="margin-left: 20px;">
 
@@ -33,7 +33,7 @@ So we'd really appreciate your help in getting the word out!
 
 
 <div style="margin-top:45px;"></div>
-<b>Level 2:&nbsp; Share DuckDuckGo</b>
+<b><:l('Level 2:'):>&nbsp; <:l('Share DuckDuckGo'):></b>
 <div style="margin-left: 20px;">
 
 <div style="margin-top:20px;"></div>
@@ -62,7 +62,7 @@ So we'd really appreciate your help in getting the word out!
 
 
 <div style="margin-top:45px;"></div>
-<b>Level 3:&nbsp; Follow DuckDuckGo</b>
+<b><:l('Level 3:'):>&nbsp; <:l('Follow DuckDuckGo'):></b>
 
 <div style="margin-left: 20px;">
 
@@ -73,7 +73,7 @@ So we'd really appreciate your help in getting the word out!
 <p style="margin-top: 10px;">
 <form action="https://flash.duckduckgo.com/e.js" method="post">
 <span class="clu">
-Newsletter: &nbsp;
+<:l('Newsletter:'):> &nbsp;
 <input type="text" size="15" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
 <input type="submit" value="Go">
 <input type="hidden" name="add3" value="1">
@@ -85,38 +85,38 @@ Newsletter: &nbsp;
 
 
 <div style="margin-top:45px;"></div>
-<b>Level 4:&nbsp; Promote DuckDuckGo Online</b>
+<b><:l('Level 4:'):>&nbsp; <:l('Promote DuckDuckGo Online'):></b>
 <div style="margin-left: 20px;">
 
 <div style="margin-top:20px;"></div>
 <span class="clu">
-Use a DuckDuckGo link or <a href="https://duck.co/#topic/28469000000437075">userbar</a> for your email signature.
+<:l('Use a DuckDuckGo link or'):> <a href="https://duck.co/#topic/28469000000437075"><:l('userbar'):></a> <:l('for your email signature.'):>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-Add a <a href="http://duckduckgo.com/search_box.html">search box</a> to your site.
+<:l('Add a'):> <a href="http://duckduckgo.com/search_box.html"><:l('search box'):></a> <:l('to your site.'):>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-Write a blog post.
+<:l('Write a blog post.'):>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-Comment on relevant news articles about DuckDuckGo.
+<:l('Comment on relevant news articles about DuckDuckGo.'):>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-Get a <a href="http://dukgo.com/">dukgo.com account</a>.
+<:l('Get a'):> <a href="http://dukgo.com/"><:l('dukgo.com account'):></a>.
 </span>
 
 <p style="margin-top: 8px;">
 <form action="https://flash.duckduckgo.com/e.js" method="post">
 <span class="clu">
-Spread list (infrequent):
+<:l('Spread list (infrequent):'):>
 <input type="text" size="15" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
 <input type="submit" value="Go">
 <input type="hidden" name="add3" value="1">
@@ -127,22 +127,22 @@ Spread list (infrequent):
 
 
 <div style="margin-top:45px;"></div>
-<b>Level 5:&nbsp; Promote DuckDuckGo Offline</b>
+<b><:l('Level 5:'):>&nbsp; <:l('Promote DuckDuckGo Offline'):></b>
 <div style="margin-left: 20px;">
 
 <div style="margin-top:20px;"></div>
 <span class="clu">
-Hang <a href="https://duck.co/topic/flyer-campaign">DuckDuckGo flyers</a> or make your own.
+<:l('Hang'):> <a href="https://duck.co/topic/flyer-campaign"><:l('DuckDuckGo flyers'):></a> <:l('or make your own.'):>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-Put <a href="http://stickermule.com/duckduckgo">DuckDuckGo stickers</a> on your laptop/car/phone.
+<:l('Put'):> <a href="http://stickermule.com/duckduckgo"><:l('DuckDuckGo stickers'):></a> <:l('on your laptop/car/phone.'):>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-Wear a <a href="http://cafepress.com/duckduckgo/">DuckDuckGo t-shirt</a>.
+<:l('Wear a'):> <a href="http://cafepress.com/duckduckgo/"><:l('DuckDuckGo t-shirt'):></a>.
 </span>
 
 </div>
@@ -150,28 +150,28 @@ Wear a <a href="http://cafepress.com/duckduckgo/">DuckDuckGo t-shirt</a>.
 
 
 <div style="margin-top:45px;"></div>
-<b>Level 6:&nbsp; Develop DuckDuckGo</b>
+<b><:l('Level 6:'):>&nbsp; <:l('Develop DuckDuckGo'):></b>
 <div style="margin-left: 20px;">
 
 <div style="margin-top:20px;"></div>
 <span class="clu">
-Join us at <a href="http://duck.co/">our forum</a> or <a href="http://webchat.freenode.net/?channels=duckduckgo">chat room</a>.
+<:l('Join us at'):> <a href="http://duck.co/"><:l('our forum'):></a> <:l('or'):> <a href="http://webchat.freenode.net/?channels=duckduckgo"><:l('chat room'):></a>.
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-Code <a href="https://github.com/duckduckgo/duckduckgo/wiki">Zero-click Info</a>.
+<:l('Code'):> <a href="https://github.com/duckduckgo/duckduckgo/wiki"><:l('Zero-click Info'):></a>.
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-Build on our <a href="http://api.duckduckgo.com/">Zero-click API</a>.
+<:l('Build on our'):> <a href="http://api.duckduckgo.com/"><:l('Zero-click API'):></a>.
 </span>
 
 <p style="margin-top: 8px;">
 <form action="https://flash.duckduckgo.com/e.js" method="post">
 <span class="clu">
-Testing (infrequent): 
+<:l('Testing (infrequent): '):>
 <input type="text" size="15" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
 <input type="submit" value="Go">
 <input type="hidden" name="add2" value="1">
@@ -181,7 +181,7 @@ Testing (infrequent):
 </div>
 
 <div style="margin-top:45px;"></div>
-<b>Level 7:</b>
+<b><:l('Level 7:'):></b>
 <div style="margin-left: 20px;">
 
 <div style="margin-top:20px;"></div>

@@ -19,22 +19,22 @@
 				 <ul id="header_button">
 				  <li>
 				   <div id="header_button_menu_wrapper">
-				    <a class="header_button_menu_item" id="header_button_menu_title" href="javascript:;">More</a>
+				    <a class="header_button_menu_item" id="header_button_menu_title" href="javascript:;"><:l('More'):></a>
 					 <ul id="header_button_menu">
-					   <li><a href="/settings.html" tabindex="-1">Settings</a></li>
-					   <li><a href="/goodies.html" tabindex="-1">Goodies</a></li>
-					   <li><a href="/about.html" tabindex="-1">About</a></li>
-					   <li><a href="http://help.duckduckgo.com/" tabindex="-1">Help</a></li>
-					   <li><a href="/feedback.html" tabindex="-1">Feedback</a></li>
-					   <li class="header_button_menu_header">PRIVACY</li>
+					   <li><a href="/settings.html" tabindex="-1"><:l('Settings'):></a></li>
+					   <li><a href="/goodies.html" tabindex="-1"><:l('Goodies'):></a></li>
+					   <li><a href="/about.html" tabindex="-1"><:l('About'):></a></li>
+					   <li><a href="http://help.duckduckgo.com/" tabindex="-1"><:l('Help'):></a></li>
+					   <li><a href="/feedback.html" tabindex="-1"><:l('Feedback'):></a></li>
+					   <li class="header_button_menu_header"><:l('PRIVACY'):></li>
 					   <li><a href="http://donttrack.us/" tabindex="-1">DontTrack</a></li>
 					   <li><a href="http://dontbubble.us/" tabindex="-1">DontBubble</a></li>
-					   <li><a href="/privacy.html" tabindex="-1">Policy</a></li>
-					   <li class="header_button_menu_header">COMMUNITY</li>
-					   <li><a href="https://dukgo.com/" tabindex="-1">Platform</a></li>
-					   <li><a href="http://duck.co/" tabindex="-1">Forum</a></li>
-					   <li><a href="http://webchat.freenode.net/?channels=duckduckgo" tabindex="-1">Chat</a></li>
-					   <li><a href="/spread.html" tabindex="-1">Spread</a></li>
+					   <li><a href="/privacy.html" tabindex="-1"><:l('Policy'):></a></li>
+					   <li class="header_button_menu_header"><:l('COMMUNITY'):></li>
+					   <li><a href="https://dukgo.com/" tabindex="-1"><:l('Platform'):></a></li>
+					   <li><a href="http://duck.co/" tabindex="-1"><:l('Forum'):></a></li>
+					   <li><a href="http://webchat.freenode.net/?channels=duckduckgo" tabindex="-1"><:l('Chat'):></a></li>
+					   <li><a href="/spread.html" tabindex="-1"><:l('Spread'):></a></li>
 					 </ul>
 					</div>
 				  </li>
