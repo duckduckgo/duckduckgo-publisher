@@ -1,7 +1,6 @@
-		<div id="header">
-			<div class="content-wrap">
-				<h1>Escape your Search Engine's</h1>
-				<span class="huge">filter bubble</span>
-				<h2>An illustrated guide by <span class="sans"><a href="https://duckduckgo.com" title="DuckDuckGo - A Search Engine!">DuckDuckGo</a></span></h2>
-			</div>
-		</div>
+<div id="header">
+	<div class="content-wrap">
+		<h1><: l("Escape your Search Engine's %s",'<span class="huge">' ~ l('filter bubble') ~ '</span>') :></h1>
+		<h2><: l('An illustrated guide by %s','<span class="sans"><a href="https://duckduckgo.com/?kad=' ~ $f.locale ~ '" title="%s">%s</a></span>',l('%s - A Search Engine!','DuckDuckGo'),'DuckDuckGo') :></h2>
+	</div>
+</div>

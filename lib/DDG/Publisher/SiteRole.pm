@@ -16,6 +16,11 @@ requires qw(
 	locale_domain
 );
 
+has publisher => (
+	is => 'ro',
+	required => 1,
+);
+
 has key => (
 	is => 'ro',
 	required => 1,

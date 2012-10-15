@@ -10,9 +10,19 @@ option no_compression => (
 	default => sub { 0 },
 );
 
+option dryrun => (
+	is => 'ro',
+	predicate => 1,
+);
+
 option publish_version => (
 	is => 'ro',
-	default => sub { 0 }
+	predicate => 1,
+);
+
+option site_only => (
+	is => 'ro',
+	predicate => 1,
 );
 
 sub run {
@@ -25,7 +35,9 @@ sub run {
 	my $dir = dir($target)->absolute;
 	my $publisher = DDG::Publisher->new(
 		no_compression => $self->no_compression,
-		$self->publish_version ? ( publish_version => $self->publish_version ) : (),
+		$self->has_publish_version ? ( publish_version => $self->publish_version ) : (),
+		$self->has_dryrun ? ( dryrun => $self->dryrun ) : (),
+		$self->has_site_only ? ( site_classes => [$self->site_only] ) : (),
 	);
 	print "Publishing to ".$dir." ... ";
 	my $count;

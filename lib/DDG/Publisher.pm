@@ -7,11 +7,17 @@ use Class::Load ':all';
 use IO::All -utf8;
 use HTML::Packer;
 
-sub site_classes {qw(
+has site_classes => (
+	is => 'ro',
+	lazy => 1,
+	builder => 1,
+);
+
+sub _build_site_classes {[qw(
 	Duckduckgo
 	Donttrackus
 	Dontbubbleus
-)}
+)]}
 
 has sites => (
 	is => 'ro',
@@ -26,7 +32,12 @@ has no_compression => (
 
 has publish_version => (
 	is => 'ro',
-	predicate => 'has_publish_version',
+	predicate => 1,
+);
+
+has dryrun => (
+	is => 'ro',
+	predicate => 1,
 );
 
 sub _build_sites { 
@@ -36,8 +47,8 @@ sub _build_sites {
 		load_class($class);
 		s/([a-z])([A-Z])/$1_$2/g;
 		$_ = lc($_);
-		$class->new( key => lc($_) );
-	} $self->site_classes];
+		$class->new( key => lc($_), publisher => $self );
+	} @{$self->site_classes}];
 }
 
 sub BUILD {

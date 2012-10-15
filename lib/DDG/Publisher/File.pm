@@ -79,6 +79,8 @@ sub _build_content {
 	ltd($self->dir->site->locale_domain);
 	l_lang($self->locale);
 
+	l_dry($self->dir->site->publisher->dryrun) if ($self->dir->site->publisher->has_dryrun);
+
 	my %vars = (
 		f => $self,
 		d => $self->dir,
