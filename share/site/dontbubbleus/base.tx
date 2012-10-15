@@ -13,7 +13,7 @@
   
 	<div id="wrapper">
 	
-	  <: include "header.tx" :>
+	  <: include "header.tx" { s => $s } :>
 	  
 	  <div class="content-wrap">
 	    <: include $maintemplate :>

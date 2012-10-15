@@ -79,12 +79,13 @@ sub _build_content {
 	ltd($self->dir->site->locale_domain);
 	l_lang($self->locale);
 
-	l_dry($self->dir->site->publisher->dryrun) if ($self->dir->site->publisher->has_dryrun);
+	l_dry($self->dir->site->publisher->has_dryrun ? $self->dir->site->publisher->dryrun : undef);
 
 	my %vars = (
 		f => $self,
 		d => $self->dir,
 		s => $self->dir->site,
+		locales => $self->dir->site->locale_package->locales,
 		maintemplate => $self->template,
 	);
 
@@ -95,6 +96,9 @@ sub _build_content {
 	%vars = ( %vars, $dir_code->($self,\%vars) ) if $dir_code;
 	%vars = ( %vars, $self->code->($self,\%vars) );
 
+	my @keys = keys %vars;
+	use DDP; p(@keys);
+	p($vars{s});
 	return $self->dir->site->template_engine->render('base.tx',\%vars);
 }
 
