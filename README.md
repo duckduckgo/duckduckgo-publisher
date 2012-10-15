@@ -1,9 +1,9 @@
 # Installation
 
-You require DDGC::Locale::DuckduckgoDuckduckgo and DDG
+You require DDGC::Locale::DuckduckgoDuckduckgo, DDGC::Locale::DuckduckgoDontbubbleus and DDG
 
 ```
-duckpan DDGC::Locale::DuckduckgoDuckduckgo DDG
+duckpan DDGC::Locale::DuckduckgoDuckduckgo DDGC::Locale::DuckduckgoDontbubbleus DDG
 ```
 
 # Publishing

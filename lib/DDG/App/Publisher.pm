@@ -11,16 +11,19 @@ option no_compression => (
 );
 
 option dryrun => (
+	format => 's',
 	is => 'ro',
 	predicate => 1,
 );
 
 option publish_version => (
+	format => 'i',
 	is => 'ro',
 	predicate => 1,
 );
 
 option site_only => (
+	format => 's',
 	is => 'ro',
 	predicate => 1,
 );
