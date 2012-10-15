@@ -23,8 +23,9 @@
 	</div>
 	
     <: include "share_modal.tx" :>
-	<script src="js/plugins.js" type="text/javascript"></script>
-	<script src="js/script.js" type="text/javascript"></script>
+	<script src="common/js/plugins.js" type="text/javascript"></script>
+	<script src="common/js/script.js" type="text/javascript"></script>
+	<script src="js/bubble.js" type="text/javascript"></script>
 	
   </body>
 </html>

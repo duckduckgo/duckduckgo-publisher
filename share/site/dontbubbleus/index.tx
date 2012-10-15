@@ -186,14 +186,14 @@
 				</div>
 			</div>
 			
-			<h4>across the Internet.</h4>
+			<h4>across the Internet and even <a href="http://googleblog.blogspot.com/2009/12/personalized-search-for-everyone.html">when signed out</a>.</h4>
 			<div class="frame-wrap" id="fig17" name="fig17">
 				<div class="frame"><span class="fig">Fig. 17</span>
 					<a target="_blank" href="http://www.amazon.com/Filter-Bubble-What-Internet-Hiding/dp/1594203008/ref=sr_1_1?ie=UTF8&qid=1308070349&sr=8-1"><img src="images/filter8.jpg" alt="poping a bubble full of internet logos" /></a>
 				</div>
 			</div>
 			
-			<h4>We offer you an alternative:  a <a target="_blank" href="https://duckduckgo.com/">search engine</a></h4>
+			<h4>We offer you an alternative:  a <a target="_blank" href="https://duckduckgo.com/">search engine</a>.</h4>
 			<div class="frame-wrap" id="fig18" name="fig18">
 				<div class="frame"><span class="fig">Fig. 18</span>
 				  <a target="_blank" href="https://duckduckgo.com/"><img src="images/ddg.png" alt="DuckDuckGo Homepage" /></a>
@@ -250,5 +250,11 @@
 					-->
 				</div>
 			</div>
-			
-			
+			<h4>
+				<a target="_blank" href="https://duckduckgo.com/">Click here</a> to try now.
+				<script type="text/JavaScript">
+					nib(0,'','&nbsp;','.');
+				</script>
+			</h4>
+			<br><br>
+

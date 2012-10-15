@@ -5,6 +5,19 @@
 				<a class="twitter" target="_twitter" href="https://twitter.com/?status=Escape+your+search+engine's+filter+bubble.+An+illustrated+guide+by+@duckduckgo:+http://DontBubble.us/">Share on Twitter</a>
 				<a class="email" data-reveal-id="share-email">Email to Friends</a>
 			</div>
+			
+			<div style="padding-top:15px;text-align:center;">
+				<form action="https://flash.duckduckgo.com/e.js" method="post">
+					<span class="clu">
+						Get the Internet privacy newsletter (low traffic): &nbsp;
+							<input type="text" size="25" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
+							<input type="submit" class="button" value="Go">
+							<input type="hidden" name="add5" value="1">
+						<p style="margin-top: 10px;"><i>Only used to send you updates about Internet privacy. Period.</i></p>
+					</span>
+				</form>
+			</div>
+			
 			<hr/>
 			
 			<div class="moreinfo">
