@@ -10,7 +10,7 @@
 	<: include "head.tx" :>
   </head>
   <body id="pg-<: $f.filebase :>">
-  
+
 	<div id="wrapper">
 
 	  <: include "header.tx" :>

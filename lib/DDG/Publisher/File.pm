@@ -96,7 +96,6 @@ sub _build_content {
 	%vars = ( %vars, $dir_code->($self,\%vars) ) if $dir_code;
 	%vars = ( %vars, $self->code->($self,\%vars) );
 
-	my @keys = keys %vars;
 	return $self->dir->site->template_engine->render('base.tx',\%vars);
 }
 

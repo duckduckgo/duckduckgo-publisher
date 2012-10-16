@@ -2,9 +2,9 @@
 	<span class="current"><img src="<: $locales[$f.locale].flag_url :>" /><: $locales[$f.locale].name_in_local :></span>
 	<ul class="hide">
 		<: for $locales.keys() -> $locale { :>
-			<li<: if $locale == $f.locale { :> class="current"<: } :>><a href="">
+			<li<: if $locale == $f.locale { :> class="current"<: } :>><a href="<: $s.locale_url('root','index',$locale) :>">
 				<img src="<: $locales[$locale].flag_url :>" />
-				<: $locales[$locale].name_in_english :>
+				<: $locales[$locale].name_in_local :>
 			</a></li>
 		<: } :>
 	</ul>
