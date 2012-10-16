@@ -47,7 +47,7 @@
 	</div>				
 </div>
 
-<h4><: l('and your click history') :>.</h4>
+<h4><: l('and your click history.') :></h4>
 <div class="frame-wrap" id="fig5" name="fig5">
 	<div class="frame"><span class="fig"><: l('Fig. %d',5) :></span>					
 		<img src="images/like.png" alt="<: l('facebook like button') :>" />
