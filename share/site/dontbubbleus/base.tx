@@ -12,8 +12,8 @@
   <body id="pg-<: $f.filebase :>">
   
 	<div id="wrapper">
-	
-	  <: include "header.tx" { s => $s } :>
+
+	  <: include "header.tx" :>
 	  
 	  <div class="content-wrap">
 	    <: include $maintemplate :>

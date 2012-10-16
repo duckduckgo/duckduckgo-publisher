@@ -97,8 +97,6 @@ sub _build_content {
 	%vars = ( %vars, $self->code->($self,\%vars) );
 
 	my @keys = keys %vars;
-	use DDP; p(@keys);
-	p($vars{s});
 	return $self->dir->site->template_engine->render('base.tx',\%vars);
 }
 

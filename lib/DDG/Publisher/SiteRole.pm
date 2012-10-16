@@ -90,11 +90,19 @@ sub _build_template_engine {
 	my ( $self ) = @_;
 	my $site_template_root = dir(dist_dir('DDG-Publisher'),'site',$self->key)->stringify;
 	my $core_template_root = dir(dist_dir('DDG-Publisher'),'core')->stringify;
+	# not necessary, but after i added it, i stored it here
+	my %xslate_locale_functions;
+	for my $key (keys %{ Locale::Simple->coderef_hash }) {
+		$xslate_locale_functions{$key} = sub {
+			my $result = Locale::Simple->coderef_hash->{$key}->(@_);
+			return $result;
+		};
+	}
 	return Text::Xslate->new(
 		path => [$site_template_root,$core_template_root],
 		function => {
 			u => sub { $self->locale_url(@_) },
-			%{ Locale::Simple->coderef_hash },
+			%xslate_locale_functions,
 		},
 	);
 }

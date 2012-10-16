@@ -1,10 +1,8 @@
 <div id="lang-select" class="button">
 	<span class="current"><img src="<: $locales[$f.locale].flag_url :>" /><: $locales[$f.locale].name_in_local :></span>
 	<ul class="hide">
-		<: $s :>
-		<: $s.locale_url('Root','index',$f.locale) :>
 		<: for $locales.keys() -> $locale { :>
-			<li<: if $locale == $f.locale { :> class="current"<: } :>><a href="<: $s.locale_url('Root','index',$locale) :>">
+			<li<: if $locale == $f.locale { :> class="current"<: } :>><a href="">
 				<img src="<: $locales[$locale].flag_url :>" />
 				<: $locales[$locale].name_in_english :>
 			</a></li>

@@ -71,6 +71,7 @@ sub publish_to {
 				my $real_file = file($target,$site->key,$_->fullpath)->absolute;
 				$real_file->dir->mkpath unless -f $real_file->dir->absolute->stringify;
 				my $content = $_->content;
+				utf8::encode($content);
 				if ($packer) {
 					$packer->minify(\$content,{
 						remove_comments => 1,
