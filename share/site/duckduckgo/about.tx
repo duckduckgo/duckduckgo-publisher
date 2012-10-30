@@ -21,7 +21,7 @@
 		<!-- Image fall back for non-HTML5 browser with JavaScript turned off and no Flash player installed (wow just wow) -->
 		<img src="assets/about/about-duckduckgo-posterimg.jpg" width="640" height="360" alt="DuckDuckGo" 
 			title="No video playback capabilities" />
-	</object> 	
+	</object>
 </video>
 <div class="share-buttons"><a class="share-button" href="#" onclick="DDG.toggle('share-panel')">share this</a></div>
 </div>
@@ -32,45 +32,45 @@
 	<a href="https://twitter.com/?status=Check+out+the+'About+@DuckDuckGo'+video:+https://duckduckgo.com/about.html" class="shareon twitter" target="_blank">Share on Twitter</a>
 	<br style="clear: both;"/>
 	<br/>
-	<:l('Embed Elsewhere:'):>
+	<: l('Embed Elsewhere:') :>
 	<br/>
 	<div class="embed-code">&lt;iframe src="https://duckduckgo.com/about-video.html" width="640" height="360"&gt;&lt;/iframe&gt;</div>
 </div>
-<h2><:l('What our search engine does better:'):></h2>
+<h2><: l('What our search engine does better:') :></h2>
 <hr/>
   <div id="features">
     <ul>	 
 	  <li class="answers"><a href="https://duckduckgo.com/goodies.html">
-	   <:l('Better'):> <em><:l('instant answers.'):></em>
+	   <: l('Better %s.','<em>' ~ l('instant answers.') ~ '</em>') :>
 	   <!--blockquote>We have lots of goodies for all types of people.</blockquote-->
 	   </a></li>
 	
-	   <li class="clutter"><:l('Less spam and clutter.'):>
+	   <li class="clutter"><: l('Less spam and clutter.') :>
 	    <!--blockquote>We focus on a cleaner search experience.</blockquote-->
 	   </li>
 	  
 	   <li class="privacy"><a href="http://donttrack.us/">
-	    <:l('We don\'t'):> <em><:l('track you'):></em>.
+	    <: l("We don't %s.",'<em>' ~ l('track you') ~ '</em>') :>
 	    <!--blockquote>We do not collect or share personal information.</blockquote-->
 	   </a></li>
 	  	  
 	   <li class="bubble"><a href="http://dontbubble.us/">
-	    <:l('We don\'t'):> <em><:l('filter bubble'):></em> <:l('you.'):>
+	    <: l("We don't %s you.",'<em>' ~ l('filter bubble') ~ '</em>') :>
 	    <!--blockquote>We do not bias your search results.</blockquote-->
 	   </a></li>
 	  
 	</ul>
   </div>
 
-<h2><:l('Perhaps you\'ve heard about us in'):>&hellip;</h2>
+<h2><: l("Perhaps you've heard about us in") :>&hellip;</h2>
 <hr/>
   <div id="quotes">
     <ul>
 	  <li id="time"><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html"><img src="assets/about/logo_time-full.png" alt="TIME" style="width: 135px;" /><blockquote class="noquote"><:l('Top 50 Best Websites of 2011.'):></blockquote></a></li>
-	  <li id="nyt"><a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3"><img src="assets/about/logo_nyt-full.png" alt="The New York Times" style="width: 320px;"/><blockquote><:l('Distinguishes itself with a'):> &ldquo;<:l('We do not track or bubble you!'):>&rdquo; <:l('policy.'):></blockquote></a></li>	 
-	   <li id="sel"><a href="http://searchengineland.com/could-duckduckgo-be-the-biggest-long-term-threat-to-google-118117"><img src="assets/about/logo_sel-full.png" alt="SearchEngineLand" style="width: 230px;" /><blockquote><:l('Could DuckDuckGo Be The Biggest Long-Term Threat To Google?'):></blockquote></a></li>
-	  <li id="pc"><a href="http://www.pcmag.com/article2/0,2817,2397697,00.asp"><img src="assets/about/logo_pcmag-full.png" alt="PC Mag" style="width: 70px;" /><blockquote class="noquote"><:l('Top 100 Best Websites of 2011.'):></blockquote></a></li>	  
-	  <li id="lhck"><a href="http://lifehacker.com/5912105/add-duckduckgos-smart-zero+click-info-results-to-google-searches-in-chrome"><img src="assets/about/logo_lifehacker-full.png" alt="lifehacker" style="width: 153px;" /><blockquote><:l('Our favorite alternative search engine, DuckDuckGo'):></blockquote></a></li>
+	  <li id="nyt"><a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3"><img src="assets/about/logo_nyt-full.png" alt="The New York Times" style="width: 320px;"/><blockquote><: l('Distinguishes itself with a %s policy','&ldquo;' ~ l('We do not track or bubble you!') ~ '&rdquo;' ):></blockquote></a></li>
+	   <li id="sel"><a href="http://searchengineland.com/could-duckduckgo-be-the-biggest-long-term-threat-to-google-118117"><img src="assets/about/logo_sel-full.png" alt="SearchEngineLand" style="width: 230px;" /><blockquote><: l('Could DuckDuckGo Be The Biggest Long-Term Threat To Google?') :></blockquote></a></li>
+	  <li id="pc"><a href="http://www.pcmag.com/article2/0,2817,2397697,00.asp"><img src="assets/about/logo_pcmag-full.png" alt="PC Mag" style="width: 70px;" /><blockquote class="noquote"><: l('Top 100 Best Websites of 2011.') :></blockquote></a></li>	  
+	  <li id="lhck"><a href="http://lifehacker.com/5912105/add-duckduckgos-smart-zero+click-info-results-to-google-searches-in-chrome"><img src="assets/about/logo_lifehacker-full.png" alt="lifehacker" style="width: 153px;" /><blockquote><: l('Our favorite alternative search engine, DuckDuckGo') :></blockquote></a></li>
 	 	  
 	  <!--li id="about"><a href="http://websearch.about.com/od/2011-readers-choice-awards/ss/2011-About-Web-Search-Readers-Choice-Awards-The-Winners_2.htm"><img src="assets/about/logo_about-full.png" alt="About.com" /><blockquote class="noquote"><img src="assets/best-search-engine-2011.jpg" alt="About.com 2011 Reader's Choice Award Winner" /></blockquote></a></li-->
 	  <!--li id="wired"><img src="assets/about/logo_wired-full.png" alt="Wired" /><blockquote>Still room for <br/>innovation in search.</blockquote></li-->
@@ -81,7 +81,7 @@
 	</ul>
   </div>
 
-<h2><:l('What are you waiting for?'):></h2>
+<h2><: l('What are you waiting for?') :></h2>
 <hr/>
   <div id="spread">
 

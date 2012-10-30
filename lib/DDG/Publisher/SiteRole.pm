@@ -77,7 +77,7 @@ sub load_locale_package {
 sub locales {
 	my ( $self ) = @_;
 	$self->load_locale_package;
-	return (keys $self->locale_package->locales);
+	return (keys %{$self->locale_package->locales});
 }
 
 has template_engine => (
