@@ -8,25 +8,25 @@
 			nib(0,'','&nbsp;&nbsp;','',0,1);
 			{function seterr(str) {var error=document.getElementById('error_homepage');
 			error.innerHTML=str;
-			YAHOO.util.Dom.setStyle(error,'display','block');}var err=new RegExp('[\?\&]e=([^\&]+)');var errm=new Array();errm['2']='no search';errm['3']='search too long';errm['4']='not UTF-8 encoding';if (err.test(window.location.href)) seterr('Oops, '+(errm[RegExp.$1]?errm[RegExp.$1]:'there was an error')+'. &nbsp;Please try again');};if (ip) setTimeout('nuo(1)',250);nip(1)
+			YAHOO.util.Dom.setStyle(error,'display','block');}var err=new RegExp('[\?\&]e=([^\&]+)');var errm=new Array();errm['2']='<: l('no search') :>';errm['3']='<: l('search too long') :>';errm['4']='<: l('not UTF-8 encoding') :>';if (err.test(window.location.href)) seterr('Oops, '+(errm[RegExp.$1]?errm[RegExp.$1]:'<: l('there was an error.') :>')+' &nbsp;<: l('Please try again') :>');};if (ip) setTimeout('nuo(1)',250);nip(1)
 		</script>
 		&nbsp;&nbsp;
-		<a href="#" onclick="DDG.toggle('add_to_browser',-1);DDG.toggle('add_to_browser_homepage',-1);DDG.toggle('more_menu')"><:l('More'):></a>
+		<a href="#" onclick="DDG.toggle('add_to_browser',-1);DDG.toggle('add_to_browser_homepage',-1);DDG.toggle('more_menu')"><: l('More') :></a>
 		<ul id="more_menu">
-		  <li><a href="/settings.html" tabindex="-1"><:l('Settings'):></a></li>
-		  <li><a href="/goodies.html" tabindex="-1"><:l('Goodies'):></a></li>
-		  <li><a href="/about.html" tabindex="-1"><:l('About'):></a></li>
-		  <li><a href="http://help.duckduckgo.com/" tabindex="-1"><:l('Help'):></a></li>
-		  <li><a href="/feedback.html" tabindex="-1"><:l('Feedback<'):>/a></li>
-		  <li class="more_menu_header"><:l('PRIVACY<'):>/li>
+		  <li><a href="/settings.html" tabindex="-1"><: l('Settings') :></a></li>
+		  <li><a href="/goodies.html" tabindex="-1"><: l('Goodies') :></a></li>
+		  <li><a href="/about.html" tabindex="-1"><: l('About') :></a></li>
+		  <li><a href="http://help.duckduckgo.com/" tabindex="-1"><: l('Help') :></a></li>
+		  <li><a href="/feedback.html" tabindex="-1"><: l('Feedback<') :>/a></li>
+		  <li class="more_menu_header"><: l('PRIVACY<') :>/li>
 		  <li><a href="http://donttrack.us/" tabindex="-1">DontTrack</a></li>
 		  <li><a href="http://dontbubble.us/" tabindex="-1">DontBubble</a></li>
-		  <li><a href="/privacy.html" tabindex="-1"><:l('Policy'):></a></li>
-		  <li class="more_menu_header"><:l('COMMUNITY'):></li>
-		  <li><a href="https://dukgo.com/" tabindex="-1"><:l('Platform'):></a></li>
-		  <li><a href="http://duck.co/" tabindex="-1"><:l('Forum'):></a></li>
-		  <li><a href="http://webchat.freenode.net/?channels=duckduckgo" tabindex="-1"><:l('Chat'):></a></li>
-		  <li><a href="/spread.html" tabindex="-1"><:l('Spread'):></a></li>
+		  <li><a href="/privacy.html" tabindex="-1"><: l('Policy') :></a></li>
+		  <li class="more_menu_header"><: l('COMMUNITY') :></li>
+		  <li><a href="https://dukgo.com/" tabindex="-1"><: l('Platform') :></a></li>
+		  <li><a href="http://duck.co/" tabindex="-1"><: l('Forum') :></a></li>
+		  <li><a href="http://webchat.freenode.net/?channels=duckduckgo" tabindex="-1"><: l('Chat') :></a></li>
+		  <li><a href="/spread.html" tabindex="-1"><: l('Spread') :></a></li>
 		</ul>
 	</div>
 </div>

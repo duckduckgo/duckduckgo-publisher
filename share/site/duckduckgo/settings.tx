@@ -1,7 +1,7 @@
 <div class="yui-skin-sam">
 
 <div id="yui-picker-panel" class="yui-picker-panel" style="display:none">
-  <div class="hd" id="yui-picker-msg">Please choose a color:</div>
+  <div class="hd" id="yui-picker-msg"><: l('Please choose a color:') :></div>
   <div class="bd">
       <div class="yui-picker" id="yui-picker"></div>
     </div>
@@ -11,18 +11,18 @@
 
 
 <div id="saveDialog" style="display:none">
-    <div class="hd">Cloud Save</div>
+    <div class="hd"><: l('Cloud Save') :></div>
     <div class="bd">
         <p>
-        Save your settings anonymously in the cloud!
+        <: l('Save your settings anonymously in the cloud!') :>
         </p>
             <!-- since we're encouraging people to use a pass phrase of actual words, we won't turn off autocorrect. -->
             <p id="pwbox"><input type="text" name="pw" class="userinfo" id="cloud_pw" size="50" autocapitalize="off" onfocus="YD.setStyle('pwstrengthbox', 'display', 'block')" onchange="S.pwstr();" onkeyup="S.pwstr();" onkeydown="S.pwstr();" placeholder="pass phrase"/> <!-- onkeypress="phrasing();" -->
-            <br><a class="xb" onclick="S.passphrase();">suggest</a>
+            <br><a class="xb" onclick="S.passphrase();"><: l('suggest') :></a>
             </p>
 
             <div id="pwstrengthbox">
-                Pass phrase strength
+                <: l('Pass phrase strength') :>
                 <div id="pwstrength">
                     <div id="pwmeter"></div>
                 </div>
@@ -32,12 +32,12 @@
 </div>
 
 <div id="loadDialog" style="display:none">
-    <div class="hd">Load Cloud Settings</div>
+    <div class="hd"><: l('Load Cloud Settings') :></div>
     <div class="bd">
-          <p>Enter your pass phrase to load your settings from the cloud.</p>
+          <p><: l('Enter your pass phrase to load your settings from the cloud.') :></p>
         <p id="pwbox"><input type="password" name="pw" class="userinfo" id="cloud_load_pw" size="50" autocapitalize="off" placeholder="pass phrase"/></p>
         <!-- <a class="xb" onclick="toggleLoadPW(this);">Show pass phrase</a> -->
-        <input type="checkbox" id="togpw" onclick="S.toggleLoadPW(this);" /> <label for="togpw">Show pass phrase</label>
+        <input type="checkbox" id="togpw" onclick="S.toggleLoadPW(this);" /> <label for="togpw"><: l('Show pass phrase') :></label>
     </div>
 </div>
 
@@ -52,7 +52,7 @@
 
     <script src="js/r/settings268.js" type="text/javascript"></script>
 	
-	<div id="zero_click_header">Settings</div>
+	<div id="zero_click_header"><: l('Settings') :></div>
 
 
     <div id="x_preview">
