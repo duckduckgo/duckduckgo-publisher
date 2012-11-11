@@ -70,14 +70,7 @@
 	  <li id="nyt"><a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3"><img src="assets/about/logo_nyt-full.png" alt="The New York Times" style="width: 320px;"/><blockquote><: l('Distinguishes itself with a %s policy','&ldquo;' ~ l('We do not track or bubble you!') ~ '&rdquo;' ):></blockquote></a></li>
 	   <li id="sel"><a href="http://searchengineland.com/could-duckduckgo-be-the-biggest-long-term-threat-to-google-118117"><img src="assets/about/logo_sel-full.png" alt="SearchEngineLand" style="width: 230px;" /><blockquote><: l('Could DuckDuckGo Be The Biggest Long-Term Threat To Google?') :></blockquote></a></li>
 	  <li id="pc"><a href="http://www.pcmag.com/article2/0,2817,2397697,00.asp"><img src="assets/about/logo_pcmag-full.png" alt="PC Mag" style="width: 70px;" /><blockquote class="noquote"><: l('Top 100 Best Websites of 2011.') :></blockquote></a></li>	  
-	  <li id="lhck"><a href="http://lifehacker.com/5912105/add-duckduckgos-smart-zero+click-info-results-to-google-searches-in-chrome"><img src="assets/about/logo_lifehacker-full.png" alt="lifehacker" style="width: 153px;" /><blockquote><: l('Our favorite alternative search engine, DuckDuckGo') :></blockquote></a></li>
-	 	  
-	  <!--li id="about"><a href="http://websearch.about.com/od/2011-readers-choice-awards/ss/2011-About-Web-Search-Readers-Choice-Awards-The-Winners_2.htm"><img src="assets/about/logo_about-full.png" alt="About.com" /><blockquote class="noquote"><img src="assets/best-search-engine-2011.jpg" alt="About.com 2011 Reader's Choice Award Winner" /></blockquote></a></li-->
-	  <!--li id="wired"><img src="assets/about/logo_wired-full.png" alt="Wired" /><blockquote>Still room for <br/>innovation in search.</blockquote></li-->
-	  <!--li id="cnn"><img src="assets/about/logo_cnn-full.png" alt="CNN" /><blockquote>It has less clutter.</blockquote></li-->
-	  <!--li id="tnw"><img src="assets/about/logo_tnw-full.png" alt="The Next web" /><blockquote>If DuckDuckGo has anything to say about it, the future of search with be hackable.</blockquote></li-->
-	  <!--li id="tc"><img src="assets/about/logo_tc-full.png" alt="TechCrunch" /><blockquote>a search engine that prides itself on having more relevant results than Google or Bing.</blockquote></li-->
-	 
+	  <li id="lhck"><a href="http://lifehacker.com/5912105/add-duckduckgos-smart-zero+click-info-results-to-google-searches-in-chrome"><img src="assets/about/logo_lifehacker-full.png" alt="lifehacker" style="width: 153px;" /><blockquote><: l('Our favorite alternative search engine, DuckDuckGo') :></blockquote></a></li>	 
 	</ul>
   </div>
 
@@ -85,20 +78,20 @@
 <hr/>
   <div id="spread">
 
-<p class="big"><a href="https://duckduckgo.com/">Search</a> us. &nbsp;<a href="https://duckduckgo.com/spread.html">Join</a> us. &nbsp;<a href="http://duckduckhack.com">Hack</a> us.</p>
+<p class="big"><: lp('useus', '%s us.','<a href="https://duckduckgo.com/">' ~ lp('useus','Use') ~ '</a>') :> &nbsp;<: lp('spreadus','%s us.','<a href="https://duckduckgo.com/spread.html">' ~ lp('spreadus','Spread') ~ '</a>') :> &nbsp;<: lp('hackus', '%s us.', '<a href="http://duckduckhack.com">' ~ lp('hackus','Hack') ~ '</a>') :> &nbsp;<: lp('translateus', '%s us.', '<a href="http://dukgo.com/">' ~ lp('translateus','Translate') ~ '</a>') :></p>
 
 <div class="newsletter"></div>
 <form action="https://flash.duckduckgo.com/e.js" method="post">
 <span class="clu">
 <:l('Monthly newsletter:'):> &nbsp;
-<input type="text" size="15" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
+<input type="text" size="15" name="from" value="<: l('email address') :>" style="color:#888" onclick="if (this.value=='<: l('email address') :>') {this.value='';this.style.color='#000000';}">
 <input type="submit" value="Go">
 <input type="hidden" name="add3" value="1">
 </span>
 </form>
 
 <div class="like"></div>
-<a href="http://twitter.com/duckduckgo" class="twitter-follow-button">Follow @duckduckgo</a>
+<a href="http://twitter.com/duckduckgo" class="twitter-follow-button"><: l('Follow %s','@duckduckgo') :></a>
 <script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
 
 <div class="like"></div>
@@ -108,6 +101,6 @@
 
 <script>
 $('video,audio').mediaelementplayer(/* Options go here - we don't need no stinking options{mode:'auto_plugin'}*/);
-$('#search_form_input').attr('value','<:l('About DuckDuckGo'):>');
-$('#search_form_input').attr('placeholder','<:l('About DuckDuckGo'):>');
+$('#search_form_input').attr('value','<: l('About DuckDuckGo') :>');
+$('#search_form_input').attr('placeholder','<: l('About DuckDuckGo') :>');
 </script>

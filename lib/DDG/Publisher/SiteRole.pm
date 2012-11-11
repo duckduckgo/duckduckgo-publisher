@@ -102,6 +102,7 @@ sub _build_template_engine {
 		path => [$site_template_root,$core_template_root],
 		function => {
 			u => sub { $self->locale_url(@_) },
+			js => sub { javascript_value_escape(join("",@_)) },
 			%xslate_locale_functions,
 		},
 	);
