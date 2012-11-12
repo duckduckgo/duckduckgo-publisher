@@ -6,16 +6,16 @@
 </style>
 
 
-<div id="zero_click_header"><:l('Spread DDG!'):></div>
+<div id="zero_click_header"><: l('Spread DDG!') :></div>
 
 <div style="margin-top:30px;"></div>
 
-<b><:l('Unfortunate fact:'):></b> <:l('most people have never heard of DuckDuckGo.'):>
+<b><:l('Unfortunate fact:'):></b> <: l('most people have never heard of DuckDuckGo.') :>
 <div style="margin-top:15px;"></div>
-<:l('So we\'d really appreciate your help in getting the word out!'):>
+<:l("So we'd really appreciate your help in getting the word out!"):>
 
 <div style="margin-top:45px;"></div>
-<b><:l('Level 1:'):>&nbsp; <:l('Use DuckDuckGo'):></b>
+<b><:l('Level 1:'):>&nbsp; <: l('Use DuckDuckGo') :></b>
 
 <div style="margin-left: 20px;">
 
@@ -37,7 +37,7 @@
 <div style="margin-left: 20px;">
 
 <div style="margin-top:20px;"></div>
-<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://duckduckgo.com/" data-text="I now use DuckDuckGo as my primary search engine and you should too!" data-count="horizontal" data-via="duckduckgo">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://duckduckgo.com/" data-text="<: l('I now use DuckDuckGo as my primary search engine and you should too!') :>" data-count="horizontal" data-via="duckduckgo">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
 
 <div style="margin-top:12px;"></div>
 <div id="fb-root"></div><script src="https://connect.facebook.net/en_US/all.js#appId=161709093903193&amp;xfbml=1"></script><fb:like href="http://facebook.com/duckduckgo" send="false" width="300" show_faces="false" action="like" font="segoe ui"></fb:like>
@@ -67,13 +67,13 @@
 <div style="margin-left: 20px;">
 
 <div style="margin-top:20px;"></div>
-<a href="http://twitter.com/duckduckgo" class="twitter-follow-button">Follow @duckduckgo</a>
+<a href="http://twitter.com/duckduckgo" class="twitter-follow-button"><: l('Follow %s','@duckduckgo') :></a>
 <script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
 
 <p style="margin-top: 10px;">
 <form action="https://flash.duckduckgo.com/e.js" method="post">
 <span class="clu">
-<:l('Newsletter:'):> &nbsp;
+<: l('Newsletter:') :> &nbsp;
 <input type="text" size="15" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
 <input type="submit" value="Go">
 <input type="hidden" name="add3" value="1">
@@ -85,32 +85,32 @@
 
 
 <div style="margin-top:45px;"></div>
-<b><:l('Level 4:'):>&nbsp; <:l('Promote DuckDuckGo Online'):></b>
+<b><:l('Level 4:'):>&nbsp; <: l('Promote DuckDuckGo Online') :></b>
 <div style="margin-left: 20px;">
 
 <div style="margin-top:20px;"></div>
 <span class="clu">
-<:l('Use a DuckDuckGo link or'):> <a href="https://duck.co/#topic/28469000000437075"><:l('userbar'):></a> <:l('for your email signature.'):>
+<: l('Use a DuckDuckGo link or %s for your email signature.','<a href="https://duck.co/#topic/28469000000437075">' ~ l('userbar') ~ '</a>'):>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-<:l('Add a'):> <a href="http://duckduckgo.com/search_box.html"><:l('search box'):></a> <:l('to your site.'):>
+<: l('Add a %s to your site.','<a href="http://duckduckgo.com/search_box.html">' ~ l('search box') ~ '</a>') :>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-<:l('Write a blog post.'):>
+<: l('Write a blog post.') :>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-<:l('Comment on relevant news articles about DuckDuckGo.'):>
+<: l('Comment on relevant news articles about DuckDuckGo.') :>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-<:l('Get a'):> <a href="http://dukgo.com/"><:l('dukgo.com account'):></a>.
+<: l('Get a %s.','<a href="https://dukgo.com/">' ~ l('%s account','dukgo.com') ~ '</a>') :>
 </span>
 
 <p style="margin-top: 8px;">

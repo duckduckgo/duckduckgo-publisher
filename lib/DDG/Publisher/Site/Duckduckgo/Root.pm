@@ -31,6 +31,7 @@ sub statics {{
 	duckduckbot => sub {},
 	terms => sub {},
 	traffic => sub {},
+	stickers => sub {},
 	######
 	asciitable => sub {
 		no_wrapper => 1,

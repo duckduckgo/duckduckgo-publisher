@@ -56,7 +56,7 @@
 
 
     <div id="x_preview">
-      <p>Preview</p>
+      <p><: l('Preview') :></p>
       <div id="x_preview_content">
         <div id="r1-1" class="results_links_deep highlight_d2" onmouseover="YD.addClass(this,'highlight')" onmouseout="YD.removeClass(this,'highlight')">
           <div id="xp_icon" class="icon_fav2">
@@ -65,11 +65,11 @@
             </a>
           </div>
           <div id="xp_links" class="links_main links_deep">
-            <h2 id="xp_title"><a class="large">Search result title</a></h2>
+            <h2 id="xp_title"><a class="large"><: l('Search result title') :></a></h2>
             <div id="xp_snippet" class="snippet">
-              snippet text
+              <: l('snippet text') :>
             </div>
-            <div id="xp_ka"><a class="url">link to the site</a></div>
+            <div id="xp_ka"><a class="url"><: l('link to the site') :></a></div>
           </div>
         </div>
       </div><!-- x_preview_content -->
@@ -81,9 +81,9 @@
 
 <div id="resetall">
     <div id="reset_inner">
-        <div style="display:block; float:right"><a class="xb" href="javascript:;" onclick="S.resetToDefaults(true)">Reset all settings to defaults</a></div>
+        <div style="display:block; float:right"><a class="xb" href="javascript:;" onclick="S.resetToDefaults(true)"><: l('Reset all settings to defaults') :></a></div>
         <div id="mib" style="display:inline-block">
-            <a class="xb" onclick="DDG.toggle('more_data');" title="Show details of your settings including bookmarklet">Bookmarklet and settings data</a>
+            <a class="xb" onclick="DDG.toggle('more_data');" title="<: l('Show details of your settings including bookmarklet') :>"><: l('Bookmarklet and settings data') :></a>
         </div>
     </div>
 </div>
@@ -95,45 +95,43 @@
     <div id="otherways">
 
     <p>
-    By default, your settings are stored in non-personal browser cookies (in your
-    browser). You can use Anonymous Cloud Save to store your settings in a more
-    permanent way (on a remote server in the cloud). No personally identifiable
-    information will be stored in the cloud, and your pass phrase will never leave
-    your browser.
+    <: l('By default, your settings are stored in non-personal browser cookies (in your browser).' :>
+    <: l('You can use Anonymous Cloud Save to store your settings in a more permanent way (on a remote server in the cloud).') :>
+    <: l('No personally identifiable information will be stored in the cloud, and your pass phrase will never leave your browser.') :>
     </p>
 
         <ul>
           <li class="wides">
                 <p>
-                  <em>Your settings as a URL parameter bookmarklet:</em>
+                  <em><: l('Your settings as a URL parameter bookmarklet:') :></em>
                 </p>
                 <div id="params"></div>
-                  <p style="padding-left:18px;">(see the <a href="http://duckduckgo.com/params.html">URL Parameters</a> page for detailed descriptions)</p>
+                  <p style="padding-left:18px;"><: l('(see the %s page for detailed descriptions)','<a href="http://duckduckgo.com/params.html">' ~ l('URL Parameters' ~ '</a>') :></p>
             </li>
 
             <li id="cloudkeynotice" class="wides">
                 <p>
-                <em>Your settings as a cloud save bookmarklet:</em>
+                <em><: l('Your settings as a cloud save bookmarklet:') :></em>
                 </p>
                 <p><a target="_new" id="cloudbookmarklet"></a></p>
             </li>
             
             <li id="objectkeynotice" class="wides">
                 <p>
-                <em>Direct link to your settings in the cloud</em>
+                <em><: l('Direct link to your settings in the cloud') :></em>
                 </p>
                 <p><a target="_new" id="objectlink"></a></p>
             </li>
 
             <li class="mids midsl">
                 <p>
-                <em>Your settings in JSON format:</em>
+                <em><: l('Your settings in %s format:','JSON') :></em>
                 </p>
                 <div id="jso"></div>
             </li>
 
 
-            <li class="mids"><em>Your browser cookies:</em>
+            <li class="mids"><em><: l('Your browser cookies:') :></em>
                 <div id="cook"></div>
             </li>
         </ul>
@@ -155,8 +153,8 @@
             <div>
                 <!-- <input id="stopCloudButton" type="button" value="Disable" display="none" onclick="S.disableCloud();"> -->
                 <!-- <input id="deleteButton" type="button" value="Delete my data" display="none" onclick="S.deleteUserData();"> -->
-                <input id="stopCloudButton" type="button" value="Disable" display="none" \>
-                <input id="deleteButton" type="button" value="Delete my data" display="none" \>
+                <input id="stopCloudButton" type="button" value="<: l('Disable') :>" display="none" \>
+                <input id="deleteButton" type="button" value="<: l('Delete my data') :>" display="none" \>
             </div>
 
 
@@ -166,111 +164,108 @@
 
         <div id="loadForm">
 
-            <h4>Cloud Save</h4>
+            <h4><: l('Cloud Save') :></h4>
 
             <p>
-            Save your settings anonymously in the cloud!
+            <: l('Save your settings anonymously in the cloud!') :>
             </p>
 
             <p>
             <!-- <input id="saveButton" type="button" value="Save Settings" onclick="S.showSaveDialog();"/> -->
             <!-- <input id="loadButton" type="button" value="Load Settings" onclick="S.showLoadDialog();"/> -->
-            <input id="saveButton" type="button" value="Save Settings" />
-            <input id="loadButton" type="button" value="Load Settings" />
+            <input id="saveButton" type="button" value="<: l('Save Settings') :>" />
+            <input id="loadButton" type="button" value="<: l('Load Settings') :>" />
             </p>
 
             <p>
-            <a class="xb" onclick="DDG.toggle('whatisthis');">What is this?</a>
+            <a class="xb" onclick="DDG.toggle('whatisthis');"><: l('What is this?') :></a>
             </p>
             <div id="whatisthis" style="display:none">
 
-              <h5>Cloud Save FAQ</h5>
+              <h5><: l('Cloud Save FAQ') :></h5>
 
               <p>
-              Cloud Save lets you save your settings more permanently by entering a passphrase. It is entirely optional.
+              <: l('Cloud Save lets you save your settings more permanently by entering a passphrase. It is entirely optional.') :>
               </p>
 
               <p>
-              This has a few benefits:
+              <: l('This has a few benefits:') :>
               </p>
 
               <ul>
-                <li>You can share your settings among computers and browsers.</li>
-                <li>You can restore your settings after deleting cookies</li>
-                <li>You can store several sets of settings for different purposes.</li>
+                <li><: l('You can share your settings among computers and browsers.') :></li>
+                <li><: l('You can restore your settings after deleting cookies') :></li>
+                <li><: l('You can store several sets of settings for different purposes.') :></li>
               </ul>
 
 
-              <h5>What information gets saved?</h5>
+              <h5><: l('What information gets saved?') :></h5>
 
-              <p>Only the settings that you have changed. They are detailed on the <a href="https://duckduckgo.com/params.html">URL Parameters</a> page.</p>
+              <p><: l('Only the settings that you have changed. They are detailed on the %s page.', '<a href="https://duckduckgo.com/params.html">' ~ l('URL Parameters') ~ '</a>') :></p>
               
 
-              <h5>How does it work?</h5>
+              <h5><: l('How does it work?') :></h5>
 
-              <p>Your passphrase is used to generate a key using the Secure Hash Algorithm known
-              as <a href="http://en.wikipedia.org/wiki/SHA-2">SHA-2</a>, using a 512 bit key. Your passphrase never leaves the browser,
-              only the key and the settings file associated with it.  We save the settings
-              file on Amazon S3 using the generated key as the name. In the interest of
-              transparency, this data is not encrypted: you can see exactly what information we store.</p>
+              <p><: l('Your passphrase is used to generate a key using the Secure Hash Algorithm known
+              as %, using a %s bit key.', '<a href="http://en.wikipedia.org/wiki/SHA-2">SHA-2</a>','512') :>
+              <: l('Your passphrase never leaves the browser, only the key and the settings file associated with it.') :>
+              <: l('We save the settings file on Amazon S3 using the generated key as the name.') :>
+              <: l('In the interest of transparency, this data is not encrypted: you can see exactly what information we store.') :></p>
 
               <ul>
-              <li>Passphrases cannot feasibly be reverse engineered from a key</li>
-              <li>Even if you could do that, there is no point since all the information is there in the open, unencrypted,
-              provided you know the key.</li>
-              <li>DuckDuckGo does not ever know your passphrase.</li>
+              <li><: l('Passphrases cannot feasibly be reverse engineered from a key') :></li>
+              <li><: l('Even if you could do that, there is no point since all the information is there in the open, unencrypted, provided you know the key.') :></li>
+              <li><: l('DuckDuckGo does not ever know your passphrase.') :></li>
               </ul>
 
-              <h5>What is the cloud save bookmarklet and how does it differ from the URL parameter bookmarklet?</h5>
+              <h5><: l('What is the cloud save bookmarklet and how does it differ from the URL parameter bookmarklet?') :></h5>
 
               <p>
-              The cloud save bookmarklet is a URL that automatically enables cloud save.The benefit of this over using the URL parameters
-              bookmarklet is that when you change settings, they will automatically be saved in the cloud.
+              <: l('The cloud save bookmarklet is a URL that automatically enables cloud save.') :>
+              <: l('The benefit of this over using the URL parameters bookmarklet is that when you change settings, they will automatically be saved in the cloud.') :>
               </p>
 
-              <h5>How is it anonymous?</h5>
+              <h5><: l('How is it anonymous?') :></h5>
 
-              <p>We do not have usernames and we don't store any personally identifiable information.</p>
+              <p><: l("We do not have usernames and we don't store any personally identifiable information.") :></p>
 
-              <h5>How does passphrase generation work?</h5>
+              <h5><: l('How does passphrase generation work?') :></h5>
 
-              <p>Each time you ask for a passphrase suggestion, we get a reasonably large list of random words
-              from the DuckDuckGo servers.  In the browser, we then select four or five random words from that list,
-              ensuring that it is at least 18-20 characters long. It is easier to remember four or five words
-              than 10 random letters and numbers, and far more secure.</p>
+              <p><: l('Each time you ask for a passphrase suggestion, we get a reasonably large list of random words from the DuckDuckGo servers.') :>
+              <: l('In the browser, we then select four or five random words from that list, ensuring that it is at least 18-20 characters long.') :>
+              <: l('It is easier to remember four or five words than 10 random letters and numbers, and far more secure.') :></p>
 
-              <h5>How do I change my passphrase?</h5>
+              <h5><: l('How do I change my passphrase?') :></h5>
 
-              <p>You can do this by saving your settings under a different passphrase, optionally deleting the first set.</p>
+              <p><: l('You can do this by saving your settings under a different passphrase, optionally deleting the first set.') :></p>
 
               <ol>
-              <li>Enable cloud save by enter your existing passphrase.</li>
-              <li>Push "Delete my data". This removes the data from the cloud, but it remains in your browser until
-              you click on "reset all settings to defaults".</li>
-              <li>Enter a new passphrase and click Save Settings. This will save your data under your new passphrase.</li>
+              <li><: l('Enable cloud save by enter your existing passphrase.') :></li>
+              <li><: l('Push "%s". This removes the data from the cloud, but it remains in your browser until you click on "%s".',l('Delete my data'),l('Reset all settings to defaults')) :></li>
+              <li><: l('Enter a new passphrase and click "%s". This will save your data under your new passphrase.',l('Save Settings')) :></li>
               </ol>
 
-              <h5>I forgot my passphrase. Can you recover it?</h5>
+              <h5><: l('I forgot my passphrase. Can you recover it?') :></h5>
 
-              <p>No. Unless you deleted your settings, the settings file will still be there but we have no
-              way of associating it with you. We cannot reverse the passphrase key generation. We don't associate
-              your IP address or browser fingerprint or any other information with the file.</p>
+              <p><: l("No. Unless you deleted your settings, the settings file will still be there but we have no way of associating it with you.") :>
+              <: l("We cannot reverse the passphrase key generation.") :>
+              <: l("We don't associate your IP address or browser fingerprint or any other information with the file.") :></p>
 
-              <h5>Is deleted data really deleted?</h5>
+              <h5><: l('Is deleted data really deleted?') :></h5>
 
-              <p>Yes</p> 
+              <p><: l('Yes') :></p> 
 
 
-              <h6>See Also</h6>
+              <h6><: l('See Also') :></h6>
 
               <ul>
-                <li><a href="https://duck.co/topic/a-preview-of-the-new-settings-system">Cloud Save discussion on duck.co</a></li>
-                <li><a href="http://help.duckduckgo.com/customer/portal/topics/97187-settings/articles">DuckDuckGo Support Center</a></li>
+                <li><a href="https://duck.co/topic/a-preview-of-the-new-settings-system"><: l('Cloud Save discussion on %s','duck.co') :></a></li>
+                <li><a href="http://help.duckduckgo.com/customer/portal/topics/97187-settings/articles"><: l('DuckDuckGo Support Center') :></a></li>
               </ul>
               
 
               <p style="line-height:3;vertical-align:bottom">
-              <a class="xb" onclick="DDG.toggle('whatisthis')">hide this FAQ</a>
+              <a class="xb" onclick="DDG.toggle('whatisthis')"><: l('hide this FAQ') :></a>
               </p>
 
               <p style="line-height:2;vertical-align:bottom;font-size:smaller">
@@ -290,8 +285,8 @@
     <!-- You can also <a href="javascript:;" onclick="load()">load settings</a> from a URL parameter string. -->
     <!-- Or <a href="javascript:;" onclick="resetToDefaults()">reset all settings</a>. -->
         <p>
-        This page requires Javascript to function.
-        If you want to use DuckDuckGo without JavaScript, please use our <a href="/html">HTML</a> or <a href="/lite">lite</a> versions.
+        <: l('This page requires Javascript to function.') :>
+        <: l('If you want to use DuckDuckGo without JavaScript, please use our %s or %s versions.','<a href="/html">HTML</a>','<a href="/lite">' ~ l('lite') ~ '</a>') :>
         </p>
 
     </div>
