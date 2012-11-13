@@ -1,4 +1,4 @@
-<div id="zero_click_header">New !bang</div>
+<div id="zero_click_header"><: lp('newbang','New %s','!bang') :></div>
 
 <script type="text/JavaScript">
 var i;
@@ -204,7 +204,7 @@ function validate_form (){
         return valid;
     }
     else {
-        alert ("The following required fields were not filled:\n" + missing);
+        alert ("<: js(l('The following required fields were not filled:')) :>\n" + missing);
         return valid;
     }
 }
@@ -214,45 +214,45 @@ function validate_form (){
 
 <form name="y" style="margin-top:20px;" method="post" action="https://flash.duckduckgo.com/e.js" onsubmit="return validate_form ();">
 
-Email (optional): 
+<: l('Email') :> (<: l('optional') :>): 
 <br><input type="text" name="from" size="20">
 
 <div style="padding-top:20px;"></div>
-Site name, e.g. DuckDuckGo or The New York Times
+<: l('Site name, e.g. %s or %s','DuckDuckGo','The New York Times') :>
 <br><input type="text" name="bang_site" size="20">
 
 <div style="padding-top:20px;"></div>
-Bang command, e.g. duckduckgo (usually is domain name, e.g. nytimes)
+<: l('Bang command, e.g. %s (usually is domain name, e.g. %s)','duckduckgo','nytimes') :>
 <br>!<input type="text" name="bang_command" size="10">
 
 <div style="padding-top:20px;"></div>
-Bang Url, e.g. http://duckduckgo.com/?q={{{s}}}
-<br> &nbsp; Mark where the search goes with {{{s}}}
+<: l('Bang Url, e.g. %s','http://duckduckgo.com/?q={{{s}}}') :>
+<br> &nbsp; <: l('Mark where the search goes with {{{s}}}') :>
 <br><input type="text" name="bang_url" size="40">
 
 <div style="padding-top:20px;"></div>
-Bang category
+<: l('Bang category') :>
 <br>
 <select name="bang_cat" onChange="fill_subcat(this.selectedIndex);">
-  <option value="">Choose Category</option>
-  <option value="Tech">Tech</option>
-  <option value="Shopping">Shopping</option>
-  <option value="Research">Research</option>
-  <option value="Online Services">Online Services</option>
-  <option value="News">News</option>
-  <option value="Multimedia">Multimedia</option>
-  <option value="Entertainment">Entertainment</option>
+  <option value=""><: lp('bangcat','Choose Category') :></option>
+  <option value="Tech"><: lp('bangcat','Tech') :></option>
+  <option value="Shopping"><: lp('bangcat','Shopping') :></option>
+  <option value="Research"><: lp('bangcat','Research') :></option>
+  <option value="Online Services"><: lp('Online Services') :></option>
+  <option value="News"><: lp('bangcat','News') :></option>
+  <option value="Multimedia"><: lp('bangcat','Multimedia') :></option>
+  <option value="Entertainment"><: lp('bangcat','Entertainment') :></option>
 </select>
 <select name="bang_subcat" class="invisible"></select>
 
 <div style="padding-top:20px;"></div>
-Comments (optional):
+<: l('Comments') :> (<: l('optional') :>): 
 <br><textarea name="bang_comments" cols="40" rows="2"></textarea>
 
 <input type="hidden" value="On" name="back">
 
 <div style="padding-top:20px;"></div>
-<input type="submit" value="Submit">
+<input type="submit" value="<: l('Submit') :>">
 <input type="hidden" name="go">
 
 <div style="padding-top:40px;"></div>

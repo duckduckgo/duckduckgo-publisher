@@ -14,11 +14,11 @@
 </style>
 
 
-<div id="zero_click_header">URL Params</div>
+<div id="zero_click_header"><: l('URL Params') :></div>
 
 <div style="margin-bottom:30px;"></div>
 
-You can change <a href="/settings.html">DuckDuckGo settings</a> via URL parameters by adding them after the search query, for example:
+<: l('You can change %s via URL parameters by adding them after the search query, for example:','<a href="/settings.html">' ~ l('DuckDuckGo settings') ~ '</a>') :>
 
 <div style="padding-top:5px;"></div>
 &nbsp; &nbsp; <span class="clu">http://duckduckgo.com/?q=search&amp;kp=-1&amp;kl=us-en</span>
@@ -26,350 +26,374 @@ You can change <a href="/settings.html">DuckDuckGo settings</a> via URL paramete
 <div style="margin-bottom:30px;"></div>
 <table>
 
-<tr><td colspan="2"><b>Result Settings</b></td></tr>
+<tr><td colspan="2"><b><: l('Result Settings') :></b></td></tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Safe Search:
+<: l('Safe Search:') :>
 </td>
 <td class="ctd">
-kp = 1 for On; -1 for Off. 
+<: l('%s for %s','kp = 1',lp('setting','On') :>;
+<: l('%s for %s','kp = 1',lp('setting','Off') :>.
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Region:
+<: l('Region:') :>
 </td>
 <td class="ctd">
 kl =
 <ul>
-<li>xa-ar for Arabia
-<li>xa-en for Arabia (en)
-<li>ar-es for Argentina
-<li>au-en for Australia
-<li>at-de for Austria
-<li>be-fr for Belgium (fr)
-<li>be-nl for Belgium (nl)
-<li>br-pt for Brazil
-<li>bg-bg for Bulgaria
-<li>ca-en for Canada
-<li>ca-fr for Canada (fr)
-<li>ct-ca for Catalan
-<li>cl-es for Chile
-<li>cn-zh for China
-<li>co-es for Colombia
-<li>hr-hr for Croatia
-<li>cz-cs for Czech Republic
-<li>dk-da for Denmark
-<li>ee-et for Estonia
-<li>fi-fi for Finland
-<li>fr-fr for France
-<li>de-de for Germany
-<li>gr-el for Greece
-<li>hk-tzh for Hong Kong
-<li>hu-hu for Hungary
-<li>in-en for India
-<li>id-id for Indonesia
-<li>id-en for Indonesia (en)
-<li>ie-en for Ireland
-<li>il-he for Israel
-<li>it-it for Italy
-<li>jp-jp for Japan
-<li>kr-kr for Korea
-<li>lv-lv for Latvia
-<li>lt-lt for Lithuania
-<li>xl-es for Latin America
-<li>my-ms for Malaysia
-<li>my-en for Malaysia (en)
-<li>mx-es for Mexico
-<li>nl-nl for Netherlands
-<li>nz-en for New Zealand
-<li>no-no for Norway
-<li>pe-es for Peru
-<li>ph-en for Philippines
-<li>ph-tl for Philippines (tl)
-<li>pl-pl for Poland
-<li>pt-pt for Portugal
-<li>ro-ro for Romania
-<li>ru-ru for Russia
-<li>sg-en for Singapore
-<li>sk-sk for Slovak Republic
-<li>sl-sl for Slovenia
-<li>za-en for South Africa
-<li>es-es for Spain
-<li>se-sv for Sweden
-<li>ch-de for Switzerland (de)
-<li>ch-fr for Switzerland (fr)
-<li>ch-it for Switzerland (it)
-<li>tw-tzh for Taiwan
-<li>th-th for Thailand
-<li>tr-tr for Turkey
-<li>ua-uk for Ukraine
-<li>uk-en for United Kingdom
-<li>us-en for United States
-<li>ue-es for United States (es)
-<li>ve-es for Venezuela
-<li>vn-vi for Vietnam
-<li>wt-wt for World Traveler (none)
+<li><: l('%s for %s','xa-ar','Arabia') :>
+<li><: l('%s for %s','xa-en','Arabia (en)') :>
+<li><: l('%s for %s','ar-es','Argentina') :>
+<li><: l('%s for %s','au-en','Australia') :>
+<li><: l('%s for %s','at-de','Austria') :>
+<li><: l('%s for %s','be-fr','Belgium (fr)') :>
+<li><: l('%s for %s','be-nl','Belgium (nl)') :>
+<li><: l('%s for %s','br-pt','Brazil') :>
+<li><: l('%s for %s','bg-bg','Bulgaria') :>
+<li><: l('%s for %s','ca-en','Canada') :>
+<li><: l('%s for %s','ca-fr','Canada (fr)') :>
+<li><: l('%s for %s','ct-ca','Catalan') :>
+<li><: l('%s for %s','cl-es','Chile') :>
+<li><: l('%s for %s','cn-zh','China') :>
+<li><: l('%s for %s','co-es','Colombia') :>
+<li><: l('%s for %s','hr-hr','Croatia') :>
+<li><: l('%s for %s','cz-cs','Czech Republic') :>
+<li><: l('%s for %s','dk-da','Denmark') :>
+<li><: l('%s for %s','ee-et','Estonia') :>
+<li><: l('%s for %s','fi-fi','Finland') :>
+<li><: l('%s for %s','fr-fr','France') :>
+<li><: l('%s for %s','de-de','Germany') :>
+<li><: l('%s for %s','gr-el','Greece') :>
+<li><: l('%s for %s','hk-tzh','Hong Kong') :>
+<li><: l('%s for %s','hu-hu','Hungary') :>
+<li><: l('%s for %s','in-en','India') :>
+<li><: l('%s for %s','id-id','Indonesia') :>
+<li><: l('%s for %s','id-en','Indonesia (en)') :>
+<li><: l('%s for %s','ie-en','Ireland') :>
+<li><: l('%s for %s','il-he','Israel') :>
+<li><: l('%s for %s','it-it','Italy') :>
+<li><: l('%s for %s','jp-jp','Japan') :>
+<li><: l('%s for %s','kr-kr','Korea') :>
+<li><: l('%s for %s','lv-lv','Latvia') :>
+<li><: l('%s for %s','lt-lt','Lithuania') :>
+<li><: l('%s for %s','xl-es','Latin America') :>
+<li><: l('%s for %s','my-ms','Malaysia') :>
+<li><: l('%s for %s','my-en','Malaysia (en)') :>
+<li><: l('%s for %s','mx-es','Mexico') :>
+<li><: l('%s for %s','nl-nl','Netherlands') :>
+<li><: l('%s for %s','nz-en','New Zealand') :>
+<li><: l('%s for %s','no-no','Norway') :>
+<li><: l('%s for %s','pe-es','Peru') :>
+<li><: l('%s for %s','ph-en','Philippines') :>
+<li><: l('%s for %s','ph-tl','Philippines (tl)') :>
+<li><: l('%s for %s','pl-pl','Poland') :>
+<li><: l('%s for %s','pt-pt','Portugal') :>
+<li><: l('%s for %s','ro-ro','Romania') :>
+<li><: l('%s for %s','ru-ru','Russia') :>
+<li><: l('%s for %s','sg-en','Singapore') :>
+<li><: l('%s for %s','sk-sk','Slovak Republic') :>
+<li><: l('%s for %s','sl-sl','Slovenia') :>
+<li><: l('%s for %s','za-en','South Africa') :>
+<li><: l('%s for %s','es-es','Spain') :>
+<li><: l('%s for %s','se-sv','Sweden') :>
+<li><: l('%s for %s','ch-de','Switzerland (de)') :>
+<li><: l('%s for %s','ch-fr','Switzerland (fr)') :>
+<li><: l('%s for %s','ch-it','Switzerland (it)') :>
+<li><: l('%s for %s','tw-tzh','Taiwan') :>
+<li><: l('%s for %s','th-th','Thailand') :>
+<li><: l('%s for %s','tr-tr','Turkey') :>
+<li><: l('%s for %s','ua-uk','Ukraine') :>
+<li><: l('%s for %s','uk-en','United Kingdom') :>
+<li><: l('%s for %s','us-en','United States') :>
+<li><: l('%s for %s','ue-es','United States (es)') :>
+<li><: l('%s for %s','ve-es','Venezuela') :>
+<li><: l('%s for %s','vn-vi','Vietnam') :>
+<li><: l('%s for %s','wt-wt','World Traveler (none)') :>
 </ul>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Meanings (disambig):
+<: l('Meanings (disambig):') :>
 </td>
 <td class="ctd">
-ki = 1 for On; -1 for Off. 
+<: l('%s for %s','ki = 1',lp('setting','On')) :>;
+<: l('%s for %s','-1',lp('setting','Off')) :>.
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-0-click box:
+<: l('0-click box:') :>
 </td>
 <td class="ctd">
-kz = 1 for On; -1 for Off. 
+<: l('%s for %s','kz = 1',lp('setting','On')) :>;
+<: l('%s for %s','-1',lp('setting','Off')) :>.
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Auto-load:
+<: l('Auto-load:') :>
 </td>
 <td class="ctd">
-kc = 1 for On; -1 for Off.
+<: l('%s for %s','kc = 1',lp('setting','On')) :>;
+<: l('%s for %s','-1',lp('setting','Off')) :>.
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-New Window:
+<: l('New Window:') :>
 </td>
 <td class="ctd">
-kn = 1 for On; -1 for Off. 
+<: l('%s for %s','kn = 1',lp('setting','On')) :>;
+<: l('%s for %s','-1',lp('setting','Off')) :>.
 </td>
 </tr>
 
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Favicons:
+<: l('Favicons:') :>
 </td>
 <td class="ctd">
 kf = 
 <ul>
-<li>b for Favicons + WOT warnings
-<li>1 for Just favicons
-<li>w for Just WOT (trust) ratings
-<li>fw for All WOT + favicons (both)
-<li>-1 for Off
+<li><: l('%s for %s','b','Favicons + WOT warnings') :>
+<li><: l('%s for %s','1','Just favicons') :>
+<li><: l('%s for %s','w','Just WOT (trust) ratings') :>
+<li><: l('%s for %s','fw','All WOT + favicons (both)') :>
+<li><: l('%s for %s','-1','Off') :>
 </td>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Embeds:
+<: l('Embeds:') :>
 </td>
 <td class="ctd">
 kb =
 <ul>
-<li>d for videos when asked, thumbnails otherwise
-<li>e for everything
-<li>t for just thumbnails
-<li>v for just videos
-<li>n for none
+<li><: l('%s for %s','d','videos when asked, thumbnails otherwise') :>
+<li><: l('%s for %s','e','everything') :>
+<li><: l('%s for %s','t','just thumbnails') :>
+<li><: l('%s for %s','v','just videos') :>
+<li><: l('%s for %s','n','none') :>
 </td>
 </tr>
 
-<tr><td colspan="2" class="ctd3"><b>Privacy Settings</b></td></tr>
+<tr><td colspan="2" class="ctd3"><b><: l('Privacy Settings') :></b></td></tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Redirect:
+<: l('Redirect:') :>
 </td>
 <td class="ctd">
-kd = 1 for On; -1 for Off. 
+<: l('%s for %s','kd = 1',lp('setting','On')) :>;
+<: l('%s for %s','-1',lp('setting','Off')) :>.
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Address bar:
+<: l('Address bar:') :>
 </td>
 <td class="ctd">
-kg = g for GET; p for POST.
+<: l('%s for %s','kg = g','GET') :>;
+<: l('%s for %s','p','POST') :>.
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-HTTPS:
+<: l('HTTPS:') :>
 </td>
 <td class="ctd">
-kh = 1 for on; -1 for off. 
+kh =
+<ul>
+<li><: l('%s for %s','1',lp('setting','On')) :>
+<li><: l('%s for %s','-1',lp('setting','Off')) :>
+</ul>
 </td>
 </tr>
 
-<tr><td colspan="2" class="ctd3"><b>Color Settings</b></td></tr>
+<tr><td colspan="2" class="ctd3"><b><: l('Color Settings') :></b></td></tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Header:
+<: l('Header:') :>
 </td>
 <td class="ctd">
 kj =
 <ul>
-<li>r3 for Muted red (default)
-<li>d for Light green
-<li>g for Intense green
-<li>g2 for Green
-<li>b for Light blue 
-<li>b2 for Blue
-<li>r for Intense red
-<li>r2 for Red
-<li>p for Purple
-<li>o for Orange
-<li>w for White
-<li>or write out the color code you want, e.g. %23395323 (%23 is an encoded # char).
+<li><: l('%s for %s','r3',l('Muted red')) :> (<: lp('setting','default') :>)
+<li><: l('%s for %s','d',l('Light green')) :>
+<li><: l('%s for %s','g',l('Intense green')) :>
+<li><: l('%s for %s','g2',l('Green')) :>
+<li><: l('%s for %s','b',l('Light blue')) :>
+<li><: l('%s for %s','b2',l('Blue')) :>
+<li><: l('%s for %s','r',l('Intense red')) :>
+<li><: l('%s for %s','r2',l('Red')) :>
+<li><: l('%s for %s','p',l('Purple')) :>
+<li><: l('%s for %s','o',l('Orange')) :>
+<li><: l('%s for %s','w',l('White')) :>
+<li><: l('or write out the color code you want, e.g. %s (%s is an encoded %s char).','%23395323','%23','#') :>
 </ul>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Highlight:
+<: l('Highlight:') :>
 </td>
 <td class="ctd">
 ky =
 <ul>
-<li>e for Grey (default)
-<li>-1 for Off
-<li>g for Green
-<li>b for Blue
-<li>t for Tan
-<li>y for Yellow
-<li>p for Pink
-<li>or write out the color code you want, e.g. %23395323 (%23 is an encoded # char).
+<li><: l('%s for %s','e',l('Grey')) :> (<: lp('setting','default') :>)
+<li><: l('%s for %s','-1',lp('setting','Off')) :>
+<li><: l('%s for %s','g',l('Green')) :>
+<li><: l('%s for %s','b',l('Blue')) :>
+<li><: l('%s for %s','t',l('Tan')) :>
+<li><: l('%s for %s','y',l('Yellow')) :>
+<li><: l('%s for %s','p',l('Pink')) :>
+<li><: l('or write out the color code you want, e.g. %s (%s is an encoded %s char).','%23395323','%23','#') :>
 </ul>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-URLs:
+<: l('URLs:') :>
 </td>
 <td class="ctd">
 kx =
 <ul>
-<li>r for Red (default)
-<li>g for Green
-<li>l for Black
-<li>b for Blue
-<li>p for Purple
-<li>o for Orange
-<li>e for Grey
-<li>or write out the color code you want, e.g. %23395323 (%23 is an encoded # char).
+<li><: l('%s for %s','r',l('Red')) :> (<: lp('setting','default') :>)
+<li><: l('%s for %s','g',l('Green')) :>
+<li><: l('%s for %s','l',l('Black')) :>
+<li><: l('%s for %s','b',l('Blue')) :>
+<li><: l('%s for %s','p',l('Purple')) :>
+<li><: l('%s for %s','o',l('Orange')) :>
+<li><: l('%s for %s','e',l('Grey')) :>
+<li><: l('or write out the color code you want, e.g. %s (%s is an encoded %s char).','%23395323','%23','#') :>
+</ul>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Background:
+<: l('Background:') :>
 </td>
 <td class="ctd">
 k7 =
 <ul>
-<li>ow for Off-white (default)
-<li>w for White
-<li>or write out the color code you want, e.g. %23395323 (%23 is an encoded # char).
+<li><: l('%s for %s','ow',l('Off-white')) :> (<: lp('setting','default') :>)
+<li><: l('%s for %s','w',l('White')) :>
+<li><: l('or write out the color code you want, e.g. %s (%s is an encoded %s char).','%23395323','%23','#') :>
+</ul>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Text:
+<: l('Text:') :>
 </td>
 <td class="ctd">
 k8 =
 <ul>
-<li>g for Grey (default)
-<li>or write out the color code you want, e.g. %23395323 (%23 is an encoded # char).
+<li><: l('%s for %s','g',l('Grey')) :> (<: lp('setting','default') :>)
+<li><: l('or write out the color code you want, e.g. %s (%s is an encoded %s char).','%23395323','%23','#') :>
+</ul>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Links:
+<: l('Links:') :>
 </td>
 <td class="ctd">
 k9 =
 <ul>
-<li>b for Blue (default)
-<li>or write out the color code you want, e.g. %23395323 (%23 is an encoded # char).
+<li><: l('%s for %s','b',l('Blue')) :> (<: lp('setting','default') :>)
+<li><: l('or write out the color code you want, e.g. %s (%s is an encoded %s char).','%23395323','%23','#') :>
+</ul>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Visited links:
+<: l('Visited links:') :>
 </td>
 <td class="ctd">
 kaa =
 <ul>
-<li>p for Purple (default)
-<li>or write out the color code you want, e.g. %23395323 (%23 is an encoded # char).
+<li><: l('%s for %s','p',l('Purple')) :> (<: lp('setting','default') :>)
+<li><: l('or write out the color code you want, e.g. %s (%s is an encoded %s char).','%23395323','%23','#') :>
+</ul>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Border:
+<: l('Border:') :>
 </td>
 <td class="ctd">
 kab =
 <ul>
-<li>e for Grey (default)
-<li>r for Red
-<li>or write out the color code you want, e.g. %23395323 (%23 is an encoded # char).
+<li><: l('%s for %s','e',l('Grey')) :> (<: lp('setting','default') :>)
+<li><: l('%s for %s','r',l('Red')) :>
+<li><: l('or write out the color code you want, e.g. %s (%s is an encoded %s char).','%23395323','%23','#') :>
 </ul>
 </td>
 </tr>
 
-<tr><td colspan="2" class="ctd3"><b>Look & Feel Settings</b></td></tr>
+<tr><td colspan="2" class="ctd3"><b><: l('Look & Feel Settings') :></b></td></tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Size:
+<: l('Size:') :>
 </td>
 <td class="ctd">
 ks =
 <ul>
-<li>n for Large (default)
-<li>l for Larger
-<li>t for Largest
-<li>m for Medium
-<li>s for Small
-<li>
+<li><: l('%s for %s','n',lp('size','Large')) :> (<: lp('setting','default') :>)
+<li><: l('%s for %s','l',lp('size','Larger')) :>
+<li><: l('%s for %s','t',lp('size','Largest')) :>
+<li><: l('%s for %s','m',lp('size','Medium')) :>
+<li><: l('%s for %s','s',lp('size','Small')) :>
 </ul>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Width:
+<: l('Width:') :>
 </td>
 <td class="ctd">
-kw = n for Normal; w for Wide; s for Super wide.
+kw =
+<ul>
+<li><: l('%s for %s','n',lp('width','Normal')) :>
+<li><: l('%s for %s','w',lp('width','Wide')) :>
+<li><: l('%s for %s','s',lp('width','Super wide')) :>
+</ul>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Placement:
+<: l('Placement:') :>
 </td>
 <td class="ctd">
-km = m for Middle; l for Left. 
+km = 
+<ul>
+<li><: l('%s for %s','m',lp('placement','Middle')) :>
+<li><: l('%s for %s','l',lp('placement','Left')) :>
+</ul>
 </td>
 </tr>
 

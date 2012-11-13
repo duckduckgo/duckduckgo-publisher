@@ -7,7 +7,7 @@
 </style>
 
 
-<div id="zero_click_header">Logos</div>
+<div id="zero_click_header"><: l('Logos') :></div>
 
 <table>
 <tr><td valign="top" class="small">

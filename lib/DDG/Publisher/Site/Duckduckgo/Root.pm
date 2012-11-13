@@ -19,6 +19,7 @@ sub pages {{
 	spread => sub {},
 	api => sub {},
 	bang => sub {},
+	logos => sub {},
 }}
 
 sub statics {{
