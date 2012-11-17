@@ -33,8 +33,8 @@
 <: l('Safe Search:') :>
 </td>
 <td class="ctd">
-<: l('%s for %s','kp = 1',lp('setting','On') :>;
-<: l('%s for %s','kp = 1',lp('setting','Off') :>.
+<: l('%s for %s','kp = 1',lp('setting','On')) :>;
+<: l('%s for %s','kp = 1',lp('setting','Off')) :>.
 </td>
 </tr>
 
@@ -399,67 +399,70 @@ km =
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Link font: 
+<: l('Link font:') :>
 </td>
 <td class="ctd">
-ka=
+ka =
 <ul>
-<li>a for Arial
-<li>c for Century Gothic
-<li>g for Georgia
-<li>h for Helvetica
-<li>n for Sans-serif
-<li>e for Segoe UI
-<li>s for Serif
-<li>o for Tahoma
-<li>t for Times
-<li>b for Trebuchet MS
-<li>v for Verdana
-<li>or write out the font you want
+<li><: l('%s for %s','a','Arial') :>
+<li><: l('%s for %s','c','Century Gothic') :>
+<li><: l('%s for %s','g','Georgia') :>
+<li><: l('%s for %s','h','Helvetica') :>
+<li><: l('%s for %s','n','Sans-serif') :>
+<li><: l('%s for %s','e','Segoe UI') :>
+<li><: l('%s for %s','s','Serif') :>
+<li><: l('%s for %s','o','Tahoma') :>
+<li><: l('%s for %s','t','Times') :>
+<li><: l('%s for %s','b','Trebuchet MS') :>
+<li><: l('%s for %s','v','Verdana') :>
+<li><: l('or write out the font you want') :>
 </td>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Underline:
+<: l('Underline:') :>
 </td>
 <td class="ctd">
-ku = 1 for On; -1 for Off. 
+ku =
+<ul>
+<li><: l('%s for %s','1',lp('setting','On')) :>
+<li><: l('%s for %s','-1',lp('setting','Off')) :>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Text font: 
+<: l('Text font:') :>
 </td>
 <td class="ctd">
 kt =
 <ul>
-<li>a for Arial
-<li>c for Century Gothic
-<li>g for Georgia
-<li>h for Helvetica
-<li>n for Sans-serif
-<li>e for Segoe UI
-<li>s for Serif
-<li>o for Tahoma
-<li>i for Times
-<li>t for Trebuchet MS
-<li>v for Verdana
-<li>or write out the font you want
+<li><: l('%s for %s','a','Arial') :>
+<li><: l('%s for %s','c','Century Gothic') :>
+<li><: l('%s for %s','g','Georgia') :>
+<li><: l('%s for %s','h','Helvetica') :>
+<li><: l('%s for %s','n','Sans-serif') :>
+<li><: l('%s for %s','e','Segoe UI') :>
+<li><: l('%s for %s','s','Serif') :>
+<li><: l('%s for %s','o','Tahoma') :>
+<li><: l('%s for %s','t','Times') :>
+<li><: l('%s for %s','b','Trebuchet MS') :>
+<li><: l('%s for %s','v','Verdana') :>
+<li><: l('or write out the font you want') :>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Text link
+<: l('Text link:') :>
 </td>
 <td class="ctd">
 k2 =
 <ul>
-<li>-1 for Off (default)
-<li>1 for On
+<li><: l('%s for %s','1',lp('setting','On')) :> (<: lp('setting','default') :>)
+<li><: l('%s for %s','-1',lp('setting','Off')) :>
 </td>
 </tr>
 
@@ -467,127 +470,131 @@ k2 =
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Header:
+<: l('Header:') :>
 </td>
 <td class="ctd">
 ko =
 <ul>
-<li>1 for On & floating
-<li>s for On & scrolling
-<li>-1 for Off
+<ul>
+<li><: l('%s for %s','1',lp('setting','On & floating')) :>
+<li><: l('%s for %s','s',lp('setting','On & scrolling')) :>
+<li><: l('%s for %s','-1',lp('setting','Off')) :>
 </ul>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Twitter:
+<: l('Twitter:') :>
 </td>
 <td class="ctd">
 k3 =
 <ul>
-<li>0 for Off
-<li>Username for a particular username, e.g. lifehacker
+<li><: l('%s for %s','0',lp('setting','Off')) :>
+<li><: l('%s for %s',lp('setting','username'),lp('setting','a particular username, e.g. %s','lifehacker')) :>
 </ul>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Shortcuts:
+<: l('Shortcuts:') :>
 </td>
 <td class="ctd">
 kk =
 <ul>
-<li>1 for On
-<li>-1 for Off
-<li>l Just hide legend
-<li>s Show full legend
+<li><: l('%s for %s','1',lp('setting','On')) :>
+<li><: l('%s for %s','-1',lp('setting','Off')) :>
+<li><: l('%s for %s','l',l('Just hide legend')) :>
+<li><: l('%s for %s','s',l('Show full legend')) :>
 </ul>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Feedback:
+<: l('Feedback:') :>
 </td>
 <td class="ctd">
-ke = 1 for On; -1 for Off. 
+ke =
+<ul>
+<li><: l('%s for %s','1',lp('setting','On')) :>
+<li><: l('%s for %s','-1',lp('setting','Off')) :>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Top links:
+<: l('Top links:') :>
 </td>
 <td class="ctd">
 kr =
 <ul>
-<li>1 for On
-<li>-1 for Off
-<li>c for Off & centered
-<li>b Just hide Add to Browser
+<li><: l('%s for %s','1',lp('setting','On')) :>
+<li><: l('%s for %s','-1',lp('setting','Off')) :>
+<li><: l('%s for %s','c',lp('setting','Off & centered')) :>
+<li><: l('%s for %s','b',lp('setting','Just hide "%s"',l('Add to Browser'))) :>
 </ul>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Dropdown:
+<: l('Dropdown:') :>
 </td>
 <td class="ctd">
 kq =
 <ul>
-<li>1 for On
-<li>n for On but don't save
-<li>-1 for Off
+<li><: l('%s for %s','1',lp('setting','On')) :>
+<li><: l('%s for %s','n',lp('setting',"On but don't save")) :>
+<li><: l('%s for %s','-1',lp('setting','Off')) :>
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Advertisements:
+<: l('Advertisements:') :>
 </td>
 <td class="ctd">
 k1 =
 <ul>
-<li>1 for On
-<li>n for On but don't save
-<li>-1 for Off
+<li><: l('%s for %s','1',lp('setting','On')) :>
+<li><: l('%s for %s','n',lp('setting',"On but don't save")) :>
+<li><: l('%s for %s','-1',lp('setting','Off')) :>
 </td>
 </tr>
 
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Page #s:
+<: l('Page #s:') :>
 </td>
 <td class="ctd">
 kv =
 <ul>
-<li>1 for On
-<li>n for On but no numbers
-<li>-1 for Off
+<li><: l('%s for %s','1',lp('setting','On')) :>
+<li><: l('%s for %s','n',lp('setting',"On but no numbers")) :>
+<li><: l('%s for %s','-1',lp('setting','Off')) :>
 </td>
 </tr>
 
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Sidebar:
+<: l('Sidebar:') :>
 </td>
 <td class="ctd">
 k4 =
 <ul>
-<li>1 for On
-<li>-1 for Off
+<li><: l('%s for %s','1',lp('setting','On')) :>
+<li><: l('%s for %s','-1',lp('setting','Off')) :>
 </td>
 </tr>
 
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-Source:
+<: l('Source:') :>
 </td>
 <td class="ctd">
 t =
 <ul>
-<li>A string to identify the source.
-<li>See <a href="http://help.duckduckgo.com/customer/portal/articles/448610--t-">this help page</a> for more info.
+<li><: l('A string to identify the source.') :>
+<li><: l('See %s for more info.','<a href="http://help.duckduckgo.com/customer/portal/articles/448610--t-">' ~ l('this help page') ~ '</a>') :>
 </td>
 </tr>
 

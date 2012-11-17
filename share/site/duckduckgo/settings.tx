@@ -95,7 +95,7 @@
     <div id="otherways">
 
     <p>
-    <: l('By default, your settings are stored in non-personal browser cookies (in your browser).' :>
+    <: l('By default, your settings are stored in non-personal browser cookies (in your browser).') :>
     <: l('You can use Anonymous Cloud Save to store your settings in a more permanent way (on a remote server in the cloud).') :>
     <: l('No personally identifiable information will be stored in the cloud, and your pass phrase will never leave your browser.') :>
     </p>
@@ -106,7 +106,7 @@
                   <em><: l('Your settings as a URL parameter bookmarklet:') :></em>
                 </p>
                 <div id="params"></div>
-                  <p style="padding-left:18px;"><: l('(see the %s page for detailed descriptions)','<a href="http://duckduckgo.com/params.html">' ~ l('URL Parameters' ~ '</a>') :></p>
+                  <p style="padding-left:18px;"><: l('(see the %s page for detailed descriptions)','<a href="http://duckduckgo.com/params.html">' ~ l('URL Parameters') ~ '</a>') :></p>
             </li>
 
             <li id="cloudkeynotice" class="wides">
@@ -206,8 +206,7 @@
 
               <h5><: l('How does it work?') :></h5>
 
-              <p><: l('Your passphrase is used to generate a key using the Secure Hash Algorithm known
-              as %, using a %s bit key.', '<a href="http://en.wikipedia.org/wiki/SHA-2">SHA-2</a>','512') :>
+              <p><: l('Your passphrase is used to generate a key using the Secure Hash Algorithm known as %s, using a %s bit key.','<a href="http://en.wikipedia.org/wiki/SHA-2">SHA-2</a>','512') :>
               <: l('Your passphrase never leaves the browser, only the key and the settings file associated with it.') :>
               <: l('We save the settings file on Amazon S3 using the generated key as the name.') :>
               <: l('In the interest of transparency, this data is not encrypted: you can see exactly what information we store.') :></p>

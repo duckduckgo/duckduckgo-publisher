@@ -32,10 +32,10 @@
 		    <: include "search_form_homepage.tx" :>
 	  <: } :>
 	<: } :>
-	
-    <: include $maintemplate :>
-	
-	<: if !$no_wrapper { :> 	  	  
+
+	<: include $maintemplate :>
+
+	<: if !$no_wrapper { :>
 			   <div id="bottom_spacing2"></div>
 		     </div> <!-- content_internal //-->
 	       </div> <!-- links //-->

@@ -10,12 +10,12 @@
 
 <div style="margin-top:30px;"></div>
 
-<b><:l('Unfortunate fact:'):></b> <: l('most people have never heard of DuckDuckGo.') :>
+<: l('%s most people have never heard of DuckDuckGo.','<b>' ~ l('Unfortunate fact:') ~ '</b>') :>
 <div style="margin-top:15px;"></div>
 <:l("So we'd really appreciate your help in getting the word out!"):>
 
 <div style="margin-top:45px;"></div>
-<b><:l('Level 1:'):>&nbsp; <: l('Use DuckDuckGo') :></b>
+<b><: l('Level %d:',1) :>&nbsp; <: l('Use DuckDuckGo') :></b>
 
 <div style="margin-left: 20px;">
 
@@ -33,11 +33,11 @@
 
 
 <div style="margin-top:45px;"></div>
-<b><:l('Level 2:'):>&nbsp; <:l('Share DuckDuckGo'):></b>
+<b><: l('Level %d:',2) :>&nbsp; <:l('Share DuckDuckGo'):></b>
 <div style="margin-left: 20px;">
 
 <div style="margin-top:20px;"></div>
-<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://duckduckgo.com/" data-text="<: l('I now use DuckDuckGo as my primary search engine and you should too!') :>" data-count="horizontal" data-via="duckduckgo">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://duckduckgo.com/" data-text="<: lp('tweet','I now use DuckDuckGo as my primary search engine and you should too!') :>" data-count="horizontal" data-via="duckduckgo"><: l('Tweet') :></a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
 
 <div style="margin-top:12px;"></div>
 <div id="fb-root"></div><script src="https://connect.facebook.net/en_US/all.js#appId=161709093903193&amp;xfbml=1"></script><fb:like href="http://facebook.com/duckduckgo" send="false" width="300" show_faces="false" action="like" font="segoe ui"></fb:like>
@@ -62,7 +62,7 @@
 
 
 <div style="margin-top:45px;"></div>
-<b><:l('Level 3:'):>&nbsp; <:l('Follow DuckDuckGo'):></b>
+<b><: l('Level %d:',3) :>&nbsp; <:l('Follow DuckDuckGo'):></b>
 
 <div style="margin-left: 20px;">
 
@@ -74,7 +74,7 @@
 <form action="https://flash.duckduckgo.com/e.js" method="post">
 <span class="clu">
 <: l('Newsletter:') :> &nbsp;
-<input type="text" size="15" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
+<input type="text" size="15" name="from" value="<: l('email address') :>" style="color:#888" onclick="if (this.value=='<: js(l('email address')) :>') {this.value='';this.style.color='#000000';}">
 <input type="submit" value="Go">
 <input type="hidden" name="add3" value="1">
 </span>
@@ -85,7 +85,7 @@
 
 
 <div style="margin-top:45px;"></div>
-<b><:l('Level 4:'):>&nbsp; <: l('Promote DuckDuckGo Online') :></b>
+<b><: l('Level %d:',4) :>&nbsp; <: l('Promote DuckDuckGo Online') :></b>
 <div style="margin-left: 20px;">
 
 <div style="margin-top:20px;"></div>
@@ -117,7 +117,7 @@
 <form action="https://flash.duckduckgo.com/e.js" method="post">
 <span class="clu">
 <:l('Spread list (infrequent):'):>
-<input type="text" size="15" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
+<input type="text" size="15" name="from" value="<: l('email address') :>" style="color:#888" onclick="if (this.value=='<: js(l('email address')) :>') {this.value='';this.style.color='#000000';}">
 <input type="submit" value="Go">
 <input type="hidden" name="add3" value="1">
 </span>
@@ -127,22 +127,22 @@
 
 
 <div style="margin-top:45px;"></div>
-<b><:l('Level 5:'):>&nbsp; <:l('Promote DuckDuckGo Offline'):></b>
+<b><: l('Level %d:',5) :>&nbsp; <:l('Promote DuckDuckGo Offline'):></b>
 <div style="margin-left: 20px;">
 
 <div style="margin-top:20px;"></div>
 <span class="clu">
-<:l('Hang'):> <a href="https://duck.co/topic/flyer-campaign"><:l('DuckDuckGo flyers'):></a> <:l('or make your own.'):>
+<: l('Hang %s or make your own.','<a href="https://duck.co/topic/flyer-campaign">' ~ l('DuckDuckGo flyers') ~ '</a>') :>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-<:l('Put'):> <a href="http://stickermule.com/duckduckgo"><:l('DuckDuckGo stickers'):></a> <:l('on your laptop/car/phone.'):>
+<: l('Put %s on your laptop/car/phone.','<a href="http://stickermule.com/duckduckgo">' ~ l('DuckDuckGo stickers') ~ '</a>') :>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-<:l('Wear a'):> <a href="http://cafepress.com/duckduckgo/"><:l('DuckDuckGo t-shirt'):></a>.
+<: l('Wear a %s.','<a href="http://cafepress.com/duckduckgo/">' ~ l('DuckDuckGo t-shirt') ~ '</a>') :>
 </span>
 
 </div>
@@ -150,29 +150,29 @@
 
 
 <div style="margin-top:45px;"></div>
-<b><:l('Level 6:'):>&nbsp; <:l('Develop DuckDuckGo'):></b>
+<b><: l('Level %d:',6) :>&nbsp; <: l('Develop DuckDuckGo') :></b>
 <div style="margin-left: 20px;">
 
 <div style="margin-top:20px;"></div>
 <span class="clu">
-<:l('Join us at'):> <a href="http://duck.co/"><:l('our forum'):></a> <:l('or'):> <a href="http://webchat.freenode.net/?channels=duckduckgo"><:l('chat room'):></a>.
+<: l('Join us at %s or %s.','<a href="http://duck.co/">' ~ l('our forum') ~ '</a>','<a href="http://webchat.freenode.net/?channels=duckduckgo">' ~ l('chat room') ~ '</a>') :>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-<:l('Code'):> <a href="https://github.com/duckduckgo/duckduckgo/wiki"><:l('Zero-click Info'):></a>.
+<:l ('Code') :> <a href="https://github.com/duckduckgo/duckduckgo/wiki"><:l('Zero-click Info'):></a>.
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-<:l('Build on our'):> <a href="http://api.duckduckgo.com/"><:l('Zero-click API'):></a>.
+<: l('Build on our %s.','<a href="http://api.duckduckgo.com/">' ~ l('Zero-click API') ~ '</a>') :>
 </span>
 
 <p style="margin-top: 8px;">
 <form action="https://flash.duckduckgo.com/e.js" method="post">
 <span class="clu">
-<:l('Testing (infrequent): '):>
-<input type="text" size="15" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
+<: l('Testing (infrequent):') :>
+<input type="text" size="15" name="from" value="<: l('email address') :>" style="color:#888" onclick="if (this.value=='<: js(l('email address')) :>') {this.value='';this.style.color='#000000';}">
 <input type="submit" value="Go">
 <input type="hidden" name="add2" value="1">
 </span>
@@ -181,7 +181,7 @@
 </div>
 
 <div style="margin-top:45px;"></div>
-<b><:l('Level 7:'):></b>
+<b><: l('Level %d:',7) :></b>
 <div style="margin-left: 20px;">
 
 <div style="margin-top:20px;"></div>

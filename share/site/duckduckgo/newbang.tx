@@ -238,7 +238,7 @@ function validate_form (){
   <option value="Tech"><: lp('bangcat','Tech') :></option>
   <option value="Shopping"><: lp('bangcat','Shopping') :></option>
   <option value="Research"><: lp('bangcat','Research') :></option>
-  <option value="Online Services"><: lp('Online Services') :></option>
+  <option value="Online Services"><: lp('bangcat','Online Services') :></option>
   <option value="News"><: lp('bangcat','News') :></option>
   <option value="Multimedia"><: lp('bangcat','Multimedia') :></option>
   <option value="Entertainment"><: lp('bangcat','Entertainment') :></option>

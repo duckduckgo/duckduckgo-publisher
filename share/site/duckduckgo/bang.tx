@@ -23,7 +23,7 @@
 <p style="margin-top: 5px;">
 <li><: l('There are also shorter versions, e.g. %s','!g (google) !i (images) !yt (youtube)') :>
 <p style="margin-top: 5px;">
-<li><: l("'%s' or '%s' or '%s' will take you to the first result.",'!ducky','! ','\') :>
+<li><: l("'%s' or '%s' or '%s' will take you to the first result.",'!ducky','! ','\\') :>
 <p style="margin-top: 5px;">
 <li><: l('%s will run a search with safe search off.','!safeoff') :>
 </ul>

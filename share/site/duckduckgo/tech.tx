@@ -169,7 +169,7 @@ function goodie(id) {
 <div style="margin-top: 30px;"></div>
 <b>Computing Tools</b>
 <div style="margin-top: 2px;"></div>
-<input type="text" value="idn Bücher.ch" id="IDN">
+<input type="text" value="idn BÃ¼cher.ch" id="IDN">
 <input type="button" onclick="goodie('IDN')" value="go"><br> &nbsp; <a href="http://duckduckhack.com">plugin</a> by <a href="http://7bits.nl/">habbie</a> (<a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/IDN.pm">code</a>)
 <div style="margin-top: 5px;"></div>
 <input type="text" value="color(12,120,15)" id="wa_color">

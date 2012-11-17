@@ -8,6 +8,7 @@ use Locale::Simple;
 use Config::INI::Reader;
 use Path::Class;
 use DDG::Publisher::Meta;
+use JavaScript::Value::Escape;
 
 requires qw(
 	default_hostname
