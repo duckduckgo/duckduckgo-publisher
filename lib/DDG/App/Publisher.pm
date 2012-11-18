@@ -16,7 +16,7 @@ option dryrun => (
 	predicate => 1,
 );
 
-option publish_version => (
+option assets_version => (
 	format => 'i',
 	is => 'ro',
 	predicate => 1,
@@ -38,11 +38,11 @@ sub run {
 	my $dir = dir($target)->absolute;
 	my $publisher = DDG::Publisher->new(
 		no_compression => $self->no_compression,
-		$self->has_publish_version ? ( publish_version => $self->publish_version ) : (),
+		$self->has_assets_version ? ( assets_version => $self->assets_version ) : (),
 		$self->has_dryrun ? ( dryrun => $self->dryrun ) : (),
 		$self->has_site_only ? ( site_classes => [$self->site_only] ) : (),
 	);
-	print "Publishing to ".$dir." ... ";
+	print "Publishing to ".$dir." ... \n";
 	my $count;
 	eval {
 		$count = $publisher->publish_to($dir);
@@ -51,7 +51,7 @@ sub run {
 		print "\nFAILED: ".$@;
 		exit 1;
 	} else {
-		print $count." files generated\n";
+		print "\n".$count." files generated\n";
 	}
 }
 

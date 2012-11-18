@@ -32,4 +32,4 @@
 <!-- Full List Here -->
 
 <div style="margin-bottom:15px;"></div>
-<b><: l("If you'd like to add or edit a %s, please %s!",'!bang','<a href="/newbang.html">' ~ l('submit it here') ~ '</a>') :></b>
+<b><: l("If you'd like to add or edit a %s, please %s!",'!bang','<a href="' ~ $s.locale_url('root','newbang',$f.locale) ~ '">' ~ l('submit it here') ~ '</a>') :></b>

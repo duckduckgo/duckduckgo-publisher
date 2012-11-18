@@ -106,7 +106,7 @@
                   <em><: l('Your settings as a URL parameter bookmarklet:') :></em>
                 </p>
                 <div id="params"></div>
-                  <p style="padding-left:18px;"><: l('(see the %s page for detailed descriptions)','<a href="http://duckduckgo.com/params.html">' ~ l('URL Parameters') ~ '</a>') :></p>
+                  <p style="padding-left:18px;"><: l('(see the %s page for detailed descriptions)','<a href="' ~ $s.locale_url('root','params',$f.locale) ~ '">' ~ l('URL Parameters') ~ '</a>') :></p>
             </li>
 
             <li id="cloudkeynotice" class="wides">
@@ -201,7 +201,7 @@
 
               <h5><: l('What information gets saved?') :></h5>
 
-              <p><: l('Only the settings that you have changed. They are detailed on the %s page.', '<a href="https://duckduckgo.com/params.html">' ~ l('URL Parameters') ~ '</a>') :></p>
+              <p><: l('Only the settings that you have changed. They are detailed on the %s page.', '<a href="' ~ $s.locale_url('root','params',$f.locale) ~ '">' ~ l('URL Parameters') ~ '</a>') :></p>
               
 
               <h5><: l('How does it work?') :></h5>

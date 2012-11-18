@@ -18,6 +18,14 @@ has site => (
 	required => 1,
 );
 
+has assets_version => (
+	is => 'ro',
+	lazy => 1,
+	builder => 1,
+);
+
+sub _build_assets_version { 0 }
+
 has files => (
 	is => 'ro',
 	lazy => 1,

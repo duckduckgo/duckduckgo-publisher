@@ -6,6 +6,7 @@ use Path::Class;
 use Class::Load ':all';
 use IO::All -utf8;
 use HTML::Packer;
+use String::ProgressBar;
 
 has site_classes => (
 	is => 'ro',
@@ -30,7 +31,7 @@ has no_compression => (
 	default => sub { 0 },
 );
 
-has publish_version => (
+has assets_version => (
 	is => 'ro',
 	predicate => 1,
 );
@@ -67,7 +68,17 @@ sub publish_to {
 	}
 	for my $site (@{$self->sites}) {
 		for my $dir (values %{$site->dirs}) {
-			for (sort { $a->fullpath cmp $b->fullpath } values %{$dir->fullpath_files}) {
+			print "\n".(ref $site).$dir->web_path."\n\n";
+			my @files = values %{$dir->fullpath_files};
+			my $progress = String::ProgressBar->new(
+				max => scalar @files,
+				length => 50,
+			);
+			my $i = 0;
+			for (sort { $a->fullpath cmp $b->fullpath } @files) {
+				$i++;
+				$progress->update($i);
+				$progress->write;
 				my $real_file = file($target,$site->key,$_->fullpath)->absolute;
 				$real_file->dir->mkpath unless -f $real_file->dir->absolute->stringify;
 				my $content = $_->content;
@@ -84,6 +95,7 @@ sub publish_to {
 				io($real_file->stringify)->print($content);
 				$count++;
 			}
+			print "\n";
 		}
 	};
 	return $count;

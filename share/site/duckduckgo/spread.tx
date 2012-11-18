@@ -95,7 +95,7 @@
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-<: l('Add a %s to your site.','<a href="http://duckduckgo.com/search_box.html">' ~ l('search box') ~ '</a>') :>
+<: l('Add a %s to your site.','<a href="' ~ $s.locale_url('root','search_box',$f.locale) ~'">' ~ l('search box') ~ '</a>') :>
 </span>
 
 <div style="margin-top:12px;"></div>

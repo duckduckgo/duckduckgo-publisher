@@ -38,7 +38,7 @@ function goodie(id) {
 </script>
 
 <div style="margin-bottom:20px;"></div>
-<div style="background:#fef9cd;border:#e1d980 1px solid;padding:3px;" class="clu">For general goodies (non-tech), check out our <a href="/goodies.html">goodies page</a>.</div>
+<div style="background:#fef9cd;border:#e1d980 1px solid;padding:3px;" class="clu">For general goodies (non-tech), check out our <a href="<: $s.locale_url('root','goodies',$f.locale) :>">goodies page</a>.</div>
 <div style="clear:both;padding-bottom:30px;"></div>
 
 <div style="float:left; width: 280px; margin-right: 60px; margin-bottom: 40px;"> 

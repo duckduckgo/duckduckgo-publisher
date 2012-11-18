@@ -20,22 +20,26 @@ sub pages {{
 	params => sub {},
 	settings => sub {},
 	spread => sub {},
-}}
 
-sub statics {{
-	"50x" => sub {},
+	## TODO
+
 	api => sub {},
-	asciitable => sub { no_wrapper => 1 },
 	duckduckbot => sub {},
 	duckduckpreview => sub {},
 	feedback => sub {},
 	goodies => sub {},
-	"index.tw" => sub {},
 	privacy => sub {},
 	search_box => sub {},
 	stickers => sub {},
 	tech => sub {},
 	terms => sub {},
+
+}}
+
+sub statics {{
+	"50x" => sub {},
+	asciitable => sub { no_wrapper => 1 },
+	"index.tw" => sub {},
 	walpha => sub { no_wrapper => 1 },
 }}
 

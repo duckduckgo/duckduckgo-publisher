@@ -1,14 +1,14 @@
-<li><a href="/settings.html" tabindex="-1"><: l('Settings') :></a></li>
-<li><a href="/goodies.html" tabindex="-1"><: l('Goodies') :></a></li>
-<li><a href="/about.html" tabindex="-1"><: l('About') :></a></li>
+<li><a href="<: $s.locale_url('root','settings',$f.locale) :>" tabindex="-1"><: l('Settings') :></a></li>
+<li><a href="<: $s.locale_url('root','goodies',$f.locale) :>" tabindex="-1"><: l('Goodies') :></a></li>
+<li><a href="<: $s.locale_url('root','about',$f.locale) :>" tabindex="-1"><: l('About') :></a></li>
 <li><a href="http://help.duckduckgo.com/" tabindex="-1"><: l('Help') :></a></li>
-<li><a href="/feedback.html" tabindex="-1"><: l('Feedback<') :>/a></li>
+<li><a href="<: $s.locale_url('root','feedback',$f.locale) :>" tabindex="-1"><: l('Feedback<') :>/a></li>
 <li class="more_menu_header"><: l('PRIVACY<') :>/li>
 <li><a href="http://donttrack.us/" tabindex="-1">DontTrack</a></li>
 <li><a href="http://dontbubble.us/" tabindex="-1">DontBubble</a></li>
-<li><a href="/privacy.html" tabindex="-1"><: l('Policy') :></a></li>
+<li><a href="<: $s.locale_url('root','privacy',$f.locale) :>" tabindex="-1"><: l('Policy') :></a></li>
 <li class="more_menu_header"><: l('COMMUNITY') :></li>
 <li><a href="https://dukgo.com/" tabindex="-1"><: l('Platform') :></a></li>
 <li><a href="http://duck.co/" tabindex="-1"><: l('Forum') :></a></li>
 <li><a href="http://webchat.freenode.net/?channels=duckduckgo" tabindex="-1"><: l('Chat') :></a></li>
-<li><a href="/spread.html" tabindex="-1"><: l('Spread') :></a></li>
+<li><a href="<: $s.locale_url('root','spread',$f.locale) :>" tabindex="-1"><: l('Spread') :></a></li>

@@ -54,7 +54,11 @@ sub _build_dirs {
 		load_class($class);
 		s/([a-z])([A-Z])/$1_$2/g;
 		$_ = lc($_);
-		$_ => $class->new( key => $_, site => $self );
+		$_ => $class->new(
+			key => $_,
+			site => $self,
+			$self->publisher->has_assets_version ? ( assets_version => $self->publisher->assets_version ) : (),
+		);
 	} $self->dirs_classes};
 }
 
@@ -111,6 +115,7 @@ sub _build_template_engine {
 
 sub locale_url {
 	my ( $self, $dir, $page, $locale ) = @_;
+	die "Unknown dir for locale_url" unless defined $self->dirs->{$dir};
 	return $self->dirs->{$dir}->locale_url($page,$locale);
 }
 

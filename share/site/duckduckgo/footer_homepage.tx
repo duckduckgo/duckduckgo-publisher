@@ -1,6 +1,6 @@
 <div id="footer_homepage">
 	<div id="footer_homepage_left">
-		<:l('Better'):> <a href="/goodies.html"><:l('answers'):></a>. <:l('Real'):> <a href="/privacy.html"><:l('privacy'):></a>!
+		<:l('Better'):> <a href="<: $s.locale_url('root','goodies',$f.locale) :>"><:l('answers'):></a>. <:l('Real'):> <a href="<: $s.locale_url('root','feedback',$f.locale) :>"><:l('privacy'):></a>!
 	</div>
 	<div id="footer_homepage_right">
 		<script type="text/javascript">

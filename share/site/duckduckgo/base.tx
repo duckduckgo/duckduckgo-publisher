@@ -20,7 +20,7 @@
 	  <div id="content_wrapper">
 		<div id="content">
 		  <: if $f.filebase != "about" { :>
-		  <a href="/?q=&t=i" title="DuckDuckGo"><div id="logo_internal"></div></a>
+		  <a href="/?q=&t=i&kad=<: $f.locale :>" title="DuckDuckGo"><div id="logo_internal"></div></a>
 		  <: } :>
 		    <div id="links_wrapper">
 			  <div id="links">			  
