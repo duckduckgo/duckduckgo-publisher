@@ -78,7 +78,7 @@
 <hr/>
   <div id="spread">
 
-<p class="big"><: lp('useus', '%s us.','<a href="https://duckduckgo.com/">' ~ lp('useus','Use') ~ '</a>') :> &nbsp;<: lp('spreadus','%s us.','<a href="https://duckduckgo.com' ~ $s.locale_url('root','spread',$f.locale) ~ '">' ~ lp('spreadus','Spread') ~ '</a>') :> &nbsp;<: lp('hackus', '%s us.', '<a href="http://duckduckhack.com/">' ~ lp('hackus','Hack') ~ '</a>') :> &nbsp;<: lp('translateus', '%s us.', '<a href="https://dukgo.com/">' ~ lp('translateus','Translate') ~ '</a>') :></p>
+<p class="big"><: lp('useus', '%s us.','<a href="https://duckduckgo.com/">' ~ lp('useus','Use') ~ '</a>') :> &nbsp;<: lp('supportus','%s us.','<a href="https://duckduckgo.com' ~ $s.locale_url('root','support',$f.locale) ~ '">' ~ lp('supportus','Support') ~ '</a>') :> &nbsp;<: lp('hackus', '%s us.', '<a href="http://duckduckhack.com/">' ~ lp('hackus','Hack') ~ '</a>') :> &nbsp;<: lp('translateus', '%s us.', '<a href="https://dukgo.com/">' ~ lp('translateus','Translate') ~ '</a>') :></p>
 
 <div class="newsletter"></div>
 <form action="https://flash.duckduckgo.com/e.js" method="post">
