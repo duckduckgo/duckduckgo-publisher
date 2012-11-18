@@ -94,7 +94,7 @@ Image: link to image that goes with Abstract
 Heading: name of topic that goes with Abstract
 
 Answer: instant answer
-AnswerType: type of Answer, e.g. calc, color, digest, info, ip, iploc, phone, pw, rand, regexp, unicode, upc, or zip (see <a href="<: $s.locale_url('root','goodies',$f.locale) :>">goodies</a> & <a href="<: $s.locale_url('root','tech',$f.locale) :>">tech</a> pages for examples).
+AnswerType: type of Answer, e.g. calc, color, digest, info, ip, iploc, phone, pw, rand, regexp, unicode, upc, or zip (see <a href="/goodies">goodies</a> page for examples).
 
 Definition: dictionary definition (may differ from Abstract)
 DefinitionSource: name of Definition source

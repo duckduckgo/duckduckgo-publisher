@@ -27,11 +27,9 @@ sub pages {{
 	duckduckbot => sub {},
 	duckduckpreview => sub {},
 	feedback => sub {},
-	goodies => sub {},
 	privacy => sub {},
 	search_box => sub {},
 	stickers => sub {},
-	tech => sub {},
 	terms => sub {},
 
 }}

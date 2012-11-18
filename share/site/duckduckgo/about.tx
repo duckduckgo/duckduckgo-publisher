@@ -36,11 +36,11 @@
 	<br/>
 	<div class="embed-code">&lt;iframe src="https://duckduckgo.com/about-video.html" width="640" height="360"&gt;&lt;/iframe&gt;</div>
 </div>
-<h2><: l('We believe you can get better search AND real privacy at the same time. That's why:') :></h2>
+<h2><: l("We believe you can get better search AND real privacy at the same time. That's why:") :></h2>
 <hr/>
   <div id="features">
     <ul>	 
-	  <li class="answers"><a href="https://duckduckgo.com<: $s.locale_url('root','goodies',$f.locale) :>">
+	  <li class="answers"><a href="/goodies">
 	   <: lp('betterinstantanswers','Better %s.','<em>' ~ lp('betterinstantanswers','instant answers.') ~ '</em>') :>
 	   <!--blockquote>We have lots of goodies for all types of people.</blockquote-->
 	   </a></li>

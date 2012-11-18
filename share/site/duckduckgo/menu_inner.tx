@@ -1,5 +1,5 @@
 <li><a href="<: $s.locale_url('root','settings',$f.locale) :>" tabindex="-1"><: l('Settings') :></a></li>
-<li><a href="<: $s.locale_url('root','goodies',$f.locale) :>" tabindex="-1"><: l('Goodies') :></a></li>
+<li><a href="/goodies" tabindex="-1"><: l('Goodies') :></a></li>
 <li><a href="<: $s.locale_url('root','about',$f.locale) :>" tabindex="-1"><: l('About') :></a></li>
 <li><a href="http://help.duckduckgo.com/" tabindex="-1"><: l('Help') :></a></li>
 <li><a href="<: $s.locale_url('root','feedback',$f.locale) :>" tabindex="-1"><: l('Feedback<') :>/a></li>
