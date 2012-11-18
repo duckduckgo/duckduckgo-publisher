@@ -23,7 +23,7 @@
 			title="No video playback capabilities" />
 	</object>
 </video>
-<div class="share-buttons"><a class="share-button" href="#" onclick="DDG.toggle('share-panel')">share this</a></div>
+<div class="share-buttons"><a class="share-button" href="#" onclick="DDG.toggle('share-panel')"><: l('share this') :></a></div>
 </div>
 <div id="share-panel">
 	<script>function fbs_click() {u=location.href;t=document.title;window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=960,height=544');return false;}	
@@ -41,7 +41,7 @@
   <div id="features">
     <ul>	 
 	  <li class="answers"><a href="https://duckduckgo.com<: $s.locale_url('root','goodies',$f.locale) :>">
-	   <: l('Better %s.','<em>' ~ l('instant answers.') ~ '</em>') :>
+	   <: lp('betterinstantanswers','Better %s.','<em>' ~ lp('betterinstantanswers','instant answers.') ~ '</em>') :>
 	   <!--blockquote>We have lots of goodies for all types of people.</blockquote-->
 	   </a></li>
 	
@@ -50,19 +50,19 @@
 	   </li>
 	  
 	   <li class="privacy"><a href="http://donttrack.us/">
-	    <: l("We don't %s.",'<em>' ~ l('track you') ~ '</em>') :>
+	    <: lp('wedonttrackyou',"We don't %s you.",'<em>' ~ lp('wedonttrackyou','track') ~ '</em>') :>
 	    <!--blockquote>We do not collect or share personal information.</blockquote-->
 	   </a></li>
 	  	  
 	   <li class="bubble"><a href="http://dontbubble.us/">
-	    <: l("We don't %s you.",'<em>' ~ l('filter bubble') ~ '</em>') :>
+	    <: lp('wedontbubbleyou',"We don't %s you.",'<em>' ~ lp('wedontbubbleyou','filter bubble') ~ '</em>') :>
 	    <!--blockquote>We do not bias your search results.</blockquote-->
 	   </a></li>
 	  
 	</ul>
   </div>
 
-<h2><: l("Perhaps you've heard about us in") :>&hellip;</h2>
+<h2><: l("Perhaps you've heard about us in %s",'&hellip;') :></h2>
 <hr/>
   <div id="quotes">
     <ul>
@@ -91,7 +91,7 @@
 </form>
 
 <div class="like"></div>
-<a href="http://twitter.com/duckduckgo" class="twitter-follow-button"><: l('Follow %s','@duckduckgo') :></a>
+<a href="http://twitter.com/duckduckgo" class="twitter-follow-button"><: l('twitter','Follow %s','@duckduckgo') :></a>
 <script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
 
 <div class="like"></div>

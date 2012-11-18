@@ -13,20 +13,20 @@ pre {
 </style>
 
 
-<div id="zero_click_header">Search Box</div>
+<div id="zero_click_header"><: l('Search Box') :></div>
 
 
 <div style="margin-bottom:30px;"></div>
-Add a DuckDuckGo search box to your site! 
+<: l('Add a %s search box to your site!','DuckDuckGo') :>
 
 <div style="margin-bottom:15px;"></div>
-One of many ways to help <a href="/spread.html">spread DuckDuckGo</a>.
+<: lp('oneofmanyspread','One of many ways to help %s','<a href="/spread.html">' ~ lp('oneofmanyspread','spread DuckDuckGo') ~ '</a>') :>
 
 <div style="margin-bottom:15px;"></div>
-Feel free to adjust the settings below. Then, just copy and paste the code into your website!
+<: l('Feel free to adjust the settings below. Then, just copy and paste the code into your website!') :>
 
 <div style="margin-bottom:30px;"></div>
-<i>Regular search box</i>
+<i><: l('Regular search box') :></i>
 <div style="margin-bottom:10px;"></div>
 <iframe id="code_frame" src="/search.html" style="overflow:hidden;margin:0;padding:0;width:550px;height:39px;" frameborder="0"></iframe>
 <pre id="code">
@@ -36,7 +36,7 @@ Feel free to adjust the settings below. Then, just copy and paste the code into 
 new_code_width = '';
 new_code_duck = '';
 new_code_spread = '';
-new_code_prefill = 'Search DuckDuckGo';
+new_code_prefill = '<: js(l('Search DuckDuckGo')) :>';
 new_code_ssearch = '';
 new_code_bgcolor = '';
 new_code_focus = '';
@@ -112,7 +112,7 @@ new_code();
 <div style="border:1px solid #000;width:250px;">
 <div style="background-color:#000;border:2px solid #FFF;padding:5px;text-align:center;">
 <img src="http://duckduckgo.com/nduck.v106.small.png" alt="DuckDuckGo logo"/> 
-<div style="color:#fff;font-size:12px;padding:5px;">DuckDuckGo is a search engine that protects privacy and has lots of features.</div> 
+<div style="color:#fff;font-size:12px;padding:5px;"><: l('DuckDuckGo is a search engine that protects privacy and has lots of features.') :></div> 
 <form action="http://duckduckgo.com/"> 
 <input type="text" name="q" style="width:160px;border:1px solid #666;background-color:#000;color:#fff;padding:1px;border-radius:4px;font-size:14px;"/> 
 <input type="submit" style="background-color:#000;color:#fff;font-size:12px;padding:2px;" value="Search">

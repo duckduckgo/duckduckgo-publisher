@@ -79,7 +79,7 @@ sub _build_content {
 	ltd($self->dir->site->locale_domain);
 	l_lang($self->locale);
 
-	l_dry($self->dir->site->publisher->has_dryrun ? $self->dir->site->publisher->dryrun : undef);
+	l_dry($self->dir->site->publisher->dryrun) if $self->dir->site->publisher->has_dryrun;
 
 	my %vars = (
 		f => $self,

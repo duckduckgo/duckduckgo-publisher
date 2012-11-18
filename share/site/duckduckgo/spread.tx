@@ -12,7 +12,7 @@
 
 <: l('%s most people have never heard of DuckDuckGo.','<b>' ~ l('Unfortunate fact:') ~ '</b>') :>
 <div style="margin-top:15px;"></div>
-<:l("So we'd really appreciate your help in getting the word out!"):>
+<: l("So we'd really appreciate your help in getting the word out!") :>
 
 <div style="margin-top:45px;"></div>
 <b><: l('Level %d:',1) :>&nbsp; <: l('Use DuckDuckGo') :></b>
@@ -95,7 +95,7 @@
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-<: l('Add a %s to your site.','<a href="' ~ $s.locale_url('root','search_box',$f.locale) ~'">' ~ l('search box') ~ '</a>') :>
+<: lp('addsearchbox','Add a %s to your site.','<a href="' ~ $s.locale_url('root','search_box',$f.locale) ~'">' ~ lp('addsearchbox','search box') ~ '</a>') :>
 </span>
 
 <div style="margin-top:12px;"></div>
@@ -110,7 +110,7 @@
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-<: l('Get a %s.','<a href="https://dukgo.com/">' ~ l('%s account','dukgo.com') ~ '</a>') :>
+<: lp('getdukgo','Get a %s.','<a href="https://dukgo.com/">' ~ lp('getdukgo','%s account','dukgo.com') ~ '</a>') :>
 </span>
 
 <p style="margin-top: 8px;">
@@ -132,17 +132,17 @@
 
 <div style="margin-top:20px;"></div>
 <span class="clu">
-<: l('Hang %s or make your own.','<a href="https://duck.co/topic/flyer-campaign">' ~ l('DuckDuckGo flyers') ~ '</a>') :>
+<: lp('makeflyers','Hang %s or make your own.','<a href="https://duck.co/topic/flyer-campaign">' ~ lp('makeflyers','DuckDuckGo flyers') ~ '</a>') :>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-<: l('Put %s on your laptop/car/phone.','<a href="http://stickermule.com/duckduckgo">' ~ l('DuckDuckGo stickers') ~ '</a>') :>
+<: lp('stickers','Put %s on your laptop/car/phone.','<a href="http://stickermule.com/duckduckgo">' ~ lp('stickers','DuckDuckGo stickers') ~ '</a>') :>
 </span>
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-<: l('Wear a %s.','<a href="http://cafepress.com/duckduckgo/">' ~ l('DuckDuckGo t-shirt') ~ '</a>') :>
+<: lp('tshirt','Wear a %s.','<a href="http://cafepress.com/duckduckgo/">' ~ lp('tshirt','DuckDuckGo t-shirt') ~ '</a>') :>
 </span>
 
 </div>
@@ -155,7 +155,7 @@
 
 <div style="margin-top:20px;"></div>
 <span class="clu">
-<: l('Join us at %s or %s.','<a href="http://duck.co/">' ~ l('our forum') ~ '</a>','<a href="http://webchat.freenode.net/?channels=duckduckgo">' ~ l('chat room') ~ '</a>') :>
+<: lp('joinforumchat','Join us at %s or %s.','<a href="http://duck.co/">' ~ lp('joinforumchat','our forum') ~ '</a>','<a href="http://webchat.freenode.net/?channels=duckduckgo">' ~ lp('joinforumchat','chat room') ~ '</a>') :>
 </span>
 
 <div style="margin-top:12px;"></div>
@@ -165,7 +165,7 @@
 
 <div style="margin-top:12px;"></div>
 <span class="clu">
-<: l('Build on our %s.','<a href="http://api.duckduckgo.com/">' ~ l('Zero-click API') ~ '</a>') :>
+<: lp('buildonapi','Build on our %s.','<a href="http://api.duckduckgo.com/">' ~ lp('buildonapi','Zero-click API') ~ '</a>') :>
 </span>
 
 <p style="margin-top: 8px;">

@@ -181,23 +181,23 @@ function validate_form (){
     valid = true;
     missing = "";
     if (d.y.bang_site.value == ""){
-        missing += "\t-Site name\n";
+        missing += "\t<: js(lp('newbang','Site name')) :>\n";
         valid = false;
     }
     if (d.y.bang_command.value == ""){
-        missing += "\t-Band command\n";
+        missing += "\t<: js(lp('newbang','Bang command')) :>\n";
         valid = false;
     }
     if (d.y.bang_url.value == ""){
-        missing += "\t-Bang url\n";
+        missing += "\t<: js(lp('newbang','Bang url')) :>\n";
         valid = false;
     }
     if (d.y.bang_cat.value == ""){
-        missing += "\t-Category\n";
+        missing += "\t<: js(lp('newbang','Category')) :>\n";
         valid = false;
     } 
     if (d.y.bang_subcat.value == ""){
-        missing += "\t-Subcategory\n";
+        missing += "\t<: js(lp('newbang','Subcategory')) :>\n";
         valid = false;
     }
     if (valid){
@@ -226,7 +226,7 @@ function validate_form (){
 <br>!<input type="text" name="bang_command" size="10">
 
 <div style="padding-top:20px;"></div>
-<: l('Bang Url, e.g. %s','http://duckduckgo.com/?q={{{s}}}') :>
+<: l('Bang url, e.g. %s','http://duckduckgo.com/?q={{{s}}}') :>
 <br> &nbsp; <: l('Mark where the search goes with {{{s}}}') :>
 <br><input type="text" name="bang_url" size="40">
 
