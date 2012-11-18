@@ -24,7 +24,7 @@ YAHOO.util.Event.onDOMReady(function () {
 
 <div style="margin-bottom:20px;"></div>
 
-<div id="more_support" style="background:#fef9cd;border:#e1d980 1px solid;padding:3px;">Have a question? &nbsp;Check out our:
+<div id="more_support" class="info">Have a question? &nbsp;Check out our:
 <ul>
 <div style="margin-bottom:3px;"></div>
 <li><a href="http://help.duckduckgo.com/">Support center</a> for answers to common questions.
