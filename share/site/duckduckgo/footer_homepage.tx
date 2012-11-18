@@ -1,6 +1,6 @@
 <div id="footer_homepage">
 	<div id="footer_homepage_left">
-		<:l('Better'):> <a href="<: $s.locale_url('root','goodies',$f.locale) :>"><:l('answers'):></a>. <:l('Real'):> <a href="<: $s.locale_url('root','feedback',$f.locale) :>"><:l('privacy'):></a>!
+		<a href="/about.html">We</a> believe in <a href="/goodies/">better search</a> AND <a href="http://donttrack.us">no tracking</a>.
 	</div>
 	<div id="footer_homepage_right">
 		<script type="text/javascript">

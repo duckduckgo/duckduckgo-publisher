@@ -36,7 +36,7 @@
 	<br/>
 	<div class="embed-code">&lt;iframe src="https://duckduckgo.com/about-video.html" width="640" height="360"&gt;&lt;/iframe&gt;</div>
 </div>
-<h2><: l('What our search engine does better:') :></h2>
+<h2><: l('We believe you can get better search AND real privacy at the same time. That's why:') :></h2>
 <hr/>
   <div id="features">
     <ul>	 
@@ -74,7 +74,7 @@
 	</ul>
   </div>
 
-<h2><: l('What are you waiting for?') :></h2>
+<h2><: l('Try DuckDuckGo for a week!') :></h2>
 <hr/>
   <div id="spread">
 
