@@ -14,12 +14,12 @@ sub pages {{
 	index => sub {
 		no_wrapper => 1,
 		homepage => 1,
-	},	
+	},
 	logos => sub {},
 	newbang => sub {},
 	params => sub {},
 	settings => sub {},
-	spread => sub {},
+	support => sub {},
 
 	## TODO
 
