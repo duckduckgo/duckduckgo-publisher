@@ -164,10 +164,10 @@
 
         <div id="loadForm">
 
-            <h4><: l('Cloud Save') :></h4>
+            <h4><: lp('cloudsave','Cloud Save') :></h4>
 
             <p>
-            <: l('Save your settings anonymously in the cloud!') :>
+            <: lp('cloudsave','Save your settings anonymously in the cloud!') :>
             </p>
 
             <p>
@@ -182,75 +182,75 @@
             </p>
             <div id="whatisthis" style="display:none">
 
-              <h5><: l('Cloud Save FAQ') :></h5>
+              <h5><: lp('cloudsave','Cloud Save FAQ') :></h5>
 
               <p>
-              <: l('Cloud Save lets you save your settings more permanently by entering a passphrase. It is entirely optional.') :>
+              <: lp('cloudsave','Cloud Save lets you save your settings more permanently by entering a passphrase. It is entirely optional.') :>
               </p>
 
               <p>
-              <: l('This has a few benefits:') :>
+              <: lp('cloudsave','This has a few benefits:') :>
               </p>
 
               <ul>
-                <li><: l('You can share your settings among computers and browsers.') :></li>
-                <li><: l('You can restore your settings after deleting cookies') :></li>
-                <li><: l('You can store several sets of settings for different purposes.') :></li>
+                <li><: lp('cloudsave','You can share your settings among computers and browsers.') :></li>
+                <li><: lp('cloudsave','You can restore your settings after deleting cookies') :></li>
+                <li><: lp('cloudsave','You can store several sets of settings for different purposes.') :></li>
               </ul>
 
 
-              <h5><: l('What information gets saved?') :></h5>
+              <h5><: lp('cloudsave','What information gets saved?') :></h5>
 
-              <p><: l('Only the settings that you have changed. They are detailed on the %s page.', '<a href="' ~ $s.locale_url('root','params',$f.locale) ~ '">' ~ l('URL Parameters') ~ '</a>') :></p>
+              <p><: lp('cloudsave','Only the settings that you have changed. They are detailed on the %s page.', '<a href="' ~ $s.locale_url('root','params',$f.locale) ~ '">' ~ l('URL Parameters') ~ '</a>') :></p>
               
 
-              <h5><: l('How does it work?') :></h5>
+              <h5><: lp('cloudsave','How does it work?') :></h5>
 
-              <p><: l('Your passphrase is used to generate a key using the Secure Hash Algorithm known as %s, using a %s bit key.','<a href="http://en.wikipedia.org/wiki/SHA-2">SHA-2</a>','512') :>
-              <: l('Your passphrase never leaves the browser, only the key and the settings file associated with it.') :>
-              <: l('We save the settings file on Amazon S3 using the generated key as the name.') :>
-              <: l('In the interest of transparency, this data is not encrypted: you can see exactly what information we store.') :></p>
+              <p><: lp('cloudsave','Your passphrase is used to generate a key using the Secure Hash Algorithm known as %s, using a %s bit key.','<a href="http://en.wikipedia.org/wiki/SHA-2">SHA-2</a>','512') :>
+              <: lp('cloudsave','Your passphrase never leaves the browser, only the key and the settings file associated with it.') :>
+              <: lp('cloudsave','We save the settings file on Amazon S3 using the generated key as the name.') :>
+              <: lp('cloudsave','In the interest of transparency, this data is not encrypted: you can see exactly what information we store.') :></p>
 
               <ul>
-              <li><: l('Passphrases cannot feasibly be reverse engineered from a key') :></li>
-              <li><: l('Even if you could do that, there is no point since all the information is there in the open, unencrypted, provided you know the key.') :></li>
-              <li><: l('DuckDuckGo does not ever know your passphrase.') :></li>
+              <li><: lp('cloudsave','Passphrases cannot feasibly be reverse engineered from a key') :></li>
+              <li><: lp('cloudsave','Even if you could do that, there is no point since all the information is there in the open, unencrypted, provided you know the key.') :></li>
+              <li><: lp('cloudsave','DuckDuckGo does not ever know your passphrase.') :></li>
               </ul>
 
-              <h5><: l('What is the cloud save bookmarklet and how does it differ from the URL parameter bookmarklet?') :></h5>
+              <h5><: lp('cloudsave','What is the cloud save bookmarklet and how does it differ from the URL parameter bookmarklet?') :></h5>
 
               <p>
-              <: l('The cloud save bookmarklet is a URL that automatically enables cloud save.') :>
-              <: l('The benefit of this over using the URL parameters bookmarklet is that when you change settings, they will automatically be saved in the cloud.') :>
+              <: lp('cloudsave','The cloud save bookmarklet is a URL that automatically enables cloud save.') :>
+              <: lp('cloudsave','The benefit of this over using the URL parameters bookmarklet is that when you change settings, they will automatically be saved in the cloud.') :>
               </p>
 
-              <h5><: l('How is it anonymous?') :></h5>
+              <h5><: lp('cloudsave','How is it anonymous?') :></h5>
 
-              <p><: l("We do not have usernames and we don't store any personally identifiable information.") :></p>
+              <p><: lp('cloudsave',"We do not have usernames and we don't store any personally identifiable information.") :></p>
 
-              <h5><: l('How does passphrase generation work?') :></h5>
+              <h5><: lp('cloudsave','How does passphrase generation work?') :></h5>
 
-              <p><: l('Each time you ask for a passphrase suggestion, we get a reasonably large list of random words from the DuckDuckGo servers.') :>
-              <: l('In the browser, we then select four or five random words from that list, ensuring that it is at least 18-20 characters long.') :>
-              <: l('It is easier to remember four or five words than 10 random letters and numbers, and far more secure.') :></p>
+              <p><: lp('cloudsave','Each time you ask for a passphrase suggestion, we get a reasonably large list of random words from the DuckDuckGo servers.') :>
+              <: lp('cloudsave','In the browser, we then select four or five random words from that list, ensuring that it is at least 18-20 characters long.') :>
+              <: lp('cloudsave','It is easier to remember four or five words than 10 random letters and numbers, and far more secure.') :></p>
 
-              <h5><: l('How do I change my passphrase?') :></h5>
+              <h5><: lp('cloudsave','How do I change my passphrase?') :></h5>
 
-              <p><: l('You can do this by saving your settings under a different passphrase, optionally deleting the first set.') :></p>
+              <p><: lp('cloudsave','You can do this by saving your settings under a different passphrase, optionally deleting the first set.') :></p>
 
               <ol>
-              <li><: l('Enable cloud save by enter your existing passphrase.') :></li>
-              <li><: l('Push "%s". This removes the data from the cloud, but it remains in your browser until you click on "%s".',l('Delete my data'),l('Reset all settings to defaults')) :></li>
-              <li><: l('Enter a new passphrase and click "%s". This will save your data under your new passphrase.',l('Save Settings')) :></li>
+              <li><: lp('cloudsave','Enable cloud save by enter your existing passphrase.') :></li>
+              <li><: lp('cloudsave','Push "%s". This removes the data from the cloud, but it remains in your browser until you click on "%s".',l('Delete my data'),l('Reset all settings to defaults')) :></li>
+              <li><: lp('cloudsave','Enter a new passphrase and click "%s". This will save your data under your new passphrase.',l('Save Settings')) :></li>
               </ol>
 
-              <h5><: l('I forgot my passphrase. Can you recover it?') :></h5>
+              <h5><: lp('cloudsave','I forgot my passphrase. Can you recover it?') :></h5>
 
-              <p><: l("No. Unless you deleted your settings, the settings file will still be there but we have no way of associating it with you.") :>
-              <: l("We cannot reverse the passphrase key generation.") :>
-              <: l("We don't associate your IP address or browser fingerprint or any other information with the file.") :></p>
+              <p><: lp('cloudsave',"No. Unless you deleted your settings, the settings file will still be there but we have no way of associating it with you.") :>
+              <: lp('cloudsave',"We cannot reverse the passphrase key generation.") :>
+              <: lp('cloudsave',"We don't associate your IP address or browser fingerprint or any other information with the file.") :></p>
 
-              <h5><: l('Is deleted data really deleted?') :></h5>
+              <h5><: lp('cloudsave','Is deleted data really deleted?') :></h5>
 
               <p><: l('Yes') :></p> 
 
@@ -258,7 +258,7 @@
               <h6><: l('See Also') :></h6>
 
               <ul>
-                <li><a href="https://duck.co/topic/a-preview-of-the-new-settings-system"><: l('Cloud Save discussion on %s','duck.co') :></a></li>
+                <li><a href="https://duck.co/topic/a-preview-of-the-new-settings-system"><: lp('cloudsave','Cloud Save discussion on %s','duck.co') :></a></li>
                 <li><a href="http://help.duckduckgo.com/customer/portal/topics/97187-settings/articles"><: l('DuckDuckGo Support Center') :></a></li>
               </ul>
               
