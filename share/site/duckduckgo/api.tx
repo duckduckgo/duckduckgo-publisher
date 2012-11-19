@@ -13,45 +13,44 @@ pre {
 }
 </style>
 
-<div id="zero_click_header"><:l('Zero-click Info API'):></div>
+<div id="zero_click_header"><: l('Zero-click Info API') :></div>
 
 <: include "untranslated.tx" :>
 
 <div style="margin-bottom:30px;"></div>
 
-<:l('Our Zero-click Info API gives you free access to much of our'):>
-<a href="http://duckduckgo.com/?q=valley+forge+national+park"><:l('topic summaries'):></a> 
-(<a href="http://api.duckduckgo.com/?q=valley+forge+national+park&format=json&pretty=1"><:l('API example'):></a>), 
-<a href="http://duckduckgo.com/?q=simpsons+characters"><:l('categories'):></a>
-(<a href="http://api.duckduckgo.com/?q=simpsons+characters&format=json&pretty=1"><:l('API example'):></a>), 
-<a href="http://duckduckgo.com/?q=apple"><:l('disambiguation'):></a>  
-(<a href="http://api.duckduckgo.com/?q=apple&format=json&pretty=1">API <:l('example'):></a>),  
-<a href="<: $s.locale_url('root','bang',$f.locale) :>">!bang <:l('redirects'):></a>
-(<a href="http://api.duckduckgo.com/?q=!imdb+rushmore&format=json&pretty=1&no_redirect=1"><:l('API example'):></a>),
-<a href="http://duckduckgo.com/?q=define+ostensibly"><:l('definitions'):></a> 
-(<a href="http://api.duckduckgo.com/?q=define+ostensibly&format=json&pretty=1"><:l('API example'):></a>),
-<:l('and'):> 
-<a href="http://duckduckgo.com/?q=24*60*60"><:l('more'):></a>  
-(<a href="http://api.duckduckgo.com/?q=24*60*60&format=json&pretty=1"><:l('API example'):></a>).
+Our Zero-click Info API gives you free access to much of our
+<a href="http://duckduckgo.com/?q=valley+forge+national+park">topic summaries</a> 
+(<a href="http://api.duckduckgo.com/?q=valley+forge+national+park&format=json&pretty=1">API example</a>), 
+<a href="http://duckduckgo.com/?q=simpsons+characters">categories</a>
+(<a href="http://api.duckduckgo.com/?q=simpsons+characters&format=json&pretty=1">API example</a>), 
+<a href="http://duckduckgo.com/?q=apple">disambiguation</a>  
+(<a href="http://api.duckduckgo.com/?q=apple&format=json&pretty=1">API example</a>),  
+<a href="<: $s.locale_url('root','bang',$f.locale) :>">!bang redirects</a>
+(<a href="http://api.duckduckgo.com/?q=!imdb+rushmore&format=json&pretty=1&no_redirect=1">API example</a>),
+<a href="http://duckduckgo.com/?q=define+ostensibly">definitions</a> 
+(<a href="http://api.duckduckgo.com/?q=define+ostensibly&format=json&pretty=1">API example</a>), and 
+<a href="http://duckduckgo.com/?q=24*60*60">more</a>  
+(<a href="http://api.duckduckgo.com/?q=24*60*60&format=json&pretty=1">API example</a>).
  
 
 <p style="margin-top: 25px;">
-<:l('This information comes from a variety of sources, including'):> <a href="http://wikipedia.org">Wikipedia</a>, <a href="http://wikia.com/">Wikia</a>, <a href="http://crunchbase.com">Crunchbase</a>, <a href="http://github.com">GitHub</a>, <a href="http://wikihow.com">WikiHow</a>, <a href="http://thefreedictionary.com">The Free Dictionary</a> <:l('and dozens more'):>.
+This information comes from a variety of sources, including<a href="http://wikipedia.org">Wikipedia</a>, <a href="http://wikia.com/">Wikia</a>, <a href="http://crunchbase.com">Crunchbase</a>, <a href="http://github.com">GitHub</a>, <a href="http://wikihow.com">WikiHow</a>, <a href="http://thefreedictionary.com">The Free Dictionary</a> and dozens more.
 </p>
 
 <p style="margin-top: 25px;">
-  <:l('This API serves'):> <a href="/traffic.html"><:l('over 5,000,000 queries a day'):></a> <:l('for a variety of uses, e.g.:'):>
+  This API serves <a href="/traffic.html">over 5,000,000 queries a day</a> for a variety of uses, e.g.:
 </p>
 <ul>
-<li><:l('Defines people, places, things, words and concepts.'):>
-<li><:l('Provides direct links to other services (via '):><a href="<: $s.locale_url('root','bang',$f.locale) :>">!bang <:l('syntax'):></a>).
-<li><:l('Lists related topics.'):>
-<li><:l('Gives official sites when available.'):>
+<li>Defines people, places, things, words and concepts.
+<li>Provides direct links to other services (via <a href="<: $s.locale_url('root','bang',$f.locale) :>">!bang syntax</a>).
+<li>Lists related topics.
+<li>Gives official sites when available
 </ul>
 
 
 <p style="margin-top: 25px;">
-<:l('Some consumers of this API:'):>
+Some consumers of this API:
 </p>
 
 <p style="margin-top: 15px;">
@@ -59,7 +58,7 @@ pre {
 <tr>
 <td valign="top" class="small" align="center">
 <a href="/tools.html"><img src="/tools/ios.png"></a>
-<a href="/tools.html"><:l('Our Apps'):></a>
+<a href="/tools.html">Our Apps</a>
 </td>
 <td valign="top" class="small" style="padding-left: 30px;" align="center">
 <a href="http://itunes.apple.com/app/cyberspace/id403114491?mt=8"><img src="/tools/cyberspace.png"></a>
@@ -86,7 +85,7 @@ The only requirement is link attribution in each place you use the info for both
 </p>
 
 <p style="margin-top: 25px;">
-<:l('Here are the return fields:'):>
+Here are the return fields:
 <pre>
 Abstract: topic summary (can contain HTML, e.g. italics)
 AbstractText: topic summary (with no HTML)
@@ -128,7 +127,7 @@ Redirect: !bang redirect URL
 </p>
 
 <p style="margin-top: 20px;">
-<:l('Here are all the parameters:'):>
+Here are all the parameters:
 <pre>
 q: query
 
@@ -152,7 +151,7 @@ skip_disambig: 1 to skip disambiguation (D) Type.
 
 </p>
 <p style="margin-top: 35px;">
-<b><:l('Notes'):></b>
+<b>Notes</b>
 <ul>
 <li class="small">As this is a Zero-click Info API, most deep queries (non topic names) will be blank.
 <pre>

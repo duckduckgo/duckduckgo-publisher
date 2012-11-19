@@ -96,8 +96,8 @@
 
     <p>
     <: l('By default, your settings are stored in non-personal browser cookies (in your browser).') :>
-    <: l('You can use Anonymous Cloud Save to store your settings in a more permanent way (on a remote server in the cloud).') :>
-    <: l('No personally identifiable information will be stored in the cloud, and your pass phrase will never leave your browser.') :>
+    <: lp('cloudsave','You can use Anonymous Cloud Save to store your settings in a more permanent way (on a remote server in the cloud).') :>
+    <: lp('cloudsave','No personally identifiable information will be stored in the cloud, and your pass phrase will never leave your browser.') :>
     </p>
 
         <ul>
