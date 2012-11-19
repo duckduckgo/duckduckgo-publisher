@@ -14,7 +14,7 @@
 </style>
 
 
-<div id="zero_click_header"><: l('URL Params') :></div>
+<div id="zero_click_header"><: l('URL Parameters') :></div>
 
 <div style="margin-bottom:30px;"></div>
 

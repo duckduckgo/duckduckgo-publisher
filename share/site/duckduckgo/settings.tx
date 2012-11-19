@@ -14,11 +14,11 @@
     <div class="hd"><: l('Cloud Save') :></div>
     <div class="bd">
         <p>
-        <: l('Save your settings anonymously in the cloud!') :>
+        <: lp('cloudsave','Save your settings anonymously in the cloud!') :>
         </p>
             <!-- since we're encouraging people to use a pass phrase of actual words, we won't turn off autocorrect. -->
             <p id="pwbox"><input type="text" name="pw" class="userinfo" id="cloud_pw" size="50" autocapitalize="off" onfocus="YD.setStyle('pwstrengthbox', 'display', 'block')" onchange="S.pwstr();" onkeyup="S.pwstr();" onkeydown="S.pwstr();" placeholder="pass phrase"/> <!-- onkeypress="phrasing();" -->
-            <br><a class="xb" onclick="S.passphrase();"><: l('suggest') :></a>
+            <br><a class="xb" onclick="S.passphrase();"><: lp('cloudsavepassphrase','suggest') :></a>
             </p>
 
             <div id="pwstrengthbox">
@@ -285,7 +285,7 @@
     <!-- Or <a href="javascript:;" onclick="resetToDefaults()">reset all settings</a>. -->
         <p>
         <: l('This page requires Javascript to function.') :>
-        <: l('If you want to use DuckDuckGo without JavaScript, please use our %s or %s versions.','<a href="/html">HTML</a>','<a href="/lite">' ~ l('lite') ~ '</a>') :>
+        <: l('If you want to use DuckDuckGo without JavaScript, please use our %s or %s versions.','<a href="/html">HTML</a>','<a href="/lite">lite</a>') :>
         </p>
 
     </div>

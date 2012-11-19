@@ -1,1 +1,1 @@
-<: include "meta/title.tx" { title => l('DuckDuckGo URL Params') } :>
+<: include "meta/title.tx" { title => l('DuckDuckGo URL Parameters') } :>
