@@ -1,8 +1,10 @@
-<div id="zero_click_header">Terms of Service</div>
+<div id="zero_click_header"><: l('Terms of Service') :></div>
 
 <div style="margin-bottom:20px;"></div>
-<div style="background:#fef9cd;border:#e1d980 1px solid;padding:3px;" class="clu">The following Agreement was last modified on September 22, 2008.</div>
+<div style="background:#fef9cd;border:#e1d980 1px solid;padding:3px;" class="clu"><: l('The following Agreement was last modified on %s.','September 22, 2008') :></div>
 <div style="margin-bottom:30px;"></div>
+
+<: include "untranslated.tx" :>
 
 <b>1. This is an Agreement Between You and Duck Duck Go, Inc.</b>
 

@@ -15,6 +15,7 @@ pre {
 
 <div id="zero_click_header"><: l('Search Box') :></div>
 
+<: include "untranslated.tx" :>
 
 <div style="margin-bottom:30px;"></div>
 <: l('Add a %s search box to your site!','DuckDuckGo') :>
@@ -112,7 +113,7 @@ new_code();
 <div style="border:1px solid #000;width:250px;">
 <div style="background-color:#000;border:2px solid #FFF;padding:5px;text-align:center;">
 <img src="http://duckduckgo.com/nduck.v106.small.png" alt="DuckDuckGo logo"/> 
-<div style="color:#fff;font-size:12px;padding:5px;"><: l('DuckDuckGo is a search engine that protects privacy and has lots of features.') :></div> 
+<div style="color:#fff;font-size:12px;padding:5px;"><: lp('searchbox','DuckDuckGo is a search engine that protects privacy and has lots of features.') :></div> 
 <form action="http://duckduckgo.com/"> 
 <input type="text" name="q" style="width:160px;border:1px solid #666;background-color:#000;color:#fff;padding:1px;border-radius:4px;font-size:14px;"/> 
 <input type="submit" style="background-color:#000;color:#fff;font-size:12px;padding:2px;" value="Search">

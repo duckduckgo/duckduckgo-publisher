@@ -1,5 +1,7 @@
 <div id="zero_click_header">DuckDuckGo Preview Bot</div>
 
+<: include "untranslated.tx" :>
+
 <div style="margin-top: 30px;"></div>
 <a class="l" href="/">Duck Duck Go</a> is a new search engine. Duck Duck Preview is the server process behind our preview function, which allows users to preview pages before visiting them. 
 

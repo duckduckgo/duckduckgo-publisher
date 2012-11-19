@@ -1,5 +1,6 @@
 <div id="zero_click_header">Stickers</div>
 
+<: include "untranslated.tx" :>
 
 <div style="margin-bottom:20px;"></div>
 <div style="background:#fef9cd;border:#e1d980 1px solid;padding:3px;" class="clu">Please note: stickers can take months to arrive because we do them manually.</div>

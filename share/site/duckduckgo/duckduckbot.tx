@@ -1,5 +1,6 @@
 <div id="zero_click_header">DuckDuckGo Bot</div>
 
+<: include "untranslated.tx" :>
 
 <div style="margin-top: 30px;"></div>
 DuckDuckBot is the Web crawler for <a href="/?q=&t=i">DuckDuckGo</a>.  It respects <a class="le" href="http://www.robotstxt.org/"><q>robots.txt</q></a> files via <a href="https://metacpan.org/module/WWW::RobotRules">WWW::RobotRules</a> and originates from these IP addresses:
