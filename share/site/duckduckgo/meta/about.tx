@@ -1,0 +1,30 @@
+<: include "meta/title.tx" { title => l('About DuckDuckGo') } :>
+
+<meta property="og:image" content="http://duckduckgo.com/assets/about/about-duckduckgo-posterimg.jpg" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="DuckDuckGo has better instant answers, less spam and clutter, and real privacy." />
+
+<meta property="og:video" content="http://duckduckgo.com/assets/player.swf?file=http://dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" />
+<meta property="og:video:secure_url" content="https://duckduckgo.com/assets/player.swf?file=https://dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" />
+<meta property="og:video:height" content="544" />
+<meta property="og:video:width" content="960" />
+<meta property="og:video:type" content="application/x-shockwave-flash" />
+<meta property="og:video" content="http://dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" />
+<meta property="og:video:secure_url" content="https://dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" />
+<meta property="og:video:type" content="video/mp4" />
+<link href="https://duckduckgo.com/assets/player.swf?file=https://dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" rel="video_src" />
+<meta content="544" name="video_height" />
+<meta content="960" name="video_width" />
+<meta content="application/x-shockwave-flash" name="video_type" />
+<meta name="twitter:card" value="player">
+<meta name="twitter:image" value="http://duckduckgo.com/assets/about/about-duckduckgo-posterimg.jpg">
+<meta name="twitter:player" value="http://duckduckgo.com/assets/player.swf?file=http://dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4">
+<meta name="twitter:player:width" value="960">
+<meta name="twitter:player:height" value="544">
+
+<!-- template b -->
+<link rel="stylesheet" href="/s478.css" type="text/css"><link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="/opensearch_ssl.xml"><link rel="image_src" href="/assets/about/about-duckduckgo-posterimg.jpg"/>
+<script src="js/jquery/jquery-1.7.2.min.js"></script>
+<script src="js/mediaelement/mediaelement-and-player.min.2.9.1.js"></script>
+<link rel="stylesheet" href="mediaelementplayer.css" />
+<style> .video-container, .video-container video { max-height: 368px; } </style>

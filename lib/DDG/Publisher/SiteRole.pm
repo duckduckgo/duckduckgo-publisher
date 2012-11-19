@@ -109,6 +109,13 @@ sub _build_template_engine {
 			u => sub { $self->locale_url(@_) },
 			js => sub { javascript_value_escape(join("",@_)) },
 			%xslate_locale_functions,
+			find_template => sub {
+				my ($filename) = @_;
+				return $filename if eval { $self->template_engine->find_file($filename); 1 };
+				$filename .= $self->template_engine->{suffix};
+				return $filename if eval { $self->template_engine->find_file($filename); 1 };
+				return 0;
+			},
 		},
 	);
 }

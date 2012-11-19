@@ -9,13 +9,13 @@ with qw(
 sub path { '/' }
 
 sub pages {{
+
 	about => sub {},
 	bang => sub {},
 	index => sub {
 		no_wrapper => 1,
 		homepage => 1,
 	},
-	logos => sub {},
 	newbang => sub {},
 	params => sub {},
 	settings => sub {},
@@ -29,16 +29,11 @@ sub pages {{
 	feedback => sub {},
 	privacy => sub {},
 	search_box => sub {},
-	stickers => sub {},
-	terms => sub {},
 
 }}
 
 sub statics {{
 	"50x" => sub {},
-	asciitable => sub { no_wrapper => 1 },
-	"index.tw" => sub {},
-	walpha => sub { no_wrapper => 1 },
 }}
 
 1;
