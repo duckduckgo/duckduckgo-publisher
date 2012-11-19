@@ -1,0 +1,109 @@
+	<div id="dest-boxes">
+		<div class="dest">
+			<a href="http://help.duckduckgo.com/">
+				<img src="assets/logos/logo_feedback.help.png" alt="" />
+				<h2>Help Pages</h2>
+				<ul>
+					<li>Are you looking for our advanced syntax?</li>
+					<li>Want to integrate DuckDuckGo with your browser?</li>
+					<li>Curious about the company?</li>
+				</ul>
+			</a>
+		</div>	
+		
+		<div class="dest">
+			<a href="http://duck.co/">
+				<img src="assets/logos/logo_feedback.forum.png" alt="" />
+				<h2>Duck.co Forum</h2>
+				<ul>			
+					<li>Have a question about DuckDuckGo?</li>
+					<li>Want to share a suggestion with other users?</li>
+					<li>Looking for recent announcements?</li>
+				</ul>
+			</a>
+		</div>
+		<div class="dest">
+			<a href="http://duckduckhack.com/">
+				<img src="assets/logos/logo_feedback.hack.png" alt="" />
+				<h2>DuckDuckHack</h2>
+				<ul>
+					<li>Plugin suggestions?</li>
+					<li>Want to develop an instant answer?</li>
+					<li>Is someone working on your zero-click plugin?</li>
+				</ul>
+			</a>
+		</div>
+		<div class="dest">		
+			<a href="https://dukgo.com/">
+				<img src="assets/logos/logo_feedback.community.png" alt="" />
+				<h2>Community Platform</h2>
+				<ul>
+					<li>Care to help translate DuckDuckGo into your language? </li>
+					<li>Searching for info. on our XMPP chat service? </li>
+					<li>Would you like to help develop the platform? </li>				
+				</ul>
+			</a>
+		</div>
+	</div>	
+	
+	<h2>New <a href="bang.html">!Bang</a> suggestions?</h2>
+	<p>Submit them <a href="newbang.html">here</a>.</a></p>
+	
+	<!--
+		<h2>Get Involved/Stay Informed</h2>
+		
+		<form name="y" id="newsletter" class="getinvolved" method="post" action="https://flash.duckduckgo.com/e.js">		
+			<p>
+				<input type="checkbox" id="add" name="add"> <label for="add">&nbsp;Get the DuckDuckGo newsletter (monthly).</label>
+			</p>
+			<p>
+				<input type="checkbox" id="add2" name="add2"> <label for="add2">&nbsp;Help test new features (rare emails, &lt;1/mo).</label>
+			</p>
+			<p>
+				<input type="checkbox" id="add3" name="add3"> <label for="add3">&nbsp;Help spread DuckDuckGo (rare emails, &lt;1/mo).</label>
+			</p>
+			<p>
+				<input type="checkbox" id="add5" name="add5"> <label for="add5">&nbsp;Internet privacy updates (not just about us).</label>
+			</p>
+			<p>
+				<input type="text" name="from" id="from" placeholder=" email address" size="25">
+				<input type="submit" value="Submit" class="button">
+				<input type="hidden" name="go">
+				<input type="hidden" name="is_feedback" value="0">
+				<input type="hidden" name="subject" id="subject" value="Feedback Newsletter Enrollment">
+			</p>
+		</form>
+	-->	
+		<h2>Contact Us</h2>
+		
+		<form name="y" id="feedbackForm" style="margin-top:30px;" method="post" action="https://flash.duckduckgo.com/e.js">
+
+			<p><label for="from" class="cap">Email: </label><input type="text" name="from" id="from" placeholder=" leave blank for anonymous feedback" size="40"/></p>
+			<p><label for="subject" class="cap">Subject: </label><input type="text" name="subject" id="subject" size="40"/></p>
+			<p><label for="body">Feedback / Question / Suggestion / Problem:
+			<br>&nbsp; (We'd also love to know how you heard about us.)
+			</label>
+			</p>
+			<p>
+			<textarea name="body" id="body" cols="61" rows="10"></textarea>
+			<div id="blank_body_error" class="feedback_form_error"> Whoops! The feedback form is empty!</div>
+			</p>
+			<!--	
+			<p>
+			<input type="checkbox" checked id="copy" name="copy"> <label for="copy">&nbsp;Send me a copy.</label>
+			</p>
+			//-->
+			<p>
+			<input type="checkbox" id="add" name="add"> <label for="add">&nbsp;Get the DuckDuckGo newsletter (monthly).</label>
+			</p><p>
+			<input type="checkbox" id="add2" name="add2"> <label for="add2">&nbsp;Help test new features (rare emails, <1/mo).</label>
+			</p><p>
+			<input type="checkbox" id="add3" name="add3"> <label for="add3">&nbsp;Help spread DuckDuckGo (rare emails, <1/mo).</label>
+			</p><p>
+			<input type="checkbox" id="add5" name="add5"> <label for="add5">&nbsp;Internet privacy updates (not just about us).</label>
+			</p><p>
+			<input type="submit" value="Submit">
+			<input type="hidden" name="go">
+			<input type="hidden" name="is_feedback" value="1">
+			</p>
+		</form>
