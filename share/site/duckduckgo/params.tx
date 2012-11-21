@@ -18,7 +18,7 @@
 
 <div style="margin-bottom:30px;"></div>
 
-<: l('You can change %s via URL parameters by adding them after the search query, for example:','<a href="' ~ $s.locale_url('root','settings',$f.locale) ~ '">' ~ l('DuckDuckGo settings') ~ '</a>') :>
+<: l('You can change %s via URL parameters by adding them after the search query, for example:','<a href="/settings">' ~ l('DuckDuckGo settings') ~ '</a>') :>
 
 <div style="padding-top:5px;"></div>
 &nbsp; &nbsp; <span class="clu">http://duckduckgo.com/?q=search&amp;kp=-1&amp;kl=us-en</span>

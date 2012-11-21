@@ -16,6 +16,12 @@ has dir => (
 	required => 1,
 );
 
+has static => (
+	is => 'ro',
+	lazy => 1,
+	default => sub { 0 },
+);
+
 has file => (
 	is => 'ro',
 	required => 1,
@@ -25,10 +31,9 @@ has file => (
 
 sub _build_file {
 	my ( $self ) = @_;
-	my $file = $self->filebase;
-	$file .= '.'.$self->locale unless $self->locale eq $self->dir->site->default_locale;
-	$file .= '.html';
-	return $file;
+	return $self->static
+		? $self->filebase.'.html'
+		: $self->filebase.'/'.$self->locale.'.html'
 }
 
 has filebase => (
@@ -46,9 +51,10 @@ has code => (
 	required => 1,
 );
 
-sub self_url {
+sub url {
 	my ( $self ) = @_;
-	$self->dir->site->url($self->dir, $self->filebase);
+	return $self->dir->path if $self->filebase eq 'index';
+	return $self->dir->path.$self->filebase;
 }
 
 has template => (
@@ -87,6 +93,7 @@ sub _build_content {
 		s => $self->dir->site,
 		locales => $self->dir->site->locale_package->locales,
 		maintemplate => $self->template,
+		url => $self->url,
 	);
 
 	my $site_code = $self->dir->site->can('code');

@@ -1,11 +1,11 @@
-<script src="js/jquery/jquery-1.7.2.min.js"></script>
-<script src="js/mediaelement/mediaelement-and-player.min.2.9.1.js"></script>
+<script src="/js/jquery/jquery-1.7.2.min.js"></script>
+<script src="/js/mediaelement/mediaelement-and-player.min.2.9.1.js"></script>
 <link rel="stylesheet" href="mediaelementplayer.css" />
 <style> .video-container, .video-container video { max-height: 368px; } </style>
 
 <div class="video-container">
 
-<video width="640" height="360" id="about-video" poster="assets/about/about-duckduckgo-posterimg.jpg" controls="controls" style="width: 100%; height: 100%;" preload="none">
+<video width="640" height="360" id="about-video" poster="/assets/about/about-duckduckgo-posterimg.jpg" controls="controls" style="width: 100%; height: 100%;" preload="none">
 	<!-- M4V source must come first for iOS -->
 	<source type="video/x-m4v" src="//dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.m4v" />
 	<!-- MP4 for almost everyone -->
@@ -19,7 +19,7 @@
 		<param name="movie" value="flashmediaelement.swf" /> 
 		<param name="flashvars" value="controls=true&poster=assets/about/about-duckduckgo-posterimg.jpg&file=//dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" /> 		
 		<!-- Image fall back for non-HTML5 browser with JavaScript turned off and no Flash player installed (wow just wow) -->
-		<img src="assets/about/about-duckduckgo-posterimg.jpg" width="640" height="360" alt="DuckDuckGo" 
+		<img src="/assets/about/about-duckduckgo-posterimg.jpg" width="640" height="360" alt="DuckDuckGo" 
 			title="No video playback capabilities" />
 	</object>
 </video>
@@ -28,8 +28,8 @@
 <div id="share-panel">
 	<script>function fbs_click() {u=location.href;t=document.title;window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=960,height=544');return false;}	
 	</script>
-	<a href="http://www.facebook.com/share.php?u=https://duckduckgo.com<: $s.locale_url('root','about',$f.locale) :>" class="shareon facebook" target="_blank" onClick="return fbs_click()"><: l('Share on %s','Facebook') :></a>
-	<a href="https://twitter.com/?status=Check+out+the+'About+@DuckDuckGo'+video:+https://duckduckgo.com/about.html" class="shareon twitter" target="_blank"><: l('Share on %s','Twitter') :></a>
+	<a href="http://www.facebook.com/share.php?u=https://duckduckgo.com/about" class="shareon facebook" target="_blank" onClick="return fbs_click()"><: l('Share on %s','Facebook') :></a>
+	<a href="https://twitter.com/?status=Check+out+the+'About+@DuckDuckGo'+video:+https://duckduckgo.com/about" class="shareon twitter" target="_blank"><: l('Share on %s','Twitter') :></a>
 	<br style="clear: both;"/>
 	<br/>
 	<: l('Embed Elsewhere:') :>
@@ -78,7 +78,7 @@
 <hr/>
   <div id="spread">
 
-<p class="big"><: lp('useus', '%s us.','<a href="https://duckduckgo.com/">' ~ lp('useus','Use') ~ '</a>') :> &nbsp;<: lp('supportus','%s us.','<a href="https://duckduckgo.com' ~ $s.locale_url('root','support',$f.locale) ~ '">' ~ lp('supportus','Support') ~ '</a>') :> &nbsp;<: lp('hackus', '%s us.', '<a href="http://duckduckhack.com/">' ~ lp('hackus','Hack') ~ '</a>') :> &nbsp;<: lp('translateus', '%s us.', '<a href="https://dukgo.com/">' ~ lp('translateus','Translate') ~ '</a>') :></p>
+<p class="big"><: lp('useus', '%s us.','<a href="https://duckduckgo.com/">' ~ lp('useus','Use') ~ '</a>') :> &nbsp;<: lp('supportus','%s us.','<a href="https://duckduckgo.com/support">' ~ lp('supportus','Support') ~ '</a>') :> &nbsp;<: lp('hackus', '%s us.', '<a href="http://duckduckhack.com/">' ~ lp('hackus','Hack') ~ '</a>') :> &nbsp;<: lp('translateus', '%s us.', '<a href="https://dukgo.com/">' ~ lp('translateus','Translate') ~ '</a>') :></p>
 
 <div class="newsletter"></div>
 <form action="https://flash.duckduckgo.com/e.js" method="post">

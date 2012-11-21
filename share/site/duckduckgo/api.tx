@@ -26,7 +26,7 @@ Our Zero-click Info API gives you free access to much of our
 (<a href="http://api.duckduckgo.com/?q=simpsons+characters&format=json&pretty=1">API example</a>), 
 <a href="http://duckduckgo.com/?q=apple">disambiguation</a>  
 (<a href="http://api.duckduckgo.com/?q=apple&format=json&pretty=1">API example</a>),  
-<a href="<: $s.locale_url('root','bang',$f.locale) :>">!bang redirects</a>
+<a href="/bang">!bang redirects</a>
 (<a href="http://api.duckduckgo.com/?q=!imdb+rushmore&format=json&pretty=1&no_redirect=1">API example</a>),
 <a href="http://duckduckgo.com/?q=define+ostensibly">definitions</a> 
 (<a href="http://api.duckduckgo.com/?q=define+ostensibly&format=json&pretty=1">API example</a>), and 
@@ -43,7 +43,7 @@ This information comes from a variety of sources, including<a href="http://wikip
 </p>
 <ul>
 <li>Defines people, places, things, words and concepts.
-<li>Provides direct links to other services (via <a href="<: $s.locale_url('root','bang',$f.locale) :>">!bang syntax</a>).
+<li>Provides direct links to other services (via <a href="/bang">!bang syntax</a>).
 <li>Lists related topics.
 <li>Gives official sites when available
 </ul>
@@ -192,7 +192,7 @@ Type: ""
 </p>
 
 <p style="margin-top: 5px;">
-<li class="small">For <a href="<: $s.locale_url('root','bang',$f.locale) :>">!bang commands</a>, the redirect will happen at the HTTP level (since that is fastest), but it will also be returned in the content (for parsing). If you don't want the redirect to happen in the HTTP header, use the no_redirect flag.</li>
+<li class="small">For <a href="/bang">!bang commands</a>, the redirect will happen at the HTTP level (since that is fastest), but it will also be returned in the content (for parsing). If you don't want the redirect to happen in the HTTP header, use the no_redirect flag.</li>
 </p>
 
 <p style="margin-top: 5px;">
@@ -245,7 +245,7 @@ vs
 </p>
 
 <p style="margin-top: 5px;">
-<span class="small">Since we use many underlying APIs in our full results (merged with our own indexes), we do not have rights at this time provide an API with all our Web links. We do, however, provide <a href="<: $s.locale_url('root','search_box',$f.locale) :>">search box</a> integration.</span>
+<span class="small">Since we use many underlying APIs in our full results (merged with our own indexes), we do not have rights at this time provide an API with all our Web links. We do, however, provide <a href="/search_box">search box</a> integration.</span>
 </p>
 
 <p style="margin-top: 25px;">
@@ -254,10 +254,10 @@ vs
 
 <p style="margin-top: 5px;">
 <span class="small">
-Not all of our Zero-click Info is available via this API for a variety of reasons. However, if you would like to see something please <a href="<: $s.locale_url('root','feedback',$f.locale) :>">let us know</a> and perhaps we can make it happen.
+Not all of our Zero-click Info is available via this API for a variety of reasons. However, if you would like to see something please <a href="/feedback">let us know</a> and perhaps we can make it happen.
 </span>
 </p>
 
 <p style="margin-top: 25px;">
-If you have more questions, please <a href="<: $s.locale_url('root','feedback',$f.locale) :>">let us know</a>.
+If you have more questions, please <a href="/feedback">let us know</a>.
 </p>

@@ -1,7 +1,7 @@
 	<div id="dest-boxes">
 		<div class="dest">
 			<a href="http://help.duckduckgo.com/">
-				<img src="assets/logos/logo_feedback.help.png" alt="" />
+				<img src="/assets/logos/logo_feedback.help.png" alt="" />
 				<h2><: l('Help Pages') :></h2>
 				<ul>
 					<li><: l('Are you looking for our advanced syntax?') :></li>
@@ -13,7 +13,7 @@
 		
 		<div class="dest">
 			<a href="http://duck.co/">
-				<img src="assets/logos/logo_feedback.forum.png" alt="" />
+				<img src="/assets/logos/logo_feedback.forum.png" alt="" />
 				<h2><: lp('duckco','%s Forum','duck.co') :></h2>
 				<ul>			
 					<li><: l('Have a question about DuckDuckGo?') :></li>
@@ -24,7 +24,7 @@
 		</div>
 		<div class="dest">
 			<a href="http://duckduckhack.com/">
-				<img src="assets/logos/logo_feedback.hack.png" alt="" />
+				<img src="/assets/logos/logo_feedback.hack.png" alt="" />
 				<h2>DuckDuckHack</h2>
 				<ul>
 					<li><: l('Plugin suggestions?') :></li>
@@ -35,7 +35,7 @@
 		</div>
 		<div class="dest">		
 			<a href="https://dukgo.com/">
-				<img src="assets/logos/logo_feedback.community.png" alt="" />
+				<img src="/assets/logos/logo_feedback.community.png" alt="" />
 				<h2><: l('Community Platform') :></h2>
 				<ul>
 					<li><: l('Care to help translate DuckDuckGo into your language?') :></li>
@@ -46,8 +46,8 @@
 		</div>
 	</div>	
 	
-	<h2><: l('New %s suggestions?','<a href="bang.html">!Bang</a>') :></h2>
-	<p><: lp('newbang','Submit them %.','<a href="newbang.html">' ~ lp('newbang','here') ~ '</a>') :></p>
+	<h2><: l('New %s suggestions?','<a href="/bang">!Bang</a>') :></h2>
+	<p><: lp('newbang','Submit them %s.','<a href="/newbang">' ~ lp('newbang','here') ~ '</a>') :></p>
 	
 	<!--
 		<h2>Get Involved/Stay Informed</h2>
@@ -77,6 +77,8 @@
 		<h2><: l('Contact Us') :></h2>
 		
 		<form name="y" id="feedbackForm" style="margin-top:30px;" method="post" action="https://flash.duckduckgo.com/e.js">
+
+			<input type="hidden" name="user_locale" value="<: $f.locale :>">
 
 			<p><label for="from" class="cap"><: l('Email:') :></label><input type="text" name="from" id="from" placeholder=" leave blank for anonymous feedback" size="40"/></p>
 			<p><label for="subject" class="cap"><: l('Subject:') :></label><input type="text" name="subject" id="subject" size="40"/></p>

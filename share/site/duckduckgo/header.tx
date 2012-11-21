@@ -3,7 +3,7 @@
 		<div id="header_content_wrapper">
 			<div id="header_content">
 				<div class="cl"></div>
-				<a href="<: $s.locale_url('root','index',$f.locale) :>"><div id="header_logo"></div></a>
+				<a href="/"><div id="header_logo"></div></a>
 				<form id="search_form" name="x" action="/" onsubmit="return nbr()">
 					<div id="search_elements_hidden"></div>
 					<div id="search_wrapper">

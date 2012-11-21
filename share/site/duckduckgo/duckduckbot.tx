@@ -13,7 +13,7 @@ DuckDuckBot is the Web crawler for <a href="/?q=&t=i">DuckDuckGo</a>.  It respec
 <br> &nbsp;  &nbsp; 72.94.249.38
 
 <div style="margin-top: 15px;"></div>
-If you have any questions or concerns, please <a href="<: $s.locale_url('root','feedback',$f.locale) :>">let us know</a>.
+If you have any questions or concerns, please <a href="/feedback">let us know</a>.
 
 
 <div style="margin-top: 30px;"></div>

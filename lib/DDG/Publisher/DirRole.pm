@@ -58,6 +58,7 @@ sub _build_files {
 			filebase => $static,
 			locale => $default_locale,
 			dir => $self,
+			static => 1,
 		);
 		$files{$static} = $file;
 	}
@@ -85,12 +86,6 @@ sub _build_fullpath_files {
 		}
 	}
 	return \%fullpath_files;
-}
-
-sub locale_url {
-	my ( $self, $page, $locale ) = @_;
-	return $self->files->{$page}->fullpath if (ref $self->files->{$page} eq 'DDG::Publisher::File');
-	return $self->files->{$page}->{$locale}->fullpath;
 }
 
 has pages_coderefs => (
