@@ -41,11 +41,11 @@
   <div id="features">
     <ul>	 
 	  <li class="answers"><a href="/goodies">
-	   <: lp('betterinstantanswers','Better %s.','<em>' ~ lp('betterinstantanswers','instant answers.') ~ '</em>') :>
+	   <: lp('betterinstantanswers','We do %s.','<em>' ~ lp('betterinstantanswers','goodies galore') ~ '</em>') :>
 	   <!--blockquote>We have lots of goodies for all types of people.</blockquote-->
 	   </a></li>
 	
-	   <li class="clutter"><: l('Less spam and clutter.') :>
+	   <li class="clutter"><: l('We drop the clutter.') :>
 	    <!--blockquote>We focus on a cleaner search experience.</blockquote-->
 	   </li>
 	  

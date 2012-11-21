@@ -3,7 +3,7 @@
 	<ul class="hide">
 		<: for $locales.keys() -> $locale { :>
 			<: if $locales[$locale].percent > 50 || $locale == $s.default_locale { :>
-				<li<: if $locale == $f.locale { :> class="current"<: } :>><a href="<: $s.locale_url('root','index',$locale) :>">
+				<li<: if $locale == $f.locale { :> class="current"<: } :>><a href="/?kad=<: $f.locale :>">
 					<img src="<: $locales[$locale].flag_url :>" />
 					<: $locales[$locale].name_in_local :>
 				</a></li>
