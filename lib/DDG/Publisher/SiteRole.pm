@@ -7,7 +7,6 @@ use File::ShareDir::ProjectDistDir;
 use Locale::Simple;
 use Config::INI::Reader;
 use Path::Class;
-use DDG::Publisher::Meta;
 use JavaScript::Value::Escape;
 
 requires qw(
@@ -57,22 +56,15 @@ sub _build_dirs {
 		$_ => $class->new(
 			key => $_,
 			site => $self,
-			$self->publisher->has_assets_version ? ( assets_version => $self->publisher->assets_version ) : (),
 		);
 	} $self->dirs_classes};
 }
 
-has meta_default => (
-	is => 'ro',
-	builder => 1,
+has save_data => (
+	is => 'rw',
 	lazy => 1,
+	default => sub {{}},
 );
-
-sub _build_meta_default {
-	my ( $self ) = @_;
-	my $meta_default = Config::INI::Reader->read_file(file(dist_dir('DDG-Publisher'),'core','config.ini'));
-	return DDG::Publisher::Meta->new_from_ini($meta_default);
-}
 
 sub load_locale_package {
 	my ( $self ) = @_;

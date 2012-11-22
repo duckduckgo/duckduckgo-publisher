@@ -7,6 +7,7 @@ use Class::Load ':all';
 use IO::All -utf8;
 use HTML::Packer;
 use String::ProgressBar;
+use JSON;
 
 has site_classes => (
 	is => 'ro',
@@ -54,7 +55,7 @@ sub BUILD {
 
 sub publish_to {
 	my ( $self, $target ) = @_;
-	my $target_dir = dir($target);
+	my $target_dir = dir($target)->absolute;
 	$target_dir->mkpath unless -d "$target_dir";
 	my $count = 0;
 	my $packer;
@@ -74,7 +75,7 @@ sub publish_to {
 				$i++;
 				$progress->update($i);
 				$progress->write;
-				my $real_file = file($target,$site->key,$_->fullpath)->absolute;
+				my $real_file = file($target_dir,$site->key,$_->fullpath)->absolute;
 				$real_file->dir->mkpath unless -f $real_file->dir->absolute->stringify;
 				my $content = $_->content;
 				utf8::encode($content);
@@ -92,6 +93,8 @@ sub publish_to {
 			}
 			print "\n";
 		}
+		my $data_file = file($target_dir,$site->key.'.json')->absolute;
+		io($data_file)->print(encode_json($site->save_data));
 	};
 	return $count;
 }

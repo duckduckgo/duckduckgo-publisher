@@ -53,6 +53,7 @@ has code => (
 
 sub url {
 	my ( $self ) = @_;
+	return $self->dir->path.$self->file if $self->static;
 	return $self->dir->path if $self->filebase eq 'index';
 	return $self->dir->path.$self->filebase;
 }
@@ -103,7 +104,24 @@ sub _build_content {
 	%vars = ( %vars, $dir_code->($self,\%vars) ) if $dir_code;
 	%vars = ( %vars, $self->code->($self,\%vars) );
 
-	return $self->dir->site->template_engine->render('base.tx',\%vars);
+	my $no_base = defined $vars{no_base} && $vars{no_base};
+
+	$self->dir->site->save_data->{locales} = $self->dir->site->locale_package->locales
+		unless defined $self->dir->site->save_data->{locales};
+	$self->dir->site->save_data->{$self->dir->path} = {}
+		unless defined $self->dir->site->save_data->{$self->dir->path};
+	$self->dir->site->save_data->{$self->dir->path}->{$self->filebase} = { static => $self->static }
+		unless defined $self->dir->site->save_data->{$self->dir->path}->{$self->filebase};
+	$self->dir->site->save_data->{$self->dir->path}->{$self->filebase}->{$self->file} = {
+		locale => $self->locale,
+		url => $self->url,
+		file => $self->file,
+		dir => $self->dir->path,
+		template => $self->template,
+		no_base => $no_base,
+	};
+
+	return $self->dir->site->template_engine->render($no_base ? $self->template : 'base.tx',\%vars);
 }
 
 1;

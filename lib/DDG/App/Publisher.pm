@@ -7,7 +7,7 @@ use DDG::Publisher;
 
 option no_compression => (
 	is => 'ro',
-	default => sub { 0 },
+	predicate => 1,
 );
 
 option dryrun => (
@@ -31,7 +31,7 @@ sub run {
 			: die "Require a target path or DDG_PUBLISHER_TARGETDIR set";
 	my $dir = dir($target)->absolute;
 	my $publisher = DDG::Publisher->new(
-		no_compression => $self->no_compression,
+		$self->has_no_compression ? ( no_compression => $self->no_compression ) : (),
 		$self->has_dryrun ? ( dryrun => $self->dryrun ) : (),
 		$self->has_site_only ? ( site_classes => [$self->site_only] ) : (),
 	);
