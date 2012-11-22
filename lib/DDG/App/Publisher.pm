@@ -16,12 +16,6 @@ option dryrun => (
 	predicate => 1,
 );
 
-option assets_version => (
-	format => 'i',
-	is => 'ro',
-	predicate => 1,
-);
-
 option site_only => (
 	format => 's',
 	is => 'ro',
@@ -38,7 +32,6 @@ sub run {
 	my $dir = dir($target)->absolute;
 	my $publisher = DDG::Publisher->new(
 		no_compression => $self->no_compression,
-		$self->has_assets_version ? ( assets_version => $self->assets_version ) : (),
 		$self->has_dryrun ? ( dryrun => $self->dryrun ) : (),
 		$self->has_site_only ? ( site_classes => [$self->site_only] ) : (),
 	);

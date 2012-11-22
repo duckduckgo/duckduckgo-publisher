@@ -31,11 +31,6 @@ has no_compression => (
 	default => sub { 0 },
 );
 
-has assets_version => (
-	is => 'ro',
-	predicate => 1,
-);
-
 has dryrun => (
 	is => 'ro',
 	predicate => 1,
