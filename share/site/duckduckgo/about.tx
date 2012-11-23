@@ -70,7 +70,8 @@
 	  <li id="nyt"><a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3"><img src="assets/about/logo_nyt-full.png" alt="The New York Times" style="width: 320px;"/><blockquote><: l('Distinguishes itself with a %s policy','&ldquo;' ~ l('We do not track or bubble you!') ~ '&rdquo;' ):></blockquote></a></li>
 	   <li id="sel"><a href="http://searchengineland.com/could-duckduckgo-be-the-biggest-long-term-threat-to-google-118117"><img src="assets/about/logo_sel-full.png" alt="SearchEngineLand" style="width: 230px;" /><blockquote><: l('Could DuckDuckGo Be The Biggest Long-Term Threat To Google?') :></blockquote></a></li>
 	  <li id="pc"><a href="http://www.pcmag.com/article2/0,2817,2397697,00.asp"><img src="assets/about/logo_pcmag-full.png" alt="PC Mag" style="width: 70px;" /><blockquote class="noquote"><: l('Top %d Best Websites of %d.',100,2011) :></blockquote></a></li>	  
-	  <li id="lhck"><a href="http://lifehacker.com/5912105/add-duckduckgos-smart-zero+click-info-results-to-google-searches-in-chrome"><img src="assets/about/logo_lifehacker-full.png" alt="lifehacker" style="width: 153px;" /><blockquote><: l('Our favorite alternative search engine, DuckDuckGo') :></blockquote></a></li>	 
+	  <li id="lhck"><a href="http://lifehacker.com/5912105/add-duckduckgos-smart-zero+click-info-results-to-google-searches-in-chrome"><img src="assets/about/logo_lifehacker-full.png" alt="lifehacker" style="width: 153px;" /><blockquote><: l('Our favorite alternative search engine, DuckDuckGo') :></blockquote></a></li>	
+	  <li id="wapost"><a href="http://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html"><img src="assets/about/logo_wapost-full.png" alt="The Washington Post" style="width: 350px;" /><blockquote><: l('a pure search engine %s and its use is soaring', '&mdash;') :></blockquote></a></li>
 	</ul>
   </div>
 
