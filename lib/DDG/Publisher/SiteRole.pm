@@ -92,13 +92,13 @@ sub _build_template_engine {
 	for my $key (keys %{ Locale::Simple->coderef_hash }) {
 		$xslate_locale_functions{$key} = sub {
 			my $result = Locale::Simple->coderef_hash->{$key}->(@_);
-			return $result;
+			return mark_raw($result);
 		};
 	}
 	return Text::Xslate->new(
 		path => [$site_template_root,$core_template_root],
 		function => {
-			js => sub { javascript_value_escape(join("",@_)) },
+			js => sub { mark_raw(javascript_value_escape(join("",@_))) },
 			%xslate_locale_functions,
 			find_template => sub {
 				my ($filename) = @_;
