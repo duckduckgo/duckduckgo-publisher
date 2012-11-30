@@ -1,1 +1,29 @@
+<h2>Friends don't let friends get tracked.</h2>
+
+We believe in <a href="/goodies/">better search</a> and <a href="/privacy/">real privacy</a> at the same time.
+
+<div style="margin-top:15px;"></div>
+The best thing you can do is to help your friends and family 
+<br>try DuckDuckGo for a week by setting up their computers:
+
+<div style="margin-top:15px;"></div>
+<script type="text/javascript">nib(0,'','','',0,0)</script>
+<br>
+<script type="text/javascript">nib(0,'','','',0,1)</script>
+
+
+
+<h3>To introduce people to DuckDuckGo, you can use:</h3>
+<ul>
+<li><a href="/about.html">About DuckDuckGo</a>
+<li><a href="/goodies.html">DuckDuckGoodies</a>
+<li><a href="http://donttrack.us/">DontTrack.us</a>
+<li><a href="http://dontbubble.us/">DontBubble.us</a>
+</ul>
+
+<h3>&nbsp;</h3>
+<script>function fbs_click() {u=location.href;t=document.title;window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=960,height=544');return false;}	
+</script>
+<a href="http://www.facebook.com/share.php?u=https://duckduckgo.com/about.html" class="shareon facebook" target="_blank" onClick="return fbs_click()">Share on Facebook</a>
+<a href="https://twitter.com/?status=I+now+use+@DuckDuckGo+as+my+primary+search+engine and+you+should+too!:+https://duckduckgo.com" class="shareon twitter" target="_blank">Share on Twitter</a>
 
