@@ -81,7 +81,7 @@ sub publish_to {
 				utf8::encode($content);
 				if ($packer) {
 					$packer->minify(\$content,{
-						remove_comments => 1,
+						remove_comments => 0,
 						remove_newlines => 1,
 						do_javascript => 1,
 						do_stylesheet => 1,
