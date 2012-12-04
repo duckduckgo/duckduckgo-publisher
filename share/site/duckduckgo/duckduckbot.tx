@@ -1,9 +1,9 @@
-<div id="zero_click_header">DuckDuckGo Bot</div>
+<div id="zero_click_header"><: l('DuckDuckGo Bot'):></div>
 
 <: include "untranslated.tx" :>
 
 <div style="margin-top: 30px;"></div>
-DuckDuckBot is the Web crawler for <a href="/?q=&t=i">DuckDuckGo</a>.  It respects <a class="le" href="http://www.robotstxt.org/"><q>robots.txt</q></a> files via <a href="https://metacpan.org/module/WWW::RobotRules">WWW::RobotRules</a> and originates from these IP addresses:
+<: lp('duckduckbot', 'DuckDuckBot is the Web crawler for %s. It respects %s and originates from these IP addresses:',r('<a href="/?q=&t=i">') ~ lp('duckduckbot','DuckDuckGo') ~ r('</a>'), r('<a href="https://metacpan.org/module/WWW::RobotRules">') ~ lp('duckduckbot','WWW::RobotRules') ~ r('</a>')) :>
 
 <div style="margin-top: 5px;"></div>
  &nbsp;  &nbsp; 72.94.249.34
@@ -13,14 +13,13 @@ DuckDuckBot is the Web crawler for <a href="/?q=&t=i">DuckDuckGo</a>.  It respec
 <br> &nbsp;  &nbsp; 72.94.249.38
 
 <div style="margin-top: 15px;"></div>
-If you have any questions or concerns, please <a href="/feedback">let us know</a>.
-
+<: lp('questions', 'If you have any questions or concerns, please %s.',r('<a href="/feedback">') ~ lp('questions','let us know') ~ r('</a>')) :>.
 
 <div style="margin-top: 30px;"></div>
-<i>Changelog</i>
+<i><: l('Changelog') :></i>
 
 <div style="margin-top: 15px;"></div>
-DuckDuckBot/1.1 - Bug fix: was not respecting robots.txt in some cases.
+DuckDuckBot/1.1 - <: l('Bug fix: was not respecting robots.txt in some cases.') :>
 
 <div style="margin-top: 15px;"></div>
-DuckDuckBot/1.0 - Initial version.
+DuckDuckBot/1.0 - <: l('Initial version.') :>

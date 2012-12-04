@@ -19,7 +19,7 @@
 	  <: include "header.tx" :>
 	  <div id="content_wrapper">
 		<div id="content">
-		  <: if $f.filebase != "about" { :>
+		  <: if !$no_logo { :>
 		  <a href="/?q=&t=i&kad=<: $f.locale :>" title="DuckDuckGo"><div id="logo_internal"></div></a>
 		  <: } :>
 		    <div id="links_wrapper">

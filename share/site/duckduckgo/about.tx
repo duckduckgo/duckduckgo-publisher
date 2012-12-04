@@ -41,7 +41,7 @@
   <div id="features">
     <ul>	 
 	  <li class="goodies"><a href="/goodies">
-	   <: lp('betterinstantanswers','We do %s.','<em>' ~ lp('betterinstantanswers','goodies galore') ~ '</em>') :>
+	   <: lp('betterinstantanswers','We do %s.',r('<em>') ~ lp('betterinstantanswers','goodies galore') ~ r('</em>')) :>
 	   <!--blockquote>We have lots of goodies for all types of people.</blockquote-->
 	   </a></li>
 	
@@ -50,12 +50,12 @@
 	   </li>
 	  
 	   <li class="privacy"><a href="http://donttrack.us/">
-	    <: lp('wedonttrackyou',"We don't %s you.",'<em>' ~ lp('wedonttrackyou','track') ~ '</em>') :>
+	    <: lp('wedonttrackyou',"We don't %s you.",r('<em>') ~ lp('wedonttrackyou','track') ~ r('</em>')) :>
 	    <!--blockquote>We do not collect or share personal information.</blockquote-->
 	   </a></li>
 	  	  
 	   <li class="bubble"><a href="http://dontbubble.us/">
-	    <: lp('wedontbubbleyou',"We don't %s you.",'<em>' ~ lp('wedontbubbleyou','filter bubble') ~ '</em>') :>
+	    <: lp('wedontbubbleyou',"We don't %s you.",r('<em>') ~ lp('wedontbubbleyou','filter bubble') ~ r('</em>')) :>
 	    <!--blockquote>We do not bias your search results.</blockquote-->
 	   </a></li>
 	  
@@ -70,7 +70,7 @@
 	   <li id="sel"><a href="http://searchengineland.com/could-duckduckgo-be-the-biggest-long-term-threat-to-google-118117"><img src="assets/about/logo_sel-full.png" alt="SearchEngineLand" style="width: 230px;" /><blockquote><: l('Could DuckDuckGo Be The Biggest Long-Term Threat To Google?') :></blockquote></a></li>
 	  <li id="pc"><a href="http://www.pcmag.com/article2/0,2817,2397697,00.asp"><img src="assets/about/logo_pcmag-full.png" alt="PC Mag" style="width: 70px;" /><blockquote class="noquote"><: l('Top %d Best Websites of %d.',100,2011) :></blockquote></a></li>	  
 	  <li id="lhck"><a href="http://lifehacker.com/5912105/add-duckduckgos-smart-zero+click-info-results-to-google-searches-in-chrome"><img src="assets/about/logo_lifehacker-full.png" alt="lifehacker" style="width: 153px;" /><blockquote><: l('Our favorite alternative search engine, DuckDuckGo') :></blockquote></a></li>	 
-	  <li id="nyt"><a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3"><img src="assets/about/logo_nyt-full.png" alt="The New York Times" style="width: 320px;"/><blockquote><: l('Distinguishes itself with a %s policy','&ldquo;' ~ l('We do not track or bubble you!') ~ '&rdquo;' ):></blockquote></a></li>
+	  <li id="nyt"><a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3"><img src="assets/about/logo_nyt-full.png" alt="The New York Times" style="width: 320px;"/><blockquote><: l('Distinguishes itself with a %s policy',r('&ldquo;') ~ l('We do not track or bubble you!') ~ r('&rdquo;') ):></blockquote></a></li>
 	   <li id="time"><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html"><img src="assets/about/logo_time-full.png" alt="TIME" style="width: 135px;" /><blockquote class="noquote"><: l('Top %d Best Websites of %d.',50,2011) :></blockquote></a></li>
 	</ul>
   </div>
@@ -79,7 +79,7 @@
 <hr/>
   <div id="spread">
 
-<p class="big"><: lp('useus', '%s us.','<a href="https://duckduckgo.com/">' ~ lp('useus','Use') ~ '</a>') :> &nbsp;<: lp('supportus','%s us.','<a href="https://duckduckgo.com/support">' ~ lp('supportus','Support') ~ '</a>') :> &nbsp;<: lp('hackus', '%s us.', '<a href="http://duckduckhack.com/">' ~ lp('hackus','Hack') ~ '</a>') :> &nbsp;<: lp('translateus', '%s us.', '<a href="https://dukgo.com/">' ~ lp('translateus','Translate') ~ '</a>') :></p>
+<p class="big"><: lp('useus', '%s us.',r('<a href="https://duckduckgo.com/">') ~ lp('useus','Use') ~ r('</a>')) :> &nbsp;<: lp('supportus','%s us.',r('<a href="https://duckduckgo.com/support">') ~ lp('supportus','Support') ~ r('</a>')) :> &nbsp;<: lp('hackus', '%s us.', r('<a href="http://duckduckhack.com/">') ~ lp('hackus','Hack') ~ r('</a>')) :> &nbsp;<: lp('translateus', '%s us.', r('<a href="https://dukgo.com/">') ~ lp('translateus','Translate') ~ r('</a>')) :></p>
 
 <div class="newsletter"></div>
 <form action="https://flash.duckduckgo.com/e.js" method="post">
@@ -103,7 +103,7 @@
 <h2><: l('Developer?') :></h2>
 <hr/>
 <div style="margin-left: 20px;">
-Check out <a href="http://duckduckhack.com">DuckDuckHack</a>.
+<: lp('devcheck', 'Check out %s.',r('<a href="http://duckduckhack.com">') ~ lp('devcheck','DuckDuckHack') ~ r('</a>')) :>
 </div>
 
 <script>

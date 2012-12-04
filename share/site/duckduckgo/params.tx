@@ -18,7 +18,7 @@
 
 <div style="margin-bottom:30px;"></div>
 
-<: l('You can change %s via URL parameters by adding them after the search query, for example:','<a href="/settings">' ~ l('DuckDuckGo settings') ~ '</a>') :>
+<: l('You can change %s via URL parameters by adding them after the search query, for example:',r('<a href="/settings">') ~ l('DuckDuckGo settings') ~ r('</a>')) :>
 
 <div style="padding-top:5px;"></div>
 &nbsp; &nbsp; <span class="clu">http://duckduckgo.com/?q=search&amp;kp=-1&amp;kl=us-en</span>
@@ -594,7 +594,7 @@ k4 =
 t =
 <ul>
 <li><: l('A string to identify the source.') :>
-<li><: lp('moreinfo','See %s for more info.','<a href="http://help.duckduckgo.com/customer/portal/articles/448610--t-">' ~ lp('moreinfo','this help page') ~ '</a>') :>
+<li><: lp('moreinfo','See %s for more info.',r('<a href="http://help.duckduckgo.com/customer/portal/articles/448610--t-">') ~ lp('moreinfo','this help page') ~ r('</a>')) :>
 </td>
 </tr>
 

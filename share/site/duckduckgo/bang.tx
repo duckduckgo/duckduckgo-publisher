@@ -17,7 +17,7 @@
 <div class="clu">
 <p style="margin-top: 3px;">
 <ul>
-<li><: l('Most big sites work, e.g. %s (see full list below)','!youtube') :>
+<li><: l('Most big sites work, e.g. %s (see full list below)',r('!youtube')) :>
 <p style="margin-top: 5px;">
 <li><: l('Most generic keywords work too, e.g. %s','!images') :>
 <p style="margin-top: 5px;">
@@ -32,4 +32,4 @@
 <!-- Full List Here -->
 
 <div style="margin-bottom:15px;"></div>
-<b><: lp('newbang',"If you'd like to add or edit a %s, please %s!",'!bang','<a href="/newbang">' ~ lp('newbang','submit it here') ~ '</a>') :></b>
+<b><: lp('newbang',"If you'd like to add or edit a %s, please %s!",'!bang',r('<a href="/newbang">') ~ lp('newbang','submit it here') ~ r('</a>')) :></b>

@@ -14,7 +14,7 @@
 		<div class="dest">
 			<a href="http://duck.co/">
 				<img src="/assets/logos/logo_feedback.forum.png" alt="" />
-				<h2><: lp('duckco','%s Forum','duck.co') :></h2>
+				<h2><: lp('duckco','%s Forum','Duck.co') :></h2>
 				<ul>			
 					<li><: l('Have a question about DuckDuckGo?') :></li>
 					<li><: l('Want to share a suggestion with other users?') :></li>
@@ -46,8 +46,8 @@
 		</div>
 	</div>	
 	
-	<h2><: l('New %s suggestions?','<a href="/bang">!Bang</a>') :></h2>
-	<p><: lp('newbang','Submit them %s.','<a href="/newbang">' ~ lp('newbang','here') ~ '</a>') :></p>
+	<h2><: l('New %s suggestions?',r('<a href="/bang">!Bang</a>')) :></h2>
+	<p><: lp('newbang','Submit them %s.',r('<a href="/newbang">') ~ lp('newbang','here') ~ r('</a>')) :></p>
 	
 	<!--
 		<h2>Get Involved/Stay Informed</h2>

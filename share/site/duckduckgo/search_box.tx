@@ -21,7 +21,7 @@ pre {
 <: l('Add a %s search box to your site!','DuckDuckGo') :>
 
 <div style="margin-bottom:15px;"></div>
-<: lp('oneofmanyspread','One of many ways to help %s','<a href="/spread.html">' ~ lp('oneofmanyspread','spread DuckDuckGo') ~ '</a>') :>
+<: lp('oneofmanyspread','One of many ways to help %s',r('<a href="/support.html">') ~ lp('oneofmanyspread','support DuckDuckGo') ~ r('</a>')) :>
 
 <div style="margin-bottom:15px;"></div>
 <: l('Feel free to adjust the settings below. Then, just copy and paste the code into your website!') :>

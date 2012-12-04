@@ -10,7 +10,9 @@ sub path { '/' }
 
 sub pages {{
 
-	about => sub {},
+	about => sub {
+		no_logo => 1,
+	},
 	bang => sub {},
 	index => sub {
 		no_wrapper => 1,
@@ -19,14 +21,18 @@ sub pages {{
 	newbang => sub {},
 	params => sub {},
 	settings => sub {},
-	support => sub {},
+	support => sub {
+		no_logo => 1,
+	},
 
 	## TODO
 
 	api => sub {},
 	duckduckbot => sub {},
 	duckduckpreview => sub {},
-	feedback => sub {},
+	feedback => sub {
+		no_logo => 1,
+	},
 	privacy => sub {},
 	search_box => sub {},
 
