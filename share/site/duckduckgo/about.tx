@@ -79,7 +79,7 @@
 <hr/>
   <div id="spread">
 
-<p class="big"><: lp('useus', '%s us.',r('<a href="https://duckduckgo.com/">') ~ lp('useus','Use') ~ r('</a>')) :> &nbsp;<: lp('supportus','%s us.',r('<a href="https://duckduckgo.com/support">') ~ lp('supportus','Support') ~ r('</a>')) :> &nbsp;<: lp('hackus', '%s us.', r('<a href="http://duckduckhack.com/">') ~ lp('hackus','Hack') ~ r('</a>')) :> &nbsp;<: lp('translateus', '%s us.', r('<a href="https://dukgo.com/">') ~ lp('translateus','Translate') ~ r('</a>')) :></p>
+<p class="big"><: lp('useus', '%s us.',r('<a href="https://duckduckgo.com/">') ~ lp('useus','Use') ~ r('</a>')) :> &nbsp;<: lp('supportus','%s us.',r('<a href="https://duckduckgo.com/supportus">') ~ lp('supportus','Support') ~ r('</a>')) :> &nbsp;<: lp('hackus', '%s us.', r('<a href="http://duckduckhack.com/">') ~ lp('hackus','Hack') ~ r('</a>')) :> &nbsp;<: lp('translateus', '%s us.', r('<a href="https://dukgo.com/">') ~ lp('translateus','Translate') ~ r('</a>')) :></p>
 
 <div class="newsletter"></div>
 <form action="https://flash.duckduckgo.com/e.js" method="post">

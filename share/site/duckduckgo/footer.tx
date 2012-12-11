@@ -10,12 +10,12 @@
 			{
 				var err=new RegExp('[\?\&]e=([^\&]+)');
 				var errm=new Array();
-				errm['2']='<: l('no search') :>';
-				errm['3']='<: l('search too long') :>';
-				errm['4']='<: l('not %s encoding','UTF-8') :>';
+				errm['2']='<: js(l('no search')) :>';
+				errm['3']='<: js(l('search too long')) :>';
+				errm['4']='<: js(l('not %s encoding',r('UTF-8'))) :>';
 				if (err.test(window.location.href)) {
 					var error=document.getElementById('error');
-					error.innerHTML='Oops, '+(errm[RegExp.$1]?errm[RegExp.$1]:'<: l('there was an error.') :>')+' &nbsp;<: l('Please try again') :>';
+					error.innerHTML='Oops, '+(errm[RegExp.$1]?errm[RegExp.$1]:'<: js(l('there was an error.')) :>')+' &nbsp;<: js(l('Please try again')) :>';
 					YAHOO.util.Dom.setStyle(error,'display','block');
 				}
 			};

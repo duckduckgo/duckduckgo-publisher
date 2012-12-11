@@ -9,4 +9,4 @@
 <li class="more_menu_header header_button_menu_header"><: l('COMMUNITY') :></li>
 <li><a href="http://duckduckhack.com/" tabindex="-1"><: l('Develop') :></a></li>
 <li><a href="https://dukgo.com/" tabindex="-1"><: l('Translate') :></a></li>
-<li><a href="/support" tabindex="-1"><: l('Support Us') :></a></li>
+<li><a href="/supportus" tabindex="-1"><: l('Support Us') :></a></li>

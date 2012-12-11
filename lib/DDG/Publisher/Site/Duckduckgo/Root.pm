@@ -21,7 +21,7 @@ sub pages {{
 	newbang => sub {},
 	params => sub {},
 	settings => sub {},
-	support => sub {
+	supportus => sub {
 		no_logo => 1,
 	},
 
