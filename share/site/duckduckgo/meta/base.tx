@@ -1,8 +1,8 @@
 <link rel="canonical" href="https://duckduckgo.com<: $url :>">
 
 <link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_FILE || '/style.css' :>" type="text/css">
-<script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_FILE || '/duckduck.js' :>"></script>
 <script type="text/javascript" src="/locales/<: $f.locale :>/LC_MESSAGES/<: $s.locale_domain :>+sprintf+gettext+locale-simple.js"></script>
+<script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_FILE || '/duckduck.js' :>"></script>
 
 <link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="/opensearch_ssl.xml">
 <link rel="image_src" href="/assets/logo_homepage.normal.v101.png"/>
