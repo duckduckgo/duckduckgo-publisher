@@ -88,6 +88,7 @@ sub publish_to {
 						no_compress_comments => 1,
 					})
 				}
+				utf8::decode($content);
 				io($real_file->stringify)->print($content);
 				$count++;
 			}
