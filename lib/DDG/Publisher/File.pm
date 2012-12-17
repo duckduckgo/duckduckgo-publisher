@@ -92,6 +92,7 @@ sub _build_content {
 		f => $self,
 		d => $self->dir,
 		s => $self->dir->site,
+		locale_package_version => $self->dir->site->locale_package->version,
 		locales => $self->dir->site->locale_package->locales,
 		maintemplate => $self->template,
 		url => $self->url,
