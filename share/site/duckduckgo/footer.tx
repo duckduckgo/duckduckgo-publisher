@@ -1,28 +1,2 @@
 <!-- footer //-->
-<div id="footer_homepage" class="k_bottom k_float">
-	<div id="footer_homepage_left">
-		<: lp('wedonttrackyou',"We don't %s you.",r('<a href="http://donttrack.us/">') ~ lp('wedonttrackyou','track') ~ r('</a>') ):>
-	</div>
-	<div id="footer_homepage_right">
-		<script type="text/javascript">
-			nib(0,'','','',0,0);
-			nib(0,'','&nbsp;&nbsp;','',0,1);
-			{
-				var err=new RegExp('[\?\&]e=([^\&]+)');
-				var errm=new Array();
-				errm['2']='<: js(l('no search')) :>';
-				errm['3']='<: js(l('search too long')) :>';
-				errm['4']='<: js(l('not %s encoding',r('UTF-8'))) :>';
-				if (err.test(window.location.href)) {
-					var error=document.getElementById('error');
-					error.innerHTML='Oops, '+(errm[RegExp.$1]?errm[RegExp.$1]:'<: js(l('there was an error.')) :>')+' &nbsp;<: js(l('Please try again')) :>';
-					YAHOO.util.Dom.setStyle(error,'display','block');
-				}
-			};
-			if (ip) setTimeout('nuo(1)',250);
-			nip(3)
-		</script>
-	</div>
-</div>
-
 <script type="text/javascript">nip(3)</script>
