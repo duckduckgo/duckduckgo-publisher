@@ -1,4 +1,5 @@
 package DDG::Publisher::SiteRole;
+# ABSTRACT: The role for a site in the publisher
 
 use MooX::Role;
 use Class::Load ':all';
@@ -16,15 +17,35 @@ requires qw(
 	locale_domain
 );
 
+=attr publisher
+
+L<DDG::Publisher> object, must be given on construction.
+
+=cut
+
 has publisher => (
 	is => 'ro',
 	required => 1,
 );
 
+=attr key
+
+This is the key used for the directory and general identification of the site
+inside the publisher system.
+
+=cut
+
 has key => (
 	is => 'ro',
 	required => 1,
 );
+
+=attr hostname
+
+This is the hostname, which should get used for the final files, so far this
+option isn't used and has no effect. B<TODO>
+
+=cut
 
 has hostname => (
 	is => 'ro',
@@ -32,11 +53,26 @@ has hostname => (
 	lazy => 1,
 );
 
+=attr dirs
+
+This attribute contains the objects of the L<DDG::Publisher::DirRole> objects
+of this site.
+
+=cut
+
 has dirs => (
 	is => 'ro',
 	builder => 1,
 	lazy => 1,
 );
+
+=attr default_locale
+
+Default locale to use on this site. Defaults to en_US and should never be
+changed on a site of DuckDuckGo, as many other parts of the system are also
+thinking that en_US is the default.
+
+=cut
 
 has default_locale => (
 	is => 'ro',
@@ -44,7 +80,7 @@ has default_locale => (
 	lazy => 1,
 );
 
-sub _build_default_locale { 'en_US' }
+sub _build_default_locale { 'en_US' } # DON'T CHANGE
 
 sub _build_dirs {
 	my ( $self ) = @_;
@@ -59,6 +95,13 @@ sub _build_dirs {
 		);
 	} $self->dirs_classes};
 }
+
+=attr save_data
+
+This data is used in the end of the publishing process to generate the data
+file. It will be filled up on the process of executing all files of the site.
+
+=cut
 
 has save_data => (
 	is => 'rw',
@@ -77,6 +120,12 @@ sub locales {
 	return (keys %{$self->locale_package->locales});
 }
 
+=attr template_engine
+
+This function holds the L<Text::Xslate> engine for the specific site.
+
+=cut
+
 has template_engine => (
 	is => 'ro',
 	lazy => 1,
@@ -87,7 +136,11 @@ sub _build_template_engine {
 	my ( $self ) = @_;
 	my $site_template_root = dir(dist_dir('DDG-Publisher'),'site',$self->key)->stringify;
 	my $core_template_root = dir(dist_dir('DDG-Publisher'),'core')->stringify;
-	# not necessary, but after i added it, i stored it here
+	#
+	# This hash contains the translation functions, wrapped with the
+	# functionality required to make it work proper with utf8 in the context
+	# of Text::Xslate.
+	#
 	my %xslate_locale_functions;
 	for my $key (keys %{ Locale::Simple->coderef_hash }) {
 		$xslate_locale_functions{$key} = sub {
@@ -97,9 +150,19 @@ sub _build_template_engine {
 		};
 	}
 	return Text::Xslate->new(
+		#
+		# Include share/site/$key and share/core as template directories
+		#
 		path => [$site_template_root,$core_template_root],
 		function => {
+			#
+			# js() function to escape js
+			#
 			js => sub { return mark_raw(javascript_value_escape(join("",@_))) },
+			#
+			# r() function to mark some output as "clean", which means that
+			# it doesnt get HTML encoded by the Xslate generation system.
+			#
 			r => sub { return mark_raw(join("",@_)) },
 			%xslate_locale_functions,
 			find_template => sub {
