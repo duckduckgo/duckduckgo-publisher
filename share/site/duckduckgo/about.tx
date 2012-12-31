@@ -31,24 +31,24 @@
 	<br/>
 	<div class="embed-code">&lt;iframe src="https://duckduckgo.com/about-video.html" width="640" height="360"&gt;&lt;/iframe&gt;</div>
 </div>
-<h2><: l("We believe you can get better search AND real privacy at the same time. That's why:") :></h2>
+<h2>We believe in better search and real privacy at the same time. That's why:</h2>
 <hr/>
   <div id="features">
     <ul>	 
 	  <li class="goodies"><a href="/goodies">
-	   <: lp('betterinstantanswers','We do %s.',r('<em>') ~ lp('betterinstantanswers','goodies galore') ~ r('</em>')) :>
+	  We have <em>tons of goodies.</em>
 	   <!--blockquote>We have lots of goodies for all types of people.</blockquote-->
 	   </a></li>
 	
-	   <li class="clutter"><: l('We drop the clutter.') :>
-	    <!--blockquote>We focus on a cleaner search experience.</blockquote-->
-	   </li>
-	  
 	   <li class="privacy"><a href="http://donttrack.us/">
 	    <: lp('wedonttrackyou',"We don't %s you.",r('<em>') ~ lp('wedonttrackyou','track') ~ r('</em>')) :>
 	    <!--blockquote>We do not collect or share personal information.</blockquote-->
 	   </a></li>
-	  	  
+
+	   <li class="clutter"><: l('We drop the clutter.') :>
+	    <!--blockquote>We focus on a cleaner search experience.</blockquote-->
+	   </li>
+	  
 	   <li class="bubble"><a href="http://dontbubble.us/">
 	    <: lp('wedontbubbleyou',"We don't %s you.",r('<em>') ~ lp('wedontbubbleyou','filter bubble') ~ r('</em>')) :>
 	    <!--blockquote>We do not bias your search results.</blockquote-->
@@ -56,6 +56,34 @@
 	  
 	</ul>
   </div>
+
+<h2><: l('Try DuckDuckGo for a week!') :></h2>
+<hr/>
+  <div id="spread">
+
+<p class="big">
+<script type="text/JavaScript">nib(0,' ','');</script>. &nbsp;<script type="text/JavaScript">nib(0,' ','','',0,1);</script>.
+&nbsp;<a href="/feedback">DuckDuckGo Help</a>.
+</p>
+
+<div class="newsletter"></div>
+<form action="https://flash.duckduckgo.com/e.js" method="post">
+<span class="clu">
+<: l('Monthly newsletter:') :> &nbsp;
+<input type="text" size="15" name="from" value="<: l('email address') :>" style="color:#888" onclick="if (this.value=='<: js(l('email address')) :>') {this.value='';this.style.color='#000000';}">
+<input type="submit" value="Go">
+<input type="hidden" name="add" value="1">
+</span>
+</form>
+
+<div class="like"></div>
+Follow <a href="http://twitter.com/duckduckgo">@duckduckgo on Twitter</a>
+
+<div class="like"></div>
+Like <a href="https://facebook.com/duckduckgo">DuckDuckGo on Facebook</a>
+
+</div>
+
 
 <h2><: l("Perhaps you've heard about us in %s",'&hellip;') :></h2>
 <hr/>
@@ -70,39 +98,34 @@
 	</ul>
   </div>
 
-<h2><: l('Try DuckDuckGo for a week!') :></h2>
-<hr/>
-  <div id="spread">
 
-<p class="big"><: lp('useus', '%s us.',r('<a href="https://duckduckgo.com/">') ~ lp('useus','Use') ~ r('</a>')) :> &nbsp;<: lp('supportus','%s us.',r('<a href="https://duckduckgo.com/supportus">') ~ lp('supportus','Support') ~ r('</a>')) :> &nbsp;<: lp('hackus', '%s us.', r('<a href="http://duckduckhack.com/">') ~ lp('hackus','Hack') ~ r('</a>')) :> &nbsp;<: lp('translateus', '%s us.', r('<a href="https://dukgo.com/">') ~ lp('translateus','Translate') ~ r('</a>')) :></p>
-
-<div class="newsletter"></div>
-<form action="https://flash.duckduckgo.com/e.js" method="post">
-<span class="clu">
-<: l('Monthly newsletter:') :> &nbsp;
-<input type="text" size="15" name="from" value="<: l('email address') :>" style="color:#888" onclick="if (this.value=='<: js(l('email address')) :>') {this.value='';this.style.color='#000000';}">
-<input type="submit" value="Go">
-<input type="hidden" name="add" value="1">
-</span>
-</form>
-
-<div class="like"></div>
-<a href="http://twitter.com/duckduckgo" class="twitter-follow-button"><: lp('twitter','Follow %s','@duckduckgo') :></a>
-<script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
-
-<div class="like"></div>
-<div id="fb-root"></div><script src="https://connect.facebook.net/en_US/all.js#appId=161709093903193&amp;xfbml=1"></script><fb:like href="http://facebook.com/duckduckgo" send="false" width="300" show_faces="false" action="like" font="segoe ui"></fb:like>
-
-</div>
-
-<h2><: l('Developer?') :></h2>
+<h2>More about us...</h2>
 <hr/>
 <div style="margin-left: 20px;">
-<: lp('devcheck', 'Check out %s.',r('<a href="http://duckduckhack.com">') ~ lp('devcheck','DuckDuckHack') ~ r('</a>')) :>
+Help? Check out <a href="/feedback/">our feedback center</a>.
+
+<div style="margin-top: 20px;">
+Doodles? Yes, <a href="http://help.duckduckgo.com/customer/portal/articles/485613-holiday-logos">we have those too</a>!
+
+<div style="margin-top: 20px;">
+Developer? Check out <a href="http://duckduckhack.com">DuckDuckHack</a>.
+
+<div style="margin-top: 20px;">
+Supporter? <a href="/supportus/">Friends don't let friends get tracked</a>.
+
+<div style="margin-top: 20px;">
+Press? <a href="http://help.duckduckgo.com/customer/portal/articles/216623">click here</a>.
+
+<div style="margin-top: 20px;">
+Partner? <a href="http://help.duckduckgo.com/customer/portal/articles/775109">click here</a>.
+
+<div style="margin-top: 20px;">
+Schwag? <a href="http://help.duckduckgo.com/customer/portal/articles/216375-t-shirts-stickers-more">of course</a>.
+
 </div>
+
 
 <script>
 $('video,audio').mediaelementplayer(/* Options go here - we don't need no stinking options{mode:'auto_plugin'}*/);
-$('#search_form_input').attr('value','<: js(l('About DuckDuckGo')) :>');
 $('#search_form_input').attr('placeholder','<: js(l('About DuckDuckGo')) :>');
 </script>
