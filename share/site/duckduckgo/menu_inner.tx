@@ -2,11 +2,11 @@
 <li><a href="/settings" tabindex="-1"><: l('Settings') :></a></li>
 <li><a href="/goodies" tabindex="-1"><: l('Goodies') :></a></li>
 <li><a href="/feedback" tabindex="-1"><: l('Help') :></a></li>
-<li class="more_menu_header header_button_menu_header"><: l('PRIVACY') :></li>
+<li class="more_menu_header header_button_menu_header"><: l('PRIVACY') :>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 <li><a href="/privacy" tabindex="-1"><: l('Policy') :></a></li>
 <li><a href="http://donttrack.us/" tabindex="-1">DontTrack</a></li>
 <li><a href="http://dontbubble.us/" tabindex="-1">DontBubble</a></li>
-<li class="more_menu_header header_button_menu_header"><: l('COMMUNITY') :></li>
+<li class="more_menu_header header_button_menu_header"><: l('COMMUNITY') :>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 <li><a href="http://duckduckhack.com/" tabindex="-1"><: l('Develop') :></a></li>
 <li><a href="https://dukgo.com/" tabindex="-1"><: l('Translate') :></a></li>
 <li><a href="/supportus" tabindex="-1"><: l('Support Us') :></a></li>

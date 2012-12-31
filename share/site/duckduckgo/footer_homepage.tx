@@ -19,12 +19,23 @@
 </div>
 
 <script type="text/javascript">
-	document.x.q.focus();if (kurl) d.getElementById("logo_homepage_link").href+=kurl;
+	document.x.q.focus();
+	if (kurl) {d.getElementById("logo_homepage_link").href+='?t=i'+kurl;}
 	w=window;d=document;
 	fq=1;
 	ric=0;
 	var karr = new Array('t','ka','kb','kc','kd','ke','kf','kg','kh','ki','kj','kk','kl','km','kn','ko','kp','kq','kr','ks','kt','ku','kv','kw','kx','ky','kz','k1','k2','k3','k4','k5','k6','k7','k8','k9','kaa','kab','kac','kad','kae','kaf','kag','kah','kai','kaj','kak','kal','kam','kan','kao','kap','kaq','kar','kas','kat','kau','kav','kaw','kax','kay','kaz','key');
 	for (var i=0;i<karr.length;i++) {var kre=new RegExp('[\?\&]'+karr[i]+'=([^\&]+)');
 	var ktmp='';
-	if (kre.test(window.location.href)) {ktmp=decodeURIComponent(RegExp.$1);if (ktmp.length<11) document.write('<input type="hidden" name="'+karr[i]+'" value="'+ktmp+'">');eval(karr[i]+'=ktmp');}if (karr[i]=='ki'&&((ktmp&&ktmp==-1)||YAHOO.util.Cookie.get("i")=='-1')) {document.write('<input type="hidden" name="v" value="n">');}else if(karr[i]=='kg'){if((ktmp&&ktmp=='p')||YAHOO.util.Cookie.get("g")=='p'){d.x.method='POST';}else{d.x.method='GET';}}else if(karr[i]=='kh'){if(((ktmp&&ktmp=='1')||YAHOO.util.Cookie.get("h")=='1')&&document.location.protocol!='https:'){d.x.action='https://'+window.location.host+'/';}else {d.x.action='/';}};}
+	if (kre.test(window.location.href)) {ktmp=decodeURIComponent(RegExp.$1);if (ktmp.length<11) document.write('<input type="hidden" name="'+karr[i]+'" value="'+ktmp+'">');eval(karr[i]+'=ktmp');}
+
+	if (karr[i]=='ki'&&((ktmp&&ktmp==-1)||YAHOO.util.Cookie.get("i")=='-1')) {document.write('<input type="hidden" name="v" value="n">');}
+	else if(karr[i]=='kg'){
+	  if((ktmp&&ktmp=='p')||YAHOO.util.Cookie.get("g")=='p'){d.x.method='POST';}
+	  else{d.x.method='GET';}}
+   	else if(karr[i]=='kh'){
+	  if(((ktmp&&ktmp=='1')||YAHOO.util.Cookie.get("h")=='1')&&document.location.protocol!='https:'){d.x.action='https://'+window.location.host+'/';}
+	  else {d.x.action='/';}
+	  };
+	}
 </script>

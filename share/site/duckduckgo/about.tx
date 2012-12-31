@@ -87,7 +87,7 @@
 <: l('Monthly newsletter:') :> &nbsp;
 <input type="text" size="15" name="from" value="<: l('email address') :>" style="color:#888" onclick="if (this.value=='<: js(l('email address')) :>') {this.value='';this.style.color='#000000';}">
 <input type="submit" value="Go">
-<input type="hidden" name="add3" value="1">
+<input type="hidden" name="add" value="1">
 </span>
 </form>
 
