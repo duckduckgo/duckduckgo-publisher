@@ -65,6 +65,9 @@ sub run {
 	# or from command line.
 	#
 
+	warn qq(ENV DDG_MAX_CSS $ENV{DDG_MAX_CSS});
+	warn qq(ENV DDG_MAX_JS $ENV{DDG_MAX_JS});
+
 	my $target = @ARGV
 		? shift @ARGV
 		: defined $ENV{DDG_PUBLISHER_TARGETDIR}
