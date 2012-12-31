@@ -1,6 +1,7 @@
 <div id="footer_homepage">
 	<div id="footer_homepage_left">
-		<: lp('webelieve','%s believe in %s AND %s',r('<a href="/about">') ~ lp('webelieve','We') ~ r('</a>'),r('<a href="/goodies">') ~ lp('webelieve','better search') ~ r('</a>'), r('<a href="http://donttrack.us">') ~ lp('webelieve','no tracking') ~ r('</a>') ) :>
+	<a href="/goodies">Goodies</a> and <a href="http://donttrack.us">no tracking</a>.
+<!--	   <: lp('webelieve','%s believe in %s AND %s',r('<a href="/about">') ~ lp('webelieve','We') ~ r('</a>'),r('<a href="/goodies">') ~ lp('webelieve','better search') ~ r('</a>'), r('<a href="http://donttrack.us">') ~ lp('webelieve','no tracking') ~ r('</a>') ) :> //-->
 	</div>
 	<div id="footer_homepage_right">
 		<script type="text/javascript">
