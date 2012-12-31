@@ -1,4 +1,5 @@
 package DDG::Publisher::DirRole;
+# ABSTRACT: The role for a directory in the publisher system
 
 use MooX::Role;
 use DDG::Publisher::File;
@@ -8,15 +9,33 @@ requires qw(
 	pages
 );
 
+=attr key
+
+The key inside the site for this directory. Required for instantiation.
+
+=cut
+
 has key => (
 	is => 'ro',
 	required => 1,
 );
 
+=attr site
+
+Site object for this directory. Required for instantiation.
+
+=cut
+
 has site => (
 	is => 'ro',
 	required => 1,
 );
+
+=attr files
+
+Contains a hash of the files for this directory.
+
+=cut
 
 has files => (
 	is => 'ro',
@@ -57,6 +76,13 @@ sub _build_files {
 	return \%files;
 }
 
+=attr fullpath
+
+This hash also contains all files, but with the full path on the filesystem
+as key, so that collides can be detected.
+
+=cut
+
 has fullpath_files => (
 	is => 'ro',
 	lazy => 1,
@@ -80,6 +106,14 @@ sub _build_fullpath_files {
 	return \%fullpath_files;
 }
 
+=attr pages_coderefs
+
+This attribute contains all the coderefs for the pages that have to be
+generated for this specific directory. It uses L<pages> as builder. Normally
+you override L<pages> in your site class.
+
+=cut
+
 has pages_coderefs => (
 	is => 'ro',
 	lazy => 1,
@@ -87,6 +121,15 @@ has pages_coderefs => (
 );
 
 sub pages {{}}
+
+=attr statics_coderefs
+
+This attribute contains all the coderefs for the static pages that have to be
+generated for this specific directory. It uses L<statics> as builder. Normally
+you override L<statics> in your site class. A static file is not generated for
+every language
+
+=cut
 
 has statics_coderefs => (
 	is => 'ro',
@@ -96,6 +139,12 @@ has statics_coderefs => (
 
 sub statics {{}}
 
+=attr web_path
+
+The path on the web for this directory.
+
+=cut
+
 has web_path => (
 	is => 'ro',
 	lazy => 1,
@@ -103,6 +152,13 @@ has web_path => (
 );
 
 sub _build_web_path { my @path = shift->path; defined $path[1] ? $path[1] : $path[0] }
+
+=attr template_path
+
+This is the path inside the templates, used for the pages and statics of this
+directory.
+
+=cut
 
 has template_path => (
 	is => 'ro',

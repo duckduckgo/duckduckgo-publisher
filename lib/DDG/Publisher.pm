@@ -9,6 +9,12 @@ use HTML::Packer;
 use String::ProgressBar;
 use JSON;
 
+=attr site_classes
+
+List of classes that should get executed on publishing.
+
+=cut
+
 has site_classes => (
 	is => 'ro',
 	lazy => 1,
@@ -21,16 +27,34 @@ sub _build_site_classes {[qw(
 	Dontbubbleus
 )]}
 
+=attr sites
+
+This attribute holds the objects of the site classes that should get build.
+
+=cut
+
 has sites => (
 	is => 'ro',
 	lazy => 1,
 	builder => 1,
 );
 
+=attr no_compression
+
+See L<DDG::App::Publisher/no_compression>.
+
+=cut
+
 has no_compression => (
 	is => 'ro',
 	default => sub { 0 },
 );
+
+=attr dryrun
+
+See L<DDG::App::Publisher/dryrun>.
+
+=cut
 
 has dryrun => (
 	is => 'ro',
@@ -53,6 +77,12 @@ sub BUILD {
 	$self->sites;
 }
 
+=method publish_to
+
+This method it called to publish the files to the given specific directory.
+
+=cut
+
 sub publish_to {
 	my ( $self, $target ) = @_;
 	my $target_dir = dir($target)->absolute;
@@ -62,7 +92,17 @@ sub publish_to {
 	unless ($self->no_compression) {
 		$packer = HTML::Packer->init();
 	}
+
+	#
+	# For every site...
+	#
+
 	for my $site (@{$self->sites}) {
+
+		#
+		# For every dir in the site...
+		#
+
 		for my $dir (values %{$site->dirs}) {
 			print "\n".(ref $site).$dir->web_path."\n\n";
 			my @files = values %{$dir->fullpath_files};
@@ -79,6 +119,12 @@ sub publish_to {
 				$real_file->dir->mkpath unless -f $real_file->dir->absolute->stringify;
 				my $content = $_->content;
 				utf8::encode($content);
+
+				#
+				# If compression is requested, then the content of the files
+				# get compressed via HTML::Packer here.
+				#
+
 				if ($packer) {
 					$packer->minify(\$content,{
 						remove_comments => 0,
@@ -94,6 +140,13 @@ sub publish_to {
 			}
 			print "\n";
 		}
+
+		#
+		# Generate a datafile for the site, which can be used for deeper
+		# processing of the static files. (It's used by the internal code
+		# of DDG to generate, for example, the nginx config)
+		#
+
 		my $data_file = file($target_dir,$site->key.'.json')->absolute;
 		io($data_file)->print(encode_json($site->save_data));
 	};
