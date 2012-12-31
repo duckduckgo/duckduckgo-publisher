@@ -1,1 +1,1 @@
-<: include "meta/title.tx" { title => l('DuckDuckGo Zero-click Info API') } :>
+<: include "meta/title.tx" { title => l('DuckDuckGo Instant Answer API') } :>
