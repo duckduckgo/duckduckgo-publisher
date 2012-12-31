@@ -65,8 +65,8 @@ sub run {
 	# or from command line.
 	#
 
-	warn qq(ENV DDG_MAX_CSS $ENV{DDG_MAX_CSS});
-	warn qq(ENV DDG_MAX_JS $ENV{DDG_MAX_JS});
+#	warn qq(ENV DDG_MAX_CSS $ENV{DDG_MAX_CSS});
+#	warn qq(ENV DDG_MAX_JS $ENV{DDG_MAX_JS});
 
 	my $target = @ARGV
 		? shift @ARGV

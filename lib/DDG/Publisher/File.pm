@@ -187,8 +187,14 @@ sub _build_content {
 	#
 	%vars = ( %vars, $self->code->($self,\%vars) );
 
+	# 2012.12.31 need environment variables to capture the max js/css.
+	%vars = ( %vars, 'ENV', \%ENV );
+
 	# explicit getting out no_base for template decision later
 	my $no_base = defined $vars{no_base} && $vars{no_base};
+
+#	use Data::Dumper;
+#	warn Dumper($vars{'ENV'});
 
 	#
 	# Gathering the save data for the data files generation
