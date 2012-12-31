@@ -6,14 +6,15 @@
 <a class="l" href="/">Duck Duck Go</a> is a new search engine. Duck Duck Preview is the server process behind our preview function, which allows users to preview pages before visiting them. 
 
 <p style="margin-top: 15px;">
-We grab pages on behalf of our users and display to them parts of those pages most relevant to their queries. Duck Duck Preview is not a Web crawler or spider. 
+We grab pages on behalf of our users and display to them parts of those pages most relevant to their queries. Duck Duck Preview is not a Web crawler or spider. </p>
 
 <p style="margin-top: 15px;">
-If you have any questions, please email help@duckduckgo.com.
-
+If you have any questions, please email help@duckduckgo.com.</p>
 
 <p style="margin-top: 30px;">
 <i>Changelog</i>
+</p>
 
 <p style="margin-top: 15px;">
 DuckDuckPreview/1.0 - Initial version.
+</p>
