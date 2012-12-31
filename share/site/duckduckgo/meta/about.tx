@@ -23,7 +23,7 @@
 <meta name="twitter:player:height" value="544">
 
 <!-- template b -->
-<link rel="stylesheet" href="/s478.css" type="text/css"><link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="/opensearch_ssl.xml"><link rel="image_src" href="/assets/about/about-duckduckgo-posterimg.jpg"/>
+<link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="/opensearch_ssl.xml"><link rel="image_src" href="/assets/about/about-duckduckgo-posterimg.jpg"/>
 <script src="js/jquery/jquery-1.7.2.min.js"></script>
 <script src="js/mediaelement/mediaelement-and-player.min.2.9.1.js"></script>
 <link rel="stylesheet" href="mediaelementplayer.css" />
