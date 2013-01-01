@@ -112,7 +112,7 @@ kl =
 <li><: l('%s for %s','ue-es','United States (es)') :>
 <li><: l('%s for %s','ve-es','Venezuela') :>
 <li><: l('%s for %s','vn-vi','Vietnam') :>
-<li><: l('%s for %s','wt-wt','World Traveler (none)') :>
+<li><: l('%s for %s','wt-wt','No region') :>
 </ul>
 </td>
 </tr>
