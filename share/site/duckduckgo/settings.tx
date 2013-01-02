@@ -50,7 +50,7 @@
       // -->
     </script>
 
-    <script src="js/r/settings268.js" type="text/javascript"></script>
+    <script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_SETTINGS_JS_FILE || 'js/r/settings_latest.js' :>"></script>
 	
 	<div id="zero_click_header"><: l('Settings') :></div>
 

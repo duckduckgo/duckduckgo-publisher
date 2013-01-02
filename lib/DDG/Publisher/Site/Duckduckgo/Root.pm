@@ -20,7 +20,9 @@ sub pages {{
 	},
 	newbang => sub {},
 	params => sub {},
-	settings => sub {},
+	settings => sub {
+		no_logo => 1,
+	},
 	supportus => sub {
 		no_logo => 1,
 	},
