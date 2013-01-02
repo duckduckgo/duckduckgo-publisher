@@ -22,6 +22,7 @@ sub pages {{
 	params => sub {},
 	settings => sub {
 		no_logo => 1,
+		yui_body_header => 1,
 	},
 	supportus => sub {
 		no_logo => 1,

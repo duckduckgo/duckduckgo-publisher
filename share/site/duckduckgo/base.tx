@@ -12,7 +12,12 @@
 	  <: include "head_homepage.tx" :>
 	<: } :>
   </head>
-  <body id="pg-<: $f.filebase :>">
+  <body id="pg-<: $f.filebase :>" class="yui-skin-sam">
+
+	<: if $yui_body_header { :> 
+	  <: include "yui_body_header_" ~ $f.filebase ~ ".tx" :>	  
+	<: } :>
+
     <div id="add_to_browser" class="add_to_browser"></div>
 	<div id="add_to_browser_homepage" class="add_to_browser"></div>
 	<: if !$no_wrapper { :> 
