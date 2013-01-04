@@ -1,6 +1,12 @@
+<!--
 		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage">About DuckDuckGo</div>
 		</a>
+//-->
+		<a id="logo_homepage_link" title="Isaac Newton" href="/?q=isaac+newton">
+			<div id="logo_homepage">Isaac Newton</div>
+		</a>
+
 		<form name="x" method="POST" action="/html" id="search_form_homepage" onSubmit="return nbr()">
 			<div id="search_wrapper_homepage">
 				<input id="search_button_homepage" tabindex="2" type="submit" value=""/>

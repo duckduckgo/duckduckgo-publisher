@@ -20,7 +20,9 @@
 
 <script type="text/javascript">
 	setTimeout('document.x.q.focus()',50);
-	if (kurl) {document.getElementById("logo_homepage_link").href+='?t=i'+kurl;}
+	if (kurl) {
+	  document.getElementById("logo_homepage_link").href += (document.getElementById("logo_homepage_link").href.indexOf('?')==-1 ? '?t=i' : '') + kurl;
+	}
 	fq=1;
 	ric=0;
 </script>
