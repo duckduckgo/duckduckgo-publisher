@@ -15,7 +15,7 @@
 		<param name="flashvars" value="controls=true&poster=assets/about/about-duckduckgo-posterimg.jpg&file=//dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" /> 		
 		<!-- Image fall back for non-HTML5 browser with JavaScript turned off and no Flash player installed (wow just wow) -->
 		<img src="/assets/about/about-duckduckgo-posterimg.jpg" width="640" height="360" alt="DuckDuckGo" 
-			title="No video playback capabilities" />
+			title="<: l('No video playback capabilities') :>" />
 	</object>
 </video>
 <div class="share-buttons"><a class="share-button" href="#" onclick="DDG.toggle('share-panel')"><: l('share this') :></a></div>
@@ -31,12 +31,12 @@
 	<br/>
 	<div class="embed-code">&lt;iframe src="https://duckduckgo.com/about-video.html" width="640" height="360"&gt;&lt;/iframe&gt;</div>
 </div>
-<h2>We believe in better search and real privacy at the same time. That's why:</h2>
+<h2><: l("We believe in better search and real privacy at the same time. That's why:") :></h2>
 <hr/>
   <div id="features">
     <ul>	 
 	  <li class="goodies"><a href="/goodies">
-	  We have <em>tons of goodies.</em>
+	  <: lp('tonsgoodies',lp('tonsgoodies','We have %s.',r("<em>") ~ lp('tonsgoodies','tons of goodies') ~ r("</em>"))) :>
 	   <!--blockquote>We have lots of goodies for all types of people.</blockquote-->
 	   </a></li>
 	
@@ -63,7 +63,7 @@
 
 <p class="big">
 <script type="text/JavaScript">nib(0,' ','');</script>. &nbsp;<script type="text/JavaScript">nib(0,' ','','',0,1);</script>.
-&nbsp;<a href="/feedback">DuckDuckGo Help</a>.
+&nbsp;<a href="/feedback"><: l('DuckDuckGo Help') :></a>.
 </p>
 
 <div class="newsletter"></div>
@@ -77,10 +77,10 @@
 </form>
 
 <div class="like"></div>
-Follow <a href="http://twitter.com/duckduckgo">@duckduckgo on Twitter</a>
+<: l('Follow %s on Twitter',r('<a href="http://twitter.com/duckduckgo">') ~ '@duckduckgo' ~ r('</a>')) :>
 
 <div class="like"></div>
-Like <a href="https://facebook.com/duckduckgo">DuckDuckGo on Facebook</a>
+<: l('Like %s on Facebook',r('<a href="https://facebook.com/duckduckgo">') ~ 'DuckDuckGo' ~ r('</a>')) :>
 
 </div>
 
@@ -99,28 +99,28 @@ Like <a href="https://facebook.com/duckduckgo">DuckDuckGo on Facebook</a>
   </div>
 
 
-<h2>More about us...</h2>
+<h2><: l('More about us...') :></h2>
 <hr/>
 <div style="margin-left: 20px;">
-Help? Check out <a href="/feedback/">our feedback center</a>.
+<: l('Help? Check out %s.',r('<a href="/feedback/">') ~ l('our feedback center') ~ r('</a>')) :>
 
 <div style="margin-top: 20px;">
-Doodles? Yes, <a href="http://help.duckduckgo.com/customer/portal/articles/485613-holiday-logos">we have those too</a>!
+<: l('Doodles? Yes, %s!',r('<a href="http://help.duckduckgo.com/customer/portal/articles/485613-holiday-logos">') ~ l('we have those, too') ~ r("</a>")) :>
 
 <div style="margin-top: 20px;">
-Developer? Check out <a href="http://duckduckhack.com">DuckDuckHack</a>.
+<: l('Developer? Check out %s.',r('<a href="http://duckduckhack.com">') ~ 'DuckDuckHack' ~ r('</a>')) :>
 
 <div style="margin-top: 20px;">
-Supporter? <a href="/supportus/">Friends don't let friends get tracked</a>.
+<: l('Supporter? %s.',r('<a href="/supportus/">') ~ l("Friends don't let friends get tracked") ~ r('</a>')) :>
 
 <div style="margin-top: 20px;">
-Press? <a href="http://help.duckduckgo.com/customer/portal/articles/216623">click here</a>.
+<: l('Press? %s.',r('<a href="http://help.duckduckgo.com/customer/portal/articles/216623">') ~ l('click here') ~ r('</a>')) :>
 
 <div style="margin-top: 20px;">
-Partner? <a href="http://help.duckduckgo.com/customer/portal/articles/775109">click here</a>.
+<: l('Partner? %s.',r('<a href="http://help.duckduckgo.com/customer/portal/articles/775109">') ~ l('click here') ~ r('</a>')) :>
 
 <div style="margin-top: 20px;">
-Schwag? <a href="http://help.duckduckgo.com/customer/portal/articles/216375-t-shirts-stickers-more">of course</a>.
+<: l('schwag','Schwag? %s.',r('<a href="http://help.duckduckgo.com/customer/portal/articles/216375-t-shirts-stickers-more">') ~ l('schwag','of course') ~ r('</a>')) :>
 
 </div>
 

@@ -2,7 +2,7 @@
 
 <meta property="og:image" content="http://duckduckgo.com/assets/about/about-duckduckgo-posterimg.jpg" />
 <meta property="og:type" content="article" />
-<meta property="og:description" content="DuckDuckGo has better instant answers, less spam and clutter, and real privacy." />
+<meta property="og:description" content="<: l('DuckDuckGo has better instant answers, less spam and clutter, and real privacy.') :>" />
 
 <meta property="og:video" content="http://duckduckgo.com/assets/player.swf?file=http://dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" />
 <meta property="og:video:secure_url" content="https://duckduckgo.com/assets/player.swf?file=https://dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" />
