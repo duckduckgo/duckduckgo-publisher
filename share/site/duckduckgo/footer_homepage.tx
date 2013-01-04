@@ -25,4 +25,8 @@
 	}
 	fq=1;
 	ric=0;
+var ref=new RegExp('[\?\&]r=([^\&]+)');
+if (ref.test(window.location.href)) {
+   if (document.getElementById('trig_add_to_browser')) setTimeout("DDG.mv_elem('add_to_browser','trig_add_to_browser');DDG.toggle('add_to_browser');",50);
+}
 </script>
