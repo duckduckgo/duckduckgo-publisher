@@ -14,6 +14,9 @@ sub pages {{
 		no_logo => 1,
 	},
 	bang => sub {},
+    goodies => sub {
+		no_logo => 1,
+    },
 	index => sub {
 		no_wrapper => 1,
 		homepage => 1,
