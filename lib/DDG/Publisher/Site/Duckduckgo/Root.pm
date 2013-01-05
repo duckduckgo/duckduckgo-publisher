@@ -42,7 +42,10 @@ sub pages {{
 }}
 
 sub statics {{
-	"50x" => sub {},
+	"50x" => sub {
+		no_wrapper => 1,
+		homepage => 1,
+	},
 }}
 
 1;

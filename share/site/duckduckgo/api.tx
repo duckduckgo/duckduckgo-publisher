@@ -13,7 +13,7 @@ pre {
 }
 </style>
 
-<div id="zero_click_header"><: l('Instant Answer API') :></div>
+<div id="special_page_header"><: l('Instant Answer API') :></div>
 
 <: include "untranslated.tx" :>
 
