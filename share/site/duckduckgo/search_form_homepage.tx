@@ -16,26 +16,31 @@
 
 <script type="text/javascript">
 var karr = new Array('t','ka','kb','kc','kd','ke','kf','kg','kh','ki','kj','kk','kl','km','kn','ko','kp','kq','kr','ks','kt','ku','kv','kw','kx','ky','kz','k1','k2','k3','k4','k5','k6','k7','k8','k9','kaa','kab','kac','kad','kae','kaf','kag','kah','kai','kaj','kak','kal','kam','kan','kao','kap','kaq','kar','kas','kat','kau','kav','kaw','kax','kay','kaz','key');
-for (var i=0;i<karr.length;i++) {var kre=new RegExp('[\?\&]'+karr[i]+'=([^\&]+)');
+for (var i=0;i<karr.length;i++) {
+  var kre=new RegExp('[\?\&]'+karr[i]+'=([^\&]+)');
   var ktmp='';
+
   if (kre.test(window.location.href)) {
       ktmp=decodeURIComponent(RegExp.$1);
-      if (ktmp.length<11) document.write('<input type="hidden" name="'+karr[i]+'" value="'+ktmp+'">');eval(karr[i]+'=ktmp');
+      if (ktmp.length<11) document.write('<input type="hidden" name="'+karr[i]+'" value="'+ktmp+'">');
+      eval(karr[i]+'=ktmp');
   }
 
-  if (karr[i]=='ki'&&((ktmp&&ktmp==-1)||YAHOO.util.Cookie.get("i")=='-1')) {
+  if (karr[i]=='ki' && ( (ktmp&&ktmp==-1) || YAHOO.util.Cookie.get("i")=='-1' ) ) {
     document.write('<input type="hidden" name="v" value="n">');
 
-  } else if(karr[i]=='kg') {
-    if((ktmp&&ktmp=='p')||YAHOO.util.Cookie.get("g")=='p'){document.x.method='POST';}
-    else{document.x.method='GET';}
+  } else if (karr[i]=='kg') {
+    if ( (ktmp && ktmp=='p') || YAHOO.util.Cookie.get("g")=='p') document.x.method='POST';
+    else document.x.method='GET';
 
-  } else if(karr[i]=='kh') {
-    if(((ktmp&&ktmp=='1')||YAHOO.util.Cookie.get("h")=='1')&&document.location.protocol!='https:'){document.x.action='https://'+window.location.host+'/';}
-    else {document.x.action='/';}
-
-  };
+  } else if (karr[i]=='kh') {
+    if ( (!ktmp || ktmp=='1' || YAHOO.util.Cookie.get("h") == '1') && document.location.protocol != 'https:') document.x.action='https://'+window.location.host+'/';
+    else if ( ( (ktmp && ktmp=='-1') || YAHOO.util.Cookie.get("h") == '-1')  && document.location.protocol != 'http:') document.x.action='http://'+window.location.host+'/';
+    else document.x.action='/';
+  }
 }
+
+//console.log(w.key);
 </script>
 
 
