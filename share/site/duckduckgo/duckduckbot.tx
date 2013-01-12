@@ -3,7 +3,7 @@
 <: include "untranslated.tx" :>
 
 <div style="margin-top: 30px;"></div>
-<: lp('duckduckbot', 'DuckDuckBot is the Web crawler for %s. It respects %s and originates from these IP addresses:',r('<a href="/?q=&t=i">') ~ lp('duckduckbot','DuckDuckGo') ~ r('</a>'), r('<a href="https://metacpan.org/module/WWW::RobotRules">WWW::RobotRules</a>')) :>
+<: lp('duckduckbot', 'DuckDuckBot is the Web crawler for %s. It respects %s and originates from these IP addresses:',r('<a href="/?q=&t=i">DuckDuckGo</a>'), r('<a href="https://metacpan.org/module/WWW::RobotRules">WWW::RobotRules</a>')) :>
 
 <div style="margin-top: 5px;"></div>
  &nbsp;  &nbsp; 72.94.249.34
