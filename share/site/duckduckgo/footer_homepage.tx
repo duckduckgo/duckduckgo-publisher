@@ -19,7 +19,7 @@
 </div>
 
 <script type="text/javascript">
-	setTimeout('document.x.q.focus()',50);
+	document.x.q.focus();
 	if (kurl) {
 	  document.getElementById("logo_homepage_link").href += (document.getElementById("logo_homepage_link").href.indexOf('?')==-1 ? '?t=i' : '') + kurl;
 	}
