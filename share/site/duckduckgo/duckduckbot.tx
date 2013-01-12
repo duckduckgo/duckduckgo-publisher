@@ -16,10 +16,10 @@
 <: lp('questions', 'If you have any questions or concerns, please %s.',r('<a href="/feedback">') ~ lp('questions','let us know') ~ r('</a>')) :>.
 
 <div style="margin-top: 30px;"></div>
-<i><: l('Changelog') :></i>
+<i>Changelog</i>
 
 <div style="margin-top: 15px;"></div>
-DuckDuckBot/1.1 - <: l('Bug fix: was not respecting robots.txt in some cases.') :>
+DuckDuckBot/1.1 - Bug fix: was not respecting robots.txt in some cases.
 
 <div style="margin-top: 15px;"></div>
-DuckDuckBot/1.0 - <: l('Initial version.') :>
+DuckDuckBot/1.0 - Initial version.
