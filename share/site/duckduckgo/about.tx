@@ -111,7 +111,7 @@
 <: l('Developer? Check out %s.',r('<a href="http://duckduckhack.com">') ~ 'DuckDuckHack' ~ r('</a>')) :>
 
 <div style="margin-top: 20px;">
-<: l('Supporter? %s.',r('<a href="/supportus/">') ~ l("Friends don't let friends get tracked") ~ r('</a>')) :>
+<: l('Supporter? %s.',r('<a href="/supportus/">') ~ l("Friends don't let friends get tracked.") ~ r('</a>')) :>
 
 <div style="margin-top: 20px;">
 <: l('Press? %s.',r('<a href="http://help.duckduckgo.com/customer/portal/articles/216623">') ~ l('click here') ~ r('</a>')) :>

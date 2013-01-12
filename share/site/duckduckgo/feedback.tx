@@ -39,7 +39,7 @@
 				<h2><: l('Community Platform') :></h2>
 				<ul>
 					<li><: l('Care to help translate DuckDuckGo into your language?') :></li>
-					<li><: l('Searching for info. on our XMPP chat service?') :></li>
+					<li><: l('Searching for info on our XMPP chat service?') :></li>
 					<li><: l('Would you like to help develop the platform?') :></li>
 				</ul>
 			</a>
