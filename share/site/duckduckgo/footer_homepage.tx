@@ -1,6 +1,6 @@
 <div id="footer_homepage">
 	<div id="footer_homepage_left">
-	<a href="/goodies">Goodies</a> and <a href="http://donttrack.us">no tracking</a>.
+	<: lp('shortbelieve','%s and %s.',r('<a href="/goodies">') ~ lp('shortbelieve','Goodies') ~ r('</a>'),r('<a href="http://donttrack.us">') ~ lp('shortbelieve','no tracking') ~ r('</a>')) :>
 	</div>
 	<div id="footer_homepage_right">
 		<script type="text/javascript">
