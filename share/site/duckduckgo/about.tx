@@ -36,7 +36,7 @@
   <div id="features">
     <ul>	 
 	  <li class="goodies"><a href="/goodies">
-	  <: lp('tonsgoodies',lp('tonsgoodies','We have %s.',r("<em>") ~ lp('tonsgoodies','tons of goodies') ~ r("</em>"))) :>
+	  <: lp('tonsgoodies','We have %s.',r("<em>") ~ lp('tonsgoodies','tons of goodies') ~ r("</em>")) :>
 	   <!--blockquote>We have lots of goodies for all types of people.</blockquote-->
 	   </a></li>
 	
