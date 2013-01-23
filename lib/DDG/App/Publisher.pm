@@ -21,6 +21,11 @@ option compression => (
 	predicate => 1,
 );
 
+# backward compatibility
+option no_compression => (
+	is => 'ro',
+);
+
 =attr dryrun
 
 If this option is activated the publisher will not generate any files and
