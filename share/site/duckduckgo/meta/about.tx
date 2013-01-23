@@ -18,7 +18,7 @@
 <meta content="application/x-shockwave-flash" name="video_type" />
 <meta name="twitter:card" value="player">
 <meta name="twitter:image" value="http://duckduckgo.com/assets/about/about-duckduckgo-posterimg.jpg">
-<meta name="twitter:player" value="http://duckduckgo.com/assets/player.swf?file=http://dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4">
+<meta name="twitter:player" value="https://duckduckgo.com/assets/player.swf?file=http://dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4">
 <meta name="twitter:player:width" value="960">
 <meta name="twitter:player:height" value="544">
 
