@@ -153,7 +153,7 @@ sub _build_template_engine {
 		#
 		# Include share/site/$key and share/core as template directories
 		#
-		path => [$site_template_root,$core_template_root],
+		path => [@{$self->publisher->extra_template_dirs},$site_template_root,$core_template_root],
 		function => {
 			#
 			# js() function to escape js

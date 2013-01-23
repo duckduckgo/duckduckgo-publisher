@@ -10,14 +10,13 @@ use MooX::Options protect_argv => 0;
 use Path::Class;
 use DDG::Publisher;
 
-=attr no_compression
+=attr compression
 
-If this is deactivated the compression will not used, which speeds up the
-things for development.
+If this is activated then compression will be used.
 
 =cut
 
-option no_compression => (
+option compression => (
 	is => 'ro',
 	predicate => 1,
 );
@@ -51,6 +50,18 @@ option site_only => (
 	predicate => 1,
 );
 
+=attr tmpl_dir
+
+Use an extra template dir for the process (will be used for all sites).
+
+=cut
+
+option tmpl_dir => (
+	format => 's',
+	is => 'ro',
+	predicate => 1,
+);
+
 =method run
 
 This method gets executed for the run of the publisher
@@ -75,9 +86,10 @@ sub run {
 			: die "Require a target path or DDG_PUBLISHER_TARGETDIR set";
 	my $dir = dir($target)->absolute;
 	my $publisher = DDG::Publisher->new(
-		$self->has_no_compression ? ( no_compression => $self->no_compression ) : (),
+		$self->has_compression ? ( compression => $self->compression ) : (),
 		$self->has_dryrun ? ( dryrun => $self->dryrun ) : (),
 		$self->has_site_only ? ( site_classes => [$self->site_only] ) : (),
+		$self->has_tmpl_dir ? ( extra_template_dirs => [$self->tmpl_dir] ) : (),
 	);
 	print "Publishing to ".$dir." ... \n";
 	my $count;

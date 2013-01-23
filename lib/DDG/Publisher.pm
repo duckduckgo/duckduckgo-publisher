@@ -27,6 +27,22 @@ sub _build_site_classes {[qw(
 	Dontbubbleus
 )]}
 
+=attr extra_template_dirs
+
+List of extra directions that should be used for templates.
+
+=cut
+
+has extra_template_dirs => (
+	is => 'ro',
+	lazy => 1,
+	builder => 1,
+);
+
+sub _build_extra_template_dirs {[qw(
+	templates
+)]}
+
 =attr sites
 
 This attribute holds the objects of the site classes that should get build.
@@ -39,13 +55,13 @@ has sites => (
 	builder => 1,
 );
 
-=attr no_compression
+=attr compression
 
-See L<DDG::App::Publisher/no_compression>.
+See L<DDG::App::Publisher/compression>.
 
 =cut
 
-has no_compression => (
+has compression => (
 	is => 'ro',
 	default => sub { 0 },
 );
@@ -89,9 +105,7 @@ sub publish_to {
 	$target_dir->mkpath unless -d "$target_dir";
 	my $count = 0;
 	my $packer;
-	unless ($self->no_compression) {
-		$packer = HTML::Packer->init();
-	}
+	$packer = HTML::Packer->init() if ($self->compression);
 
 	#
 	# For every site...
