@@ -1,5 +1,5 @@
 package DDG::Publisher;
-# ABSTRACT: Generation of the static pages of DuckDuckGo
+# ABSTRACT: Generation of the static files of DuckDuckGo and its microsites.
 
 use MooX;
 use Path::Class;
