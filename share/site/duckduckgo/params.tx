@@ -34,7 +34,7 @@
 </td>
 <td class="ctd">
 <: l('%s for %s','kp = 1',lp('setting','On')) :>;
-<: l('%s for %s','kp = 1',lp('setting','Off')) :>.
+<: l('%s for %s','kp = -1',lp('setting','Off')) :>.
 </td>
 </tr>
 
