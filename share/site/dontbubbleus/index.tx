@@ -28,7 +28,7 @@
 				<img src="images/bing-climate-change-action.jpg" alt="<: l('bing result showing climate action sites') :>" />
 			</a>
 		</div>		
-		<p class="clear">(<: l('%s a Bing search for "%s"','<a target="_blank" href="http://www.bing.com/search?q=climate%20change"><b>' ~ l('Try') ~ '</b></a>','climate change') :>)</p>
+		<p class="clear">(<: l('%s a Bing search for "%s"',r('<a target="_blank" href="http://www.bing.com/search?q=climate%20change"><b>') ~ l('Try') ~ r('</b></a>'),'climate change') :>)</p>
 	</div>
 </div>
 
@@ -43,7 +43,7 @@
 <div class="frame-wrap" id="fig4" name="fig4">
 	<div class="frame"><span class="fig"><: l('Fig. %d',4) :></span>
 		<img src="images/google.gif" alt="<: l('Google search for bankruptcy') :>" />
-		<p>(<: l('%s your Google search history.','<a target="_blank" href="https://www.google.com/history/"><b>' ~ l('See') ~ '</b></a>') :>)</p>
+		<p>(<: l('%s your Google search history.',r('<a target="_blank" href="https://www.google.com/history/"><b>') ~ l('See') ~ r('</b></a>')) :>)</p>
 	</div>				
 </div>
 
@@ -88,7 +88,7 @@
 			<h5><: l('%s gets %s','Elaine','Fox News') :></h5>
 			<a target="_blank" href=""><img src="images/google-barack-obama-elaine.jpg" alt="<: l('google result showing a fox news article for barack obama') :>" /></a>
 		</div>
-		<p>(<: l('%s a Google search for "%s"','<a target="_blank" href="https://encrypted.google.com/search?hl=en&q=barack+obama"><b>' ~ l('Try') ~ '</b></a>','barack obama') :>)</p>
+		<p>(<: l('%s a Google search for "%s"',r('<a target="_blank" href="https://encrypted.google.com/search?hl=en&q=barack+obama"><b>') ~ l('Try') ~ r('</b></a>'),'barack obama') :>)</p>
 	</div>
 </div>
 
@@ -100,19 +100,19 @@
 		<a target="_blank" href="http://graphjam.memebase.com/">
 			<img src="images/google-search-result-pages.png"  alt="<: l('Diminishing returns in deeper pages from Google search results') :>" />
 		</a>
-		<h4><: l('How often do you %s venture past page 1?','<em>' ~ l('really') ~ '</em>') :></h4>
+		<h4><: l('How often do you %s venture past page 1?',r('<em>') ~ l('really') ~ r('</em>')) :></h4>
 	</div>
 </div>
 
 <h4><: l('This raises the question:') :></h4>
-<h3><: l('What are %s missing?','<strong>' ~ l('you') ~ '</strong>') :></h3>
+<h3><: l('What are %s missing?',r('<strong>') ~ l('you') ~ r('</strong>')) :></h3>
 <div class="frame-wrap" id="fig10" name="fig10">
 	<div class="frame"><span class="fig"><: l('Fig. %d',10) :></span>
 		
 		<a target="_blank" href="http://www.amazon.com/Filter-Bubble-What-Internet-Hiding/product-reviews/1594203008/ref=cm_cr_pr_btm_helpful?ie=UTF8&showViewpoints=0">
 			<img src="images/filter6.png" alt="<: l('amazon review pointing out search distortions') :>" />
 		</a>
-		<p>(<: l('%s a Google search for "%s"','<a target="_blank" href="https://encrypted.google.com/search?hl=en&q=guns"><b>' ~ l('Try') ~ '</b></a>','guns') :>)</p>
+		<p>(<: l('%s a Google search for "%s"',r('<a target="_blank" href="https://encrypted.google.com/search?hl=en&q=guns"><b>') ~ l('Try') ~ r('</b></a>'),'guns') :>)</p>
 	</div>
 </div>
 
@@ -122,11 +122,11 @@
 	<div class="frame"><span class="fig"><: l('Fig. %d',11) :></span>
 		<a target="_blank" href="http://www.amazon.com/Filter-Bubble-What-Internet-Hiding/dp/1594203008/ref=sr_1_1?ie=UTF8&qid=1308070349&sr=8-1">
 			<img src="images/book.gif" alt="<: l('The Filter Bubble - What the internet is hiding from you') :>" />
-		</a>					
+		</a>
 	</div>
 </div>
 
-<h4><: l("that promotes things it %s you'll like,",'<em>' ~ l('thinks') ~ '</em>') :></h4>
+<h4><: l("that promotes things it %s you'll like,",r('<em>') ~ l('thinks') ~ r('</em>')) :></h4>
 <h3><: l('Try searching for') :>&hellip;</h3>
 <div class="frame-wrap" id="fig12" name="fig12">
 	<div class="frame"><span class="fig"><: l('Fig. %d',12) :></span>
@@ -142,7 +142,7 @@
 			<h5><: l('%s gets %s','Daniel',l('Travel Information')) :></h5>
 			<a target="_blank" href=""><img src="images/google-egypt-results-daniel.jpg" alt="<: l('google result showing egypt travel information ') :>" /></a>
 		</div>
-		<p>(<: l('%s a Google search for "%s"','<a target="_blank" href="https://encrypted.google.com/search?hl=en&q=egypt"><b>' ~ l('Try') ~ '</b></a>','egypt') :>)</p>
+		<p>(<: l('%s a Google search for "%s"',r('<a target="_blank" href="https://encrypted.google.com/search?hl=en&q=egypt"><b>') ~ l('Try') ~ r('</b></a>'),'egypt') :>)</p>
 	</div>
 </div>
 
@@ -154,7 +154,7 @@
 		<a target="_blank" href="https://www.nytimes.com/2011/05/29/technology/29stream.html">
 			<img src="images/newyorktimes-post.gif" alt="<: l('Quote from the New York Times on search filtering') :>" />
 		</a>
-		<p>(<: l('%s a Google search for "%s"','<a target="_blank" href="https://encrypted.google.com/search?hl=en&q=Is+Osama+really+dead?"><b>' ~ l('Try') ~ '</b></a>','Is Osama really dead?') :>)</p>
+		<p>(<: l('%s a Google search for "%s"',r('<a target="_blank" href="https://encrypted.google.com/search?hl=en&q=Is+Osama+really+dead?"><b>') ~ l('Try') ~ r('</b></a>'),'Is Osama really dead?') :>)</p>
 	</div>
 </div>
 
@@ -181,14 +181,14 @@
 	</div>
 </div>
 
-<h4><: l('across the Internet and even %s.','<a href="http://googleblog.blogspot.com/2009/12/personalized-search-for-everyone.html">' ~ l('when signed out') ~ '</a>') :></h4>
+<h4><: l('across the Internet and even %s.',r('<a href="http://googleblog.blogspot.com/2009/12/personalized-search-for-everyone.html">') ~ l('when signed out') ~ r('</a>')) :></h4>
 <div class="frame-wrap" id="fig17" name="fig17">
 	<div class="frame"><span class="fig"><: l('Fig. %d',17) :></span>
 		<a target="_blank" href="http://www.amazon.com/Filter-Bubble-What-Internet-Hiding/dp/1594203008/ref=sr_1_1?ie=UTF8&qid=1308070349&sr=8-1"><img src="images/filter8.jpg" alt="<: l('popular internet sites represented by bubbles') :>" /></a>
 	</div>
 </div>
 
-<h4><: l('We offer you an alternative: a %s.','<a target="_blank" href="https://duckduckgo.com/">' ~ l('search engine') ~ '</a>') :></h4>
+<h4><: l('We offer you an alternative: a %s.',r('<a target="_blank" href="https://duckduckgo.com/">') ~ l('search engine') ~ r('</a>')) :></h4>
 <div class="frame-wrap" id="fig18" name="fig18">
 	<div class="frame"><span class="fig"><: l('Fig. %d',18) :></span>
 	  <a target="_blank" href="https://duckduckgo.com/"><img src="images/ddg.png" alt="<: l('%s Homepage','DuckDuckGo') :>" /></a>
@@ -202,7 +202,7 @@
 	</div>
 </div>
 
-<h4><: l('plus %s like %s.','<a target="_blank" href="https://duckduckgo.com/about.html">' ~ l('other differences') ~ '</a>','<a target="_blank" href="https://duckduckgo.com/privacy.html">' ~ l('real privacy') ~ '</a>') :></h4>
+<h4><: l('plus %s like %s.',r('<a target="_blank" href="https://duckduckgo.com/about.html">') ~ l('other differences') ~ r('</a>'),r('<a target="_blank" href="https://duckduckgo.com/privacy.html">') ~ l('real privacy') ~ r('</a>')) :></h4>
 <div class="frame-wrap" id="fig20" name="fig20">
 	<div class="frame"><span class="fig"><: l('Fig. %d',20) :></span>
 		<a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3" target="_nyt">
@@ -210,7 +210,7 @@
 		<img src="images/nyt.png" alt="The New York Times" />
 		</span>
 		<span class="half">
-		<h3 class="threeline">&ldquo;<: l('distinguishes itself with a %s policy.','&lsquo;' ~ l('We do not track or bubble you!') ~ '&rsquo;') :>&rdquo;</h3>
+		<h3 class="threeline">&ldquo;<: l('distinguishes itself with a %s policy.',r('&lsquo;') ~ l('We do not track or bubble you!') ~ r('&rsquo;')) :>&rdquo;</h3>
 		</span>
 		</a>
 		<a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html" target="_time" >
@@ -232,7 +232,7 @@
 	</div>
 </div>
 <h4>
-	<: l('%s to try now','<a target="_blank" href="https://duckduckgo.com/">' ~ l('Click here') ~ '</a>') :>
+	<: l('%s to try now',r('<a target="_blank" href="https://duckduckgo.com/">') ~ l('Click here') ~ r('</a>')) :>
 	<script type="text/JavaScript">
 		nib(0,'','&nbsp;','.');
 	</script>
