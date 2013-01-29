@@ -145,7 +145,6 @@ sub _build_template_engine {
 	for my $key (keys %{ Locale::Simple->coderef_hash }) {
 		$xslate_locale_functions{$key} = sub {
 			my $translation = Locale::Simple->coderef_hash->{$key}->(@_);
-			utf8::decode($translation);
 			return mark_raw($translation);
 		};
 	}
