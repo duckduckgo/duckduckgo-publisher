@@ -21,9 +21,9 @@
 <hr/>
 
 <div class="moreinfo">
-	<h6><: l("For more on Filter Bubbles, check out %s's %s.",'Eli Pariser','<a target="_blank" href="http://www.thefilterbubble.com/ted-talk">Ted Talk</a>') :></h6>
+	<h6><: l("For more on Filter Bubbles, check out %s's %s.",'Eli Pariser',r('<a target="_blank" href="http://www.thefilterbubble.com/ted-talk">Ted Talk</a>')) :></h6>
 
-	<h6><: l('For more on DuckDuckGo, check out our %s and %s!','<a target="_blank" href="https://duckduckgo.com/about.html">' ~ l('about page') ~ '</a>','<a target="_blank" href="https://duckduckgo.com/">' ~ l('search') ~ '</a>') :></h6>
+	<h6><: l('For more on DuckDuckGo, check out our %s and %s!',r('<a target="_blank" href="https://duckduckgo.com/about.html">') ~ l('about page') ~ r('</a>'),r('<a target="_blank" href="https://duckduckgo.com/">') ~ l('search') ~ r('</a>')) :></h6>
 </div>
 
 <hr/>
