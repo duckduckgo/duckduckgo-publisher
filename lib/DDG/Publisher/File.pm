@@ -175,6 +175,10 @@ sub _build_content {
 	my $dir_code = $self->dir->can('code');
 
 	#
+	# Attach ENV variables, doing at here, so that they can be overriden
+	#
+	%vars = ( %vars, 'ENV', \%ENV );
+	#
 	# Execute code from L<DDG::Publisher::SiteRole/code> to get more variables
 	#
 	%vars = ( %vars, $site_code->($self,\%vars) ) if $site_code;
@@ -186,9 +190,6 @@ sub _build_content {
 	# Execute code from L<code> to get more variables
 	#
 	%vars = ( %vars, $self->code->($self,\%vars) );
-
-	# 2012.12.31 need environment variables to capture the max js/css.
-	%vars = ( %vars, 'ENV', \%ENV );
 
 	# explicit getting out no_base for template decision later
 	my $no_base = defined $vars{no_base} && $vars{no_base};
