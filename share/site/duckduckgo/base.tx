@@ -28,8 +28,10 @@
 		  <a href="/?q=&t=i&kad=<: $f.locale :>" title="DuckDuckGo"><div id="logo_internal"></div></a>
 		  <: } :>
 		    <div id="links_wrapper">
-			  <div id="links">			  
+			  <div id="links">	
+				<: if !$no_content_internal { :>
 				<div id="content_internal">
+				<: } :>
 	<: } else {:>
       <: if $homepage { :>
 	    <div id="content_wrapper_homepage">
@@ -42,7 +44,9 @@
 
 	<: if !$no_wrapper { :>
 			   <div id="bottom_spacing2"></div>
-		     </div> <!-- content_internal //-->
+		     <: if !$no_content_internal { :>
+			 </div> <!-- content_internal //-->
+			 <: } :>
 	       </div> <!-- links //-->
 	     </div> <!-- links_wrapper //-->
 	    </div> <!-- content //-->
