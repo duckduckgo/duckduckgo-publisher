@@ -120,7 +120,7 @@
 <: l('Partner? %s.',r('<a href="http://help.duckduckgo.com/customer/portal/articles/775109">') ~ l('click here') ~ r('</a>')) :>
 
 <div style="margin-top: 20px;">
-<: l('schwag','Schwag? %s.',r('<a href="http://help.duckduckgo.com/customer/portal/articles/216375-t-shirts-stickers-more">') ~ l('schwag','of course') ~ r('</a>')) :>
+<: l('Schwag? %s.',r('<a href="http://help.duckduckgo.com/customer/portal/articles/216375-t-shirts-stickers-more">') ~ l('of course') ~ r('</a>')) :>
 
 </div>
 
