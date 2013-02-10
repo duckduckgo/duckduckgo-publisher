@@ -18,8 +18,8 @@
 	  <: include "yui_body_header_" ~ $f.filebase ~ ".tx" :>	  
 	<: } :>
 
-    <div id="add_to_browser" class="add_to_browser"></div>
-	<div id="add_to_browser_homepage" class="add_to_browser"></div>
+    <div id="add_to_browser" class="modal grp_modal"></div>
+	<div id="add_to_browser_homepage" class="modal grp_modal"></div>
 	<: if !$no_wrapper { :> 
 	  <: include "header.tx" :>
 	  <div id="content_wrapper">

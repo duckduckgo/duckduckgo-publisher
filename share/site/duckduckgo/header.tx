@@ -20,7 +20,7 @@
 				  <li>
 				   <div id="header_button_menu_wrapper">
 				    <a class="header_button_menu_item" id="header_button_menu_title" href="javascript:;"><: l('More') :></a>
-					 <ul id="header_button_menu">
+					 <ul id="header_button_menu" class="grp_modal">
 					 	<: include "menu_inner.tx" :>
 					 </ul>
 					</div>

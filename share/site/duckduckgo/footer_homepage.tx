@@ -12,7 +12,7 @@
 		</script>
 		&nbsp;&nbsp;
 		<a href="#" onclick="DDG.toggle('add_to_browser',-1);DDG.toggle('add_to_browser_homepage',-1);DDG.toggle('more_menu')"><: l('More') :></a>
-		<ul id="more_menu">
+		<ul id="more_menu" class="grp_modal">
 			<: include "menu_inner.tx" :>
 		</ul>
 	</div>
