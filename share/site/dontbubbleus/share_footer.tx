@@ -1,31 +1,19 @@
-<hr/>
-<h6><strong><: l('Help your friends escape the filter bubble!') :></strong></h6>
-<div class="sharebuttons">
-	<a class="facebook" target="_facebook" href="https://facebook.com/sharer.php?u=http://dontbubble.us/"><: l('Share on %s','Facebook') :></a>
-	<a class="twitter" target="_twitter" href="https://twitter.com/?status=Escape+your+search+engine's+filter+bubble.+An+illustrated+guide+by+@duckduckgo:+http://DontBubble.us/"><: l('Share on %s','Twitter') :></a>
-	<a class="email" data-reveal-id="share-email"><: l('Email to friends') :></a>
-</div>
 
-<div style="padding-top:15px;text-align:center;">
-	<form action="https://flash.duckduckgo.com/e.js" method="post">
-		<span class="clu">
-			<: l('Get the Internet privacy newsletter (low traffic):') :> &nbsp;
-				<input type="text" size="25" name="from" placeholder="<: l('Your Email') :>" style="color:#888">
-				<input type="submit" class="button" value="<: l('Go') :>">
-				<input type="hidden" name="add5" value="1">
-			<p style="margin-top: 10px;"><i><: l('Only used to send you updates about Internet privacy. Period.') :></i></p>
-		</span>
-	</form>
-</div>
-
-<hr/>
 
 <div class="moreinfo">
-	<h6><: l("For more on Filter Bubbles, check out %s's %s.",'Eli Pariser',r('<a target="_blank" href="http://www.thefilterbubble.com/ted-talk">Ted Talk</a>')) :></h6>
-
-	<h6><: l('For more on DuckDuckGo, check out our %s and %s!',r('<a target="_blank" href="https://duckduckgo.com/about.html">') ~ l('about page') ~ r('</a>'),r('<a target="_blank" href="https://duckduckgo.com/">') ~ l('search') ~ r('</a>')) :></h6>
+<hr/>
+<div style="text-align:center;">
+        <form action="https://flash.duckduckgo.com/e.js" method="post">
+                <span class="clu">
+                        Get updates on net privacy (rarely): &nbsp;
+                        <input type="text" size="25" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
+                        <input type="submit" class="button" value="Go">
+                        <input type="hidden" name="add5" value="1">
+                </span>
+        </form>
 </div>
 
-<hr/>
+<br>
+        <p class="copyright">&copy;<a href="https://duckduckgo.com">DuckDuckGo</a>. All Rights Reserved.</p>
+</div>
 
-<p class="copyright">&copy;2012 DuckDuckGo. <: l('All Rights Reserved.') :></p>

@@ -11,3 +11,5 @@
 <link rel="stylesheet" type="text/css" href="css/bubble.css?1" /> 		
 
 <!--[if lte IE 9]><style>.frame, .frame input, .reveal-modal, .reveal-modal-bg, .pie { behavior: url(common/PIE.htc);} </style><![endif]-->
+
+<script src="ddg/d923.js" type="text/javascript"></script>

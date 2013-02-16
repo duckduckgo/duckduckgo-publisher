@@ -203,6 +203,14 @@
 </div>
 
 <h4><: l('plus %s like %s.',r('<a target="_blank" href="https://duckduckgo.com/about.html">') ~ l('other differences') ~ r('</a>'),r('<a target="_blank" href="https://duckduckgo.com/privacy.html">') ~ l('real privacy') ~ r('</a>')) :></h4>
+
+<h4>
+	<script type="text/JavaScript">
+		nib(0,'','&nbsp;','.');
+	</script>
+</h4>
+
+
 <div class="frame-wrap" id="fig20" name="fig20">
 	<div class="frame"><span class="fig"><: l('Fig. %d',20) :></span>
 		<a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3" target="_nyt">
@@ -231,11 +239,8 @@
 		</a>
 	</div>
 </div>
-<h4>
-	<: l('%s to try now',r('<a target="_blank" href="https://duckduckgo.com/">') ~ l('Click here') ~ r('</a>')) :>
-	<script type="text/JavaScript">
-		nib(0,'','&nbsp;','.');
-	</script>
-</h4>
-<br><br>
 
+<div style="margin-top:45px;"></div>
+<h4>Finally, friends don't let friends get tracked!
+<div style="margin-top:10px;"></div>
+Do your part by helping five friends at <a href="http://fixtracking.com/">FixTracking.com</a>.</h4>
