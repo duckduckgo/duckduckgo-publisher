@@ -1,8 +1,6 @@
-
-
 <div class="moreinfo">
 <hr/>
-<div style="text-align:center;">
+  <div style="text-align:center;">
         <form action="https://flash.duckduckgo.com/e.js" method="post">
                 <span class="clu">
                         Get updates on net privacy (rarely): &nbsp;
@@ -11,9 +9,6 @@
                         <input type="hidden" name="add5" value="1">
                 </span>
         </form>
-</div>
-
-<br>
-        <p class="copyright">&copy;<a href="https://duckduckgo.com">DuckDuckGo</a>. All Rights Reserved.</p>
+  </div>
 </div>
 
