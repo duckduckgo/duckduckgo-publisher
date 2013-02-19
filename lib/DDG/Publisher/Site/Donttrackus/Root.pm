@@ -9,7 +9,9 @@ with qw(
 sub path { '/' }
 
 sub pages {{
+
 	index => sub {},
+
 }}
 
 1;
