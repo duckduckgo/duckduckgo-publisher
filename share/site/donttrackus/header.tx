@@ -1,3 +1,6 @@
-<a href="https://duckduckgo.com/">
-	<img src="http://i.duck.co/tools/google9.jpg" id="titleimg">
-</a>
+  <div id="add_to_browser" class="add_to_browser"></div>
+  <a name="top"></a>
+  <div id="header">			
+		<img src="images/dont-track-us.png" alt="DONT TRACK US" id="title" />
+		<a href="http://fixtracking.com/"><span class="topmsg"><: l('Fix Tracking!') :></span></a>
+  </div>	

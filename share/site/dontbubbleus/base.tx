@@ -19,7 +19,7 @@
 	    <: include $maintemplate :>
 		<: include "share_footer.tx" :>
 	  </div>
-	  
+	  <: include "micro_foot.tx" :>
 	</div>
 	
     <: include "share_modal.tx" :>

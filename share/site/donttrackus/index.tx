@@ -1,19 +1,5 @@
 
-<div style="position:absolute;right:0;top:0;" class="daklang"></div>
-
-<div style="font-size:20px; text-align: center;" class="dakwak">
-
-<a href="https://duckduckgo.com/"><img src="http://i.duck.co/tools/google9.jpg" id="titleimg"></a>
-
-<!--
-<div class="frame-wrap" id="fig1" name="fig1">
-	<div class="frame"><span class="fig">Fig. 1</span>
-		
-	</div>
-</div>
--->
-
-<br><br><br><br><h4>When you search Google,</h4>
+<h4>When you search Google,</h4>
 <div class="frame-wrap" id="fig1" name="fig1">
 	<div class="frame"><span class="fig">Fig. 1</span>
 		<img src="http://i.duck.co/tools/google.png" />
@@ -26,7 +12,7 @@
 		<img src="http://i.duck.co/tools/google1.png" />
 	</div>
 </div>
-<h4>your search term is sent to that site,</h4>
+<h4>your search term is <a href="http://searchengineland.com/google-puts-a-price-on-privacy-98029">usually</a> sent to that site,</h4>
 
 <div class="frame-wrap" id="fig3" name="fig3">
 	<div class="frame"><span class="fig">Fig. 3</span>
@@ -34,7 +20,7 @@
 	</div>
 </div>
 
-<h4>along with your browser & computer info,</h4>
+<h4>along with your browser &amp; computer info,</h4>
 
 <div class="frame-wrap" id="fig4" name="fig4">
 	<div class="frame"><span class="fig">Fig. 4</span>
@@ -42,7 +28,7 @@
 	</div>
 </div>
 
-<h4>which can often <a href="https://panopticlick.eff.org/">uniquely identify you</a>.</h4>
+<h4>which can often <a href="https://panopticlick.eff.org/">uniquely</a> <a href="http://www.nytimes.com/2006/08/09/technology/09aol.html?_r=1">identify</a> you.</h4>
 
 <div class="frame-wrap" id="fig5" name="fig5">
 	<div class="frame"><span class="fig">Fig. 5</span>
@@ -89,7 +75,7 @@
 
 <h4>and potentially show up in unwanted places,</h4>
 
-<div style="margin-top:10px;"></div><h4>like <a href="http://online.wsj.com/article/SB10001424052748704648604575620750998072986.html">insurance</a>, credit & background checks.</h4>
+<div style="margin-top:10px;"></div><h4>like <a href="http://online.wsj.com/article/SB10001424052702304458604577488822667325882.html">higher prices</a> and <a href="http://online.wsj.com/article/SB10001424052748704648604575620750998072986.html">getting insurance</a>.</h4>
 
 <div class="frame-wrap" id="fig10" name="fig10">
 	<div class="frame"><span class="fig">Fig. 10</span>
@@ -100,7 +86,7 @@
 <h4>But there's more.</h4>
 
 <div class="frame-wrap" id="fig11" name="fig11">
-	<div class="frame"><span class="fig">Fig. 10</span>
+	<div class="frame"><span class="fig">Fig. 11</span>
 		<img src="http://i.duck.co/tools/google11.png" />
 	</div>
 </div>
@@ -108,12 +94,12 @@
 <h4>Remember your searches?</h4>
 
 <div class="frame-wrap" id="fig12" name="fig12">
-	<div class="frame"><span class="fig">Fig. 11</span>
+	<div class="frame"><span class="fig">Fig. 12</span>
 		<img src="http://i.duck.co/tools/google12.png" />
 	</div>
 </div>
 
-<h4>Google also saves them.</h4>
+<h4>Google also <a href="http://www.google.com/history">saves them</a>.</h4>
 
 <div class="frame-wrap" id="fig13" name="fig13">
 	<div class="frame"><span class="fig">Fig. 13</span>
@@ -121,12 +107,12 @@
 	</div>
 </div>
 
-<h4>Your saved searches can be legally requested,</h4>
+<h4>Your saved searches can be <a href="https://www.google.com/transparencyreport/userdatarequests/">legally requested</a>,</h4>
 
-<div style="margin-top:10px;"><h4>and then come back to bite you (<a href="http://www.readwriteweb.com/archives/googles_second_transparency_report_us_info_request.php">happens</a>).</h4>
+<h4>and then come back to bite you (<a href="http://www.readwriteweb.com/archives/googles_second_transparency_report_us_info_request.php">happens</a>).</h4>
 
 <div class="frame-wrap" id="fig14" name="fig14">
-	<div class="frame"><span class="fig">Fig. 13</span>
+	<div class="frame"><span class="fig">Fig. 14</span>
 		<img src="http://i.duck.co/tools/google14.jpg" />
 	</div>
 </div>
@@ -170,303 +156,204 @@
 <div style="margin-top:10px;"></div>
 <h4>Use <a href="https://duckduckgo.com/">DuckDuckGo</a> instead.
 <script type="text/JavaScript">
-nib(0,'','&nbsp;');
+nib(0,'','&nbsp;','.');
 </script>
 </h4>
 
-<div style="margin-top:10px;"></div><h4>Privacy is just <a href="https://duckduckgo.com/about.html">one</a> of <a href="https://duckduckgo.com/goodies.html">many</a> reasons why it's awesome.</h4>
+<div style="margin-top:10px;"></div><h4>Privacy is just <a href="https://duckduckgo.com/about.html">one</a> of <a href="https://duckduckgo.com/goodies/">many</a> reasons why it's awesome.</h4>
 
-<a href="https://duckduckgo.com/">
+
 <div class="frame-wrap" id="fig19" name="fig19">
 	<div class="frame"><span class="fig">Fig. 19</span>
-		<img src="http://i.duck.co/tools/google18.png" />
+		<a href="https://duckduckgo.com/">
+			<!--img src="http://i.duck.co/tools/google18.png" /-->
+			<img src="http://i.duck.co/tools/google9.jpg" alt="Google tracks you, we don't">
+		</a>
 	</div>
-</div></a>
+</div>
 
-<h4>Recently WSJ did <a href="http://online.wsj.com/public/page/what-they-know-digital-privacy.html">a series</a> on these issues.</h4>
-
-<div style="margin-top:10px;"></div><h4>Here are some highlights:</h4>
-<div style="margin-top:5px;"></div>
-<ul>
-<li><a href="http://online.wsj.com/article/SB10001424052748704648604575620750998072986.html">Insurers Test Data Profiles to Identify Risky Clients</a>
-<li><a href="http://online.wsj.com/article/SB10001424052748703977004575393173432219064.html">Sites Feed Personal Details To New Tracking Industry</a>
-<li><a href="http://online.wsj.com/article/SB10001424052702304410504575560243259416072.html">A Web Pioneer Profiles Users by Name</a>
-</ul>
 
 <div style="margin-top:45px;"></div>
-<h4>For maximum protection, use these apps too:</h4>
+<h4>Finally, friends don't let friends get tracked! 
+<div style="margin-top:10px;"></div>
+Do your part by helping five friends with <a href="http://fixtracking.com/">FixTracking.com</a>.</h4>
 
-<div style="margin-top:20px;"></div>
-<div class="tableframe">
-<table style="float: left;">
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="http://abine.com/"><img src="http://i.duck.co/tools/abine.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="http://abine.com/">Abine</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">Privacy suite.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu">
-<a class="undakwak" href="https://addons.mozilla.org/en-US/firefox/addon/249328/">Firefox</a> | 
-<a class="undakwak" href="https://chrome.google.com/extensions/detail/epanfjkfahimkgomnigadpkobaefekcd">Chrome</a>
-</span>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="http://adblockplus.org/en/"><img src="http://i.duck.co/tools/adblock.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="http://adblockplus.org/en/">Adblock Plus</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">Blocks ads.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu">
-<a class="undakwak" href="https://addons.mozilla.org/en-US/firefox/addon/1865/">Firefox</a> | 
-<a class="undakwak" href="https://chrome.google.com/extensions/detail/cfhdojbkjhnklbpkdaibdccddilifddb">Chrome</a>
-</span>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="http://code.google.com/p/adblockforchrome/"><img src="http://i.duck.co/tools/adblock2.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="http://code.google.com/p/adblockforchrome/">AdBlock</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">Blocks ads.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu">
-<a class="undakwak" href="http://safariadblock.com/">Safari</a> | 
-<a class="undakwak" href="https://chrome.google.com/extensions/detail/gighmmpiobklfepjocnamgkkbiglidom">Chrome</a> |
-<a class="undakwak" href="https://addons.opera.com/en/extensions/details/opera-adblock/?display=en">Opera</a>
-</span>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="http://adsweep.org/"><img src="http://i.duck.co/tools/adsweep.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="http://adsweep.org/">AdSweep</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">Blocks ads.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu">
-<a class="undakwak" href="https://addons.opera.com/addons/extensions/details/adsweep/">Opera</a> | 
-<a class="undakwak" href="https://chrome.google.com/extensions/detail/milkhonmecplandlkfbjplfbdenjlkmp">Chrome</a>
-</span>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="http://jmhobbs.github.com/beef-taco/"><img src="http://i.duck.co/tools/beeftaco.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="http://jmhobbs.github.com/beef-taco/">Beef Taco</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">No ad network tracking.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu"><a class="undakwak" href="https://addons.mozilla.org/en-US/firefox/addon/180650/">Firefox</a></span>
-</td>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="http://disconnect.me/"><img src="http://i.duck.co/tools/disconnect.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="http://disconnect.me/">Disconnect</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">No tracking from major sites.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu"><a class="undakwak" href="https://chrome.google.com/extensions/detail/jeoacafpbcihiomhlakheieifhpjdfeo">Chrome</a></span> |
-<span class="clu"><a class="undakwak" href="http://disconnect.me/disconnect.safariextz">Safari</a></span>
-</td>
-</tr>
-
-</table>
-
-<table style="float: left;margin-left:10px;">
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="http://www.ghostery.com/"><img src="http://i.duck.co/tools/ghostery.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="http://www.ghostery.com/">Ghostery</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">No third-party tracking.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu"><a class="undakwak" href="http://www.ghostery.com/download-ie">IE</a></span> |
-<span class="clu"><a class="undakwak" href="http://www.ghostery.com/safari/Ghostery.safariextz">Safari</a></span> |
-<span class="clu"><a class="undakwak" href="https://chrome.google.com/extensions/detail/mlomiejdfkolichcflejclcbmpeaniij">Chrome</a></span> | 
-<span class="clu"><a class="undakwak" href="https://addons.mozilla.org/en-US/firefox/downloads/latest/9609">Firefox</a></span> |
-<span class="clu"><a class="undakwak" href="https://addons.opera.com/en/extensions/details/ghostery/">Opera</a></span>
-</td>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="https://www.requestpolicy.com/"><img src="http://i.duck.co/tools/requestpolicy.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="https://www.requestpolicy.com/">RequestPolicy</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">Manage third-party tracking.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu"><a class="undakwak" href="https://addons.mozilla.org/en-US/firefox/addon/requestpolicy/">Firefox</a></span>
-</td>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="http://www.stardrifter.org/refcontrol/"><img src="http://i.duck.co/tools/refcontrol.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="http://www.stardrifter.org/refcontrol/">RefControl</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">Manage what gets sent to sites.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu"><a class="undakwak" href="https://addons.mozilla.org/en-US/firefox/addon/refcontrol/">Firefox</a></span>
-</td>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="http://netticat.ath.cx/BetterPrivacy/BetterPrivacy.htm"><img src="http://i.duck.co/tools/betterprivacy.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="http://netticat.ath.cx/BetterPrivacy/BetterPrivacy.htm">BetterPrivacy</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">No tracking from Flash.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu">
-<a class="undakwak" href="https://addons.mozilla.org/en-US/firefox/addon/6623/">Firefox</a> |
-<a class="undakwak" href="http://www.imasuper.com/66/technology/flash-cookies-the-silent-privacy-killer/">Others</a>
-</span>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="http://noscript.net/"><img src="http://i.duck.co/tools/noscript.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="http://noscript.net/">NoScript</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">Blocks JavaScript.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu">
-<a class="undakwak" href="https://addons.mozilla.org/en-US/firefox/addon/722/">Firefox</a>
-</span>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="http://javascript-blocker.toggleable.com/"><img src="http://i.duck.co/tools/javascript-blocker.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="http://javascript-blocker.toggleable.com/">JavaScript Blocker</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">Blocks JavaScript.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu">
-<a class="undakwak" href="http://javascript-blocker.toggleable.com/downloads-2">Safari</a>
-</span>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="https://chrome.google.com/webstore/detail/oiigbmnaadbkfbmpbfijlflahbdbdgdf/"><img src="http://i.duck.co/tools/scriptno.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="https://chrome.google.com/webstore/detail/oiigbmnaadbkfbmpbfijlflahbdbdgdf">ScriptNo</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">Blocks JavaScript.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu">
-<a class="undakwak" href="https://chrome.google.com/webstore/detail/oiigbmnaadbkfbmpbfijlflahbdbdgdf">Chrome</a>
-</span>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="http://optimalcycling.com/other-projects/notscripts/"><img src="http://i.duck.co/tools/notscripts.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="http://optimalcycling.com/other-projects/notscripts/">NotScripts</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">Blocks JavaScript.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu">
-<a class="undakwak" href="https://addons.opera.com/addons/extensions/details/notscripts/">Opera</a>
-</span>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="https://www.eff.org/https-everywhere/"><img src="http://i.duck.co/tools/https.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="https://www.eff.org/https-everywhere/">HTTPS Everywhere</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">No tracking between you and sites.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu">
-<a class="undakwak" href="http://www.eff.org/files/https-everywhere-latest.xpi">Firefox</a> |
-<a class="undakwak" href="https://www.eff.org/files/https-everywhere-chrome-devel.crx">Chrome</a>
-</span>
-</td>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<a href="http://torproject.org/"><img src="http://i.duck.co/tools/torbutton.png"></a>
-</td>
-<td class="ctd">
-<a class="undakwak" href="http://torproject.org/">Tor</a>
-<div style="margin-top:5px;"></div>
-<span class="clu">No tracking by being anonymous.</span>
-<div style="margin-top:5px;"></div>
-<span class="clu"><a href="https://www.torproject.org/projects/torbrowser.html.en">Bundle (includes Firefox)</a></span>
-</td>
-</tr>
-
-</table>
 </div>
-<div class="sharebuttons">
-<div style="margin-top:10px;"></div>
-<h4>Tell your friends</h4>
-<div style="margin-top:10px;"></div>
-	<a class="facebook" target="_facebook" href="https://facebook.com/sharer.php?u=http://donttrack.us/">Share on Facebook</a>
-	<a class="twitter" target="_twitter" href="https://twitter.com/?status=Google+tracks+you,+@duckduckgo+doesn't.+An+illustrated+guide:+http://donttrack.us/">Share on Twitter</a>
-	<a class="email" data-reveal-id="share-email">Email to Friends</a>
+<h4>When you search Google,</h4>
+<div class="frame-wrap" id="fig1" name="fig1">
+	<div class="frame"><span class="fig">Fig. 1</span>
+		<img src="http://i.duck.co/tools/google.png" />
+	</div>
+</div>
+<h4>and click on a link,</h4>
+
+<div class="frame-wrap" id="fig2" name="fig2">
+	<div class="frame"><span class="fig">Fig. 2</span>
+		<img src="http://i.duck.co/tools/google1.png" />
+	</div>
+</div>
+<h4>your search term is <a href="http://searchengineland.com/google-puts-a-price-on-privacy-98029">usually</a> sent to that site,</h4>
+
+<div class="frame-wrap" id="fig3" name="fig3">
+	<div class="frame"><span class="fig">Fig. 3</span>
+		<img src="http://i.duck.co/tools/google2.png" />
+	</div>
 </div>
 
+<h4>along with your browser & computer info,</h4>
 
-<div style="clear:both;padding-top:55px;padding-bottom:40px;">
-<h4>And here's some more info about us:</h4>
+<div class="frame-wrap" id="fig4" name="fig4">
+	<div class="frame"><span class="fig">Fig. 4</span>
+		<img src="http://i.duck.co/tools/google3.png" />
+	</div>
+</div>
+
+<h4>which can often <a href="https://panopticlick.eff.org/">uniquely</a> <a href="http://www.nytimes.com/2006/08/09/technology/09aol.html?_r=1">identify</a> you.</h4>
+
+<div class="frame-wrap" id="fig5" name="fig5">
+	<div class="frame"><span class="fig">Fig. 5</span>
+		<img src="http://i.duck.co/tools/google4.jpg" />
+	</div>
+</div>
+
+<h4>That's creepy, but who cares about some random site?</h4>
+
+<div style="margin-top:10px;"></div><h4>Those sites usually have third-party ads,</h4>
+
+<div class="frame-wrap" id="fig6" name="fig6">
+	<div class="frame"><span class="fig">Fig. 6</span>
+		<img src="http://i.duck.co/tools/google5.png" />
+	</div>
+</div>
+
+<h4>and those third-parties build profiles about you,</h4>
+
+<div class="frame-wrap" id="fig7" name="fig7">
+	<div class="frame"><span class="fig">Fig. 7</span>
+		<img src="http://i.duck.co/tools/google6.png" />
+	</div>
+</div>
+
+<h4>and that's why those ads follow you everywhere.</h4>
+
+<div class="frame-wrap" id="fig8" name="fig8">
+	<div class="frame"><span class="fig">Fig. 8</span>
+		<img src="http://i.duck.co/tools/google7.png" />
+	</div>
+</div>
+
+<h4>That's creepy too, but who cares about some herpes ads?</h4>
+
+<div style="margin-top:10px;"></div><h4>Your profile can also be sold,</h4>
+
+
+<div class="frame-wrap" id="fig9" name="fig9">
+	<div class="frame"><span class="fig">Fig. 9</span>
+		<img src="http://i.duck.co/tools/google26.jpg" />
+	</div>
+</div>
+
+<h4>and potentially show up in unwanted places,</h4>
+
+<div style="margin-top:10px;"></div><h4>like <a href="http://online.wsj.com/article/SB10001424052702304458604577488822667325882.html">higher prices</a> and <a href="http://online.wsj.com/article/SB10001424052748704648604575620750998072986.html">getting insurance</a>.</h4>
+
+<div class="frame-wrap" id="fig10" name="fig10">
+	<div class="frame"><span class="fig">Fig. 10</span>
+		<img src="http://i.duck.co/tools/google10.png" />
+	</div>
+</div>
+
+<h4>But there's more.</h4>
+
+<div class="frame-wrap" id="fig11" name="fig11">
+	<div class="frame"><span class="fig">Fig. 11</span>
+		<img src="http://i.duck.co/tools/google11.png" />
+	</div>
+</div>
+
+<h4>Remember your searches?</h4>
+
+<div class="frame-wrap" id="fig12" name="fig12">
+	<div class="frame"><span class="fig">Fig. 12</span>
+		<img src="http://i.duck.co/tools/google12.png" />
+	</div>
+</div>
+
+<h4>Google also <a href="http://www.google.com/history">saves them</a>.</h4>
+
+<div class="frame-wrap" id="fig13" name="fig13">
+	<div class="frame"><span class="fig">Fig. 13</span>
+		<img src="http://i.duck.co/tools/google13.png" />
+	</div>
+</div>
+
+<h4>Your saved searches can be <a href="https://www.google.com/transparencyreport/userdatarequests/">legally requested</a>,</h4>
+
+<h4>and then come back to bite you (<a href="http://www.readwriteweb.com/archives/googles_second_transparency_report_us_info_request.php">happens</a>).</h4>
+
+<div class="frame-wrap" id="fig14" name="fig14">
+	<div class="frame"><span class="fig">Fig. 14</span>
+		<img src="http://i.duck.co/tools/google14.jpg" />
+	</div>
+</div>
+
+<h4>Or a bad Google employee could go snooping (<a href="http://gawker.com/5637234/">happens</a>).</h4>
+
+<div class="frame-wrap" id="fig15" name="fig15">
+	<div class="frame"><span class="fig">Fig. 15</span>
+		<img src="http://i.duck.co/tools/google28.jpg" />
+	</div>
+</div>
+
+<h4>Or Google could get hacked (<a href="http://www.wired.com/threatlevel/2010/01/operation-aurora/">happens</a>).</h4>
+
+<div class="frame-wrap" id="fig16" name="fig16">
+	<div class="frame"><span class="fig">Fig. 16</span>
+		<img src="http://i.duck.co/tools/google22.jpg" />
+	</div>
+</div>
+
+<h4>That's why we don't send your searches to other sites.</h4>
+
+<div class="frame-wrap" id="fig17" name="fig17">
+	<div class="frame"><span class="fig">Fig. 17</span>
+		<img src="http://i.duck.co/tools/google23.jpg" />
+	</div>
+</div>
+
+<h4>Or store any personal information at all.</h4>
+
+<div style="margin-top:10px;"></div><h4>That's <a href="https://duckduckgo.com/privacy.html">our privacy policy</a> in a nutshell.</h4>
+
+<div class="frame-wrap" id="fig18" name="fig18">
+	<div class="frame"><span class="fig">Fig. 18</span>
+		<img src="http://i.duck.co/tools/google27.jpg" />
+	</div>
+</div>
+
+<h4>So don't get tracked when searching.</h4>
 
 <div style="margin-top:10px;"></div>
-<a href="https://duckduckgo.com/">Home</a> |
-<a href="https://duckduckgo.com/about.html">About</a> |
-<a href="https://duckduckgo.com/privacy.html">Privacy</a> |
-<a href="https://duckduckgo.com/faq.html">FAQ</a> |
-<a href="https://duckduckgo.com/feedback.html">Feedback</a>
+<h4>Use <a href="https://duckduckgo.com/">DuckDuckGo</a> instead.
 <script type="text/JavaScript">
-nib(0,'',' | ');
+nib(0,'','&nbsp;','.');
 </script>
+</h4>
 
-<div style="margin-top: 25px;"></div>
-<a href="https://duckduckgo.com/"><strong>Click here</h4></strong> to try now.</a>
+<div style="margin-top:10px;"></div><h4>Privacy is just <a href="https://duckduckgo.com/about.html">one</a> of <a href="https://duckduckgo.com/goodies/">many</a> reasons why it's awesome.</h4>
 
+
+<div class="frame-wrap" id="fig19" name="fig19">
+	<div class="frame"><span class="fig">Fig. 19</span>
+		<a href="https://duckduckgo.com/">
+			<!--img src="http://i.duck.co/tools/google18.png" /-->
+			<img src="http://i.duck.co/tools/google9.jpg" alt="Google tracks you, we don't">
+		</a>
+	</div>
 </div>
 
-</div>
+
+<div style="margin-top:45px;"></div>
+<h4>Finally, friends don't let friends get tracked! 
+<div style="margin-top:10px;"></div>
+Do your part by helping five friends with <a href="http://fixtracking.com/">FixTracking.com</a>.</h4>

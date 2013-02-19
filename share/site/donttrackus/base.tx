@@ -12,24 +12,16 @@
   <body id="pg-<: $f.filebase :>">
   
 	<div id="wrapper">
-	  <div id="add_to_browser" class="add_to_browser"></div>
-	  <a name="top"></a>
-		<div id="header">
-			<span class="topmsg"><: l('Incognito Mode Also Tracks You') :></span>
-			<img src="images/dont-track-us.png" alt="DONT TRACK US" id="title" />
-		</div>	  
-	  <div class="content-wrap">
-	    <div style="position:absolute;right:0;top:0;"></div>
 	    <: include "header.tx" :>
+	  <div class="content-wrap">
 	    <: include $maintemplate :>
 		<: include "share_footer.tx" :>
 	  </div>
-	  
-	</div>
-	
-    <: include "share_modal.tx" :>
-	<script src="js/plugins.js" type="text/javascript"></script>
-	<script src="js/script.js" type="text/javascript"></script>
+	  <: include "micro_foot.tx" :>
+	</div>	
+    
+	<script src="common/js/plugins.js" type="text/javascript"></script>
+	<script src="common/js/script.js" type="text/javascript"></script>	
 
   </body>
 </html>
