@@ -1,20 +1,22 @@
 
 <div style="margin-top:45px;"></div>
-<h4>Finally, friends don't let friends get tracked! 
-<div style="margin-top:10px;"></div>
-Do your part by helping five friends with <a href="http://fixtracking.com/">FixTracking.com</a>.</h4>
+<h4>
+    <: l("Finally, friends don't let friends get tracked!") :>
+    <div style="margin-top:10px;"></div>
+    <: l('Do your part by helping five friends with %s.',r('<a href="http://fixtracking.com/">FixTracking.com</a>')) :>
+</h4>
 
 <div class="moreinfo">
-<hr/>
-  <div style="text-align:center;">
+    <hr/>
+    <div style="text-align:center;">
         <form action="https://flash.duckduckgo.com/e.js" method="post">
-                <span class="clu">
-                        Get updates on net privacy (rarely): &nbsp;
-                        <input type="text" size="25" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
-                        <input type="submit" class="button" value="Go">
-                        <input type="hidden" name="add5" value="1">
-                </span>
+            <span class="clu">
+                <: l('Get updates on net privacy (rarely):') :>&nbsp;
+                <input type="text" size="25" name="from" value="email address" style="color:#888" onclick="if (this.value=='email address') {this.value='';this.style.color='#000000';}">
+                <input type="submit" class="button" value="<: l('Go') :>">
+                <input type="hidden" name="add5" value="1">
+            </span>
         </form>
-  </div>
+    </div>
 </div>
 

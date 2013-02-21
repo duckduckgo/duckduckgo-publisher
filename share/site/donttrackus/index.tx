@@ -1,350 +1,175 @@
 
-<h4>When you search Google,</h4>
+<h4><: l('When you search Google,') :></h4>
+
 <div class="frame-wrap" id="fig1" name="fig1">
-	<div class="frame"><span class="fig">Fig. 1</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',1) :></span>
 		<img src="http://i.duck.co/tools/google.png" />
 	</div>
 </div>
-<h4>and click on a link,</h4>
+
+<h4><: l('and click on a link,') :></h4>
 
 <div class="frame-wrap" id="fig2" name="fig2">
-	<div class="frame"><span class="fig">Fig. 2</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',2) :></span>
 		<img src="http://i.duck.co/tools/google1.png" />
 	</div>
 </div>
-<h4>your search term is <a href="http://searchengineland.com/google-puts-a-price-on-privacy-98029">usually</a> sent to that site,</h4>
+
+<h4><: lp('yoursearchterm','your search term is %s sent to that site,',r('<a href="http://searchengineland.com/google-puts-a-price-on-privacy-98029">') ~ lp('yoursearchterm','usually') ~ r('</a>')) :></h4>
 
 <div class="frame-wrap" id="fig3" name="fig3">
-	<div class="frame"><span class="fig">Fig. 3</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',3) :></span>
 		<img src="http://i.duck.co/tools/google2.png" />
 	</div>
 </div>
 
-<h4>along with your browser &amp; computer info,</h4>
+<h4><: l('along with your browser & computer info,') :></h4>
 
 <div class="frame-wrap" id="fig4" name="fig4">
-	<div class="frame"><span class="fig">Fig. 4</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',4) :></span>
 		<img src="http://i.duck.co/tools/google3.png" />
 	</div>
 </div>
 
-<h4>which can often <a href="https://panopticlick.eff.org/">uniquely</a> <a href="http://www.nytimes.com/2006/08/09/technology/09aol.html?_r=1">identify</a> you.</h4>
+<h4><: lp('whichcanoften','which can often %s %s you.',r('<a href="https://panopticlick.eff.org/">') ~ lp('whichcanoften','uniquely') ~ r('</a>'),r('<a href="http://www.nytimes.com/2006/08/09/technology/09aol.html?_r=1">') ~ lp('whichcanoften','identify') ~ r('</a>')) :>
+</h4>
 
 <div class="frame-wrap" id="fig5" name="fig5">
-	<div class="frame"><span class="fig">Fig. 5</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',5) :></span>
 		<img src="http://i.duck.co/tools/google4.jpg" />
 	</div>
 </div>
 
-<h4>That's creepy, but who cares about some random site?</h4>
+<h4><: l("That's creepy, but who cares about some random site?") :></h4>
 
-<div style="margin-top:10px;"></div><h4>Those sites usually have third-party ads,</h4>
+<div style="margin-top:10px;"></div><h4><: l('Those sites usually have third-party ads,') :></h4>
 
 <div class="frame-wrap" id="fig6" name="fig6">
-	<div class="frame"><span class="fig">Fig. 6</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',6) :></span>
 		<img src="http://i.duck.co/tools/google5.png" />
 	</div>
 </div>
 
-<h4>and those third-parties build profiles about you,</h4>
+<h4><: l('and those third-parties build profiles about you,') :></h4>
 
 <div class="frame-wrap" id="fig7" name="fig7">
-	<div class="frame"><span class="fig">Fig. 7</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',7) :></span>
 		<img src="http://i.duck.co/tools/google6.png" />
 	</div>
 </div>
 
-<h4>and that's why those ads follow you everywhere.</h4>
+<h4><: l("and that's why those ads follow you everywhere.") :></h4>
 
 <div class="frame-wrap" id="fig8" name="fig8">
-	<div class="frame"><span class="fig">Fig. 8</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',8) :></span>
 		<img src="http://i.duck.co/tools/google7.png" />
 	</div>
 </div>
 
-<h4>That's creepy too, but who cares about some herpes ads?</h4>
+<h4><: l("That's creepy too, but who cares about some herpes ads?") :></h4>
 
-<div style="margin-top:10px;"></div><h4>Your profile can also be sold,</h4>
+<div style="margin-top:10px;"></div><h4><: l('Your profile can also be sold,') :></h4>
 
 
 <div class="frame-wrap" id="fig9" name="fig9">
-	<div class="frame"><span class="fig">Fig. 9</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',9) :></span>
 		<img src="http://i.duck.co/tools/google26.jpg" />
 	</div>
 </div>
 
-<h4>and potentially show up in unwanted places,</h4>
+<h4><: l('and potentially show up in unwanted places,') :></h4>
 
-<div style="margin-top:10px;"></div><h4>like <a href="http://online.wsj.com/article/SB10001424052702304458604577488822667325882.html">higher prices</a> and <a href="http://online.wsj.com/article/SB10001424052748704648604575620750998072986.html">getting insurance</a>.</h4>
+<div style="margin-top:10px;"></div><h4>
+<: lp('like','like %s and %s.',r('<a href="http://online.wsj.com/article/SB10001424052702304458604577488822667325882.html">') ~ lp('like','higher prices') ~ r('</a>'), r('<a href="http://online.wsj.com/article/SB10001424052748704648604575620750998072986.html">') ~ lp('like','getting insurance') ~ r('</a>')) :>
+</h4>
 
 <div class="frame-wrap" id="fig10" name="fig10">
-	<div class="frame"><span class="fig">Fig. 10</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',10) :></span>
 		<img src="http://i.duck.co/tools/google10.png" />
 	</div>
 </div>
 
-<h4>But there's more.</h4>
+<h4><: l("But there's more.") :></h4>
 
 <div class="frame-wrap" id="fig11" name="fig11">
-	<div class="frame"><span class="fig">Fig. 11</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',11) :></span>
 		<img src="http://i.duck.co/tools/google11.png" />
 	</div>
 </div>
 
-<h4>Remember your searches?</h4>
+<h4><: l('Remember your searches?') :></h4>
 
 <div class="frame-wrap" id="fig12" name="fig12">
-	<div class="frame"><span class="fig">Fig. 12</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',12) :></span>
 		<img src="http://i.duck.co/tools/google12.png" />
 	</div>
 </div>
 
-<h4>Google also <a href="http://www.google.com/history">saves them</a>.</h4>
+<h4><: lp('google','Google also %s.',r('<a href="http://www.google.com/history">') ~ lp('google','saves them') ~ r('</a>')) :></h4>
 
 <div class="frame-wrap" id="fig13" name="fig13">
-	<div class="frame"><span class="fig">Fig. 13</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',13) :></span>
 		<img src="http://i.duck.co/tools/google13.png" />
 	</div>
 </div>
 
-<h4>Your saved searches can be <a href="https://www.google.com/transparencyreport/userdatarequests/">legally requested</a>,</h4>
+<h4><: lp('yoursaved','Your saved searches can be %s,',r('<a href="https://www.google.com/transparencyreport/userdatarequests/">') ~ lp('yoursaved','legally requested') ~ r('</a>')) :></h4>
 
-<h4>and then come back to bite you (<a href="http://www.readwriteweb.com/archives/googles_second_transparency_report_us_info_request.php">happens</a>).</h4>
+<h4><: l('and then come back to bite you (%s).',r('<a href="http://www.readwriteweb.com/archives/googles_second_transparency_report_us_info_request.php">') ~ l('happens') ~ r('</a>')) :></h4>
 
 <div class="frame-wrap" id="fig14" name="fig14">
-	<div class="frame"><span class="fig">Fig. 14</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',14) :></span>
 		<img src="http://i.duck.co/tools/google14.jpg" />
 	</div>
 </div>
 
-<h4>Or a bad Google employee could go snooping (<a href="http://gawker.com/5637234/">happens</a>).</h4>
+<h4><: l('Or a bad Google employee could go snooping (%s)',r('<a href="http://gawker.com/5637234/">') ~ l('happens') ~ r('</a>')) :></h4>
 
 <div class="frame-wrap" id="fig15" name="fig15">
-	<div class="frame"><span class="fig">Fig. 15</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',15) :></span>
 		<img src="http://i.duck.co/tools/google28.jpg" />
 	</div>
 </div>
 
-<h4>Or Google could get hacked (<a href="http://www.wired.com/threatlevel/2010/01/operation-aurora/">happens</a>).</h4>
+<h4><: l('Or Google could get hacked (%s).',r('<a href="http://www.wired.com/threatlevel/2010/01/operation-aurora/">') ~ l('happens') ~ r('</a>')) :></h4>
 
 <div class="frame-wrap" id="fig16" name="fig16">
-	<div class="frame"><span class="fig">Fig. 16</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',16) :></span>
 		<img src="http://i.duck.co/tools/google22.jpg" />
 	</div>
 </div>
 
-<h4>That's why we don't send your searches to other sites.</h4>
+<h4><: l("That's why we don't send your searches to other sites.") :></h4>
 
 <div class="frame-wrap" id="fig17" name="fig17">
-	<div class="frame"><span class="fig">Fig. 17</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',17) :></span>
 		<img src="http://i.duck.co/tools/google23.jpg" />
 	</div>
 </div>
 
-<h4>Or store any personal information at all.</h4>
+<h4><: l('Or store any personal information at all.') :></h4>
 
-<div style="margin-top:10px;"></div><h4>That's <a href="https://duckduckgo.com/privacy.html">our privacy policy</a> in a nutshell.</h4>
+<div style="margin-top:10px;"></div><h4><: lp('policynutshell',"That's %s in a nutshell.",r('<a href="https://duckduckgo.com/privacy.html">') ~ lp('policynutshell','our privacy policy') ~ r('</a>')) :></h4>
 
 <div class="frame-wrap" id="fig18" name="fig18">
-	<div class="frame"><span class="fig">Fig. 18</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',18) :></span>
 		<img src="http://i.duck.co/tools/google27.jpg" />
 	</div>
 </div>
 
-<h4>So don't get tracked when searching.</h4>
+<h4><: l("So don't get tracked when searching.") :></h4>
 
 <div style="margin-top:10px;"></div>
-<h4>Use <a href="https://duckduckgo.com/">DuckDuckGo</a> instead.
-<script type="text/JavaScript">
-nib(0,'','&nbsp;','.');
-</script>
+<h4><: l('Use %s instead.',r('<a href="https://duckduckgo.com/">DuckDuckGo</a>')) :>
+	<script type="text/JavaScript">
+	nib(0,'','&nbsp;','.');
+	</script>
 </h4>
-
-<div style="margin-top:10px;"></div><h4>Privacy is just <a href="https://duckduckgo.com/about.html">one</a> of <a href="https://duckduckgo.com/goodies/">many</a> reasons why it's awesome.</h4>
-
+<div style="margin-top:10px;"></div>
+<h4><: lp('privacyis',"Privacy is just %s of %s reasons why it's awesome.",r('<a href="https://duckduckgo.com/about.html">') ~ lp('privacyis','one') ~ r('</a>'),r('<a href="https://duckduckgo.com/goodies/">') ~ lp('privacyis','many') ~ r('</a>')) :></h4>
 
 <div class="frame-wrap" id="fig19" name="fig19">
-	<div class="frame"><span class="fig">Fig. 19</span>
-		<a href="https://duckduckgo.com/">
-			<!--img src="http://i.duck.co/tools/google18.png" /-->
-			<img src="http://i.duck.co/tools/google9.jpg" alt="Google tracks you, we don't">
-		</a>
-	</div>
-</div>
-
-
-<div style="margin-top:45px;"></div>
-<h4>Finally, friends don't let friends get tracked! 
-<div style="margin-top:10px;"></div>
-Do your part by helping five friends with <a href="http://fixtracking.com/">FixTracking.com</a>.</h4>
-
-</div>
-<h4>When you search Google,</h4>
-<div class="frame-wrap" id="fig1" name="fig1">
-	<div class="frame"><span class="fig">Fig. 1</span>
-		<img src="http://i.duck.co/tools/google.png" />
-	</div>
-</div>
-<h4>and click on a link,</h4>
-
-<div class="frame-wrap" id="fig2" name="fig2">
-	<div class="frame"><span class="fig">Fig. 2</span>
-		<img src="http://i.duck.co/tools/google1.png" />
-	</div>
-</div>
-<h4>your search term is <a href="http://searchengineland.com/google-puts-a-price-on-privacy-98029">usually</a> sent to that site,</h4>
-
-<div class="frame-wrap" id="fig3" name="fig3">
-	<div class="frame"><span class="fig">Fig. 3</span>
-		<img src="http://i.duck.co/tools/google2.png" />
-	</div>
-</div>
-
-<h4>along with your browser & computer info,</h4>
-
-<div class="frame-wrap" id="fig4" name="fig4">
-	<div class="frame"><span class="fig">Fig. 4</span>
-		<img src="http://i.duck.co/tools/google3.png" />
-	</div>
-</div>
-
-<h4>which can often <a href="https://panopticlick.eff.org/">uniquely</a> <a href="http://www.nytimes.com/2006/08/09/technology/09aol.html?_r=1">identify</a> you.</h4>
-
-<div class="frame-wrap" id="fig5" name="fig5">
-	<div class="frame"><span class="fig">Fig. 5</span>
-		<img src="http://i.duck.co/tools/google4.jpg" />
-	</div>
-</div>
-
-<h4>That's creepy, but who cares about some random site?</h4>
-
-<div style="margin-top:10px;"></div><h4>Those sites usually have third-party ads,</h4>
-
-<div class="frame-wrap" id="fig6" name="fig6">
-	<div class="frame"><span class="fig">Fig. 6</span>
-		<img src="http://i.duck.co/tools/google5.png" />
-	</div>
-</div>
-
-<h4>and those third-parties build profiles about you,</h4>
-
-<div class="frame-wrap" id="fig7" name="fig7">
-	<div class="frame"><span class="fig">Fig. 7</span>
-		<img src="http://i.duck.co/tools/google6.png" />
-	</div>
-</div>
-
-<h4>and that's why those ads follow you everywhere.</h4>
-
-<div class="frame-wrap" id="fig8" name="fig8">
-	<div class="frame"><span class="fig">Fig. 8</span>
-		<img src="http://i.duck.co/tools/google7.png" />
-	</div>
-</div>
-
-<h4>That's creepy too, but who cares about some herpes ads?</h4>
-
-<div style="margin-top:10px;"></div><h4>Your profile can also be sold,</h4>
-
-
-<div class="frame-wrap" id="fig9" name="fig9">
-	<div class="frame"><span class="fig">Fig. 9</span>
-		<img src="http://i.duck.co/tools/google26.jpg" />
-	</div>
-</div>
-
-<h4>and potentially show up in unwanted places,</h4>
-
-<div style="margin-top:10px;"></div><h4>like <a href="http://online.wsj.com/article/SB10001424052702304458604577488822667325882.html">higher prices</a> and <a href="http://online.wsj.com/article/SB10001424052748704648604575620750998072986.html">getting insurance</a>.</h4>
-
-<div class="frame-wrap" id="fig10" name="fig10">
-	<div class="frame"><span class="fig">Fig. 10</span>
-		<img src="http://i.duck.co/tools/google10.png" />
-	</div>
-</div>
-
-<h4>But there's more.</h4>
-
-<div class="frame-wrap" id="fig11" name="fig11">
-	<div class="frame"><span class="fig">Fig. 11</span>
-		<img src="http://i.duck.co/tools/google11.png" />
-	</div>
-</div>
-
-<h4>Remember your searches?</h4>
-
-<div class="frame-wrap" id="fig12" name="fig12">
-	<div class="frame"><span class="fig">Fig. 12</span>
-		<img src="http://i.duck.co/tools/google12.png" />
-	</div>
-</div>
-
-<h4>Google also <a href="http://www.google.com/history">saves them</a>.</h4>
-
-<div class="frame-wrap" id="fig13" name="fig13">
-	<div class="frame"><span class="fig">Fig. 13</span>
-		<img src="http://i.duck.co/tools/google13.png" />
-	</div>
-</div>
-
-<h4>Your saved searches can be <a href="https://www.google.com/transparencyreport/userdatarequests/">legally requested</a>,</h4>
-
-<h4>and then come back to bite you (<a href="http://www.readwriteweb.com/archives/googles_second_transparency_report_us_info_request.php">happens</a>).</h4>
-
-<div class="frame-wrap" id="fig14" name="fig14">
-	<div class="frame"><span class="fig">Fig. 14</span>
-		<img src="http://i.duck.co/tools/google14.jpg" />
-	</div>
-</div>
-
-<h4>Or a bad Google employee could go snooping (<a href="http://gawker.com/5637234/">happens</a>).</h4>
-
-<div class="frame-wrap" id="fig15" name="fig15">
-	<div class="frame"><span class="fig">Fig. 15</span>
-		<img src="http://i.duck.co/tools/google28.jpg" />
-	</div>
-</div>
-
-<h4>Or Google could get hacked (<a href="http://www.wired.com/threatlevel/2010/01/operation-aurora/">happens</a>).</h4>
-
-<div class="frame-wrap" id="fig16" name="fig16">
-	<div class="frame"><span class="fig">Fig. 16</span>
-		<img src="http://i.duck.co/tools/google22.jpg" />
-	</div>
-</div>
-
-<h4>That's why we don't send your searches to other sites.</h4>
-
-<div class="frame-wrap" id="fig17" name="fig17">
-	<div class="frame"><span class="fig">Fig. 17</span>
-		<img src="http://i.duck.co/tools/google23.jpg" />
-	</div>
-</div>
-
-<h4>Or store any personal information at all.</h4>
-
-<div style="margin-top:10px;"></div><h4>That's <a href="https://duckduckgo.com/privacy.html">our privacy policy</a> in a nutshell.</h4>
-
-<div class="frame-wrap" id="fig18" name="fig18">
-	<div class="frame"><span class="fig">Fig. 18</span>
-		<img src="http://i.duck.co/tools/google27.jpg" />
-	</div>
-</div>
-
-<h4>So don't get tracked when searching.</h4>
-
-<div style="margin-top:10px;"></div>
-<h4>Use <a href="https://duckduckgo.com/">DuckDuckGo</a> instead.
-<script type="text/JavaScript">
-nib(0,'','&nbsp;','.');
-</script>
-</h4>
-
-<div style="margin-top:10px;"></div><h4>Privacy is just <a href="https://duckduckgo.com/about.html">one</a> of <a href="https://duckduckgo.com/goodies/">many</a> reasons why it's awesome.</h4>
-
-
-<div class="frame-wrap" id="fig19" name="fig19">
-	<div class="frame"><span class="fig">Fig. 19</span>
+	<div class="frame"><span class="fig"><: l('Fig. %d',19) :></span>
 		<a href="https://duckduckgo.com/">
 			<!--img src="http://i.duck.co/tools/google18.png" /-->
 			<img src="http://i.duck.co/tools/google9.jpg" alt="Google tracks you, we don't">
