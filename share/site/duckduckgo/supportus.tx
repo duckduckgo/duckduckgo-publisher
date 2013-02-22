@@ -3,8 +3,7 @@
 <: lp('webelieve','We believe in %s and %s at the same time.', r('<a href="/goodies">') ~ lp('webelieve','better search') ~ r('</a>'), r('<a href="/privacy/">') ~ lp('webelieve','real privacy') ~ r('</a>') ) :>
 
 <div style="margin-top:15px;"></div>
-<: l('If you do too, the best help is to set up your friends and family 
-with DuckDuckGo for a week:') :>
+<: l('If you do too, the best help is to set up your friends and family with DuckDuckGo for a week:') :>
 
 <div style="margin-top:15px;"></div>
 <script type="text/javascript">nib(0,'','','',0,0)</script>
