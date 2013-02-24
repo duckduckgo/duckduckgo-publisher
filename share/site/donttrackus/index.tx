@@ -172,7 +172,7 @@
 	<div class="frame"><span class="fig"><: l('Fig. %d',19) :></span>
 		<a href="https://duckduckgo.com/">
 			<!--img src="http://i.duck.co/tools/google18.png" /-->
-			<img src="http://i.duck.co/tools/google9.jpg" alt="Google tracks you, we don't">
+			<img src="http://i.duck.co/tools/google9.jpg" alt="<: l("Google tracks you. We don't.") :>">
 		</a>
 	</div>
 </div>
