@@ -1,8 +1,8 @@
 <a name="top"></a>
 
 <div id="header">
-	<a href="http://fixtracking.com/"><span class="topmsg">Fix Tracking!</span></a>
-	<img src="images/ddg-logo.png" alt="DuckDuckGo ... a search engine!" id="pg-logo" />
-	<h1>What is <em>Do Not Track?</em></h1>
-	<h3>An illustrated guide by <em><a href="https://duckduckgo.com/about/">DuckDuckGo</a></em>.</h3>
+	<a href="http://fixtracking.com/"><span class="topmsg"><: l('Fix Tracking!') :></span></a>
+	<img src="images/ddg-logo.png" alt="<: l('DuckDuckGo ... a search engine!') :>" id="pg-logo" />
+	<h1><: l('What is %s?',r('<em>') ~ l('Do Not Track') ~ r('</em>')) :></h1>
+	<h3><: l('An illustrated guide by %s.',r('<em><a href="https://duckduckgo.com/about/">DuckDuckGo</a></em>')) :></h3>
 </div>

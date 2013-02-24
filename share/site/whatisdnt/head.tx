@@ -1,4 +1,4 @@
-   <title>What is Do Not Track (DNT)?</title>   
+   <title><: l('What is Do Not Track (DNT)?') :></title>   
    <link rel="stylesheet" type="text/css" href="common/css/micro.css?1" /> 
    <link rel="stylesheet" type="text/css" href="css/dnt.css?1" /> 
    <meta name="viewport" content="width=100%; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
