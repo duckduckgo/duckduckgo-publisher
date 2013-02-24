@@ -2,7 +2,7 @@
 
 <div class="frame-wrap" id="fig1" name="fig1">
 	<div class="frame"><span class="fig"><: l('Fig. %d', 1) :></span>
-		<a href="http://professional.wsj.com/article/US_EP_PUB:SB10001424127887324296604578177683662222550.html?lpe=WSJ_PRO&mg=com-wsj#articleTabs%3Darticle" target="_wsj"><img src="images/do-not-track-button.jpg" alt="<: l('DO NOT TRACK') :>" /></a>
+		<a href="http://professional.wsj.com/article/US_EP_PUB:SB10001424127887324296604578177683662222550.html?lpe=WSJ_PRO&mg=com-wsj#articleTabs%3Darticle" target="_wsj"><img src="images/do-not-track-button.jpg" alt="<: l('Do Not Track') :>" /></a>
 	</div>
 </div>
 
