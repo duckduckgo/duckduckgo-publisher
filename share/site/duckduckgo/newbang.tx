@@ -1,4 +1,4 @@
-<div id="zero_click_header"><: lp('newbang','New %s','!bang') :></div>
+<div id="special_page_header"><: lp('newbang','New %s','!bang') :></div>
 
 <script type="text/JavaScript">
 var i;
