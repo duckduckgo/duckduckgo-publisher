@@ -12,7 +12,7 @@ case 0:
   d.y.bang_subcat.style.visibility = 'hidden';
   break;
 case 1:
-  d.y.bang_subcat.options[0] =new Option('<: js(l('Choose Subcategory')) :>','')
+  d.y.bang_subcat.options[0] =new Option('<: js(l('Choose subcategory')) :>','')
   d.y.bang_subcat.options[1] =new Option('Blogs','Blogs')
   d.y.bang_subcat.options[2] =new Option('Blogs (intl)','Blogs (intl)')
   d.y.bang_subcat.options[3] =new Option('Chakra','Chakra')
@@ -77,7 +77,7 @@ case 1:
   d.y.bang_subcat.options[62] =new Option('Sysadmin (Ubuntu)','Sysadmin (Ubuntu)')
 break;
 case 2:
-  d.y.bang_subcat.options[0] =new Option('<: js(l('Choose Subcategory')) :>','')
+  d.y.bang_subcat.options[0] =new Option('<: js(l('Choose subcategory')) :>','')
   d.y.bang_subcat.options[1] =new Option('Big box/department','Big box/department')
   d.y.bang_subcat.options[2] =new Option('Online','Online')
   d.y.bang_subcat.options[3] =new Option('Online (deals)','Online (deals)')
@@ -88,7 +88,7 @@ case 2:
   d.y.bang_subcat.options[8] =new Option('Tech (domains)','Tech (domains)')
 break;
 case 3:
-  d.y.bang_subcat.options[0] =new Option('<: js(l('Choose Subcategory')) :>','')
+  d.y.bang_subcat.options[0] =new Option('<: js(l('Choose subcategory')) :>','')
   d.y.bang_subcat.options[1] =new Option('Academic','Academic')
   d.y.bang_subcat.options[2] =new Option('Academic (math/cs)','Academic (math/cs)')
   d.y.bang_subcat.options[3] =new Option('Food','Food')
@@ -109,7 +109,7 @@ case 3:
   d.y.bang_subcat.options[18] =new Option('Travel','Travel')
 break;
 case 4:
-  d.y.bang_subcat.options[0] =new Option('<: js(l('Choose Subcategory')) :>','')
+  d.y.bang_subcat.options[0] =new Option('<: js(l('Choose subcategory')) :>','')
   d.y.bang_subcat.options[1] =new Option('Google','Google')
   d.y.bang_subcat.options[2] =new Option('Jobs','Jobs')
   d.y.bang_subcat.options[3] =new Option('Maps','Maps')
@@ -128,7 +128,7 @@ case 4:
   d.y.bang_subcat.options[16] =new Option('Tracking','Tracking')
 break;
 case 5:
-  d.y.bang_subcat.options[0] =new Option('<: js(l('Choose Subcategory')) :>','')
+  d.y.bang_subcat.options[0] =new Option('<: js(l('Choose subcategory')) :>','')
   d.y.bang_subcat.options[1] =new Option('Aggregators','Aggregators')
   d.y.bang_subcat.options[2] =new Option('Broadcast','Broadcast')
   d.y.bang_subcat.options[3] =new Option('Business','Business')
@@ -142,7 +142,7 @@ case 5:
   d.y.bang_subcat.options[11] =new Option('Weather','Weather')
 break;
 case 6:
-  d.y.bang_subcat.options[0] =new Option('<: js(l('Choose Subcategory')) :>','')
+  d.y.bang_subcat.options[0] =new Option('<: js(l('Choose subcategory')) :>','')
   d.y.bang_subcat.options[1] =new Option('Books','Books')
   d.y.bang_subcat.options[2] =new Option('Docs','Docs')
   d.y.bang_subcat.options[3] =new Option('General','General')
@@ -153,7 +153,7 @@ case 6:
   d.y.bang_subcat.options[8] =new Option('Video','Video')
 break;
 case 7:
-  d.y.bang_subcat.options[0] =new Option('<: js(l('Choose Subcategory')) :>','')
+  d.y.bang_subcat.options[0] =new Option('<: js(l('Choose subcategory')) :>','')
   d.y.bang_subcat.options[1] =new Option('Audio','Audio')
   d.y.bang_subcat.options[2] =new Option('Blogs','Blogs')
   d.y.bang_subcat.options[3] =new Option('Blogs (intl)','Blogs (intl)')
@@ -212,29 +212,33 @@ function validate_form (){
 
 <div style="margin-bottom:30px;"></div>
 
-<form name="y" style="margin-top:20px;" method="post" action="https://flash.duckduckgo.com/e.js" onsubmit="return validate_form ();">
+<form name="y" style="margin-top:20px;border:2px solid #D1D1D1;border-radius:6px;padding:10px;" method="post" action="https://flash.duckduckgo.com/e.js" onsubmit="return validate_form ();">
 
-<: l('Email') :> (<: l('optional') :>): 
+<: l('Email') :> <small>(<: l('optional') :>)</small>:
+<br>
 <br><input type="text" name="from" size="20">
 
 <div style="padding-top:20px;"></div>
-<: l('Site name, e.g. %s or %s','DuckDuckGo','The New York Times') :>
+<: l('Site name, e.g. %s or %s','DuckDuckGo','The New York Times') :>:
+<br>
 <br><input type="text" name="bang_site" size="20">
 
 <div style="padding-top:20px;"></div>
-<: l('Bang command, e.g. %s (usually is domain name, e.g. %s)','duckduckgo','nytimes') :>
-<br>!<input type="text" name="bang_command" size="10">
+<: l('Bang command, e.g. %s (usually is domain name, e.g. %s)','duckduckgo','nytimes') :>:
+<br>
+<br>!&nbsp;<input type="text" name="bang_command" size="10">
 
 <div style="padding-top:20px;"></div>
-<: l('Bang url, e.g. %s','http://duckduckgo.com/?q={{{s}}}') :>
-<br> &nbsp; <: l('Mark where the search goes with {{{s}}}') :>
+<: l('Bang url, e.g. %s','http://duckduckgo.com/?q={{{s}}}') :>:
+<br><small>&nbsp; <: l('Mark where the search goes with {{{s}}}') :></small>
 <br><input type="text" name="bang_url" size="40">
 
 <div style="padding-top:20px;"></div>
-<: l('Bang category') :>
+<: l('Bang category') :>:
+<br>
 <br>
 <select name="bang_cat" onChange="fill_subcat(this.selectedIndex);">
-  <option value=""><: l('Choose Category') :></option>
+  <option value=""><: l('Choose category') :></option>
   <option value="Tech"><: lp('bangcat','Tech') :></option>
   <option value="Shopping"><: lp('bangcat','Shopping') :></option>
   <option value="Research"><: lp('bangcat','Research') :></option>
@@ -246,7 +250,8 @@ function validate_form (){
 <select name="bang_subcat" class="invisible"></select>
 
 <div style="padding-top:20px;"></div>
-<: l('Comments') :> (<: l('optional') :>): 
+<: l('Comments') :> <small>(<: l('optional') :>)</small>:
+<br>
 <br><textarea name="bang_comments" cols="40" rows="2"></textarea>
 
 <input type="hidden" value="On" name="back">
