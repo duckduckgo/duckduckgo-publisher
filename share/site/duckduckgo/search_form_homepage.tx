@@ -1,8 +1,6 @@
-<!--
 		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage">About DuckDuckGo</div>
 		</a>
-//-->
 
 <!--
 
@@ -10,11 +8,6 @@
 			<div id="logo_homepage">Stop CISPA</div>
 		</a>
 //-->
-
-
-		<a id="logo_homepage_link" title="DNA Day" href="/?q=DNA+Day">
-			<div id="logo_homepage">DNA Day</div>
-		</a>
 
 
 		<form name="x" method="POST" action="/html" id="search_form_homepage" onSubmit="return nbr()">
@@ -58,6 +51,6 @@ for (var i=0;i<karr.length;i++) {
 		</form>
 
 <div id="tagline_homepage">
-Search <a href="/privacy/">anonymously</a>. 
+Search <a href="/about/">anonymously</a>. 
 &nbsp;Find <a href="/goodies/">instantly</a>. 
 </div>
