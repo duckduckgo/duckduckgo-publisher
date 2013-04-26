@@ -1,13 +1,13 @@
+<!--
 		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage">About DuckDuckGo</div>
 		</a>
-
-<!--
-
-		<a id="logo_homepage_link" title="Stop CISPA" href="https://action.eff.org/o/9042/p/dia/action/public/?action_KEY=9048">
-			<div id="logo_homepage">Stop CISPA</div>
-		</a>
 //-->
+
+
+		<a id="logo_homepage_link" title="CISPA Open Letter" href="https://action.eff.org/o/9042/p/dia/action/public/?action_KEY=9048">
+			<div id="logo_homepage">CISPA Open Letter</div>
+		</a>
 
 
 		<form name="x" method="POST" action="/html" id="search_form_homepage" onSubmit="return nbr()">
