@@ -163,7 +163,6 @@ kl =
 <td class="ctd">
 kf = 
 <ul>
-<li><: l('%s for %s','b','Favicons + WOT warnings') :>
 <li><: l('%s for %s','1','Just favicons') :>
 <li><: l('%s for %s','w','Just WOT (trust) ratings') :>
 <li><: l('%s for %s','fw','All WOT + favicons (both)') :>
