@@ -51,6 +51,6 @@ for (var i=0;i<karr.length;i++) {
 		</form>
 
 <div id="tagline_homepage">
-Search <a href="/about/">anonymously</a>. 
-&nbsp;Find <a href="/goodies/">instantly</a>. 
+Find <a href="/goodies/">answers</a>. 
+&nbsp;Search <a href="/about/">anonymously</a>. 
 </div>
