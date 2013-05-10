@@ -8,7 +8,7 @@
 <li><a href="http://dontbubble.us/" tabindex="-1">DontBubble</a></li>
 <li><a href="http://whatisdnt.com/" tabindex="-1">WhatIsDNT</a></li>
 <li><a href="http://fixtracking.com/" tabindex="-1">FixTracking</a></li>
-<li class="more_menu_header header_button_menu_header"><: l('GET INVOLVED') :>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li class="more_menu_header header_button_menu_header"><: l('GET&nbsp;INVOLVED') :>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 <li><a href="http://duckduckhack.com/" tabindex="-1"><: l('Develop') :></a></li>
 <li><a href="https://dukgo.com/" tabindex="-1"><: l('Translate') :></a></li>
 <li><a href="/supportus" tabindex="-1"><: l('Support Us') :></a></li>
