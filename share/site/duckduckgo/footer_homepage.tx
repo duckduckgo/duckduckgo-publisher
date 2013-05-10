@@ -1,7 +1,7 @@
 <div id="footer_homepage">
 	<div id="footer_homepage_left">
 
-	<a href="/about/"><: l('About') :></a><a href="/settings/"><: l('Settings') :></a><a href="/press/"><: l('Press') :></a>
+	<a href="/spread/"><: l('Help spread better search.') :></a>
 
 	</div>
 	<div id="footer_homepage_right">
