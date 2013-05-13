@@ -24,9 +24,9 @@ duckpan \
 Inside the repository do this:
 
 ```
-perl -Ilib bin/ddg_publisher ~/test_publish
+perl -Ilib bin/ddg_publisher test_publish
 ```
 
-The directory ~/test_publish will be generated and filled up with the results.
+The directory test_publish will be generated and filled up with the results.
 
 
