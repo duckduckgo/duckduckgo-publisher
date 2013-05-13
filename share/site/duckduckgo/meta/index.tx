@@ -1,1 +1,1 @@
-<: include "meta/title.tx" { title => 'DuckDuckGo' } :>
+<: include "meta/title.tx" { title => 'Search DuckDuckGo' } :>
