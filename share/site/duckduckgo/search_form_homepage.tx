@@ -39,7 +39,7 @@ for (var i=0;i<karr.length;i++) {
     else document.x.method='GET';
 
   } else if (karr[i]=='kh') {
-    if ( (!ktmp || ktmp=='1' || YAHOO.util.Cookie.get("h") == '1' ) && !document.location.port && document.location.protocol != 'https:') document.x.action='https://'+window.location.host+'/';
+    if ( (!ktmp || ktmp=='1' || YAHOO.util.Cookie.get("h") == '1' ) && !document.location.port && document.location.protocol != 'https:' && window.location.hostname.indexOf('.onion')==-1) document.x.action='https://'+window.location.host+'/';
     else if ( ( (ktmp && ktmp=='-1') || YAHOO.util.Cookie.get("h") == '-1' )  && document.location.protocol != 'http:') document.x.action='http://'+window.location.host+'/';
     else document.x.action='/';
   }
