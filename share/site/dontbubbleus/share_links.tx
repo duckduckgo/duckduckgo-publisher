@@ -1,0 +1,7 @@
+
+			<p class="share-links share-links--large"><span class="share-links__caption">Share DontBubble.Us with your friends: </span>			
+				<a class="email" data-reveal-id="share-email" title="Email to Friends"><i class="icn-mail"></i></a>
+				<a class="twitter" target="_twitter" href="https://twitter.com/?status=Escape+your+search+engine's+filter+bubble.+An+illustrated+guide+by+@duckduckgo:+http://DontBubble.us/" title="Share on Twitter"><i class="icn-twitter"></i></a>		
+				<a class="facebook" target="_facebook" href="https://facebook.com/sharer.php?u=http://dontbubble.us/" title="Share on Facebook"><i class="icn-facebook"></i></a>		
+				
+			</p>

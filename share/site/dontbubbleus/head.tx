@@ -4,7 +4,7 @@
 <meta name="rating" content="General" />        
 <meta name="robots" content="index,follow" />
 <meta name="author" content="DuckDuckGo" />
-<meta name="viewport" content="width=100%; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+<meta name="viewport" content="width=100%, initial-scale=1.0"/>
 	
 <!-- Stylesheets -->		
 <link rel="stylesheet" type="text/css" href="common/css/micro.css?1" /> 		

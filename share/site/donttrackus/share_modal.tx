@@ -1,0 +1,17 @@
+<div id="share-email" class="reveal-modal">
+	<h4><: l('Email to friends') :></h4>
+	<form action="https://flash.duckduckgo.com/e.js" method="POST">
+		<input type="hidden" name="type" id="type" value="donttrack.us"/>
+		<div><input type="text" placeholder="<: l('Your Name') :>" name="from_name" class="text"/></div>
+		<div><input type="email" placeholder="<: l('Your Email') :>" name="from" class="text" /></div>
+		<fieldset id="friendemails">
+			<div id="friend0"><input type="email" placeholder="<: l('Your friend\'s Email') :>" name="FriendEmail0" class="text" /></div>
+		</fieldset>
+		<a id="remfriend" class="fieldcontrol hide"><: l('Remove friend') :></a>
+		<a id="addfriend" class="fieldcontrol"><: l('Add more friends') :></a>
+		<fieldset id="buttons">
+			<input type="submit" value="Send" class="button blue submit" />
+			<input type="button" value="Cancel" class="button close-modal"/>
+		</fieldset>
+	</form>
+</div>

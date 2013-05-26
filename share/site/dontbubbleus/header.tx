@@ -12,7 +12,7 @@
 	</ul>
 </div>
 
-<div id="header">
+<div class="site-header" id="header">
         <a href="http://fixtracking.com/"><span class="topmsg">Fix Tracking!</span></a>
 	<div class="content-wrap">
 		<h1><: l("Escape your Search Engine's %s",r('<span class="huge">') ~ l('filter bubble') ~ r('</span>')) :></h1>

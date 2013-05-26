@@ -1,6 +1,6 @@
 <a name="top"></a>
 
-<div id="header">
+<div class="site-header" id="header">
 	<a href="http://fixtracking.com/"><span class="topmsg"><: l('Fix Tracking!') :></span></a>
 	<img src="images/ddg-logo.png" alt="<: l('DuckDuckGo ... a search engine!') :>" id="pg-logo" />
 	<h1><: l('What is %s?',r('<em>') ~ l('Do Not Track') ~ r('</em>')) :></h1>

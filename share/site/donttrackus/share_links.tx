@@ -1,0 +1,6 @@
+
+			<p class="share-links share-links--large"><span class="share-links__caption">Share DontTrackUs with your friends: </span>			
+				<a class="email" data-reveal-id="share-email" title="Email to Friends"><i class="icn-mail"></i></a>
+				<a class="twitter" target="_twitter" href="https://twitter.com/?status=Google+tracks+you,+@duckduckgo+doesn't.+An+illustrated+guide:+http://donttrack.us/" title="Share on Twitter"><i class="icn-twitter"></i></a>		
+				<a class="facebook" target="_facebook" href="https://facebook.com/sharer.php?u=http://donttrack.us/" title="Share on Facebook"><i class="icn-facebook"></i></a>
+			</p>

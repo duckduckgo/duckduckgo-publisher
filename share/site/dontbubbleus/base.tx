@@ -11,13 +11,16 @@
   </head>
   <body id="pg-<: $f.filebase :>">
 
-	<div id="wrapper">
-
-	  <: include "header.tx" :>
-	  
-	  <div class="content-wrap">
-	    <: include $maintemplate :>
-		<: include "share_footer.tx" :>
+	<div class="site-wrapper" id="wrapper">
+	  <: include "header.tx" :>	  
+	  <div class="site-body content-wrap">
+	    <: include $maintemplate :>		
+	  </div>
+	  <div class="site-bottom">
+		<div class="content-wrap">
+		  <: include "share_links.tx" :>
+		  <: include "micro_bottom.tx" :>
+		</div>
 	  </div>
 	  <: include "micro_foot.tx" :>
 	</div>
