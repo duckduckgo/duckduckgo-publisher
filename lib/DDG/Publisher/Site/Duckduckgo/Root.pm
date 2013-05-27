@@ -32,7 +32,6 @@ sub pages {{
 	supportus => sub {
 		no_logo => 1,
 	},
-	team => sub {},
 
 	## TODO
 
