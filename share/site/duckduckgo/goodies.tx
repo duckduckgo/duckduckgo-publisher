@@ -87,7 +87,7 @@
 
                                 </div>
 
-                                <h3><: l('Economy and Finance'); :></h3> 
+                                <h3>Economy and Finance</h3> 
 
                                                                 <p>
                                     If you have an idea for something new,
@@ -638,14 +638,14 @@
                 <div class="goodiecatbody" id="catbody_Calculations">
 
 
-                <div class="goodieitem d_Economy_and_Finance c_Calculations" id="i__3_43__34_45"> 
+                <div class="goodieitem d_Math c_Calculations" id="i__3_43__34_45"> 
 
                   <div class="gselectbox " onclick="goodieclick(this,'_3_43__34_45')" href="_3_43__34_45_perma">
 
                         <div class="gsource">
-                            <div class="sourceicon ic_icon16_png">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
                                 
-                                    <a class="sourcetitle" title="DuckDuckGo builtin"></a>
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
                                 
                             </div> 
                         </div>
@@ -657,7 +657,7 @@
 
                        <div class="inline-detail" id="ia__3_43__34_45">
 
-                               <div class="goodie-description">Currency calculation</div>
+                               <div class="goodie-description">Basic calculations</div>
 
 
 
@@ -668,9 +668,28 @@
 
                            <div class="attribution" id="at__3_43__34_45">
                                
-                                        <span class="sourcetext">DuckDuckGo builtin</span>
+                                        <span class="sourcetext">DuckDuckHack</span>
                                
+                                       <a href="http://duckduckhack.com/">plugin</a>
                                    
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@duckduckgo
+                                        &raquo; <a href="https://twitter.com/duckduckgo" target="_new">twitter</a>
+                                    </li>
+                                    <li>DuckDuckGo
+                                        &raquo; <a href="https://www.duckduckgo.com" target="_new">web</a>
+                                    </li>
+                                    <li>duckduckgo
+                                        &raquo; <a href="https://github.com/duckduckgo" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Calculator.pm" title="DDG::Goodie::Calculator" target="_new">code</a>
+
+
+                                    
                             </div>
 
 
@@ -682,7 +701,7 @@
                            <div class="sharing sharebuttons">
                                <a class="facebook _3_43__34_45_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
 </a>
-                               <a class="twitter _3_43__34_45_perma" target="_twitter" href="https://twitter.com/?status=Currency+calculation+on+@duckduckgo:+">Share on Twitter
+                               <a class="twitter _3_43__34_45_perma" target="_twitter" href="https://twitter.com/?status=Basic+calculations+on+@duckduckgo:+">Share on Twitter
 </a>
                            </div>
                         
@@ -694,6 +713,15 @@
 
 
 
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'64*343')">64*343</a></p>
+
+                                    <p><a onclick="goodierequest(null,'$3.43+$34.45')">$3.43+$34.45</a></p>
 
 
 
@@ -1025,7 +1053,6 @@
 
 
                                         <p><a onclick="goodierequest(null,'20 percent tip for a $20 bill')">20 percent tip for a $20 bill</a></p>
-                                        <p><a onclick="goodierequest(null,'root mean square 1,2,3')">root mean square 1,2,3</a></p>
 
                                     <p><a onclick="goodierequest(null,'20% tip on $21.63')">20% tip on $21.63</a></p>
 
@@ -1113,7 +1140,7 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'5 â 79')">5 â 79</a></p>
+                                        <p><a onclick="goodierequest(null,'5 ⊕ 79')">5 ⊕ 79</a></p>
                                         <p><a onclick="goodierequest(null,'9489 xor 394 xor 9349 xor 39 xor 29 xor 4967 xor 3985')">9489 xor 394 xor 9349 xor 39 xor 29 xor 4967 xor 3985</a></p>
 
                                     <p><a onclick="goodierequest(null,'4 xor 5')">4 xor 5</a></p>
@@ -1259,6 +1286,101 @@
 
 
 
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
+                <div class="goodieitem d_Math c_Calculations" id="i_SHA_this"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'SHA_this')" href="SHA_this_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
+                                
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="SHA_this" name="SHA this">SHA this</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_SHA_this">
+
+                               <div class="goodie-description">SHA hash cryptography</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_SHA_this">
+                               
+                                        <span class="sourcetext">DuckDuckHack</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@duckduckgo
+                                        &raquo; <a href="https://twitter.com/duckduckgo" target="_new">twitter</a>
+                                    </li>
+                                    <li>DuckDuckGo
+                                        &raquo; <a href="https://www.duckduckgo.com" target="_new">web</a>
+                                    </li>
+                                    <li>duckduckgo
+                                        &raquo; <a href="https://github.com/duckduckgo" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Sha.pm" title="DDG::Goodie::Sha" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="SHA_this_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook SHA_this_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter SHA_this_perma" target="_twitter" href="https://twitter.com/?status=SHA+hash+cryptography+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'sha-512 that')">sha-512 that</a></p>
+                                        <p><a onclick="goodierequest(null,'sha512sum dim-dims')">sha512sum dim-dims</a></p>
+
+                                    <p><a onclick="goodierequest(null,'SHA this')">SHA this</a></p>
 
 
 
@@ -1443,9 +1565,9 @@
                     </div>
 
 
-                <div class="goodieitem d_Math c_Calculations" id="i_circumferance_circle_1"> 
+                <div class="goodieitem d_Math c_Calculations" id="i_circumference_circle_1"> 
 
-                  <div class="gselectbox " onclick="goodieclick(this,'circumferance_circle_1')" href="circumferance_circle_1_perma">
+                  <div class="gselectbox " onclick="goodieclick(this,'circumference_circle_1')" href="circumference_circle_1_perma">
 
                         <div class="gsource">
                             <div class="sourceicon ic_duckduckhack_com_ico">
@@ -1456,11 +1578,11 @@
                         </div>
 
                     <div class="widge">
-                        <span class="widget-link" id="circumferance_circle_1" name="circumferance circle 1">circumferance circle 1</span>
+                        <span class="widget-link" id="circumference_circle_1" name="circumference circle 1">circumference circle 1</span>
                     </div>
                     
 
-                       <div class="inline-detail" id="ia_circumferance_circle_1">
+                       <div class="inline-detail" id="ia_circumference_circle_1">
 
                                <div class="goodie-description">find the perimeter of a geometric shape</div>
 
@@ -1471,7 +1593,7 @@
 
 
 
-                           <div class="attribution" id="at_circumferance_circle_1">
+                           <div class="attribution" id="at_circumference_circle_1">
                                
                                         <span class="sourcetext">DuckDuckHack</span>
                                
@@ -1497,13 +1619,13 @@
 
 
                            <div class="sharing perma">
-                               <a class="circumferance_circle_1_perma" title="Permalink" href="">permalink</a>
+                               <a class="circumference_circle_1_perma" title="Permalink" href="">permalink</a>
                            </div> 
 
                            <div class="sharing sharebuttons">
-                               <a class="facebook circumferance_circle_1_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+                               <a class="facebook circumference_circle_1_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
 </a>
-                               <a class="twitter circumferance_circle_1_perma" target="_twitter" href="https://twitter.com/?status=find+the+perimeter+of+a+geometric+shape+on+@duckduckgo:+">Share on Twitter
+                               <a class="twitter circumference_circle_1_perma" target="_twitter" href="https://twitter.com/?status=find+the+perimeter+of+a+geometric+shape+on+@duckduckgo:+">Share on Twitter
 </a>
                            </div>
                         
@@ -1526,7 +1648,7 @@
                                         <p><a onclick="goodierequest(null,'perimeter of rectangle 1 2')">perimeter of rectangle 1 2</a></p>
                                         <p><a onclick="goodierequest(null,'perimeter of square 3')">perimeter of square 3</a></p>
 
-                                    <p><a onclick="goodierequest(null,'circumferance circle 1')">circumferance circle 1</a></p>
+                                    <p><a onclick="goodierequest(null,'circumference circle 1')">circumference circle 1</a></p>
 
 
 
@@ -1603,9 +1725,9 @@
                     </div>
 
 
-                <div class="goodieitem d_Everyday c_Calculations" id="i_days_between_01_01_2000_01_01_2001"> 
+                <div class="goodieitem d_Everyday c_Calculations" id="i_days_between_01_31_2000_01_31_2001"> 
 
-                  <div class="gselectbox " onclick="goodieclick(this,'days_between_01_01_2000_01_01_2001')" href="days_between_01_01_2000_01_01_2001_perma">
+                  <div class="gselectbox " onclick="goodieclick(this,'days_between_01_31_2000_01_31_2001')" href="days_between_01_31_2000_01_31_2001_perma">
 
                         <div class="gsource">
                             <div class="sourceicon ic_duckduckhack_com_ico">
@@ -1616,11 +1738,11 @@
                         </div>
 
                     <div class="widge">
-                        <span class="widget-link" id="days_between_01_01_2000_01_01_2001" name="days between 01/01/2000 01/01/2001">days between 01/01/2000 01/01/2001</span>
+                        <span class="widget-link" id="days_between_01_31_2000_01_31_2001" name="days between 01/31/2000 01/31/2001">days between 01/31/2000 01/31/2001</span>
                     </div>
                     
 
-                       <div class="inline-detail" id="ia_days_between_01_01_2000_01_01_2001">
+                       <div class="inline-detail" id="ia_days_between_01_31_2000_01_31_2001">
 
                                <div class="goodie-description">calculate the number of days between two dates</div>
 
@@ -1631,7 +1753,7 @@
 
 
 
-                           <div class="attribution" id="at_days_between_01_01_2000_01_01_2001">
+                           <div class="attribution" id="at_days_between_01_31_2000_01_31_2001">
                                
                                         <span class="sourcetext">DuckDuckHack</span>
                                
@@ -1654,13 +1776,13 @@
 
 
                            <div class="sharing perma">
-                               <a class="days_between_01_01_2000_01_01_2001_perma" title="Permalink" href="">permalink</a>
+                               <a class="days_between_01_31_2000_01_31_2001_perma" title="Permalink" href="">permalink</a>
                            </div> 
 
                            <div class="sharing sharebuttons">
-                               <a class="facebook days_between_01_01_2000_01_01_2001_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+                               <a class="facebook days_between_01_31_2000_01_31_2001_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
 </a>
-                               <a class="twitter days_between_01_01_2000_01_01_2001_perma" target="_twitter" href="https://twitter.com/?status=calculate+the+number+of+days+between+two+dates+on+@duckduckgo:+">Share on Twitter
+                               <a class="twitter days_between_01_31_2000_01_31_2001_perma" target="_twitter" href="https://twitter.com/?status=calculate+the+number+of+days+between+two+dates+on+@duckduckgo:+">Share on Twitter
 </a>
                            </div>
                         
@@ -1678,9 +1800,9 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'days between 01/01/2000 01/01/2001 inclusive')">days between 01/01/2000 01/01/2001 inclusive</a></p>
+                                        <p><a onclick="goodierequest(null,'days between 01/31/2000 01/31/2001 inclusive')">days between 01/31/2000 01/31/2001 inclusive</a></p>
 
-                                    <p><a onclick="goodierequest(null,'days between 01/01/2000 01/01/2001')">days between 01/01/2000 01/01/2001</a></p>
+                                    <p><a onclick="goodierequest(null,'days between 01/31/2000 01/31/2001')">days between 01/31/2000 01/31/2001</a></p>
 
 
 
@@ -2144,7 +2266,7 @@
                     </div>
 
 
-                <div class="goodieitem d_Everyday d_Math c_Calculations" id="i_multiples_of_42"> 
+                <div class="goodieitem d_Math c_Calculations" id="i_multiples_of_42"> 
 
                   <div class="gselectbox " onclick="goodieclick(this,'multiples_of_42')" href="multiples_of_42_perma">
 
@@ -3650,72 +3772,6 @@
                     </div>
 
 
-                <div class="goodieitem d_Sysadmin c_Computing" id="i_epoch"> 
-
-                  <div class="gselectbox " onclick="goodieclick(this,'epoch')" href="epoch_perma">
-
-                        <div class="gsource">
-                            <div class="sourceicon ic_icon16_png">
-                                
-                                    <a class="sourcetitle" title="DuckDuckGo builtin"></a>
-                                
-                            </div> 
-                        </div>
-
-                    <div class="widge">
-                        <span class="widget-link" id="epoch" name="epoch">epoch</span>
-                    </div>
-                    
-
-                       <div class="inline-detail" id="ia_epoch">
-
-                               <div class="goodie-description">Time since the Unix epoch</div>
-
-
-
-
-
-
-
-
-                           <div class="attribution" id="at_epoch">
-                               
-                                        <span class="sourcetext">DuckDuckGo builtin</span>
-                               
-                                   
-                            </div>
-
-
-
-                           <div class="sharing perma">
-                               <a class="epoch_perma" title="Permalink" href="">permalink</a>
-                           </div> 
-
-                           <div class="sharing sharebuttons">
-                               <a class="facebook epoch_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
-</a>
-                               <a class="twitter epoch_perma" target="_twitter" href="https://twitter.com/?status=Time+since+the+Unix+epoch+on+@duckduckgo:+">Share on Twitter
-</a>
-                           </div>
-                        
-                           <div class="extra-detail">
-
-
-
-
-
-
-
-
-
-
-                       </div> <!-- extra-detail -->
-                       </div> <!-- inline detail -->
-                      </div> <!-- gselectbox -->
-
-                    </div>
-
-
                 <div class="goodieitem d_Geek d_Programming c_Computing" id="i_expand_http___bit_ly_a"> 
 
                   <div class="gselectbox " onclick="goodieclick(this,'expand_http___bit_ly_a')" href="expand_http___bit_ly_a_perma">
@@ -4178,72 +4234,6 @@
                                <a class="facebook qrcode_http___ddg_gg__perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
 </a>
                                <a class="twitter qrcode_http___ddg_gg__perma" target="_twitter" href="https://twitter.com/?status=Generate+a+QR+code+on+@duckduckgo:+">Share on Twitter
-</a>
-                           </div>
-                        
-                           <div class="extra-detail">
-
-
-
-
-
-
-
-
-
-
-                       </div> <!-- extra-detail -->
-                       </div> <!-- inline detail -->
-                      </div> <!-- gselectbox -->
-
-                    </div>
-
-
-                <div class="goodieitem d_Programming d_Sysadmin c_Computing" id="i_regexp________ddg"> 
-
-                  <div class="gselectbox " onclick="goodieclick(this,'regexp________ddg')" href="regexp________ddg_perma">
-
-                        <div class="gsource">
-                            <div class="sourceicon ic_icon16_png">
-                                
-                                    <a class="sourcetitle" title="DuckDuckGo builtin"></a>
-                                
-                            </div> 
-                        </div>
-
-                    <div class="widge">
-                        <span class="widget-link" id="regexp________ddg" name="regexp /(.*)/ ddg">regexp /(.*)/ ddg</span>
-                    </div>
-                    
-
-                       <div class="inline-detail" id="ia_regexp________ddg">
-
-                               <div class="goodie-description">Regular expressions</div>
-
-
-
-
-
-
-
-
-                           <div class="attribution" id="at_regexp________ddg">
-                               
-                                        <span class="sourcetext">DuckDuckGo builtin</span>
-                               
-                                   
-                            </div>
-
-
-
-                           <div class="sharing perma">
-                               <a class="regexp________ddg_perma" title="Permalink" href="">permalink</a>
-                           </div> 
-
-                           <div class="sharing sharebuttons">
-                               <a class="facebook regexp________ddg_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
-</a>
-                               <a class="twitter regexp________ddg_perma" target="_twitter" href="https://twitter.com/?status=Regular+expressions+on+@duckduckgo:+">Share on Twitter
 </a>
                            </div>
                         
@@ -4855,7 +4845,7 @@
 
 
 
-            <div class="goodiecat d_Programming d_Everyday d_Geek d_Social d_Travel d_Sysadmin" id="cat_Computing_nbsp_tools"> 
+            <div class="goodiecat d_Programming d_Everyday d_Geek d_Social d_Travel d_Cryptography d_Sysadmin" id="cat_Computing_nbsp_tools"> 
                 <h2 class="cat_header">
                     Computing&nbsp;tools
                     <a class="togcat catminus" onclick="togglecat('Computing_nbsp_tools', this); return false;" href="#">-</a>
@@ -5306,6 +5296,91 @@
                     </div>
 
 
+                <div class="goodieitem d_Sysadmin c_Computing_nbsp_tools" id="i_epoch"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'epoch')" href="epoch_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
+                                
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="epoch" name="epoch">epoch</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_epoch">
+
+                               <div class="goodie-description">Time since the Unix epoch</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_epoch">
+                               
+                                        <span class="sourcetext">DuckDuckHack</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@duckduckgo
+                                        &raquo; <a href="https://twitter.com/duckduckgo" target="_new">twitter</a>
+                                    </li>
+                                    <li>DuckDuckGo
+                                        &raquo; <a href="https://www.duckduckgo.com" target="_new">web</a>
+                                    </li>
+                                    <li>duckduckgo
+                                        &raquo; <a href="https://github.com/duckduckgo" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Epoch.pm" title="DDG::Goodie::Epoch" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="epoch_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook epoch_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter epoch_perma" target="_twitter" href="https://twitter.com/?status=Time+since+the+Unix+epoch+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
                 <div class="goodieitem d_Programming c_Computing_nbsp_tools" id="i_guid"> 
 
                   <div class="gselectbox " onclick="goodieclick(this,'guid')" href="guid_perma">
@@ -5659,6 +5734,170 @@
                     </div>
 
 
+                <div class="goodieitem d_Cryptography c_Computing_nbsp_tools" id="i_qrcode_http___ddg_gg"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'qrcode_http___ddg_gg')" href="qrcode_http___ddg_gg_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
+                                
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="qrcode_http___ddg_gg" name="qrcode http://ddg.gg">qrcode http://ddg.gg</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_qrcode_http___ddg_gg">
+
+                               <div class="goodie-description">generate a QR code from your query</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_qrcode_http___ddg_gg">
+                               
+                                        <span class="sourcetext">DuckDuckHack</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>mstratman
+                                        &raquo; <a href="https://github.com/mstratman" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodie-qrcode/blob/master/lib/DDG/Goodie/QRCode.pm" title="DDG::Goodie::QRCode" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="qrcode_http___ddg_gg_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook qrcode_http___ddg_gg_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter qrcode_http___ddg_gg_perma" target="_twitter" href="https://twitter.com/?status=generate+a+QR+code+from+your+query+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
+                <div class="goodieitem d_Programming d_Sysadmin c_Computing_nbsp_tools" id="i_regexp________ddg"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'regexp________ddg')" href="regexp________ddg_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
+                                
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="regexp________ddg" name="regexp /(.*)/ ddg">regexp /(.*)/ ddg</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_regexp________ddg">
+
+                               <div class="goodie-description">Regular expressions</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_regexp________ddg">
+                               
+                                        <span class="sourcetext">DuckDuckHack</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@duckduckgo
+                                        &raquo; <a href="https://twitter.com/duckduckgo" target="_new">twitter</a>
+                                    </li>
+                                    <li>DuckDuckGo
+                                        &raquo; <a href="https://www.duckduckgo.com" target="_new">web</a>
+                                    </li>
+                                    <li>duckduckgo
+                                        &raquo; <a href="https://github.com/duckduckgo" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Regexp.pm" title="DDG::Goodie::Regexp" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="regexp________ddg_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook regexp________ddg_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter regexp________ddg_perma" target="_twitter" href="https://twitter.com/?status=Regular+expressions+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
                 <div class="goodieitem d_Programming c_Computing_nbsp_tools" id="i_unidecode_møæp"> 
 
                   <div class="gselectbox " onclick="goodieclick(this,'unidecode_møæp')" href="unidecode_møæp_perma">
@@ -5916,7 +6155,7 @@
                     </div>
 
 
-                <div class="goodieitem d_Economy_and_Finance d_Travel c_Conversions" id="i_100usd_in_eur"> 
+                <div class="goodieitem d_Economy_and_Finance d_Everyday d_Travel c_Conversions" id="i_100usd_in_eur"> 
 
                   <div class="gselectbox " onclick="goodieclick(this,'100usd_in_eur')" href="100usd_in_eur_perma">
 
@@ -7621,7 +7860,7 @@
                     </div>
 
 
-                <div class="goodieitem d_Entertainment d_Music c_Entertainment" id="i_Green_Day_schedule"> 
+                <div class="goodieitem d_Entertainment d_Everyday d_Music c_Entertainment" id="i_Green_Day_schedule"> 
 
                   <div class="gselectbox " onclick="goodieclick(this,'Green_Day_schedule')" href="Green_Day_schedule_perma">
 
@@ -8538,9 +8777,9 @@
                     </div>
 
 
-                <div class="goodieitem d_Entertainment c_Entertainment" id="i_watch_back_to_the_future"> 
+                <div class="goodieitem d_Entertainment c_Entertainment" id="i_watch_pirates_of_the_caribbean"> 
 
-                  <div class="gselectbox " onclick="goodieclick(this,'watch_back_to_the_future')" href="watch_back_to_the_future_perma">
+                  <div class="gselectbox " onclick="goodieclick(this,'watch_pirates_of_the_caribbean')" href="watch_pirates_of_the_caribbean_perma">
 
                         <div class="gsource">
                             <div class="sourceicon ic_www_canistream_it_ico">
@@ -8551,11 +8790,11 @@
                         </div>
 
                     <div class="widge">
-                        <span class="widget-link" id="watch_back_to_the_future" name="watch back to the future">watch back to the future</span>
+                        <span class="widget-link" id="watch_pirates_of_the_caribbean" name="watch pirates of the caribbean">watch pirates of the caribbean</span>
                     </div>
                     
 
-                       <div class="inline-detail" id="ia_watch_back_to_the_future">
+                       <div class="inline-detail" id="ia_watch_pirates_of_the_caribbean">
 
                                <div class="goodie-description">Find out how to watch movies</div>
 
@@ -8566,7 +8805,7 @@
 
 
 
-                           <div class="attribution" id="at_watch_back_to_the_future">
+                           <div class="attribution" id="at_watch_pirates_of_the_caribbean">
                                
                                         <span class="sourcetext">CanIStream.It</span>
                                
@@ -8599,13 +8838,13 @@
 
 
                            <div class="sharing perma">
-                               <a class="watch_back_to_the_future_perma" title="Permalink" href="">permalink</a>
+                               <a class="watch_pirates_of_the_caribbean_perma" title="Permalink" href="">permalink</a>
                            </div> 
 
                            <div class="sharing sharebuttons">
-                               <a class="facebook watch_back_to_the_future_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+                               <a class="facebook watch_pirates_of_the_caribbean_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
 </a>
-                               <a class="twitter watch_back_to_the_future_perma" target="_twitter" href="https://twitter.com/?status=Find+out+how+to+watch+movies+on+@duckduckgo:+">Share on Twitter
+                               <a class="twitter watch_pirates_of_the_caribbean_perma" target="_twitter" href="https://twitter.com/?status=Find+out+how+to+watch+movies+on+@duckduckgo:+">Share on Twitter
 </a>
                            </div>
                         
@@ -8623,10 +8862,9 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'how to stream pirates of silicon valley')">how to stream pirates of silicon valley</a></p>
-                                        <p><a onclick="goodierequest(null,'can i stream indie game')">can i stream indie game</a></p>
+                                        <p><a onclick="goodierequest(null,'can I stream indie game')">can I stream indie game</a></p>
 
-                                    <p><a onclick="goodierequest(null,'watch back to the future')">watch back to the future</a></p>
+                                    <p><a onclick="goodierequest(null,'watch pirates of the caribbean')">watch pirates of the caribbean</a></p>
 
 
 
@@ -9338,7 +9576,7 @@
                         <div class="gsource">
                             <div class="sourceicon ic_icon16_png">
                                 
-                                    <a class="sourcetitle" title="DuckDuckGo builtin"></a>
+                                    <a class="sourcetitle" title="Is it snowing yet?"></a>
                                 
                             </div> 
                         </div>
@@ -9361,9 +9599,25 @@
 
                            <div class="attribution" id="at_is_it_snowing_">
                                
-                                        <span class="sourcetext">DuckDuckGo builtin</span>
+                                        <span class="sourcetext">Is it snowing yet?</span>
                                
+                                       <a href="http://duckduckhack.com/">plugin</a>
                                    
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@caine tighe
+                                        &raquo; <a href="https://twitter.com/__nil" target="_new">twitter</a>
+                                    </li>
+                                    <li>Caine Tighe
+                                        &raquo; <a href="https://github.com/nilnilnil" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/Snow.pm" title="DDG::Spice::Snow" target="_new">code</a>
+
+
+                                    
                             </div>
 
 
@@ -9387,6 +9641,15 @@
 
 
 
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'is it snowing in New York City?')">is it snowing in New York City?</a></p>
+
+                                    <p><a onclick="goodierequest(null,'is it snowing?')">is it snowing?</a></p>
 
 
 
@@ -10032,72 +10295,6 @@
                                <a class="facebook msft_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
 </a>
                                <a class="twitter msft_perma" target="_twitter" href="https://twitter.com/?status=See+company+and+stock+data+on+@duckduckgo:+">Share on Twitter
-</a>
-                           </div>
-                        
-                           <div class="extra-detail">
-
-
-
-
-
-
-
-
-
-
-                       </div> <!-- extra-detail -->
-                       </div> <!-- inline detail -->
-                      </div> <!-- gselectbox -->
-
-                    </div>
-
-
-                <div class="goodieitem d_Economy_and_Finance d_Everyday c_Finance" id="i_msft_vs_aapl_5yr"> 
-
-                  <div class="gselectbox " onclick="goodieclick(this,'msft_vs_aapl_5yr')" href="msft_vs_aapl_5yr_perma">
-
-                        <div class="gsource">
-                            <div class="sourceicon ic_wolframalpha_com_ico">
-                                
-                                    <a class="sourcetitle" title="Wolfram|Alpha"></a>
-                                
-                            </div> 
-                        </div>
-
-                    <div class="widge">
-                        <span class="widget-link" id="msft_vs_aapl_5yr" name="msft vs aapl 5yr">msft vs aapl 5yr</span>
-                    </div>
-                    
-
-                       <div class="inline-detail" id="ia_msft_vs_aapl_5yr">
-
-                               <div class="goodie-description">Stock comparison performance</div>
-
-
-
-
-
-
-
-
-                           <div class="attribution" id="at_msft_vs_aapl_5yr">
-                               
-                                        <span class="sourcetext">Wolfram|Alpha</span>
-                               
-                                   
-                            </div>
-
-
-
-                           <div class="sharing perma">
-                               <a class="msft_vs_aapl_5yr_perma" title="Permalink" href="">permalink</a>
-                           </div> 
-
-                           <div class="sharing sharebuttons">
-                               <a class="facebook msft_vs_aapl_5yr_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
-</a>
-                               <a class="twitter msft_vs_aapl_5yr_perma" target="_twitter" href="https://twitter.com/?status=Stock+comparison+performance+on+@duckduckgo:+">Share on Twitter
 </a>
                            </div>
                         
@@ -12184,7 +12381,7 @@
 
 
 
-            <div class="goodiecat d_Special_Interest d_Economy_and_Finance d_Everyday d_Social" id="cat_IDs"> 
+            <div class="goodiecat d_Economy_and_Finance d_Everyday d_Social" id="cat_IDs"> 
                 <h2 class="cat_header">
                     IDs
                     <a class="togcat catminus" onclick="togglecat('IDs', this); return false;" href="#">-</a>
@@ -12304,138 +12501,6 @@
                                <a class="facebook _323__319_6185_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
 </a>
                                <a class="twitter _323__319_6185_perma" target="_twitter" href="https://twitter.com/?status=Phone+number+lookup+and+region+information+on+@duckduckgo:+">Share on Twitter
-</a>
-                           </div>
-                        
-                           <div class="extra-detail">
-
-
-
-
-
-
-
-
-
-
-                       </div> <!-- extra-detail -->
-                       </div> <!-- inline detail -->
-                      </div> <!-- gselectbox -->
-
-                    </div>
-
-
-                <div class="goodieitem d_Special_Interest c_IDs" id="i_1Z0884XV0399906189"> 
-
-                  <div class="gselectbox " onclick="goodieclick(this,'1Z0884XV0399906189')" href="1Z0884XV0399906189_perma">
-
-                        <div class="gsource">
-                            <div class="sourceicon ic_www_ups_com_ico">
-                                
-                                    <a class="sourcetitle" title="UPS"></a>
-                                
-                            </div> 
-                        </div>
-
-                    <div class="widge">
-                        <span class="widget-link" id="1Z0884XV0399906189" name="1Z0884XV0399906189">1Z0884XV0399906189</span>
-                    </div>
-                    
-
-                       <div class="inline-detail" id="ia_1Z0884XV0399906189">
-
-                               <div class="goodie-description">Track a UPS package</div>
-
-
-
-
-
-
-
-
-                           <div class="attribution" id="at_1Z0884XV0399906189">
-                               
-                                        <span class="sourcetext">UPS</span>
-                               
-                                   
-                            </div>
-
-
-
-                           <div class="sharing perma">
-                               <a class="1Z0884XV0399906189_perma" title="Permalink" href="">permalink</a>
-                           </div> 
-
-                           <div class="sharing sharebuttons">
-                               <a class="facebook 1Z0884XV0399906189_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
-</a>
-                               <a class="twitter 1Z0884XV0399906189_perma" target="_twitter" href="https://twitter.com/?status=Track+a+UPS+package+on+@duckduckgo:+">Share on Twitter
-</a>
-                           </div>
-                        
-                           <div class="extra-detail">
-
-
-
-
-
-
-
-
-
-
-                       </div> <!-- extra-detail -->
-                       </div> <!-- inline detail -->
-                      </div> <!-- gselectbox -->
-
-                    </div>
-
-
-                <div class="goodieitem d_Special_Interest c_IDs" id="i_1g8gg35m1g7123101"> 
-
-                  <div class="gselectbox " onclick="goodieclick(this,'1g8gg35m1g7123101')" href="1g8gg35m1g7123101_perma">
-
-                        <div class="gsource">
-                            <div class="sourceicon ic_www_carfax_com_ico">
-                                
-                                    <a class="sourcetitle" title="CARFAX"></a>
-                                
-                            </div> 
-                        </div>
-
-                    <div class="widge">
-                        <span class="widget-link" id="1g8gg35m1g7123101" name="1g8gg35m1g7123101">1g8gg35m1g7123101</span>
-                    </div>
-                    
-
-                       <div class="inline-detail" id="ia_1g8gg35m1g7123101">
-
-                               <div class="goodie-description">Automobile VIN number lookup</div>
-
-
-
-
-
-
-
-
-                           <div class="attribution" id="at_1g8gg35m1g7123101">
-                               
-                                        <span class="sourcetext">CARFAX</span>
-                               
-                                   
-                            </div>
-
-
-
-                           <div class="sharing perma">
-                               <a class="1g8gg35m1g7123101_perma" title="Permalink" href="">permalink</a>
-                           </div> 
-
-                           <div class="sharing sharebuttons">
-                               <a class="facebook 1g8gg35m1g7123101_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
-</a>
-                               <a class="twitter 1g8gg35m1g7123101_perma" target="_twitter" href="https://twitter.com/?status=Automobile+VIN+number+lookup+on+@duckduckgo:+">Share on Twitter
 </a>
                            </div>
                         
@@ -12601,6 +12666,736 @@
                 <div class="goodiecatbody" id="catbody_Ids">
 
 
+                <div class="goodieitem d_Special_Interest c_Ids" id="i_1Z0884XV0399906189"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'1Z0884XV0399906189')" href="1Z0884XV0399906189_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_www_ups_com_ico">
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="1Z0884XV0399906189" name="1Z0884XV0399906189">1Z0884XV0399906189</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_1Z0884XV0399906189">
+
+                               <div class="goodie-description">Track a UPS package</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_1Z0884XV0399906189">
+                               
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@duckduckgo
+                                        &raquo; <a href="https://twitter.com/duckduckgo" target="_new">twitter</a>
+                                    </li>
+                                    <li>DuckDuckGo
+                                        &raquo; <a href="https://www.duckduckgo.com" target="_new">web</a>
+                                    </li>
+                                    <li>duckduckgo
+                                        &raquo; <a href="https://github.com/duckduckgo" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/UPS.pm" title="DDG::Goodie::UPS" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="1Z0884XV0399906189_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook 1Z0884XV0399906189_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter 1Z0884XV0399906189_perma" target="_twitter" href="https://twitter.com/?status=Track+a+UPS+package+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'ups 1Z0884XV0399906189')">ups 1Z0884XV0399906189</a></p>
+
+                                    <p><a onclick="goodierequest(null,'1Z0884XV0399906189')">1Z0884XV0399906189</a></p>
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
+                <div class="goodieitem d_Special_Interest c_Ids" id="i_1g8gg35m1g7123101"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'1g8gg35m1g7123101')" href="1g8gg35m1g7123101_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
+                                
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="1g8gg35m1g7123101" name="1g8gg35m1g7123101">1g8gg35m1g7123101</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_1g8gg35m1g7123101">
+
+                               <div class="goodie-description">Automobile VIN lookup</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_1g8gg35m1g7123101">
+                               
+                                        <span class="sourcetext">DuckDuckHack</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@duckduckgo
+                                        &raquo; <a href="https://twitter.com/duckduckgo" target="_new">twitter</a>
+                                    </li>
+                                    <li>DuckDuckGo
+                                        &raquo; <a href="https://www.duckduckgo.com" target="_new">web</a>
+                                    </li>
+                                    <li>duckduckgo
+                                        &raquo; <a href="https://github.com/duckduckgo" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/VIN.pm" title="DDG::Goodie::VIN" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="1g8gg35m1g7123101_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook 1g8gg35m1g7123101_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter 1g8gg35m1g7123101_perma" target="_twitter" href="https://twitter.com/?status=Automobile+VIN+lookup+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'vin 1g8gg35m1g7123101')">vin 1g8gg35m1g7123101</a></p>
+                                        <p><a onclick="goodierequest(null,'1g8gg35m1g7123101 vehicle identification number')">1g8gg35m1g7123101 vehicle identification number</a></p>
+                                        <p><a onclick="goodierequest(null,'1g8gg35m1g7123101 tracking')">1g8gg35m1g7123101 tracking</a></p>
+
+                                    <p><a onclick="goodierequest(null,'1g8gg35m1g7123101')">1g8gg35m1g7123101</a></p>
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
+                <div class="goodieitem d_Special_Interest c_Ids" id="i_CU123456789DK"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'CU123456789DK')" href="CU123456789DK_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
+                                
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="CU123456789DK" name="CU123456789DK">CU123456789DK</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_CU123456789DK">
+
+                               <div class="goodie-description">Track a package from Hongkong Post or Post Danmark</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_CU123456789DK">
+                               
+                                        <span class="sourcetext">DuckDuckHack</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@duckduckgo
+                                        &raquo; <a href="https://twitter.com/duckduckgo" target="_new">twitter</a>
+                                    </li>
+                                    <li>DuckDuckGo
+                                        &raquo; <a href="https://www.duckduckgo.com" target="_new">web</a>
+                                    </li>
+                                    <li>duckduckgo
+                                        &raquo; <a href="https://github.com/duckduckgo" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/HKDK.pm" title="DDG::Goodie::HKDK" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="CU123456789DK_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook CU123456789DK_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter CU123456789DK_perma" target="_twitter" href="https://twitter.com/?status=Track+a+package+from+Hongkong+Post+or+Post+Danmark+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'EE123456789HK')">EE123456789HK</a></p>
+
+                                    <p><a onclick="goodierequest(null,'CU123456789DK')">CU123456789DK</a></p>
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
+                <div class="goodieitem d_Special_Interest c_Ids" id="i_DHL_123456789"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'DHL_123456789')" href="DHL_123456789_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_www_dhl_com_ico">
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="DHL_123456789" name="DHL 123456789">DHL 123456789</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_DHL_123456789">
+
+                               <div class="goodie-description">Track a package from DHL</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_DHL_123456789">
+                               
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@duckduckgo
+                                        &raquo; <a href="https://twitter.com/duckduckgo" target="_new">twitter</a>
+                                    </li>
+                                    <li>DuckDuckGo
+                                        &raquo; <a href="https://www.duckduckgo.com" target="_new">web</a>
+                                    </li>
+                                    <li>duckduckgo
+                                        &raquo; <a href="https://github.com/duckduckgo" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/DHL.pm" title="DDG::Goodie::DHL" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="DHL_123456789_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook DHL_123456789_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter DHL_123456789_perma" target="_twitter" href="https://twitter.com/?status=Track+a+package+from+DHL+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'tracking 1234567891')">tracking 1234567891</a></p>
+
+                                    <p><a onclick="goodierequest(null,'DHL 123456789')">DHL 123456789</a></p>
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
+                <div class="goodieitem d_Special_Interest c_Ids" id="i_EA_000_000_000_US"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'EA_000_000_000_US')" href="EA_000_000_000_US_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
+                                
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="EA_000_000_000_US" name="EA 000 000 000 US">EA 000 000 000 US</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_EA_000_000_000_US">
+
+                               <div class="goodie-description">Track a USPS package</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_EA_000_000_000_US">
+                               
+                                        <span class="sourcetext">DuckDuckHack</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@duckduckgo
+                                        &raquo; <a href="https://twitter.com/duckduckgo" target="_new">twitter</a>
+                                    </li>
+                                    <li>DuckDuckGo
+                                        &raquo; <a href="https://www.duckduckgo.com" target="_new">web</a>
+                                    </li>
+                                    <li>duckduckgo
+                                        &raquo; <a href="https://github.com/duckduckgo" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/USPS.pm" title="DDG::Goodie::USPS" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="EA_000_000_000_US_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook EA_000_000_000_US_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter EA_000_000_000_US_perma" target="_twitter" href="https://twitter.com/?status=Track+a+USPS+package+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'usps 7000 0000 0000 0000 0000')">usps 7000 0000 0000 0000 0000</a></p>
+
+                                    <p><a onclick="goodierequest(null,'EA 000 000 000 US')">EA 000 000 000 US</a></p>
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
+                <div class="goodieitem d_Special_Interest c_Ids" id="i_EM999999999IN"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'EM999999999IN')" href="EM999999999IN_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
+                                
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="EM999999999IN" name="EM999999999IN">EM999999999IN</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_EM999999999IN">
+
+                               <div class="goodie-description">Track a package from IPS</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_EM999999999IN">
+                               
+                                        <span class="sourcetext">DuckDuckHack</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@duckduckgo
+                                        &raquo; <a href="https://twitter.com/duckduckgo" target="_new">twitter</a>
+                                    </li>
+                                    <li>DuckDuckGo
+                                        &raquo; <a href="https://www.duckduckgo.com" target="_new">web</a>
+                                    </li>
+                                    <li>duckduckgo
+                                        &raquo; <a href="https://github.com/duckduckgo" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/IPS.pm" title="DDG::Goodie::IPS" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="EM999999999IN_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook EM999999999IN_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter EM999999999IN_perma" target="_twitter" href="https://twitter.com/?status=Track+a+package+from+IPS+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
+                <div class="goodieitem d_Special_Interest c_Ids" id="i_LL12345678"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'LL12345678')" href="LL12345678_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
+                                
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="LL12345678" name="LL12345678">LL12345678</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_LL12345678">
+
+                               <div class="goodie-description">Track a package from Lasership</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_LL12345678">
+                               
+                                        <span class="sourcetext">DuckDuckHack</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@duckduckgo
+                                        &raquo; <a href="https://twitter.com/duckduckgo" target="_new">twitter</a>
+                                    </li>
+                                    <li>DuckDuckGo
+                                        &raquo; <a href="https://www.duckduckgo.com" target="_new">web</a>
+                                    </li>
+                                    <li>duckduckgo
+                                        &raquo; <a href="https://github.com/duckduckgo" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/LaserShip.pm" title="DDG::Goodie::LaserShip" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="LL12345678_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook LL12345678_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter LL12345678_perma" target="_twitter" href="https://twitter.com/?status=Track+a+package+from+Lasership+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
+                <div class="goodieitem d_Special_Interest c_Ids" id="i_fedex_9241990100130206401644"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'fedex_9241990100130206401644')" href="fedex_9241990100130206401644_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_fedex_com_ico">
+                                
+                                    <a class="sourcetitle" title="FedEx"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="fedex_9241990100130206401644" name="fedex 9241990100130206401644">fedex 9241990100130206401644</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_fedex_9241990100130206401644">
+
+                               <div class="goodie-description">Track a FedEx package</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_fedex_9241990100130206401644">
+                               
+                                        <span class="sourcetext">FedEx</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@duckduckgo
+                                        &raquo; <a href="https://twitter.com/duckduckgo" target="_new">twitter</a>
+                                    </li>
+                                    <li>DuckDuckGo
+                                        &raquo; <a href="https://www.duckduckgo.com" target="_new">web</a>
+                                    </li>
+                                    <li>duckduckgo
+                                        &raquo; <a href="https://github.com/duckduckgo" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/FedEx.pm" title="DDG::Goodie::FedEx" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="fedex_9241990100130206401644_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook fedex_9241990100130206401644_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter fedex_9241990100130206401644_perma" target="_twitter" href="https://twitter.com/?status=Track+a+FedEx+package+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'federal express 9241990100130206401644')">federal express 9241990100130206401644</a></p>
+
+                                    <p><a onclick="goodierequest(null,'fedex 9241990100130206401644')">fedex 9241990100130206401644</a></p>
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
                 <div class="goodieitem d_Everyday d_Social c_Ids" id="i_google__duckduckgo"> 
 
                   <div class="gselectbox " onclick="goodieclick(this,'google__duckduckgo')" href="google__duckduckgo_perma">
@@ -12683,9 +13478,9 @@
                     </div>
 
 
-                <div class="goodieitem d_Social d_Special_Interest c_Ids" id="i_gravatar_beau_at_dentedreality_com_au"> 
+                <div class="goodieitem d_Social d_Special_Interest c_Ids" id="i_gravatar_gravatar_at_duckduckgo_com"> 
 
-                  <div class="gselectbox " onclick="goodieclick(this,'gravatar_beau_at_dentedreality_com_au')" href="gravatar_beau_at_dentedreality_com_au_perma">
+                  <div class="gselectbox " onclick="goodieclick(this,'gravatar_gravatar_at_duckduckgo_com')" href="gravatar_gravatar_at_duckduckgo_com_perma">
 
                         <div class="gsource">
                             <div class="sourceicon ic_duckduckhack_com_ico">
@@ -12696,11 +13491,11 @@
                         </div>
 
                     <div class="widge">
-                        <span class="widget-link" id="gravatar_beau_at_dentedreality_com_au" name="gravatar beau@dentedreality.com.au">gravatar beau@dentedreality.com.au</span>
+                        <span class="widget-link" id="gravatar_gravatar_at_duckduckgo_com" name="gravatar gravatar@duckduckgo.com">gravatar gravatar@duckduckgo.com</span>
                     </div>
                     
 
-                       <div class="inline-detail" id="ia_gravatar_beau_at_dentedreality_com_au">
+                       <div class="inline-detail" id="ia_gravatar_gravatar_at_duckduckgo_com">
 
                                <div class="goodie-description">Gravatar profile</div>
 
@@ -12711,7 +13506,7 @@
 
 
 
-                           <div class="attribution" id="at_gravatar_beau_at_dentedreality_com_au">
+                           <div class="attribution" id="at_gravatar_gravatar_at_duckduckgo_com">
                                
                                         <span class="sourcetext">DuckDuckHack</span>
                                
@@ -12737,13 +13532,13 @@
 
 
                            <div class="sharing perma">
-                               <a class="gravatar_beau_at_dentedreality_com_au_perma" title="Permalink" href="">permalink</a>
+                               <a class="gravatar_gravatar_at_duckduckgo_com_perma" title="Permalink" href="">permalink</a>
                            </div> 
 
                            <div class="sharing sharebuttons">
-                               <a class="facebook gravatar_beau_at_dentedreality_com_au_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+                               <a class="facebook gravatar_gravatar_at_duckduckgo_com_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
 </a>
-                               <a class="twitter gravatar_beau_at_dentedreality_com_au_perma" target="_twitter" href="https://twitter.com/?status=Gravatar+profile+on+@duckduckgo:+">Share on Twitter
+                               <a class="twitter gravatar_gravatar_at_duckduckgo_com_perma" target="_twitter" href="https://twitter.com/?status=Gravatar+profile+on+@duckduckgo:+">Share on Twitter
 </a>
                            </div>
                         
@@ -12857,7 +13652,7 @@
 
 
 
-            <div class="goodiecat d_Everyday d_Words_and_Games d_Music" id="cat_Language"> 
+            <div class="goodiecat d_Everyday d_Geek d_Words_and_Games d_Music" id="cat_Language"> 
                 <h2 class="cat_header">
                     Language
                     <a class="togcat catminus" onclick="togglecat('Language', this); return false;" href="#">-</a>
@@ -13315,7 +14110,7 @@
 
                        <div class="inline-detail" id="ia_rhyme_list">
 
-                               <div class="goodie-description">find rhyming words</div>
+                               <div class="goodie-description">Rhyming words</div>
 
 
 
@@ -13328,21 +14123,7 @@
                                
                                         <span class="sourcetext">RhymeBrain</span>
                                
-                                       <a href="http://duckduckhack.com/">plugin</a>
                                    
-                                   
-                                   by
-                                <ul style="display:inline-block">
-                                    <li>Dylan Lloyd
-                                        &raquo; <a href="http://dylansserver.com" target="_new">web</a>
-                                        &raquo; <a href="mailto:dylan@dylansserver.com" target="_new">email</a>
-                                    </li>
-                                </ul>
-
-                                    <a href="https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/Rhymes.pm" title="DDG::Spice::Rhymes" target="_new">code</a>
-
-
-                                    
                             </div>
 
 
@@ -13354,7 +14135,7 @@
                            <div class="sharing sharebuttons">
                                <a class="facebook rhyme_list_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
 </a>
-                               <a class="twitter rhyme_list_perma" target="_twitter" href="https://twitter.com/?status=find+rhyming+words+on+@duckduckgo:+">Share on Twitter
+                               <a class="twitter rhyme_list_perma" target="_twitter" href="https://twitter.com/?status=Rhyming+words+on+@duckduckgo:+">Share on Twitter
 </a>
                            </div>
                         
@@ -13367,14 +14148,87 @@
 
 
 
-                                <!-- <h3>Other Examples</h3> -->
-
-                                    <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'go rhymes with')">go rhymes with</a></p>
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
 
-                                    <p><a onclick="goodierequest(null,'rhyme list')">rhyme list</a></p>
+                    </div>
+
+
+                <div class="goodieitem d_Words_and_Games c_Language" id="i_spell_hypocrit"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'spell_hypocrit')" href="spell_hypocrit_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
+                                
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="spell_hypocrit" name="spell hypocrit">spell hypocrit</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_spell_hypocrit">
+
+                               <div class="goodie-description">find spelling suggestions for a given word</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_spell_hypocrit">
+                               
+                                        <span class="sourcetext">DuckDuckHack</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@crazedpsyc
+                                        &raquo; <a href="https://twitter.com/crazedpsyc" target="_new">twitter</a>
+                                    </li>
+                                    <li>CRZEDPSYC
+                                        &raquo; <a href="https://metacpan.org/author/CRZEDPSYC" target="_new">metacpan</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/ddg-goodie-spell/blob/master/lib/DDG/Goodie/Spell.pm" title="DDG::Goodie::Spell" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="spell_hypocrit_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook spell_hypocrit_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter spell_hypocrit_perma" target="_twitter" href="https://twitter.com/?status=find+spelling+suggestions+for+a+given+word+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
 
 
 
@@ -13542,6 +14396,99 @@
                     </div>
 
 
+                <div class="goodieitem d_Geek c_Language" id="i_urban_dictionary_ROTFL"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'urban_dictionary_ROTFL')" href="urban_dictionary_ROTFL_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_urbandictionary_com_ico">
+                                
+                                    <a class="sourcetitle" title="UrbanDictionary"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="urban_dictionary_ROTFL" name="urban dictionary ROTFL">urban dictionary ROTFL</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_urban_dictionary_ROTFL">
+
+                               <div class="goodie-description">Lookup UrbanDictionary definitions</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_urban_dictionary_ROTFL">
+                               
+                                        <span class="sourcetext">UrbanDictionary</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>Filippo Valsorda
+                                        &raquo; <a href="http://pytux.it" target="_new">web</a>
+                                        &raquo; <a href="mailto:filippo.valsorda@gmail.com" target="_new">email</a>
+                                    </li>
+                                    <li>FiloSottile
+                                        &raquo; <a href="https://github.com/FiloSottile" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/UrbanDictionary.pm" title="DDG::Spice::UrbanDictionary" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="urban_dictionary_ROTFL_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook urban_dictionary_ROTFL_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter urban_dictionary_ROTFL_perma" target="_twitter" href="https://twitter.com/?status=Lookup+UrbanDictionary+definitions+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'ud OMG')">ud OMG</a></p>
+                                        <p><a onclick="goodierequest(null,'ud ASD')">ud ASD</a></p>
+
+                                    <p><a onclick="goodierequest(null,'urban dictionary ROTFL')">urban dictionary ROTFL</a></p>
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
                 <div class="goodieitem d_Everyday d_Music d_Words_and_Games c_Language" id="i_what_rhymes_with_duck"> 
 
                   <div class="gselectbox " onclick="goodieclick(this,'what_rhymes_with_duck')" href="what_rhymes_with_duck_perma">
@@ -13619,6 +14566,7 @@
 
 
                                         <p><a onclick="goodierequest(null,'go rhymes with')">go rhymes with</a></p>
+                                        <p><a onclick="goodierequest(null,'words that rhyme with smile')">words that rhyme with smile</a></p>
 
                                     <p><a onclick="goodierequest(null,'what rhymes with duck')">what rhymes with duck</a></p>
 
@@ -13794,7 +14742,7 @@
 
                        <div class="inline-detail" id="ia_density_of_the_earth">
 
-                               <div class="goodie-description">Find the desnity of planetary objects</div>
+                               <div class="goodie-description">Find the density of planetary objects</div>
 
 
 
@@ -13819,7 +14767,7 @@
                            <div class="sharing sharebuttons">
                                <a class="facebook density_of_the_earth_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
 </a>
-                               <a class="twitter density_of_the_earth_perma" target="_twitter" href="https://twitter.com/?status=Find+the+desnity+of+planetary+objects+on+@duckduckgo:+">Share on Twitter
+                               <a class="twitter density_of_the_earth_perma" target="_twitter" href="https://twitter.com/?status=Find+the+density+of+planetary+objects+on+@duckduckgo:+">Share on Twitter
 </a>
                            </div>
                         
@@ -14267,15 +15215,6 @@
 
 
 
-                                <!-- <h3>Other Examples</h3> -->
-
-                                    <h3>Other examples</h3>
-
-
-                                        <p><a onclick="goodierequest(null,'string php')">string php</a></p>
-
-                                    <p><a onclick="goodierequest(null,'cobol sin')">cobol sin</a></p>
-
 
 
                        </div> <!-- extra-detail -->
@@ -14564,6 +15503,87 @@
                                <a class="facebook github_zeroclickinfo_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
 </a>
                                <a class="twitter github_zeroclickinfo_perma" target="_twitter" href="https://twitter.com/?status=Github+info+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
+                <div class="goodieitem d_Programming c_Programming" id="i_hackage_containers"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'hackage_containers')" href="hackage_containers_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
+                                
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="hackage_containers" name="hackage containers">hackage containers</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_hackage_containers">
+
+                               <div class="goodie-description">Haskell packages</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_hackage_containers">
+                               
+                                        <span class="sourcetext">DuckDuckHack</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>Joachim Breitner
+                                        &raquo; <a href="https://github.com/nomeata" target="_new">github</a>
+                                        &raquo; <a href="http://www.joachim-breitner.de" target="_new">web</a>
+                                        &raquo; <a href="mailto:mail@joachim-breitner.de" target="_new">email</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/Hackage/Packages.pm" title="DDG::Spice::Hackage::Packages" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="hackage_containers_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook hackage_containers_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter hackage_containers_perma" target="_twitter" href="https://twitter.com/?status=Haskell+packages+on+@duckduckgo:+">Share on Twitter
 </a>
                            </div>
                         
@@ -19124,6 +20144,98 @@
                 <div class="goodiecatbody" id="catbody_Random">
 
 
+                <div class="goodieitem d_Trivia c_Random" id="i_choose_yes_or_no"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'choose_yes_or_no')" href="choose_yes_or_no_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
+                                
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="choose_yes_or_no" name="choose yes or no">choose yes or no</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_choose_yes_or_no">
+
+                               <div class="goodie-description">make a random choice</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_choose_yes_or_no">
+                               
+                                        <span class="sourcetext">DuckDuckHack</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>@crazedpsyc
+                                        &raquo; <a href="https://twitter.com/crazedpsyc" target="_new">twitter</a>
+                                    </li>
+                                    <li>CRZEDPSYC
+                                        &raquo; <a href="https://metacpan.org/author/CRZEDPSYC" target="_new">metacpan</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/ABC.pm" title="DDG::Goodie::ABC" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="choose_yes_or_no_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook choose_yes_or_no_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter choose_yes_or_no_perma" target="_twitter" href="https://twitter.com/?status=make+a+random+choice+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'choose heads or tails')">choose heads or tails</a></p>
+                                        <p><a onclick="goodierequest(null,'choose this or that or none')">choose this or that or none</a></p>
+
+                                    <p><a onclick="goodierequest(null,'choose yes or no')">choose yes or no</a></p>
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
                 <div class="goodieitem d_Special_Interest c_Random" id="i_chuck_norris_facts"> 
 
                   <div class="gselectbox " onclick="goodieclick(this,'chuck_norris_facts')" href="chuck_norris_facts_perma">
@@ -20137,97 +21249,6 @@
                                         <p><a onclick="goodierequest(null,'roll 3d12')">roll 3d12</a></p>
 
                                     <p><a onclick="goodierequest(null,'throw dice')">throw dice</a></p>
-
-
-
-                       </div> <!-- extra-detail -->
-                       </div> <!-- inline detail -->
-                      </div> <!-- gselectbox -->
-
-                    </div>
-
-
-                <div class="goodieitem d_Trivia c_Random" id="i_yes_or_no"> 
-
-                  <div class="gselectbox " onclick="goodieclick(this,'yes_or_no')" href="yes_or_no_perma">
-
-                        <div class="gsource">
-                            <div class="sourceicon ic_duckduckhack_com_ico">
-                                
-                                    <a class="sourcetitle" title="DuckDuckHack"></a>
-                                
-                            </div> 
-                        </div>
-
-                    <div class="widge">
-                        <span class="widget-link" id="yes_or_no" name="yes or no">yes or no</span>
-                    </div>
-                    
-
-                       <div class="inline-detail" id="ia_yes_or_no">
-
-                               <div class="goodie-description">make a random choice</div>
-
-
-
-
-
-
-
-
-                           <div class="attribution" id="at_yes_or_no">
-                               
-                                        <span class="sourcetext">DuckDuckHack</span>
-                               
-                                       <a href="http://duckduckhack.com/">plugin</a>
-                                   
-                                   
-                                   by
-                                <ul style="display:inline-block">
-                                    <li>@crazedpsyc
-                                        &raquo; <a href="https://twitter.com/crazedpsyc" target="_new">twitter</a>
-                                    </li>
-                                    <li>CRZEDPSYC
-                                        &raquo; <a href="https://metacpan.org/author/CRZEDPSYC" target="_new">metacpan</a>
-                                    </li>
-                                </ul>
-
-                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/ABC.pm" title="DDG::Goodie::ABC" target="_new">code</a>
-
-
-                                    
-                            </div>
-
-
-
-                           <div class="sharing perma">
-                               <a class="yes_or_no_perma" title="Permalink" href="">permalink</a>
-                           </div> 
-
-                           <div class="sharing sharebuttons">
-                               <a class="facebook yes_or_no_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
-</a>
-                               <a class="twitter yes_or_no_perma" target="_twitter" href="https://twitter.com/?status=make+a+random+choice+on+@duckduckgo:+">Share on Twitter
-</a>
-                           </div>
-                        
-                           <div class="extra-detail">
-
-
-
-
-
-
-
-
-                                <!-- <h3>Other Examples</h3> -->
-
-                                    <h3>Other examples</h3>
-
-
-                                        <p><a onclick="goodierequest(null,'this or that or none')">this or that or none</a></p>
-
-                                    <p><a onclick="goodierequest(null,'yes or no')">yes or no</a></p>
 
 
 
@@ -23733,6 +24754,82 @@
                     </div>
 
 
+                <div class="goodieitem d_Science c_Reference" id="i_red_yellow_white_gold_resistor"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'red_yellow_white_gold_resistor')" href="red_yellow_white_gold_resistor_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
+                                
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="red_yellow_white_gold_resistor" name="red yellow white gold resistor">red yellow white gold resistor</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_red_yellow_white_gold_resistor">
+
+                               <div class="goodie-description">find resistance based on colour bands</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_red_yellow_white_gold_resistor">
+                               
+                                        <span class="sourcetext">DuckDuckHack</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="red_yellow_white_gold_resistor_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook red_yellow_white_gold_resistor_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter red_yellow_white_gold_resistor_perma" target="_twitter" href="https://twitter.com/?status=find+resistance+based+on+colour+bands+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'resistor red yellow white')">resistor red yellow white</a></p>
+
+                                    <p><a onclick="goodierequest(null,'red yellow white gold resistor')">red yellow white gold resistor</a></p>
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
                 <div class="goodieitem d_Geek d_Sysadmin c_Reference" id="i_redis_rpush"> 
 
                   <div class="gselectbox " onclick="goodieclick(this,'redis_rpush')" href="redis_rpush_perma">
@@ -25701,84 +26798,6 @@
                       </div> <!-- gselectbox -->
 
                     </div>
-
-
-                <div class="goodieitem d_Sysadmin c_Software" id="i_pypy_achemkit"> 
-
-                  <div class="gselectbox " onclick="goodieclick(this,'pypy_achemkit')" href="pypy_achemkit_perma">
-
-                        <div class="gsource">
-                            <div class="sourceicon ic_pypi_python_org_ico">
-                                
-                                    <a class="sourcetitle" title="Python Package Index"></a>
-                                
-                            </div> 
-                        </div>
-
-                    <div class="widge">
-                        <span class="widget-link" id="pypy_achemkit" name="pypy achemkit">pypy achemkit</span>
-                    </div>
-                    
-
-                       <div class="inline-detail" id="ia_pypy_achemkit">
-
-                               <div class="goodie-description">Python packages</div>
-
-
-
-
-
-
-
-
-                           <div class="attribution" id="at_pypy_achemkit">
-                               
-                                        <span class="sourcetext">Python Package Index</span>
-                               
-                                   
-                            </div>
-
-
-
-                           <div class="sharing perma">
-                               <a class="pypy_achemkit_perma" title="Permalink" href="">permalink</a>
-                           </div> 
-
-                           <div class="sharing sharebuttons">
-                               <a class="facebook pypy_achemkit_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
-</a>
-                               <a class="twitter pypy_achemkit_perma" target="_twitter" href="https://twitter.com/?status=Python+packages+on+@duckduckgo:+">Share on Twitter
-</a>
-                           </div>
-                        
-                           <div class="extra-detail">
-
-
-
-
-
-
-
-
-                                <!-- <h3>Other Examples</h3> -->
-
-                                    <h3>Other examples</h3>
-
-
-                                        <p><a onclick="goodierequest(null,'achemkit')">achemkit</a></p>
-                                        <p><a onclick="goodierequest(null,'achemkit pypy')">achemkit pypy</a></p>
-                                        <p><a onclick="goodierequest(null,'pypy achemkit')">pypy achemkit</a></p>
-                                        <p><a onclick="goodierequest(null,'pip adhocracy')">pip adhocracy</a></p>
-
-                                    <p><a onclick="goodierequest(null,'pypy achemkit')">pypy achemkit</a></p>
-
-
-
-                       </div> <!-- extra-detail -->
-                       </div> <!-- inline detail -->
-                      </div> <!-- gselectbox -->
-
-                    </div>
                 </div><!-- .goodiecatbody -->
             </div><!-- goodiecat -->
 
@@ -26321,9 +27340,9 @@
                     </div>
 
 
-                <div class="goodieitem d_Geek d_Special_Interest c_Special" id="i_atmel_datasheet"> 
+                <div class="goodieitem d_Geek d_Special_Interest c_Special" id="i_atmega_datasheet"> 
 
-                  <div class="gselectbox " onclick="goodieclick(this,'atmel_datasheet')" href="atmel_datasheet_perma">
+                  <div class="gselectbox " onclick="goodieclick(this,'atmega_datasheet')" href="atmega_datasheet_perma">
 
                         <div class="gsource">
                             <div class="sourceicon ic_octopart_com_ico">
@@ -26332,22 +27351,22 @@
                         </div>
 
                     <div class="widge">
-                        <span class="widget-link" id="atmel_datasheet" name="atmel datasheet">atmel datasheet</span>
+                        <span class="widget-link" id="atmega_datasheet" name="atmega datasheet">atmega datasheet</span>
                     </div>
                     
 
-                       <div class="inline-detail" id="ia_atmel_datasheet">
+                       <div class="inline-detail" id="ia_atmega_datasheet">
 
-                               <div class="goodie-description">Searches parts from Octopart</div>
-
-
+                               <div class="goodie-description">Searches parts from Octopart.</div>
 
 
 
 
 
 
-                           <div class="attribution" id="at_atmel_datasheet">
+
+
+                           <div class="attribution" id="at_atmega_datasheet">
                                
                                
                                        <a href="http://duckduckhack.com/">plugin</a>
@@ -26369,13 +27388,13 @@
 
 
                            <div class="sharing perma">
-                               <a class="atmel_datasheet_perma" title="Permalink" href="">permalink</a>
+                               <a class="atmega_datasheet_perma" title="Permalink" href="">permalink</a>
                            </div> 
 
                            <div class="sharing sharebuttons">
-                               <a class="facebook atmel_datasheet_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+                               <a class="facebook atmega_datasheet_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
 </a>
-                               <a class="twitter atmel_datasheet_perma" target="_twitter" href="https://twitter.com/?status=Searches+parts+from+Octopart+on+@duckduckgo:+">Share on Twitter
+                               <a class="twitter atmega_datasheet_perma" target="_twitter" href="https://twitter.com/?status=Searches+parts+from+Octopart.+on+@duckduckgo:+">Share on Twitter
 </a>
                            </div>
                         
@@ -26387,6 +27406,15 @@
 
 
 
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'ne555 specs')">ne555 specs</a></p>
+
+                                    <p><a onclick="goodierequest(null,'atmega datasheet')">atmega datasheet</a></p>
 
 
 
@@ -26564,72 +27592,6 @@
                 </h2>
 
                 <div class="goodiecatbody" id="catbody_Time">
-
-
-                <div class="goodieitem d_Economy_and_Finance d_Travel c_Time" id="i_AA_102"> 
-
-                  <div class="gselectbox " onclick="goodieclick(this,'AA_102')" href="AA_102_perma">
-
-                        <div class="gsource">
-                            <div class="sourceicon ic_flightaware_com_ico">
-                                
-                                    <a class="sourcetitle" title="FlightAware"></a>
-                                
-                            </div> 
-                        </div>
-
-                    <div class="widge">
-                        <span class="widget-link" id="AA_102" name="AA 102">AA 102</span>
-                    </div>
-                    
-
-                       <div class="inline-detail" id="ia_AA_102">
-
-                               <div class="goodie-description">Flight information</div>
-
-
-
-
-
-
-
-
-                           <div class="attribution" id="at_AA_102">
-                               
-                                        <span class="sourcetext">FlightAware</span>
-                               
-                                   
-                            </div>
-
-
-
-                           <div class="sharing perma">
-                               <a class="AA_102_perma" title="Permalink" href="">permalink</a>
-                           </div> 
-
-                           <div class="sharing sharebuttons">
-                               <a class="facebook AA_102_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
-</a>
-                               <a class="twitter AA_102_perma" target="_twitter" href="https://twitter.com/?status=Flight+information+on+@duckduckgo:+">Share on Twitter
-</a>
-                           </div>
-                        
-                           <div class="extra-detail">
-
-
-
-
-
-
-
-
-
-
-                       </div> <!-- extra-detail -->
-                       </div> <!-- inline detail -->
-                      </div> <!-- gselectbox -->
-
-                    </div>
 
 
                 <div class="goodieitem d_Everyday d_Geography d_Travel c_Time" id="i_london_sunrise"> 
@@ -27040,6 +28002,106 @@
 
 
 
+            <div class="goodiecat d_Economy_and_Finance d_Everyday d_Travel" id="cat_Time_nbsp_sensitive"> 
+                <h2 class="cat_header">
+                    Time&nbsp;sensitive
+                    <a class="togcat catminus" onclick="togglecat('Time_nbsp_sensitive', this); return false;" href="#">-</a>
+                </h2>
+
+                <div class="goodiecatbody" id="catbody_Time_nbsp_sensitive">
+
+
+                <div class="goodieitem d_Economy_and_Finance d_Everyday d_Travel c_Time_nbsp_sensitive" id="i_AA_102"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'AA_102')" href="AA_102_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_flightaware_com_ico">
+                                
+                                    <a class="sourcetitle" title="FlightAware"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="AA_102" name="AA 102">AA 102</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_AA_102">
+
+                               <div class="goodie-description">Flight information</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_AA_102">
+                               
+                                        <span class="sourcetext">FlightAware</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>Caine Tighe
+                                        &raquo; <a href="https://github.com/nilnilnil" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/Airlines.pm" title="DDG::Spice::Airlines" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="AA_102_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook AA_102_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter AA_102_perma" target="_twitter" href="https://twitter.com/?status=Flight+information+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'Delta 3684')">Delta 3684</a></p>
+
+                                    <p><a onclick="goodierequest(null,'AA 102')">AA 102</a></p>
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+                </div><!-- .goodiecatbody -->
+            </div><!-- goodiecat -->
+
+
+
             <div class="goodiecat d_Web_Design d_Programming d_Cryptography d_Words_and_Games" id="cat_Transformations"> 
                 <h2 class="cat_header">
                     Transformations
@@ -27106,6 +28168,94 @@
 
 
 
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
+                <div class="goodieitem d_Words_and_Games c_Transformations" id="i_anagram_of_filter"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'anagram_of_filter')" href="anagram_of_filter_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_duckduckhack_com_ico">
+                                
+                                    <a class="sourcetitle" title="DuckDuckHack"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="anagram_of_filter" name="anagram of filter">anagram of filter</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_anagram_of_filter">
+
+                               <div class="goodie-description">find the anagram(s) of your query</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_anagram_of_filter">
+                               
+                                        <span class="sourcetext">DuckDuckHack</span>
+                               
+                                       <a href="http://duckduckhack.com/">plugin</a>
+                                   
+                                   
+                                   by
+                                <ul style="display:inline-block">
+                                    <li>beardlybread
+                                        &raquo; <a href="https://github.com/beardlybread" target="_new">github</a>
+                                    </li>
+                                </ul>
+
+                                    <a href="https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Anagram.pm" title="DDG::Goodie::Anagram" target="_new">code</a>
+
+
+                                    
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="anagram_of_filter_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook anagram_of_filter_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter anagram_of_filter_perma" target="_twitter" href="https://twitter.com/?status=find+the+anagram(s)+of+your+query+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+                                <!-- <h3>Other Examples</h3> -->
+
+                                    <h3>Other examples</h3>
+
+
+                                        <p><a onclick="goodierequest(null,'anagram filter 5')">anagram filter 5</a></p>
+
+                                    <p><a onclick="goodierequest(null,'anagram of filter')">anagram of filter</a></p>
 
 
 
@@ -29431,6 +30581,7 @@
 </div>
 
 
+
 <script src="/js/jquery/jquery-1.8.2.min.js"></script>
 
 <script>
@@ -29456,6 +30607,7 @@ nip(3);
 
     // -->
 </script>
+
 
 
 
