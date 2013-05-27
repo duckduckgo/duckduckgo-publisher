@@ -1,11 +1,11 @@
 <div class="site-footer" id="footer">
-	<: 
-	#<p class="footmenu">		
-	#	<a target="_ddg-about" href="https://duckduckgo.com/about"><: l('About DuckDuckGo') :></a>	
-	#	<a target="_ddg-privacy" href="https://duckduckgo.com/privacy"><: l('Privacy Policy') :></a>
-	#	<a target="_ddg-contact" href="https://duckduckgo.com/feedback"><: l('Contact Us') :></a>
-	#	</h6>
-	#</p>
-	:>
+	<!--
+	<p class="footmenu">
+		<a target="_ddg-about" href="https://duckduckgo.com/about"><: l('About DuckDuckGo') :></a>
+		<a target="_ddg-privacy" href="https://duckduckgo.com/privacy"><: l('Privacy Policy') :></a>
+		<a target="_ddg-contact" href="https://duckduckgo.com/feedback"><: l('Contact Us') :></a>
+		</h6>
+	</p>
+	-->
 	<p class="copyright">&copy; <a href="https://duckduckgo.com" target="ddg">DuckDuckGo</a>. <: l('All Rights Reserved.') :></p>
 </div>
