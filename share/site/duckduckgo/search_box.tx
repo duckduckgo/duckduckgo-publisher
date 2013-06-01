@@ -24,7 +24,7 @@ pre {
 <: lp('oneofmanyspread','One of many ways to help %s',r('<a href="/supportus">') ~ lp('oneofmanyspread','support DuckDuckGo') ~ r('</a>')) :>
 
 <div style="margin-bottom:15px;"></div>
-<: l('Feel free to adjust the settings below. Then, just copy and paste the code into your website!') :>
+<: l('Feel free to adjust the settings below. Then, just copy and paste the code into your website! There's also a great writeup on how to adjust the look of the search box <a href="http://hardik.co/blog/2013/stylising-duckduckgo-site-search">here</a>') :>
 
 <div style="margin-bottom:30px;"></div>
 <i>Regular search box</i>
