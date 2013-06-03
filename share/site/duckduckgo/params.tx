@@ -23,6 +23,9 @@
 <div style="padding-top:5px;"></div>
 &nbsp; &nbsp; <span class="clu">http://duckduckgo.com/?q=search&amp;kp=-1&amp;kl=us-en</span>
 
+<div style="padding-top:25px;"></div>
+These parameters are intended for individual use. They can also be used in conjunction with our <a href="/search_box">site search</a> to customize results pages more closely to your site. However, if using them for that purpose or any other beyond individual use (e.g. for apps/extensions), please do not remove our branding (ko, kr  params etc.) or advertising (k1, k4 params etc.) as we have contracts in place that we would be violating if you did so. Please see <a href="http://help.duckduckgo.com/customer/portal/articles/775109">our partnerships page</a> for more info on guidelines and getting in touch with us.
+
 <div style="margin-bottom:30px;"></div>
 <table>
 
@@ -474,10 +477,9 @@ k2 =
 <td class="ctd">
 ko =
 <ul>
-<ul>
 <li><: l('%s for %s','1',lp('setting','On & floating')) :>
 <li><: l('%s for %s','s',lp('setting','On & scrolling')) :>
-<li><: l('%s for %s','-1',lp('setting','Off')) :>
+<li><: l('%s for %s','-1',lp('setting','Off')) :> (Please do not remove our header for anything other than individual use. See paragraph at the top for more details.)
 </ul>
 </td>
 </tr>

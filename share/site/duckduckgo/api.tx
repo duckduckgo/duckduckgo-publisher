@@ -32,6 +32,9 @@ and
 (<a href="http://api.duckduckgo.com/?q=define+ostensibly&format=json&pretty=1">API example</a>). 
 
 <div style="margin-bottom:20px;"></div>
+This API does not include all of our links, however. That is, it is not a full search results API or a way to get DuckDuckGo results into your applications beyond our instant answers. Because of the way <a href="http://help.duckduckgo.com/customer/portal/articles/216399">we generate our search results</a>, we unfortunately do not have the rights to fully syndicate our results. For the same reason, we cannot allow framing our results without our branding. Please see <a href="http://help.duckduckgo.com/customer/portal/articles/775109">our partnerships page</a> for more info on guidelines and getting in touch with us.
+
+<div style="margin-bottom:20px;"></div>
 Our long-term goal is for <a href="https://duckduckgo.com/goodies/">all of our instant answers</a> to be available through this open API. Many of these instant answers are open source via our <a href="http://duckduckhack.com/">DuckDuckHack</a> platform. Using that platform, you can add your own APIs and data sources as well.
 
 <p style="margin-top: 20px;">
@@ -54,9 +57,9 @@ To consume it yourself, you can use one of the language libraries listed below o
 <p style="margin-top: 25px;">
 Here are the requirements for use: 
 <ul>
-<li>Link attribution in each place you use the info for both us and any underlying source. 
-<li>Non-commercial use unless you get email approval from us (though we're generally fine with anything that isn't sketchy).
-<li>Use a descriptive useragent where possible. (We don't save full user agents but this can be handy in debugging situations).
+<li>Link attribution in each place you use the info for both us and any underlying source. For example: from <a href="http://en.wikipedia.org/wiki/DuckDuckGo">Wikipedia</a>, powered <a href="https://duckduckgo.com/">by DuckDuckGo</a>. 
+<li>Non-commercial use unless you get <a href="http://help.duckduckgo.com/customer/portal/articles/775109">email approval from us</a> (though we're generally fine with anything that isn't sketchy).
+<li>Use a descriptive <a href="http://help.duckduckgo.com/customer/portal/articles/448610">t paramter</a>, i.e. append &t=nameofapp to your requests.
 </ul>
 
 Our overall goal is to get more people using DuckDuckGo, so please keep that in mind as well. 
@@ -200,15 +203,7 @@ vs
 <i>Why is x query blank? Where are all the Web links like on the main site?</i> 
 
 <p style="margin-top: 5px;">
-<span class="small">This is an instant answer API, and not a full results API. However, there are some Web links within it, e.g. official sites.</span>
-
-
-
-<p style="margin-top: 25px;">
-<i>So is there then another API with all the Web links?</i> 
-
-<p style="margin-top: 5px;">
-<span class="small">Since we use many underlying APIs in our full results (merged with our own indexes), we do not have rights at this time provide an API with all our Web links. We do, however, provide <a href="/search_box.html">search box</a> integration.</span>
+<span class="small">This is an Instant Answer API, and not a full results API. However, there are some Web links within it, e.g. official sites. Please see the second paragraph at the top for more info.</span>
 
 
 <p style="margin-top: 25px;">
@@ -219,5 +214,15 @@ vs
 Not all of our instant answers are available right now via this API for a variety of reasons, though it is our long term goal to make them so. However, if you would like to see something in particular please <a href="/feedback.html">let us know</a>, and perhaps we can prioritize making it happen.
 </span>
 
+
 <p style="margin-top: 25px;">
-If you have more questions, please <a href="/feedback.html">let us know</a>.
+<i>Can I use the DuckDuckGo name to help promote what I've developed with the API?</i>
+
+<p style="margin-top: 5px;">
+<span class="small">
+Yes and no. We do not want to confuse users into thinking that your application was made by us. Please see <a href="http://help.duckduckgo.com/customer/portal/articles/775109">our partnerships page</a> for more info on guidelines and getting in touch with us. 
+</span>
+
+
+<p style="margin-top: 25px;">
+If you have more questions, please <a href="http://help.duckduckgo.com/customer/portal/articles/775109">let us know</a>.

@@ -19,16 +19,12 @@ pre {
 
 <div style="margin-bottom:30px;"></div>
 <: l('Add a %s search box to your site!','DuckDuckGo') :>
+<: l('Feel free to adjust the settings below. Then, just copy and paste the code into your website.') :>
 
 <div style="margin-bottom:15px;"></div>
-<: lp('oneofmanyspread','One of many ways to help %s',r('<a href="/supportus">') ~ lp('oneofmanyspread','support DuckDuckGo') ~ r('</a>')) :>
-
-<div style="margin-bottom:15px;"></div>
-<: l('Feel free to adjust the settings below. Then, just copy and paste the code into your website! There\'s also a great writeup on how to adjust the look of the search box <a href="http://hardik.co/blog/2013/stylising-duckduckgo-site-search">here</a>') :>
+Because of the way <a href="http://help.duckduckgo.com/customer/portal/articles/216399">we generate our search results</a>, we do not have the syndication rights to allow you to host our results on your site (e.g. in a frame). When your users click on the results they will be instead taken to our site. Please see <a href="http://help.duckduckgo.com/customer/portal/articles/775109">our partnerships page</a> for more info on guidelines and getting in touch with us.
 
 <div style="margin-bottom:30px;"></div>
-<i>Regular search box</i>
-<div style="margin-bottom:10px;"></div>
 <iframe id="code_frame" src="/search.html" style="overflow:hidden;margin:0;padding:0;width:550px;height:39px;" frameborder="0"></iframe>
 <pre id="code">
 &lt;iframe src="http://duckduckgo.com/search.html" style="overflow:hidden;margin:0;padding:0;width:550px;height:60px;" frameborder="0"&gt;&lt;/iframe&gt;
@@ -103,30 +99,14 @@ new_code();
 <input type="radio" name="focus" checked onchange="if (this.checked) new_code_focus=''; else new_code_focus='';new_code();"> Off
 &nbsp; <input type="radio" name="focus" onchange="if (this.checked) new_code_focus='yes'; else new_code_focus='';new_code();"> On (If On, the cursor will automatically be in the search box when the page loads)
 <div style="margin-bottom:7px;"></div>                                        
-<li>You can also use the <a href="/params.html">URL params</a> for DDG settings
 </ul>
+
+<div style="margin-bottom:15px;"></div>
+You can also use our <a href="/params.html">URL params</a> and use DuckDuckGo settings to further customize the results pages. However, please see the guidelines at the top of that page before doing so.
+
+<div style="margin-bottom:15px;"></div>
+You can also make and style your own box like <a href="http://ye.gg/blog">our founder has on his blog</a> (that one has a blue button, for example). There is also a great <a href="http://hardik.co/blog/2013/stylising-duckduckgo-site-search">a blog post</a> on how to do this.
+
+
 </span>
 
-<div style="margin-bottom:45px;"></div>
-<i>Banner version</i>
-<div style="margin-bottom:5px;"></div>
-<div style="border:1px solid #000;width:250px;">
-<div style="background-color:#000;border:2px solid #FFF;padding:5px;text-align:center;">
-<img src="http://duckduckgo.com/nduck.v106.small.png" alt="DuckDuckGo logo"/> 
-<div style="color:#fff;font-size:12px;padding:5px;">DuckDuckGo is a search engine that protects privacy and has lots of features.</div> 
-<form action="http://duckduckgo.com/"> 
-<input type="text" name="q" style="width:160px;border:1px solid #666;background-color:#000;color:#fff;padding:1px;border-radius:4px;font-size:14px;"/> 
-<input type="submit" style="background-color:#000;color:#fff;font-size:12px;padding:2px;" value="Search">
-</form> 
-</div>
-</div>
-<pre>
-&lt;div style="margin-bottom:5px;"&gt;&lt;/div&gt;&lt;div style="border:1px solid #000;width:250px;"&gt;&lt;div style="background-color:#000;border:2px solid #FFF;padding:5px;text-align:center;"&gt;&lt;img src="http://tmbg.duckduckgo.com/nduck.v106.small.png" alt="DuckDuckGo logo"/&gt;&lt;div style="color:#fff;font-size:12px;padding:5px;"&gt;DuckDuckGo is a search engine that protects privacy and has lots of features.&lt;/div&gt;&lt;form action="http://duckduckgo.com/"&gt;&lt;input type="text" name="q" style="width:160px;border:1px solid #666;background-color:#000;color:#fff;padding:1px;border-radius:4px;font-size:14px;"/&gt;&lt;input type="submit" style="background-color:#000;color:#fff;font-size:12px;padding:2px;" value="Search"&gt;&lt;input type="hidden" name="t" value=""/&gt;&lt;/form&gt;&lt;/div&gt;&lt;/div&gt;
-</pre>
-<span class="clu">
-<ul>
-<!--<li>To track for spread page add your name where it says value=""///-->
-<li>Modify message (or anything) to fit your audience
-<li>Originally made by <a href="http://twitter.com/#!/blaxpirit">@blaxpirit</a>
-</ul>
-</span>
