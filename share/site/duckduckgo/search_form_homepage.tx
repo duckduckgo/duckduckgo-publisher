@@ -1,13 +1,13 @@
+<!--
 		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage">About DuckDuckGo</div>
 		</a>
-
-<!--
-
-		<a id="logo_homepage_link" title="Johannes Brahms" href="/?q=Johannes+Brahms">
-			<div id="logo_homepage">Johannes Brahms</div>
-		</a>
 		//-->
+
+
+		<a id="logo_homepage_link" title="Adam Smith" href="/?q=Adam_Smith">
+			<div id="logo_homepage">Adam Smith</div>
+		</a>
 
 
 
