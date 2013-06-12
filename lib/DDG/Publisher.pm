@@ -56,6 +56,17 @@ has sites => (
 	builder => 1,
 );
 
+sub _build_sites { 
+	my ( $self ) = @_;
+	return {map {
+		my $class = 'DDG::Publisher::Site::'.$_;
+		load_class($class);
+		s/([a-z])([A-Z])/$1_$2/g;
+		$_ = lc($_);
+		lc($_) => $class->new( key => lc($_), publisher => $self );
+	} @{$self->site_classes}};
+}
+
 =attr compression
 
 See L<DDG::App::Publisher/compression>.
@@ -77,17 +88,6 @@ has dryrun => (
 	is => 'ro',
 	predicate => 1,
 );
-
-sub _build_sites { 
-	my ( $self ) = @_;
-	return [map {
-		my $class = 'DDG::Publisher::Site::'.$_;
-		load_class($class);
-		s/([a-z])([A-Z])/$1_$2/g;
-		$_ = lc($_);
-		$class->new( key => lc($_), publisher => $self );
-	} @{$self->site_classes}];
-}
 
 sub BUILD {
 	my ( $self ) = @_;
@@ -112,7 +112,7 @@ sub publish_to {
 	# For every site...
 	#
 
-	for my $site (@{$self->sites}) {
+	for my $site (values %{$self->sites}) {
 
 		#
 		# For every dir in the site...

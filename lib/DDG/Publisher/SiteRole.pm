@@ -66,6 +66,20 @@ has dirs => (
 	lazy => 1,
 );
 
+sub _build_dirs {
+	my ( $self ) = @_;
+	return {map {
+		my $class = (ref $self || $self).'::'.$_;
+		load_class($class);
+		s/([a-z])([A-Z])/$1_$2/g;
+		$_ = lc($_);
+		$_ => $class->new(
+			key => $_,
+			site => $self,
+		);
+	} $self->dirs_classes};
+}
+
 =attr default_locale
 
 Default locale to use on this site. Defaults to en_US and should never be
@@ -82,18 +96,27 @@ has default_locale => (
 
 sub _build_default_locale { 'en_US' } # DON'T CHANGE
 
-sub _build_dirs {
+=attr fullpath
+
+Migrated fullpath file references for all dirs of the site
+
+=cut
+
+has fullpath_files => (
+	is => 'ro',
+	lazy => 1,
+	builder => 1,
+);
+
+sub _build_fullpath_files {
 	my ( $self ) = @_;
-	return {map {
-		my $class = (ref $self || $self).'::'.$_;
-		load_class($class);
-		s/([a-z])([A-Z])/$1_$2/g;
-		$_ = lc($_);
-		$_ => $class->new(
-			key => $_,
-			site => $self,
-		);
-	} $self->dirs_classes};
+	my %fullpath_files;
+	for my $dir (values %{$self->dirs}) {
+		for my $key (keys %{$dir->fullpath_files}) {
+			$fullpath_files{$key} = $dir->fullpath_files->{$key};
+		}
+	}
+	return \%fullpath_files;
 }
 
 =attr save_data
