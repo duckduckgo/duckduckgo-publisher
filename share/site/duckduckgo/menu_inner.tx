@@ -1,9 +1,10 @@
-<li><a href="/about" tabindex="-1"><: l('About') :></a></li>
-<li><a href="/settings" tabindex="-1"><: l('Settings') :></a></li>
-<li><a href="/goodies" tabindex="-1"><: l('Goodies') :></a></li>
-<li><a href="/feedback" tabindex="-1"><: l('Help') :></a></li>
+<li><a href="/about/" tabindex="-1"><: l('About') :></a></li>
+<li><a href="/settings/" tabindex="-1"><: l('Settings') :></a></li>
+<li><a href="/goodies/" tabindex="-1"><: l('Goodies') :></a></li>
+<li><a href="/feedback/" tabindex="-1"><: l('Help') :></a></li>
+<li><a href="/press/" tabindex="-1"><: l('Press') :></a></li>
 <li class="more_menu_header header_button_menu_header"><: l('PRIVACY') :>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-<li><a href="/privacy" tabindex="-1"><: l('Policy') :></a></li>
+<li><a href="/privacy/" tabindex="-1"><: l('Policy') :></a></li>
 <li><a href="http://donttrack.us/" tabindex="-1">DontTrack</a></li>
 <li><a href="http://dontbubble.us/" tabindex="-1">DontBubble</a></li>
 <li><a href="http://whatisdnt.com/" tabindex="-1">WhatIsDNT</a></li>
