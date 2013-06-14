@@ -26,6 +26,7 @@ sub _build_site_classes {[qw(
 	Donttrackus
 	Dontbubbleus
 	Whatisdnt
+	Fixtracking
 )]}
 
 =attr extra_template_dirs
