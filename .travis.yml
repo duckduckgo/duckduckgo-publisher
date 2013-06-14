@@ -14,6 +14,7 @@ install:
   - duckpan DDGC::Locale::DuckduckgoDontbubbleus
   - duckpan DDGC::Locale::DuckduckgoDonttrackus
   - duckpan DDGC::Locale::DuckduckgoWhatisdnt
+  - duckpan DDGC::Locale::DuckduckgoFixtracking
 language: perl
 perl:
   - 5.16
