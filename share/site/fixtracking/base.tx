@@ -9,7 +9,7 @@
   <head>
 	<: include "head.tx" :>
   </head>
-  <body id="pg-<: $f.filebase :>" class="unknown">
+  <body id="pg-addons" class="unknown">
 	<a name="top"></a>
 	<div class="site-wrapper" id="wrapper">
 	  <: include "header.tx" :>	  
