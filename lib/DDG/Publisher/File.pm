@@ -131,6 +131,7 @@ has content => (
 	lazy => 1,
 	builder => 1,
 );
+sub uncached_content { shift->_build_content }
 
 sub _build_content {
 	my ( $self ) = @_;
