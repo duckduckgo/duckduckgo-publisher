@@ -1,10 +1,5 @@
 	<div id="dest-boxes">
 		<div class="dest">
-		<br>
-<p ALIGN=center><font size=80px;font color=#CC3333> What can we help you find?</p>
-
-<p ALIGN=center><iframe frameborder="0" style="overflow:hidden;margin:0;padding:0;width:483px;height:60px;" src="http://duckduckgo.com/search.html?duck=yes&amp;site=help.duckduckgo.com&amp;prefill=Search for Help &amp;focus=yes"></iframe>
-<br>
 			<a href="http://help.duckduckgo.com/">
 				<img src="/assets/logos/logo_feedback.help.png" alt="" />
 				<h2><: l('Help Pages') :></h2>
