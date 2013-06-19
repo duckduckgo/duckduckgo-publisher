@@ -1,14 +1,15 @@
+<!--
 		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage">About DuckDuckGo</div>
 		</a>
+		//-->
 
-<!--
 
-		<a id="logo_homepage_link" title="Adam Smith" href="/Adam_Smith">
-			<div id="logo_homepage">Adam Smith</div>
+
+		<a id="logo_homepage_link" title="Stop Watching Us" href="https://call.stopwatching.us/">
+			<div id="logo_homepage">Stop Watching Us</div>
 		</a>
 
-		//-->
 
 
 		<form name="x" method="POST" action="/html" id="search_form_homepage" onSubmit="return nbr()">
