@@ -1,0 +1,6 @@
+
+   <link rel="stylesheet" type="text/css" href="common/css/micro.css?1" /> 
+   <link rel="stylesheet" type="text/css" href="css/addons.css?1" /> 
+   <meta name="viewport" content="width=100, initial-scale=1.0"/>
+   
+   <!--[if lte IE 9]><style>.frame input, .reveal-modal, .reveal-modal-bg, .pie { behavior: url(common/PIE.htc);} </style><![endif]-->

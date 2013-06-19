@@ -1,0 +1,26 @@
+
+	<div class="site-header" id="header">
+		<!--		
+		<span class="topmsg"><span class="b-spec unknown chrome">Incognito</span> <span class="b-spec msie">InPrivate</span> <span class="b-spec firefox safari opera">Private</span> Mode Also Tracks You</span>
+		//-->
+		<span class="topmsg">Fix Tracking!</span>
+		<div class="content-wrap">
+			<img src="images/dax-sheriff_out_hat_big.png" alt="There's a new Sheriff in town ... and he's fixin' to correct some trackin' problems, partner" id="pg-logo" class="sherrif" />
+			<h1>
+				<span class="browsers">
+					<span class="unknown-browser">your browser</span>
+					<span class="firefox browser"><i class="icon-browser"></i> Firefox</span>
+					<span class="chrome browser"><i class="icon-browser"></i> Chrome</span>
+					<span class="safari browser"><i class="icon-browser"></i> Safari</span>
+					<span class="opera browser"><i class="icon-browser"></i> Opera</span>
+					<span class="msie browser"><i class="icon-browser"></i> IE</span>
+					<span class="swap left"></span><span class="swap right"></span>
+				</span>
+			<br>How-to stop getting tracked in your Browser.
+			</h1>
+
+			<h2>Ads following you everywhere? Stop those and <a href="http://online.wsj.com/public/page/what-they-know-digital-privacy.html" target="_wsj-worse">worse</a>.</h2>
+
+			<h3><span class="hr">A Guide by <a href="https://duckduckgo.com">DuckDuckGo</a></span></h3>
+		</div>
+	</div>

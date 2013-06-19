@@ -9,8 +9,8 @@
   <head>
 	<: include "head.tx" :>
   </head>
-  <body id="pg-<: $f.filebase :>">
-
+  <body id="pg-<: $f.filebase :>" class="unknown">
+	<a name="top"></a>
 	<div class="site-wrapper" id="wrapper">
 	  <: include "header.tx" :>	  
 	  <div class="site-body content-wrap">
@@ -28,7 +28,8 @@
     <: include "share_modal.tx" :>
 	<script src="common/js/plugins.js" type="text/javascript"></script>
 	<script src="common/js/script.js" type="text/javascript"></script>
-	<script src="js/bubble.js" type="text/javascript"></script>
+	<script src="js/addons.js" type="text/javascript"></script>	
+	<script type="text/javascript" src="ddg/<: $ENV.DDG_DYNAMIC_JS_FILE || 'duckduck.js' :>"></script>
 	
   </body>
 </html>
