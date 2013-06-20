@@ -11822,72 +11822,6 @@
                     </div>
 
 
-                <div class="goodieitem d_Food_and_Drink c_Food" id="i_slow_cooker_recipes"> 
-
-                  <div class="gselectbox " onclick="goodieclick(this,'slow_cooker_recipes')" href="slow_cooker_recipes_perma">
-
-                        <div class="gsource">
-                            <div class="sourceicon ic_punchfork_com_ico">
-                                
-                                    <a class="sourcetitle" title="PunchFork"></a>
-                                
-                            </div> 
-                        </div>
-
-                    <div class="widge">
-                        <span class="widget-link" id="slow_cooker_recipes" name="slow cooker recipes">slow cooker recipes</span>
-                    </div>
-                    
-
-                       <div class="inline-detail" id="ia_slow_cooker_recipes">
-
-                               <div class="goodie-description">Recipes via Punchfork</div>
-
-
-
-
-
-
-
-
-                           <div class="attribution" id="at_slow_cooker_recipes">
-                               
-                                        <span class="sourcetext">PunchFork</span>
-                               
-                                   
-                            </div>
-
-
-
-                           <div class="sharing perma">
-                               <a class="slow_cooker_recipes_perma" title="Permalink" href="">permalink</a>
-                           </div> 
-
-                           <div class="sharing sharebuttons">
-                               <a class="facebook slow_cooker_recipes_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
-</a>
-                               <a class="twitter slow_cooker_recipes_perma" target="_twitter" href="https://twitter.com/?status=Recipes+via+Punchfork+on+@duckduckgo:+">Share on Twitter
-</a>
-                           </div>
-                        
-                           <div class="extra-detail">
-
-
-
-
-
-
-
-
-
-
-                       </div> <!-- extra-detail -->
-                       </div> <!-- inline detail -->
-                      </div> <!-- gselectbox -->
-
-                    </div>
-
-
                 <div class="goodieitem d_Everyday d_Food_and_Drink c_Food" id="i_tofu_ginger"> 
 
                   <div class="gselectbox " onclick="goodieclick(this,'tofu_ginger')" href="tofu_ginger_perma">
@@ -26021,7 +25955,7 @@
                   <div class="gselectbox " onclick="goodieclick(this,'ldconfig')" href="ldconfig_perma">
 
                         <div class="gsource">
-                            <div class="sourceicon ic_sysinf0_klabs_be_ico">
+                            <div class="sourceicon ic_oreilly_com_ico">
                                 
                                     <a class="sourcetitle" title="Linux"></a>
                                 
@@ -26035,7 +25969,7 @@
 
                        <div class="inline-detail" id="ia_ldconfig">
 
-                               <div class="goodie-description">Linus info. from O'reilly.com </div>
+                               <div class="goodie-description">Linux info from O'Reilly.com</div>
 
 
 
@@ -26060,7 +25994,7 @@
                            <div class="sharing sharebuttons">
                                <a class="facebook ldconfig_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
 </a>
-                               <a class="twitter ldconfig_perma" target="_twitter" href="https://twitter.com/?status=Linus+info.+from+O'reilly.com++on+@duckduckgo:+">Share on Twitter
+                               <a class="twitter ldconfig_perma" target="_twitter" href="https://twitter.com/?status=Linux+info+from+O'Reilly.com+on+@duckduckgo:+">Share on Twitter
 </a>
                            </div>
                         
@@ -26163,7 +26097,7 @@
                   <div class="gselectbox " onclick="goodieclick(this,'linux_enoent')" href="linux_enoent_perma">
 
                         <div class="gsource">
-                            <div class="sourceicon ic_sysinf0_klabs_be_ico">
+                            <div class="sourceicon ic_icon16_png">
                                 
                                     <a class="sourcetitle" title="Sysinfo0"></a>
                                 
@@ -27894,7 +27828,7 @@
                   <div class="gselectbox " onclick="goodieclick(this,'subversion_branch')" href="subversion_branch_perma">
 
                         <div class="gsource">
-                            <div class="sourceicon ic_svnbook_red-bean_com_ico">
+                            <div class="sourceicon ic_red-bean_com_ico">
                                 
                                     <a class="sourcetitle" title="Version Control with Subversion"></a>
                                 
