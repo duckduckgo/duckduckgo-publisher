@@ -9,7 +9,15 @@ with qw(
 sub path { '/' }
 
 sub pages {{
-	index => sub {},
+	index => sub {
+		addons => [{
+			key => "value",
+		},{
+			key => "value",
+		},{
+			key => "value",
+		}],
+	},
 }}
 
 1;
