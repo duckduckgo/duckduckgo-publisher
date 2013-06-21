@@ -1,0 +1,37 @@
+		
+		<p class="unknown-browser">We're not sure which browser you're using, which might mean that it is not included on this page. You can ask the DuckDuckGo community about your browser at <a href="http://duck.co">Duck.co</a>.</p>	
+		<noscript>
+			<p>It looks like you have JavaScript disabled and this page requires it to work properly. While we congratulate you on your choice to surf safely by turning off scripting, we'd still like to show you some other great resources for managing privacy on the web. So perhaps you could enable JavaScript in your browser for just <strong>fixtracking.com</strong>.</p>
+		</noscript>	
+		
+		<div id="recommended">
+			<h2>At a minimum, we suggest:</h2>
+			
+			<!-- Loop Recommended Items -->
+			
+		</div><!--#recommended-->
+		
+		<: include "browser_settings.tx" :>
+		
+		<hr/>
+		
+		<: include "methods.tx" :>
+		
+		<hr/>
+		
+		<h2>Other Tools to Consider</h2>
+		
+		<div id="other-tools">
+		
+			<!-- Loop 'Optional' Items -->
+		
+		</div><!--#other-tools-->
+		
+		<: include "browser_swap.tx" :>
+		
+		<hr />
+		<h2>Finally, friends don't let friends get tracked!</h2>
+		<h2>Do your part by helping five friends Fix Tracking.</h2>
+		<hr />
+		<h6>If you have ideas on how to improve this site, please <a href="https://duck.co/topic/fixtracking-com" target="ddg">let us know</a>.</h6>
+		

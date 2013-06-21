@@ -1,0 +1,30 @@
+				
+				<div class="frame-wrap b-spec rec-firefox rec-chrome rec-msie rec-safari rec-opera opt-firefox opt-chrome opt-msie opt-safari opt-opera">
+					<div class="frame addon">
+						<div class="addon-logo">
+							<img src="images/" alt="" />
+						</div>
+						<h5></h5>
+						<ul>
+							<li></li>
+						</ul>
+						
+						<p class="more-info firefox"><a href="" target="">Add to Browser</a></p>
+						<p class="more-info chrome"><a href="" target="">Add to Browser</a></p>
+						<p class="more-info msie"><a href="" target="">Add to Browser</a></p>
+						<p class="more-info safari"><a href="" target="">Add to Browser</a></p>
+						
+						<i class="icon-browser big"></i>
+						<span class="type">
+							<a href="#types">
+								<i class="icon settings" rel="settings"></i>
+								<i class="icon encryption" rel="encryption"></i>
+								<i class="icon scripts" rel="scripts"></i>
+								<i class="icon cookies" rel="cookies"></i>
+								<i class="icon flashcookies" rel="flash-cookies"></i></span>
+								<i class="icon bugs" rel="bugs"></i>
+								<i class="icon referrer" rel="referrer-tracking"></i>								
+							</a>
+						</span>
+					</div>
+				</div>
