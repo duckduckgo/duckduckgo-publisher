@@ -1,8 +1,22 @@
-<a name="top"></a>
+  <a name="top"></a>
 
-<div class="site-header" id="header">
+  <div id="lang-select" class="button">
+	<span class="current"><img src="<: $locales[$f.locale].flag_url :>" /><: $locales[$f.locale].name_in_local :></span>
+	<ul class="hide">
+		<: for $locales.keys() -> $locale { :>
+			<: if $locales[$locale].percent > 95 || $locale == $s.default_locale { :>
+				<li<: if $locale == $f.locale { :> class="current"<: } :>><a href="/?kad=<: $locale :>">
+					<img src="<: $locales[$locale].flag_url :>" />
+					<: $locales[$locale].name_in_local :>
+				</a></li>
+			<: } :>
+		<: } :>
+	</ul>
+  </div>
+  
+  <div class="site-header" id="header">
 	<a href="http://fixtracking.com/"><span class="topmsg"><: l('Fix Tracking!') :></span></a>
 	<img src="images/ddg-logo.png" alt="<: l('DuckDuckGo ... a search engine!') :>" id="pg-logo" />
 	<h1><: l('What is %s?',r('<em>') ~ l('Do Not Track') ~ r('</em>')) :></h1>
 	<h3><: l('An illustrated guide by %s.',r('<em><a href="https://duckduckgo.com/about/">DuckDuckGo</a></em>')) :></h3>
-</div>
+  </div>
