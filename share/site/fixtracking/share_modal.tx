@@ -1,6 +1,6 @@
 
 	<div id="share-email" class="reveal-modal">
-		<h4>Email to Friends</h4>
+		<h4><: l('Email to Friends') :></h4>
 		<form action="https://flash.duckduckgo.com/e.js" method="POST">
 			<input type="hidden" name="type" id="type" value="fixtracking.com"/>
 			<div><input type="text" placeholder="Your Name" name="from_name" class="text"/></div>

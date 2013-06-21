@@ -9,7 +9,7 @@
 					<a href="#opera"><i class="icon-browser opera"></i></a>
 				</span>
 			</span>
-			<a href="#" id="browser_swap_trigger">View Tools/Settings for Another Browser</a>
+			<a href="#" id="browser_swap_trigger"><: l('View Tools/Settings for Another Browser') :></a>
 		</p>
 		<p class="browser-display switch_browser">
 			<a href="#firefox"><i class="icon-browser firefox small"></i></a>

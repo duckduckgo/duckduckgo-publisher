@@ -9,21 +9,21 @@
 							<li></li>
 						</ul>
 						
-						<p class="more-info firefox"><a href="" target="">Add to Browser</a></p>
-						<p class="more-info chrome"><a href="" target="">Add to Browser</a></p>
-						<p class="more-info msie"><a href="" target="">Add to Browser</a></p>
-						<p class="more-info safari"><a href="" target="">Add to Browser</a></p>
+						<p class="more-info firefox"><a href="" target=""><: l('Add to Browser') :></a></p>
+						<p class="more-info chrome"><a href="" target=""><: l('Add to Browser') :></a></p>
+						<p class="more-info msie"><a href="" target=""><: l('Add to Browser') :></a></p>
+						<p class="more-info safari"><a href="" target=""><: l('Add to Browser') :></a></p>
 						
 						<i class="icon-browser big"></i>
 						<span class="type">
 							<a href="#types">
-								<i class="icon settings" rel="settings"></i>
-								<i class="icon encryption" rel="encryption"></i>
-								<i class="icon scripts" rel="scripts"></i>
-								<i class="icon cookies" rel="cookies"></i>
-								<i class="icon flashcookies" rel="flash-cookies"></i></span>
-								<i class="icon bugs" rel="bugs"></i>
-								<i class="icon referrer" rel="referrer-tracking"></i>								
+								<i class="icon settings" rel="<: l('settings') :>"></i>
+								<i class="icon encryption" rel="<: l('encryption') :>"></i>
+								<i class="icon scripts" rel="<: l('scripts') :>"></i>
+								<i class="icon cookies" rel="<: l('cookies') :>"></i>
+								<i class="icon flashcookies" rel="<: l('flash-cookies') :>"></i></span>
+								<i class="icon bugs" rel="<: l('bugs') :>"></i>
+								<i class="icon referrer" rel="<: l('referrer-tracking') :>"></i>								
 							</a>
 						</span>
 					</div>
