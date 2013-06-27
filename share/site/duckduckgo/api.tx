@@ -194,6 +194,7 @@ vs
 <li><a href="https://github.com/SiegfriedEhret/jddg">jddg jQuery plugin</a> [<a href="http://dev.federalbureauofinhumanity.org/jddg/demo/">demo</a>] by <a href="http://federalbureauofinhumanity.org/">Siegfried Ehret</a>
 <li><a href="https://github.com/andrewrjones/ruby-duck-duck-go">Ruby Gem</a> by <a href="http://andrew-jones.com/">Andrew Jones</a>
 <li><a href="https://github.com/ajanicij/goduckgo">Go library</a> by <a href="https://github.com/ajanicij">ajanicij</a>
+<li><a href="https://github.com/lukewendling/ddg-api">Node.js module</a> by <a href="http://lukewendling.com">Luke Wendling</a>
 <li>If you make another supporting library, we'll add it here!
 </span>
 </ul>
