@@ -1,5 +1,9 @@
-	<div id="dest-boxes">
-		<div class="dest">
+  <div id="dest-boxes">
+    <br>
+    <p style="text-align:center">
+      <iframe src="http://duckduckgo.com/search.html?site=help.dukgo.com&prefill=Search the Help Pages&focus=yes" style="overflow:hidden;margin:0;padding:0;width:400px;height:40px;" frameborder="0"></iframe>
+    </p>
+    <div class="dest">
 			<a href="http://help.duckduckgo.com/">
 				<img src="/assets/logos/logo_feedback.help.png" alt="" />
 				<h2><: l('Help Pages') :></h2>

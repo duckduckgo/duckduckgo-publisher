@@ -196,7 +196,7 @@
               <p><: lp('cloudsave','You can do this by saving your settings under a different passphrase, optionally deleting the first set.') :></p>
 
               <ol>
-              <li><: lp('cloudsave','Enable cloud save by enter your existing passphrase.') :></li>
+              <li><: lp('cloudsave','Enable cloud save by entering your existing passphrase.') :></li>
               <li><: lp('cloudsave','Push "%s". This removes the data from the cloud, but it remains in your browser until you click on "%s".',l('Delete my data'),l('Reset all settings to defaults')) :></li>
               <li><: lp('cloudsave','Enter a new passphrase and click "%s". This will save your data under your new passphrase.',l('Save Settings')) :></li>
               </ol>
