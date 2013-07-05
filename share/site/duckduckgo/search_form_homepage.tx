@@ -1,13 +1,14 @@
+<!--
 		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage">About DuckDuckGo</div>
 		</a>
 
-
-<!--
-		<a id="logo_homepage_link" title="George Orwell" href="/?q=George+Orwell">
-			<div id="logo_homepage">George Orwell</div>
-		</a>
 		//-->
+
+		<a id="logo_homepage_link" title="Douglas Engelbart" href="/?q=Douglas+Engelbart">
+			<div id="logo_homepage">Douglas Engelbart</div>
+		</a>
+
 
 
 
