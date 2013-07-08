@@ -1,8 +1,8 @@
 <!-- <: $f.locale :> <: l('All Settings') :> -->
 		
 <div id="tagline_homepage">
-Search <a href="http://donttrack.us/">anonymously</a>. 
-&nbsp;Find <a href="/goodies/">instantly</a>. 
+<: ld('frontpage','Search %s.',r('<a href="http://donttrack.us/">') ~ ld('frontpage','anonymously') ~ r('</a>')) :>
+&nbsp;<: ld('frontpage','Find %s.',r('<a href="/goodies/">') ~ ld('frontpage','instantly') ~ r('</a>')) :>
 </div>
 		
 		<div id="error_homepage"></div>
