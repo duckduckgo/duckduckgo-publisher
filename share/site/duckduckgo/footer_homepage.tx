@@ -1,7 +1,7 @@
 <div id="footer_homepage">
 	<div id="footer_homepage_left">
 
-	<a href="/about/" class="palm-hide"><: l('About') :></a>
+	<a href="/press/" class="palm-hide"><: l('Press') :></a>
 	<a href="/spread/"><: l('Help Spread DuckDuckGo!') :></a>
 
 	</div>
