@@ -7,7 +7,11 @@
 		<div id="recommended">
 			<h2><: l('At a minimum, we suggest:') :></h2>
 			
-			<!-- Loop Recommended Items -->
+			<: for $addons -> $item { :>				
+				<: if $item.recommended || $item.bspec { :>
+					<: include "addon.tx" {item=>$item,area=>"rec"} :>
+				<: } :>
+			<: } :>
 			
 		</div><!--#recommended-->
 		
@@ -23,7 +27,11 @@
 		
 		<div id="other-tools">
 		
-			<!-- Loop 'Optional' Items -->
+			<: for $addons -> $item { :>				
+				<: if $item.optional { :>
+					<: include "addon.tx" {item=>$item,area=>"opt"} :>
+				<: } :>
+			<: } :>
 		
 		</div><!--#other-tools-->
 		

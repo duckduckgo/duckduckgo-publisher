@@ -1,29 +1,63 @@
-				
-				<div class="frame-wrap b-spec rec-firefox rec-chrome rec-msie rec-safari rec-opera opt-firefox opt-chrome opt-msie opt-safari opt-opera">
-					<div class="frame addon">
+
+				<div class="frame-wrap 					
+					<: if !$item.bspec { :> b-spec 
+					  <: if $item.recommended && $area == 'rec' { :>
+						<: if $item.recommended.firefox { :> rec-firefox  <: } :>
+						<: if $item.recommended.chrome { :> rec-chrome <: } :>
+						<: if $item.recommended.msie { :> rec-msie <: } :>
+						<: if $item.recommended.safari { :> rec-safari <: } :>
+						<: if $item.recommended.opera { :> rec-opera <: } :>
+					  <: } if $item.optional && $area == 'opt' { :>
+						<: if $item.optional.firefox { :> opt-firefox <: } :>
+						<: if $item.optional.chrome { :> opt-chrome <: } :>
+						<: if $item.optional.msie { :> opt-msie <: } :>
+						<: if $item.optional.safari { :> opt-safari <: } :>
+						<: if $item.optional.opera { :> opt-opera <: } :>
+					  <: } :>
+					<: } :>">
+					<div class="frame  addon <: if $item.warning { :> warning <: } :>">
 						<div class="addon-logo">
-							<img src="images/" alt="" />
+							<img src="images/<: $item.image :>" alt="<: $item.name :>" />
 						</div>
-						<h5></h5>
+						<h5><: $item.name :></h5>
 						<ul>
-							<li></li>
+						<: for $item.features -> $line { :>
+							<li><: $line :></li>
+						<: } :>
 						</ul>
-						
-						<p class="more-info firefox"><a href="" target=""><: l('Add to Browser') :></a></p>
-						<p class="more-info chrome"><a href="" target=""><: l('Add to Browser') :></a></p>
-						<p class="more-info msie"><a href="" target=""><: l('Add to Browser') :></a></p>
-						<p class="more-info safari"><a href="" target=""><: l('Add to Browser') :></a></p>
-						
+					<: if $item.note { :>
+						<p class="info"><: $item.note :></p>
+					<: } :>
+					<: if $item.addlink.firefox { :>
+						<p class="more-info firefox"><a href="<: $item.addlink.firefox :>" target="<: $item.name :>"><: l('Add to Browser') :></a><: if $item.moreinfo.firefox { :> | <: if !$item.moreinfo.firefox.link { $item.moreinfo.firefox.text } else { :><a href="<: $item.moreinfo.firefox.link :>"><: $item.moreinfo.firefox.text :></a><: } } :></p>
+					<: } if $item.addlink.chrome { :>
+						<p class="more-info chrome"><a href="<: $item.addlink.chrome :>" target="<: $item.name :>"><: l('Add to Browser') :></a><: if $item.moreinfo.chrome { :> | <: if !$item.moreinfo.chrome.link { $item.moreinfo.chrome.text } else { :><a href="<: $item.moreinfo.chrome.link :>"><: $item.moreinfo.chrome.text :></a><: } } :></p>
+					<: } if $item.addlink.msie { :>
+						<p class="more-info msie"><a href="<: $item.addlink.msie :>" target="<: $item.name :>" <: if $item.msie_add_ddg { $item.msie_add_ddg } :>><: l('Add to Browser') :></a><: if $item.moreinfo.msie { :> | <: if !$item.moreinfo.msie.link { $item.moreinfo.msie.text } else { :><a href="<: $item.moreinfo.msie.link :>"><: $item.moreinfo.msie.text :></a><: } } :></p>
+					<: } if $item.addlink.safari { :>
+						<p class="more-info safari"><a href="<: $item.addlink.safari :>" target="<: $item.name :>"><: l('Add to Browser') :></a><: if $item.moreinfo.safari { :> | <: if !$item.moreinfo.safari.link { $item.moreinfo.safari.text } else { :><a href="<: $item.moreinfo.safari.link :>"><: $item.moreinfo.safari.text :></a><: } } :></p>
+					<: } if $item.addlink.opera { :>
+						<p class="more-info opera"><a href="<: $item.addlink.opera :>" target="<: $item.name :>"><: l('Add to Browser') :></a><: if $item.moreinfo.opera { :> | <: if !$item.moreinfo.opera.link { $item.moreinfo.opera.text } else { :><a href="<: $item.moreinfo.opera.link :>"><: $item.moreinfo.opera.text :></a><: } } :></p>
+					<: } :>
+					
 						<i class="icon-browser big"></i>
 						<span class="type">
 							<a href="#types">
+							<: if $item.types.settings { :>
 								<i class="icon settings" rel="<: l('settings') :>"></i>
+							<: } if $item.types.encryption { :>
 								<i class="icon encryption" rel="<: l('encryption') :>"></i>
+							<: } if $item.types.scripts { :>
 								<i class="icon scripts" rel="<: l('scripts') :>"></i>
+							<: } if $item.types.cookies { :>
 								<i class="icon cookies" rel="<: l('cookies') :>"></i>
-								<i class="icon flashcookies" rel="<: l('flash-cookies') :>"></i></span>
+							<: } if $item.types.flashcookies { :>
+								<i class="icon flashcookies" rel="<: l('flash-cookies') :>"></i>
+							<: } if $item.types.bugs { :>
 								<i class="icon bugs" rel="<: l('bugs') :>"></i>
-								<i class="icon referrer" rel="<: l('referrer-tracking') :>"></i>								
+							<: } if $item.types.referrer { :>
+								<i class="icon referrer" rel="<: l('referrer-tracking') :>"></i>
+							<: }:>
 							</a>
 						</span>
 					</div>
