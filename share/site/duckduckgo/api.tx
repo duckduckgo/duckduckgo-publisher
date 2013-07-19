@@ -59,7 +59,7 @@ Here are the requirements for use:
 <ul>
 <li>Link attribution in each place you use the info for both us and any underlying source. For example: from <a href="http://en.wikipedia.org/wiki/DuckDuckGo">Wikipedia</a>, powered <a href="https://duckduckgo.com/">by DuckDuckGo</a>. 
 <li>Non-commercial use unless you get <a href="http://help.duckduckgo.com/customer/portal/articles/775109">email approval from us</a> (though we're generally fine with anything that isn't sketchy).
-<li>Use a descriptive <a href="http://help.duckduckgo.com/customer/portal/articles/448610">t paramter</a>, i.e. append &t=nameofapp to your requests.
+<li>Use a descriptive <a href="http://help.duckduckgo.com/customer/portal/articles/448610">t parameter</a>, i.e. append &t=nameofapp to your requests.
 </ul>
 
 Our overall goal is to get more people using DuckDuckGo, so please keep that in mind as well. 
@@ -222,6 +222,24 @@ Not all of our instant answers are available right now via this API for a variet
 <p style="margin-top: 5px;">
 <span class="small">
 Yes and no. We do not want to confuse users into thinking that your application was made by us. Please see <a href="http://help.duckduckgo.com/customer/portal/articles/775109">our partnerships page</a> for more info on guidelines and getting in touch with us. 
+</span>
+
+
+<p style="margin-top: 25px;">
+<i>Is this API open source?</i>
+
+<p style="margin-top: 5px;">
+<span class="small">
+No, though many of the instant answers it provides are open source via our <a href="http://duckduckhack.com/">DuckDuckHack platform</a>, which is completely open source. For more information on DuckDuckGo open source, please see <a href="http://help.dukgo.com/customer/portal/articles/216390-open-source">this help article</a>.
+</span>
+
+
+<p style="margin-top: 25px;">
+<i>Are there technical limits on API use?</i>
+
+<p style="margin-top: 5px;">
+<span class="small">
+We simply do not have the resources to support high queries per second (QPS) for a single machine. Generally, this isn't a problem because our API is designed to be used client-side by individual users after they take some specific action (like a search or right-click). We also get a lot of botnet attacks. As a result, there is automatic throttling for API requests that will probably not effect you if you use the API in a distributed fashion (i.e. on your application's front-end). For specific situations we also provide higher limits. If you feel you may be in such a situation, please <a href="http://help.dukgo.com/customer/portal/articles/775109-partnerships">reach out</a>. For legal limits, please see above for attribution and other requirements. 
 </span>
 
 
