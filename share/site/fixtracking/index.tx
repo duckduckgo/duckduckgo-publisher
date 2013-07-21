@@ -39,7 +39,7 @@
 		
 		<hr />
 		<h2><: l("Finally, friends don't let friends get tracked!") :></h2>
-		<h2><: l('Do your part by helping five friends Fix Tracking.') :></h2>
+		<h2><: l('You can help your friends with our comprehensive guide to FixTracking.') :></h2>
 		<hr />
 		<h6><: l('If you have ideas on how to improve this site, please %s.', r('<a href="https://duck.co/topic/fixtracking-com" target="ddg">') ~ 'let us know' ~ r('</a>')) :></h6>
 		
