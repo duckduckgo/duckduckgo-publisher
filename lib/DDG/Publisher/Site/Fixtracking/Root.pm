@@ -252,7 +252,8 @@ sub pages {{
 
 1;
 
-=comment
+=pod
+
 			name => "",
 			image => "",
 			note => "",
