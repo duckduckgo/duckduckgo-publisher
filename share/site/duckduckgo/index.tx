@@ -1,8 +1,8 @@
 <!-- <: $f.locale :> <: l('All Settings') :> -->
 		
 <div id="tagline_homepage">
-<: ln('frontpage','Search %s.',r('<a href="http://donttrack.us/">') ~ ln('frontpage','anonymously') ~ r('</a>')) :>
-&nbsp;<: ln('frontpage','Find %s.',r('<a href="/goodies/">') ~ ln('frontpage','instantly') ~ r('</a>')) :>
+<: lp('frontpage','Search %s.',r('<a href="http://donttrack.us/">') ~ lp('frontpage','anonymously') ~ r('</a>')) :>
+&nbsp;<: lp('frontpage','Find %s.',r('<a href="/goodies/">') ~ lp('frontpage','instantly') ~ r('</a>')) :>
 </div>
 		
 		<div id="error_homepage"></div>
