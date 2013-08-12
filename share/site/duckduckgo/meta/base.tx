@@ -11,7 +11,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <meta name="HandheldFriendly" content="true"/>
 <meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="icon" href="/assets/ddg-icon-256x160.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/logo_icon128.v101.png"/>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
 <link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="/opensearch_ssl.xml">
 
