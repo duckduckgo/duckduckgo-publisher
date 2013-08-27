@@ -1,1 +1,2 @@
 <: include "meta/title.tx" { title => l('DuckDuckGo Feedback') } :>
+<link rel="stylesheet" href="/css/feedback.css" />
