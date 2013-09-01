@@ -114,13 +114,13 @@
 <: l('Supporter? %s.',r('<a href="/supportus/">') ~ l("Friends don't let friends get tracked.") ~ r('</a>')) :>
 
 <div style="margin-top: 20px;">
-<: l('Press? %s.',r('<a href="http://help.duckduckgo.com/customer/portal/articles/216623">') ~ l('click here') ~ r('</a>')) :>
+<: l('Press? %s.',r('<a href="https://dukgo.com/help/en_US/company/press">') ~ l('click here') ~ r('</a>')) :>
 
 <div style="margin-top: 20px;">
-<: l('Partner? %s.',r('<a href="http://help.duckduckgo.com/customer/portal/articles/775109">') ~ l('click here') ~ r('</a>')) :>
+<: l('Partner? %s.',r('<a href="https://dukgo.com/help/en_US/company/partnerships">') ~ l('click here') ~ r('</a>')) :>
 
 <div style="margin-top: 20px;">
-<: l('Swag? %s.',r('<a href="http://help.duckduckgo.com/customer/portal/articles/216375-t-shirts-stickers-more">') ~ l('of course') ~ r('</a>')) :>
+<: l('Swag? %s.',r('<a href="https://dukgo.com/help/en_US/community/swag">') ~ l('of course') ~ r('</a>')) :>
 
 </div>
 
