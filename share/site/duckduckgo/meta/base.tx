@@ -1,3 +1,5 @@
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
 <link rel="canonical" href="https://duckduckgo.com<: $url :>">
 
 <link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_FILE || '/style.css' :>" type="text/css">

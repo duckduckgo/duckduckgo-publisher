@@ -1,35 +1,42 @@
-<div id="header_wrapper" style="display:block;">
-	<div id="header">
-		<div id="header_content_wrapper">
-			<div id="header_content">
-				<div class="cl"></div>
-				<a href="/"><div id="header_logo"></div></a>
-				<form id="search_form" name="x" action="/" onsubmit="return nbr()">
-					<div id="search_elements_hidden"></div>
-					<div id="search_wrapper">
-						<input id="search_button" type="submit" tabindex="3" value="">
-						<a id="search_dropdown" href="javascript:;" tabindex="4" onclick="bang_toggle();"></a>
-					</div>
-					<input id="search_form_input_clear" type="button" tabindex="2" value="" class="empty" onclick="DDG.clear_button()"/>
-					<input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" onkeyup="DDG.clear_button_toggle()" onclick="if (this.value=='<: js(l('put search terms here')) :>') {this.value='';this.style.color='#000000';}"/>
-					<select id="bang" size="2" onChange="if (ip) nbb(this);" onClick="if (!ip) nbb(this);" onBlur="bang_toggle();"></select>
+<div id="header_wrapper" class="header_wrapper  header_wrapper--show">	
+	<div id="header" class="header  cw">
+		<div class="header__search-wrap">
+			<a href="/" class="header__logo">
+				<img src="/assets/logo_icon60.v101.png" class="header__logo__img"/>
+				<span class="header__logo__text">DuckDuckGo</span>
+			</a>					
+			<div class="header__content  header__search">
+				<form id="search_form" class="search" name="x" action="/" onsubmit="return nbr()">
+					<div id="search_elements_hidden" class="search__hidden"></div>
+					<input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" class="search__input" onkeyup="DDG.clear_button_toggle()" onclick="if (this.value=='<: js(l('put search terms here')) :>') {this.value='';this.style.color='#000000';}"/>
+					<input id="search_button" class="search__button" type="submit" tabindex="2" value="Q" />
+					<input id="search_form_input_clear" class="search__clear  empty" type="button" tabindex="3" value="X" onclick="DDG.clear_button()"/>
+					<a id="search_dropdown" class="search__dropdown" href="javascript:;" tabindex="4" onclick="bang_toggle();"></a>		
+					<select id="bang" class="hide" size="2" onChange="if (ip) nbb(this);" onClick="if (!ip) nbb(this);" onBlur="bang_toggle();"></select>					
 				</form>
-
-				<div id="header_button_wrapper" onclick="DDG.toggle('header_button_menu')">
-				 <ul id="header_button">
-				  <li>
-				   <div id="header_button_menu_wrapper">
-				    <a class="header_button_menu_item" id="header_button_menu_title" href="javascript:;"><: l('More') :></a>
-					 <ul id="header_button_menu" class="grp_modal">
-					 	<: include "menu_inner.tx" :>
-					 </ul>
-					</div>
-				  </li>
-				 </ul>
-				</div>
-				<div class="cl"></div>
+			</div>
+			<div class="header__aside" onclick="DDG.toggle('header_button_menu')">
+				 <a class="header__aside__button  header_button_menu_item" href="javascript:;">E<: # insert icon here :></a>
 			</div>
 		</div>
-	</div>
+		<div class="zcm-wrap">				
+			<div class="zcm"> <!-- zcm == zero-click menu -->
+				<ul class="zcm__menu  zcm__constant"><!-- constant is always visible -->
+					<li class="zcm__item"><a class="zcm__link  is-active" href="#" data-zci-link="videos">Videos</a></li>
+					<li class="zcm__item"><a class="zcm__link" href="#" data-zci-link="images">Images</a></li>
+					<li class="zcm__item"><a class="zcm__link" href="#" data-zci-link="news">News</a></li>
+					<li class="zcm__item"><a class="zcm__link" href="#" data-zci-link="maps">Maps</a></li>
+				</ul>
+				<ul class="zcm__menu  zcm__dynamic  has-zci"><!-- hidden unless triggered by .has-zci -->
+					<span class="zcm__sep"></span>
+					<li class="zcm__item"><a class="zcm__link" href="#" data-zci-link="wiki">Wiki</a></li>
+					<li class="zcm__item"><a class="zcm__link" href="#" data-zci-link="yelp">Yelp</a></li>
+					<li class="zcm__item"><a class="zcm__link" href="#" data-zci-link="thing">Thing</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>	
 </div>
-			
+<div id="header_button_menu" class="nav-menu  nav-menu--slideout  grp_modal">
+    <: include "menu_inner.tx" :>
+</div>			

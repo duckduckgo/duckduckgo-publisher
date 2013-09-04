@@ -13,7 +13,7 @@
 	<: } :>
   </head>
   <body id="pg-<: $f.filebase :>" class="yui-skin-sam">
-
+	<div class="site-wrapper">
 	<: if $yui_body_header { :> 
 	  <: include "yui_body_header_" ~ $f.filebase ~ ".tx" :>	  
 	<: } :>
@@ -22,43 +22,40 @@
 	<div id="add_to_browser_homepage" class="modal grp_modal"></div>
 	<: if !$no_wrapper { :> 
 	  <: include "header.tx" :>
-	  <div id="content_wrapper">
-		<div id="content">
-		  <: if !$no_logo { :>
+	  <div id="content_wrapper" class="cw">	  
+	  <: if !$no_content_internal { :>
+		<div id="content" class="content">
+			<div id="content_internal" class="content__internal">
+	  <: } :>
+		<: if !$no_logo { :>
 		  <a href="/?q=&t=i&kad=<: $f.locale :>" title="DuckDuckGo"><div id="logo_internal"></div></a>
+		<: } :>
+		<: } else {:>
+		  <: if $homepage { :>
+			<div id="content_wrapper_homepage">
+			  <div id="content_homepage">
+				<: include "search_form_homepage.tx" :>
 		  <: } :>
-		    <div id="links_wrapper">
-			  <div id="links">	
-				<: if !$no_content_internal { :>
-				<div id="content_internal">
-				<: } :>
-	<: } else {:>
-      <: if $homepage { :>
-	    <div id="content_wrapper_homepage">
-	      <div id="content_homepage">
-		    <: include "search_form_homepage.tx" :>
-	  <: } :>
-	<: } :>
+		<: } :>
 
-	<: include $maintemplate :>
+		<: include $maintemplate :>
 
-	<: if !$no_wrapper { :>
-			   <div id="bottom_spacing2"></div>
-		     <: if !$no_content_internal { :>
-			 </div> <!-- content_internal //-->
-			 <: } :>
-	       </div> <!-- links //-->
-	     </div> <!-- links_wrapper //-->
-	    </div> <!-- content //-->
-	  </div> <!-- content_wrapper //-->	  
-	  <: include "footer.tx" :>
+	<: if $no_wrapper { :>
+		<: if $homepage { :>
+			 </div> <!-- content_homepage //-->
+		  </div> <!-- content_wrapper_homepage //-->	
+		<: include "footer_homepage.tx" :>
+		<: } :>
+	    
 	<: } else { :>
-	  <: if $homepage { :>
-	    	 </div> <!-- content_homepage //-->
-	      </div> <!-- content_wrapper_homepage //-->	
-	    <: include "footer_homepage.tx" :>
-	  <: } :>
+		 <div id="bottom_spacing2"></div>
+		 <: if !$no_content_internal { :>
+			</div> <!-- content_internal //-->
+		 </div> <!-- content //-->
+		 <: } :>
+		<: include "footer.tx" :>		 
 	<: } :>
-    
+		</div> <!-- content_wrapper //-->	  
+    </div> <!-- site-wrapper -->
   </body>
 </html>
