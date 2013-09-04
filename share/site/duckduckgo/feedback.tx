@@ -1,11 +1,11 @@
   <div id="dest-boxes">
-    <div class="dest">
+    <div class="feedback-dest">
 			<a href="http://dukgo.com/help">
-				<img src="/assets/logos/logo_feedback.help.png" class="dest__img" alt="Dax the Helpful Doctor" />
-				<div class="dest__body">
-					<h2><: l('Help') :></h2>
+				<img src="/assets/logos/logo_feedback.help.png" class="feedback-dest__img" alt="Dax the Helpful Doctor" />
+				<div class="feedback-dest__body">
+					<h2 class="feedback-dest__title"><: l('Help') :></h2>
 					<p><: l('Answers to most DuckDuckGo questions, like:') :></p>
-					<ul class="cols">
+					<ul class="feedback-dest__list feedback-dest__list--cols">
 						<li><: l('email') :></li>
 						<li><: l('browsers') :></li>
 						<li><: l('advertising') :></li>
@@ -14,13 +14,13 @@
 			</a>
 		</div>	
 		
-		<div class="dest">
+		<div class="feedback-dest">
 			<a href="http://duck.co/">
-				<img src="/assets/logos/logo_feedback.forum.png" class="dest__img" alt="Chatty Dax" />
-				<div class="dest__body">
-					<h2><: l('Forum') :></h2>
+				<img src="/assets/logos/logo_feedback.forum.png" class="feedback-dest__img" alt="Chatty Dax" />
+				<div class="feedback-dest__body">
+					<h2 class="feedback-dest__title"><: l('Forum') :></h2>
 					<p><: l('Discussions about DuckDuckGo, including:') :></p>
-					<ul class="cols">			
+					<ul class="feedback-dest__list feedback-dest__list--cols">			
 						<li><: l('instant answers') :></li>
 						<li><: l('relevancy') :></li>
 						<li><: l('design') :></li>
@@ -29,22 +29,22 @@
 			</a>
 		</div>
 	<!--//	
-		<div class="dest">
+		<div class="feedback-dest">
 			<a href="http://duckduckhack.com/">
 				<img src="/assets/logos/logo_feedback.hack.png" alt="" />
-				<h2>DuckDuckHack</h2>
-				<ul>
+				<h2 class="feedback-dest__title">DuckDuckHack</h2>
+				<ul class="feedback-dest__list">
 					<li><: l('Plugin suggestions?') :></li>
 					<li><: l('Want to develop an instant answer?') :></li>
 					<li><: l('Is someone working on your zero-click plugin?') :></li>
 				</ul>
 			</a>
 		</div>
-		<div class="dest">		
+		<div class="feedback-dest">		
 			<a href="https://dukgo.com/">
 				<img src="/assets/logos/logo_feedback.community.png" alt="" />
-				<h2><: l('Community Platform') :></h2>
-				<ul>
+				<h2 class="feedback-dest__title"><: l('Community Platform') :></h2>
+				<ul class="feedback-dest__list">
 					<li><: l('Care to help translate DuckDuckGo into your language?') :></li>
 					<li><: l('Searching for info on our XMPP chat service?') :></li>
 					<li><: l('Would you like to help develop the platform?') :></li>
@@ -54,7 +54,7 @@
 	-->
 	</div>	
 	
-	<h3 class="red-title  red-title--sm  guide-title"><: l("If your feedback isn't addressed in the Help pages or on the Forum, use this guide:") :></h3>	
+	<h3 class="red-title  h-xs  guide-title"><: l("If your feedback isn't addressed in the Help pages or on the Forum, use this guide:") :></h3>	
 	
 	<div class="fb-step  fb-step--active">
 		<i class="fb-step__icon  ddgi-bug"></i>
