@@ -1,15 +1,22 @@
-<li><a href="/about/" tabindex="-1"><: l('About') :></a></li>
-<li><a href="/settings/" tabindex="-1"><: l('Settings') :></a></li>
-<li><a href="/goodies/" tabindex="-1"><: l('Goodies') :></a></li>
-<li><a href="/feedback/" tabindex="-1"><: l('Help') :></a></li>
-<li><a href="/press/" tabindex="-1"><: l('Press') :></a></li>
-<li class="more_menu_header header_button_menu_header"><: l('PRIVACY') :>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-<li><a href="/privacy/" tabindex="-1"><: l('Policy') :></a></li>
-<li><a href="http://donttrack.us/" tabindex="-1">DontTrack</a></li>
-<li><a href="http://dontbubble.us/" tabindex="-1">DontBubble</a></li>
-<li><a href="http://whatisdnt.com/" tabindex="-1">WhatIsDNT</a></li>
-<li><a href="http://fixtracking.com/" tabindex="-1">FixTracking</a></li>
-<li class="more_menu_header header_button_menu_header"><: l('GET INVOLVED') :>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-<li><a href="http://duckduckhack.com/" tabindex="-1"><: l('Develop') :></a></li>
-<li><a href="https://dukgo.com/" tabindex="-1"><: l('Translate') :></a></li>
-<li><a href="/supportus" tabindex="-1"><: l('Support Us') :></a></li>
+
+	<li class="nav-menu__heading--primary"><: l('Main Menu') :></li>
+	<li class="nav-menu__item"><a href="/settings/" tabindex="-1"><: l('Settings') :></a></li>
+	<li class="nav-menu__item"><a href="/goodies/" tabindex="-1"><: l('DDG Goodies') :></a></li>
+	<li class="nav-menu__item"><a href="/about/" tabindex="-1"><: l('About DDG') :></a></li>
+	<li class="nav-menu__item"><a href="https://dukgo.com/" tabindex="-1"><: l('Community & Blog') :></a></li>	
+	<li class="nav-menu__item"><a href="/feedback/" tabindex="-1"><: l('Help') :></a></li>
+	
+	<li class="nav-menu__heading"><: l('Get Involved') :></li>
+	<li class="nav-menu__item"><a href="http://duckduckhack.com/" tabindex="-1"><: l('Develop') :></a></li>
+	<li class="nav-menu__item"><a href="https://dukgo.com/" tabindex="-1"><: l('Translate') :></a></li>	
+	<li class="nav-menu__item"><a href="/supportus" tabindex="-1"><: l('Support Us') :></a></li>
+	<li class="nav-menu__heading"><: l('More') :></li>	
+	<li class="nav-menu__item"><a href="http://donttrack.us/" tabindex="-1">Donttrack.us</a></li>
+	<li class="nav-menu__item"><a href="http://dontbubble.us/" tabindex="-1">DontBubble.us</a></li>
+	<li class="nav-menu__item"><a href="http://whatisdnt.com/" tabindex="-1">WhatIsDNT.com</a></li>
+	<li class="nav-menu__item"><a href="http://fixtracking.com/" tabindex="-1">FixTracking.com</a></li>
+	
+	<ul class="nav-menu__secondary-list">
+		<li class="nav-menu__item--secondary"><a href="/privacy/" tabindex="-1"><: l('Privacy Policy') :></a></li>
+		<li class="nav-menu__item--secondary"><a href="/press/" tabindex="-1"><: l('Press') :></a></li>
+	</ul>	
