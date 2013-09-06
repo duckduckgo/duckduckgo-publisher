@@ -1,4 +1,4 @@
-<div id="header_wrapper" class="header_wrapper  header_wrapper--show">	
+<div id="header_wrapper" class="header_wrapper  header_wrapper--show <: if $has_zcm { :> header_wrapper--has-zcm<: } :>">	
 	<div id="header" class="header  cw">
 		<div class="header__search-wrap">
 			<a href="/" class="header__logo">
@@ -19,6 +19,7 @@
 				 <a class="header__aside__button  header_button_menu_item" href="javascript:;">E<: # insert icon here :></a>
 			</div>
 		</div>
+		<: if $has_zcm { # this is an example zero-click menu - leaving here to show the proper canonical markup :>
 		<div class="zcm-wrap">				
 			<div class="zcm"> <!-- zcm == zero-click menu -->
 				<ul class="zcm__menu  zcm__constant"><!-- constant is always visible -->
@@ -35,8 +36,53 @@
 				</ul>
 			</div>
 		</div>
+		<: } :>
 	</div>	
 </div>
 <div id="header_button_menu" class="nav-menu  nav-menu--slideout  grp_modal">
     <: include "menu_inner.tx" :>
-</div>			
+</div>	
+<: if $has_zci { # not meant for production - this is also an example :>
+<div class="zci-wrap  has-zci"><!-- hidden unless triggered by .has-zci -->
+    <div class="zci  zci--wiki  is-active" id="zci-wiki"><!-- standard layout -->
+		<div class="cw">
+			<div class="zci__main">
+				<div class="zci__img-wrap">{{image}}</div>
+				<div class="zci__body">{{main content}}</div>
+			</div>
+		</div> 
+    </div>
+    <div class="zci  zci--yelp" id="zci-yelp"><!-- map right layout -->
+		<div class="cw">
+			<div class="zci__main">
+				<div class="zci__img-wrap">{{image}}</div>
+				<div class="zci__body--no-max">
+					<div class="zci__body__left">{{main content}}</div>
+					<div class="zci__body__right">{{map or something}}</div>
+				</div>
+				
+			</div>
+		</div>
+    </div>  
+    <div class="zci  zci--thing" id="zci-thing"><!-- full-width main for carousel or whatever -->        
+        <div class="cw">
+            <div class="gw"><!-- grid wrapper -->
+                <div class="g quarter">{{custom info}}</div>
+                <div class="g half">{{custom info}}</div>
+                <div class="g quarter">{{custom info}}</div>
+            </div>
+            <!-- grid items not required - shown as an option -->
+        </div>        
+    </div>  
+	<div class="zci  zci--thing" id="zci-thing"><!-- full-width main for carousel or whatever -->        
+        <div class="">
+            <div class="gw"><!-- grid wrapper -->
+                <div class="g quarter">{{custom info}}</div>
+                <div class="g half">{{custom info}}</div>
+                <div class="g quarter">{{custom info}}</div>
+            </div>
+            <!-- grid items not required - shown as an option -->
+        </div>        
+    </div>  
+</div>	
+<: } :>	

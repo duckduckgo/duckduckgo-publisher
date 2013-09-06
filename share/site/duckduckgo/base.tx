@@ -12,7 +12,7 @@
 	  <: include "head_homepage.tx" :>
 	<: } :>
   </head>
-  <body id="pg-<: $f.filebase :>" class="yui-skin-sam">
+  <body id="pg-<: $f.filebase :>" class="yui-skin-sam  set-header--fixed">
 	<div class="site-wrapper">
 	<: if $yui_body_header { :> 
 	  <: include "yui_body_header_" ~ $f.filebase ~ ".tx" :>	  
