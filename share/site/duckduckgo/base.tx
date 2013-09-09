@@ -12,8 +12,8 @@
 	  <: include "head_homepage.tx" :>
 	<: } :>
   </head>
-  <body id="pg-<: $f.filebase :>" class="yui-skin-sam  set-header--fixed">
-	<div class="site-wrapper">
+  <body id="pg-<: $f.filebase :>" class="yui-skin-sam <: if !$homepage && !$no_wrapper && !$no_header{ :> set-header--fixed <: } :>">
+	<div class="site-wrapper  <: if $homepage { :>site-wrapper--homepage<: } :>">
 	<: if $yui_body_header { :> 
 	  <: include "yui_body_header_" ~ $f.filebase ~ ".tx" :>	  
 	<: } :>
@@ -21,7 +21,7 @@
     <div id="add_to_browser" class="modal grp_modal"></div>
 	<div id="add_to_browser_homepage" class="modal grp_modal"></div>
 	<: if !$no_wrapper { :> 
-	  <: include "header.tx" :>
+	  <: if !$no_header { include "header.tx" } :>
 	  <div id="content_wrapper" class="cw">	  
 	  <: if !$no_content_internal { :>
 		<div id="content" class="content">
@@ -32,9 +32,13 @@
 		<: } :>
 		<: } else {:>
 		  <: if $homepage { :>
-			<div id="content_wrapper_homepage">
+			<: include "header_homepage.tx" :>
+			<div id="<:# content_wrapper_homepage :>" class="cw">
 			  <div id="content_homepage">
-				<: include "search_form_homepage.tx" :>
+			    <: include "_logo_homepage.tx" :>
+				<div class="search-wrap--home">
+					<: include "search_form_homepage.tx" :>
+				</div>
 		  <: } :>
 		<: } :>
 

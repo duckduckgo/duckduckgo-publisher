@@ -1,0 +1,8 @@
+
+<div class="cw">
+	<div class="pull-right" onclick="DDG.toggle('header_button_menu')">
+		 <a class="header__aside__button  header_button_menu_item" href="javascript:;">&#x2630;<: # insert icon here :></a>
+	</div>
+</div>
+
+<: include "menu_header.tx" :>	

@@ -1,0 +1,9 @@
+		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
+			<div id="logo_homepage">About DuckDuckGo</div>
+		</a>
+
+<!--
+		<a id="logo_homepage_link" title="Sean Connery" href="/?q=Sean+Connery">
+			<div id="logo_homepage">Sean Connery</div>
+		</a>
+		//-->

@@ -1,0 +1,6 @@
+<div id="header_button_menu" class="nav-menu  nav-menu--slideout  grp_modal">
+    <ul class="nav-menu__list">
+		<i onclick="DDG.toggle('header_button_menu')" class="nav-menu__icon  nav-menu__icon--top-right  nav-menu__icon--clickable">&#8594;</i>
+		<: include "menu_inner.tx" :>
+	</ul>
+</div>

@@ -5,7 +5,7 @@
 				<img src="/assets/logo_icon60.v101.png" class="header__logo__img"/>
 				<span class="header__logo__text">DuckDuckGo</span>
 			</a>					
-			<div class="header__content  header__search">
+			<div class="header__content  header__search  search-wrap--header">
 				<form id="search_form" class="search" name="x" action="/" onsubmit="return nbr()">
 					<div id="search_elements_hidden" class="search__hidden"></div>
 					<input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" class="search__input" onkeyup="DDG.clear_button_toggle()" onclick="if (this.value=='<: js(l('put search terms here')) :>') {this.value='';this.style.color='#000000';}"/>
@@ -39,12 +39,7 @@
 		<: } :>
 	</div>	
 </div>
-<div id="header_button_menu" class="nav-menu  nav-menu--slideout  grp_modal">
-    <ul class="nav-menu__list">
-		<i onclick="DDG.toggle('header_button_menu')" class="nav-menu__icon  nav-menu__icon--top-right  nav-menu__icon--clickable">&#8594;</i>
-		<: include "menu_inner.tx" :>
-	</ul>
-</div>	
+<: include "menu_header.tx" :>	
 <: if $has_zci { # not meant for production - this is also an example :>
 <div class="zci-wrap  has-zci"><!-- hidden unless triggered by .has-zci -->
     <div class="zci  zci--wiki  is-active" id="zci-wiki"><!-- standard layout -->
