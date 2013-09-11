@@ -1,7 +1,6 @@
 package DDG::Publisher::Site::Duckduckhack;
 
 use MooX;
-use DDGC::Locale::DuckduckgoDuckduckhack;
 
 with qw(
 	DDG::Publisher::SiteRole
@@ -13,8 +12,8 @@ sub dirs_classes {qw(
 	Root
 )}
 
-sub locale_package { 'DDGC::Locale::DuckduckgoDuckduckhack' }
-sub locale_dist { 'DDGC-Locale-DuckduckgoDuckduckhack' }
-sub locale_domain { 'duckduckgo-duckduckhack' }
+sub locale_package { 'DDGC::Locale::DuckduckgoDuckduckgo' }
+sub locale_dist { 'DDGC-Locale-DuckduckgoDuckduckgo' }
+sub locale_domain { 'duckduckgo-duckduckgo' }
 
 1;
