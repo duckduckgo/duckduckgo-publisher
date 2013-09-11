@@ -27,6 +27,7 @@ sub _build_site_classes {[qw(
 	Dontbubbleus
 	Whatisdnt
 	Fixtracking
+	Duckduckhack
 )]}
 
 =attr extra_template_dirs
