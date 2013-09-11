@@ -1,0 +1,247 @@
+<:# duckduckhack homepage will be revisited very soon - holding off on token creation :>
+
+<!doctype html>  
+<!--[if IEMobile 7 ]> <html lang="en" class="no-js iem7"> <![endif]-->
+<!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+
+   <title>DuckDuckHack</title>   
+   <link rel="stylesheet" type="text/css" href="common/css/micro.css?1" /> 
+   <link rel="stylesheet" type="text/css" href="css/ddh.css?1" /> 
+   <meta name="viewport" content="width=100%; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+   
+   <!--[if lte IE 9]><style>.frame, .frame input, .reveal-modal, .reveal-modal-bg, .button, .pie { behavior: url(common/PIE.htc);} </style><![endif]-->
+
+</head>
+<body id="pg-ext" class="unknown">
+<a name="top"></a>
+<div class="site-wrapper" id="wrapper">
+	<div class="site-header heading" id="header">
+	 <div id="logo">
+	    <img src="images/ddh-logo.png" alt="DuckDuckHack" id="pg-logo"/>
+	    <h2>Open-source DuckDuckGo</h2>		
+	    <h3>Now you can hack your search engine.</h3>
+	  </div>
+	</div>
+	
+	<div id="hero" class="heading">
+	  <div class="content-wrap slides">
+		  <div class="slide mega dax">
+			<h2 class="a3 ad-l">DuckDuck<em>Hack</em></h2>
+			<h4 class="a3 ad-l">Help us make the web a better place.</h4>
+			<img src="images/RedTieDax.png" alt="Dax... with a red tie!" class="dax a3"/>
+	      </div>
+		  <div class="slide img-right">
+			<h2 class="a3 ad-l">Better Answers</h2>
+			<h3 class="a3 ad-l">Help make a better long-term search engine with <strong>instant answers</strong> that are better than links.</h3>
+			<img src="images/answer-xkcd.png" alt="address bar search for 'zombies'" class="a3" />
+		  </div>
+		  <div class="slide img-right">
+			<h2 class="a3 ad-l">What You Like</h2>
+			<h3 class="a3 ad-l">Hack on things that you <strong>know and care about</strong><br>to improve search results for your community.</h3>
+			<img src="images/answer-java.png" alt="search bar settings" class="a3" />
+		  </div>
+		  <div class="slide img-right">
+			<h2 class="a3 ad-l">Showcase APIs</h2>
+			<h3 class="a3 ad-l">Use open data and APIs, <strong>including your own,</strong><br>to present the best information to searchers.</h3>
+			<img src="images/answer-twitter.png" alt="contextual search for 'triple crown' on Babe Ruth's wikipedia page in firefox" class="a3 short" />
+		  </div>
+	  </div>
+	</div>
+
+	<a name="#features"></a>
+	<div id="features" class="content-wrap features">
+		<div class="right instant-answers">
+			<img src="images/answer-xkcd.png" alt="address bar search for 'zombies'" class="" />
+			<h4>Better Answers</h4>
+			<p>Help make a better long-term search engine with <strong>instant answers</strong> that are better than links.</p>
+		</div>
+		<div class="left open-source">
+			<img src="images/answer-java.png" alt="search bar settings" class=""b />
+			<h4>What You Like</h4>
+			<p>Hack on things that you <strong>know and care about</strong><br>to improve search results for your community.</p>
+		</div>
+		<div class="right improve-results">
+			<img src="images/answer-twitter.png" alt="contextual search for 'triple crown' on Babe Ruth's wikipedia page in firefox" class="" />
+			<h4>Showcase APIs</h4>
+			<p>Use open data and APIs, <strong>including your own,</strong><br>to present the best information to searchers.</p>
+		</div>
+<!--	<div class="left attribution">
+			<img src="images/answer-lyrics.png" alt="bing search for Billy Murray showing the DuckDuckGo Instant Answer" />
+			<h4>Exposure</h4>
+			<p>We give instant answers top billing and showcase the data source and the developer.</p>
+		</div>
+//-->
+	</div>
+
+	<hr class="glow"/>
+	
+	<h2>Get Started Now!</h2>
+	
+	<h3>For non-coders and coders alike:</h3>
+
+	<p class="content-wrap block">We need your help on <a href="http://ideas.duckduckhack.com/">plugin ideas</a>, <a href="https://duckduckhack.uservoice.com/forums/5168-ideas-for-duckduckgo-instant-answer-plugins/status/904946">data sources</a> and <a href="https://github.com/duckduckgo/duckduckgo/issues">issues about current plugins</a>. All of these activities are valuable and will help direct community efforts.</p>
+
+	<div class="info content-wrap">
+
+		<div class="half">
+		<a href="https://duckduckgo.com/goodies/">
+			<i class="icon icon-magic"></i>
+			<h4>Answers</h4>
+			<p>Check out the <em>existing goodies</em>.</p>
+		</a>
+		</div>
+
+
+		<div class="half">
+		<a href="http://ideas.duckduckhack.com/">
+			<i class="icon icon-lightbulb"></i>
+			<h4>Ideas</h4>
+			<p>Join us at the <em>ideas site</em>.</p>
+		</a>
+		</div>
+
+
+	</div>
+
+	<h3>For coders:</h3>
+
+	<p class="content-wrap block">DuckDuckHack is the best way to use your skills to help make DuckDuckGo a better search engine and a great way to get started in open-source.</p>
+
+
+	<div class="info content-wrap">
+
+		<div class="half">
+		<a href="https://www.listbox.com/subscribe/?list_id=197814">
+			<i class="icon icon-envelope"></i>
+			<h4>List</h4>
+			<p>Get on the list, <em>hosted by Listbox</em>.</p>
+		</a>
+		</div>
+
+		<div class="half">
+		<a href="https://github.com/duckduckgo/duckduckgo">
+			<i class="icon icon-github"></i>
+			<h4>Docs</h4>
+			<p>Start with the <em>Developer Overview</em>.</p>
+		</a>
+		</div>
+	</div>
+
+<!--
+	<h4><span class="hr">Plugin types</span></h4>
+//-->
+
+<!--
+	<div class="info content-wrap">
+		<div class="half">
+		<a href="https://github.com/duckduckgo/zeroclickinfo-spice">
+			<i class="icon icon-cloud"></i>
+			<h4>Spice (JavaScript APIs)</h4>
+			<p>Data comes from external JavaScript APIs. Plugins process JSON in JavaScript. Check out the <em>spice repo.</em></p>
+		</a>
+
+		<p>Examples:
+			  <a href="https://duckduckgo.com/?q=soundcloud+ray+bradbury">Soundcloud</a>,
+			  <a href="https://duckduckgo.com/?q=khan+math">Khan</a>,
+			  <a href="https://duckduckgo.com/?q=xkcd">Xkcd</a>.
+			  </p>
+
+		</div>
+		<div class="half">
+		<a href="https://github.com/duckduckgo/zeroclickinfo-goodies">
+			<i class="icon icon-magic"></i>
+			<h4>Goodies (Perl Functions)</h4>
+			<p>Data comes from query or flat files. Plugins process text in Perl. Check out the <em>goodies repo.</em></p>
+		</a>
+
+		<p>Examples:
+			  <a href="https://duckduckgo.com/?q=4.7k+ohm">Resistor colors</a>,
+			  <a href="https://duckduckgo.com/?q=qrcode+http%3A%2F%2Fddg.gg%2F">QR Codes</a>,
+			  <a href="https://duckduckgo.com/?q=%23343543">Colors</a>.
+			  </p>
+
+		</div>
+	</div>
+
+	<div class="info content-wrap">
+		<div class="half">
+		<a href="https://github.com/duckduckgo/zeroclickinfo-fathead">
+			<i class="icon icon-info-sign"></i>
+			<h4>Fathead (Keyword Data)</h4>
+			<p>Data comes from data dumps or crawling. Plugins produce keyword data files. Check out the <em>fathead repo.</em></p>
+		</a>
+
+		<p>Examples:
+			  <a href="https://duckduckgo.com/?q=man+nc">Man pages</a>,
+			  <a href="https://duckduckgo.com/?q=Darth+Plagueis">Wookiepedia</a>.
+			  </p>
+
+		</div>
+
+		<div class="half">
+		<a href="https://github.com/duckduckgo/zeroclickinfo-longtail">
+			<i class="icon icon-book"></i>
+			<h4>Long-tail (Full-text Data)</h4>
+			<p>Data comes from data dumps or crawling. Plugins produce full-text data files. Check out the <em>long-tail repo.</em></p>
+		</a>
+
+		<p>Examples:
+			  <a href="https://duckduckgo.com/?q=i%27m+a+walking+contradiction">Lyrics</a>,
+			  <a href="https://duckduckgo.com/?q=nginx+apache">Stack Overflow</a>.
+			  </p>
+
+		</div>
+	</div>
+//-->
+
+
+
+	<hr class="glow"/>
+
+	<h3>You can reach us at <a href="mailto:open@duckduckgo.com">open@duckduckgo.com</a>.</h3>
+
+	<div class="site-footer" id="footer">
+			
+		<p class="footmenu">		
+			<a target="_ddg-about" href="https://duckduckgo.com/about">About DuckDuckGo</a>	
+			<a target="_ddg-privacy" href="https://duckduckgo.com/privacy">Privacy Policy</a>
+			<a target="_ddg-contact" href="https://duckduckgo.com/feedback">Contact Us</a>
+			</h6>
+		</p>
+		
+		<p class="copyright">&copy; <span class="ddg">DuckDuckGo</span>. All Rights Reserved.</p>
+			
+	</div>	
+</div>
+
+	<!--div id="share-email" class="reveal-modal">
+		<h4>Email to Friends</h4>
+		<form action="https://flash.duckduckgo.com/e.js" method="POST">
+			<input type="hidden" name="type" id="type" value="duckduckgo.com"/>
+			<div><input type="text" placeholder="Your Name" name="from_name" class="text"/></div>
+			<div><input type="email" placeholder="Your Email" name="from" class="text" /></div>
+			<fieldset id="friendemails">
+				<div id="friend0"><input type="email" placeholder="Your Friend's Email" name="FriendEmail0" class="text" /></div>
+			</fieldset>
+			<a id="remfriend" class="fieldcontrol hide">Remove friend</a>
+			<a id="addfriend" class="fieldcontrol">Add more friends</a>			
+			
+			<fieldset id="buttons">
+				<input type="submit" value="Send" class="button blue submit" />
+				<input type="button" value="Cancel" class="button close-modal"/>
+			</fieldset>
+		</form>
+	</div-->
+
+    <script src="common/js/plugins.js" type="text/javascript"></script>
+	<script src="common/js/script.js" type="text/javascript"></script>
+	<script src="js/ddh.js" type="text/javascript"></script>
+
+</body>
+</html>
