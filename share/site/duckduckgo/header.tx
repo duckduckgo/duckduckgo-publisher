@@ -15,7 +15,7 @@
 					<select id="bang" class="hide" size="2" onChange="if (ip) nbb(this);" onClick="if (!ip) nbb(this);" onBlur="bang_toggle();"></select>					
 				</form>
 			</div>
-			<div class="header__aside" onclick="DDG.toggle('header_button_menu')">
+			<div class="header__aside js-trigger-main-menu">
 				 <a class="header__aside__button  header_button_menu_item" href="javascript:;">&#x2630;<: # insert icon here :></a>
 			</div>
 		</div>
