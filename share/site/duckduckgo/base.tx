@@ -12,7 +12,7 @@
 	  <: include "head_homepage.tx" :>
 	<: } :>
   </head>
-  <body id="pg-<: $f.filebase :>" class="<: if !$homepage { :> set-align-center<: } if !$homepage && !$no_wrapper && !$no_header{ :> set-header--fixed <:}:><: if $has_zcm {:> has-zcm <:}:>">
+  <body id="pg-<: $f.filebase :>" class="<: if !$homepage { :> set-align-center<: } if !$homepage && !$no_wrapper && !$no_header{ :> set-header--fixed <:}:><: if $has_zcm {:> has-zcm <:}:> <: if $yui_body_header { :> yui-skin-sam<: } :>">
 	<div class="site-wrapper  <: if $homepage { :>site-wrapper--homepage<: } :>">
 	<: if $yui_body_header { :> 
 	  <: include "yui_body_header_" ~ $f.filebase ~ ".tx" :>	  
