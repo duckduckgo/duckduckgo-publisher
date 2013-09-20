@@ -1,6 +1,6 @@
-<div id="header_button_menu" class="nav-menu  nav-menu--slideout">
+<div id="header_button_menu" class="nav-menu--slideout">
     <ul class="nav-menu__list">
-		<i class="nav-menu__icon  nav-menu__icon--top-right  nav-menu__icon--clickable  js-trigger-main-menu">&#8594;</i>
+		<i class="nav-menu__close  js-trigger-main-menu">x</i>
 		<: include "menu_inner.tx" :>
 	</ul>
 </div>

@@ -1,6 +1,6 @@
 		<form id="search_form_homepage" class="search" name="x" method="POST" action="/html" onSubmit="return nbr()">			
 			<input id="search_form_input_homepage" class="search__input" type="text" autocomplete="off" name="q" autofocus tabindex="1" onclick="if (this.value=='put search terms here') {this.value='';this.style.color='#000000';};if (is_mobile) DDG.toggle('footer_homepage');" onblur="if (is_mobile) DDG.toggle('footer_homepage',1)"  onFocus="if ('rc' in window) {nua('nro',rc)};fq=1;" onBlur="fq=0" value="">
-			<input id="search_button_homepage" class="search__button" type="submit" tabindex="2" value="&#x1f50d;" />
+			<input id="search_button_homepage" class="search__button" type="submit" tabindex="2" value="S" />
 			<input id="search_form_input_clear" class="search__clear  empty" type="button" tabindex="3" value="X" onclick="DDG.clear_button()"/>
 			<a id="search_dropdown_homepage" class="search__dropdown" tabindex="-1" href="javascript:;" onClick="nbc(1);"></a>
 			<select id="bang" class="hide" size="2" onChange="if (ip) nbb(this);" onClick="if (!ip) nbb(this);" onBlur="nbc(1)"></select>
