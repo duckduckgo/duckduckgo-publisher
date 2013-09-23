@@ -6,9 +6,9 @@
 				<span class="header__logo__text">DuckDuckGo</span>
 			</a>					
 			<div class="header__content  header__search  search-wrap--header">
-				<form id="search_form" class="search" name="x" action="/" onsubmit="return nbr()">
+				<form id="search_form" class="search  js-search-init" name="x" action="/" onsubmit="return nbr()">
 					<div id="search_elements_hidden" class="search__hidden"></div>
-					<input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" class="search__input" onkeyup="DDG.clear_button_toggle()" onclick="if (this.value=='<: js(l('put search terms here')) :>') {this.value='';this.style.color='#000000';}"/>
+					<input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" class="search__input  js-search-input" />
 					<input id="search_button" class="search__button" type="submit" tabindex="2" value="S" />
 					<input id="search_form_input_clear" class="search__clear  empty" type="button" tabindex="3" value="X" onclick="DDG.clear_button()"/>
 					<a id="search_dropdown" class="search__dropdown" href="javascript:;" tabindex="4" onclick="bang_toggle();"></a>		
