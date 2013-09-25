@@ -9,7 +9,7 @@
 <link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="/opensearch_ssl.xml">
 
 <meta http-equiv="content-type" content="text/html; charset=UTF-8;charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1"/>
 <meta name="HandheldFriendly" content="true"/>
 
 <meta name="apple-mobile-web-app-capable" content="yes" />
