@@ -32,17 +32,24 @@ sub _build_source_dir {
 
     my $cache_dir = $self->site->publisher->cache_dir;
 
-#    die $cache_dir;
-    {
-	local $CWD = $cache_dir;
-	
-	my ($in, $out, $err);
+    my $source_dir = dir($cache_dir,'duckduckgo-documentation/duckduckhack');
 
-	run ['git', 'clone', 'git@github.com:duckduckgo/duckduckgo-documentation.git'
-	    ], \$in, \$out, \$err, timeout(60) or die "$err (error $?) $out";
+    {
+	my ($in, $out, $err);    
+
+#    die $cache_dir;
+	if (-d $source_dir) {
+	    local $CWD = $source_dir;
+	    run ['git', 'pull'
+		], \$in, \$out, \$err, timeout(60) or die "$err (error $?) $out";
+	} else {
+	    local $CWD = $cache_dir;
+	    run ['git', 'clone', 'git@github.com:duckduckgo/duckduckgo-documentation.git'
+		], \$in, \$out, \$err, timeout(60) or die "$err (error $?) $out";
+	}
+
     }
 
-    my $source_dir = dir($cache_dir,'duckduckgo-documentation/duckduckhack');
     return $source_dir;
 }
 
