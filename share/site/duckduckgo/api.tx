@@ -57,7 +57,7 @@ To consume it yourself, you can use one of the language libraries listed below o
 <p style="margin-top: 25px;">
 Here are the requirements for use: 
 <ul>
-<li>Link attribution in each place you use the info for both us and any underlying source. For example: from <a href="http://en.wikipedia.org/wiki/DuckDuckGo">Wikipedia</a>, powered <a href="https://duckduckgo.com/">by DuckDuckGo</a>. 
+<li>Attribution in each place you use our API for both us and any underlying source. For the source, you can link to the source's relevant detail page. For us, you can say <a href="https://duckduckgo.com/">Results from DuckDuckGo</a> with our logo (and link to the specific result page). 
 <li>Non-commercial use unless you get <a href="http://help.duckduckgo.com/customer/portal/articles/775109">email approval from us</a> (though we're generally fine with anything that isn't sketchy).
 <li>Use a descriptive <a href="http://help.duckduckgo.com/customer/portal/articles/448610">t parameter</a>, i.e. append &t=nameofapp to your requests.
 </ul>

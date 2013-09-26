@@ -54,7 +54,7 @@
 	-->
 	</div>	
 	
-	<h3 class="red-title  h-xs  guide-title"><: l("If your feedback isn't addressed in the Help pages or on the Forum, use this guide:") :></h3>	
+	<h3 class="red-title  h-xs  guide-title"><: l("Check the Help pages and the Forum, then use this guide.:") :></h3>	
 	
 	<div class="fb-step  fb-step--active">
 		<i class="fb-step__icon  ddgi-bug"></i>
@@ -64,13 +64,13 @@
 	
 	<div class="fb-step  fb-step--active">
 		<i class="fb-step__icon  ddgi-sad-search"></i>
-		<a href="https://dukgo.com/feedback/relevancy/" class="fb-step__body  fb-step__body--btn"><: l("I’d like to report bad relevancy.") :></a>
+		<a href="https://dukgo.com/feedback/relevancy/" class="fb-step__body  fb-step__body--btn"><: l("I'd like to report bad relevancy.") :></a>
 		<i class="fb-step__arrow  ddgi-arrow-right"></i>
 	</div>
 	
 	<div class="fb-step  fb-step--active">
 		<i class="fb-step__icon  ddgi-bang"></i>
-		<a href="https://dukgo.com/feedback/bang/" class="fb-step__body  fb-step__body--btn"><: l("I’d like to submit a new !bang or report a broken !bang.") :></a>
+		<a href="https://dukgo.com/feedback/bang/" class="fb-step__body  fb-step__body--btn"><: l("I'd like to submit a new !bang or report a broken !bang.") :></a>
 		<i class="fb-step__arrow  ddgi-arrow-right"></i>
 	</div>
 	
