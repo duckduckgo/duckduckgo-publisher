@@ -8,13 +8,14 @@ use DDP;
 
 use File::Path qw(make_path);
 use File::Find;
-use vars qw/*name *dir *prune/;
-*name = *File::Find::name;
-*dir = *File::Find::dir;
-*prune = *File::Find::prune;
+use File::chdir;
+
+use Path::Class;
 
 use Markdent::Handler::HTMLStream::Document;
 use Markdent::Parser;
+
+use IPC::Run qw{run timeout};
 
 with qw(
 	DDG::Publisher::DirRole
@@ -23,14 +24,32 @@ with qw(
 has source_dir => (
     is => 'ro',
     required => 1,
-    default => sub {$ENV{HOME} . '/duckduckgo-documentation/duckduckhack'},
+    builder => 1,
     );
+
+sub _build_source_dir {
+    my ( $self ) = @_;
+
+    my $cache_dir = $self->site->publisher->cache_dir;
+
+#    die $cache_dir;
+    {
+	local $CWD = $cache_dir;
+	
+	my ($in, $out, $err);
+
+	run ['git', 'clone', 'git@github.com:duckduckgo/duckduckgo-documentation.git'
+	    ], \$in, \$out, \$err, timeout(60) or die "$err (error $?) $out";
+    }
+
+    my $source_dir = dir($cache_dir,'duckduckgo-documentation/duckduckhack');
+    return $source_dir;
+}
 
 sub path { '/' }
 
 # For just testing output.
 my $dir_output = '/usr/local/ddg/www-static/duckduckhack.com/tmp';
-my $dir_tmp = '/tmp/';
 
 sub pages {
 
@@ -39,6 +58,10 @@ sub pages {
     my %pages = ();
 
     find(sub {
+
+	my $name = $File::Find::name;
+	my $dir = $File::Find::dir;
+
         return unless $name =~ /^[^.].+\.md$/; # only markdown files
 	warn qq($name\n);;
 
