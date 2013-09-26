@@ -51,6 +51,9 @@ sub _build_source_dir {
 		}
 	}
 
+#	warn qq(DUCKDUCKHACK source_dir: $source_dir\n);
+#	die;
+
 	return $source_dir;
 }
 
@@ -71,7 +74,7 @@ sub pages {
 		my $dir = $File::Find::dir;
 
 		return unless $name =~ /^[^.].+\.md$/; # only markdown files
-		#warn qq($name\n);
+		warn qq($name\n);
 
 		my ($file) = $name =~ /^$self->{source_dir}\/(.*)\.md/;
 		my $dir_rel = '';
@@ -81,7 +84,7 @@ sub pages {
 		my $markdown = io($name)->slurp;
 
 		# Replaces hard github links to other markdown files to our newly converted relative links
-		$markdown =~ s~(\]\()https://github.com/duckduckgo/duckduckgo-documentation/blob/master/duckduckhack/(?:[^\/\.]+\/){1,4}([^\.]+?)\.md([^\)]*?\))~$1$2\.html$3~sg;
+		$markdown =~ s~(\]\()https://github.com/duckduckgo/duckduckgo-documentation/blob/master/duckduckhack/(?:[^\/\.]+\/){1,4}([^\.]+?)\.md([^\)]*?\))~$1$2$3~sg;
 		#	die $markdown;
 
 		# Just for debugging.
