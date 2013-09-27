@@ -73,7 +73,8 @@ sub get_nav {
     my $markdown = io($nav_path)->slurp;    
 
 #    die $markdown;
-    
+
+    my %nav = ();
     my @nav = ();
     HEADING: foreach my $heading (split(/\n\-/s,$markdown)) {
 	next HEADING if !$heading;
@@ -94,6 +95,11 @@ sub get_nav {
 	      $sec{'title'} = $section;
 	      $sec{'link'} = $link;
 	      push(@sec,\%sec);
+	      
+	      $nav{$link} = {
+		  'category' => $title,
+		  'title' => $section,
+	      }
 	  }
       }
 
@@ -105,8 +111,8 @@ sub get_nav {
 	}
     }
 
-#    die p(@nav);
-    return \@nav;
+#    die p(%nav);
+    return \@nav, \%nav;
 }
 
 # For just testing output.
@@ -120,7 +126,8 @@ sub pages {
 	# Old index.
 	$pages{'index'} = sub {};
 
-	my $nav_ref = $self->get_nav;
+	my ($nav_arr_ref,$nav_hash_ref) = $self->get_nav;
+	my %nav = %{$nav_hash_ref};
 
 	find(sub {
 
@@ -162,19 +169,20 @@ sub pages {
 
 		#	die $html;
 		#	die $file;
-	
+
+		my $category = $nav{$file}{'category'} || '';
+		my $title = $nav{$file}{'title'} || '';
+
+		warn qq(NO CATEGORY: $file\n) if !$category;
+#		warn qq($file\t$title\t$category\n);
+
 		$pages{$file} = sub {
-				fn => $name,
+				file => $file,
+				title => $title,
+				category => $category,
 				html => $html,
-				nav_ref => $nav_ref,
+				nav_ref => $nav_arr_ref,
 				maintemplate => 'doc.tx',
-				this => [
-					key => 0,
-					title => 'This Title',
-				],
-				this_category => [
-					key => 0,
-				],
 				# raw_output => 1
 		};
 
