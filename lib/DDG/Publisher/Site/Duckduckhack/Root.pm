@@ -85,9 +85,15 @@ sub get_nav {
 	  if ($line =~ /\*\*([^\*]+)/) {
 	      $title = $1;
 
-	  } elsif ($line =~ /\[([^\]]+)/) {
+	  # Capturing markdown link.
+	  } elsif ($line =~ /\[([^\]]+)\]\(([^\)]+)/) {
 	      my $section = $1;
-	      push(@sec,$section);
+	      my $link = $2;
+	      $link =~ s/^.*\/(.*)\.md/$1/;
+	      my %sec = ();
+	      $sec{'title'} = $section;
+	      $sec{'link'} = $link;
+	      push(@sec,\%sec);
 	  }
       }
 
