@@ -9,7 +9,7 @@
 		
 			<:# snip here :>
 				<div class="gw  gw--sm  mg-bottom">
-					<div class="g  threequarter  pull-right">
+					<div class="g  seventy  pull-right">
 						<div class="content-box">
 						  <div class="head">
 							<h2>Title Goes Here  <: $this.title :></h2>
@@ -24,7 +24,7 @@
 							<a href="http://duckduckgo.com/forum">Not helpful?  Try our Forums.</a>
 						</div>
 					</div>
-					<div class="g  quarter">
+					<div class="g  thirty">
 						<: include "inc/side_nav.tx" {nav_ref=>$nav_ref, this=>$this, this_category=>$this_category} :>
 					</div>
 				</div>

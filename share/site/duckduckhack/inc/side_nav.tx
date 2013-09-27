@@ -1,19 +1,15 @@
 	  
 		<ul class="nav  nav--panels  ">
 		  <: for $nav_ref -> $nav { :>
-			<li class="nav-item <: if $nav.key == $this_category.key { :> nav-item--active<:}:>">
-			  <: if $nav.key != $this_category.key { :>
-				<a href="" class="nav-item__title  nav-item__link  js-toggle-sibling  is-exclusive"><: $nav.title :></a>
-			  <: } else { :>				
-				<span class="nav-item__title  js-toggle-sibling  is-exclusive"><: $nav.title :></span>
-			  <: } :>
-				<ul class="nav  nav--sub <: if $nav.key == $this_category.key { :> is-open <: } else {:> is-closed <:}:>">
+			<li class="nav-item <: if $~nav == $this_category.key { :> nav-item--active<:}:>">			  			
+				<span class="nav-item__title  js-toggle-sibling  is-exclusive"><: $nav.title :></span>			  
+				<ul class="nav  nav--sub <: if $~nav == $this_category.key { :> is-open <: } else {:> is-closed <:}:>">
 					<: for $nav.sections -> $section { :>
-					  <li class="sub-item <: if $section.key == $this.key { :> sub-item--active<:}:>">
-						<: if $section.key == $this.key { :>
+					  <li class="sub-item <: if $~section == $this.key { :> sub-item--active<:}:>">
+						<: if $~section == $this.key { :>
 						  <span class="sub-item__title"><: $section :></span>
 						<: } else { :>
-						  <a href="#" class="sub-item__title  sub-item__link"><: $section :></a>
+						  <a href="<: $section.link :>" class="sub-item__title  sub-item__link"><: $section.title :></a>
 						<: } :>
 					</li>
 					<: } :>
