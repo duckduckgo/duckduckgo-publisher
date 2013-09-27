@@ -8,11 +8,16 @@
 			<div class="content-wrap">
 		
 			<:# snip here :>
+				<div class="breadcrumb-nav">
+					<div class="breadcrumbs">
+						 <a href="https://dukgo.com/">Home</a> &gt; DuckDuckHack &gt; <: if $category { $category :> &gt; <: } $title :> 
+					</div>
+				</div>
 				<div class="gw  gw--sm  mg-bottom">
 					<div class="g  seventy  pull-right">
 						<div class="content-box">
 						  <div class="head">
-							<h2>Title Goes Here  <: $this.title :></h2>
+							<h2><: if $category { $category :> &mdash; <: } $title :></h2>
 						  </div>
 						  <div class="body  content">	
 							<div class="row">
@@ -25,7 +30,7 @@
 						</div>
 					</div>
 					<div class="g  thirty">
-						<: include "inc/side_nav.tx" {nav_ref=>$nav_ref, this=>$this, this_category=>$this_category} :>
+						<: include "inc/side_nav.tx" {nav_ref=>$nav_ref, file=>$file, title=>$title, category=>$category} :>
 					</div>
 				</div>
 			<:# snip here :>	
@@ -33,4 +38,22 @@
 			</div>
 		</div>
 	</div>
+	<:# for testing only - don't try this at home, kids! :>
+	<script src="/static/js/jquery-1.9.1.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$('.js-toggle-sibling').click(function(e){
+			e.preventDefault();			
+			var target = $(this).parent().find('.is-closed, .is-open');
+			if ($(target).hasClass('is-open')) {
+				target.addClass('is-closed').removeClass('is-open');		
+			}
+			else {
+				if ($(this).hasClass('is-exclusive')) {
+					$(this).parent().parent().find('.is-open')
+					  .addClass('is-closed').removeClass('is-open');
+				}
+				target.toggleClass('is-closed').toggleClass('is-open');	
+			}
+		});
+	</script>
 </body>

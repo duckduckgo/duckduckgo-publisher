@@ -1,13 +1,13 @@
 	  
 		<ul class="nav  nav--panels  ">
 		  <: for $nav_ref -> $nav { :>
-			<li class="nav-item <: if $~nav == $this_category.key { :> nav-item--active<:}:>">			  			
+			<li class="nav-item <: if $nav.title == $category { :> nav-item--active<:}:>">			  			
 				<span class="nav-item__title  js-toggle-sibling  is-exclusive"><: $nav.title :></span>			  
-				<ul class="nav  nav--sub <: if $~nav == $this_category.key { :> is-open <: } else {:> is-closed <:}:>">
+				<ul class="nav  nav--sub <: if $nav.title == $category { :> is-open <: } else {:> is-closed <:}:>">
 					<: for $nav.sections -> $section { :>
-					  <li class="sub-item <: if $~section == $this.key { :> sub-item--active<:}:>">
-						<: if $~section == $this.key { :>
-						  <span class="sub-item__title"><: $section :></span>
+					  <li class="sub-item <: if $section.link == $file { :> sub-item--active<:}:>">
+						<: if $section.link == $file { :>
+						  <span class="sub-item__title"><: $section.title :></span>
 						<: } else { :>
 						  <a href="<: $section.link :>" class="sub-item__title  sub-item__link"><: $section.title :></a>
 						<: } :>
