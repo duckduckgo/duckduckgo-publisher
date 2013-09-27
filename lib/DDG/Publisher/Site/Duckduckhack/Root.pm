@@ -178,6 +178,8 @@ sub pages {
 
 		$pages{$file} = sub {
 				file => $file,
+				file_dir => $dir_rel,
+				file_path => "https://github.com/duckduckgo/duckduckgo-documentation/tree/master/duckduckhack",
 				title => $title,
 				category => $category,
 				html => $html,
