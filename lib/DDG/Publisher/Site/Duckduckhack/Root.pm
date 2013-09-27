@@ -183,7 +183,7 @@ sub pages {
 				html => $html,
 				nav_ref => $nav_arr_ref,
 				maintemplate => 'doc.tx',
-				# raw_output => 1
+				raw_output => 1,  # enable to strip out all of the wrapping for these docs and only output the main content for scraping and inclusion elsewhere
 		};
 
 		# $ref->{$_} = $html;
