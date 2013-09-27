@@ -158,9 +158,18 @@ sub pages {
 		#	die $file;
 	
 		$pages{$file} = sub {
+				fn => $name,
 				html => $html,
-				nav => $nav_ref,
+				nav_ref => $nav_ref,
 				maintemplate => 'doc.tx',
+				this => [
+					key => 0,
+					title => 'This Title',
+				],
+				this_category => [
+					key => 0,
+				],
+				# raw_output => 1
 		};
 
 		# $ref->{$_} = $html;

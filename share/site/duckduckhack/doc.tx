@@ -1,4 +1,4 @@
-<!--
+
 <head>
 	<: include "inc/head.tx" :>	
 </head>
@@ -6,13 +6,13 @@
 	<div id="wrapper" class="site-wrapper">		
 		<div class="site-main">
 			<div class="content-wrap">
--->			
+		
 			<:# snip here :>
 				<div class="gw  gw--sm  mg-bottom">
 					<div class="g  threequarter  pull-right">
 						<div class="content-box">
 						  <div class="head">
-							<h2>Title Goes Here</h2>
+							<h2>Title Goes Here  <: $this.title :></h2>
 						  </div>
 						  <div class="body  content">	
 							<div class="row">
@@ -21,17 +21,16 @@
 						  </div>
 						</div>
 						<div class="text-mid">
-							<a href="http://duckduckgo.com/feedback">Not helpful?  Try our Feedback Page.</a>
+							<a href="http://duckduckgo.com/forum">Not helpful?  Try our Forums.</a>
 						</div>
 					</div>
 					<div class="g  quarter">
-						<: include "inc/side_nav.tx" :>
+						<: include "inc/side_nav.tx" {nav_ref=>$nav_ref, this=>$this, this_category=>$this_category} :>
 					</div>
 				</div>
 			<:# snip here :>	
-<!--				
+				
 			</div>
 		</div>
 	</div>
 </body>
--->
