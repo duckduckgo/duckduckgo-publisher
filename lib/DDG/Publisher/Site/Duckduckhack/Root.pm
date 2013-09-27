@@ -68,6 +68,9 @@ sub pages {
 
 	my %pages = ();
 
+	# Old index.
+	$pages{'index'} = sub {};
+
 	find(sub {
 
 		my $name = $File::Find::name;
