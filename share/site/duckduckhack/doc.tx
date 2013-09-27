@@ -8,31 +8,33 @@
 			<div class="content-wrap">
 		
 			<:# snip here :>
-				<div class="breadcrumb-nav">
-					<div class="breadcrumbs">
-						 <a href="https://dukgo.com/">Home</a> &gt; DuckDuckHack &gt; <: if $category { $category :> &gt; <: } $title :> 
+				<div id="duckduckhack-body">
+					<div class="breadcrumb-nav">
+						<div class="breadcrumbs">
+							 <a href="https://dukgo.com/">Home</a> &gt; DuckDuckHack &gt; <: if $category { $category :> &gt; <: } $title :> 
+						</div>
 					</div>
-				</div>
-				<div class="gw  gw--sm  mg-bottom">
-					<div class="g  seventy  pull-right">
-						<div class="content-box">
-						  <div class="head">
-							<h2><: if $category { $category :> &mdash; <: } $title :></h2>
-						  </div>
-						  <div class="body  content">	
-							<div class="row">
-								<: r($html) :>
+					<div class="gw  gw--sm  mg-bottom">
+						<div class="g  seventy  pull-right">
+							<div class="content-box">
+							  <div class="head">
+								<h2><: if $category { $category :> &mdash; <: } $title :></h2>
+							  </div>
+							  <div class="body  content">	
+								<div class="row">
+									<: r($html) :>
+								</div>
+							  </div>
 							</div>
-						  </div>
+							<div class="text-mid">
+								<a href="http://duckduckgo.com/forum">Not helpful?  Try our Forums.</a>
+							</div>
 						</div>
-						<div class="text-mid">
-							<a href="http://duckduckgo.com/forum">Not helpful?  Try our Forums.</a>
+						<div class="g  thirty">
+							<: include "inc/side_nav.tx" {nav_ref=>$nav_ref, file=>$file, title=>$title, category=>$category} :>
 						</div>
 					</div>
-					<div class="g  thirty">
-						<: include "inc/side_nav.tx" {nav_ref=>$nav_ref, file=>$file, title=>$title, category=>$category} :>
-					</div>
-				</div>
+				</div>	
 			<:# snip here :>	
 				
 			</div>
