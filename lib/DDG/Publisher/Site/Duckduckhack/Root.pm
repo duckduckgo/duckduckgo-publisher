@@ -21,6 +21,12 @@ with qw(
 	DDG::Publisher::DirRole
 );
 
+has nav_file => (
+	is => 'ro',
+	lazy => 1,
+	builder => sub {'ddh-index.md'},
+);
+
 has source_dir => (
 	is => 'ro',
 	lazy => 1,
@@ -59,11 +65,48 @@ sub _build_source_dir {
 
 sub path { '/' }
 
+# Builds the nav hash to push to each template.
+sub get_nav {
+    my $self = shift;
+
+    my $nav_path = dir($self->source_dir,$self->nav_file);
+    my $markdown = io($nav_path)->slurp;    
+
+#    die $markdown;
+    
+    my @nav = ();
+    HEADING: foreach my $heading (split(/\n\-/s,$markdown)) {
+	next HEADING if !$heading;
+	next HEADING if $heading !~ /\*\*/;
+
+	my $title = '';
+	my @sec = ();
+      LINE: foreach my $line (split(/\n/,$heading)) {
+	  if ($line =~ /\*\*([^\*]+)/) {
+	      $title = $1;
+
+	  } elsif ($line =~ /\[([^\]]+)/) {
+	      my $section = $1;
+	      push(@sec,$section);
+	  }
+      }
+
+	if ($title) {
+	    my %sec = ();
+	    $sec{'title'} = $title;
+	    $sec{'sections'} = \@sec;
+	    push(@nav,\%sec);
+	}
+    }
+
+#    die p(@nav);
+    return \@nav;
+}
+
 # For just testing output.
 my $dir_output = '/usr/local/ddg/www-static/duckduckhack.com/tmp';
 
 sub pages {
-
 	my $self = shift;
 
 	my %pages = ();
@@ -71,10 +114,14 @@ sub pages {
 	# Old index.
 	$pages{'index'} = sub {};
 
+	my $nav_ref = $self->get_nav;
+
 	find(sub {
 
 		my $name = $File::Find::name;
 		my $dir = $File::Find::dir;
+
+		return if $name =~ /$self->{nav_file}/;
 
 		return unless $name =~ /^[^.].+\.md$/; # only markdown files
 		warn qq($name\n);
@@ -112,13 +159,14 @@ sub pages {
 	
 		$pages{$file} = sub {
 				html => $html,
+				nav => $nav_ref,
 				maintemplate => 'doc.tx',
 		};
 
 		# $ref->{$_} = $html;
 	}, $self->source_dir);
 
-	# die p(%pages);
+#	die p($nav_ref);
 
 	return \%pages;
 }
