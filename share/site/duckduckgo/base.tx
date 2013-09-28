@@ -22,7 +22,7 @@
 	<div id="add_to_browser_homepage" class="modal grp_modal"></div>
 	<: if !$no_wrapper { :> 
 	  <: if !$no_header { include "header.tx" } :>
-	  <div id="content_wrapper" class="content_wrapper">	  
+	  <div id="content_wrapper" class="content-wrap">	  
 	  <: if !$no_content_internal { :>
 		<div id="content" class="content<: if !$no_cw { :>  cw  cw--always<: } :>">
 			<div id="content_internal" class="content__internal">

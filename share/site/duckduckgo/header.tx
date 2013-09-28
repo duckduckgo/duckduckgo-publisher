@@ -1,4 +1,4 @@
-<div id="header_wrapper" class="header_wrapper  header_wrapper--show <: if $has_zcm { :> header_wrapper--has-zcm<: } :>">	
+<div id="header_wrapper" class="header-wrap  header-wrap--show <: if $has_zcm { :> header-wrap--has-zcm<: } :>">	
 	<div id="header" class="header  cw">
 		<div class="header__search-wrap">
 			<a href="/" class="header__logo">
