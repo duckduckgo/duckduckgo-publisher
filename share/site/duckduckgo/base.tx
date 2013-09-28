@@ -22,9 +22,9 @@
 	<div id="add_to_browser_homepage" class="modal grp_modal"></div>
 	<: if !$no_wrapper { :> 
 	  <: if !$no_header { include "header.tx" } :>
-	  <div id="content_wrapper" class="content_wrapper<: if !$no_cw { :>  cw  cw--always<: } :>">	  
+	  <div id="content_wrapper" class="content_wrapper">	  
 	  <: if !$no_content_internal { :>
-		<div id="content" class="content">
+		<div id="content" class="content<: if !$no_cw { :>  cw  cw--always<: } :>">
 			<div id="content_internal" class="content__internal">
 	  <: } :>
 		<: if !$no_logo { :>
@@ -33,8 +33,8 @@
 		<: } else {:>
 		  <: if $homepage { :>
 			<: include "header_homepage.tx" :>
-			<div id="<:# content_wrapper_homepage :>" class="content_wrapper  cw">
-			  <div id="content_homepage">
+			<div id="<:# content_wrapper_homepage :>" class="content_wrapper">
+			  <div id="content_homepage" class="content cw">
 			    <: include "_logo_homepage.tx" :>
 				<div class="search-wrap--home">
 					<: include "search_form_homepage.tx" :>
