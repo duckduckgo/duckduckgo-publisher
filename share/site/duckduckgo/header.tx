@@ -11,8 +11,7 @@
 					<input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" class="search__input  js-search-input" />
 					<input id="search_button" class="search__button" type="submit" tabindex="2" value="S" />
 					<input id="search_form_input_clear" class="search__clear  empty" type="button" tabindex="3" value="X" onclick="DDG.clear_button()"/>
-					<a id="search_dropdown" class="search__dropdown" href="javascript:;" tabindex="4" onclick="bang_toggle();"></a>		
-					<select id="bang" class="hide" size="2" onChange="if (ip) nbb(this);" onClick="if (!ip) nbb(this);" onBlur="bang_toggle();"></select>					
+					<a id="search_dropdown" class="search__dropdown" href="javascript:;" tabindex="4" onclick="bang_toggle();"></a>	
 				</form>
 			</div>
 			<div class="header__aside js-trigger-main-menu">
@@ -40,6 +39,7 @@
 	</div>	
 </div>
 <: include "menu_header.tx" :>	
+<select id="bang" class="hide" size="2" onChange="if (ip) nbb(this);" onClick="if (!ip) nbb(this);" onBlur="bang_toggle();"></select>
 <: if $has_zci { # not meant for production - this is also an example :>
 <div class="zci-wrap  has-zci"><!-- hidden unless triggered by .has-zci -->	
     <div class="zci  zci--wiki  is-active" id="zci-wiki"><!-- standard layout -->
