@@ -1,1 +1,2 @@
 <: include "meta/title.tx" { title => 'Search DuckDuckGo' } :>
+<meta name="apple-itunes-app" content="app-id=663592361" />
