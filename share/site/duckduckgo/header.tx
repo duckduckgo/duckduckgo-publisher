@@ -1,4 +1,4 @@
-<div id="header_wrapper" class="header-wrap  header-wrap--show <: if $has_zcm { :> header-wrap--has-zcm<: } :>">	
+<div id="header_wrapper" class="header-wrap  header-wrap--show <: if $has_zcm { :> header-wrap--has-zcm<: } :>">
 	<div id="header" class="header  cw">
 		<div class="header__search-wrap">
 			<a href="/" class="header__logo">
@@ -13,11 +13,11 @@
 					<input id="search_form_input_clear" class="search__clear  empty" type="button" tabindex="3" value="X" onclick="DDG.clear_button()"/>
 					<a id="search_dropdown" class="search__dropdown" href="javascript:;" tabindex="4" onclick="bang_toggle();"></a>	
 				</form>
+			</div>	
+			<div class="header__aside  js-trigger-main-menu">
+				 <a class="header__button--menu" tabindex="5" href="javascript:;">#</a>
 			</div>
-			<div class="header__aside js-trigger-main-menu">
-				 <a class="header__aside__button  header_button_menu_item" href="javascript:;">#</a>
-			</div>
-		</div>
+		</div>		
 		<: if $has_zcm { # this is an example zero-click menu - leaving here to show the proper canonical markup :>
 		<div class="zcm-wrap">				
 			<div class="zcm"> <!-- zcm == zero-click menu -->
