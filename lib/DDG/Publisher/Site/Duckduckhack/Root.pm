@@ -137,7 +137,7 @@ sub pages {
 		return if $name =~ /$self->{nav_file}/;
 
 		return unless $name =~ /^[^.].+\.md$/; # only markdown files
-		warn qq($name\n);
+#		warn qq($name\n);
 
 		my ($file) = $name =~ /^$self->{source_dir}\/(.*)\.md/;
 		my $dir_rel = '';
@@ -148,7 +148,7 @@ sub pages {
 
 		# Replaces hard github links to other markdown files to our newly converted relative links
 		$markdown =~ s~(\]\()https://github.com/duckduckgo/duckduckgo-documentation/blob/master/duckduckhack/(?:[^\/\.]+\/){1,4}([^\.]+?)\.md([^\)]*?\))~$1$2$3~sg;
-		#	die $markdown;
+#			die $markdown;
 
 		# Just for debugging.
 		#	make_path("$dir_output/$dir_rel") if $dir_rel;
@@ -167,7 +167,11 @@ sub pages {
 
 		my $html = $buffer;
 
-		#	die $html;
+		# Gets embedded in wrapped html.
+		$html =~ s/^.*?<html>.*?<\/head>\s*<body>\s*//s;
+		$html =~ s/\s*<\/body>.*?<\/html>\s*$//s;
+
+			die $html;
 		#	die $file;
 
 		my $category = $nav{$file}{'category'} || '';
