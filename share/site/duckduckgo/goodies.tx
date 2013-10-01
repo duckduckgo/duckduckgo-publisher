@@ -1,7 +1,7 @@
 
 
 
-<div id="goodies">
+<div id="goodies" class="content-wrap">
 
     <div id="ducklist"> 
         <h2 id="topic-column" class="dtitle">Goodies</h2>
@@ -33198,7 +33198,7 @@
 
 
 
-<script src="/js/jquery/jquery-1.8.2.min.js"></script>
+
 
 <script>
     <!--
