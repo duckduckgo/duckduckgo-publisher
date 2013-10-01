@@ -171,7 +171,7 @@ sub pages {
 		$html =~ s/^.*?<html>.*?<\/head>\s*<body>\s*//s;
 		$html =~ s/\s*<\/body>.*?<\/html>\s*$//s;
 
-			die $html;
+#			die $html;
 		#	die $file;
 
 		my $category = $nav{$file}{'category'} || '';
