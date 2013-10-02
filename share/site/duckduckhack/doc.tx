@@ -1,7 +1,7 @@
 <: if !$raw_output { :>
 <head>	
 	<: include "inc/head.tx" :>	
-	<title><: $title if $category { :> / <: $category } :> / DuckDuckHack</title>
+	<title><: $title :><: if $category { :> / <: $category } :> / DuckDuckHack</title>
 </head>
 <body class="pg-duckduckhack  texture">
 	<div id="wrapper" class="site-wrapper">		
