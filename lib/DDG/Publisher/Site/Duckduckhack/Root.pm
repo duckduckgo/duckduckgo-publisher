@@ -177,7 +177,7 @@ sub pages {
 		$html =~ s/(<h\d>)(.*?)(<\/h\d>)/$1 . '<a name="' . make_anchor($2) . '" class="anchor"><\/a>' . $2 . $3/ges;
 
 		#	die $file;
-
+#		warn $html if $file eq 'faq';
 
 
 		my $category = $nav{$file}{'category'} || '';
@@ -210,6 +210,7 @@ sub make_anchor {
     my ($anchor) = @_;
 
     $anchor = lc $anchor;
+    $anchor =~ s/[^a-z\s]+//g;
     $anchor = trim $anchor;
     $anchor =~ s/\s+/\-/g;
 
