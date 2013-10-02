@@ -176,7 +176,6 @@ sub pages {
 		# Make anchors for headings.
 		$html =~ s/(<h\d>)(.*?)(<\/h\d>)/$1 . '<a name="' . make_anchor($2) . '" class="anchor"><\/a>' . $2 . $3/ges;
 
-#		die $html;
 		#	die $file;
 
 

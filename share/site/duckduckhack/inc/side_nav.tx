@@ -2,7 +2,7 @@
 		<ul class="nav  nav--panels  ">
 		  <: for $nav_ref -> $nav { :>
 			<li class="nav-item <: if $nav.title == $category { :> nav-item--active<:}:>">			  			
-				<span class="nav-item__title  js-toggle-sibling  is-exclusive"><: $nav.title :></span>			  
+				<span class="nav-item__title  nav-item__link  js-toggle-sibling  is-exclusive"><: $nav.title :></span>			  
 				<ul class="nav  nav--sub <: if $nav.title == $category { :> is-open <: } else {:> is-closed <:}:>">
 					<: for $nav.sections -> $section { :>
 					  <li class="sub-item <: if $section.link == $file { :> sub-item--active<:}:>">
