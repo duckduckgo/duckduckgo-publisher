@@ -15,6 +15,8 @@ use Path::Class;
 use Markdent::Handler::HTMLStream::Document;
 use Markdent::Parser;
 
+use Text::Trim;
+
 use IPC::Run qw{run timeout};
 
 with qw(
@@ -171,8 +173,12 @@ sub pages {
 		$html =~ s/^.*?<html>.*?<\/head>\s*<body>\s*//s;
 		$html =~ s/\s*<\/body>.*?<\/html>\s*$//s;
 
-#			die $html;
+		# Make anchors for headings.
+		$html =~ s/(<h\d>)(.*?)(<\/h\d>)/$1 . '<a name="' . make_anchor($2) . '" class="anchor"><\/a>' . $2 . $3/ges;
+
 		#	die $file;
+
+
 
 		my $category = $nav{$file}{'category'} || '';
 		my $title = $nav{$file}{'title'} || '';
@@ -198,6 +204,16 @@ sub pages {
 #	die p($nav_ref);
 
 	return \%pages;
+}
+
+sub make_anchor {
+    my ($anchor) = @_;
+
+    $anchor = lc $anchor;
+    $anchor = trim $anchor;
+    $anchor =~ s/\s+/\-/g;
+
+    return $anchor;
 }
 
 1;
