@@ -1,6 +1,7 @@
 <: if !$raw_output { :>
-<head>
+<head>	
 	<: include "inc/head.tx" :>	
+	<title><: $title if $category { :> / <: $category } :> / DuckDuckHack</title>
 </head>
 <body class="pg-duckduckhack  texture">
 	<div id="wrapper" class="site-wrapper">		
@@ -12,14 +13,16 @@
 					<div class="breadcrumb-nav">
 						<div class="breadcrumbs">
 							 <a href="https://dukgo.com/">Home</a> &gt; <a href="http://duckduckhack.com">DuckDuckHack</a> &gt; <: if $category { $category :> &gt; <: } $title :> 
-						</div>
-						<a class="pull-right" href="<: $file_path :>/<: if $file_dir { $file_dir :>/<: } $file :>.md">Edit</a>						
+						</div>												
 					</div>
 					<div class="gw  gw--sm  mg-bottom">
 						<div class="g  seventy  pull-right">
 							<div class="content-box">
 							  <div class="head">
 								<h2><: if $category { $category :> &mdash; <: } $title :></h2>
+								<a class="pull-right" href="<: $file_path :>/<: if $file_dir { $file_dir :>/<: } $file :>.md" title="Edit this article on GitHub">
+									<i class="icon-pencil icn icn--pulled" id="trig-level-tooltip"></i>
+								</a>
 							  </div>
 							  <div class="body  content">	
 								<div class="row">
