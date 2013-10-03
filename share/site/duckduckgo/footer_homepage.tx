@@ -1,22 +1,20 @@
-<div id="footer_homepage" class="foot-home">
-	<div class="cw">
-		<div id="footer_homepage_left" class="foot-home__left">
-			<a href="http://ddg.gg" title="DuckDuckGo short domain!" class="hide--screen-s">ddg.gg</a>
-			<a href="/spread/"><: l('Help Spread DuckDuckGo!') :></a>
-		</div>
-		<div id="footer_homepage_right" class="foot-home__right">
-			<script type="text/javascript">
-				nib(0,'','','',0,0);
-				nib(0,'','&nbsp;&nbsp;','',0,1);
-				{function seterr(str) {var error=document.getElementById('error_homepage');
-				error.innerHTML=str;
-				YAHOO.util.Dom.setStyle(error,'display','block');}var err=new RegExp('[\?\&]e=([^\&]+)');var errm=new Array();errm['2']='<: js(l('no search')) :>';errm['3']='<: l('search too long') :>';errm['4']='<: js(l('not %s encoding','UTF-8')) :>';if (err.test(window.location.href)) seterr('Oops, '+(errm[RegExp.$1]?errm[RegExp.$1]:'<: js(l('there was an error.')) :>')+' &nbsp;<: js(l('Please try again')) :>');};if (ip) setTimeout('nuo(1)',250);nip(1)
-			</script>		
-		</div>
-	</div>
+<div id="<: # footer_homepage :>" class="foot-home">	
+	<script type="text/javascript">
+		nib(0,'btn--home','','',0,0,'<i class="btn--home__icon  ddgsi-close-menu"></i> ');
+		nib(0,'btn--home','','',0,1,'<i class="btn--home__icon  ddgsi-close-menu"></i> ');
+	</script>
+	<a href="/about" class="btn--home"><i class="btn--home__icon  ddgsi-close-menu"></i> Learn More</a>
+	
 </div>
 
 <script type="text/javascript">
+	{function seterr(str) {
+		var error=document.getElementById('error_homepage');
+		error.innerHTML=str;
+		$(error).css('display','block');
+	}
+	var err=new RegExp('[\?\&]e=([^\&]+)');var errm=new Array();errm['2']='<: js(l('no search')) :>';errm['3']='<: l('search too long') :>';errm['4']='<: js(l('not %s encoding','UTF-8')) :>';if (err.test(window.location.href)) seterr('Oops, '+(errm[RegExp.$1]?errm[RegExp.$1]:'<: js(l('there was an error.')) :>')+' &nbsp;<: js(l('Please try again')) :>');};if (ip) setTimeout('nuo(1)',250);nip(1)
+	
 	setTimeout('document.x.q.focus()',50);
 	if (kurl) {
 	  document.getElementById("logo_homepage_link").href += (document.getElementById("logo_homepage_link").href.indexOf('?')==-1 ? '?t=i' : '') + kurl;

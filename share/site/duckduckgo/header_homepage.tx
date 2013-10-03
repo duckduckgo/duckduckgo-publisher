@@ -1,7 +1,6 @@
-
-<div class="cw">
-	<div class="pull-right">
-		 <a class="header__aside__button  header_button_menu_item  js-trigger-main-menu" href="javascript:;">#</a>
+<div class="header-wrap--home">
+	<div class="header--home-aside">
+		 <a class="header__button--menu  js-trigger-main-menu" href="javascript:;">#</a>
 	</div>
 </div>
 
