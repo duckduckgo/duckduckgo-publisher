@@ -1,9 +1,8 @@
 <div id="header_wrapper" class="header-wrap  header-wrap--show <: if $has_zcm { :> header-wrap--has-zcm<: } :>">	
 	<div id="header" class="header  cw">
 		<div class="header__search-wrap">
-			<a href="/" class="header__logo">
-				<img src="/assets/logo_icon60.v101.png" class="header__logo__img"/>
-				<span class="header__logo__text">DuckDuckGo</span>
+			<a href="/" class="header__logo-wrap">				
+				<span class="header__logo">DuckDuckGo</span>
 			</a>					
 			<div class="header__content  header__search  search-wrap--header">
 				<form id="search_form" class="search  search--header  js-search-init" name="x" action="/" onsubmit="return nbr()">

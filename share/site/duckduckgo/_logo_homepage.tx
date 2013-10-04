@@ -1,5 +1,5 @@
-		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
-			<div id="logo_homepage">About DuckDuckGo</div>
+		<a id="logo_homepage_link" class="logo-wrap--home" title="About DuckDuckGo" href="/about">
+			<div id="logo_homepage" class="logo_homepage">About DuckDuckGo</div>
 		</a>
 
 <!--
