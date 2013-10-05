@@ -1,11 +1,13 @@
+<!--
 		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage">About DuckDuckGo</div>
 		</a>
-<!--
-		<a id="logo_homepage_link" title="Jim Henson" href="?q=Jim+Henson">
-			<div id="logo_homepage">Jim Henson</div>
-		</a>
 		//-->
+
+		<a id="logo_homepage_link" title="Robert Goddard" href="?q=Robert+H+Goddard">
+			<div id="logo_homepage">Robert Goddard</div>
+		</a>
+
 
 
 
