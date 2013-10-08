@@ -31,7 +31,7 @@
 							  </div>
 							</div>
 							<div class="text-mid">
-								<a href="http://duckduckgo.com/forum">Not helpful?  Try our Forums.</a>
+								Not helpful?  Help <a href="<: $file_path :>/<: if $file_dir { $file_dir :>/<: } $file :>.md">Edit</a> or <a href="http://duckduckgo.com/forum">Ask the Community</a>
 							</div>
 						</div>
 						<div class="g  thirty">
