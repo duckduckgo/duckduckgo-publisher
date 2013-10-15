@@ -3,7 +3,7 @@
 		nib(0,'btn--home','','',0,0,'<i class="btn--home__icon  ddgsi-add-to-browser"></i> ');
 		nib(0,'btn--home','','',0,1,'<i class="btn--home__icon  ddgsi-make-home"></i> ');
 	</script>
-	<a href="/about" class="btn--home"><i class="btn--home__icon  ddgsi-more"></i> Learn More</a>
+	<a href="/about" class="btn--home"><i class="btn--home__icon  ddgsi-more"></i> Learn <span>More</span></a>
 	
 </div>
 
