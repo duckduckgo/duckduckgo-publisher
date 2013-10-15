@@ -13,10 +13,7 @@
 	<div class="site-wrapper <: if $homepage { :> site-wrapper--home<: } :>">
 	<: if $yui_body_header { :> 
 	  <: include "yui_body_header_" ~ $f.filebase ~ ".tx" :>
-	<: } :>
-
-    <div id="add_to_browser" class="modal grp_modal"></div>
-	<div id="add_to_browser_homepage" class="modal grp_modal"></div>
+	<: } :>    
 	<: if !$no_wrapper { :> 
 	  <: if !$no_header { include "header.tx" } :>
 	  <div id="content_wrapper" class="<: if !$goodies { :>content-wrap<: } :>">	  
@@ -59,6 +56,8 @@
 		 <: } :>
 		<: include "footer.tx" :>		 
 	<: } :>
+	    <div id="add_to_browser" class="modal grp_modal"></div>
+		<div id="add_to_browser_homepage" class="modal grp_modal"></div>
 		</div> <!-- content_wrapper //-->	  
     </div> <!-- site-wrapper -->
   </body>
