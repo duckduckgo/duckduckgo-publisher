@@ -18,21 +18,50 @@
 					<div class="gw  gw--sm  mg-bottom">
 						<div class="g  seventy  pull-right">
 							<div class="content-box">
-							  <div class="head">
-								<h2><: if $category { $category :> &mdash; <: } $title :></h2>
-								<a class="pull-right" href="<: $file_path :>/<: if $file_dir { $file_dir :>/<: } $file :>.md" title="Edit this article on GitHub">
-									<i class="icon-pencil icn icn--pulled" id="trig-level-tooltip"></i>
+							  <div class="head">								
+								<h2><: if $category { $category :> &mdash; <: } $title :>
+								<a class="" href="<: $file_path :>/<: if $file_dir { $file_dir :>/<: } $file :>.md" title="Edit this article on GitHub">
+									<i class="icon-pencil  icn  icn--sup"></i>
 								</a>
+								</h2>
+								
+								<: if $prev.0 || $next.0 { :>
+								<span class="pull-right  button-group">									
+									<: if $prev.0 { :>
+									<a class="button" title="Previous Article" href="<: $prev.0 :>">
+										<i class="icon-caret-left "></i>
+									</a>
+								  <: } if $next.0 { :>
+									<a class="button" title="Next Article" href="<: $next.0 :>">
+										<i class="icon-caret-right"></i>
+									</a>
+								  <: } :>
+								</span>
+								<: } :>
 							  </div>
-							  <div class="body  content">	
-								<div class="row">
+							  <div class="body">	
+								<div class="row  content">									
 									<: r($html) :>
 								</div>
+								<div class="row  callout-row">
+									<: if $prev.0 || $next.0 { :>
+									<span class="pull-right  button-group">									
+										<: if $prev.0 { :>
+										<a class="button" title="Previous Article" href="<: $prev.0 :>">
+											<i class="icon-caret-left "></i>
+										</a>
+									  <: } if $next.0 { :>
+										<a class="button" title="Next Article" href="<: $next.0 :>">
+											<i class="icon-caret-right"></i>
+										</a>
+									  <: } :>
+									</span>
+									<: } :>
+									<h5 class="callout-row__text  icon" style="font-weight: bold;overflow:hidden;margin: 0;line-height:30px;/* dirty workaround -temp */">
+									Not helpful?  Help <a href="<: $file_path :>/<: if $file_dir { $file_dir :>/<: } $file :>.md">Edit</a> or <a href="http://duckduckgo.com/forum">Ask the Community</a></h5>									
+								</div>
 							  </div>
-							</div>
-							<div class="text-mid">
-								Not helpful?  Help <a href="<: $file_path :>/<: if $file_dir { $file_dir :>/<: } $file :>.md">Edit</a> or <a href="http://duckduckgo.com/forum">Ask the Community</a>
-							</div>
+							</div>							
 						</div>
 						<div class="g  thirty">
 							<: include "inc/side_nav.tx" {nav_ref=>$nav_ref, file=>$file, title=>$title, category=>$category} :>
