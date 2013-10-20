@@ -1,4 +1,4 @@
-<title><: l("Google tracks you. We don't.") :><: l("An illustrated guide.") :></title>
+<title><: l("Google tracks you. We don't.") :> <: l("An illustrated guide.") :></title>
 <link rel="image_src" href="ddg/tools/google9.jpg"/> 
 <link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="ddg/opensearch.xml"><link title="DuckDuckGo (SSL)" type="application/opensearchdescription+xml" rel="search" href="ddg/opensearch_ssl.xml">
 <!-- <link rel="stylesheet" href="ddg/s515.css" type="text/css"> -->
