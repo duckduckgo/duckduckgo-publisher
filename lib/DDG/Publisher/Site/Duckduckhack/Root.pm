@@ -177,6 +177,12 @@ sub pages {
 		$markdown =~ s~(\]\()https://github.com/duckduckgo/duckduckgo-documentation/blob/master/duckduckhack/(?:[^\/\.]+\/){1,4}([^\.]+?)\.md([^\)]*?\))~$1$2$3~sg;
 #			die $markdown;
 
+		# Replace code types the parser can't deal with,
+		# that is a #### line without a space line between it and a code start line ```
+		$markdown =~ s/(\n\#+.*?)(\n`)/$1\n$2/sg;
+
+#		die $markdown if $file eq 'spice_frontend_walkthroughs';
+
 		# Just for debugging.
 		#	make_path("$dir_output/$dir_rel") if $dir_rel;
 		#	open(IN,">$dir_output/$dir_rel/$file.html");
@@ -202,7 +208,7 @@ sub pages {
 		$html =~ s/(<h\d>)(.*?)(<\/h\d>)/$1 . '<a name="' . make_anchor($2) . '" class="anchor"><\/a>' . $2 . $3/ges;
 
 		#	die $file;
-#		warn $html if $file eq 'faq';
+#		die $html if $file eq 'spice_frontend_walkthroughs';
 
 
 		my $category = $nav{$file}{'category'} || '';
