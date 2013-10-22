@@ -17,6 +17,8 @@ use Markdent::Parser;
 
 use Text::Trim;
 
+use JSON;
+
 use IPC::Run qw{run timeout};
 
 with qw(
@@ -27,6 +29,12 @@ has nav_file => (
 	is => 'ro',
 	lazy => 1,
 	builder => sub {'ddh-index.md'},
+);
+
+has prev_next_file => (
+	is => 'ro',
+	lazy => 1,
+	builder => sub {'ddh-prev-next.json'},
 );
 
 has source_dir => (
@@ -66,6 +74,20 @@ sub _build_source_dir {
 }
 
 sub path { '/' }
+
+# Builds the prev/next hash to push to each template.
+sub get_prev_next {
+    my $self = shift;
+
+    my $prev_next_path = dir($self->source_dir,$self->prev_next_file);
+    my $json = io($prev_next_path)->slurp;    
+    $json =~ s/\.md//g;
+    my $data = decode_json $json;
+
+#    die p($data);
+
+    return $data;
+}
 
 # Builds the nav hash to push to each template.
 sub get_nav {
@@ -128,6 +150,9 @@ sub pages {
 	# Old index.
 	$pages{'index'} = sub {};
 
+	my $prev_next_hash_ref = $self->get_prev_next;
+	my %prev_next = %{$prev_next_hash_ref};
+
 	my ($nav_arr_ref,$nav_hash_ref) = $self->get_nav;
 	my %nav = %{$nav_hash_ref};
 
@@ -186,6 +211,15 @@ sub pages {
 		warn qq(NO CATEGORY: $file\n) if !$category;
 #		warn qq($file\t$title\t$category\n);
 
+		my $prev = $prev_next{$file}{'prev'} || [];
+		my $next = $prev_next{$file}{'next'} || [];
+
+		warn qq(NO PREV: $file\n) if !$prev;
+		warn qq(NO NEXT: $file\n) if !$next;
+
+#		warn qq($file\t), p($prev);
+#		warn qq($file\t), p($next);
+
 		$pages{$file} = sub {
 				file => $file,
 				file_dir => $dir_rel,
@@ -195,6 +229,8 @@ sub pages {
 				html => $html,
 				nav_ref => $nav_arr_ref,
 				maintemplate => 'doc.tx',
+				prev => $prev,
+				next => $next,
 #				raw_output => 1,  # enable to strip out all of the wrapping for these docs and only output the main content for scraping and inclusion elsewhere
 		};
 
