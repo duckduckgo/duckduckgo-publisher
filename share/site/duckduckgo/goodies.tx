@@ -629,256 +629,6 @@
         <div class="viewport">
             <div class="overview">
 
-            <div class="goodiecat d_Everyday d_Travel" id="cat_"> 
-                <h2 class="cat_header">
-                    
-                    <a class="togcat catminus" onclick="togglecat('', this); return false;" href="#">-</a>
-                </h2>
-
-                <div class="goodiecatbody" id="catbody_">
-
-
-                <div class="goodieitem c_" id="i_MX_records_duckduckgo_com"> 
-
-                  <div class="gselectbox " onclick="goodieclick(this,'MX_records_duckduckgo_com')" href="MX_records_duckduckgo_com_perma">
-
-                        <div class="gsource">
-                            <div class="sourceicon ic_icon16">
-                                
-                                    <a class="sourcetitle" title="DuckDuckGo builtin"></a>
-                                
-                            </div> 
-                        </div>
-
-                    <div class="widge">
-                        <span class="widget-link" id="MX_records_duckduckgo_com" name="MX records duckduckgo.com">MX records duckduckgo.com</span>
-                    </div>
-                    
-
-                       <div class="inline-detail" id="ia_MX_records_duckduckgo_com">
-
-                               <div class="goodie-description">IP address of domain</div>
-
-
-
-
-
-
-
-
-                           <div class="attribution" id="at_MX_records_duckduckgo_com">
-                               
-                                        <span class="sourcetext">DuckDuckGo builtin</span>
-                               
-                                       <a href="http://duckduckhack.com/">plugin</a>
-                                   
-                                   
-                                   by
-                                <ul style="display:inline-block">
-                                    <li>@Ondrej Galbavy
-                                        &raquo; <a href="https://twitter.com/OndroNR" target="_new">twitter</a>
-                                    </li>
-                                    <li>Ondrej Galbavy
-                                        &raquo; <a href="https://github.com/OndroNR" target="_new">github</a>
-                                    </li>
-                                </ul>
-
-
-
-                                    
-                            </div>
-
-
-
-                           <div class="sharing perma">
-                               <a class="MX_records_duckduckgo_com_perma" title="Permalink" href="">permalink</a>
-                           </div> 
-
-                           <div class="sharing sharebuttons">
-                               <a class="facebook MX_records_duckduckgo_com_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
-</a>
-                               <a class="twitter MX_records_duckduckgo_com_perma" target="_twitter" href="https://twitter.com/?status=IP+address+of+domain+on+@duckduckgo:+">Share on Twitter
-</a>
-                           </div>
-                        
-                           <div class="extra-detail">
-
-
-
-
-
-
-
-
-
-
-                       </div> <!-- extra-detail -->
-                       </div> <!-- inline detail -->
-                      </div> <!-- gselectbox -->
-
-                    </div>
-
-
-                <div class="goodieitem c_" id="i_dns_records_duckduckgo_com"> 
-
-                  <div class="gselectbox " onclick="goodieclick(this,'dns_records_duckduckgo_com')" href="dns_records_duckduckgo_com_perma">
-
-                        <div class="gsource">
-                            <div class="sourceicon ic_icon16">
-                                
-                                    <a class="sourcetitle" title="DuckDuckGo builtin"></a>
-                                
-                            </div> 
-                        </div>
-
-                    <div class="widge">
-                        <span class="widget-link" id="dns_records_duckduckgo_com" name="dns records duckduckgo.com">dns records duckduckgo.com</span>
-                    </div>
-                    
-
-                       <div class="inline-detail" id="ia_dns_records_duckduckgo_com">
-
-                               <div class="goodie-description">IP address of domain</div>
-
-
-
-
-
-
-
-
-                           <div class="attribution" id="at_dns_records_duckduckgo_com">
-                               
-                                        <span class="sourcetext">DuckDuckGo builtin</span>
-                               
-                                       <a href="http://duckduckhack.com/">plugin</a>
-                                   
-                                   
-                                   by
-                                <ul style="display:inline-block">
-                                    <li>@Ondrej Galbavy
-                                        &raquo; <a href="https://twitter.com/OndroNR" target="_new">twitter</a>
-                                    </li>
-                                    <li>Ondrej Galbavy
-                                        &raquo; <a href="https://github.com/OndroNR" target="_new">github</a>
-                                    </li>
-                                </ul>
-
-
-
-                                    
-                            </div>
-
-
-
-                           <div class="sharing perma">
-                               <a class="dns_records_duckduckgo_com_perma" title="Permalink" href="">permalink</a>
-                           </div> 
-
-                           <div class="sharing sharebuttons">
-                               <a class="facebook dns_records_duckduckgo_com_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
-</a>
-                               <a class="twitter dns_records_duckduckgo_com_perma" target="_twitter" href="https://twitter.com/?status=IP+address+of+domain+on+@duckduckgo:+">Share on Twitter
-</a>
-                           </div>
-                        
-                           <div class="extra-detail">
-
-
-
-
-
-
-
-
-
-
-                       </div> <!-- extra-detail -->
-                       </div> <!-- inline detail -->
-                      </div> <!-- gselectbox -->
-
-                    </div>
-
-
-                <div class="goodieitem d_Everyday d_Travel c_" id="i_weather"> 
-
-                  <div class="gselectbox " onclick="goodieclick(this,'weather')" href="weather_perma">
-
-                        <div class="gsource">
-                            <div class="sourceicon ic_duckduckhack_com">
-                                
-                                    <a class="sourcetitle" title="Forecast"></a>
-                                
-                            </div> 
-                        </div>
-
-                    <div class="widge">
-                        <span class="widget-link" id="weather" name="weather">weather</span>
-                    </div>
-                    
-
-                       <div class="inline-detail" id="ia_weather">
-
-                               <div class="goodie-description">Weather forecast</div>
-
-
-
-
-
-
-
-
-                           <div class="attribution" id="at_weather">
-                               
-                                        <span class="sourcetext">Forecast</span>
-                               
-                                       <a href="http://duckduckhack.com/">plugin</a>
-                                   
-                            </div>
-
-
-
-                           <div class="sharing perma">
-                               <a class="weather_perma" title="Permalink" href="">permalink</a>
-                           </div> 
-
-                           <div class="sharing sharebuttons">
-                               <a class="facebook weather_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
-</a>
-                               <a class="twitter weather_perma" target="_twitter" href="https://twitter.com/?status=Weather+forecast+on+@duckduckgo:+">Share on Twitter
-</a>
-                           </div>
-                        
-                           <div class="extra-detail">
-
-
-
-
-
-
-
-
-                                <!-- <h3>Other Examples</h3> -->
-
-                                    <h3>Other examples</h3>
-
-
-                                        <p><a onclick="goodierequest(null,'weather 12180')">weather 12180</a></p>
-
-                                    <p><a onclick="goodierequest(null,'weather')">weather</a></p>
-
-
-
-                       </div> <!-- extra-detail -->
-                       </div> <!-- inline detail -->
-                      </div> <!-- gselectbox -->
-
-                    </div>
-                </div><!-- .goodiecatbody -->
-            </div><!-- goodiecat -->
-
-
-
             <div class="goodiecat d_Math d_Economy_and_Finance d_Programming d_Everyday d_Geek d_Travel d_Sysadmin" id="cat_Calculations"> 
                 <h2 class="cat_header">
                     Calculations
@@ -969,7 +719,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'64*343')">64*343</a></p>
 
                                     <p><a onclick="goodierequest(null,'$3.43+$34.45')">$3.43+$34.45</a></p>
 
@@ -1135,8 +884,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'19:00 UTC to EST')">19:00 UTC to EST</a></p>
-                                        <p><a onclick="goodierequest(null,'1am UTC to PST')">1am UTC to PST</a></p>
 
                                     <p><a onclick="goodierequest(null,'10:00AM MST to PST')">10:00AM MST to PST</a></p>
 
@@ -1302,7 +1049,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'20 percent tip for a $20 bill')">20 percent tip for a $20 bill</a></p>
 
                                     <p><a onclick="goodierequest(null,'20% tip on $21.63')">20% tip on $21.63</a></p>
 
@@ -1390,8 +1136,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'5 ⊕ 79')">5 ⊕ 79</a></p>
-                                        <p><a onclick="goodierequest(null,'9489 xor 394 xor 9349 xor 39 xor 29 xor 4967 xor 3985')">9489 xor 394 xor 9349 xor 39 xor 29 xor 4967 xor 3985</a></p>
 
                                     <p><a onclick="goodierequest(null,'4 xor 5')">4 xor 5</a></p>
 
@@ -1627,8 +1371,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'sha-512 that')">sha-512 that</a></p>
-                                        <p><a onclick="goodierequest(null,'sha512sum dim-dims')">sha512sum dim-dims</a></p>
 
                                     <p><a onclick="goodierequest(null,'SHA this')">SHA this</a></p>
 
@@ -1801,8 +1543,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'avg 1,2,3')">avg 1,2,3</a></p>
-                                        <p><a onclick="goodierequest(null,'root mean square 1,2,3')">root mean square 1,2,3</a></p>
 
                                     <p><a onclick="goodierequest(null,'average 12, 45, 78, 1234')">average 12, 45, 78, 1234</a></p>
 
@@ -1893,10 +1633,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'perimeter hexagon 45')">perimeter hexagon 45</a></p>
-                                        <p><a onclick="goodierequest(null,'perimeter of triangle 1.5 2 3.2')">perimeter of triangle 1.5 2 3.2</a></p>
-                                        <p><a onclick="goodierequest(null,'perimeter of rectangle 1 2')">perimeter of rectangle 1 2</a></p>
-                                        <p><a onclick="goodierequest(null,'perimeter of square 3')">perimeter of square 3</a></p>
 
                                     <p><a onclick="goodierequest(null,'circumference circle 1')">circumference circle 1</a></p>
 
@@ -2050,7 +1786,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'days between 01/31/2000 01/31/2001 inclusive')">days between 01/31/2000 01/31/2001 inclusive</a></p>
 
                                     <p><a onclick="goodierequest(null,'days between 01/31/2000 01/31/2001')">days between 01/31/2000 01/31/2001</a></p>
 
@@ -2203,7 +1938,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'72 factors')">72 factors</a></p>
 
                                     <p><a onclick="goodierequest(null,'factors of 30')">factors of 30</a></p>
 
@@ -2294,7 +2028,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'fibonacci 33')">fibonacci 33</a></p>
 
                                     <p><a onclick="goodierequest(null,'fib 7')">fib 7</a></p>
 
@@ -2382,8 +2115,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'frequency of B in battle')">frequency of B in battle</a></p>
-                                        <p><a onclick="goodierequest(null,'frequency of all in testing 1234 ABC!')">frequency of all in testing 1234 ABC!</a></p>
 
                                     <p><a onclick="goodierequest(null,'frequency of all characters in testing')">frequency of all characters in testing</a></p>
 
@@ -2474,7 +2205,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'golden ratio ?:123.345')">golden ratio ?:123.345</a></p>
 
                                     <p><a onclick="goodierequest(null,'golden ratio 900:?')">golden ratio 900:?</a></p>
 
@@ -2848,8 +2578,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'%err 41 43')">%err 41 43</a></p>
-                                        <p><a onclick="goodierequest(null,'%-error 2.88 2.82')">%-error 2.88 2.82</a></p>
 
                                     <p><a onclick="goodierequest(null,'percent-error 34.5 35')">percent-error 34.5 35</a></p>
 
@@ -2937,7 +2665,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'significant figures 000123000')">significant figures 000123000</a></p>
 
                                     <p><a onclick="goodierequest(null,'sigfigs 01.1234000')">sigfigs 01.1234000</a></p>
 
@@ -3101,8 +2828,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'epoch 0')">epoch 0</a></p>
-                                        <p><a onclick="goodierequest(null,'epoch 2147483647')">epoch 2147483647</a></p>
 
                                     <p><a onclick="goodierequest(null,'unix time 0000000000000')">unix time 0000000000000</a></p>
 
@@ -3610,7 +3335,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'private ips')">private ips</a></p>
 
                                     <p><a onclick="goodierequest(null,'private networks')">private networks</a></p>
 
@@ -5232,7 +4956,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'unicode white smiling face')">unicode white smiling face</a></p>
 
                                     <p><a onclick="goodierequest(null,'U+590c')">U+590c</a></p>
 
@@ -5323,7 +5046,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'crontab 42 12 3 Feb Sat')">crontab 42 12 3 Feb Sat</a></p>
 
                                     <p><a onclick="goodierequest(null,'crontab * */3 * * *')">crontab * */3 * * *</a></p>
 
@@ -5417,7 +5139,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'unicode 2665')">unicode 2665</a></p>
 
                                     <p><a onclick="goodierequest(null,'unicode black heart')">unicode black heart</a></p>
 
@@ -5520,7 +5241,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'html entity &amp;amp;')">html entity &amp;amp;</a></p>
 
                                     <p><a onclick="goodierequest(null,'&amp;#33;')">&amp;#33;</a></p>
 
@@ -5611,8 +5331,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'alternative to photoshop for mac')">alternative to photoshop for mac</a></p>
-                                        <p><a onclick="goodierequest(null,'free alternative to spotify for windows')">free alternative to spotify for windows</a></p>
 
                                     <p><a onclick="goodierequest(null,'alternative to notepad')">alternative to notepad</a></p>
 
@@ -5703,7 +5421,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'ascii 0x5468697320697320612074657374')">ascii 0x5468697320697320612074657374</a></p>
 
                                     <p><a onclick="goodierequest(null,'ascii 0x74657374')">ascii 0x74657374</a></p>
 
@@ -5779,7 +5496,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'chars this is a test')">chars this is a test</a></p>
 
                                     <p><a onclick="goodierequest(null,'chars test')">chars test</a></p>
 
@@ -5870,7 +5586,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'permission 0644')">permission 0644</a></p>
 
                                     <p><a onclick="goodierequest(null,'chmod 755')">chmod 755</a></p>
 
@@ -6128,7 +5843,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'uuid')">uuid</a></p>
 
                                     <p><a onclick="goodierequest(null,'guid')">guid</a></p>
 
@@ -6216,7 +5930,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'hash 1f9b59a2390bb77d2c446837d6aeab067f01b05732735f47099047cd7d3e9f85')">hash 1f9b59a2390bb77d2c446837d6aeab067f01b05732735f47099047cd7d3e9f85</a></p>
 
                                     <p><a onclick="goodierequest(null,'hash 624d420035fc9471f6e16766b7132dd6bb34ea62')">hash 624d420035fc9471f6e16766b7132dd6bb34ea62</a></p>
 
@@ -6393,7 +6106,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'idn xn--exmple-cua.com')">idn xn--exmple-cua.com</a></p>
 
                                     <p><a onclick="goodierequest(null,'idn exämple.com')">idn exämple.com</a></p>
 
@@ -6478,7 +6190,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'is wolframalpha.com working?')">is wolframalpha.com working?</a></p>
 
                                     <p><a onclick="goodierequest(null,'is duckduckgo.com up?')">is duckduckgo.com up?</a></p>
 
@@ -6651,7 +6362,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'unidecode åäº°')">unidecode åäº°</a></p>
 
                                     <p><a onclick="goodierequest(null,'unidecode møæp')">unidecode møæp</a></p>
 
@@ -6820,7 +6530,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'12.2 px in em assuming a 12.2 font size')">12.2 px in em assuming a 12.2 font size</a></p>
 
                                     <p><a onclick="goodierequest(null,'10 px to em')">10 px to em</a></p>
 
@@ -7109,8 +6818,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'255 in base 16')">255 in base 16</a></p>
-                                        <p><a onclick="goodierequest(null,'42 in binary')">42 in binary</a></p>
 
                                     <p><a onclick="goodierequest(null,'255 in hex')">255 in hex</a></p>
 
@@ -7336,7 +7043,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'base64 decode dGhpcyB0ZXh0')">base64 decode dGhpcyB0ZXh0</a></p>
 
                                     <p><a onclick="goodierequest(null,'base64 encode foo')">base64 encode foo</a></p>
 
@@ -7427,7 +7133,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'uppercase that')">uppercase that</a></p>
 
                                     <p><a onclick="goodierequest(null,'capitalize this')">capitalize this</a></p>
 
@@ -7521,7 +7226,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'mirror text')">mirror text</a></p>
 
                                     <p><a onclick="goodierequest(null,'flip my sentence')">flip my sentence</a></p>
 
@@ -7597,7 +7301,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'0x1e to binary')">0x1e to binary</a></p>
 
                                     <p><a onclick="goodierequest(null,'foo in binary')">foo in binary</a></p>
 
@@ -7688,10 +7391,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'rgb(173,216,230)')">rgb(173,216,230)</a></p>
-                                        <p><a onclick="goodierequest(null,'hsl 194 0.53 0.79')">hsl 194 0.53 0.79</a></p>
-                                        <p><a onclick="goodierequest(null,'cmyk(0.12, 0, 0, 0)')">cmyk(0.12, 0, 0, 0)</a></p>
-                                        <p><a onclick="goodierequest(null,'#00ff00')">#00ff00</a></p>
 
                                     <p><a onclick="goodierequest(null,'hex color code for cyan')">hex color code for cyan</a></p>
 
@@ -7788,7 +7487,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'morse SOS')">morse SOS</a></p>
 
                                     <p><a onclick="goodierequest(null,'morse ... --- ...')">morse ... --- ...</a></p>
 
@@ -7956,8 +7654,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'roman 1337')">roman 1337</a></p>
-                                        <p><a onclick="goodierequest(null,'roman IV')">roman IV</a></p>
 
                                     <p><a onclick="goodierequest(null,'roman numeral MCCCXXXVII')">roman numeral MCCCXXXVII</a></p>
 
@@ -8123,7 +7819,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'23/6/1424 to gregorian')">23/6/1424 to gregorian</a></p>
 
                                     <p><a onclick="goodierequest(null,'22/8/2003 to the hijri calendar')">22/8/2003 to the hijri calendar</a></p>
 
@@ -8944,10 +8639,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'kanye west rapper')">kanye west rapper</a></p>
-                                        <p><a onclick="goodierequest(null,'bands similar to incubus')">bands similar to incubus</a></p>
-                                        <p><a onclick="goodierequest(null,'weezer band')">weezer band</a></p>
-                                        <p><a onclick="goodierequest(null,'musicians similar to lady gaga')">musicians similar to lady gaga</a></p>
 
                                     <p><a onclick="goodierequest(null,'ben folds five artist')">ben folds five artist</a></p>
 
@@ -9035,7 +8726,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'bootic irobot')">bootic irobot</a></p>
 
                                     <p><a onclick="goodierequest(null,'bootic watches')">bootic watches</a></p>
 
@@ -9208,8 +8898,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'free calculator app')">free calculator app</a></p>
-                                        <p><a onclick="goodierequest(null,'tiny piano for iphone')">tiny piano for iphone</a></p>
 
                                     <p><a onclick="goodierequest(null,'flight tracking app')">flight tracking app</a></p>
 
@@ -9376,8 +9064,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'mixing 007')">mixing 007</a></p>
-                                        <p><a onclick="goodierequest(null,'how to make a 1.21 gigawatts')">how to make a 1.21 gigawatts</a></p>
 
                                     <p><a onclick="goodierequest(null,'how to mix a tom collins')">how to mix a tom collins</a></p>
 
@@ -9531,9 +9217,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'movies in theaters')">movies in theaters</a></p>
-                                        <p><a onclick="goodierequest(null,'currently in theaters')">currently in theaters</a></p>
-                                        <p><a onclick="goodierequest(null,'i want to watch a movie')">i want to watch a movie</a></p>
 
                                     <p><a onclick="goodierequest(null,'movies')">movies</a></p>
 
@@ -9624,8 +9307,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'top tracks')">top tracks</a></p>
-                                        <p><a onclick="goodierequest(null,'popular songs in the philippines')">popular songs in the philippines</a></p>
 
                                     <p><a onclick="goodierequest(null,'popular songs')">popular songs</a></p>
 
@@ -9716,8 +9397,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'free calculator app')">free calculator app</a></p>
-                                        <p><a onclick="goodierequest(null,'tiny piano for iphone')">tiny piano for iphone</a></p>
 
                                     <p><a onclick="goodierequest(null,'quixey angry birds')">quixey angry birds</a></p>
 
@@ -9808,7 +9487,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'songs from maroon 5')">songs from maroon 5</a></p>
 
                                     <p><a onclick="goodierequest(null,'songs by she &amp; him')">songs by she &amp; him</a></p>
 
@@ -9903,7 +9581,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'sc the new yorker')">sc the new yorker</a></p>
 
                                     <p><a onclick="goodierequest(null,'soundcloud ray bradbury')">soundcloud ray bradbury</a></p>
 
@@ -10073,8 +9750,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'jiro dreams of sushi rating')">jiro dreams of sushi rating</a></p>
-                                        <p><a onclick="goodierequest(null,'indie game film')">indie game film</a></p>
 
                                     <p><a onclick="goodierequest(null,'the graduate movie')">the graduate movie</a></p>
 
@@ -10168,7 +9843,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'Can I stream The Dark Knight')">Can I stream The Dark Knight</a></p>
 
                                     <p><a onclick="goodierequest(null,'watch pirates of the caribbean')">watch pirates of the caribbean</a></p>
 
@@ -10578,8 +10252,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'construction injuries australia')">construction injuries australia</a></p>
-                                        <p><a onclick="goodierequest(null,'global mobile data usage')">global mobile data usage</a></p>
 
                                     <p><a onclick="goodierequest(null,'agriculture contribution to gdp')">agriculture contribution to gdp</a></p>
 
@@ -10746,7 +10418,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'currency in AU')">currency in AU</a></p>
 
                                     <p><a onclick="goodierequest(null,'currency in australia')">currency in australia</a></p>
 
@@ -11038,7 +10709,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'is it snowing in New York City?')">is it snowing in New York City?</a></p>
 
                                     <p><a onclick="goodierequest(null,'is it snowing?')">is it snowing?</a></p>
 
@@ -11193,8 +10863,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'florida representatives')">florida representatives</a></p>
-                                        <p><a onclick="goodierequest(null,'house california')">house california</a></p>
 
                                     <p><a onclick="goodierequest(null,'new york senators')">new york senators</a></p>
 
@@ -11351,8 +11019,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'construction injuries australia')">construction injuries australia</a></p>
-                                        <p><a onclick="goodierequest(null,'global mobile data usage')">global mobile data usage</a></p>
 
                                     <p><a onclick="goodierequest(null,'oil production in saudi arabia')">oil production in saudi arabia</a></p>
 
@@ -11476,6 +11142,72 @@
                                <a class="facebook time_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
 </a>
                                <a class="twitter time_perma" target="_twitter" href="https://twitter.com/?status=Get+the+current+time+for+your+location+on+@duckduckgo:+">Share on Twitter
+</a>
+                           </div>
+                        
+                           <div class="extra-detail">
+
+
+
+
+
+
+
+
+
+
+                       </div> <!-- extra-detail -->
+                       </div> <!-- inline detail -->
+                      </div> <!-- gselectbox -->
+
+                    </div>
+
+
+                <div class="goodieitem d_Everyday c_Facts" id="i_weather"> 
+
+                  <div class="gselectbox " onclick="goodieclick(this,'weather')" href="weather_perma">
+
+                        <div class="gsource">
+                            <div class="sourceicon ic_icon16">
+                                
+                                    <a class="sourcetitle" title="DuckDuckGo builtin"></a>
+                                
+                            </div> 
+                        </div>
+
+                    <div class="widge">
+                        <span class="widget-link" id="weather" name="weather">weather</span>
+                    </div>
+                    
+
+                       <div class="inline-detail" id="ia_weather">
+
+                               <div class="goodie-description">Local weather</div>
+
+
+
+
+
+
+
+
+                           <div class="attribution" id="at_weather">
+                               
+                                        <span class="sourcetext">DuckDuckGo builtin</span>
+                               
+                                   
+                            </div>
+
+
+
+                           <div class="sharing perma">
+                               <a class="weather_perma" title="Permalink" href="">permalink</a>
+                           </div> 
+
+                           <div class="sharing sharebuttons">
+                               <a class="facebook weather_perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
+</a>
+                               <a class="twitter weather_perma" target="_twitter" href="https://twitter.com/?status=Local+weather+on+@duckduckgo:+">Share on Twitter
 </a>
                            </div>
                         
@@ -11653,7 +11385,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'hp promo codes')">hp promo codes</a></p>
 
                                     <p><a onclick="goodierequest(null,'hp coupon')">hp coupon</a></p>
 
@@ -12462,7 +12193,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'r/accounting')">r/accounting</a></p>
 
                                     <p><a onclick="goodierequest(null,'/r/games')">/r/games</a></p>
 
@@ -12913,7 +12643,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'r/accounting')">r/accounting</a></p>
 
                                     <p><a onclick="goodierequest(null,'subreddit pizza')">subreddit pizza</a></p>
 
@@ -13016,8 +12745,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'zipcode 19087')">zipcode 19087</a></p>
-                                        <p><a onclick="goodierequest(null,'postal code L3P 1T4')">postal code L3P 1T4</a></p>
 
                                     <p><a onclick="goodierequest(null,'19201')">19201</a></p>
 
@@ -13108,8 +12835,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'zipcode 19087')">zipcode 19087</a></p>
-                                        <p><a onclick="goodierequest(null,'postal code L3P 1T4')">postal code L3P 1T4</a></p>
 
                                     <p><a onclick="goodierequest(null,'19301 Turkey')">19301 Turkey</a></p>
 
@@ -14094,7 +13819,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'ups 1Z2807700371226497')">ups 1Z2807700371226497</a></p>
 
                                     <p><a onclick="goodierequest(null,'1Z2807700371226497')">1Z2807700371226497</a></p>
 
@@ -14188,9 +13912,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'vin 1g8gg35m1g7123101')">vin 1g8gg35m1g7123101</a></p>
-                                        <p><a onclick="goodierequest(null,'1g8gg35m1g7123101 vehicle identification number')">1g8gg35m1g7123101 vehicle identification number</a></p>
-                                        <p><a onclick="goodierequest(null,'1g8gg35m1g7123101 tracking')">1g8gg35m1g7123101 tracking</a></p>
 
                                     <p><a onclick="goodierequest(null,'1g8gg35m1g7123101')">1g8gg35m1g7123101</a></p>
 
@@ -14284,7 +14005,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'EE123456789HK')">EE123456789HK</a></p>
 
                                     <p><a onclick="goodierequest(null,'CU123456789DK')">CU123456789DK</a></p>
 
@@ -14375,7 +14095,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'tracking 1234567891')">tracking 1234567891</a></p>
 
                                     <p><a onclick="goodierequest(null,'DHL 123456789')">DHL 123456789</a></p>
 
@@ -14469,7 +14188,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'usps 7000 0000 0000 0000 0000')">usps 7000 0000 0000 0000 0000</a></p>
 
                                     <p><a onclick="goodierequest(null,'EA 000 000 000 US')">EA 000 000 000 US</a></p>
 
@@ -14733,7 +14451,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'federal express 9241990100130206401644')">federal express 9241990100130206401644</a></p>
 
                                     <p><a onclick="goodierequest(null,'fedex 9241990100130206401644')">fedex 9241990100130206401644</a></p>
 
@@ -14906,7 +14623,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'gravatar duckduckhack')">gravatar duckduckhack</a></p>
 
                                     <p><a onclick="goodierequest(null,'gravatar gravatar@duckduckgo.com')">gravatar gravatar@duckduckgo.com</a></p>
 
@@ -14997,7 +14713,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'where is rafl?')">where is rafl?</a></p>
 
                                     <p><a onclick="goodierequest(null,'rafl is everywhere')">rafl is everywhere</a></p>
 
@@ -15100,7 +14815,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'12 character word')">12 character word</a></p>
 
                                     <p><a onclick="goodierequest(null,'5 letter words')">5 letter words</a></p>
 
@@ -15191,7 +14905,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'what language is como estas')">what language is como estas</a></p>
 
                                     <p><a onclick="goodierequest(null,'detect language こんにちは')">detect language こんにちは</a></p>
 
@@ -15267,8 +14980,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'is foo a palindrome?')">is foo a palindrome?</a></p>
-                                        <p><a onclick="goodierequest(null,'is dad a palindrome?')">is dad a palindrome?</a></p>
 
                                     <p><a onclick="goodierequest(null,'is a dank, sad nap. eels sleep and ask nada. a palindrome?')">is a dank, sad nap. eels sleep and ask nada. a palindrome?</a></p>
 
@@ -15359,9 +15070,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'how to pronounce names')">how to pronounce names</a></p>
-                                        <p><a onclick="goodierequest(null,'pronounciation of ask')">pronounciation of ask</a></p>
-                                        <p><a onclick="goodierequest(null,'how to say bye')">how to say bye</a></p>
 
                                     <p><a onclick="goodierequest(null,'pronounce cool')">pronounce cool</a></p>
 
@@ -15744,7 +15452,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'similar words to miniature')">similar words to miniature</a></p>
 
                                     <p><a onclick="goodierequest(null,'synonyms for person')">synonyms for person</a></p>
 
@@ -15835,7 +15542,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'similar words to miniature')">similar words to miniature</a></p>
 
                                     <p><a onclick="goodierequest(null,'thesaurus awesome')">thesaurus awesome</a></p>
 
@@ -15927,8 +15633,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'ud OMG')">ud OMG</a></p>
-                                        <p><a onclick="goodierequest(null,'ud ASD')">ud ASD</a></p>
 
                                     <p><a onclick="goodierequest(null,'urban dictionary ROTFL')">urban dictionary ROTFL</a></p>
 
@@ -16017,8 +15721,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'go rhymes with')">go rhymes with</a></p>
-                                        <p><a onclick="goodierequest(null,'words that rhyme with smile')">words that rhyme with smile</a></p>
 
                                     <p><a onclick="goodierequest(null,'what rhymes with duck')">what rhymes with duck</a></p>
 
@@ -16595,7 +16297,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'IdentityHtmlMapper solr-4530')">IdentityHtmlMapper solr-4530</a></p>
 
                                     <p><a onclick="goodierequest(null,'SOLR-4530')">SOLR-4530</a></p>
 
@@ -16686,7 +16387,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'archlinux package 9base-git')">archlinux package 9base-git</a></p>
 
                                     <p><a onclick="goodierequest(null,'aur powermate')">aur powermate</a></p>
 
@@ -16761,9 +16461,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'asetfloat')">asetfloat</a></p>
-                                        <p><a onclick="goodierequest(null,'asetfloat clojure')">asetfloat clojure</a></p>
-                                        <p><a onclick="goodierequest(null,'clojure.core.getin')">clojure.core.getin</a></p>
 
                                     <p><a onclick="goodierequest(null,'clojure asetfloat')">clojure asetfloat</a></p>
 
@@ -16904,9 +16601,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'border-width')">border-width</a></p>
-                                        <p><a onclick="goodierequest(null,'border-width css')">border-width css</a></p>
-                                        <p><a onclick="goodierequest(null,'padding-top css')">padding-top css</a></p>
 
                                     <p><a onclick="goodierequest(null,'css border-width')">css border-width</a></p>
 
@@ -16981,9 +16675,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'delete fossil')">delete fossil</a></p>
-                                        <p><a onclick="goodierequest(null,'remote-url')">remote-url</a></p>
-                                        <p><a onclick="goodierequest(null,'fossil remote-url')">fossil remote-url</a></p>
 
                                     <p><a onclick="goodierequest(null,'fossil delete')">fossil delete</a></p>
 
@@ -17377,8 +17068,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'javascript hello world')">javascript hello world</a></p>
-                                        <p><a onclick="goodierequest(null,'hello world in c')">hello world in c</a></p>
 
                                     <p><a onclick="goodierequest(null,'hello world perl')">hello world perl</a></p>
 
@@ -17453,9 +17142,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'accessInstanceVariablesDirectly')">accessInstanceVariablesDirectly</a></p>
-                                        <p><a onclick="goodierequest(null,'accessInstanceVariablesDirectly ios')">accessInstanceVariablesDirectly ios</a></p>
-                                        <p><a onclick="goodierequest(null,'containsValueForKey: ios')">containsValueForKey: ios</a></p>
 
                                     <p><a onclick="goodierequest(null,'ios accessInstanceVariablesDirectly')">ios accessInstanceVariablesDirectly</a></p>
 
@@ -17628,7 +17314,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'perl jobs in san francisco')">perl jobs in san francisco</a></p>
 
                                     <p><a onclick="goodierequest(null,'javascript jobs')">javascript jobs</a></p>
 
@@ -17703,9 +17388,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'.ajaxSuccess()')">.ajaxSuccess()</a></p>
-                                        <p><a onclick="goodierequest(null,'jquery ajaxsuccess')">jquery ajaxsuccess</a></p>
-                                        <p><a onclick="goodierequest(null,'blur jquery')">blur jquery</a></p>
 
                                     <p><a onclick="goodierequest(null,'jquery .ajaxsuccess')">jquery .ajaxsuccess</a></p>
 
@@ -17860,8 +17542,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'hTTP')">hTTP</a></p>
-                                        <p><a onclick="goodierequest(null,'node crypto')">node crypto</a></p>
 
                                     <p><a onclick="goodierequest(null,'node http')">node http</a></p>
 
@@ -18015,9 +17695,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'mapTableWithStrongToStrongObjects')">mapTableWithStrongToStrongObjects</a></p>
-                                        <p><a onclick="goodierequest(null,'mapTableWithStrongToStrongObjects osx')">mapTableWithStrongToStrongObjects osx</a></p>
-                                        <p><a onclick="goodierequest(null,'memoryCapacity osx')">memoryCapacity osx</a></p>
 
                                     <p><a onclick="goodierequest(null,'osx mapTableWithStrongToStrongObjects')">osx mapTableWithStrongToStrongObjects</a></p>
 
@@ -18158,7 +17835,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'delete perl')">delete perl</a></p>
 
                                     <p><a onclick="goodierequest(null,'perl split')">perl split</a></p>
 
@@ -18247,83 +17923,6 @@
                 </h2>
 
                 <div class="goodiecatbody" id="catbody_Q_A">
-
-
-                <div class="goodieitem d_Special_Interest c_Q_A" id="i_"> 
-
-                  <div class="gselectbox " onclick="goodieclick(this,'')" href="_perma">
-
-                        <div class="gsource">
-                            <div class="sourceicon ic_sharepoint_stackexchange_com">
-                                
-                                    <a class="sourcetitle" title="SharePoint StackExchange"></a>
-                                
-                            </div> 
-                        </div>
-
-                    <div class="widge">
-                        <span class="widget-link" id="" name=""></span>
-                    </div>
-                    
-
-                       <div class="inline-detail" id="ia_">
-
-                               <div class="goodie-description">SharePoint answers</div>
-
-
-
-
-
-
-
-
-                           <div class="attribution" id="at_">
-                               
-                                        <span class="sourcetext">SharePoint StackExchange</span>
-                               
-                                       <a href="http://duckduckhack.com/">plugin</a>
-                                   
-                            </div>
-
-
-
-                           <div class="sharing perma">
-                               <a class="_perma" title="Permalink" href="">permalink</a>
-                           </div> 
-
-                           <div class="sharing sharebuttons">
-                               <a class="facebook _perma" target="_facebook" href="https://facebook.com/sharer.php?u=">Share on Facebook
-</a>
-                               <a class="twitter _perma" target="_twitter" href="https://twitter.com/?status=SharePoint+answers+on+@duckduckgo:+">Share on Twitter
-</a>
-                           </div>
-                        
-                           <div class="extra-detail">
-
-
-
-
-
-
-
-
-                                <!-- <h3>Other Examples</h3> -->
-
-                                    <h3>Other examples</h3>
-
-
-                                        <p><a onclick="goodierequest(null,'')"></a></p>
-                                        <p><a onclick="goodierequest(null,'')"></a></p>
-
-                                    <p><a onclick="goodierequest(null,'')"></a></p>
-
-
-
-                       </div> <!-- extra-detail -->
-                       </div> <!-- inline detail -->
-                      </div> <!-- gselectbox -->
-
-                    </div>
 
 
                 <div class="goodieitem d_Programming d_Sysadmin c_Q_A" id="i_8_04_LTS_10_04_LTS"> 
@@ -18587,8 +18186,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'android apk sd card')">android apk sd card</a></p>
-                                        <p><a onclick="goodierequest(null,'android root password')">android root password</a></p>
 
                                     <p><a onclick="goodierequest(null,'android itunes')">android itunes</a></p>
 
@@ -18664,8 +18261,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'sorting numbers in ram')">sorting numbers in ram</a></p>
-                                        <p><a onclick="goodierequest(null,'BerkeleyDB Concurrency')">BerkeleyDB Concurrency</a></p>
 
                                     <p><a onclick="goodierequest(null,'apache nginx')">apache nginx</a></p>
 
@@ -18741,8 +18336,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'origin of star wars')">origin of star wars</a></p>
-                                        <p><a onclick="goodierequest(null,'FTL drive cylon')">FTL drive cylon</a></p>
 
                                     <p><a onclick="goodierequest(null,'asimov robots')">asimov robots</a></p>
 
@@ -18818,8 +18411,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'security audit php')">security audit php</a></p>
-                                        <p><a onclick="goodierequest(null,'rails xss prevention')">rails xss prevention</a></p>
 
                                     <p><a onclick="goodierequest(null,'asp.net security check list')">asp.net security check list</a></p>
 
@@ -18895,8 +18486,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'defcon strategies')">defcon strategies</a></p>
-                                        <p><a onclick="goodierequest(null,'golden guns gears of war')">golden guns gears of war</a></p>
 
                                     <p><a onclick="goodierequest(null,'avoid being detected left 4 dead')">avoid being detected left 4 dead</a></p>
 
@@ -19038,8 +18627,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'gedit split pane')">gedit split pane</a></p>
-                                        <p><a onclick="goodierequest(null,'reset keyboard layout')">reset keyboard layout</a></p>
 
                                     <p><a onclick="goodierequest(null,'battery life ubuntu kubuntu')">battery life ubuntu kubuntu</a></p>
 
@@ -19115,8 +18702,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'panama lyrics')">panama lyrics</a></p>
-                                        <p><a onclick="goodierequest(null,'lean on me lyrics')">lean on me lyrics</a></p>
 
                                     <p><a onclick="goodierequest(null,'brass monkey lyrics')">brass monkey lyrics</a></p>
 
@@ -19192,8 +18777,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'hook_preprocess_page')">hook_preprocess_page</a></p>
-                                        <p><a onclick="goodierequest(null,'drupal_goto')">drupal_goto</a></p>
 
                                     <p><a onclick="goodierequest(null,'convert wordpress to drupal theme')">convert wordpress to drupal theme</a></p>
 
@@ -19269,8 +18852,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'facebook detects gmail')">facebook detects gmail</a></p>
-                                        <p><a onclick="goodierequest(null,'forward multiple emails gmail')">forward multiple emails gmail</a></p>
 
                                     <p><a onclick="goodierequest(null,'delete my facebook account')">delete my facebook account</a></p>
 
@@ -19412,8 +18993,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'petal shaped lens hoods')">petal shaped lens hoods</a></p>
-                                        <p><a onclick="goodierequest(null,'control contrast')">control contrast</a></p>
 
                                     <p><a onclick="goodierequest(null,'dust inside SLR')">dust inside SLR</a></p>
 
@@ -19489,9 +19068,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'layers in mapfile')">layers in mapfile</a></p>
-                                        <p><a onclick="goodierequest(null,'postgis from arcmap')">postgis from arcmap</a></p>
-                                        <p><a onclick="goodierequest(null,'share geodatabases safely')">share geodatabases safely</a></p>
 
                                     <p><a onclick="goodierequest(null,'esri data formats')">esri data formats</a></p>
 
@@ -19567,8 +19143,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'stucco repair cracks')">stucco repair cracks</a></p>
-                                        <p><a onclick="goodierequest(null,'caulk for bathtub')">caulk for bathtub</a></p>
 
                                     <p><a onclick="goodierequest(null,'fill concrete seawall')">fill concrete seawall</a></p>
 
@@ -19710,8 +19284,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'DFA intersection')">DFA intersection</a></p>
-                                        <p><a onclick="goodierequest(null,'error-correcting theory')">error-correcting theory</a></p>
 
                                     <p><a onclick="goodierequest(null,'generalizing the fft')">generalizing the fft</a></p>
 
@@ -19853,8 +19425,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'mysql backup')">mysql backup</a></p>
-                                        <p><a onclick="goodierequest(null,'ssh tunnel subversion proxy')">ssh tunnel subversion proxy</a></p>
 
                                     <p><a onclick="goodierequest(null,'http compression windows server 2003')">http compression windows server 2003</a></p>
 
@@ -19930,8 +19500,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'choose bicycle seat')">choose bicycle seat</a></p>
-                                        <p><a onclick="goodierequest(null,'derailleur cage lengths')">derailleur cage lengths</a></p>
 
                                     <p><a onclick="goodierequest(null,'iphone app bikers')">iphone app bikers</a></p>
 
@@ -20007,8 +19575,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'mac os x keyboard shortcuts')">mac os x keyboard shortcuts</a></p>
-                                        <p><a onclick="goodierequest(null,'change os x theme')">change os x theme</a></p>
 
                                     <p><a onclick="goodierequest(null,'ipod touch gps')">ipod touch gps</a></p>
 
@@ -20084,8 +19650,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'inspire users to strong password')">inspire users to strong password</a></p>
-                                        <p><a onclick="goodierequest(null,'view deep hierarchy')">view deep hierarchy</a></p>
 
                                     <p><a onclick="goodierequest(null,'limit undo history')">limit undo history</a></p>
 
@@ -20293,8 +19857,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'define macros lyx')">define macros lyx</a></p>
-                                        <p><a onclick="goodierequest(null,'resume template latex')">resume template latex</a></p>
 
                                     <p><a onclick="goodierequest(null,'matrix latex document')">matrix latex document</a></p>
 
@@ -20370,8 +19932,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'more babies during full moons')">more babies during full moons</a></p>
-                                        <p><a onclick="goodierequest(null,'adult multi-vitamin')">adult multi-vitamin</a></p>
 
                                     <p><a onclick="goodierequest(null,'mix lysol and bleach')">mix lysol and bleach</a></p>
 
@@ -20645,8 +20205,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'virtualizing windows home server')">virtualizing windows home server</a></p>
-                                        <p><a onclick="goodierequest(null,'ubuntu pppoe timeout')">ubuntu pppoe timeout</a></p>
 
                                     <p><a onclick="goodierequest(null,'pdf viewer windows')">pdf viewer windows</a></p>
 
@@ -20722,8 +20280,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'sound propagation air pressure')">sound propagation air pressure</a></p>
-                                        <p><a onclick="goodierequest(null,'is the ISS electrically charged')">is the ISS electrically charged</a></p>
 
                                     <p><a onclick="goodierequest(null,'photons per second in lumen')">photons per second in lumen</a></p>
 
@@ -20799,8 +20355,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'types of infinity')">types of infinity</a></p>
-                                        <p><a onclick="goodierequest(null,'discriminant polynomial less than 0')">discriminant polynomial less than 0</a></p>
 
                                     <p><a onclick="goodierequest(null,'points vector space to another')">points vector space to another</a></p>
 
@@ -20876,8 +20430,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'sftp to scp')">sftp to scp</a></p>
-                                        <p><a onclick="goodierequest(null,'nano syntax highlighting')">nano syntax highlighting</a></p>
 
                                     <p><a onclick="goodierequest(null,'rc.local equivalent shutdown')">rc.local equivalent shutdown</a></p>
 
@@ -21016,8 +20568,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'sitemaps html')">sitemaps html</a></p>
-                                        <p><a onclick="goodierequest(null,'css reduction')">css reduction</a></p>
 
                                     <p><a onclick="goodierequest(null,'robots.txt configuration')">robots.txt configuration</a></p>
 
@@ -21159,8 +20709,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'who vs. whom')">who vs. whom</a></p>
-                                        <p><a onclick="goodierequest(null,'their instead of his or her')">their instead of his or her</a></p>
 
                                     <p><a onclick="goodierequest(null,'shortest complete sentence')">shortest complete sentence</a></p>
 
@@ -21302,8 +20850,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'darpa early history')">darpa early history</a></p>
-                                        <p><a onclick="goodierequest(null,'will mcraven')">will mcraven</a></p>
 
                                     <p><a onclick="goodierequest(null,'snow albedo')">snow albedo</a></p>
 
@@ -21379,8 +20925,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'structural equation modeling techniques')">structural equation modeling techniques</a></p>
-                                        <p><a onclick="goodierequest(null,'famous statistician quotes')">famous statistician quotes</a></p>
 
                                     <p><a onclick="goodierequest(null,'spatial models car')">spatial models car</a></p>
 
@@ -21450,16 +20994,6 @@
 
 
 
-
-                                <!-- <h3>Other Examples</h3> -->
-
-                                    <h3>Other examples</h3>
-
-
-                                        <p><a onclick="goodierequest(null,'')"></a></p>
-                                        <p><a onclick="goodierequest(null,'')"></a></p>
-
-                                    <p><a onclick="goodierequest(null,'sqlplus interface')">sqlplus interface</a></p>
 
 
 
@@ -21533,8 +21067,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'homemade alfredo sauce')">homemade alfredo sauce</a></p>
-                                        <p><a onclick="goodierequest(null,'cook bacon in oven')">cook bacon in oven</a></p>
 
                                     <p><a onclick="goodierequest(null,'water to rice ratio')">water to rice ratio</a></p>
 
@@ -21676,8 +21208,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'wordpress locate_template')">wordpress locate_template</a></p>
-                                        <p><a onclick="goodierequest(null,'wordpress core files')">wordpress core files</a></p>
 
                                     <p><a onclick="goodierequest(null,'wpdb separate database')">wpdb separate database</a></p>
 
@@ -21921,8 +21451,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'choose heads or tails')">choose heads or tails</a></p>
-                                        <p><a onclick="goodierequest(null,'choose this or that or none')">choose this or that or none</a></p>
 
                                     <p><a onclick="goodierequest(null,'choose yes or no')">choose yes or no</a></p>
 
@@ -22013,7 +21541,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'chuck norris jokes')">chuck norris jokes</a></p>
 
                                     <p><a onclick="goodierequest(null,'chuck norris facts')">chuck norris facts</a></p>
 
@@ -22101,8 +21628,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'flip 4 coins')">flip 4 coins</a></p>
-                                        <p><a onclick="goodierequest(null,'heads or tails')">heads or tails</a></p>
 
                                     <p><a onclick="goodierequest(null,'flip a coin')">flip a coin</a></p>
 
@@ -22190,7 +21715,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'bible genesis 26:4')">bible genesis 26:4</a></p>
 
                                     <p><a onclick="goodierequest(null,'genesis 15:7')">genesis 15:7</a></p>
 
@@ -22409,7 +21933,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'probability poker flush')">probability poker flush</a></p>
 
                                     <p><a onclick="goodierequest(null,'poker odds three of a kind')">poker odds three of a kind</a></p>
 
@@ -22563,8 +22086,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'automeme')">automeme</a></p>
-                                        <p><a onclick="goodierequest(null,'meme generator')">meme generator</a></p>
 
                                     <p><a onclick="goodierequest(null,'random meme')">random meme</a></p>
 
@@ -22884,8 +22405,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'rcube cube in a cube')">rcube cube in a cube</a></p>
-                                        <p><a onclick="goodierequest(null,'rcube swap centers')">rcube swap centers</a></p>
 
                                     <p><a onclick="goodierequest(null,'rcube stripes')">rcube stripes</a></p>
 
@@ -23120,8 +22639,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'roll 5 dice')">roll 5 dice</a></p>
-                                        <p><a onclick="goodierequest(null,'roll 3d12')">roll 3d12</a></p>
 
                                     <p><a onclick="goodierequest(null,'throw dice')">throw dice</a></p>
 
@@ -23209,8 +22726,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'flip 4 coins')">flip 4 coins</a></p>
-                                        <p><a onclick="goodierequest(null,'heads or tails')">heads or tails</a></p>
 
                                     <p><a onclick="goodierequest(null,'toss a coin')">toss a coin</a></p>
 
@@ -23395,7 +22910,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'1Ω')">1Ω</a></p>
 
                                     <p><a onclick="goodierequest(null,'4.7k ohm')">4.7k ohm</a></p>
 
@@ -23470,7 +22984,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'187 auto match')">187 auto match</a></p>
 
                                     <p><a onclick="goodierequest(null,'7 shots of sin ewrestling')">7 shots of sin ewrestling</a></p>
 
@@ -23545,9 +23058,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'emoticon :)')">emoticon :)</a></p>
-                                        <p><a onclick="goodierequest(null,':D')">:D</a></p>
-                                        <p><a onclick="goodierequest(null,'(y)')">(y)</a></p>
 
                                     <p><a onclick="goodierequest(null,':)')">:)</a></p>
 
@@ -24378,10 +23888,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'napoleon wikipedia')">napoleon wikipedia</a></p>
-                                        <p><a onclick="goodierequest(null,'who is barack obama')">who is barack obama</a></p>
-                                        <p><a onclick="goodierequest(null,'info on elon musk')">info on elon musk</a></p>
-                                        <p><a onclick="goodierequest(null,'the alamo')">the alamo</a></p>
 
                                     <p><a onclick="goodierequest(null,'Nikola Tesla')">Nikola Tesla</a></p>
 
@@ -24620,10 +24126,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'python add_type')">python add_type</a></p>
-                                        <p><a onclick="goodierequest(null,'python array')">python array</a></p>
-                                        <p><a onclick="goodierequest(null,'add_history')">add_history</a></p>
-                                        <p><a onclick="goodierequest(null,'AddPackagePath')">AddPackagePath</a></p>
 
                                     <p><a onclick="goodierequest(null,'__init__')">__init__</a></p>
 
@@ -24698,8 +24200,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'acceptfilter')">acceptfilter</a></p>
-                                        <p><a onclick="goodierequest(null,'addaltbytype')">addaltbytype</a></p>
 
                                     <p><a onclick="goodierequest(null,'apache acceptmutex')">apache acceptmutex</a></p>
 
@@ -25054,7 +24554,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'definition of dictionary')">definition of dictionary</a></p>
 
                                     <p><a onclick="goodierequest(null,'define inundate')">define inundate</a></p>
 
@@ -25129,8 +24628,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'dictionary crazed')">dictionary crazed</a></p>
-                                        <p><a onclick="goodierequest(null,'dict flip')">dict flip</a></p>
 
                                     <p><a onclick="goodierequest(null,'define trex')">define trex</a></p>
 
@@ -25287,9 +24784,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'etymology in the dewey decimal system')">etymology in the dewey decimal system</a></p>
-                                        <p><a onclick="goodierequest(null,'dewey decimal system 640s')">dewey decimal system 640s</a></p>
-                                        <p><a onclick="goodierequest(null,'dewey decimal system naturalism')">dewey decimal system naturalism</a></p>
 
                                     <p><a onclick="goodierequest(null,'dewey 644')">dewey 644</a></p>
 
@@ -25496,9 +24990,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'C-t')">C-t</a></p>
-                                        <p><a onclick="goodierequest(null,'C-t emacs')">C-t emacs</a></p>
-                                        <p><a onclick="goodierequest(null,'delete-window')">delete-window</a></p>
 
                                     <p><a onclick="goodierequest(null,'emacs C-t')">emacs C-t</a></p>
 
@@ -25837,8 +25328,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'257 ftp')">257 ftp</a></p>
-                                        <p><a onclick="goodierequest(null,'ftp 200')">ftp 200</a></p>
 
                                     <p><a onclick="goodierequest(null,'ftp 257')">ftp 257</a></p>
 
@@ -25913,11 +25402,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'git add')">git add</a></p>
-                                        <p><a onclick="goodierequest(null,'git rm')">git rm</a></p>
-                                        <p><a onclick="goodierequest(null,'gitpush')">gitpush</a></p>
-                                        <p><a onclick="goodierequest(null,'gitbranch')">gitbranch</a></p>
-                                        <p><a onclick="goodierequest(null,'gitcheckout')">gitcheckout</a></p>
 
                                     <p><a onclick="goodierequest(null,'git commit')">git commit</a></p>
 
@@ -25992,7 +25476,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'halo assault rifle')">halo assault rifle</a></p>
 
                                     <p><a onclick="goodierequest(null,'halo master chief')">halo master chief</a></p>
 
@@ -26067,9 +25550,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'hg rollback')">hg rollback</a></p>
-                                        <p><a onclick="goodierequest(null,'addremove')">addremove</a></p>
-                                        <p><a onclick="goodierequest(null,'showconfig')">showconfig</a></p>
 
                                     <p><a onclick="goodierequest(null,'hg summary')">hg summary</a></p>
 
@@ -26288,8 +25768,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'http 200')">http 200</a></p>
-                                        <p><a onclick="goodierequest(null,'301 http status code')">301 http status code</a></p>
 
                                     <p><a onclick="goodierequest(null,'http status 101')">http status 101</a></p>
 
@@ -26380,7 +25858,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'iso639 ab')">iso639 ab</a></p>
 
                                     <p><a onclick="goodierequest(null,'iso639 english')">iso639 english</a></p>
 
@@ -26537,7 +26014,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'integer java')">integer java</a></p>
 
                                     <p><a onclick="goodierequest(null,'java string')">java string</a></p>
 
@@ -26626,7 +26102,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'khan trigonometry')">khan trigonometry</a></p>
 
                                     <p><a onclick="goodierequest(null,'khan academy videos')">khan academy videos</a></p>
 
@@ -26701,8 +26176,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'launchpad irssi')">launchpad irssi</a></p>
-                                        <p><a onclick="goodierequest(null,'launchpad imagemagick')">launchpad imagemagick</a></p>
 
                                     <p><a onclick="goodierequest(null,'launchpad apt')">launchpad apt</a></p>
 
@@ -26843,8 +26316,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'deallocvt')">deallocvt</a></p>
-                                        <p><a onclick="goodierequest(null,'debugfs linux')">debugfs linux</a></p>
 
                                     <p><a onclick="goodierequest(null,'linux bzmore')">linux bzmore</a></p>
 
@@ -26919,11 +26390,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'linux enokey')">linux enokey</a></p>
-                                        <p><a onclick="goodierequest(null,'linux epipe')">linux epipe</a></p>
-                                        <p><a onclick="goodierequest(null,'edeadlk')">edeadlk</a></p>
-                                        <p><a onclick="goodierequest(null,'einval')">einval</a></p>
-                                        <p><a onclick="goodierequest(null,'ebadfd')">ebadfd</a></p>
 
                                     <p><a onclick="goodierequest(null,'linux enoent')">linux enoent</a></p>
 
@@ -26998,9 +26464,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'hg rollback')">hg rollback</a></p>
-                                        <p><a onclick="goodierequest(null,'addremove')">addremove</a></p>
-                                        <p><a onclick="goodierequest(null,'showconfig')">showconfig</a></p>
 
                                     <p><a onclick="goodierequest(null,'mercurial manifest')">mercurial manifest</a></p>
 
@@ -27075,8 +26538,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'bit_length')">bit_length</a></p>
-                                        <p><a onclick="goodierequest(null,'bit xor mysql')">bit xor mysql</a></p>
 
                                     <p><a onclick="goodierequest(null,'mysql abs')">mysql abs</a></p>
 
@@ -27151,8 +26612,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'sqlstate 25000')">sqlstate 25000</a></p>
-                                        <p><a onclick="goodierequest(null,'warn plugin busy mysql')">warn plugin busy mysql</a></p>
 
                                     <p><a onclick="goodierequest(null,'mysql warn no master info')">mysql warn no master info</a></p>
 
@@ -27309,8 +26768,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'Str.rindex')">Str.rindex</a></p>
-                                        <p><a onclick="goodierequest(null,'Int.div perl6')">Int.div perl6</a></p>
 
                                     <p><a onclick="goodierequest(null,'perl 6 str')">perl 6 str</a></p>
 
@@ -27533,11 +26990,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'php apc add')">php apc add</a></p>
-                                        <p><a onclick="goodierequest(null,'apache setenv')">apache setenv</a></p>
-                                        <p><a onclick="goodierequest(null,'php aggregation_info')">php aggregation_info</a></p>
-                                        <p><a onclick="goodierequest(null,'apc_clear_cache')">apc_clear_cache</a></p>
-                                        <p><a onclick="goodierequest(null,'aggregate info')">aggregate info</a></p>
 
                                     <p><a onclick="goodierequest(null,'php array merge')">php array merge</a></p>
 
@@ -27612,10 +27064,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'10480 port')">10480 port</a></p>
-                                        <p><a onclick="goodierequest(null,'10480')">10480</a></p>
-                                        <p><a onclick="goodierequest(null,'tcp port 443')">tcp port 443</a></p>
-                                        <p><a onclick="goodierequest(null,'tcp 20')">tcp 20</a></p>
 
                                     <p><a onclick="goodierequest(null,'port 10480')">port 10480</a></p>
 
@@ -27765,10 +27213,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'python add_type')">python add_type</a></p>
-                                        <p><a onclick="goodierequest(null,'python array')">python array</a></p>
-                                        <p><a onclick="goodierequest(null,'add_history')">add_history</a></p>
-                                        <p><a onclick="goodierequest(null,'AddPackagePath')">AddPackagePath</a></p>
 
                                     <p><a onclick="goodierequest(null,'python apply')">python apply</a></p>
 
@@ -27844,7 +27288,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'resistor red yellow white')">resistor red yellow white</a></p>
 
                                     <p><a onclick="goodierequest(null,'red yellow white gold resistor')">red yellow white gold resistor</a></p>
 
@@ -27938,7 +27381,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'info redis')">info redis</a></p>
 
                                     <p><a onclick="goodierequest(null,'redis rpush')">redis rpush</a></p>
 
@@ -28227,7 +27669,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'runescape sword')">runescape sword</a></p>
 
                                     <p><a onclick="goodierequest(null,'runescape boxing gloves')">runescape boxing gloves</a></p>
 
@@ -28434,7 +27875,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'picard star trek')">picard star trek</a></p>
 
                                     <p><a onclick="goodierequest(null,'spock star trek')">spock star trek</a></p>
 
@@ -28575,7 +28015,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'lightsaber star wars')">lightsaber star wars</a></p>
 
                                     <p><a onclick="goodierequest(null,'star wars luke skywalker')">star wars luke skywalker</a></p>
 
@@ -28650,11 +28089,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'svn export')">svn export</a></p>
-                                        <p><a onclick="goodierequest(null,'subversion pedit')">subversion pedit</a></p>
-                                        <p><a onclick="goodierequest(null,'changelist')">changelist</a></p>
-                                        <p><a onclick="goodierequest(null,'proplist')">proplist</a></p>
-                                        <p><a onclick="goodierequest(null,'mergeinfo')">mergeinfo</a></p>
 
                                     <p><a onclick="goodierequest(null,'subversion branch')">subversion branch</a></p>
 
@@ -28814,8 +28248,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'tcl tk')">tcl tk</a></p>
-                                        <p><a onclick="goodierequest(null,'tk split')">tk split</a></p>
 
                                     <p><a onclick="goodierequest(null,'tcl tclsh')">tcl tclsh</a></p>
 
@@ -28975,7 +28407,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'css background-color')">css background-color</a></p>
 
                                     <p><a onclick="goodierequest(null,'text-align css')">text-align css</a></p>
 
@@ -29132,7 +28563,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'php print_r')">php print_r</a></p>
 
                                     <p><a onclick="goodierequest(null,'underscore.js bind')">underscore.js bind</a></p>
 
@@ -29367,10 +28797,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'pacman rxvt')">pacman rxvt</a></p>
-                                        <p><a onclick="goodierequest(null,'gcc arch package')">gcc arch package</a></p>
-                                        <p><a onclick="goodierequest(null,'nmap arch linux package')">nmap arch linux package</a></p>
-                                        <p><a onclick="goodierequest(null,'arch linux firefox')">arch linux firefox</a></p>
 
                                     <p><a onclick="goodierequest(null,'arch awesome')">arch awesome</a></p>
 
@@ -29461,9 +28887,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'bidi.numeral')">bidi.numeral</a></p>
-                                        <p><a onclick="goodierequest(null,'browser.cache.disk.capacity about:config')">browser.cache.disk.capacity about:config</a></p>
-                                        <p><a onclick="goodierequest(null,'plugin.scan.plid.all firefox config')">plugin.scan.plid.all firefox config</a></p>
 
                                     <p><a onclick="goodierequest(null,'firefox keyword.url')">firefox keyword.url</a></p>
 
@@ -29768,7 +29191,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'wc man')">wc man</a></p>
 
                                     <p><a onclick="goodierequest(null,'man nmap')">man nmap</a></p>
 
@@ -29976,9 +29398,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'collective.jqganalytics plone')">collective.jqganalytics plone</a></p>
-                                        <p><a onclick="goodierequest(null,'diy plone style')">diy plone style</a></p>
-                                        <p><a onclick="goodierequest(null,'plone ECQuiz')">plone ECQuiz</a></p>
 
                                     <p><a onclick="goodierequest(null,'plone collectivejqganalytics')">plone collectivejqganalytics</a></p>
 
@@ -30603,7 +30022,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'ne555 specs')">ne555 specs</a></p>
 
                                     <p><a onclick="goodierequest(null,'atmega datasheet')">atmega datasheet</a></p>
 
@@ -30694,7 +30112,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'betterif General Electric')">betterif General Electric</a></p>
 
                                     <p><a onclick="goodierequest(null,'betterific Arby&#39;s')">betterific Arby&#39;s</a></p>
 
@@ -30712,7 +30129,7 @@
                   <div class="gselectbox " onclick="goodieclick(this,'leakdb_21232f297a57a5a743894a0e4a801fc3')" href="leakdb_21232f297a57a5a743894a0e4a801fc3_perma">
 
                         <div class="gsource">
-                            <div class="sourceicon ic_leakdb_abusix_com_images_favicon">
+                            <div class="sourceicon ic_leakdb_abusix_com_favicon">
                                 
                                     <a class="sourcetitle" title="leakdb.abusix.com"></a>
                                 
@@ -30786,7 +30203,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'hashme admin')">hashme admin</a></p>
 
                                     <p><a onclick="goodierequest(null,'leakdb 21232f297a57a5a743894a0e4a801fc3')">leakdb 21232f297a57a5a743894a0e4a801fc3</a></p>
 
@@ -30943,7 +30359,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'xkcd 102')">xkcd 102</a></p>
 
                                     <p><a onclick="goodierequest(null,'xkcd')">xkcd</a></p>
 
@@ -31463,7 +30878,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'twitter yegg')">twitter yegg</a></p>
 
                                     <p><a onclick="goodierequest(null,'@duckduckgo')">@duckduckgo</a></p>
 
@@ -31557,7 +30971,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'Delta 3684')">Delta 3684</a></p>
 
                                     <p><a onclick="goodierequest(null,'AA 102')">AA 102</a></p>
 
@@ -31645,8 +31058,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'1/1/2012 plus 5 months')">1/1/2012 plus 5 months</a></p>
-                                        <p><a onclick="goodierequest(null,'January first minus ten days')">January first minus ten days</a></p>
 
                                     <p><a onclick="goodierequest(null,'Jan 1 2012 plus 32 days')">Jan 1 2012 plus 32 days</a></p>
 
@@ -31904,7 +31315,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'train times to paoli from Villanova')">train times to paoli from Villanova</a></p>
 
                                     <p><a onclick="goodierequest(null,'next train from Villanova to Paoli')">next train from Villanova to Paoli</a></p>
 
@@ -32153,7 +31563,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'anagram filter 5')">anagram filter 5</a></p>
 
                                     <p><a onclick="goodierequest(null,'anagram of filter')">anagram of filter</a></p>
 
@@ -32533,7 +31942,6 @@
                                     <h3>Other examples</h3>
 
 
-                                        <p><a onclick="goodierequest(null,'rot13 guvegrra')">rot13 guvegrra</a></p>
 
                                     <p><a onclick="goodierequest(null,'rot13 thirteen')">rot13 thirteen</a></p>
 
