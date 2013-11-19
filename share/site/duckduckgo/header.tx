@@ -34,7 +34,7 @@
 		<: } :>
 	</div>
 	<div class="header--aside  js-trigger-main-menu">
-		 <a class="header__button--menu" tabindex="5" href="javascript:;">#</a>
+		 <a class="header__button--menu" tabindex="5" href="javascript:;">&#8694;</a>
 	</div>
 </div>
 <: include "menu_header.tx" :>	

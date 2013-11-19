@@ -1,6 +1,6 @@
 <div class="header-wrap--home">
 	<div class="header--home-aside">
-		 <a class="header__button--menu  js-trigger-main-menu" href="javascript:;">#</a>
+		 <a class="header__button--menu  js-trigger-main-menu" href="javascript:;">&#8694;</a>
 	</div>
 </div>
 
