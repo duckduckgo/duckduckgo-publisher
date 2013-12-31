@@ -1,7 +1,7 @@
 <div id="footer_homepage" class="foot-home">	
 	<script type="text/javascript">
-		nib(0,'btn--home','','',0,0,'<i class="btn--home__icon  ddgsi-add-to-browser"></i> ');
-		nib(0,'btn--home','','',0,1,'<i class="btn--home__icon  ddgsi-make-home"></i> ');
+		nib(0,'btn--home','','</span>',0,0,'<i class="btn--home__icon  ddgsi-plus"></i> <span>');
+		nib(0,'btn--home','','</span>',0,1,'<i class="btn--home__icon  ddgsi-home"></i> <span>');
 	</script>
 	<a href="/about" class="btn--home"><i class="btn--home__icon  ddgsi-more"></i> Learn <span>More</span></a>
 	
