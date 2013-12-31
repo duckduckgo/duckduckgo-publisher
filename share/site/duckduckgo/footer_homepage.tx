@@ -1,4 +1,4 @@
-<div id="<: # footer_homepage :>" class="foot-home">	
+<div id="footer_homepage" class="foot-home">	
 	<script type="text/javascript">
 		nib(0,'btn--home','','',0,0,'<i class="btn--home__icon  ddgsi-add-to-browser"></i> ');
 		nib(0,'btn--home','','',0,1,'<i class="btn--home__icon  ddgsi-make-home"></i> ');
