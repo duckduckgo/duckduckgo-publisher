@@ -1,14 +1,15 @@
-<!--
 		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage">About DuckDuckGo</div>
 		</a>
-//-->
+
+
+<!--
 
 
 		<a id="logo_homepage_link" title="Moments from 2013" href="/?q=moments+from+2013">
 			<div id="logo_homepage">Moments from 2013</div>
 		</a>
-
+//-->
 
 
 
