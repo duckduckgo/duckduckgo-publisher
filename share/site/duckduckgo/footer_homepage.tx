@@ -3,7 +3,14 @@
 		nib(0,'btn--home','','</span>',0,0,'<i class="btn--home__icon  ddgsi-plus"></i> <span>');
 		nib(0,'btn--home','','</span>',0,1,'<i class="btn--home__icon  ddgsi-home"></i> <span>');
 	</script>
-	<a href="/about" class="btn--home"><i class="btn--home__icon  ddgsi-more"></i> Learn <span>More</span></a>
+	<span class="modal_trig">
+		<div id="learn_more_modal" class="modal grp_modal">
+			<h4>Learn More</h4>
+			<a target="about" href="/about" class="ques icon">About DuckDuckGo</a>
+			<a target="about" href="https://duck.co" class="ddgsi-b ddgsi-user icon">DuckDuckGo Community</a>
+		</div>
+	</span>
+	<a href="https://duck.co" class="btn--home  js-modal" data-modal="learn_more_modal"><i class="btn--home__icon  ddgsi-more"></i> Learn <span>More</span></a>
 	
 </div>
 
