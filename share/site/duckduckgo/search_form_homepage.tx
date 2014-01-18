@@ -1,14 +1,12 @@
+<!--
 		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage">About DuckDuckGo</div>
 		</a>
-
-<!--
-
-		<a id="logo_homepage_link" title="National+Rubber+Ducky+Day" href="/?q=national+rubber+ducky+day">
-			<div id="logo_homepage">National Rubber Ducky Day</div>
-		</a>
 //-->
 
+		<a id="logo_homepage_link" title="A. A. Milne" href="/?q=a+a+milne">
+			<div id="logo_homepage">A. A. Milne</div>
+		</a>
 
 		<form name="x" method="POST" action="/html" id="search_form_homepage" onSubmit="return nbr()">
 			<div id="search_wrapper_homepage">
