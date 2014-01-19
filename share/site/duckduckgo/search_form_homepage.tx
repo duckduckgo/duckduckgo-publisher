@@ -4,8 +4,8 @@
 		</a>
 //-->
 
-		<a id="logo_homepage_link" title="A. A. Milne" href="/?q=a+a+milne">
-			<div id="logo_homepage">A. A. Milne</div>
+		<a id="logo_homepage_link" title="Edgar Allan Poe" href="/?q=edgar+allan+poe">
+			<div id="logo_homepage">Edgar Allan Poe</div>
 		</a>
 
 		<form name="x" method="POST" action="/html" id="search_form_homepage" onSubmit="return nbr()">
