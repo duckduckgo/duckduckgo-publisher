@@ -2,7 +2,8 @@
 		
 <div id="tagline_homepage" class="tag-home">
 
-	    <: lp('wedonttrackyou',"We don't %s you.",r('<em>') ~ lp('wedonttrackyou','track') ~ r('</em>')) :>
+The friendly search engine that doesn't track you.
+
 <!--
 	<a href="http://donttrack.us/" class="tag-home__link"><: lp('frontpage','Search %s.',r('<em>') ~ lp('frontpage','Anonymously') ~ r('</em>')) :></a>
 &nbsp;<a href="/goodies/" class="tag-home__link"><: lp('frontpage','Find %s.',r('<em>') ~ lp('frontpage','Instantly') ~ r('</em>')) :></a>
