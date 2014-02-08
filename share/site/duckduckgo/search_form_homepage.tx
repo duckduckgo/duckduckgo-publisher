@@ -1,12 +1,13 @@
+<!--
 		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage">About DuckDuckGo</div>
 		</a>
-<!--
-
-		<a id="logo_homepage_link" title="Edgar Allan Poe" href="/?q=edgar+allan+poe">
-			<div id="logo_homepage">Edgar Allan Poe</div>
-		</a>
 //-->
+
+
+		<a id="logo_homepage_link" title="Jules Verne" href="/Jules_Verne">
+			<div id="logo_homepage">Jules Verne</div>
+		</a>
 
 		<form name="x" method="POST" action="/html" id="search_form_homepage" onSubmit="return nbr()">
 			<div id="search_wrapper_homepage">
