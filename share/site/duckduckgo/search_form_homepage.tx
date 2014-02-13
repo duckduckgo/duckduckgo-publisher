@@ -1,12 +1,11 @@
-<!--
 		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage">About DuckDuckGo</div>
 		</a>
-//-->
-
+<!--
 		<a id="logo_homepage_link" title="The Day We Fight Back!" href="https://thedaywefightback.org/">
 			<div id="logo_homepage">The Day We Fight Back!</div>
 		</a>
+//-->
 
 
 		<form name="x" method="POST" action="/html" id="search_form_homepage" onSubmit="return nbr()">
