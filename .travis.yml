@@ -17,8 +17,7 @@ install:
   - duckpan DDGC::Locale::DuckduckgoFixtracking
 language: perl
 perl:
-  - 5.18
   - 5.16
-  - 5.10
+  - 5.14
 script:
   - dzil smoke --release --author
