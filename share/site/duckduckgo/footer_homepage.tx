@@ -6,10 +6,11 @@
 	<span class="modal_trig">
 		<div id="learn_more_modal" class="modal grp_modal">
 			<i class="logo_modal"></i>
-			<p class="btn-stack">
-				<a target="about" href="/about" class="btn"><: l('About DuckDuckGo'):></a>
-				<a target="about" href="https://duck.co" class="btn"><: l('DuckDuckGo Community'):></a>
-			</p>
+			<h4 class="modal__title">More About DuckDuckGo?</h4>
+			<div>
+				<a target="about" href="/about" class="btn"><: l('About DDG'):></a>
+				<a target="about" href="https://duck.co" class="btn"><: l('DDG Community'):></a>
+			</div>
 		</div>
 	</span>
 	<a href="https://duck.co" class="btn--home  js-modal" data-modal="learn_more_modal"><i class="btn--home__icon  ddgsi-more"></i> Learn <span>More</span></a>
