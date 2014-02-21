@@ -2,7 +2,7 @@
 		
 <div id="tagline_homepage" class="tag-home">
 
-The friendly search engine that doesn't track you.
+The search engine that doesn't track you.
 
 <!--
 	<a href="http://donttrack.us/" class="tag-home__link"><: lp('frontpage','Search %s.',r('<em>') ~ lp('frontpage','Anonymously') ~ r('</em>')) :></a>
