@@ -1,22 +1,28 @@
 
 	<li class="nav-menu__heading--primary"><: l('Main Menu') :></li>
 	<li class="nav-menu__item"><a href="/settings/" tabindex="-1"><: l('Settings') :></a></li>
-	<li class="nav-menu__item"><a href="/goodies/" tabindex="-1"><: l('DDG Goodies') :></a></li>
-	<li class="nav-menu__item"><a href="/about/" tabindex="-1"><: l('About DDG') :></a></li>
-	<li class="nav-menu__item"><a href="https://dukgo.com/" tabindex="-1"><: l('Community & Blog') :></a></li>	
-	<li class="nav-menu__item"><a href="/feedback/" tabindex="-1"><: l('Help') :></a></li>
+	<li class="nav-menu__item"><a href="/goodies/" tabindex="-1"><: l('Instant Answers Reference') :></a></li>
+	<li class="nav-menu__item"><a href="/bang/" tabindex="-1"><: l('!bangs Reference') :></a></li>
 	
-	<li class="nav-menu__heading"><: l('Get Involved') :></li>
-	<li class="nav-menu__item"><a href="http://duckduckhack.com/" tabindex="-1"><: l('Develop') :></a></li>
+	<li class="nav-menu__heading"><: l('Community') :></li>
+	<li class="nav-menu__item"><a href="https://duck.co/" tabindex="-1"><: l('Participate') :></a></li>	
+	<li class="nav-menu__item"><a href="http://duckduckhack.com/" tabindex="-1"><: l('Develop Instant Answers') :></a></li>
 	<li class="nav-menu__item"><a href="https://dukgo.com/" tabindex="-1"><: l('Translate') :></a></li>	
-	<li class="nav-menu__item"><a href="/supportus" tabindex="-1"><: l('Support Us') :></a></li>
-	<li class="nav-menu__heading"><: l('More') :></li>	
-	<li class="nav-menu__item"><a href="http://donttrack.us/" tabindex="-1">Donttrack.us</a></li>
-	<li class="nav-menu__item"><a href="http://dontbubble.us/" tabindex="-1">DontBubble.us</a></li>
-	<li class="nav-menu__item"><a href="http://whatisdnt.com/" tabindex="-1">WhatIsDNT.com</a></li>
-	<li class="nav-menu__item"><a href="http://fixtracking.com/" tabindex="-1">FixTracking.com</a></li>
+	<li class="nav-menu__item"><a href="/supportus" tabindex="-1"><: l('Spread DuckDuckGo') :></a></li>
+	<li class="nav-menu__item"><a href="https://duck.co/help" tabindex="-1"><: l('Get Help') :></a></li>
+	<li class="nav-menu__item"><a href="/feedback/" tabindex="-1"><: l('Give Feedback') :></a></li>
 	
-	<ul class="nav-menu__secondary-list">
-		<li class="nav-menu__item--secondary"><a href="/privacy/" tabindex="-1"><: l('Privacy Policy') :></a></li>
-		<li class="nav-menu__item--secondary"><a href="/press/" tabindex="-1"><: l('Press') :></a></li>
-	</ul>	
+	<li class="nav-menu__heading"><: l('More Info') :></li>
+	<li class="nav-menu__item"><a href="/about/" tabindex="-1"><: l('About DuckDuckGo') :></a></li>
+	<li class="nav-menu__item"><a href="/privacy/" tabindex="-1"><: l('Privacy Policy') :></a></li>
+	<li class="nav-menu__item"><a href="/press/" tabindex="-1"><: l('Press') :></a></li>
+	
+	<li class="nav-menu__heading"><: l('More Ways to Duck it!') :></li>
+	<li class="nav-menu__item"><script type="text/javascript">
+		nib(0,'','','',0,0,'');
+	</script></li>
+	<li class="nav-menu__item"><script type="text/javascript">
+		nib(0,'','','</span>',0,1,'');
+	</script></li>
+	<li class="nav-menu__item"><a href="/app/" tabindex="-1"><: l('Get Mobile App') :></a></li>
+	
