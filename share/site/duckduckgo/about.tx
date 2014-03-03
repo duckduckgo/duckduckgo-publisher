@@ -4,25 +4,28 @@
 	<h3 class="splash--sub">That's the future of search.</h3>
 	<span class="btn--abt">Learn More</span> <span class="btn--abt">Meet Dax</span>
 </div>
-<div class="abt  abt--top">
+<div class="abt  abt--keys  abt--top">
 	<div class="cw--c">
 		<h2 class="abt__title">About Us</h2>
 		<hr class="hr--abt" />
 		<h5 class="abt__sub">We strive to make the internet a better place.</h5>
 		<div class="abt__row">
-			<div class="third">
-				<h3>Real Privacy</h3>
-				<h6>We don't track or bubble you.</h6>
+			<div class="abt__key  third">
+				<i class="abt__key__icon  abt__key__icon--privacy"></i>
+				<h3 class="abt__key__title">Real Privacy</h3>
+				<h6 class="abt__key__sub">We don't track or bubble you.</h6>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. </p>
 			</div>
-			<div class="third">
-				<h3>Smarter Answers</h3>
-				<h6>More answers, Instantly.</h6>
+			<div class="abt__key  third">
+				<i class="abt__key__icon  abt__key__icon--answers"></i>
+				<h3 class="abt__key__title">Smarter Answers</h3>
+				<h6 class="abt__key__sub">More answers, Instantly.</h6>
 				<p>Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.</p>
 			</div>
-			<div class="third">
-				<h3>Less Clutter</h3>
-				<h6>Keeping it simple.</h6>
+			<div class="abt__key  third">
+				<i class="abt__key__icon  abt__key__icon--clutter"></i>
+				<h3 class="abt__key__title">Less Clutter</h3>
+				<h6 class="abt__key__sub">Keeping it simple.</h6>
 				<p>Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
 			</div>
 		</div>
@@ -33,11 +36,13 @@
 		<h2 class="abt__title">Our Team</h2>
 		<hr class="hr--abt" />
 		<: # TODO: Loop this with data :>
-		<div class="team">
-			<span class="team__img"></span>
-			<span class="team__name">Mr. X</span>
-			<span class="team__title">Man of Mystery</span>
-		</div>
+		<ul class="team">
+			<li class="team__m">
+				<img class="team__img" src="" />
+				<span class="team__name">Mr. X</span>
+				<span class="team__title">Man of Mystery</span>
+			</li>
+		</ul>
 	</div>
 </div>
 <div class="abt  abt--news">
@@ -51,12 +56,15 @@
 	</div>
 </div>
 <div class="abt  abt--alt  abt--news">
-	<div class="cw--c">
-		<h5 class="abt__title--sub">Or perhaps you heard about us in&hellip;</h5>
-		<ul class="abt--news__list">
-			<li></li>
-		</ul>
-	</div>
+	<h5 class="abt__title--sub">Or perhaps you heard about us in&hellip;</h5>
+	<ul class="abt--news__list">
+		<li><a href="http://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html"><img src="assets/about/logo_wapost-full.png" class="abt--news__img--wapost" alt="The Washington Post" /></a></li>
+		<li><a href="http://lifehacker.com/5912105/add-duckduckgos-smart-zero+click-info-results-to-google-searches-in-chrome"><img src="assets/about/logo_lifehacker-full.png" alt="lifehacker" class="abt--news__img--lhck"/></a></li>
+		<li><a href="http://www.pcmag.com/article2/0,2817,2397697,00.asp"><img src="assets/about/logo_pcmag-full.png" alt="PC Mag" class="abt--news__img--pc" /></a></li>
+		<li><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html"><img src="assets/about/logo_time-full.png" alt="TIME" class="abt--news__img--time" /></a></li>
+		<li><a href="http://searchengineland.com/could-duckduckgo-be-the-biggest-long-term-threat-to-google-118117"><img src="assets/about/logo_sel-full.png" class="abt--news__img--sel" alt="SearchEngineLand" /></a></li>
+		<li><a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3"><img src="assets/about/logo_nyt-full.png" alt="The New York Times" class="abt--news__img--nyt"/></a></li>
+	</ul>
 </div>
 <div class="abt  abt--email">
 	<div class="cw--c">
@@ -66,7 +74,7 @@
 		<form class="frm--newsletter">
 			<input type="hidden" />
 			<input type="text" placeholder="Enter your email address" class="frm__input" />
-			<input type="submit" class="btn  btn--primary" />
+			<input type="submit" value="Subscribe" class="btn  btn--primary" />
 		</form>
 	</div>
 </div>
@@ -74,7 +82,7 @@
 	<div class="cw--c">
 		<div class="third">
 			<div class="nav-col">
-				<h4>Things you can do:</h4>
+				<h5 class="abt--nav__heading">Things you can do:</h5>
 				<ul>
 					<li><a href="https://duck.co/translate">Translate DuckDuckGo</a></li>
 					<li><a href="http://duck.co/">Join our Forums</a></li>
@@ -90,7 +98,7 @@
 		</div>
 		<div class="third">
 			<div class="nav-col">
-				<h4>DuckDuckGo sites:</h4>
+				<h5 class="abt--nav__heading">DuckDuckGo Sites:</h5>
 				<ul>
 					<li><a href="https://duckduckgo.com/" target="_blank">Homepage</a></li>
 					<li><a href="http://donttrack.us/" target="_blank">DontTrack.us</a></li>
@@ -104,7 +112,7 @@
 		</div>
 		<div class="third">
 			<div class="nav-col">
-				<h4>DuckDuckGo social:</h4>
+				<h5 class="abt--nav__heading">DuckDuckGo Social:</h5>
 				<ul>
 					<li><a href="https://twitter.com/duckduckgo" target="_blank">Twitter</a> <a href="https://twitter.com/duckduckgo/team/members" target="_blank">(Team)</a></li>
 					<li><a href="https://facebook.com/duckduckgo" target="_blank">Facebook</a></li>
