@@ -1,131 +1,129 @@
-<div class="video-container">
-
-<video width="640" height="360" id="about-video" poster="/assets/about/about-duckduckgo-posterimg.jpg" controls="controls" style="width: 100%; height: 100%;" preload="none">
-	<!-- M4V source must come first for iOS -->
-	<source type="video/x-m4v" src="//dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.m4v" />
-	<!-- MP4 for almost everyone -->
-	<source type="video/mp4" src="//dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" />
-	<!-- WebM for Firefox 4 and Opera -->
-	<source type="video/webm" src="//dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.webm" />
-	<!-- OGG for Firefox 3 -->
-	<source type="video/ogg" src="//dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.ogv" />
-	<!-- Fallback flash player for no-HTML5 browsers with JavaScript turned off -->
-	<object width="640" height="360" type="application/x-shockwave-flash" data="flashmediaelement.swf"> 		
-		<param name="movie" value="flashmediaelement.swf" /> 
-		<param name="flashvars" value="controls=true&poster=assets/about/about-duckduckgo-posterimg.jpg&file=//dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" /> 		
-		<!-- Image fall back for non-HTML5 browser with JavaScript turned off and no Flash player installed (wow just wow) -->
-		<img src="/assets/about/about-duckduckgo-posterimg.jpg" width="640" height="360" alt="DuckDuckGo" 
-			title="<: l('No video playback capabilities') :>" />
-	</object>
-</video>
-<div class="share-buttons"><a class="share-button" href="#" onclick="DDG.toggle('share-panel')"><: l('share this') :></a></div>
+<div class="splash">
+	<h1 class="splash--title">Imagine a Search Engine that offers <strong>real privacy</strong></h1>
+	<hr class="hr--abt" />
+	<h3 class="splash--sub">That's the future of search.</h3>
+	<span class="btn--abt">Learn More</span> <span class="btn--abt">Meet Dax</span>
 </div>
-<div id="share-panel">
-	<script>function fbs_click() {u=location.href;t=document.title;window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=960,height=544');return false;}	
-	</script>
-	<a href="http://www.facebook.com/share.php?u=https://duckduckgo.com/about" class="shareon facebook" target="_blank" onClick="return fbs_click()"><: l('Share on %s','Facebook') :></a>
-	<a href="https://twitter.com/?status=Check+out+the+'About+@DuckDuckGo'+video:+https://duckduckgo.com/about" class="shareon twitter" target="_blank"><: l('Share on %s','Twitter') :></a>
-	<br style="clear: both;"/>
-	<br/>
-	<: l('Embed Elsewhere:') :>
-	<br/>
-	<div class="embed-code">&lt;iframe src="https://duckduckgo.com/about-video.html" width="640" height="360"&gt;&lt;/iframe&gt;</div>
+<div class="abt  abt--top">
+	<div class="cw--c">
+		<h2 class="abt__title">About Us</h2>
+		<hr class="hr--abt" />
+		<h5 class="abt__sub">We strive to make the internet a better place.</h5>
+		<div class="abt__row">
+			<div class="third">
+				<h3>Real Privacy</h3>
+				<h6>We don't track or bubble you.</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. </p>
+			</div>
+			<div class="third">
+				<h3>Smarter Answers</h3>
+				<h6>More answers, Instantly.</h6>
+				<p>Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.</p>
+			</div>
+			<div class="third">
+				<h3>Less Clutter</h3>
+				<h6>Keeping it simple.</h6>
+				<p>Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+			</div>
+		</div>
+	</div>
 </div>
-<h2><: l("We believe in better search and real privacy at the same time. That's why:") :></h2>
-<hr/>
-  <div id="features">
-    <ul>	 
-	  <li class="goodies"><a href="/goodies">
-	  <: lp('tonsgoodies','We have %s.',r("<em>") ~ lp('tonsgoodies','tons of goodies') ~ r("</em>")) :>
-	   <!--blockquote>We have lots of goodies for all types of people.</blockquote-->
-	   </a></li>
-	
-	   <li class="privacy"><a href="http://donttrack.us/">
-	    <: lp('wedonttrackyou',"We don't %s you.",r('<em>') ~ lp('wedonttrackyou','track') ~ r('</em>')) :>
-	    <!--blockquote>We do not collect or share personal information.</blockquote-->
-	   </a></li>
-
-	   <li class="clutter"><: l('We drop the clutter.') :>
-	    <!--blockquote>We focus on a cleaner search experience.</blockquote-->
-	   </li>
-	  
-	   <li class="bubble"><a href="http://dontbubble.us/">
-	    <: lp('wedontbubbleyou',"We don't %s you.",r('<em>') ~ lp('wedontbubbleyou','filter bubble') ~ r('</em>')) :>
-	    <!--blockquote>We do not bias your search results.</blockquote-->
-	   </a></li>
-	  
-	</ul>
-  </div>
-
-<h2><: l('Try DuckDuckGo for a week!') :></h2>
-<hr/>
-  <div id="spread">
-
-<p class="big">
-<script type="text/JavaScript">nib(0,' ','');</script>. &nbsp;<script type="text/JavaScript">nib(0,' ','','',0,1);</script>.
-&nbsp;<a href="/feedback"><: l('DuckDuckGo Help') :></a>.
-</p>
-
-<div class="newsletter"></div>
-<form action="https://flash.duckduckgo.com/e.js" method="post">
-<span class="clu">
-<: l('Monthly newsletter:') :> &nbsp;
-<input type="text" size="15" name="from" value="<: l('email address') :>" style="color:#888" onclick="if (this.value=='<: js(l('email address')) :>') {this.value='';this.style.color='#000000';}">
-<input type="submit" value="Go">
-<input type="hidden" name="add" value="1">
-</span>
-</form>
-
-<div class="like"></div>
-<: l('Follow %s on Twitter',r('<a href="http://twitter.com/duckduckgo">') ~ '@duckduckgo' ~ r('</a>')) :>
-
-<div class="like"></div>
-<: l('Like %s on Facebook',r('<a href="https://facebook.com/duckduckgo">') ~ 'DuckDuckGo' ~ r('</a>')) :>
-
+<div class="abt  abt--alt  abt--team">
+	<div class="cw--c">
+		<h2 class="abt__title">Our Team</h2>
+		<hr class="hr--abt" />
+		<: # TODO: Loop this with data :>
+		<div class="team">
+			<span class="team__img"></span>
+			<span class="team__name">Mr. X</span>
+			<span class="team__title">Man of Mystery</span>
+		</div>
+	</div>
 </div>
-
-
-<h2><: l("Perhaps you've heard about us in %s",'&hellip;') :></h2>
-<hr/>
-  <div id="quotes">
-    <ul>
-	   <li id="wapost"><a href="http://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html"><img src="assets/about/logo_wapost-full.png" alt="The Washington Post" /><blockquote><: l('a pure search engine %s and its use is soaring', '&mdash;') :></blockquote></a></li>	 
-	   <li id="sel"><a href="http://searchengineland.com/could-duckduckgo-be-the-biggest-long-term-threat-to-google-118117"><img src="assets/about/logo_sel-full.png" alt="SearchEngineLand" style="width: 230px;" /><blockquote><: l('Could DuckDuckGo Be The Biggest Long-Term Threat To Google?') :></blockquote></a></li>
-	  <li id="pc"><a href="http://www.pcmag.com/article2/0,2817,2397697,00.asp"><img src="assets/about/logo_pcmag-full.png" alt="PC Mag" style="width: 70px;" /><blockquote class="noquote"><: l('Top %d Best Websites of %d.',100,2011) :></blockquote></a></li>	  
-	  <li id="lhck"><a href="http://lifehacker.com/5912105/add-duckduckgos-smart-zero+click-info-results-to-google-searches-in-chrome"><img src="assets/about/logo_lifehacker-full.png" alt="lifehacker" style="width: 153px;" /><blockquote><: l('Our favorite alternative search engine, DuckDuckGo') :></blockquote></a></li>	 
-	  <li id="nyt"><a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3"><img src="assets/about/logo_nyt-full.png" alt="The New York Times" style="width: 320px;"/><blockquote><: l('Distinguishes itself with a %s policy',r('&ldquo;') ~ l('We do not track or bubble you!') ~ r('&rdquo;') ):></blockquote></a></li>
-	   <li id="time"><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html"><img src="assets/about/logo_time-full.png" alt="TIME" style="width: 135px;" /><blockquote class="noquote"><: l('Top %d Best Websites of %d.',50,2011) :></blockquote></a></li>
-	</ul>
-  </div>
-
-
-<h2><: l('More about us...') :></h2>
-<hr/>
-<div style="margin-left: 20px;">
-<: l('Help? Check out %s.',r('<a href="/feedback/">') ~ l('our feedback center') ~ r('</a>')) :>
-
-<div style="margin-top: 20px;">
-<: l('Doodles? Yes, %s!',r('<a href="http://help.duckduckgo.com/customer/portal/articles/485613-holiday-logos">') ~ l('we have those, too') ~ r("</a>")) :>
-
-<div style="margin-top: 20px;">
-<: l('Developer? Check out %s.',r('<a href="http://duckduckhack.com">') ~ 'DuckDuckHack' ~ r('</a>')) :>
-
-<div style="margin-top: 20px;">
-<: l('Supporter? %s.',r('<a href="/supportus/">') ~ l("Friends don't let friends get tracked.") ~ r('</a>')) :>
-
-<div style="margin-top: 20px;">
-<: l('Press? %s.',r('<a href="https://dukgo.com/help/en_US/company/press">') ~ l('click here') ~ r('</a>')) :>
-
-<div style="margin-top: 20px;">
-<: l('Partner? %s.',r('<a href="https://dukgo.com/help/en_US/company/partnerships">') ~ l('click here') ~ r('</a>')) :>
-
-<div style="margin-top: 20px;">
-<: l('Swag? %s.',r('<a href="https://dukgo.com/help/en_US/community/swag">') ~ l('of course') ~ r('</a>')) :>
-
+<div class="abt  abt--news">
+	<div class="cw--c">
+		<h2 class="abt__title">In The News</h2>
+		<hr class="hr--abt" />
+		<div class="abt__app">
+			<h4 class="abt__app__pri">DuckDuckGo <em>Search &amp; Stories</em></h4>
+			<h4 class="abt__app__sec">Time Magazine's <em>Top 50 Apps of 2013</em></h4>
+		</div>
+	</div>
 </div>
-
-
-<script>
-$('video,audio').mediaelementplayer(/* Options go here - we don't need no stinking options{mode:'auto_plugin'}*/);
-$('#search_form_input').attr('placeholder','<: js(l('About DuckDuckGo')) :>');
-</script>
+<div class="abt  abt--alt  abt--news">
+	<div class="cw--c">
+		<h5 class="abt__title--sub">Or perhaps you heard about us in&hellip;</h5>
+		<ul class="abt--news__list">
+			<li></li>
+		</ul>
+	</div>
+</div>
+<div class="abt  abt--email">
+	<div class="cw--c">
+		<h2 class="abt__title">Newsletter</h2>
+		<hr class="hr--abt" />
+		<h5 class="abt__sub">Stay up to date with DuckDuckGo, privacy, and other things you might want to know.</h5>
+		<form class="frm--newsletter">
+			<input type="hidden" />
+			<input type="text" placeholder="Enter your email address" class="frm__input" />
+			<input type="submit" class="btn  btn--primary" />
+		</form>
+	</div>
+</div>
+<div class="abt  abt--alt  abt--nav">
+	<div class="cw--c">
+		<div class="third">
+			<div class="nav-col">
+				<h4>Things you can do:</h4>
+				<ul>
+					<li><a href="https://duck.co/translate">Translate DuckDuckGo</a></li>
+					<li><a href="http://duck.co/">Join our Forums</a></li>
+					<li><a href="https://duck.co/blog">Browse our Blog</a></li>
+					<li><a href="https://duck.co/blog/using-pidgin-with-xmpp-jabber">Chat via XMPP/Jabber</a></li>
+					<li><a href="https://github.com/duckduckgo/community-platform" target="_blank">Develop our platform</a></li>
+					<li><a href="https://github.com/duckduckgo/duckduckgo/wiki" target="_blank">Develop instant answers</a></li>
+					<li><a href="https://duckduckgo.com/spread" target="_blank">Spread DuckDuckGo!</a></li>
+					<li><a href="https://duckduckgo.com/feedback" target="_blank">Submit feedback</a></li>
+					<li><a href="https://duck.co/roboduck">Talk with RoboDuck</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="third">
+			<div class="nav-col">
+				<h4>DuckDuckGo sites:</h4>
+				<ul>
+					<li><a href="https://duckduckgo.com/" target="_blank">Homepage</a></li>
+					<li><a href="http://donttrack.us/" target="_blank">DontTrack.us</a></li>
+					<li><a href="http://dontbubble.us/" target="_blank">DontBubble.us</a></li>
+					<li><a href="https://duck.co/help/en_US">Help</a></li>
+					<li><a href="https://duck.co/">Forum</a></li>
+					<li><a href="http://cafepress.com/duckduckgo" target="_blank">Store</a></li>
+					<li><a href="http://www.stickermule.com/duckduckgo" target="_blank">Sticker Store</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="third">
+			<div class="nav-col">
+				<h4>DuckDuckGo social:</h4>
+				<ul>
+					<li><a href="https://twitter.com/duckduckgo" target="_blank">Twitter</a> <a href="https://twitter.com/duckduckgo/team/members" target="_blank">(Team)</a></li>
+					<li><a href="https://facebook.com/duckduckgo" target="_blank">Facebook</a></li>
+					<li><a href="http://www.reddit.com/r/duckduckgo" target="_blank">/r/duckduckgo</a></li>
+					<li><a href="https://identi.ca/duckduckgo" target="_blank">identi.ca</a></li>
+					<li><a href="https://joindiaspora.com/u/duckduckgo" target="_blank">diaspora</a></li>
+					<li><a href="http://webchat.freenode.net/?channels=duckduckgo" target="_blank">IRC Channel</a></li>
+					<li><a href="https://github.com/duckduckgo" target="_blank">GitHub</a></li>
+					<li><a href="http://duckpan.org/" target="_blank">DuckPAN</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="abt abt--foot">
+	<div class="cw--c">
+		<div class="twothirds">
+			<p class="footer-nav"><a href="https://duckduckgo.com/">Home</a> <a href="https://duckduckgo.com/privacy">Privacy</a> <a href="https://duckduckgo.com/feedback">Feedback</a></p>
+			<p>Powered by <a href="http://www.perl.org/" target="_blank">Perl</a> Delivered by <a href="http://nginx.org/" target="_blank">nginx</a> Source at <a href="https://github.com/duckduckgo/community-platform" target="_blank">github</a> © <a href="https://duckduckgo.com">DuckDuckGo, Inc.</a></p>
+		</div>
+	</div>
+</div>
