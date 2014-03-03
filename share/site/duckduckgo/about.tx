@@ -35,13 +35,14 @@
 	<div class="cw--c">
 		<h2 class="abt__title">Our Team</h2>
 		<hr class="hr--abt" />
-		<: # TODO: Loop this with data :>
 		<ul class="team">
+			<: for $team_members -> $team { :>
 			<li class="team__m">
-				<img class="team__img" src="" />
-				<span class="team__name">Mr. X</span>
-				<span class="team__title">Man of Mystery</span>
+				<img class="team__img" src="/assets/about/team/<: $team.image :>" />
+				<span class="team__name"><: $team.name :></span>
+				<span class="team__title"><: $team.title :></span>
 			</li>
+			<: } :>
 		</ul>
 	</div>
 </div>

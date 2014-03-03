@@ -20,6 +20,43 @@ sub pages {{
 		no_spacer => 1,
 		no_logo => 1,
 		no_cw => 1,
+		team_members => [{
+			name => 'Gabriel Weinberg',
+			title => 'President, right?',
+			image => 'gabriel.png',
+		},{
+			name => 'Prakash Swaminathan',
+			title => 'VP / Biz Dev',
+			image => 'prakash.png',
+		},{
+			name => 'Caine Tighe',
+			title => 'Core Things',
+			image => 'caine.png',
+		},{
+			name => 'Russell Holst',
+			title => 'Duck Duck Hack',
+			image => 'russell.png',
+		},{
+			name => 'Jaryd Malbin',
+			title => 'Computers',
+			image => 'jaryd.png',
+		},{
+			name => 'Zac Pappis',
+			title => 'Community',
+			image => 'zac.png',
+		},{
+			name => 'Doug Brown',
+			title => 'Coffee',
+			image => 'jag.png',
+		},,{
+			name => 'Juan Antonio',
+			title => 'Gabriel Talon',
+			image => 'doug.png',
+		},{
+			name => 'Chris Morast',
+			title => 'Design',
+			image => 'chris.png',
+		}],
 	},
 	bang => sub {},
 	goodies => sub {
