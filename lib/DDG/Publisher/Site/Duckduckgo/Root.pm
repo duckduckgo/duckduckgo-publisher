@@ -17,6 +17,8 @@ sub pages {{
     },
 	about => sub {
 		no_logo => 1,
+		no_cw => 1,
+		no_spacer => 1,
 	},
 	bang => sub {},
 	goodies => sub {

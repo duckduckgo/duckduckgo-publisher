@@ -49,7 +49,7 @@
 		<: } :>
 	    
 	<: } else { :>
-		 <div id="bottom_spacing2"></div>
+		 <: if !$no_spacer { :><div id="bottom_spacing2"></div><:}:>
 		 <: if !$no_content_internal { :>
 			</div> <!-- content_internal //-->
 		 </div> <!-- content //-->
