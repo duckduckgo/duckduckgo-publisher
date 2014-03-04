@@ -1,8 +1,10 @@
-<div class="splash">
-	<h1 class="splash--title">Imagine a Search Engine that offers <strong>real privacy</strong></h1>
-	<hr class="hr--abt" />
-	<h3 class="splash--sub">That's the future of search.</h3>
-	<span class="btn--abt">Learn More</span> <span class="btn--abt">Meet Dax</span>
+<div class="splash  js-parallax">
+	<div class="js-scroll-fade">
+		<h1 class="splash--title">Imagine a Search Engine that offers <strong class="splash__rotate  js-rotate"><em class="splash__rotate__item  js-rotate-item active">real privacy</em> <em class="splash__rotate__item  js-rotate-item">smarter answers</em> <em class="splash__rotate__item  js-rotate-item">less clutter</em></strong></h1>
+		<hr class="hr--abt" />
+		<h3 class="splash--sub">That's the future of search.</h3>
+		<span class="btn--abt">What's New</span> <span class="btn--abt">Meet Dax</span>
+	</div>
 </div>
 <div class="abt  abt--keys  abt--top">
 	<div class="cw--c">
