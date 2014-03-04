@@ -77,7 +77,7 @@
 		<form class="frm--newsletter">
 			<input type="hidden" />
 			<input type="text" placeholder="Enter your email address" class="frm__input" />
-			<input type="submit" value="Subscribe" class="btn  btn--primary" />
+			<input type="submit" value="Subscribe" class="btn  btn--abt--prim" />
 		</form>
 	</div>
 </div>
