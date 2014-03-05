@@ -3,7 +3,7 @@
 		<h1 class="splash--title">Imagine a Search Engine that offers <strong class="splash__rotate  js-rotate"><em class="splash__rotate__item  js-rotate-item active">real privacy</em> <em class="splash__rotate__item  js-rotate-item">smarter answers</em> <em class="splash__rotate__item  js-rotate-item">less clutter</em></strong></h1>
 		<hr class="hr--abt" />
 		<h3 class="splash--sub">That's the future of search.</h3>
-		<span class="btn--abt">What's New</span> <span class="btn--abt">Meet Dax</span>
+		<a href="#whats-new" class="btn--abt">What's New</a> <a href="#dax-video" class="js-load-src  btn--abt">Meet Dax</a>
 	</div>
 </div>
 <div class="abt  abt--keys  abt--top">
@@ -136,5 +136,23 @@
 			<p class="footer-nav"><a href="https://duckduckgo.com/">Home</a> <a href="https://duckduckgo.com/privacy">Privacy</a> <a href="https://duckduckgo.com/feedback">Feedback</a></p>
 			<p>Powered by <a href="http://www.perl.org/" target="_blank">Perl</a> Delivered by <a href="http://nginx.org/" target="_blank">nginx</a> Source at <a href="https://github.com/duckduckgo/community-platform" target="_blank">github</a> © <a href="https://duckduckgo.com">DuckDuckGo, Inc.</a></p>
 		</div>
+	</div>
+</div>
+<div id="dax-video" class="popover">
+	<a href="#_" class="popover__esc"></a>
+	<div class="popover__wrap  popover__wrap--video">
+		<div class="popover__box  popover__box--video">
+			<iframe src="" data-src="https://duckduckgo.com/about-video.html" class="js-lazy-src  popover__box__video" width="640" height="360"></iframe>
+			<noscript>
+				<iframe src="https://duckduckgo.com/about-video.html" class="popover__box__video" width="640" height="360"></iframe>
+			</noscript>
+		</div>
+	</div>
+</div>
+<div id="whats-new" class="popover">
+	<a href="#_" class="popover__esc"></a>
+	<div class="popover__box">
+		<h1 style="margin-top:60px;">What's New?  Lots of Stuff!</h1>
+		<h4>More details forthcoming...</h4>
 	</div>
 </div>
