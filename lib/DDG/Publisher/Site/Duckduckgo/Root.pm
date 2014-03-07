@@ -33,7 +33,7 @@ sub pages {{
 			title => 'Core Things',
 			image => 'caine.png',
 		},{
-			name => 'Russell Holst',
+			name => 'Russell Holt',
 			title => 'Duck Duck Hack',
 			image => 'russell.png',
 		},{
@@ -47,11 +47,11 @@ sub pages {{
 		},{
 			name => 'Doug Brown',
 			title => 'Coffee',
-			image => 'jag.png',
+			image => 'doug.png',
 		},,{
 			name => 'Juan Antonio',
 			title => 'Gabriel Talon',
-			image => 'doug.png',
+			image => 'jag.png',
 		},{
 			name => 'Chris Morast',
 			title => 'Design',
