@@ -1,12 +1,12 @@
+<!--
 		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage">About DuckDuckGo</div>
 		</a>
-<!--
-
-		<a id="logo_homepage_link" title="Happy Valentine's Day!" href="/Valentine's_Day">
-			<div id="logo_homepage">Happy Valentine's Day!</div>
-		</a>
 //-->
+
+		<a id="logo_homepage_link" title="International Women's Day!" href="/International_Women's_Day">
+			<div id="logo_homepage">International Women's Day!</div>
+		</a>
 
 
 
