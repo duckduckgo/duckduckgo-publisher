@@ -22,15 +22,15 @@ sub pages {{
 		no_cw => 1,
 		team_members => [{
 			name => 'Gabriel Weinberg',
-			title => 'President, right?',
+			title => 'Founder',
 			image => 'gabriel.png',
 		},{
 			name => 'Prakash Swaminathan',
-			title => 'VP / Biz Dev',
+			title => 'Biz Dev',
 			image => 'prakash.png',
 		},{
 			name => 'Caine Tighe',
-			title => 'Core Things',
+			title => 'Core Components',
 			image => 'caine.png',
 		},{
 			name => 'Russell Holt',
@@ -38,7 +38,7 @@ sub pages {{
 			image => 'russell.png',
 		},{
 			name => 'Jaryd Malbin',
-			title => 'Computers',
+			title => 'Ops',
 			image => 'jaryd.png',
 		},{
 			name => 'Zac Pappis',
@@ -46,11 +46,11 @@ sub pages {{
 			image => 'zac.png',
 		},{
 			name => 'Doug Brown',
-			title => 'Coffee',
+			title => 'Front-End',
 			image => 'doug.png',
 		},,{
-			name => 'Juan Antonio',
-			title => 'Gabriel Talon',
+			name => 'Jag Antonio',
+			title => 'Open Source',
 			image => 'jag.png',
 		},{
 			name => 'Chris Morast',
