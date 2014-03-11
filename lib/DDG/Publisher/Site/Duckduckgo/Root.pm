@@ -49,7 +49,7 @@ sub pages {{
 			title => 'Front-End',
 			image => 'doug.png',
 		},,{
-			name => 'Jag Antonio',
+			name => 'Jag Talon',
 			title => 'Open Source',
 			image => 'jag.png',
 		},{
