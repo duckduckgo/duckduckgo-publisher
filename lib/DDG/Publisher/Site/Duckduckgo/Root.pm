@@ -25,13 +25,17 @@ sub pages {{
 			title => 'Founder',
 			image => 'gabriel.png',
 		},{
-			name => 'Prakash Swaminathan',
-			title => 'Biz Dev',
-			image => 'prakash.png',
-		},{
 			name => 'Caine Tighe',
 			title => 'Core Components',
 			image => 'caine.png',
+		},{
+			name => 'Zac Pappis',
+			title => 'Community',
+			image => 'zac.png',
+		},{
+			name => 'Prakash Swaminathan',
+			title => 'Biz Dev',
+			image => 'prakash.png',
 		},{
 			name => 'Russell Holt',
 			title => 'Duck Duck Hack',
@@ -41,21 +45,17 @@ sub pages {{
 			title => 'Ops',
 			image => 'jaryd.png',
 		},{
-			name => 'Zac Pappis',
-			title => 'Community',
-			image => 'zac.png',
-		},{
 			name => 'Doug Brown',
 			title => 'Front-End',
 			image => 'doug.png',
-		},,{
-			name => 'Jag Talon',
-			title => 'Open Source',
-			image => 'jag.png',
 		},{
 			name => 'Chris Morast',
 			title => 'Design',
 			image => 'chris.png',
+		},{
+			name => 'Jag Talon',
+			title => 'Open Source',
+			image => 'jag.png',
 		}],
 	},
 	bang => sub {},

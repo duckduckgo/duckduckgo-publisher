@@ -35,7 +35,7 @@
 </div>
 <div class="abt  abt--alt  abt--team">
 	<div class="cw--c">
-		<h2 class="abt__title">Our Team</h2>
+		<h2 class="abt__title">Our Staff</h2>
 		<hr class="hr--abt" />
 		<ul class="team">
 			<: for $team_members -> $team { :>
@@ -46,6 +46,7 @@
 			</li>
 			<: } :>
 		</ul>
+		<h5 class="abt__sub">More of <a href="https://twitter.com/duckduckgo/team/members" target="ddg_team_twitter_list">our team</a>&hellip;</h5>
 	</div>
 </div>
 <div class="abt  abt--news">
