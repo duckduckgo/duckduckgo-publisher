@@ -56,6 +56,10 @@ sub pages {{
 			name => 'Jag Talon',
 			title => 'Open Source',
 			image => 'jag.png',
+		},{
+			name => 'Brian Stoner',
+			title => 'Front-End',
+			image => 'brian.png',
 		}],
 	},
 	bang => sub {},
