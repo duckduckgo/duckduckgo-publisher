@@ -39,10 +39,16 @@
 		<hr class="hr--abt" />
 		<ul class="team">
 			<: for $team_members -> $team { :>
-			<li class="team__m">
-				<img class="team__img" src="/assets/about/team/<: $team.image :>" />
+			<li class="team__m  js-team-toggle">
+				<noscript>
+					<img class="team__img" src="/assets/about/team/<: $team.image :>_pxl.png" />
+					<img class="team__img--alt" src="/assets/about/team/<: $team.image :>.png" />
+				</noscript>
+				<img class="team__img  js-lazyload  no-js__hide" src="" data-src="/assets/about/team/<: $team.image :>_pxl.png" />
+				<img class="team__img--alt  js-lazyload  no-js__hide" src="" data-src="/assets/about/team/<: $team.image :>.png" />
 				<span class="team__name"><: $team.name :></span>
 				<span class="team__title"><: $team.title :></span>
+				<span class="team__info"><: $team.info :></span>
 			</li>
 			<: } :>
 		</ul>
@@ -62,12 +68,30 @@
 <div class="abt  abt--alt  abt--news">
 	<h5 class="abt__title--sub">Or perhaps you heard about us in&hellip;</h5>
 	<ul class="abt--news__list">
-		<li><a href="http://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html"><img src="assets/about/logo_wapost-full.png" class="abt--news__img--wapost" alt="The Washington Post" /></a></li>
-		<li><a href="http://lifehacker.com/5912105/add-duckduckgos-smart-zero+click-info-results-to-google-searches-in-chrome"><img src="assets/about/logo_lifehacker-full.png" alt="lifehacker" class="abt--news__img--lhck"/></a></li>
-		<li><a href="http://www.pcmag.com/article2/0,2817,2397697,00.asp"><img src="assets/about/logo_pcmag-full.png" alt="PC Mag" class="abt--news__img--pc" /></a></li>
-		<li><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html"><img src="assets/about/logo_time-full.png" alt="TIME" class="abt--news__img--time" /></a></li>
-		<li><a href="http://searchengineland.com/could-duckduckgo-be-the-biggest-long-term-threat-to-google-118117"><img src="assets/about/logo_sel-full.png" class="abt--news__img--sel" alt="SearchEngineLand" /></a></li>
-		<li><a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3"><img src="assets/about/logo_nyt-full.png" alt="The New York Times" class="abt--news__img--nyt"/></a></li>
+		<li><a href="http://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html">
+			<noscript><img src="assets/about/logo_wapost-full.png" class="abt--news__img--wapost" alt="The Washington Post" /></noscript>
+			<img src="" data-src="assets/about/logo_wapost-full.png" class="abt--news__img--wapost  js-lazyload  no-js__hide" alt="The Washington Post" />
+		</a></li>
+		<li><a href="http://lifehacker.com/5912105/add-duckduckgos-smart-zero+click-info-results-to-google-searches-in-chrome">
+			<noscript><img src="assets/about/logo_lifehacker-full.png" alt="lifehacker" class="abt--news__img--lhck"/></noscript>
+			<img src="" data-src="assets/about/logo_lifehacker-full.png" alt="lifehacker" class="abt--news__img--lhck  js-lazyload  no-js__hide"/>
+		</a></li>
+		<li><a href="http://www.pcmag.com/article2/0,2817,2397697,00.asp">
+			<noscript><img src="assets/about/logo_pcmag-full.png" alt="PC Mag" class="abt--news__img--pc" /></noscript>
+			<img src="" data-src="assets/about/logo_pcmag-full.png" alt="PC Mag" class="abt--news__img--pc  js-lazyload  no-js__hide" />
+		</a></li>
+		<li><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html">
+			<noscript><img src="assets/about/logo_time-full.png" alt="TIME" class="abt--news__img--time" /></noscript>
+			<img src="" data-src="assets/about/logo_time-full.png" alt="TIME" class="abt--news__img--time  js-lazyload  no-js__hide" />
+		</a></li>
+		<li><a href="http://searchengineland.com/could-duckduckgo-be-the-biggest-long-term-threat-to-google-118117">
+			<noscript><img src="assets/about/logo_sel-full.png" class="abt--news__img--sel" alt="SearchEngineLand" /></noscript>
+			<img src="" data-src="assets/about/logo_sel-full.png" class="abt--news__img--sel  js-lazyload  no-js__hide" alt="SearchEngineLand" />
+		</a></li>
+		<li><a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3">
+			<noscript><img src="assets/about/logo_nyt-full.png" alt="The New York Times" class="abt--news__img--nyt"/></noscript>
+			<img src="" data-src="assets/about/logo_nyt-full.png" alt="The New York Times" class="abt--news__img--nyt  js-lazyload  no-js__hide"/>
+		</a></li>
 	</ul>
 </div>
 <div class="abt  abt--email">
