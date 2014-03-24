@@ -33,27 +33,27 @@ sub pages {{
 		},{
 			name => 'Zac Pappis',
 			title => 'Community',
-			info => 'Overdue Videos',
+			info => 'Lead Vocalist',
 			image => 'zac',
 		},{
 			name => 'Prakash Swaminathan',
 			title => 'Biz Dev',
-			info => 'Nice Guy',
+			info => 'Nice Fella',
 			image => 'prakash',
 		},{
 			name => 'Russell Holt',
 			title => 'Duck Duck Hack',
-			info => 'Apple Fan',
+			info => 'Geek Dad',
 			image => 'russell',
 		},{
 			name => 'Jaryd Malbin',
 			title => 'Ops',
-			info => 'Semi-Professional Gamer',
+			info => 'BOFH',
 			image => 'jaryd',
 		},{
 			name => 'Doug Brown',
 			title => 'Front-End',
-			info => 'Beverage Connoisseur',
+			info => 'Coffee Snob',
 			image => 'doug',
 		},{
 			name => 'Chris Morast',
@@ -63,7 +63,7 @@ sub pages {{
 		},{
 			name => 'Jag Talon',
 			title => 'Open Source',
-			info => 'should buy a car',
+			info => 'Internet Survival Expert',
 			image => 'jag',
 		},{
 			name => 'Brian Stoner',
