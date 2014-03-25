@@ -1,6 +1,6 @@
 <div class="splash  js-parallax">
 	<div class="js-scroll-fade">
-		<h1 class="splash--title">Imagine a Search Engine that offers <strong class="splash__rotate  js-rotate"><em class="splash__rotate__item  js-rotate-item active">real privacy</em> <em class="splash__rotate__item  js-rotate-item">smarter answers</em> <em class="splash__rotate__item  js-rotate-item">less clutter</em></strong></h1>
+		<h1 class="splash--title">Imagine a Search Engine that offers <strong class="splash__rotate  js-rotate"><em class="splash__rotate__item  js-rotate-item active">real privacy</em> <em class="splash__rotate__item  js-rotate-item">smarter search</em> <em class="splash__rotate__item  js-rotate-item">less clutter</em></strong></h1>
 		<hr class="hr--abt" />
 		<h3 class="splash--sub">That's the future of search.</h3>
 		<a href="#whats-new" class="btn--abt">What's New</a> <a href="#dax-video" class="js-load-src  btn--abt">Meet Dax</a>
@@ -15,20 +15,20 @@
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--privacy"></i>
 				<h3 class="abt__key__title">Real Privacy</h3>
-				<h6 class="abt__key__sub">We don't track or bubble you.</h6>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. </p>
+				<h6 class="abt__key__sub">We don't track you.</h6>
+				<p>From health questions to funny videos, your searches are a reflection of your personal life. That's why searching on DuckDuckGo is completely anonymous. Your searches can never be tied back to you so you stay anonymous and get fewer ads following you around the Internet! <a href="/privacy">Our Policy</a>.</p>
 			</div>
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--answers"></i>
-				<h3 class="abt__key__title">Smarter Answers</h3>
-				<h6 class="abt__key__sub">More answers, Instantly.</h6>
-				<p>Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.</p>
+				<h3 class="abt__key__title">Smarter Search</h3>
+				<h6 class="abt__key__sub">Get answers quicker.</h6>
+				<p>Our goal is to get you what you want with less clicks. We do that through &lt;instant answers&gt;, &lt;!bangs&gt; and &lt;keyboard shortcuts&gt;. The best part is you can help improve your search engine through the DuckDuckGo community. <a href="http://duckduckhack.com">Get Involved</a></p>
 			</div>
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--clutter"></i>
 				<h3 class="abt__key__title">Less Clutter</h3>
-				<h6 class="abt__key__sub">Keeping it simple.</h6>
-				<p>Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+				<h6 class="abt__key__sub">Fewer ads and reduced spam.</h6>
+				<p>Unlike other search engines, we only focus on search so our results are free of promotions for social networks and other irrelevant services. We're dedicated to a clutter-free design and we even let you change the look! <a href="/settings">Tweak Settings</a></p>
 			</div>
 		</div>
 	</div>
