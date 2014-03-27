@@ -7,7 +7,7 @@
 		<div id="learn_more_modal" class="modal grp_modal">
 			<i class="logo_modal"></i>
 			<h4 class="modal__title">More About DuckDuckGo?</h4>
-			<div>
+			<div class="modal__buttons">
 				<a target="about" href="/about" class="btn"><: l('About DDG'):></a>
 				<a target="about" href="https://duck.co" class="btn"><: l('DDG Community'):></a>
 			</div>
