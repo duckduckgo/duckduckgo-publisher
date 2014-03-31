@@ -36,11 +36,6 @@ sub pages {{
 			info => 'Lead Vocalist',
 			image => 'zac',
 		},{
-			name => 'Prakash Swaminathan',
-			title => 'Biz Dev',
-			info => 'Nice Fella',
-			image => 'prakash',
-		},{
 			name => 'Russell Holt',
 			title => 'Duck Duck Hack',
 			info => 'Geek Dad',
