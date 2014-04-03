@@ -1,12 +1,12 @@
+<!--
 		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage">About DuckDuckGo</div>
 		</a>
-
-<!--
-		<a id="logo_homepage_link" title="The Matrix (03/31/1999)" href="/?q=the+matrix">
-			<div id="logo_homepage">The Matrix (03/31/1999)</div>
-		</a>
 //-->
+
+		<a id="logo_homepage_link" title="2001: A Space Odyssey (04/02/1968)" href="/?q=2001+a+space+odyssey">
+			<div id="logo_homepage">A Space Odyssey (04/02/1968)</div>
+		</a>
 
 
 		<form name="x" method="POST" action="/html" id="search_form_homepage" onSubmit="return nbr()">
