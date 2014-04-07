@@ -9,10 +9,9 @@
 <link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="/opensearch_ssl.xml">
 
 <meta http-equiv="content-type" content="text/html; charset=UTF-8;charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimal-ui" />
 <meta name="HandheldFriendly" content="true"/>
 
-<meta name="apple-mobile-web-app-capable" content="yes" />
 <link rel="image_src" href="/assets/logo_homepage.normal.v101.png"/>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/assets/ddg-icon-256x160.png" type="image/png" sizes="256x160">
