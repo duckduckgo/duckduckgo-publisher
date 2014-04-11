@@ -1,7 +1,7 @@
 <!-- <: $f.locale :> <: l('All Settings') :> -->
 		
 <div id="tagline_homepage">
-<: lp('frontpage','The search engine that %s.',r('<a href="http://donttrack.us/">') ~ lp('frontpage',"doesn't track you") ~ r('</a>')) :>
+<: lp('frontpage','The search engine that %s.',r('<a href="http://donttrack.us/">') ~ lp('frontpage',"doesn't track you") ~ r('</a>')) :>.
 </div>
 		
 		<div id="error_homepage"></div>
