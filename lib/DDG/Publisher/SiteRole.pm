@@ -187,6 +187,15 @@ sub _build_template_engine {
 			#
 			r => sub { return mark_raw(join("",@_)) },
 			%xslate_locale_functions,
+			#
+			# Probably the most useful function in Text::Xslate::Bridge::Star
+			# but it's simple enough to not require a new dependency.
+			#
+			match => sub {
+				my ($str, $pattern) = @_;
+				$pattern = quotemeta($pattern);
+				return scalar($str =~ m/$pattern/);
+			},
 			find_template => sub {
 				my ($filename) = @_;
 				return $filename if eval { $self->template_engine->find_file($filename); 1 };
