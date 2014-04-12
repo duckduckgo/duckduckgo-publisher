@@ -1,7 +1,12 @@
 <!-- <: $f.locale :> <: l('All Settings') :> -->
 		
 <div id="tagline_homepage">
-<: lp('frontpage','The search engine that %s.',r('<a href="http://donttrack.us/">') ~ lp('frontpage',"doesn't track you") ~ r('</a>')) :>.
+<: # Line below is two tokens because one part was once a link. Left in place to retain translation work. :>
+<: my $tagline = lp('frontpage','The search engine that %s.', lp('frontpage',"doesn't track you")) :>
+
+<: # Since I made a mistake in tokenising the above text, this checks for a full stop in the tagline and
+   # inserts it in the page if it is not present. When replacing the tagline, you may (please) remove this. :>
+<: $tagline:><: if !(match($tagline, "\.")) { :>.<: } :>
 </div>
 		
 		<div id="error_homepage"></div>
