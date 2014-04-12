@@ -1,12 +1,11 @@
-<!--
 		<a id="logo_homepage_link" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage">About DuckDuckGo</div>
 		</a>
-//-->
-
+<!--
 		<a id="logo_homepage_link" title="Yuri's Night (04/12/1961)" href="/?q=Yuri's+Night">
 			<div id="logo_homepage">Yuri's Night (04/12/1961)</div>
 		</a>
+//-->
 
 		<form name="x" method="POST" action="/html" id="search_form_homepage" onSubmit="return nbr()">
 			<div id="search_wrapper_homepage">
