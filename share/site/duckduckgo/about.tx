@@ -1,6 +1,6 @@
 <div class="splash  js-parallax">
 	<div class="js-scroll-fade">
-		<h1 class="splash--title">Imagine a Search Engine that offers <strong class="splash__rotate  js-rotate"><em class="splash__rotate__item  js-rotate-item active">real privacy</em> <em class="splash__rotate__item  js-rotate-item">smarter search</em> <em class="splash__rotate__item  js-rotate-item">less clutter</em></strong></h1>
+		<h1 class="splash--title">Imagine a Search Engine that offers <strong class="splash__rotate  js-rotate"><em class="splash__rotate__item  js-rotate-item is-active">real privacy</em> <em class="splash__rotate__item  js-rotate-item">smarter search</em> <em class="splash__rotate__item  js-rotate-item">less clutter</em></strong></h1>
 		<hr class="hr--abt" />
 		<h3 class="splash--sub">That's the future of search.</h3>
 		<a href="#whats-new" class="btn--abt">What's New</a> <a href="#dax-video" class="js-load-src  btn--abt">Meet Dax</a>
