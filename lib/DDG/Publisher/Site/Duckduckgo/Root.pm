@@ -66,6 +66,72 @@ sub pages {{
 			info => 'Person',
 			image => 'brian',
 		}],
+		ddg_events => [{
+			date => 'February 29, 2008',
+			title => 'Incorporation',
+			snippet => 'Officially became a company on a leap day!',
+			type => 'internal',
+		},{
+			date => 'September 25, 2008',
+			title => 'Launch',
+			snippet => 'Soft-launch on Hacker News.',
+			type => 'news',
+		},{
+			date => 'January 11, 2011',
+			title => 'Billboard',
+			snippet => 'Billboard in San Francisco saying "Google tracks you. We don\'t."',
+			type => 'news',
+		},{
+			date => 'October 13, 2011',
+			title => 'Funding',
+			snippet => 'Funding from Union Square Ventures (backers of Twitter, Tumblr, Foursquare, Kickstarter, etc.).',
+			type => 'news',
+		},{
+			date => 'November 30, 2011',
+			title => 'Employee #1',
+			snippet => 'Hired Caine Tighe as employee #1.',
+			type => 'internal',
+		},{
+			date => 'February 13, 2012',
+			title => '1,000,000',
+			snippet => 'Over 1,000,000 direct searches/day.',
+			type => 'traffic',
+		},{
+			date => 'May 1, 2012',
+			title => 'DuckDuckHack',
+			snippet => 'Launch of our open-source Instant Answer platform.',
+			type => 'news',
+		},{
+			date => 'June 10, 2013',
+			title => '2,000,000',
+			snippet => 'Over 2,000,000 direct searches/day.',
+			type => 'traffic',
+		},{
+			date => 'June 17, 2013',
+			title => '3,000,000',
+			snippet => 'Over 3,000,000 direct searches/day.',
+			type => 'traffic',
+		},{
+			date => 'June 27, 2013',
+			title => 'Search & Stories',
+			snippet => 'Launch of our refreshed mobile apps.',
+			type => 'news',
+		},{
+			date => 'August 19, 2013',
+			title => '4,000,000',
+			snippet => 'Over 4,000,000 direct searches/day.',
+			type => 'traffic',
+		},{
+			date => 'February 26, 2014',
+			title => '5,000,000',
+			snippet => 'Over 5,000,000 direct searches/day.',
+			type => 'traffic',
+		},{
+			date => 'March 17, 2014',
+			title => 'Employee #10',
+			snippet => 'Hired Brian Stoner as employee #10.',
+			type => 'internal',
+		}],
 	},
 	bang => sub {},
 	goodies => sub {

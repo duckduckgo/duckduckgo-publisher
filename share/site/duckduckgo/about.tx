@@ -1,12 +1,13 @@
-<div class="splash  js-parallax">
-	<div class="js-scroll-fade">
-		<h1 class="splash--title">Imagine a Search Engine that offers <strong class="splash__rotate  js-rotate"><em class="splash__rotate__item  js-rotate-item is-active">real privacy</em> <em class="splash__rotate__item  js-rotate-item">smarter search</em> <em class="splash__rotate__item  js-rotate-item">less clutter</em></strong></h1>
-		<hr class="hr--abt" />
-		<h3 class="splash--sub">That's the future of search.</h3>
-		<a href="#whats-new" class="btn--abt">What's New</a> <a href="#dax-video" class="js-load-src  btn--abt">Meet Dax</a>
+<div class="abt  abt--hero">
+	<div class="cw--c">
+		<div class="ddg-logo--hero"></div>
+		<h1 class="abt__title--hero">Our Vision is Simple.</h1>
+		<p class="abt__sub--hero">Get great results and real privacy at the same time.  Great results means getting people the information they want faster and with less mental effort.</p>
 	</div>
+	
+	<div class="abt__timeline"></div>
 </div>
-<div class="abt  abt--keys  abt--top">
+<div class="abt  abt--alt  abt--keys">
 	<div class="cw--c">
 		<h2 class="abt__title">About Us</h2>
 		<hr class="hr--abt" />
@@ -33,7 +34,7 @@
 		</div>
 	</div>
 </div>
-<div class="abt  abt--alt  abt--team">
+<div class="abt  abt--team">
 	<div class="cw--c">
 		<h2 class="abt__title">Our Staff</h2>
 		<hr class="hr--abt" />
@@ -55,18 +56,8 @@
 		<h5 class="abt__sub">More of <a href="https://twitter.com/duckduckgo/team/members" target="ddg_team_twitter_list">our team</a>&hellip;</h5>
 	</div>
 </div>
-<div class="abt  abt--news">
-	<div class="cw--c">
-		<h2 class="abt__title">In The News</h2>
-		<hr class="hr--abt" />
-		<div class="abt__app">
-			<h4 class="abt__app__pri">DuckDuckGo <em>Search &amp; Stories</em></h4>
-			<h4 class="abt__app__sec">Time Magazine's <em>Top 50 Apps of 2013</em></h4>
-		</div>
-	</div>
-</div>
 <div class="abt  abt--alt  abt--news">
-	<h5 class="abt__title--sub">Or perhaps you heard about us in&hellip;</h5>
+	<h2 class="abt__title">In The News</h2>
 	<ul class="abt--news__list">
 		<li><a href="http://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html">
 			<noscript><img src="assets/about/logo_wapost-full.png" class="abt--news__img--wapost" alt="The Washington Post" /></noscript>
@@ -93,6 +84,15 @@
 			<img src="" data-src="assets/about/logo_nyt-full.png" alt="The New York Times" class="abt--news__img--nyt  js-lazyload  no-js__hide"/>
 		</a></li>
 	</ul>
+</div>
+<div class="abt  abt--alt  abt--news">
+	<div class="cw--c">
+		<hr class="hr--abt" />
+		<div class="abt__app">
+			<h4 class="abt__app__pri">DuckDuckGo <em>Search &amp; Stories</em></h4>
+			<h4 class="abt__app__sec">Time Magazine's <em>Top 50 Apps of 2013</em></h4>
+		</div>
+	</div>
 </div>
 <div class="abt  abt--email">
 	<div class="cw--c">
@@ -172,12 +172,5 @@
 				<iframe src="https://duckduckgo.com/about-video.html" class="popover__box__video" width="640" height="360"></iframe>
 			</noscript>
 		</div>
-	</div>
-</div>
-<div id="whats-new" class="popover">
-	<a href="#_" class="popover__esc"></a>
-	<div class="popover__box">
-		<h1 style="margin-top:60px;">What's New?  Lots of Stuff!</h1>
-		<h4>More details forthcoming...</h4>
 	</div>
 </div>
