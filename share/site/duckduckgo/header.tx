@@ -9,7 +9,7 @@
 					<div id="search_elements_hidden" class="search__hidden"></div>
 					<input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" class="search__input  js-search-input" placeholder="<: l('Search DuckDuckGo'):>" />
 					<input id="search_button" class="search__button" type="submit" tabindex="2" value="S" />
-					<input id="search_form_input_clear" class="search__clear  empty" type="button" tabindex="3" value="X" onclick="DDG.clear_button()"/>
+					<input id="search_form_input_clear" class="search__clear  empty" type="button" tabindex="3" value="X" />
 					<a id="search_dropdown" class="search__dropdown" href="javascript:;" tabindex="4" onclick="bang_toggle();"></a>	
 				</form>
 			</div>			
