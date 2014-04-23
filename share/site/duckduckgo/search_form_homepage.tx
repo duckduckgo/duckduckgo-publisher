@@ -1,7 +1,7 @@
-		<form id="search_form_homepage" class="search  search--home  js-search-init" name="x" method="POST" action="/html" onSubmit="return nbr()">			
+		<form id="search_form_homepage" class="search  search--home  js-search-init" name="x" method="POST" action="/html">			
 			<input id="search_form_input_homepage" class="search__input  js-search-input" type="text" autocomplete="off" name="q" autofocus tabindex="1" onclick="if (is_mobile) DDG.toggle('footer_homepage');" onblur="if (is_mobile) DDG.toggle('footer_homepage',1)" value="">
 			<input id="search_button_homepage" class="search__button" type="submit" tabindex="2" value="S" />
-			<input id="search_form_input_clear" class="search__clear  empty" type="button" tabindex="3" value="X" onclick="DDG.clear_button()"/>
+			<input id="search_form_input_clear" class="search__clear  empty" type="button" tabindex="3" value="X" />
 			<a id="search_dropdown_homepage" class="search__dropdown" tabindex="-1" href="javascript:;" onClick="nbc(1);"></a>
 			<select id="bang" class="hide" size="2" onChange="if (ip) nbb(this);" onClick="if (!ip) nbb(this);" onBlur="nbc(1)"></select>
 			<div id="search_elements_hidden" class="search__hidden">
