@@ -2,9 +2,9 @@
 <!--[if IEMobile 7 ]> <html lang="<: $f.locale :>" class="no-js iem7"> <![endif]-->
 <!--[if lt IE 7]> <html class="ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7 no-js" lang="<: $f.locale :>"> <![endif]-->
 <!--[if IE 7]>    <html class="ie7 lt-ie10 lt-ie9 lt-ie8 no-js" lang="<: $f.locale :>"> <![endif]-->
-<!--[if IE 8]>    <html class="ie8 lt-ie10 lt-ie9 no-js<: if !$homepage && !$no_wrapper && !$no_header{ :> set-header--fixed <:}:><: if $has_zcm {:> has-zcm <:}:>" lang="<: $f.locale :>"> <![endif]-->
-<!--[if IE 9]>    <html class="ie9 lt-ie10 no-js<: if !$homepage && !$no_wrapper && !$no_header{ :> set-header--fixed <:}:><: if $has_zcm {:> has-zcm <:}:>" lang="<: $f.locale :>"> <![endif]-->
-<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js <: if !$homepage && !$no_wrapper && !$no_header{ :> set-header--fixed <:}:><: if $has_zcm {:> has-zcm <:}:>" lang="<: $f.locale :>"><!--<![endif]-->
+<!--[if IE 8]>    <html class="ie8 lt-ie10 lt-ie9 no-js<: if !$homepage && !$no_wrapper && !$no_header && !$alt_header { :> set-header--fixed <:}:>" lang="<: $f.locale :>"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9 lt-ie10 no-js<: if !$homepage && !$no_wrapper && !$no_header && !$alt_header { :> set-header--fixed <:}:>" lang="<: $f.locale :>"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js <: if !$homepage && !$no_wrapper && !$no_header && !$alt_header { :> set-header--fixed <:}:>" lang="<: $f.locale :>"><!--<![endif]-->
 
   <head>
     <: include "head.tx" :>
@@ -16,7 +16,7 @@
 	<: } :>    
 	<: if !$no_wrapper { :> 
 	  <: if !$no_header { include "header.tx" } :>
-	  <div id="content_wrapper" class="<: if !$goodies { :>content-wrap<: } :>">	  
+	  <div id="content_wrapper" class="<: if !$goodies { :>content-wrap<: } :>">
 	  <: if !$no_content_internal { :>
 		<div id="content" class="content<: if !$no_cw { :>  cw<: } :>">
 			<div id="content_internal" class="content__internal">

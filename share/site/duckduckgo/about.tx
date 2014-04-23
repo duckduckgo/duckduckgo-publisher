@@ -1,42 +1,69 @@
-<div class="splash  js-parallax">
-	<div class="js-scroll-fade">
-		<h1 class="splash--title">Imagine a Search Engine that offers <strong class="splash__rotate  js-rotate"><em class="splash__rotate__item  js-rotate-item is-active">real privacy</em> <em class="splash__rotate__item  js-rotate-item">smarter search</em> <em class="splash__rotate__item  js-rotate-item">less clutter</em></strong></h1>
-		<hr class="hr--abt" />
-		<h3 class="splash--sub">That's the future of search.</h3>
-		<a href="#whats-new" class="btn--abt">What's New</a> <a href="#dax-video" class="js-load-src  btn--abt">Meet Dax</a>
+<div class="abt  abt--hero  js-event-slider">
+	<div class="logo--dax  ddg-logo--hero"></div>
+	<div class="event-pane-wrap">
+		<div class="event-pane  js-slider">
+			<span class="abt-nav  abt-nav--event  abt-nav--prev  js-event-prev"></span>
+			<span class="abt-nav  abt-nav--event  abt-nav--next  js-event-next"></span>
+			<div class="event  event--first  js-event" data-text="START" data-date="January 1, 2008">
+				<h1 class="abt__title--hero">Our Vision is Simple.</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">To give you great search results without tracking you.</h5>
+				</div>
+			</div>
+			<: for $ddg_events -> $event { :>
+			<div class="event  js-event  event--<: $event.type :>" data-type="<: $event.type :>" data-date="<: $event.date :>">
+				<h1 class="abt__title--hero"><: $event.title :></h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero"><: $event.snippet :></h5>
+				</div>
+			</div>
+			<: } :>
+		</div>
+		<div class="event-types">
+			<span class="circle  event-types__icon  event-type--news  js-event-filter" title="News" data-type="news"></span>
+			<span class="circle  event-types__icon  event-type--traffic  js-event-filter" title="Traffic" data-type="traffic"></span>
+			<span class="circle  event-types__icon  event-type--company  js-event-filter" title="Company" data-type="internal"></span>
+		</div>
 	</div>
+	<div class="abt__timeline  event-timeline-wrap">
+		<div class="event-timeline  js-timeline"></div>
+	</div>
+	<div class="event-date  js-date-text"></div>
 </div>
-<div class="abt  abt--keys  abt--top">
+<div class="abt  abt--alt  abt--keys">
 	<div class="cw--c">
 		<h2 class="abt__title">About Us</h2>
 		<hr class="hr--abt" />
-		<h5 class="abt__sub">We strive to make the internet a better place.</h5>
 		<div class="abt__row">
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--privacy"></i>
 				<h3 class="abt__key__title">Real Privacy</h3>
 				<h6 class="abt__key__sub">We don't track you.</h6>
-				<p>From health questions to funny videos, searches are a reflection of your personal life. That's why searching on DuckDuckGo is completely anonymous. <br/><a href="/privacy">Our Policy</a>.</p>
+				<p>From health questions to funny videos, searches are a reflection of your personal life. That's why searching on DuckDuckGo is completely anonymous.</p>
+				<a class="btn--abt  btn--abt--key" href="/privacy">Our Policy</a>
 			</div>
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--answers"></i>
 				<h3 class="abt__key__title">Smarter Search</h3>
 				<h6 class="abt__key__sub">Get answers quicker.</h6>
-				<p>We want to help you find things in fewer clicks. We do that through instant answers, !bangs, and keyboard shortcuts. You can even help us improve, through our community! <br/><a href="http://duckduckhack.com">Get Involved</a></p>
+				<p>We want to help you find things in fewer clicks. We do that through instant answers, !bangs, and keyboard shortcuts. You can even help us improve, through our community!</p>
+				<a class="btn--abt  btn--abt--key" href="http://duckduckhack.com">Get Involved</a>
 			</div>
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--clutter"></i>
 				<h3 class="abt__key__title">Less Clutter</h3>
 				<h6 class="abt__key__sub">Fewer ads and reduced spam.</h6>
-				<p>Our only focus is search. That means that our results are free of promotoions for useless things like social networks.  Our design is clutter-free but you can change it if you'd like! <br/><a href="/settings">Tweak Settings</a></p>
+				<p>Our only focus is search. That means that our results are free of promotoions for useless things like social networks.  Our design is clutter-free but you can change it if you'd like!</p>
+				<a class="btn--abt  btn--abt--key" href="/settings">Tweak Settings</a>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="abt  abt--alt  abt--team">
+<div class="abt  abt--team">
 	<div class="cw--c">
-		<h2 class="abt__title">Our Staff</h2>
+		<h2 class="abt__title">Our Team</h2>
 		<hr class="hr--abt" />
+		<h5 class="abt__sub">Meet the DDG core, or get aquainted with the extended team <a href="https://twitter.com/duckduckgo/team/members" target="ddg_team_twitter_list">here</a>.</h5>
 		<ul class="team">
 			<: for $team_members -> $team { :>
 			<li class="team__m  js-team-toggle">
@@ -52,47 +79,77 @@
 			</li>
 			<: } :>
 		</ul>
-		<h5 class="abt__sub">More of <a href="https://twitter.com/duckduckgo/team/members" target="ddg_team_twitter_list">our team</a>&hellip;</h5>
 	</div>
 </div>
-<div class="abt  abt--news">
+<div class="abt  abt--hero  abt--comm">
 	<div class="cw--c">
-		<h2 class="abt__title">In The News</h2>
+		<h2 class="abt__title">Our Community</h2>
 		<hr class="hr--abt" />
-		<div class="abt__app">
-			<h4 class="abt__app__pri">DuckDuckGo <em>Search &amp; Stories</em></h4>
-			<h4 class="abt__app__sec">Time Magazine's <em>Top 50 Apps of 2013</em></h4>
+		<h5 class="abt__sub">Join the community and help us improve DuckDuckGo.</h5>
+		<div class="abt__row">
+			<div class="abt__key  third">
+				<i class="abt__key__icon--comm  abt__key__icon--improve"></i>
+				<a href="https://duck.co"><h3 class="abt__key__title">Improve</h3></a>
+				<h6 class="abt__key__sub">Help make DuckDuckGo even better! </h6>
+				<p> DuckDuckGo is a community-oriented search engine. You can create instant answers for DuckDuckGo or translate our pages into the languages you know.</p>
+			</div>
+			<div class="abt__key  third">
+				<i class="abt__key__icon--comm  abt__key__icon--discuss"></i>
+				<a href="https://duck.co/forum"><h3 class="abt__key__title">Discuss</h3></a>
+				<h6 class="abt__key__sub">Voice your thoughts!</h6>
+				<p>Our forums are a place for to chat about all things DuckDuckGo. Ask questions, give feedback, and engage other users in our community.</p>
+			</div>
+			<div class="abt__key  third">
+				<i class="abt__key__icon--comm  abt__key__icon--spread"></i>
+				<a href="/spread"><h3 class="abt__key__title">Spread</h3></a>
+				<h6 class="abt__key__sub">Give the gift of DuckDuckGo!</h6>
+				<p>Everyone could use a bit more privacy. Join other DuckDuckGo fans in spreading our search engine to new users. </p>
+			</div>
 		</div>
 	</div>
 </div>
-<div class="abt  abt--alt  abt--news">
-	<h5 class="abt__title--sub">Or perhaps you heard about us in&hellip;</h5>
-	<ul class="abt--news__list">
-		<li><a href="http://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html">
-			<noscript><img src="assets/about/logo_wapost-full.png" class="abt--news__img--wapost" alt="The Washington Post" /></noscript>
-			<img src="" data-src="assets/about/logo_wapost-full.png" class="abt--news__img--wapost  js-lazyload  no-js__hide" alt="The Washington Post" />
-		</a></li>
-		<li><a href="http://lifehacker.com/5912105/add-duckduckgos-smart-zero+click-info-results-to-google-searches-in-chrome">
-			<noscript><img src="assets/about/logo_lifehacker-full.png" alt="lifehacker" class="abt--news__img--lhck"/></noscript>
-			<img src="" data-src="assets/about/logo_lifehacker-full.png" alt="lifehacker" class="abt--news__img--lhck  js-lazyload  no-js__hide"/>
-		</a></li>
-		<li><a href="http://www.pcmag.com/article2/0,2817,2397697,00.asp">
-			<noscript><img src="assets/about/logo_pcmag-full.png" alt="PC Mag" class="abt--news__img--pc" /></noscript>
-			<img src="" data-src="assets/about/logo_pcmag-full.png" alt="PC Mag" class="abt--news__img--pc  js-lazyload  no-js__hide" />
-		</a></li>
-		<li><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html">
-			<noscript><img src="assets/about/logo_time-full.png" alt="TIME" class="abt--news__img--time" /></noscript>
-			<img src="" data-src="assets/about/logo_time-full.png" alt="TIME" class="abt--news__img--time  js-lazyload  no-js__hide" />
-		</a></li>
-		<li><a href="http://searchengineland.com/could-duckduckgo-be-the-biggest-long-term-threat-to-google-118117">
-			<noscript><img src="assets/about/logo_sel-full.png" class="abt--news__img--sel" alt="SearchEngineLand" /></noscript>
-			<img src="" data-src="assets/about/logo_sel-full.png" class="abt--news__img--sel  js-lazyload  no-js__hide" alt="SearchEngineLand" />
-		</a></li>
-		<li><a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3">
-			<noscript><img src="assets/about/logo_nyt-full.png" alt="The New York Times" class="abt--news__img--nyt"/></noscript>
-			<img src="" data-src="assets/about/logo_nyt-full.png" alt="The New York Times" class="abt--news__img--nyt  js-lazyload  no-js__hide"/>
-		</a></li>
-	</ul>
+<div class="abt  abt--alt  abt--news  js-news-slider">
+	<h2 class="abt__title">In The News</h2>
+	<div class="cw--c">
+		<ul class="abt--news__list">
+			<li class="abt--news__list__item  js-news-source" data-source="time"><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html" target="_time">
+				<noscript><img src="assets/about/news/logo_time.png" alt="TIME" class="abt--news__img--time" /></noscript>
+				<img src="" data-src="assets/about/news/logo_time@2x.png" alt="TIME" class="abt--news__img--time  js-lazyload  no-js__hide" />
+			</a></li>
+			<: for $news_articles -> $news { :>
+			<li class="abt--news__list__item  js-news-source" data-source="<: $news.source :>"><a href="<: $news.source_link :>" target="_<: $news.source :>">
+				<noscript><img src="assets/about/news/ogo_<: $news.source :>.png" class="abt--news__img--<: $news.source :>" alt="<: $news.source_full :>" /></noscript>
+				<img src="" data-src="assets/about/news/logo_<: $news.source :>@2x.png" class="abt--news__img--<: $news.source :>  js-lazyload  no-js__hide" alt="<: $news.source_full :>" />
+			</a></li>
+			<: } :>
+		</ul>
+		<div class="abt--news__item-wrap">
+			<div class="abt--news__item  abt--news__item--first  abt__app  js-news-item" data-source="time">
+				<h4 class="abt__app__pri">DuckDuckGo <em>Search &amp; Stories</em></h4>
+				<h4 class="abt__app__sec">Time Magazine's <em>Top 50 Apps of 2013</em></h4>
+			</div>
+			<: for $news_articles -> $news { :>
+			<div class="abt--news__item  js-news-item" data-source="<: $news.source :>">
+				<div class="abt-news  abt-news--<: $news.source :>">
+					<div class="abt-news__meta">
+						<noscript><img src="assets/about/news/<: $news.author_img :>.png" alt="" class="abt-news__meta__img" /></noscript>
+						<img src="" data-src="assets/about/news/<: $news.author_img :>.png" alt="" class="abt-news__meta__img  js-lazyload  no-js__hide" />
+						<div class="abt-news__meta__body">
+							<span class="abt-news__author">by <: $news.author_name :></span>
+							<span class="abt-news__source"><: $news.source_full :></span>
+							<span class="abt-news__date"><: $news.date :></span>
+						</div>
+					</div>
+					<h2 class="abt-news__title"><: $news.headline :></h2>
+					<p class="abt-news__snippet"><: $news.snippet :></p>
+					<a href="<: $news.source_link :>" class="abt-news__link"><: lp('newslink', 'Full Story') :></a>
+				</div>
+			</div>
+			<: } :>
+		</div>
+	</div>
+	<span class="abt-nav  abt-nav--prev  js-news-prev"></span>
+	<span class="abt-nav  abt-nav--next  js-news-next"></span>
 </div>
 <div class="abt  abt--email">
 	<div class="cw--c">
@@ -110,47 +167,40 @@
 	<div class="cw--c">
 		<div class="third">
 			<div class="nav-col">
-				<h5 class="abt--nav__heading">Things you can do:</h5>
+				<h5 class="abt--nav__heading">Get Involved:</h5>
 				<ul>
-					<li><a href="https://duck.co/translate">Translate DuckDuckGo</a></li>
+					<li><a href="https://github.com/duckduckgo/duckduckgo/wiki" target="_blank">Develop Instant Answers</a></li>
+					<li><a href="https://duck.co/translate">Translate our pages</a></li>
 					<li><a href="http://duck.co/">Join our Forums</a></li>
-					<li><a href="https://duck.co/blog">Browse our Blog</a></li>
-					<li><a href="https://duck.co/blog/using-pidgin-with-xmpp-jabber">Chat via XMPP/Jabber</a></li>
-					<li><a href="https://github.com/duckduckgo/community-platform" target="_blank">Develop our platform</a></li>
-					<li><a href="https://github.com/duckduckgo/duckduckgo/wiki" target="_blank">Develop instant answers</a></li>
-					<li><a href="https://duckduckgo.com/spread" target="_blank">Spread DuckDuckGo!</a></li>
+					<li><a href="https://duckduckgo.com/spread" target="_blank">Spread DuckDuckGo</a></li>
 					<li><a href="https://duckduckgo.com/feedback" target="_blank">Submit feedback</a></li>
-					<li><a href="https://duck.co/roboduck">Talk with RoboDuck</a></li>
+					<li><a href="https://duck-duck-go.myshopify.com" target="shopify">Get Swag</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="third">
 			<div class="nav-col">
-				<h5 class="abt--nav__heading">DuckDuckGo Sites:</h5>
+				<h5 class="abt--nav__heading">Follow Us:</h5>
 				<ul>
-					<li><a href="https://duckduckgo.com/" target="_blank">Homepage</a></li>
-					<li><a href="http://donttrack.us/" target="_blank">DontTrack.us</a></li>
-					<li><a href="http://dontbubble.us/" target="_blank">DontBubble.us</a></li>
-					<li><a href="https://duck.co/help/en_US">Help</a></li>
-					<li><a href="https://duck.co/">Forum</a></li>
-					<li><a href="http://cafepress.com/duckduckgo" target="_blank">Store</a></li>
-					<li><a href="http://www.stickermule.com/duckduckgo" target="_blank">Sticker Store</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="third">
-			<div class="nav-col">
-				<h5 class="abt--nav__heading">DuckDuckGo Social:</h5>
-				<ul>
+					<li><a href="https://duck.co/blog">Blog</a></li>
 					<li><a href="https://twitter.com/duckduckgo" target="_blank">Twitter</a> <a href="https://twitter.com/duckduckgo/team/members" target="_blank">(Team)</a></li>
 					<li><a href="https://facebook.com/duckduckgo" target="_blank">Facebook</a></li>
-					<li><a href="http://www.reddit.com/r/duckduckgo" target="_blank">/r/duckduckgo</a></li>
-					<li><a href="https://identi.ca/duckduckgo" target="_blank">identi.ca</a></li>
-					<li><a href="https://joindiaspora.com/u/duckduckgo" target="_blank">diaspora</a></li>
-					<li><a href="http://webchat.freenode.net/?channels=duckduckgo" target="_blank">IRC Channel</a></li>
+					<li><a href="http://www.reddit.com/r/duckduckgo" target="_blank">Reddit</a></li>
+					<li><a href="http://webchat.freenode.net/?channels=duckduckgo" target="_blank">IRC</a></li>
 					<li><a href="https://github.com/duckduckgo" target="_blank">GitHub</a></li>
-					<li><a href="http://duckpan.org/" target="_blank">DuckPAN</a></li>
 				</ul>
+			</div>
+		</div>
+		<div class="third">
+			<div class="nav-col">
+				<h5 class="abt--nav__heading">Learn More:</h5>
+				<ul>
+					<li><a href="https://duck.co/help/en_US">Help pages</a></li>
+					<li><a href="https://duck.co/help/company/hiring">Hiring</a></li>
+					<li><a href="http://donttrack.us/" target="_blank">DontTrack.us</a></li>
+					<li><a href="http://dontbubble.us/" target="_blank">DontBubble.us</a></li>
+					<li><a href="http://fixtracking.com/" target="_blank">FixTracking.com</a></li>
+					<li><a href="https://duck.co/blog/using-pidgin-with-xmpp-jabber">XMPP</a></li>
 			</div>
 		</div>
 	</div>
@@ -172,12 +222,5 @@
 				<iframe src="https://duckduckgo.com/about-video.html" class="popover__box__video" width="640" height="360"></iframe>
 			</noscript>
 		</div>
-	</div>
-</div>
-<div id="whats-new" class="popover">
-	<a href="#_" class="popover__esc"></a>
-	<div class="popover__box">
-		<h1 style="margin-top:60px;">What's New?  Lots of Stuff!</h1>
-		<h4>More details forthcoming...</h4>
 	</div>
 </div>
