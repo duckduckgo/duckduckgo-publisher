@@ -2,12 +2,12 @@
 	<div class="logo--dax  ddg-logo--hero"></div>
 	<div class="event-pane-wrap">
 		<div class="event-pane  js-slider">
-			<span class="event-nav  event-nav--prev  js-event-prev"></span>
-			<span class="event-nav  event-nav--next  js-event-next"></span>
+			<span class="abt-nav  abt-nav--event  abt-nav--prev  js-event-prev"></span>
+			<span class="abt-nav  abt-nav--event  abt-nav--next  js-event-next"></span>
 			<div class="event  event--first  js-event" data-text="START" data-date="January 1, 2008">
 				<h1 class="abt__title--hero">Our Vision is Simple.</h1>
 				<div class="abt--hero__text">
-					<h5 class="abt__sub--hero">Get great results and real privacy at the same time.  Great results means getting people the information they want faster and with less mental effort.</h5>
+					<h5 class="abt__sub--hero">To give you great search results without tracking you.</h5>
 				</div>
 			</div>
 			<: for $ddg_events -> $event { :>
@@ -34,7 +34,6 @@
 	<div class="cw--c">
 		<h2 class="abt__title">About Us</h2>
 		<hr class="hr--abt" />
-		<h5 class="abt__sub">We strive to make the internet a better place.</h5>
 		<div class="abt__row">
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--privacy"></i>
@@ -106,40 +105,48 @@
 		</div>
 	</div>
 </div>
-<div class="abt  abt--alt  abt--news">
+<div class="abt  abt--alt  abt--news  js-news-slider">
 	<h2 class="abt__title">In The News</h2>
-	<ul class="abt--news__list">
-		<li><a href="http://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html">
-			<noscript><img src="assets/about/logo_wapost-full.png" class="abt--news__img--wapost" alt="The Washington Post" /></noscript>
-			<img src="" data-src="assets/about/logo_wapost-full.png" class="abt--news__img--wapost  js-lazyload  no-js__hide" alt="The Washington Post" />
-		</a></li>
-		<li><a href="http://lifehacker.com/5912105/add-duckduckgos-smart-zero+click-info-results-to-google-searches-in-chrome">
-			<noscript><img src="assets/about/logo_lifehacker-full.png" alt="lifehacker" class="abt--news__img--lhck"/></noscript>
-			<img src="" data-src="assets/about/logo_lifehacker-full.png" alt="lifehacker" class="abt--news__img--lhck  js-lazyload  no-js__hide"/>
-		</a></li>
-		<li><a href="http://www.pcmag.com/article2/0,2817,2397697,00.asp">
-			<noscript><img src="assets/about/logo_pcmag-full.png" alt="PC Mag" class="abt--news__img--pc" /></noscript>
-			<img src="" data-src="assets/about/logo_pcmag-full.png" alt="PC Mag" class="abt--news__img--pc  js-lazyload  no-js__hide" />
-		</a></li>
-		<li><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html">
-			<noscript><img src="assets/about/logo_time-full.png" alt="TIME" class="abt--news__img--time" /></noscript>
-			<img src="" data-src="assets/about/logo_time-full.png" alt="TIME" class="abt--news__img--time  js-lazyload  no-js__hide" />
-		</a></li>
-		<li><a href="http://searchengineland.com/could-duckduckgo-be-the-biggest-long-term-threat-to-google-118117">
-			<noscript><img src="assets/about/logo_sel-full.png" class="abt--news__img--sel" alt="SearchEngineLand" /></noscript>
-			<img src="" data-src="assets/about/logo_sel-full.png" class="abt--news__img--sel  js-lazyload  no-js__hide" alt="SearchEngineLand" />
-		</a></li>
-		<li><a href="http://www.nytimes.com/2012/05/03/technology/personaltech/how-to-muddy-your-tracks-on-the-internet.html?_r=3">
-			<noscript><img src="assets/about/logo_nyt-full.png" alt="The New York Times" class="abt--news__img--nyt"/></noscript>
-			<img src="" data-src="assets/about/logo_nyt-full.png" alt="The New York Times" class="abt--news__img--nyt  js-lazyload  no-js__hide"/>
-		</a></li>
-	</ul>
 	<div class="cw--c">
-		<div class="abt__app">
-			<h4 class="abt__app__pri">DuckDuckGo <em>Search &amp; Stories</em></h4>
-			<h4 class="abt__app__sec">Time Magazine's <em>Top 50 Apps of 2013</em></h4>
+		<ul class="abt--news__list">
+			<: for $news_articles -> $news { :>
+			<li class="abt--news__list__item  js-news-source" data-source="<: $news.source :>"><a href="<: $news.source_link :>" target="_<: $news.source :>">
+				<noscript><img src="assets/about/news/ogo_<: $news.source :>.png" class="abt--news__img--<: $news.source :>" alt="<: $news.source_full :>" /></noscript>
+				<img src="" data-src="assets/about/news/logo_<: $news.source :>@2x.png" class="abt--news__img--<: $news.source :>  js-lazyload  no-js__hide" alt="<: $news.source_full :>" />
+			</a></li>
+			<: } :>
+			<li class="abt--news__list__item  js-news-source" data-source="time"><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html" target="_time">
+				<noscript><img src="assets/about/news/logo_time.png" alt="TIME" class="abt--news__img--time" /></noscript>
+				<img src="" data-src="assets/about/news/logo_time@2x.png" alt="TIME" class="abt--news__img--time  js-lazyload  no-js__hide" />
+			</a></li>
+		</ul>
+		<div class="abt--news__item-wrap">
+			<div class="abt--news__item  abt--news__item--first  abt__app  js-news-item" data-source="time">
+				<h4 class="abt__app__pri">DuckDuckGo <em>Search &amp; Stories</em></h4>
+				<h4 class="abt__app__sec">Time Magazine's <em>Top 50 Apps of 2013</em></h4>
+			</div>
+			<: for $news_articles -> $news { :>
+			<div class="abt--news__item  js-news-item" data-source="<: $news.source :>">
+				<div class="abt-news">
+					<div class="abt-news__meta">
+						<noscript><img src="assets/about/news/<: $news.author_img :>.png" alt="" class="abt-news__meta__img" /></noscript>
+						<img src="" data-src="assets/about/news/<: $news.author_img :>.png" alt="" class="abt-news__meta__img  js-lazyload  no-js__hide" />
+						<div class="abt-news__meta__body">
+							<span class="abt-news__author">by <: $news.author_name :></span>
+							<span class="abt-news__source"><: $news.source_full :></span>
+							<span class="abt-news__date"><: $news.date :></span>
+						</div>
+					</div>
+					<h2 class="abt-news__title"><: $news.headline :></h2>
+					<p class="abt-news__snippet"><: $news.snippet :></p>
+					<a href="<: $news.source_link :>" class="abt-news__link"><: lp('newslink', 'Full Story') :></a>
+				</div>
+			</div>
+			<: } :>
 		</div>
 	</div>
+	<span class="abt-nav  abt-nav--prev  js-news-prev"></span>
+	<span class="abt-nav  abt-nav--next  js-news-next"></span>
 </div>
 <div class="abt  abt--email">
 	<div class="cw--c">
