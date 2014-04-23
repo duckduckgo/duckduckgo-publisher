@@ -39,27 +39,31 @@
 				<i class="abt__key__icon  abt__key__icon--privacy"></i>
 				<h3 class="abt__key__title">Real Privacy</h3>
 				<h6 class="abt__key__sub">We don't track you.</h6>
-				<p>From health questions to funny videos, searches are a reflection of your personal life. That's why searching on DuckDuckGo is completely anonymous. <br/><a href="/privacy">Our Policy</a>.</p>
+				<p>From health questions to funny videos, searches are a reflection of your personal life. That's why searching on DuckDuckGo is completely anonymous.</p>
+				<a class="btn--abt  btn--abt--key" href="/privacy">Our Policy</a>
 			</div>
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--answers"></i>
 				<h3 class="abt__key__title">Smarter Search</h3>
 				<h6 class="abt__key__sub">Get answers quicker.</h6>
-				<p>We want to help you find things in fewer clicks. We do that through instant answers, !bangs, and keyboard shortcuts. You can even help us improve, through our community! <br/><a href="http://duckduckhack.com">Get Involved</a></p>
+				<p>We want to help you find things in fewer clicks. We do that through instant answers, !bangs, and keyboard shortcuts. You can even help us improve, through our community!</p>
+				<a class="btn--abt  btn--abt--key" href="http://duckduckhack.com">Get Involved</a>
 			</div>
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--clutter"></i>
 				<h3 class="abt__key__title">Less Clutter</h3>
 				<h6 class="abt__key__sub">Fewer ads and reduced spam.</h6>
-				<p>Our only focus is search. That means that our results are free of promotoions for useless things like social networks.  Our design is clutter-free but you can change it if you'd like! <br/><a href="/settings">Tweak Settings</a></p>
+				<p>Our only focus is search. That means that our results are free of promotoions for useless things like social networks.  Our design is clutter-free but you can change it if you'd like!</p>
+				<a class="btn--abt  btn--abt--key" href="/settings">Tweak Settings</a>
 			</div>
 		</div>
 	</div>
 </div>
 <div class="abt  abt--team">
 	<div class="cw--c">
-		<h2 class="abt__title">Our Staff</h2>
+		<h2 class="abt__title">Our Team</h2>
 		<hr class="hr--abt" />
+		<h5 class="abt__sub">Meet the DDG core, or get aquainted with the extended team <a href="https://twitter.com/duckduckgo/team/members" target="ddg_team_twitter_list">here</a>.</h5>
 		<ul class="team">
 			<: for $team_members -> $team { :>
 			<li class="team__m  js-team-toggle">
@@ -75,7 +79,6 @@
 			</li>
 			<: } :>
 		</ul>
-		<h5 class="abt__sub">More of <a href="https://twitter.com/duckduckgo/team/members" target="ddg_team_twitter_list">our team</a>&hellip;</h5>
 	</div>
 </div>
 <div class="abt  abt--hero  abt--comm">
@@ -109,16 +112,16 @@
 	<h2 class="abt__title">In The News</h2>
 	<div class="cw--c">
 		<ul class="abt--news__list">
+			<li class="abt--news__list__item  js-news-source" data-source="time"><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html" target="_time">
+				<noscript><img src="assets/about/news/logo_time.png" alt="TIME" class="abt--news__img--time" /></noscript>
+				<img src="" data-src="assets/about/news/logo_time@2x.png" alt="TIME" class="abt--news__img--time  js-lazyload  no-js__hide" />
+			</a></li>
 			<: for $news_articles -> $news { :>
 			<li class="abt--news__list__item  js-news-source" data-source="<: $news.source :>"><a href="<: $news.source_link :>" target="_<: $news.source :>">
 				<noscript><img src="assets/about/news/ogo_<: $news.source :>.png" class="abt--news__img--<: $news.source :>" alt="<: $news.source_full :>" /></noscript>
 				<img src="" data-src="assets/about/news/logo_<: $news.source :>@2x.png" class="abt--news__img--<: $news.source :>  js-lazyload  no-js__hide" alt="<: $news.source_full :>" />
 			</a></li>
 			<: } :>
-			<li class="abt--news__list__item  js-news-source" data-source="time"><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html" target="_time">
-				<noscript><img src="assets/about/news/logo_time.png" alt="TIME" class="abt--news__img--time" /></noscript>
-				<img src="" data-src="assets/about/news/logo_time@2x.png" alt="TIME" class="abt--news__img--time  js-lazyload  no-js__hide" />
-			</a></li>
 		</ul>
 		<div class="abt--news__item-wrap">
 			<div class="abt--news__item  abt--news__item--first  abt__app  js-news-item" data-source="time">
@@ -127,7 +130,7 @@
 			</div>
 			<: for $news_articles -> $news { :>
 			<div class="abt--news__item  js-news-item" data-source="<: $news.source :>">
-				<div class="abt-news">
+				<div class="abt-news  abt-news--<: $news.source :>">
 					<div class="abt-news__meta">
 						<noscript><img src="assets/about/news/<: $news.author_img :>.png" alt="" class="abt-news__meta__img" /></noscript>
 						<img src="" data-src="assets/about/news/<: $news.author_img :>.png" alt="" class="abt-news__meta__img  js-lazyload  no-js__hide" />
@@ -171,6 +174,7 @@
 					<li><a href="http://duck.co/">Join our Forums</a></li>
 					<li><a href="https://duckduckgo.com/spread" target="_blank">Spread DuckDuckGo</a></li>
 					<li><a href="https://duckduckgo.com/feedback" target="_blank">Submit feedback</a></li>
+					<li><a href="https://duck-duck-go.myshopify.com" target="shopify">Get Swag</a></li>
 				</ul>
 			</div>
 		</div>
