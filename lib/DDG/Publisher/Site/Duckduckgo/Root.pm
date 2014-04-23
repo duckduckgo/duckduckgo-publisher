@@ -66,6 +66,11 @@ sub pages {{
 			title => 'Front-End',
 			info => 'Person',
 			image => 'brian',
+		},{
+			name => 'John Barrett',
+			title => 'Community',
+			info => 'Discombobulator',
+			image => 'john',
 		}],
 		ddg_events => [{
 			date => 'February 29, 2008',
