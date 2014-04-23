@@ -1,105 +1,33 @@
-<div id="header_wrapper" class="header-wrap  header-wrap--show <: if $has_zcm { :> header-wrap--has-zcm<: } :>">	
+<div id="header_wrapper" class="header-wrap<: if $alt_header { :> header-wrap--with-alt<: } :>">
 	<div id="header" class="header  cw">
 		<div class="header__search-wrap">
-			<a href="/" class="header__logo-wrap">				
+			<a href="/" class="header__logo-wrap">
 				<span class="header__logo">DuckDuckGo</span>
-			</a>					
+			</a>
 			<div class="header__content  header__search  search-wrap--header">
 				<form id="search_form" class="search  search--header  js-search-init" name="x" action="/" onsubmit="return nbr()">
-					<div id="search_elements_hidden" class="search__hidden"></div>
 					<input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" class="search__input  js-search-input" placeholder="<: l('Search DuckDuckGo'):>" />
 					<input id="search_button" class="search__button" type="submit" tabindex="2" value="S" />
-					<input id="search_form_input_clear" class="search__clear  empty" type="button" tabindex="3" value="X" onclick="DDG.clear_button()"/>
-					<a id="search_dropdown" class="search__dropdown" href="javascript:;" tabindex="4" onclick="bang_toggle();"></a>	
+					<input id="search_form_input_clear" class="search__clear  empty" type="button" tabindex="3" value="X" />
+					<div id="search_elements_hidden" class="search__hidden"></div>
 				</form>
-			</div>			
-		</div>		
-		<: if $has_zcm { # this is an example zero-click menu - leaving here to show the proper canonical markup :>
-		<div class="zcm-wrap">				
-			<div class="zcm"> <!-- zcm == zero-click menu -->
-				<ul class="zcm__menu  zcm__constant"><!-- constant is always visible -->
-					<li id="zcm-videos" class="zcm__item"><a class="zcm__link" href="#" data-zci-link="videos">Videos</a></li>
-					<li id="zcm-images" class="zcm__item"><a class="zcm__link" href="#" data-zci-link="images">Images</a></li>
-					<li id="zcm-news" class="zcm__item"><a class="zcm__link" href="#" data-zci-link="news">News</a></li>
-					<li id="zcm-maps" class="zcm__item"><a class="zcm__link" href="#" data-zci-link="maps">Maps</a></li>
-				</ul>
-				<ul class="zcm__menu  zcm__dynamic  has-zci"><!-- hidden unless triggered by .has-zci -->
-					<span class="zcm__sep"></span>
-					<li id="zcm-wiki" class="zcm__item"><a class="zcm__link  is-active" href="#" data-zci-link="wiki">Wiki</a></li>
-					<li id="zcm-yelp" class="zcm__item"><a class="zcm__link" href="#" data-zci-link="yelp">Yelp</a></li>
-					<li id="zcm-thing" class="zcm__item"><a class="zcm__link" href="#" data-zci-link="thing">Thing</a></li>
-				</ul>
 			</div>
 		</div>
-		<: } :>
 	</div>
 	<div class="header--aside  js-trigger-main-menu">
-		 <a class="header__button--menu" tabindex="5" href="javascript:;">&#8694;</a>
+		 <a class="header__button--menu" tabindex="5" href="#menu">&#8694;</a>
 	</div>
 </div>
-<: include "menu_header.tx" :>	
+<: if $alt_header { :>
+<div class="header-wrap--alt">
+	<div class="header--alt  cw  js-show-header">
+		<i class="header--alt__loupe"></i>
+		<span class="header--alt__text"><: l('Try a search!') :></span>
+	</div>
+	<div class="header--aside  js-trigger-main-menu">
+		 <a class="header__button--menu  header__button--alt-menu" tabindex="5" href="#menu">&#8694;</a>
+	</div>
+</div>
+<: } :>
+<: include "menu_header.tx" :>
 <select id="bang" class="hide" size="2" onChange="if (ip) nbb(this);" onClick="if (!ip) nbb(this);" onBlur="bang_toggle();"></select>
-<: if $has_zci { # not meant for production - this is also an example :>
-<div class="zci-wrap  has-zci"><!-- hidden unless triggered by .has-zci -->	
-    <div class="zci  zci--wiki  is-active" id="zci-wiki"><!-- standard layout -->
-		<div class="cw">
-			<div class="zci__main">
-				<div class="zci__img-wrap">{{image}}</div>
-				<div class="zci__body">{{main content}}</div>
-			</div>
-		</div> 
-    </div>
-    <div class="zci  zci--yelp" id="zci-yelp"><!-- map right layout -->
-		<div class="cw">
-			<div class="zci__main">
-				<div class="zci__img-wrap">{{image}}</div>
-				<div class="zci__body--no-max">
-					<div class="zci__body__left">{{main content}}</div>
-					<div class="zci__body__right">{{map or something}}</div>
-				</div>
-				
-			</div>
-		</div>
-    </div>  
-    <div class="zci  zci--thing" id="zci-thing"><!-- full-width main for carousel or whatever -->        
-        <div class="cw">
-            <div class="gw"><!-- grid wrapper -->
-                <div class="g quarter">{{custom info}}</div>
-                <div class="g half">{{custom info}}</div>
-                <div class="g quarter">{{custom info}}</div>
-            </div>
-            <!-- grid items not required - shown as an option -->
-        </div>        
-    </div>  
-	<div class="zci  zci--thing" id="zci-thing"><!-- full-width main for carousel or whatever -->        
-        <div class="">
-            <div class="gw"><!-- grid wrapper -->
-                <div class="g quarter">{{custom info}}</div>
-                <div class="g half">{{custom info}}</div>
-                <div class="g quarter">{{custom info}}</div>
-            </div>
-            <!-- grid items not required - shown as an option -->
-        </div>        
-    </div>  
-	<div class="zci  zci--videos" id="zci-videos"><!-- standard layout -->
-		<div class="cw">
-			Hey I'm a whole bunch of videos!  Party on dude!
-		</div> 
-    </div>
-    <div class="zci  zci--images" id="zci-images"><!-- standard layout -->
-		<div class="cw">
-			Hey I'm a whole bunch of images!  Cowabunga!
-		</div> 
-    </div>
-	<div class="zci  zci--map" id="zci-maps"><!-- standard layout -->
-		<div class="cw">
-			I'm a map I'm a map I'm a map I'm a map
-		</div> 
-    </div>
-	<div class="zci  zci--news" id="zci-news"><!-- standard layout -->
-		<div class="cw">
-			Breaking news!  Things happen!
-		</div> 
-    </div>
-</div>	
-<: } :>	

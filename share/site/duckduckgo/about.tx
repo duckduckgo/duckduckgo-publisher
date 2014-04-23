@@ -1,11 +1,34 @@
-<div class="abt  abt--hero">
-	<div class="cw--c">
-		<div class="ddg-logo--hero"></div>
-		<h1 class="abt__title--hero">Our Vision is Simple.</h1>
-		<p class="abt__sub--hero">Get great results and real privacy at the same time.  Great results means getting people the information they want faster and with less mental effort.</p>
+<div class="abt  abt--hero  js-event-slider">
+	<div class="logo--dax  ddg-logo--hero"></div>
+	<div class="event-pane-wrap">
+		<div class="event-pane  js-slider">
+			<span class="event-nav  event-nav--prev  js-event-prev"></span>
+			<span class="event-nav  event-nav--next  js-event-next"></span>
+			<div class="event  event--first  js-event" data-text="START" data-date="January 1, 2008">
+				<h1 class="abt__title--hero">Our Vision is Simple.</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">Get great results and real privacy at the same time.  Great results means getting people the information they want faster and with less mental effort.</h5>
+				</div>
+			</div>
+			<: for $ddg_events -> $event { :>
+			<div class="event  js-event  event--<: $event.type :>" data-type="<: $event.type :>" data-date="<: $event.date :>">
+				<h1 class="abt__title--hero"><: $event.title :></h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero"><: $event.snippet :></h5>
+				</div>
+			</div>
+			<: } :>
+		</div>
+		<div class="event-types">
+			<span class="circle  event-types__icon  event-type--news  js-event-filter" title="News" data-type="news"></span>
+			<span class="circle  event-types__icon  event-type--traffic  js-event-filter" title="Traffic" data-type="traffic"></span>
+			<span class="circle  event-types__icon  event-type--company  js-event-filter" title="Company" data-type="internal"></span>
+		</div>
 	</div>
-	
-	<div class="abt__timeline"></div>
+	<div class="abt__timeline  event-timeline-wrap">
+		<div class="event-timeline  js-timeline"></div>
+	</div>
+	<div class="event-date  js-date-text"></div>
 </div>
 <div class="abt  abt--alt  abt--keys">
 	<div class="cw--c">
@@ -84,10 +107,7 @@
 			<img src="" data-src="assets/about/logo_nyt-full.png" alt="The New York Times" class="abt--news__img--nyt  js-lazyload  no-js__hide"/>
 		</a></li>
 	</ul>
-</div>
-<div class="abt  abt--alt  abt--news">
 	<div class="cw--c">
-		<hr class="hr--abt" />
 		<div class="abt__app">
 			<h4 class="abt__app__pri">DuckDuckGo <em>Search &amp; Stories</em></h4>
 			<h4 class="abt__app__sec">Time Magazine's <em>Top 50 Apps of 2013</em></h4>

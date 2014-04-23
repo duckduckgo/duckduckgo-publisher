@@ -20,6 +20,7 @@ sub pages {{
 		no_spacer => 1,
 		no_logo => 1,
 		no_cw => 1,
+		alt_header => 1,
 		team_members => [{
 			name => 'Gabriel Weinberg',
 			title => 'Founder',
