@@ -1,4 +1,4 @@
-		<form id="search_form_homepage" class="search  search--home  js-search-init" name="x" method="POST" action="/html" onSubmit="return nbr()">			
+		<form id="search_form_homepage" class="search  search--home  js-search-init" name="x" method="POST" action="/html">			
 			<input id="search_form_input_homepage" class="search__input  js-search-input" type="text" autocomplete="off" name="q" autofocus tabindex="1" onclick="if (is_mobile) DDG.toggle('footer_homepage');" onblur="if (is_mobile) DDG.toggle('footer_homepage',1)" value="">
 			<input id="search_button_homepage" class="search__button" type="submit" tabindex="2" value="S" />
 			<input id="search_form_input_clear" class="search__clear  empty" type="button" tabindex="3" value="X" onclick="DDG.clear_button()"/>
