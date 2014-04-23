@@ -157,47 +157,39 @@
 	<div class="cw--c">
 		<div class="third">
 			<div class="nav-col">
-				<h5 class="abt--nav__heading">Things you can do:</h5>
+				<h5 class="abt--nav__heading">Get Involved:</h5>
 				<ul>
-					<li><a href="https://duck.co/translate">Translate DuckDuckGo</a></li>
+					<li><a href="https://github.com/duckduckgo/duckduckgo/wiki" target="_blank">Develop Instant Answers</a></li>
+					<li><a href="https://duck.co/translate">Translate our pages</a></li>
 					<li><a href="http://duck.co/">Join our Forums</a></li>
-					<li><a href="https://duck.co/blog">Browse our Blog</a></li>
-					<li><a href="https://duck.co/blog/using-pidgin-with-xmpp-jabber">Chat via XMPP/Jabber</a></li>
-					<li><a href="https://github.com/duckduckgo/community-platform" target="_blank">Develop our platform</a></li>
-					<li><a href="https://github.com/duckduckgo/duckduckgo/wiki" target="_blank">Develop instant answers</a></li>
-					<li><a href="https://duckduckgo.com/spread" target="_blank">Spread DuckDuckGo!</a></li>
+					<li><a href="https://duckduckgo.com/spread" target="_blank">Spread DuckDuckGo</a></li>
 					<li><a href="https://duckduckgo.com/feedback" target="_blank">Submit feedback</a></li>
-					<li><a href="https://duck.co/roboduck">Talk with RoboDuck</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="third">
 			<div class="nav-col">
-				<h5 class="abt--nav__heading">DuckDuckGo Sites:</h5>
+				<h5 class="abt--nav__heading">Follow Us:</h5>
 				<ul>
-					<li><a href="https://duckduckgo.com/" target="_blank">Homepage</a></li>
-					<li><a href="http://donttrack.us/" target="_blank">DontTrack.us</a></li>
-					<li><a href="http://dontbubble.us/" target="_blank">DontBubble.us</a></li>
-					<li><a href="https://duck.co/help/en_US">Help</a></li>
-					<li><a href="https://duck.co/">Forum</a></li>
-					<li><a href="http://cafepress.com/duckduckgo" target="_blank">Store</a></li>
-					<li><a href="http://www.stickermule.com/duckduckgo" target="_blank">Sticker Store</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="third">
-			<div class="nav-col">
-				<h5 class="abt--nav__heading">DuckDuckGo Social:</h5>
-				<ul>
+					<li><a href="https://duck.co/blog">Blog</a></li>
 					<li><a href="https://twitter.com/duckduckgo" target="_blank">Twitter</a> <a href="https://twitter.com/duckduckgo/team/members" target="_blank">(Team)</a></li>
 					<li><a href="https://facebook.com/duckduckgo" target="_blank">Facebook</a></li>
-					<li><a href="http://www.reddit.com/r/duckduckgo" target="_blank">/r/duckduckgo</a></li>
-					<li><a href="https://identi.ca/duckduckgo" target="_blank">identi.ca</a></li>
-					<li><a href="https://joindiaspora.com/u/duckduckgo" target="_blank">diaspora</a></li>
-					<li><a href="http://webchat.freenode.net/?channels=duckduckgo" target="_blank">IRC Channel</a></li>
+					<li><a href="http://www.reddit.com/r/duckduckgo" target="_blank">Reddit</a></li>
+					<li><a href="http://webchat.freenode.net/?channels=duckduckgo" target="_blank">IRC</a></li>
 					<li><a href="https://github.com/duckduckgo" target="_blank">GitHub</a></li>
-					<li><a href="http://duckpan.org/" target="_blank">DuckPAN</a></li>
 				</ul>
+			</div>
+		</div>
+		<div class="third">
+			<div class="nav-col">
+				<h5 class="abt--nav__heading">Learn More:</h5>
+				<ul>
+					<li><a href="https://duck.co/help/en_US">Help pages</a></li>
+					<li><a href="https://duck.co/help/company/hiring">Hiring</a></li>
+					<li><a href="http://donttrack.us/" target="_blank">DontTrack.us</a></li>
+					<li><a href="http://dontbubble.us/" target="_blank">DontBubble.us</a></li>
+					<li><a href="http://fixtracking.com/" target="_blank">FixTracking.com</a></li>
+					<li><a href="https://duck.co/blog/using-pidgin-with-xmpp-jabber">XMPP</a></li>
 			</div>
 		</div>
 	</div>
