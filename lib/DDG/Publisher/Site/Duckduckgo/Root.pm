@@ -90,8 +90,8 @@ sub pages {{
 		},{
 			date => 'October 13, 2011',
 			title => 'Funding',
-			snippet => 'Funding from Union Square Ventures (backers of Twitter, Tumblr, Foursquare, Kickstarter, etc.).',
-			type => 'news',
+			snippet => 'Funding from Union Square Ventures.',
+			type => 'internal',
 		},{
 			date => 'November 30, 2011',
 			title => 'Employee #1',
