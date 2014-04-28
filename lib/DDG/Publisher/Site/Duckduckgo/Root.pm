@@ -84,14 +84,29 @@ sub pages {{
 			snippet => 'Soft-launch on Hacker News.',
 			type => 'news',
 		},{
+			date => 'July 21, 2010',
+			title => 'Duck.co',
+			snippet => 'Launch of DuckDuckGo community site.',
+			type => 'news',
+		},{
 			date => 'January 11, 2011',
 			title => 'Billboard',
 			snippet => 'Billboard in San Francisco saying "Google tracks you. We don\'t."',
 			type => 'news',
 		},{
+			date => 'February 26, 2011',
+			title => '2011 Open-Source Donations',
+			snippet => 'Donated $1,909 to nginx, FreeBSD, Tor, Clamwin, Taho-LAFS and OpenSSH.',
+			type => 'internal',
+		},{
 			date => 'October 13, 2011',
 			title => 'Funding',
 			snippet => 'Funding from Union Square Ventures.',
+			type => 'internal',
+		},{
+			date => 'November 1, 2011',
+			title => 'Headquarters',
+			snippet => 'Moved out of Gabriel\'s basement into Paoli, PA HQ.',
 			type => 'internal',
 		},{
 			date => 'November 30, 2011',
@@ -99,15 +114,30 @@ sub pages {{
 			snippet => 'Hired Caine Tighe as employee #1.',
 			type => 'internal',
 		},{
+			date => 'January 16, 2012',
+			title => 'Redesign',
+			snippet => 'New visual design with fixed header.',
+			type => 'news',
+		},{
 			date => 'February 13, 2012',
 			title => '1,000,000',
 			snippet => 'Over 1,000,000 direct searches/day.',
 			type => 'traffic',
 		},{
+			date => 'March 7, 2012',
+			title => '2012 Open-Source Donations',
+			snippet => 'Donated $9,400 to Perl, unhosted.org, Diaspora*, Wikimedia, Freenet, friendca and Tor.',
+			type => 'internal',
+		},{
 			date => 'May 1, 2012',
 			title => 'DuckDuckHack',
 			snippet => 'Launch of our open-source Instant Answer platform.',
 			type => 'news',
+		},{
+			date => 'February 25, 2013',
+			title => '2013 Open-Source Donations',
+			snippet => 'Donated $20,000 to OpenStreetMap, EFF, RiseUp, F-Droid, NoScript, Crytocat and JavaScript Blocker.',
+			type => 'internal',
 		},{
 			date => 'June 10, 2013',
 			title => '2,000,000',
@@ -133,6 +163,11 @@ sub pages {{
 			title => '5,000,000',
 			snippet => 'Over 5,000,000 direct searches/day.',
 			type => 'traffic',
+		},{
+			date => 'March 12, 2014',
+			title => '2014 Open-Source Donations',
+			snippet => 'Donated $40,000 to SecureDrop, NoseTor, Lavabit, RiseUp, mailpile and I2P.',
+			type => 'internal',
 		},{
 			date => 'March 17, 2014',
 			title => 'Employee #10',
