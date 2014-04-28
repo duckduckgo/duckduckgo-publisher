@@ -98,6 +98,7 @@ sub pages {{
 			title => '2011 Open-Source Donations',
 			snippet => 'Donated $1,909 to nginx, FreeBSD, Tor, Clamwin, Taho-LAFS and OpenSSH.',
 			type => 'internal',
+			subtype => 'foss',
 		},{
 			date => 'October 13, 2011',
 			title => 'Funding',
@@ -128,6 +129,7 @@ sub pages {{
 			title => '2012 Open-Source Donations',
 			snippet => 'Donated $9,400 to Perl, unhosted.org, Diaspora*, Wikimedia, Freenet, friendca and Tor.',
 			type => 'internal',
+			subtype => 'foss',
 		},{
 			date => 'May 1, 2012',
 			title => 'DuckDuckHack',
@@ -138,6 +140,7 @@ sub pages {{
 			title => '2013 Open-Source Donations',
 			snippet => 'Donated $20,000 to OpenStreetMap, EFF, RiseUp, F-Droid, NoScript, Crytocat and JavaScript Blocker.',
 			type => 'internal',
+			subtype => 'foss',
 		},{
 			date => 'June 10, 2013',
 			title => '2,000,000',
@@ -168,6 +171,7 @@ sub pages {{
 			title => '2014 Open-Source Donations',
 			snippet => 'Donated $40,000 to SecureDrop, NoseTor, Lavabit, RiseUp, mailpile and I2P.',
 			type => 'internal',
+			subtype => 'foss',
 		},{
 			date => 'March 17, 2014',
 			title => 'Employee #10',
