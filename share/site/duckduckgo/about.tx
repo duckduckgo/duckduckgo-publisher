@@ -67,10 +67,12 @@
 		<ul class="team">
 			<: for $team_members -> $team { :>
 			<li class="team__m  js-team-toggle">
+				<: if $team.link {:><a href="<: $team.link :>" target="<: $team.image :>"><:}:>
 				<noscript>
 					<img class="team__img" src="/assets/about/team/<: $team.image :>_pxl.png" />
 					<img class="team__img--alt" src="/assets/about/team/<: $team.image :>.png" />
 				</noscript>
+				<: if $team.link {:></a><:}:>
 				<img class="team__img  js-lazyload  no-js__hide" src="" data-src="/assets/about/team/<: $team.image :>_pxl.png" />
 				<img class="team__img--alt  js-lazyload  no-js__hide" src="" data-src="/assets/about/team/<: $team.image :>.png" />
 				<span class="team__name"><: $team.name :></span>
