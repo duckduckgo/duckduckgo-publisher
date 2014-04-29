@@ -189,15 +189,6 @@ sub pages {{
 			headline => 'DuckDuckGo: the plucky upstart taking on Google with secure searches',
 			snippet => 'Gabriel Weinberg launched DuckDuckGo as a search engine that puts privacy first, rather than collecting data for advertisers and security agencies...',
 		},{
-			source => 'wapost',
-			source_full => 'The Washington Post',
-			source_link => 'http://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html',
-			author_name => 'Michael Rosenwald',
-			author_img => 'washington-post_michael-rosenwald',
-			date => '9 November 2012',
-			headline => 'Ducking Google in search engines',
-			snippet => 'Not far from Valley Forge, around the corner from Bravo Pizza, up the road from Paoli Auto Body, there is an odd-looking office building that resembles a stone castle.  An eye doctor is on the first floor.  On the second floor is a search engine.',
-		},{
 			source => 'fastco',
 			source_full => 'FastCoLabs',
 			source_link => 'http://www.fastcolabs.com/3026698/inside-duckduckgo-googles-tiniest-fiercest-competitor',
@@ -206,6 +197,15 @@ sub pages {{
 			date => '20 February 2014',
 			headline => 'Inside DuckDuckGo, Google\'s Tiniest, Fiercest Competitor',
 			snippet => 'In 2008, launching a search engine seemed like a crazy idea.  Here\'s how Gabriel Weinberg proved the critics wrong.',
+		},{
+			source => 'wapost',
+			source_full => 'The Washington Post',
+			source_link => 'http://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html',
+			author_name => 'Michael Rosenwald',
+			author_img => 'washington-post_michael-rosenwald',
+			date => '9 November 2012',
+			headline => 'Ducking Google in search engines',
+			snippet => 'Not far from Valley Forge, around the corner from Bravo Pizza, up the road from Paoli Auto Body, there is an odd-looking office building that resembles a stone castle.  An eye doctor is on the first floor.  On the second floor is a search engine.',
 		}]
 	},
 	bang => sub {},

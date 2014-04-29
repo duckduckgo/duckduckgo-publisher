@@ -112,22 +112,18 @@
 	<h2 class="abt__title">In The News</h2>
 	<div class="cw--c">
 		<ul class="abt--news__list">
-			<li class="abt--news__list__item  js-news-source" data-source="time"><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html" target="_time">
-				<noscript><img src="assets/about/news/logo_time.png" alt="TIME" class="abt--news__img--time" /></noscript>
-				<img src="" data-src="assets/about/news/logo_time@2x.png" alt="TIME" class="abt--news__img--time  js-lazyload  no-js__hide" />
-			</a></li>
 			<: for $news_articles -> $news { :>
 			<li class="abt--news__list__item  js-news-source" data-source="<: $news.source :>"><a href="<: $news.source_link :>" target="_<: $news.source :>">
 				<noscript><img src="assets/about/news/ogo_<: $news.source :>.png" class="abt--news__img--<: $news.source :>" alt="<: $news.source_full :>" /></noscript>
 				<img src="" data-src="assets/about/news/logo_<: $news.source :>@2x.png" class="abt--news__img--<: $news.source :>  js-lazyload  no-js__hide" alt="<: $news.source_full :>" />
 			</a></li>
 			<: } :>
+			<li class="abt--news__list__item  js-news-source" data-source="time"><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html" target="_time">
+				<noscript><img src="assets/about/news/logo_time.png" alt="TIME" class="abt--news__img--time" /></noscript>
+				<img src="" data-src="assets/about/news/logo_time@2x.png" alt="TIME" class="abt--news__img--time  js-lazyload  no-js__hide" />
+			</a></li>
 		</ul>
 		<div class="abt--news__item-wrap">
-			<div class="abt--news__item  abt--news__item--first  abt__app  js-news-item" data-source="time">
-				<h4 class="abt__app__pri">DuckDuckGo <em>Search &amp; Stories</em></h4>
-				<h4 class="abt__app__sec">Time Magazine's <em>Top 50 Apps of 2013</em></h4>
-			</div>
 			<: for $news_articles -> $news { :>
 			<div class="abt--news__item  js-news-item" data-source="<: $news.source :>">
 				<div class="abt-news  abt-news--<: $news.source :>">
@@ -146,6 +142,10 @@
 				</div>
 			</div>
 			<: } :>
+			<div class="abt--news__item  abt--news__item--first  abt__app  js-news-item" data-source="time">
+				<h4 class="abt__app__pri">DuckDuckGo <em>Search &amp; Stories</em></h4>
+				<h4 class="abt__app__sec">Time Magazine's <em>Top 50 Apps of 2013</em></h4>
+			</div>
 		</div>
 	</div>
 	<span class="abt-nav  abt-nav--prev  js-news-prev"></span>
