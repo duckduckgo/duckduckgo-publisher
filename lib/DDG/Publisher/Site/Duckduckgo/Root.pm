@@ -31,16 +31,19 @@ sub pages {{
 			title => 'Core Components',
 			info => 'Border Collie',
 			image => 'caine',
+			link => 'http://blog.opensesame.st/',
 		},{
 			name => 'Zac Pappis',
 			title => 'Community',
 			info => 'Lead Vocalist',
 			image => 'zac',
+			link => 'http://zpappis.com/',
 		},{
 			name => 'Russell Holt',
 			title => 'Duck Duck Hack',
 			info => 'Geek Dad',
 			image => 'russell',
+			link => 'http://beicheequi9vieveetohc3aequohngu0ohsh2zeihef7eecha9op7choofohcae.com/',
 		},{
 			name => 'Jaryd Malbin',
 			title => 'Ops',
@@ -61,16 +64,19 @@ sub pages {{
 			title => 'Open Source',
 			info => 'Internet Survival Expert',
 			image => 'jag',
+			link => 'https://twitter.com/juantalon',
 		},{
 			name => 'Brian Stoner',
 			title => 'Front-End',
 			info => 'Person',
 			image => 'brian',
+			link => 'https://twitter.com/bsstoner',
 		},{
 			name => 'John Barrett',
 			title => 'Community',
 			info => 'Discombobulator',
 			image => 'john',
+			link => 'https://github.com/jbarrett/',
 		}],
 		
 		ddg_events => [{
