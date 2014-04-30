@@ -59,12 +59,8 @@ sub pages {{
 			title => 'Design',
 			info => 'Margarita Enthusiast',
 			image => 'chris',
-		},{
-			name => 'Jag Talon',
-			title => 'Open Source',
-			info => 'Internet Survival Expert',
-			image => 'jag',
-			link => 'https://twitter.com/juantalon',
+			link => 'http://christophermorast.com/',
+
 		},{
 			name => 'Brian Stoner',
 			title => 'Front-End',
