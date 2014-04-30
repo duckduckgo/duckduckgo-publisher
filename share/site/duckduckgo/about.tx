@@ -144,7 +144,7 @@
 				</div>
 			</div>
 			<: } :>
-			<div class="abt--news__item  abt--news__item--first  abt__app  js-news-item" data-source="time">
+			<div class="abt--news__item  abt__app  js-news-item" data-source="time">
 				<h4 class="abt__app__pri">DuckDuckGo <em>Search &amp; Stories</em></h4>
 				<h4 class="abt__app__sec">Time Magazine's <em>Top 50 Apps of 2013</em></h4>
 			</div>
