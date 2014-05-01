@@ -158,9 +158,9 @@
 		<h2 class="abt__title">Newsletter</h2>
 		<hr class="hr--abt" />
 		<h5 class="abt__sub">Stay up to date with DuckDuckGo, privacy, and other things you might want to know.</h5>
-		<form class="frm--newsletter">
-			<input type="hidden" />
-			<input type="text" placeholder="Enter your email address" class="frm__input" />
+		<form class="frm--newsletter" action="https://flash.duckduckgo.com/e.js" method="post">
+			<input type="hidden" name="add" value="1" />
+			<input type="text" placeholder="Enter your email address" class="frm__input" name="from" />
 			<input type="submit" value="Subscribe" class="btn  btn--abt--prim" />
 		</form>
 	</div>
