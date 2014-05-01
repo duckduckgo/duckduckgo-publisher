@@ -8,7 +8,7 @@
 	<li class="nav-menu__item"><a href="https://duck.co/help" tabindex="-1"><: l('Help') :></a></li>
 	
 	<li class="nav-menu__heading"><span><: l('Get Involved') :></span></li>
-	<li class="nav-menu__item"><a href="https://duck.co/" tabindex="-1"><: l('Dommunity') :></a></li>
+	<li class="nav-menu__item"><a href="https://duck.co/" tabindex="-1"><: l('Community') :></a></li>
 	<li class="nav-menu__item"><a href="/feedback/" tabindex="-1"><: l('Feedback') :></a></li>
 	</ul>
 	
