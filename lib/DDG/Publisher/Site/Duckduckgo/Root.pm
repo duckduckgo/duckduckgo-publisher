@@ -55,12 +55,17 @@ sub pages {{
 			info => 'Coffee Snob',
 			image => 'doug',
 		},{
+ 			name => 'Jag Talon',
+ 			title => 'Open Source',
+ 			info => 'Internet Survival Expert',
+ 			image => 'jag',
+ 			link => 'https://twitter.com/juantalon',
+		},{
 			name => 'Chris Morast',
 			title => 'Design',
 			info => 'Margarita Enthusiast',
 			image => 'chris',
 			link => 'http://christophermorast.com/',
-
 		},{
 			name => 'Brian Stoner',
 			title => 'Front-End',
