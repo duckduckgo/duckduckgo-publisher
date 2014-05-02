@@ -62,6 +62,12 @@ sub pages {{
 			image => 'chris',
 			link => 'http://christophermorast.com/',
 		},{
+			name => 'Jag Talon',
+			title => 'Open Source',
+			info => 'Internet Survival Expert',
+			image => 'jag',
+			link => 'https://twitter.com/juantalon',
+		},{
 			name => 'Brian Stoner',
 			title => 'Front-End',
 			info => 'Person',
