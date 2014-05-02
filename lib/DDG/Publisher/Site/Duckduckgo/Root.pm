@@ -49,6 +49,7 @@ sub pages {{
 			title => 'Ops',
 			info => 'BOFH',
 			image => 'jaryd',
+			link => 'https://www.youtube.com/watch?v=09j6vMdKi3E',
 		},{
 			name => 'Doug Brown',
 			title => 'Front-End',
@@ -60,7 +61,6 @@ sub pages {{
 			info => 'Margarita Enthusiast',
 			image => 'chris',
 			link => 'http://christophermorast.com/',
-
 		},{
 			name => 'Brian Stoner',
 			title => 'Front-End',
