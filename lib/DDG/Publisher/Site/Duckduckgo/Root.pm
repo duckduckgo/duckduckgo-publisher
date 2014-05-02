@@ -31,7 +31,7 @@ sub pages {{
 			title => 'Core Components',
 			info => 'Border Collie',
 			image => 'caine',
-			link => 'http://blog.opensesame.st/',
+			link => 'http://opensesame.st/',
 		},{
 			name => 'Zac Pappis',
 			title => 'Community',
