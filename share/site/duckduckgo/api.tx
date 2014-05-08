@@ -27,7 +27,7 @@ Our Instant Answer API gives you free access to many of our instant answers like
 (<a href="http://api.duckduckgo.com/?q=apple&format=json&pretty=1">API example</a>),
 and
 <a href="/bang.html">!bang redirects</a>
-(<a href="http://api.duckduckgo.com/?q=!imdb+rushmore&format=json&pretty=1&no_redirect=1">API example</a>),
+(<a href="http://api.duckduckgo.com/?q=!imdb+rushmore&format=json&pretty=1&no_redirect=1">API example</a>).
  
 
 <div style="margin-bottom:20px;"></div>
