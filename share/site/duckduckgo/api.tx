@@ -24,12 +24,10 @@ Our Instant Answer API gives you free access to many of our instant answers like
 <a href="http://duckduckgo.com/?q=simpsons+characters">categories</a>
 (<a href="http://api.duckduckgo.com/?q=simpsons+characters&format=json&pretty=1">API example</a>), 
 <a href="http://duckduckgo.com/?q=apple">disambiguation</a>  
-(<a href="http://api.duckduckgo.com/?q=apple&format=json&pretty=1">API example</a>),  
+(<a href="http://api.duckduckgo.com/?q=apple&format=json&pretty=1">API example</a>),
+and
 <a href="/bang.html">!bang redirects</a>
-(<a href="http://api.duckduckgo.com/?q=!imdb+rushmore&format=json&pretty=1&no_redirect=1">API example</a>),
-and 
-<a href="http://duckduckgo.com/?q=define+ostensibly">definitions</a> 
-(<a href="http://api.duckduckgo.com/?q=define+ostensibly&format=json&pretty=1">API example</a>). 
+(<a href="http://api.duckduckgo.com/?q=!imdb+rushmore&format=json&pretty=1&no_redirect=1">API example</a>).
 
 <div style="margin-bottom:20px;"></div>
 This API does not include all of our links, however. That is, it is not a full search results API or a way to get DuckDuckGo results into your applications beyond our instant answers. Because of the way <a href="http://help.duckduckgo.com/customer/portal/articles/216399">we generate our search results</a>, we unfortunately do not have the rights to fully syndicate our results. For the same reason, we cannot allow framing our results without our branding. Please see <a href="http://help.duckduckgo.com/customer/portal/articles/775109">our partnerships page</a> for more info on guidelines and getting in touch with us.
