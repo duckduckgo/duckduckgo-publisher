@@ -2,8 +2,8 @@
 	<div class="logo--dax  ddg-logo--hero"></div>
 	<div class="event-pane-wrap">
 		<div class="event-pane  js-slider">
-			<span class="abt-nav  abt-nav--event  abt-nav--prev  js-event-prev"></span>
-			<span class="abt-nav  abt-nav--event  abt-nav--next  js-event-next"></span>
+			<span class="event-nav  nav  nav--prev  js-event-prev"></span>
+			<span class="event-nav  nav  nav--next  js-event-next"></span>
 			<div class="event  event--first  js-event" data-text="START" data-date="January 1, 2008">
 				<h1 class="abt__title--hero">Our Vision is Simple.</h1>
 				<div class="abt--hero__text">
@@ -150,8 +150,8 @@
 			</div>
 		</div>
 	</div>
-	<span class="abt-nav  abt-nav--prev  js-news-prev"></span>
-	<span class="abt-nav  abt-nav--next  js-news-next"></span>
+	<span class="nav  nav--prev  js-news-prev"></span>
+	<span class="nav  nav--next  js-news-next"></span>
 </div>
 <div class="abt  abt--email">
 	<div class="cw--c">
