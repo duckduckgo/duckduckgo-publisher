@@ -21,9 +21,6 @@
 		<div id="content" class="content<: if !$no_cw { :>  cw<: } :>">
 			<div id="content_internal" class="content__internal">
 	  <: } :>
-		<: if !$no_logo { :>
-		  <a href="/?q=&t=i&kad=<: $f.locale :>" title="DuckDuckGo"><div id="logo_internal"></div></a>
-		<: } :>
 		<: } else {:>
 		  <: if $homepage { :>
 			<: include "header_homepage.tx" :>

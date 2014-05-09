@@ -1,0 +1,24 @@
+<div class="blk  blk--hero  blk--whatsnew  js-whatsnew">
+	<div class="wnew  wnew--top">
+		<div class="wns-wrap  cw--wnew">
+			<span class="nav  nav--prev  nav--hero  js-wns-prev"></span>
+			<span class="nav  nav--next  nav--hero  js-wns-next"></span>
+			<div class="wns  js-items">
+				<div class="wns__item">
+					<h2>Introducing <b>Something</b></h2>
+					<h4>A way to do things and do other things.</h4>
+				</div>
+			</div>
+			<div class="wns--icons  js-icons">
+				<span class="circle  event-types__icon  event-type--news"></span>
+			</div>
+		</div>
+	</div>
+	<div class="wnew  wnew--bot">
+		<div class="cw--wnew">
+			<div class="wnew__img-wrap">
+				<img src="/assets/whatsnew/answers.png" alt="" />
+			</div>
+		</div>
+	</div>
+</div>

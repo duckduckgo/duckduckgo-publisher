@@ -20,8 +20,6 @@
 <meta name="twitter:player:width" value="960">
 <meta name="twitter:player:height" value="544">
 
-<!-- template b -->
-<link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="/opensearch_ssl.xml">
 <link rel="image_src" href="/assets/about/about-duckduckgo-posterimg.jpg"/>
 
 <script src="js/about.js"></script>

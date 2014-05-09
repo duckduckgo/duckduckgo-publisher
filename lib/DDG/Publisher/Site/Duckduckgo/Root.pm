@@ -18,7 +18,6 @@ sub pages {{
 	about => sub {
 		no_content_internal => 1,
 		no_spacer => 1,
-		no_logo => 1,
 		no_cw => 1,
 		alt_header => 1,
 		team_members => [{
@@ -219,7 +218,6 @@ sub pages {{
 	bang => sub {},
 	goodies => sub {
 		goodies => 1,
-		no_logo => 1,
 		no_content_internal => 1,
 	},
 	index => sub {
@@ -229,11 +227,15 @@ sub pages {{
 	newbang => sub {},
 	params => sub {},
 	settings => sub {
-		no_logo => 1,		
 		yui_body_header => 1
 	},
-	supportus => sub {
-		no_logo => 1,
+	supportus => sub {},
+	whatsnew => sub {
+		no_content_internal => 1,
+		no_spacer => 1,
+		no_cw => 1,
+		alt_header => 1,
+		no_alt_header_text => 1,
 	},
 
 	## TODO
