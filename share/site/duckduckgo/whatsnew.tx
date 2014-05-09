@@ -1,23 +1,29 @@
-<div class="blk  blk--hero  blk--whatsnew  js-whatsnew">
+<div class="blk  blk--hero  blk--whatsnew  js-wns">
 	<div class="wnew  wnew--top">
 		<div class="wns-wrap  cw--wnew">
 			<span class="nav  nav--prev  nav--hero  js-wns-prev"></span>
 			<span class="nav  nav--next  nav--hero  js-wns-next"></span>
-			<div class="wns  js-items">
-				<div class="wns__item">
-					<h2>Introducing <b>Something</b></h2>
-					<h4>A way to do things and do other things.</h4>
+			<div class="wns">
+				<: for $answer_types -> $item { :>
+				<div class="wns__item  js-wns-item" data-type="<: $item.type :>">
+					<h2 class="wns__hd <: if $item.title_bold {:> wns__hd--bd<:}:>"><: $item.title :></h2>
+					<h4 class="wns__sb"><: $item.text :></h4>
 				</div>
+				<: } :>
 			</div>
-			<div class="wns--icons  js-icons">
-				<span class="circle  event-types__icon  event-type--news"></span>
+			<div class="wns--icons">
+				<: for $answer_types -> $item { :>
+				<span class="wns__icon  ddgst-<: $item.type :>  js-wns-icon" data-type="<: $item.type :>"></span>
+				<: } :>
 			</div>
 		</div>
 	</div>
 	<div class="wnew  wnew--bot">
 		<div class="cw--wnew">
 			<div class="wnew__img-wrap">
-				<img src="/assets/whatsnew/answers.png" alt="" />
+				<: for $answer_types -> $item { :>
+					<img data-src="/assets/whatsnew/<: $item.type :>.png" alt="<: $item.type :> screenshot" class="wnew__img  js-wns-img" data-type="<: $item.type :>" />
+				<: } :>
 			</div>
 		</div>
 	</div>

@@ -236,6 +236,34 @@ sub pages {{
 		no_cw => 1,
 		alt_header => 1,
 		no_alt_header_text => 1,
+		answer_types => [{
+			title => 'Answers',
+			title_bold => 1,
+			text => "Answers to your questions from the best sources, developed by our open source community.",
+			type => "answers",
+		},{
+			title => "Images & Videos",
+			title_bold => 1,
+			text => "Images and Videos are now always available. View them without leaving the page.",
+			type => "images-videos",
+		},{
+			title => "Introducing Places",
+			text => "A better place to start your search for restaurants or anywhere else you might decide to go.",
+			type => "places",
+		},{
+			title => "Recipe Search",
+			text => "Introducing recipe search on DuckDuckGo.  A great place to start your next meal.",
+			type => "recipes",
+		},{
+			title => "Weather",
+			title_bold => 1,
+			text => "This week's forecast may not look so good, but our instant answer makes it a little better.",
+			type => "weather",
+		},{
+			title => "Meanings & Disambiguation",
+			text => "Lorem ipsum dolor sit amet",
+			type => "meanings",
+		}]
 	},
 
 	## TODO
