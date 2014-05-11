@@ -237,33 +237,30 @@ sub pages {{
 		alt_header => 1,
 		no_alt_header_text => 1,
 		answer_types => [{
-			title => 'Answers',
-			title_bold => 1,
-			text => "Answers to your questions from the best sources, developed by our open source community.",
+			title => '<b>Answers</b>',
+			text => "<span>Answers to your questions from the best sources,</span> <span>developed by our open source community.</span>",
 			type => "answers",
 		},{
-			title => "Images & Videos",
-			title_bold => 1,
-			text => "Images and Videos are now always available. View them without leaving the page.",
+			title => "<b>Images</b> & <b>Videos</b>",
+			text => "<span>Images and Videos are now always available.</span> <span>View them without leaving the page.</span>",
 			type => "images-videos",
 		},{
-			title => "Introducing Places",
-			text => "A better place to start your search for restaurants or anywhere else you might decide to go.",
+			title => "Introducing <b>Places</b>",
+			text => "<span>A better place to start your search for restaurants</span> <span>or anywhere else you might decide to go.</span>",
 			type => "places",
 		},{
-			title => "Recipe Search",
-			text => "Introducing recipe search on DuckDuckGo.  A great place to start your next meal.",
+			title => "<b>Recipe</b> Search",
+			text => "<span>Introducing recipe search on DuckDuckGo.</span> <span>A great place to start your next meal.</span>",
 			type => "recipes",
 		},{
-			title => "Weather",
-			title_bold => 1,
-			text => "This week's forecast may not look so good, but our instant answer makes it a little better.",
+			title => "<b>Weather</b>",
+			text => "<span>This week's forecast may not look so good,</span> <span>but our instant answer makes it a little better.</span>",
 			type => "weather",
 		},{
-			title => "Meanings & Disambiguation",
+			title => "<b>Meanings</b> & Disambiguation",
 			text => "Lorem ipsum dolor sit amet",
 			type => "meanings",
-		}]
+		}],
 	},
 
 	## TODO

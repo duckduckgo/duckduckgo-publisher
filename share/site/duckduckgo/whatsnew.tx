@@ -6,8 +6,8 @@
 			<div class="wns">
 				<: for $answer_types -> $item { :>
 				<div class="wns__item  js-wns-item" data-type="<: $item.type :>">
-					<h2 class="wns__hd <: if $item.title_bold {:> wns__hd--bd<:}:>"><: $item.title :></h2>
-					<h4 class="wns__sb"><: $item.text :></h4>
+					<h2 class="wns__hd"><: r($item.title) :></h2>
+					<h4 class="wns__sb"><: r($item.text) :></h4>
 				</div>
 				<: } :>
 			</div>
