@@ -19,11 +19,13 @@
 		</div>
 	</div>
 	<div class="wnew  wnew--bot">
-		<div class="cw--wnew">
-			<div class="wnew__img-wrap">
-				<: for $answer_types -> $item { :>
-					<img data-src="/assets/whatsnew/<: $item.type :>.png" alt="<: $item.type :> screenshot" class="wnew__img  js-wns-img" data-type="<: $item.type :>" />
-				<: } :>
+		<div class="cw--wnew  js-img-size-control">
+			<div class="wnew__img-frame">
+				<div class="wnew__img-wrap">
+					<: for $answer_types -> $item { :>
+						<img data-src="/assets/whatsnew/<: $item.type :>.png" alt="<: $item.type :> screenshot" class="wnew__img  js-wns-img" data-type="<: $item.type :>" />
+					<: } :>
+				</div>
 			</div>
 		</div>
 	</div>
