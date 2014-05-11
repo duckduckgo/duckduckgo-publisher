@@ -1,7 +1,7 @@
 <div id="footer_homepage" class="foot-home">	
 	<script type="text/javascript">
-		nib(0,'btn--home js-modal','','</span>',0,0,'<i class="btn--home__icon  ddgsi-plus"></i> <span>');
-		nib(0,'btn--home js-modal','','</span>',0,1,'<i class="btn--home__icon  ddgsi-home"></i> <span>');
+		nib(0,'btn--home js-modal','','</span>',0,0,'<i class="btn--home__icon  ddgst-add"></i> <span>');
+		nib(0,'btn--home js-modal','','</span>',0,1,'<i class="btn--home__icon  ddgst-home"></i> <span>');
 	</script>
 	<span class="modal_trig">
 		<div id="learn_more_modal" class="modal grp_modal">
@@ -13,7 +13,7 @@
 			</div>
 		</div>
 	</span>
-	<a href="https://duck.co" class="btn--home  js-modal" data-modal="learn_more_modal"><i class="btn--home__icon  ddgsi-more"></i> Learn <span>More</span></a>
+	<a href="https://duck.co" class="btn--home  js-modal" data-modal="learn_more_modal"><i class="btn--home__icon  ddgst-more"></i> Learn <span>More</span></a>
 	
 </div>
 

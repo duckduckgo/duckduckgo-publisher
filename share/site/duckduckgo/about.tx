@@ -20,9 +20,9 @@
 			<: } :>
 		</div>
 		<div class="event-types">
-			<span class="circle  event-types__icon  event-type--news  js-event-filter" title="News" data-type="news"></span>
-			<span class="circle  event-types__icon  event-type--traffic  js-event-filter" title="Traffic" data-type="traffic"></span>
-			<span class="circle  event-types__icon  event-type--company  js-event-filter" title="Company" data-type="internal"></span>
+			<span class="circle  event-types__icon  ddgst-news  js-event-filter" title="News" data-type="news"></span>
+			<span class="circle  event-types__icon  ddgst-traffic  js-event-filter" title="Traffic" data-type="traffic"></span>
+			<span class="circle  event-types__icon  ddgst-company  js-event-filter" title="Company" data-type="company"></span>
 		</div>
 	</div>
 	<div class="abt__timeline  event-timeline-wrap">
