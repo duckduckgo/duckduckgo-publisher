@@ -99,7 +99,7 @@
 				<i class="abt__key__icon--comm  abt__key__icon--discuss"></i>
 				<a href="https://duck.co/forum"><h3 class="abt__key__title">Discuss</h3></a>
 				<h6 class="abt__key__sub">Voice your thoughts!</h6>
-				<p>Our forums are a place for to chat about all things DuckDuckGo. Ask questions, give feedback, and engage other users in our community.</p>
+				<p>Our forums are a place to chat about all things DuckDuckGo. Ask questions, give feedback, and engage other users in our community.</p>
 			</div>
 			<div class="abt__key  third">
 				<i class="abt__key__icon--comm  abt__key__icon--spread"></i>
@@ -171,12 +171,10 @@
 			<div class="nav-col">
 				<h5 class="abt--nav__heading">Get Involved:</h5>
 				<ul>
-					<li><a href="https://github.com/duckduckgo/duckduckgo/wiki" target="_blank">Develop Instant Answers</a></li>
-					<li><a href="https://duck.co/translate">Translate our pages</a></li>
-					<li><a href="http://duck.co/">Join our Forums</a></li>
-					<li><a href="https://duckduckgo.com/spread" target="_blank">Spread DuckDuckGo</a></li>
-					<li><a href="https://duckduckgo.com/feedback" target="_blank">Submit feedback</a></li>
-					<li><a href="https://duck-duck-go.myshopify.com" target="shopify">Get Swag</a></li>
+					<li><a href="https://github.com/duckduckgo/duckduckgo/wiki" target="_blank">Develop</a></li>
+					<li><a href="https://duck.co/translate">Translate</a></li>
+					<li><a href="http://duck.co/">Discuss</a></li>
+					<li><a href="https://duckduckgo.com/spread" target="_blank">Spread</a></li>
 				</ul>
 			</div>
 		</div>
@@ -186,9 +184,7 @@
 				<ul>
 					<li><a href="https://duck.co/blog">Blog</a></li>
 					<li><a href="https://twitter.com/duckduckgo" target="_blank">Twitter</a> <a href="https://twitter.com/duckduckgo/team/members" target="_blank">(Team)</a></li>
-					<li><a href="https://facebook.com/duckduckgo" target="_blank">Facebook</a></li>
 					<li><a href="http://www.reddit.com/r/duckduckgo" target="_blank">Reddit</a></li>
-					<li><a href="http://webchat.freenode.net/?channels=duckduckgo" target="_blank">IRC</a></li>
 					<li><a href="https://github.com/duckduckgo" target="_blank">GitHub</a></li>
 				</ul>
 			</div>
@@ -197,12 +193,10 @@
 			<div class="nav-col">
 				<h5 class="abt--nav__heading">Learn More:</h5>
 				<ul>
-					<li><a href="https://duck.co/help/en_US">Help pages</a></li>
-					<li><a href="https://duck.co/help/company/hiring">Hiring</a></li>
-					<li><a href="http://donttrack.us/" target="_blank">DontTrack.us</a></li>
-					<li><a href="http://dontbubble.us/" target="_blank">DontBubble.us</a></li>
-					<li><a href="http://fixtracking.com/" target="_blank">FixTracking.com</a></li>
-					<li><a href="https://duck.co/blog/using-pidgin-with-xmpp-jabber">XMPP</a></li>
+					<li><a href="https://duck.co/help/en_US">Help</a></li>
+					<li><a href="/privacy">Privacy</a></li>
+					<li><a href="https://duck.co/help/company/hiring">Jobs</a></li>
+					<li><a href="https://duck-duck-go.myshopify.com" target="shopify">Swag</a></li>
 			</div>
 		</div>
 	</div>
@@ -210,8 +204,8 @@
 <div class="blk  blk--foot">
 	<div class="cw--c">
 		<div class="twothirds">
-			<p class="footer-nav"><a href="https://duckduckgo.com/">Home</a> <a href="https://duckduckgo.com/privacy">Privacy</a> <a href="https://duckduckgo.com/feedback">Feedback</a></p>
-			<p>Powered by <a href="http://www.perl.org/" target="_blank">Perl</a> Delivered by <a href="http://nginx.org/" target="_blank">nginx</a> Source at <a href="https://github.com/duckduckgo/community-platform" target="_blank">github</a> © <a href="https://duckduckgo.com">DuckDuckGo, Inc.</a></p>
+			<p>© <a href="https://duckduckgo.com">DuckDuckGo, Inc.</a></p>
+			<p>The search engine that doesn't track you.</p>
 		</div>
 	</div>
 </div>

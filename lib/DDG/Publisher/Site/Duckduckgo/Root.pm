@@ -145,7 +145,7 @@ sub pages {{
 		},{
 			date => 'February 25, 2013',
 			title => '2013 Open-Source Donations',
-			snippet => 'Donated $20,000 to OpenStreetMap, EFF, RiseUp, F-Droid, NoScript, Crytocat and JavaScript Blocker.',
+			snippet => 'Donated $20,000 to OpenStreetMap, EFF, RiseUp, F-Droid, NoScript, Cryptocat and JavaScript Blocker.',
 			type => 'internal',
 			subtype => 'foss',
 		},{
