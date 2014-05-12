@@ -171,10 +171,10 @@
 			<div class="nav-col">
 				<h5 class="abt--nav__heading">Get Involved:</h5>
 				<ul>
-					<li><a href="https://github.com/duckduckgo/duckduckgo/wiki" target="_blank">Develop</a></li>
+					<li><a href="http://duckduckhack.com/" target="duckduckhack">Develop</a></li>
 					<li><a href="https://duck.co/translate">Translate</a></li>
 					<li><a href="http://duck.co/">Discuss</a></li>
-					<li><a href="https://duckduckgo.com/spread" target="_blank">Spread</a></li>
+					<li><a href="https://duckduckgo.com/spread" target="ddg_spread">Spread</a></li>
 				</ul>
 			</div>
 		</div>
@@ -183,9 +183,9 @@
 				<h5 class="abt--nav__heading">Follow Us:</h5>
 				<ul>
 					<li><a href="https://duck.co/blog">Blog</a></li>
-					<li><a href="https://twitter.com/duckduckgo" target="_blank">Twitter</a> <a href="https://twitter.com/duckduckgo/team/members" target="_blank">(Team)</a></li>
-					<li><a href="http://www.reddit.com/r/duckduckgo" target="_blank">Reddit</a></li>
-					<li><a href="https://github.com/duckduckgo" target="_blank">GitHub</a></li>
+					<li><a href="https://twitter.com/duckduckgo" target="twitter">Twitter</a> <a href="https://twitter.com/duckduckgo/team/members" target="twitter_team">(Team)</a></li>
+					<li><a href="http://www.reddit.com/r/duckduckgo" target="reddit">Reddit</a></li>
+					<li><a href="https://github.com/duckduckgo" target="github">GitHub</a></li>
 				</ul>
 			</div>
 		</div>
