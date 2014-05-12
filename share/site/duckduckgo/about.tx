@@ -90,20 +90,26 @@
 		<h5 class="abt__sub">Join the community and help us improve DuckDuckGo.</h5>
 		<div class="abt__row">
 			<div class="abt__key  third">
-				<i class="abt__key__icon--comm  abt__key__icon--improve"></i>
-				<a href="https://duck.co"><h3 class="abt__key__title">Improve</h3></a>
+				<a href="https://duck.co">
+					<i class="abt__key__icon--comm  abt__key__icon--improve"></i>
+					<h3 class="abt__key__title">Improve</h3>
+				</a>
 				<h6 class="abt__key__sub">Help make DuckDuckGo even better! </h6>
 				<p> DuckDuckGo is a community-oriented search engine. You can create instant answers for DuckDuckGo or translate our pages into the languages you know.</p>
 			</div>
 			<div class="abt__key  third">
-				<i class="abt__key__icon--comm  abt__key__icon--discuss"></i>
-				<a href="https://duck.co/forum"><h3 class="abt__key__title">Discuss</h3></a>
+				<a href="https://duck.co/forum">
+					<i class="abt__key__icon--comm  abt__key__icon--discuss"></i>
+					<h3 class="abt__key__title">Discuss</h3>
+				</a>
 				<h6 class="abt__key__sub">Voice your thoughts!</h6>
 				<p>Our forums are a place to chat about all things DuckDuckGo. Ask questions, give feedback, and engage other users in our community.</p>
 			</div>
 			<div class="abt__key  third">
-				<i class="abt__key__icon--comm  abt__key__icon--spread"></i>
-				<a href="/spread"><h3 class="abt__key__title">Spread</h3></a>
+				<a href="/spread">
+					<i class="abt__key__icon--comm  abt__key__icon--spread"></i>
+					<h3 class="abt__key__title">Spread</h3>
+				</a>
 				<h6 class="abt__key__sub">Give the gift of DuckDuckGo!</h6>
 				<p>Everyone could use a bit more privacy. Join other DuckDuckGo fans in spreading our search engine to new users. </p>
 			</div>
