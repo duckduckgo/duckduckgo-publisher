@@ -4,6 +4,7 @@
 <: # Leaving this as two tokens as we may wish to wrap the second part in other
    # functionality some day :>
 <: lp('frontpage','The search engine that %s.', lp('frontpage',"doesn't track you")) :>
+<p><br><a href="https://next.duckduckgo.com/">See what's next!</a>
 </div>
 		
 		<div id="error_homepage"></div>
