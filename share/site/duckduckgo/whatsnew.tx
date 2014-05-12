@@ -1,12 +1,12 @@
 <div class="blk  blk--hero  blk--whatsnew  js-wns">
 	<div class="wnew  wnew--top">
-		<div class="wns-wrap  cw--wnew">
+		<div class="wns-wrap  cw--wnew  js-width-control">
 			<noscript>
 				<div class="warning"><h5><b>Sorry, this page requires javascript.</b></h5></div>
 			</noscript>
 			<span class="nav  nav--prev  nav--hero  js-wns-prev"></span>
 			<span class="nav  nav--next  nav--hero  js-wns-next"></span>
-			<div class="wns">
+			<div class="wns  js-wns-scroll">
 				<: for $answer_types -> $item { :>
 				<div class="wns__item  js-wns-item" data-type="<: $item.type :>">
 					<h2 class="wns__hd"><: r($item.title) :></h2>
