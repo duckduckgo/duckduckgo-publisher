@@ -63,7 +63,12 @@
 	<div class="cw--c">
 		<h2 class="abt__title">Our Team</h2>
 		<hr class="hr--abt" />
-		<h5 class="abt__sub">Meet the DDG core, or get aquainted with the extended team <a href="https://twitter.com/duckduckgo/team/members" target="ddg_team_twitter_list">here</a>.</h5>
+		<h5 class="abt__sub">
+			Meet the DDG core, or get aquainted with the extended team <a href="https://twitter.com/duckduckgo/team/members" target="ddg_team_twitter_list">here</a>.
+			<br/>
+			Interested in joining the team?  Check out our <a href="https://duck.co/help/company/hiring">hiring article</a>.
+		</h5>
+		
 		<ul class="team">
 			<: for $team_members -> $team { :>
 			<li class="team__m  js-team-toggle">
