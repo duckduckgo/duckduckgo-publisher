@@ -158,10 +158,33 @@
 		<h2 class="abt__title">Newsletter</h2>
 		<hr class="hr--abt" />
 		<h5 class="abt__sub">Stay up to date with DuckDuckGo, privacy, and other things you might want to know.</h5>
-		<form class="frm--newsletter" action="https://flash.duckduckgo.com/e.js" method="post">
+		<form class="frm--newsletter" action="https://flash.duckduckgo.com/e.js" method="post" name="y">
 			<input type="hidden" name="add" value="1" />
 			<input type="text" placeholder="Enter your email address" class="frm__input" name="from" />
 			<input type="submit" value="Subscribe" class="btn  btn--abt--prim" />
+			<div class="frm--newsletter__chks">
+				<label class="frm__label" for="add">
+					<input class="frm__label__chk" type="checkbox" id="add" name="add" checked="checked">
+					<span class="frm__label__txt">
+						DuckDuckGo Newsletter 
+						<span class="frm--newsletter__frq">Monthly.</span>
+					</span>
+				</label>
+				<label class="frm__label" for="add2">
+					<input class="frm__label__chk" type="checkbox" id="add2" name="add2"> 
+					<span class="frm__label__txt">
+						Beta List 
+						<span class="frm--newsletter__frq">Rare emails, &lt;1/mo.</span>
+					</span>
+				</label>
+				<label class="frm__label" for="add3">
+					<input class="frm__label__chk" type="checkbox" id="add3" name="add3"> 
+					<span class="frm__label__txt">
+						Spread List
+						<span class="frm--newsletter__frq">Rare emails, &lt;1/mo.</span>
+					</span>
+				</label>
+			</div>
 		</form>
 	</div>
 </div>
