@@ -77,9 +77,9 @@
 					<img class="team__img" src="/assets/about/team/<: $team.image :>_pxl.png" />
 					<img class="team__img--alt" src="/assets/about/team/<: $team.image :>.png" />
 				</noscript>
-				<: if $team.link {:></a><:}:>
 				<img class="team__img  js-lazyload  no-js__hide" src="" data-src="/assets/about/team/<: $team.image :>_pxl.png" />
 				<img class="team__img--alt  js-lazyload  no-js__hide" src="" data-src="/assets/about/team/<: $team.image :>.png" />
+				<: if $team.link {:></a><:}:>
 				<span class="team__name"><: $team.name :></span>
 				<span class="team__title"><: $team.title :></span>
 				<span class="team__info"><: $team.info :></span>
