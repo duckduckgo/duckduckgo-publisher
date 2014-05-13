@@ -1,5 +1,11 @@
+    <ul class="hide--mob">
+	    <li class="nav-menu__heading"><span><: l('Theme') :></span></li>
+		<li class="nav-menu__item"><a href="#" class="nav-menu__theme  nav-menu__theme--default" data-theme="" tabindex="-1"><: l('Default') :></a></li>
+		<li class="nav-menu__item"><a href="#" class="nav-menu__theme  nav-menu__theme--c" data-theme="c" tabindex="-1"><: l('Classic') :></a></li>
+		<li class="nav-menu__item"><a href="#" class="nav-menu__theme  nav-menu__theme--d" data-theme="d" tabindex="-1"><: l('Dark') :></a></li>
+    </ul>
 
-	<li class="nav-menu__heading--primary"><span><: l('Menu') :></span></li>
+	<li class="nav-menu__heading"><span><: l('Menu') :></span></li>
 	<li class="nav-menu__item"><a href="/settings/" tabindex="-1"><: l('Settings') :></a></li>
 	<li class="nav-menu__item"><a href="/about/" tabindex="-1"><: l('About') :></a></li>
 	<li class="nav-menu__item"><a href="/privacy/" tabindex="-1"><: l('Privacy') :></a></li>
