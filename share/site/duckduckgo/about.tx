@@ -34,6 +34,11 @@
 	<div class="cw--c">
 		<h2 class="abt__title">About Us</h2>
 		<hr class="hr--abt" />
+		<h5 class="abt__sub">
+			DuckDuckGo is the search engine that listens to you.
+			<br/>
+			Hack it. Tweak it. Search it.
+		</h5>
 		<div class="abt__row">
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--privacy"></i>
@@ -229,8 +234,8 @@
 				<ul>
 					<li><a href="https://duck.co/help/en_US">Help</a></li>
 					<li><a href="/privacy">Privacy</a></li>
+					<li><a href="https://duck.co/help/company/press">Press</a></li>
 					<li><a href="https://duck.co/help/company/hiring">Jobs</a></li>
-					<li><a href="https://duck-duck-go.myshopify.com" target="shopify">Swag</a></li>
 			</div>
 		</div>
 	</div>
