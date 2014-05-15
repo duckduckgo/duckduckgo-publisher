@@ -238,29 +238,40 @@ sub pages {{
 		alt_header => 1,
 		no_alt_header_text => 1,
 		answer_types => [{
+			title => '<b>DuckDuckGo</b>',
+			text => "<span>Introducing the reimagined and redesigned Duck Duck Go.</span> <span>Smarter search, less clutter, and real privacy.</span>",
+			type => "redesign",
+			link => "/?q=daft+punk+soundcloud",
+		},{
 			title => '<b>Answers</b>',
 			text => "<span>Answers to your questions from the best sources,</span> <span>developed by our open source community.</span>",
 			type => "answers",
+			link => "/?q=what+rhymes+with+duck",
 		},{
 			title => "<b>Images</b> & <b>Videos</b>",
 			text => "<span>Images and Videos are now always available.</span> <span>View them without leaving the page.</span>",
 			type => "images-videos",
+			link => "/?q=beaches+in+thailand+images",
 		},{
 			title => "Introducing <b>Places</b>",
 			text => "<span>A better place to start your search for restaurants</span> <span>or anywhere else you might decide to go.</span>",
 			type => "places",
+			link => "/?q=thai+food+in+san+francisco",
 		},{
 			title => "<b>Recipe</b> Search",
 			text => "<span>Introducing recipe search on DuckDuckGo.</span> <span>A great place to start your next meal.</span>",
 			type => "recipes",
+			link => "/?q=mozzarella+tomato+salad",
 		},{
 			title => "<b>Weather</b>",
 			text => "<span>This week's forecast may not look so good,</span> <span>but our instant answer makes it a little better.</span>",
 			type => "weather",
+			link => "/?q=weather",
 		},{
 			title => "<b>Meanings</b> & Disambiguation",
-			text => "Lorem ipsum dolor sit amet",
+			text => "<span>Searching ambigous terms can be difficult.</span> <span>We help you by explaining meanings, grouped by category.</span>",
 			type => "meanings",
+			link => "/?q=monopoly",
 		}],
 	},
 
