@@ -14,7 +14,7 @@
 			</div>
 			<div class="wns--icons">
 				<: for $answer_types -> $item { :>
-				<span class="wns__icon  ddgst-<: $item.type :>  js-wns-icon" data-type="<: $item.type :>"></span>
+				<span class="wns__icon  ddgst-<: $item.type :>  js-wns-icon" data-type="<: $item.type :>" title="<: $item.raw_title :>"></span>
 				<: } :>
 			</div>
 			<div class="wns--nav  cw--wnew  js-width-control">
