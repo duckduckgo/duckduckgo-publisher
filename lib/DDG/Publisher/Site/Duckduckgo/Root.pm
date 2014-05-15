@@ -238,6 +238,10 @@ sub pages {{
 		alt_header => 1,
 		no_alt_header_text => 1,
 		answer_types => [{
+			title => '<b>DuckDuckGo</b>',
+			text => "<span>Introducing the reimagined and redesigned Duck Duck Go.</span> <span>Smarter search, less clutter, and real privacy.</span>",
+			type => "redesign",
+		},{
 			title => '<b>Answers</b>',
 			text => "<span>Answers to your questions from the best sources,</span> <span>developed by our open source community.</span>",
 			type => "answers",
@@ -259,7 +263,7 @@ sub pages {{
 			type => "weather",
 		},{
 			title => "<b>Meanings</b> & Disambiguation",
-			text => "Lorem ipsum dolor sit amet",
+			text => "<span>Searching ambigous terms can be difficult.</span> <span>We help you by explaining meanings, grouped by category.</span>",
 			type => "meanings",
 		}],
 	},

@@ -2,7 +2,7 @@
 	<div class="wnew  wnew--top">
 		<div class="wns-wrap">
 			<noscript>
-				<div class="warning"><h5><b>Sorry, this page requires javascript.</b></h5></div>
+				<div class="msg--warning"><h5><b>Sorry, this page requires javascript.</b></h5></div>
 			</noscript>
 			<div class="wns  js-wns-scroll">
 				<: for $answer_types -> $item { :>
@@ -28,7 +28,7 @@
 			<div class="wnew__img-frame">
 				<div class="wnew__img-wrap">
 					<: for $answer_types -> $item { :>
-						<img data-src="/assets/whatsnew/<: $item.type :>.png" alt="<: $item.type :> screenshot" class="wnew__img  js-wns-img" data-type="<: $item.type :>" />
+						<img data-src="/assets/whatsnew/<: $item.type :>.jpg" data-src-lg="/assets/whatsnew/<: $item.type :>.jpg" alt="<: $item.type :> screenshot" class="wnew__img  js-wns-img" data-type="<: $item.type :>" />
 					<: } :>
 				</div>
 			</div>
