@@ -40,7 +40,7 @@
     <div id="reset_inner">
         <div style="display:block; float:right"><a class="xb" href="javascript:;" onclick="S.resetToDefaults(true)"><: l('Reset all settings to defaults') :></a></div>
         <div id="mib" style="display:inline-block">
-            <a class="xb" onclick="DDG.toggle('more_data');" title="<: l('Show details of your settings including bookmarklet') :>"><: l('Bookmarklet and settings data') :></a>
+            <a class="xb" onclick="$('#more_data').toggle();" title="<: l('Show details of your settings including bookmarklet') :>"><: l('Bookmarklet and settings data') :></a>
         </div>
     </div>
 </div>
