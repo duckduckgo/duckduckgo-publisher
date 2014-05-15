@@ -239,22 +239,22 @@ sub pages {{
 		no_alt_header_text => 1,
 		answer_types => [{
 			title => '<b>DuckDuckGo</b>',
-			text => "<span>Introducing the reimagined and redesigned Duck Duck Go.</span> <span>Smarter search, less clutter, and real privacy.</span>",
+			text => "<span>Introducing the reimagined and redesigned DuckDuckGo.</span> <span>Smarter search, less clutter, and real privacy.</span>",
 			type => "redesign",
-			link => "/?q=daft+punk+soundcloud",
+			link => "/?q=daft+punk",
 		},{
-			title => '<b>Answers</b>',
+			title => 'Smarter <b>Answers</b>',
 			text => "<span>Answers to your questions from the best sources,</span> <span>developed by our open source community.</span>",
 			type => "answers",
 			link => "/?q=what+rhymes+with+duck",
 		},{
 			title => "<b>Images</b> & <b>Videos</b>",
-			text => "<span>Images and Videos are now always available.</span> <span>View them without leaving the page.</span>",
+			text => "<span>Images and Videos are always available.</span> <span>View them without leaving the page.</span>",
 			type => "images-videos",
 			link => "/?q=beaches+in+thailand+images",
 		},{
-			title => "Introducing <b>Places</b>",
-			text => "<span>A better place to start your search for restaurants</span> <span>or anywhere else you might decide to go.</span>",
+			title => "Find <b>Places</b>",
+			text => "<span>A better place to start your search for restaurants,</span> <span>or anywhere else you might decide to go.</span>",
 			type => "places",
 			link => "/?q=thai+food+in+san+francisco",
 		},{
@@ -268,8 +268,8 @@ sub pages {{
 			type => "weather",
 			link => "/?q=weather",
 		},{
-			title => "<b>Meanings</b> & Disambiguation",
-			text => "<span>Searching ambigous terms can be difficult.</span> <span>We help you by explaining meanings, grouped by category.</span>",
+			title => "More <b>Meanings</b>",
+			text => "<span>When searching ambiguous terms, getting the meaning<br>you want can be difficult. Not any more.</span>",
 			type => "meanings",
 			link => "/?q=monopoly",
 		}],
