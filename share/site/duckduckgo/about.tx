@@ -34,26 +34,30 @@
 	<div class="cw--c">
 		<h2 class="abt__title">About Us</h2>
 		<hr class="hr--abt" />
+		<h5 class="abt__sub">
+DuckDuckGo is a search engine driven by community &ndash; you are on the team! 
+<br>We're not just servers and an algorithm. We're so much more.
+		</h5>
 		<div class="abt__row">
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--privacy"></i>
 				<h3 class="abt__key__title">Real Privacy</h3>
 				<h6 class="abt__key__sub">We don't track you.</h6>
-				<p>From health questions to funny videos, searches are a reflection of your personal life. That's why searching on DuckDuckGo is completely anonymous.</p>
+				<p>From funny videos to health and finance questions, searches are a reflection of your personal life. That's why we don't collect or share personal information.</p>
 				<a class="btn--abt  btn--abt--key" href="/privacy">Our Policy</a>
 			</div>
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--answers"></i>
 				<h3 class="abt__key__title">Smarter Search</h3>
 				<h6 class="abt__key__sub">Get answers quicker.</h6>
-				<p>We want to help you find things in fewer clicks. We do that through instant answers, !bangs, and keyboard shortcuts. You can even help us improve, through our community!</p>
+				<p>We help you get where you want to go in fewer clicks. We do that through instant answers, !bangs, and keyboard shortcuts. You can even help improve your search engine!</p>
 				<a class="btn--abt  btn--abt--key" href="http://duckduckhack.com">Get Involved</a>
 			</div>
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--clutter"></i>
 				<h3 class="abt__key__title">Less Clutter</h3>
 				<h6 class="abt__key__sub">Fewer ads and reduced spam.</h6>
-				<p>Our only focus is search. That means that our results are free of promotions for useless things like social networks.  Our design is clutter-free but you can change it if you'd like!</p>
+				<p>Our only focus is search. We don't have to promote other services like social networks in our results.  We are clutter-free and you can change the look and feel.</p>
 				<a class="btn--abt  btn--abt--key" href="/settings">Tweak Settings</a>
 			</div>
 		</div>
@@ -64,9 +68,9 @@
 		<h2 class="abt__title">Our Team</h2>
 		<hr class="hr--abt" />
 		<h5 class="abt__sub">
-			Meet the core team, or get aquainted with the extended team <a href="https://twitter.com/duckduckgo/team/members" target="ddg_team_twitter_list">here</a>.
+			Meet the core team or get acquainted with the full team <a href="https://twitter.com/duckduckgo/team/members" target="ddg_team_twitter_list">on twitter</a>.
 			<br/>
-			Interested in joining our team?  Check out our <a href="https://duck.co/help/company/hiring">hiring page</a>.
+			Interested in joining us?  Check out our <a href="https://duck.co/help/company/hiring">hiring philosophy</a>.
 		</h5>
 		
 		<ul class="team">
@@ -92,23 +96,24 @@
 	<div class="cw--c">
 		<h2 class="abt__title">Our Community</h2>
 		<hr class="hr--abt" />
-		<h5 class="abt__sub">Join the community and help us improve DuckDuckGo.</h5>
+		<h5 class="abt__sub">Our community is our extended team.
+<br>Join the community and help improve DuckDuckGo.</h5>
 		<div class="abt__row">
 			<div class="abt__key  third">
 				<a href="https://duck.co">
 					<i class="abt__key__icon--comm  abt__key__icon--improve"></i>
-					<h3 class="abt__key__title">Improve</h3>
+					<h3 class="abt__key__title">Duck.co</h3>
 				</a>
-				<h6 class="abt__key__sub">Help make DuckDuckGo even better! </h6>
-				<p> DuckDuckGo is a community-oriented search engine. You can create instant answers for DuckDuckGo or translate our pages into the languages you know.</p>
+				<h6 class="abt__key__sub">Join us on our community platform. </h6>
+				<p> Duck.co is the hub for the DuckDuckGo community. Create instant answers, translate pages into your languages and more.</p>
 			</div>
 			<div class="abt__key  third">
 				<a href="https://duck.co/forum">
 					<i class="abt__key__icon--comm  abt__key__icon--discuss"></i>
 					<h3 class="abt__key__title">Discuss</h3>
 				</a>
-				<h6 class="abt__key__sub">Voice your thoughts!</h6>
-				<p>Our forums are a place to chat about all things DuckDuckGo. Ask questions, give feedback, and engage other users in our community.</p>
+				<h6 class="abt__key__sub">Share your thoughts.</h6>
+				<p>Our forums are a place to chat about all things DuckDuckGo. Ask questions, give feedback, and engage other community members.</p>
 			</div>
 			<div class="abt__key  third">
 				<a href="/spread">
@@ -116,7 +121,7 @@
 					<h3 class="abt__key__title">Spread</h3>
 				</a>
 				<h6 class="abt__key__sub">Give the gift of DuckDuckGo!</h6>
-				<p>Everyone could use a bit more privacy. Join other DuckDuckGo fans in spreading our search engine to new users. </p>
+				<p>Everyone could use a bit more privacy. Join us and other community members in spreading DuckDuckGo to new users. </p>
 			</div>
 		</div>
 	</div>
@@ -166,9 +171,9 @@
 </div>
 <div class="abt  abt--email">
 	<div class="cw--c">
-		<h2 class="abt__title">Newsletter</h2>
+		<h2 class="abt__title">Our Newsletter</h2>
 		<hr class="hr--abt" />
-		<h5 class="abt__sub">Stay up to date with DuckDuckGo, privacy, and other things you might want to know.</h5>
+		<h5 class="abt__sub">Stay up to date with all things DuckDuckGo.</h5>
 		<form class="frm--newsletter" action="https://flash.duckduckgo.com/e.js" method="post" name="y">
 			<input type="hidden" name="add" value="1" />
 			<input type="text" placeholder="Enter your email address" class="frm__input" name="from" />
@@ -178,28 +183,28 @@
 					<input class="frm__label__chk" type="checkbox" id="add" name="add" checked="checked">
 					<span class="frm__label__txt">
 						Newsletter 
-						<span class="frm--newsletter__frq">Monthly.</span>
+						<span class="frm--newsletter__frq">Monthly</span>
 					</span>
 				</label>
 				<label class="frm__label" for="add2">
 					<input class="frm__label__chk" type="checkbox" id="add2" name="add2"> 
 					<span class="frm__label__txt">
 						Beta
-						<span class="frm--newsletter__frq">New Stuff.</span>
+						<span class="frm--newsletter__frq">New stuff</span>
 					</span>
 				</label>
 				<label class="frm__label" for="add3">
 					<input class="frm__label__chk" type="checkbox" id="add3" name="add3"> 
 					<span class="frm__label__txt">
 						Spread
-						<span class="frm--newsletter__frq">Promotions.</span>
+						<span class="frm--newsletter__frq">Promotions</span>
 					</span>
 				</label>
 				<label class="frm__label" for="add4">
 					<input class="frm__label__chk" type="checkbox" id="add4" name="add4"> 
 					<span class="frm__label__txt">
 						Privacy
-						<span class="frm--newsletter__frq">Education.</span>
+						<span class="frm--newsletter__frq">Education</span>
 					</span>
 				</label>
 			</div>
@@ -210,34 +215,37 @@
 	<div class="cw--c">
 		<div class="third">
 			<div class="nav-col">
-				<h5 class="abt--nav__heading">Get Involved:</h5>
+				<h5 class="abt--nav__heading">Community</h5>
 				<ul>
-					<li><a href="http://duckduckhack.com/" target="duckduckhack">Develop</a></li>
+					<li><a href="https://duck.co/" target="duckco">Duck.co</a></li>
+					<li><a href="http://duckduckhack.com/" target="duckduckhack">DuckDuckHack</a></li>
 					<li><a href="https://duck.co/translate">Translate</a></li>
-					<li><a href="http://duck.co/">Discuss</a></li>
+					<li><a href="https://duck.co/forum">Discuss</a></li>
 					<li><a href="https://duckduckgo.com/spread" target="ddg_spread">Spread</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="third">
 			<div class="nav-col">
-				<h5 class="abt--nav__heading">Follow Us:</h5>
+				<h5 class="abt--nav__heading">Follow</h5>
 				<ul>
 					<li><a href="https://duck.co/blog">Blog</a></li>
-					<li><a href="https://twitter.com/duckduckgo" target="twitter">Twitter</a> <a href="https://twitter.com/duckduckgo/team/members" target="twitter_team">(Team)</a></li>
-					<li><a href="http://www.reddit.com/r/duckduckgo" target="reddit">Reddit</a></li>
+					<li><a href="https://twitter.com/duckduckgo" target="twitter">@duckduckgo</a><li>
+					<li><a href="https://twitter.com/duckduckgo/team/members" target="twitter_team">Team (twitter)</a></li>
+					<li><a href="http://www.reddit.com/r/duckduckgo" target="reddit">/r/duckduckgo</a></li>
 					<li><a href="https://github.com/duckduckgo" target="github">GitHub</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="third">
 			<div class="nav-col">
-				<h5 class="abt--nav__heading">Learn More:</h5>
+				<h5 class="abt--nav__heading">More</h5>
 				<ul>
 					<li><a href="https://duck.co/help/en_US">Help</a></li>
 					<li><a href="/privacy">Privacy</a></li>
+					<li><a href="https://duck.co/help/company/press">Press</a></li>
 					<li><a href="https://duck.co/help/company/hiring">Jobs</a></li>
-					<li><a href="https://duck-duck-go.myshopify.com" target="shopify">Swag</a></li>
+					<li><a href="/traffic">Traffic</a></li>
 			</div>
 		</div>
 	</div>
@@ -245,7 +253,7 @@
 <div class="blk  blk--foot">
 	<div class="cw--c">
 		<div class="twothirds">
-			<p>© <a href="https://duckduckgo.com">DuckDuckGo, Inc.</a></p>
+			<p>© <a href="https://duckduckgo.com">DuckDuckGo</a></p>
 			<p>The search engine that doesn't track you.</p>
 		</div>
 	</div>
