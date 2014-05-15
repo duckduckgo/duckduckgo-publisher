@@ -28,7 +28,7 @@
 			<div class="wnew__img-frame">
 				<div class="wnew__img-wrap">
 					<: for $answer_types -> $item { :>
-						<img data-src="/assets/whatsnew/<: $item.type :>.jpg" data-src-lg="/assets/whatsnew/<: $item.type :>.jpg" alt="<: $item.type :> screenshot" class="wnew__img  js-wns-img" data-type="<: $item.type :>" />
+						<img data-src="/assets/whatsnew/<: $item.type :>.jpg" data-src-lg="/assets/whatsnew/<: $item.type :>.lg.jpg" alt="<: $item.type :> screenshot" class="wnew__img  js-wns-img" data-type="<: $item.type :>" />
 					<: } :>
 				</div>
 			</div>
