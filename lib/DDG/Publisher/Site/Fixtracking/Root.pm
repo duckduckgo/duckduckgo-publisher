@@ -86,7 +86,7 @@ sub pages {{
 			name => l("DuckDuckGo"),
 			image => "DDG-logo.png",	
 			bspec => 1,			
-			msie_add_ddg => 'onclick="window.external.AddSearchProvider(\'https://duckduckgo.com/opensearch_ssl.xml\');"',
+			msie_add_ddg => 'onclick="window.external.AddSearchProvider(\'https://duckduckgo.com/opensearch.xml\');"',
 			features => [
 				l("Search anonymously."), 
 				l("Links to secure (HTTPS) versions of sites where possible."),

@@ -25,6 +25,7 @@ sub pages {{
 			title => 'Founder',
 			info => 'Family guy',
 			image => 'gabriel',
+			link => 'https://twitter.com/yegg/',
 		},{
 			name => 'Caine Tighe',
 			title => 'Core Components',
@@ -33,7 +34,7 @@ sub pages {{
 			link => 'http://opensesame.st/',
 		},{
 			name => 'Zac Pappis',
-			title => 'Community',
+			title => 'Duck.co',
 			info => 'Lead Vocalist',
 			image => 'zac',
 			link => 'http://zpappis.com/',
@@ -74,7 +75,7 @@ sub pages {{
 			link => 'https://twitter.com/bsstoner',
 		},{
 			name => 'John Barrett',
-			title => 'Community',
+			title => 'Duck.co',
 			info => 'Discombobulator',
 			image => 'john',
 			link => 'https://github.com/jbarrett/',

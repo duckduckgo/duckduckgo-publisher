@@ -182,22 +182,29 @@
 				<label class="frm__label" for="add">
 					<input class="frm__label__chk" type="checkbox" id="add" name="add" checked="checked">
 					<span class="frm__label__txt">
-						DuckDuckGo Newsletter 
+						Newsletter 
 						<span class="frm--newsletter__frq">Monthly.</span>
 					</span>
 				</label>
 				<label class="frm__label" for="add2">
 					<input class="frm__label__chk" type="checkbox" id="add2" name="add2"> 
 					<span class="frm__label__txt">
-						Beta List 
-						<span class="frm--newsletter__frq">Rare emails, &lt;1/mo.</span>
+						Beta
+						<span class="frm--newsletter__frq">New Stuff.</span>
 					</span>
 				</label>
 				<label class="frm__label" for="add3">
 					<input class="frm__label__chk" type="checkbox" id="add3" name="add3"> 
 					<span class="frm__label__txt">
-						Spread List
-						<span class="frm--newsletter__frq">Rare emails, &lt;1/mo.</span>
+						Spread
+						<span class="frm--newsletter__frq">Promotions.</span>
+					</span>
+				</label>
+				<label class="frm__label" for="add4">
+					<input class="frm__label__chk" type="checkbox" id="add4" name="add4"> 
+					<span class="frm__label__txt">
+						Privacy
+						<span class="frm--newsletter__frq">Education.</span>
 					</span>
 				</label>
 			</div>
