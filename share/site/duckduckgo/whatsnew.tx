@@ -28,7 +28,9 @@
 			<div class="wnew__img-frame">
 				<div class="wnew__img-wrap">
 					<: for $answer_types -> $item { :>
+					<a class="wnew__img-link" href="<: $item.link :>" target="_<: $item.type :>">
 						<img data-src="/assets/whatsnew/<: $item.type :>.jpg" data-src-lg="/assets/whatsnew/<: $item.type :>.lg.jpg" alt="<: $item.type :> screenshot" class="wnew__img  js-wns-img" data-type="<: $item.type :>" />
+					</a>
 					<: } :>
 				</div>
 			</div>
