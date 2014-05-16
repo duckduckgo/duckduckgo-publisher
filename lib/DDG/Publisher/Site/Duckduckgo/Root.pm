@@ -9,12 +9,6 @@ with qw(
 sub path { '/' }
 
 sub pages {{
-    serp => sub {
-        no_content_internal => 1,
-		no_logo => 1,
-		has_zcm => 1,
-		has_zci => 1,
-    },
 	about => sub {
 		no_content_internal => 1,
 		no_spacer => 1,
