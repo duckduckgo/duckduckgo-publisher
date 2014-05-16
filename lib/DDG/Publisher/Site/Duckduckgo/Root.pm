@@ -244,12 +244,6 @@ sub pages {{
 			type => "redesign",
 			link => "/?q=daft+punk",
 		},{
-			title => 'Smarter <b>Answers</b>',
-			raw_title => 'Smarter Answers',
-			text => "<span>Answers to your questions from the best sources,</span> <span>developed by our open source community.</span>",
-			type => "answers",
-			link => "/?q=what+rhymes+with+duck",
-		},{
 			title => "<b>Images</b> & <b>Videos</b>",
 			raw_title => 'Images & Videos',
 			text => "<span>Images and Videos are always available.</span> <span>View them without leaving the page.</span>",
@@ -279,6 +273,12 @@ sub pages {{
 			text => "<span>When searching ambiguous terms, getting the meaning<br>you want can be difficult. Not any more.</span>",
 			type => "meanings",
 			link => "/?q=monopoly",
+		},{
+			title => 'Smarter <b>Answers</b>',
+			raw_title => 'Smarter Answers',
+			text => "<span>Answers to your questions from the best sources,</span> <span>developed by our open source community.</span>",
+			type => "answers",
+			link => "/?q=what+rhymes+with+duck",
 		}],
 	},
 
