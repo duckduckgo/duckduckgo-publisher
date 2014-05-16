@@ -8,6 +8,7 @@ use IO::All -utf8;
 use HTML::Packer;
 use String::ProgressBar;
 use JSON;
+use File::Path qw(make_path);
 
 =attr site_classes
 
@@ -45,6 +46,21 @@ has extra_template_dirs => (
 sub _build_extra_template_dirs {[qw(
 	templates
 )]}
+
+
+has cache_dir => (
+    is => 'ro',
+    lazy => 1,
+    builder => 1,
+);
+
+
+sub _build_cache_dir {
+    my $dir = $ENV{DDG_PUBLISHER_CACHE_DIR} ? $ENV{DDG_PUBLISHER_CACHE_DIR} : $ENV{HOME}."/publisher";
+    make_path($dir) unless -d $dir;
+    return $dir;
+}
+
 
 =attr sites
 

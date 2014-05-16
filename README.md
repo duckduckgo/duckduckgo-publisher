@@ -1,3 +1,5 @@
+# DuckDuckGo Publisher [![Build Status](https://travis-ci.org/duckduckgo/duckduckgo-publisher.png?branch=master)](https://travis-ci.org/duckduckgo/duckduckgo-publisher)
+
 # Installation
 
 You require the following libraries of https://duckpan.org/
