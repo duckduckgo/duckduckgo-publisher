@@ -40,9 +40,9 @@
 	<: if $no_wrapper { :>
 		<: if $homepage { :>
 				</div> <!-- cw -->
-			 </div> <!-- content_homepage //-->			 
-		  </div> <!-- content_wrapper_homepage //-->	
-		  <: include "footer_homepage.tx" :>		  
+			 </div> <!-- content_homepage //-->
+		  </div> <!-- content_wrapper_homepage //-->
+		  <: include "footer_homepage.tx" :>
 		<: } :>
 	    
 	<: } else { :>
@@ -51,11 +51,11 @@
 			</div> <!-- content_internal //-->
 		 </div> <!-- content //-->
 		 <: } :>
-		<: include "footer.tx" :>		 
+		<: include "footer.tx" :>
+		</div> <!-- content_wrapper //-->
 	<: } :>
 	    <div id="add_to_browser" class="modal grp_modal"></div>
 		<div id="add_to_browser_homepage" class="modal grp_modal"></div>
-		</div> <!-- content_wrapper //-->	  
     </div> <!-- site-wrapper -->
   </body>
 </html>
