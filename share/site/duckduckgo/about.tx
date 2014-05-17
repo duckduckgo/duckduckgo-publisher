@@ -68,15 +68,15 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 		<h2 class="abt__title">Our Team</h2>
 		<hr class="hr--abt" />
 		<h5 class="abt__sub">
-			Meet the core team or get acquainted with the full team <a href="https://twitter.com/duckduckgo/team/members" target="ddg_team_twitter_list">on twitter</a>.
+			Meet the DuckDuckGo core team and check out our full team <a href="https://twitter.com/duckduckgo/team/members">on twitter</a>.
 			<br/>
-			Interested in joining us?  Check out our <a href="https://duck.co/help/company/hiring">hiring philosophy</a>.
+			Interested in working with us?  Check out our <a href="https://duck.co/help/company/hiring">hiring philosophy</a>.
 		</h5>
 		
 		<ul class="team">
 			<: for $team_members -> $team { :>
 			<li class="team__m  js-team-toggle">
-				<: if $team.link {:><a href="<: $team.link :>" target="<: $team.image :>"><:}:>
+				<: if $team.link {:><a href="<: $team.link :>"><:}:>
 				<noscript>
 					<img class="team__img" src="/assets/about/team/<: $team.image :>_pxl.png" />
 					<img class="team__img--alt" src="/assets/about/team/<: $team.image :>.png" />
@@ -104,7 +104,7 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 					<i class="abt__key__icon--comm  abt__key__icon--improve"></i>
 					<h3 class="abt__key__title">Duck.co</h3>
 				</a>
-				<h6 class="abt__key__sub">Join us on our community platform. </h6>
+				<h6 class="abt__key__sub">Improve your search engine. </h6>
 				<p> Duck.co is the hub for the DuckDuckGo community. Create instant answers, translate pages into your languages and more.</p>
 			</div>
 			<div class="abt__key  third">
@@ -121,7 +121,7 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 					<h3 class="abt__key__title">Spread</h3>
 				</a>
 				<h6 class="abt__key__sub">Give the gift of DuckDuckGo!</h6>
-				<p>Everyone could use a bit more privacy. Join us and other community members in spreading DuckDuckGo to new users. </p>
+				<p>Everyone could use real privacy. Join us and other community members in spreading DuckDuckGo to new users. </p>
 			</div>
 		</div>
 	</div>
@@ -131,12 +131,12 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 	<div class="cw--c">
 		<ul class="abt--news__list">
 			<: for $news_articles -> $news { :>
-			<li class="abt--news__list__item  js-news-source" data-source="<: $news.source :>"><a href="<: $news.source_link :>" target="_<: $news.source :>">
+			<li class="abt--news__list__item  js-news-source" data-source="<: $news.source :>"><a href="<: $news.source_link :>">
 				<noscript><img src="assets/about/news/ogo_<: $news.source :>.png" class="abt--news__img--<: $news.source :>" alt="<: $news.source_full :>" /></noscript>
 				<img src="" data-src="assets/about/news/logo_<: $news.source :>@2x.png" class="abt--news__img--<: $news.source :>  js-lazyload  no-js__hide" alt="<: $news.source_full :>" />
 			</a></li>
 			<: } :>
-			<li class="abt--news__list__item  js-news-source" data-source="time"><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html" target="_time">
+			<li class="abt--news__list__item  js-news-source" data-source="time"><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html">
 				<noscript><img src="assets/about/news/logo_time.png" alt="TIME" class="abt--news__img--time" /></noscript>
 				<img src="" data-src="assets/about/news/logo_time@2x.png" alt="TIME" class="abt--news__img--time  js-lazyload  no-js__hide" />
 			</a></li>
@@ -217,11 +217,11 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 			<div class="nav-col">
 				<h5 class="abt--nav__heading">Community</h5>
 				<ul>
-					<li><a href="https://duck.co/" target="duckco">Duck.co</a></li>
-					<li><a href="http://duckduckhack.com/" target="duckduckhack">DuckDuckHack</a></li>
+					<li><a href="https://duck.co/">Duck.co</a></li>
+					<li><a href="http://duckduckhack.com/">DuckDuckHack</a></li>
 					<li><a href="https://duck.co/translate">Translate</a></li>
 					<li><a href="https://duck.co/forum">Discuss</a></li>
-					<li><a href="https://duckduckgo.com/spread" target="ddg_spread">Spread</a></li>
+					<li><a href="https://duckduckgo.com/spread">Spread</a></li>
 				</ul>
 			</div>
 		</div>
@@ -230,10 +230,10 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 				<h5 class="abt--nav__heading">Follow</h5>
 				<ul>
 					<li><a href="https://duck.co/blog">Blog</a></li>
-					<li><a href="https://twitter.com/duckduckgo" target="twitter">@duckduckgo</a><li>
-					<li><a href="https://twitter.com/duckduckgo/team/members" target="twitter_team">Team (twitter)</a></li>
-					<li><a href="http://www.reddit.com/r/duckduckgo" target="reddit">/r/duckduckgo</a></li>
-					<li><a href="https://github.com/duckduckgo" target="github">GitHub</a></li>
+					<li><a href="https://twitter.com/duckduckgo">@duckduckgo</a><li>
+					<li><a href="https://twitter.com/duckduckgo/team/members">Team (twitter)</a></li>
+					<li><a href="http://www.reddit.com/r/duckduckgo">/r/duckduckgo</a></li>
+					<li><a href="https://github.com/duckduckgo">GitHub</a></li>
 				</ul>
 			</div>
 		</div>
@@ -241,7 +241,7 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 			<div class="nav-col">
 				<h5 class="abt--nav__heading">More</h5>
 				<ul>
-					<li><a href="https://duck.co/help/en_US">Help</a></li>
+					<li><a href="https://duck.co/help/">Help</a></li>
 					<li><a href="/privacy">Privacy</a></li>
 					<li><a href="https://duck.co/help/company/press">Press</a></li>
 					<li><a href="https://duck.co/help/company/hiring">Jobs</a></li>
