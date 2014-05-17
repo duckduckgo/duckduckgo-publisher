@@ -63,6 +63,12 @@
 	</div>
 	
 	<div class="fb-step  fb-step--active">
+		<i class="fb-step__icon  ddgi-dax"></i>
+		<a href="https://dukgo.com/feedback/partner/" class="fb-step__body  fb-step__body--btn"><: l("I'd like to learn about partnerships with DuckDuckGo.") :></a>
+		<i class="fb-step__arrow  ddgi-arrow-right"></i>
+	</div>
+	
+	<div class="fb-step  fb-step--active">
 		<i class="fb-step__icon  ddgi-sad-search"></i>
 		<a href="https://dukgo.com/feedback/relevancy/" class="fb-step__body  fb-step__body--btn"><: l("I'd like to report bad relevancy.") :></a>
 		<i class="fb-step__arrow  ddgi-arrow-right"></i>
@@ -70,7 +76,7 @@
 	
 	<div class="fb-step  fb-step--active">
 		<i class="fb-step__icon  ddgi-bang"></i>
-		<a href="https://dukgo.com/feedback/bang/" class="fb-step__body  fb-step__body--btn"><: l("I'd like to submit a new !bang or report a broken !bang.") :></a>
+		<a href="https://dukgo.com/feedback/bang/" class="fb-step__body  fb-step__body--btn"><: l("I'd like to submit a new !bang.") :></a>
 		<i class="fb-step__arrow  ddgi-arrow-right"></i>
 	</div>
 	
