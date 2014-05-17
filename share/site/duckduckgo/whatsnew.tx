@@ -8,8 +8,14 @@
 				<: for $answer_types -> $item { :>
 				<div class="wns__item  js-wns-item" data-type="<: $item.type :>">
 					<h2 class="wns__hd"><: r($item.title) :></h2>
+					<: if $item.hero_form { :>
+						<form class="search  search--hero  js-search-hero-init" name="x" action="/">
+							<input type="text" name="q" tabindex="1" autocomplete="off" class="search__input  js-search-input" placeholder="<: l('Search DuckDuckGo'):>..." />
+							<input class="search__button--hero  js-search-button" type="submit" tabindex="2" value="S" />
+							<input class="search__clear  empty  js-search-clear" type="button" tabindex="3" value="X" />
+						</form>
+					<: } :>
 					<: if $item.text { :><h4 class="wns__sb"><: r($item.text) :></h4><: } :>
-					<: if $item.hero_form { :><: include "search_form_hero.tx" :><: } :>
 				</div>
 				<: } :>
 			</div>
