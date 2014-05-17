@@ -242,13 +242,19 @@ sub pages {{
 			raw_title => 'Images & Videos',
 			text => "<span>Images and Videos are always available.</span> <span>View them without leaving the page.</span>",
 			type => "images-videos",
-			link => "/?q=beaches+in+thailand+images",
+			link => "/?q=images+beaches+in+thailand",
 		},{
 			title => "Find <b>Places</b>",
 			raw_title => 'Find Places',
 			text => "<span>A better place to start your search for restaurants,</span> <span>or anywhere else you might decide to go.</span>",
 			type => "places",
 			link => "/?q=thai+food+in+san+francisco",
+		},{
+			title => "More <b>Meanings</b>",
+			raw_title => 'More Meanings',
+			text => "<span>When searching ambiguous terms, getting the meaning<br>you want can be difficult. Not any more.</span>",
+			type => "meanings",
+			link => "/?q=orange",
 		},{
 			title => "<b>Recipe</b> Search",
 			raw_title => 'Recipe Search',
@@ -261,12 +267,6 @@ sub pages {{
 			text => "<span>This week's forecast may not look so good,</span> <span>but our instant answer makes it a little better.</span>",
 			type => "weather",
 			link => "/?q=weather",
-		},{
-			title => "More <b>Meanings</b>",
-			raw_title => 'More Meanings',
-			text => "<span>When searching ambiguous terms, getting the meaning<br>you want can be difficult. Not any more.</span>",
-			type => "meanings",
-			link => "/?q=monopoly",
 		},{
 			title => 'Smarter <b>Answers</b>',
 			raw_title => 'Smarter Answers',
