@@ -278,6 +278,12 @@ sub pages {{
 			text => "<span>Answers to your questions from the best sources,</span> <span>developed by our open source community.</span>",
 			type => "answers",
 			link => "/?q=what+rhymes+with+duck",
+		},{
+			title => '<b>Try DuckDuckGo</b>',
+			raw_title => 'Try DuckDuckGo',
+			hero_form => 1,
+			type => "home",
+			link => "/",
 		}],
 	},
 

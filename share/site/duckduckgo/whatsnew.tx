@@ -8,7 +8,8 @@
 				<: for $answer_types -> $item { :>
 				<div class="wns__item  js-wns-item" data-type="<: $item.type :>">
 					<h2 class="wns__hd"><: r($item.title) :></h2>
-					<h4 class="wns__sb"><: r($item.text) :></h4>
+					<: if $item.text { :><h4 class="wns__sb"><: r($item.text) :></h4><: } :>
+					<: if $item.hero_form { :><: include "search_form_hero.tx" :><: } :>
 				</div>
 				<: } :>
 			</div>
