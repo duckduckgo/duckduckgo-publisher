@@ -14,6 +14,8 @@ sub pages {{
 		no_spacer => 1,
 		no_cw => 1,
 		alt_header => 1,
+		menu_show_press => 1,
+		menu_hide_themes => 1,
 		team_members => [{
 			name => 'Gabriel Weinberg',
 			title => 'Founder',
@@ -231,6 +233,9 @@ sub pages {{
 		no_cw => 1,
 		alt_header => 1,
 		no_alt_header_text => 1,
+		menu_show_press => 1,
+		menu_hide_settings => 1,
+		menu_hide_themes => 1,
 		answer_types => [{
 			title => '<b>DuckDuckGo</b>',
 			raw_title => 'DuckDuckGo Redesigned', 
