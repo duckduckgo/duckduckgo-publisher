@@ -14,6 +14,7 @@ sub pages {{
 		no_spacer => 1,
 		no_cw => 1,
 		alt_header => 1,
+		alt_header_text => 1,
 		menu_show_press => 1,
 		menu_hide_themes => 1,
 		team_members => [{
@@ -232,7 +233,6 @@ sub pages {{
 		no_spacer => 1,
 		no_cw => 1,
 		alt_header => 1,
-		no_alt_header_text => 1,
 		menu_show_press => 1,
 		menu_hide_settings => 1,
 		menu_hide_themes => 1,

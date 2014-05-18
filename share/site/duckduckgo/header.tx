@@ -22,7 +22,7 @@
 <div class="header-wrap--alt">
 	<div class="header--alt  cw  js-show-header">
 		<i class="header--alt__loupe"></i>
-		<: if !$no_alt_header_text { :><span class="header--alt__text"><: l('Try a search!') :></span><: } :>
+		<: if $alt_header_text { :><span class="header--alt__text"><: l('Try a search!') :></span><: } :>
 	</div>
 	<div class="header--aside  js-trigger-main-menu">
 		 <a class="header__button--menu  header__button--alt-menu" tabindex="5" href="#menu">&#8694;</a>
