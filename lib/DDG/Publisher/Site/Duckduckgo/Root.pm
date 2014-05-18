@@ -91,28 +91,28 @@ sub pages {{
 		},{
 			date => 'September 25, 2008',
 			title => 'Launch',
-			snippet => 'Soft-launch on Hacker News.',
+			snippet => 'Within the year, after plenty of hard work and preparation, DuckDuckGO was announed to the Hacker News community. We survived!',
 			type => 'news',
 		},{
 			date => 'July 21, 2010',
 			title => 'Duck.co',
-			snippet => 'Launch of DuckDuckGo community site.',
+			snippet => 'For years, DuckDuckGo looked to its community for support. Duck.co was born from that community\'s need for a centralized place to swap ideas.',
 			type => 'news',
 		},{
 			date => 'January 11, 2011',
-			title => 'Billboard',
-			snippet => 'Billboard in San Francisco saying "Google tracks you. We don\'t."',
+			title => 'The Billboard',
+			snippet => 'DuckDuckGo delivered a message in the heart of the tech world: a billboard in San Francisco that reads "Google tracks you. We don\'t."',
 			type => 'news',
 		},{
 			date => 'February 26, 2011',
 			title => '2011 Open-Source Donations',
-			snippet => 'Donated $1,909 to nginx, FreeBSD, Tor, Clamwin, Taho-LAFS and OpenSSH.',
+			snippet => 'DuckDuckGo relies on a lot of great open source projects to keep our gears spinning. In 2011, we decided to start paying some of that love back to the open source community, donating to nginx, FreeBSD, Tor, Clamwin, Taho-LAFS and OpenSSH.',
 			type => 'internal',
 			subtype => 'foss',
 		},{
 			date => 'October 13, 2011',
-			title => 'Funding',
-			snippet => 'Funding from Union Square Ventures.',
+			title => 'Series "A" Funding',
+			snippet => 'Three & a half years in, DuckDuckGo secures funding from Union Square Ventures, a group that shares the same vision of smarter search and real privacy.',
 			type => 'internal',
 		},{
 			date => 'November 1, 2011',
