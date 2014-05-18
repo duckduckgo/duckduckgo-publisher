@@ -79,9 +79,14 @@ sub pages {{
 		}],
 		
 		ddg_events => [{
+			date => 'October 29, 2007',
+			title => 'The Beginning',
+			snippet => 'It all started with the name DuckDuckGo and an idea to make answers easier to find.',
+			type => 'internal',
+		},{
 			date => 'February 29, 2008',
 			title => 'Incorporation',
-			snippet => 'Officially became a company on a leap day!',
+			snippet => 'In early 2008, Gabriel emerged from his basement with a plan. It was soon made official when DuckDuckGo was incorporated.',
 			type => 'internal',
 		},{
 			date => 'September 25, 2008',
