@@ -6,7 +6,7 @@
 			<div class="event  event--first  js-event" data-text="START" data-date="January 1, 2008">
 				<h1 class="abt__title--hero">Our Vision is Simple.</h1>
 				<div class="abt--hero__text">
-					<h5 class="abt__sub--hero">To give you great search results without tracking you.</h5>
+					<h5 class="abt__sub--hero">A community-driven search engine that offers smarter results without tracking you.</h5>
 				</div>
 			</div>
 			<: for $ddg_events -> $event { :>
