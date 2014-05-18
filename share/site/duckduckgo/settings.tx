@@ -135,7 +135,7 @@
             </p>
 
             <p>
-            <a class="xb" onclick="DDG.toggle('whatisthis');"><: l('What is this?') :></a>
+            <a class="xb" onclick="$('#whatisthis').toggle();"><: l('What is this?') :></a>
             </p>
             <div id="whatisthis" style="display:none">
 
@@ -221,7 +221,7 @@
               
 
               <p style="line-height:3;vertical-align:bottom">
-              <a class="xb" onclick="DDG.toggle('whatisthis')"><: l('hide this FAQ') :></a>
+              <a class="xb" onclick="$('#whatisthis').toggle()"><: l('hide this FAQ') :></a>
               </p>
 
               <p style="line-height:2;vertical-align:bottom;font-size:smaller">
