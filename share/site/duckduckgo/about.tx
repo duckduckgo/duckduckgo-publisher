@@ -246,14 +246,6 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 		</div>
 	</div>
 </div>
-<div class="blk  blk--foot">
-	<div class="cw--c">
-		<div class="twothirds">
-			<p>© <a href="https://duckduckgo.com">DuckDuckGo</a></p>
-			<p>The search engine that doesn't track you.</p>
-		</div>
-	</div>
-</div>
 <div id="dax-video" class="popover">
 	<a href="#_" class="popover__esc"></a>
 	<div class="popover__wrap  popover__wrap--video">
