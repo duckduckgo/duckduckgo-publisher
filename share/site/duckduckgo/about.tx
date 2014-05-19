@@ -1,10 +1,9 @@
 <div class="abt  abt--hero  js-event-slider">
-	<div class="logo--dax  ddg-logo--hero"></div>
 	<div class="event-pane-wrap">
 		<div class="event-pane  js-slider">
 			<span class="event-nav  nav  nav--prev  js-event-prev"></span>
 			<span class="event-nav  nav  nav--next  js-event-next"></span>
-			<div class="event  event--first  js-event" data-text="START" data-date="January 1, 2008">
+			<div class="event  event--first  js-event" data-text="START">
 				<h1 class="abt__title--hero">Our Vision is Simple.</h1>
 				<div class="abt--hero__text">
 					<h5 class="abt__sub--hero">To give you great search results without tracking you.</h5>
@@ -19,16 +18,13 @@
 			</div>
 			<: } :>
 		</div>
-		<div class="event-types">
-			<span class="circle  event-types__icon  ddgst-news  js-event-filter" title="News" data-type="news"></span>
-			<span class="circle  event-types__icon  ddgst-traffic  js-event-filter" title="Traffic" data-type="traffic"></span>
-			<span class="circle  event-types__icon  ddgst-company  js-event-filter" title="Company" data-type="company"></span>
-		</div>
 	</div>
 	<div class="abt__timeline  event-timeline-wrap">
 		<div class="event-timeline  js-timeline"></div>
 	</div>
-	<div class="event-date  js-date-text"></div>
+	<div class="event-timeline-wrap--yr">
+		<div class="event-timeline  event-timeline--yr  js-timeline-yr"></div>
+	</div>
 </div>
 <div class="abt  abt--alt  abt--keys">
 	<div class="cw--c">
