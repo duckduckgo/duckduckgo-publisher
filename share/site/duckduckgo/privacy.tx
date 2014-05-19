@@ -156,13 +156,5 @@ privacy policy. If you have any questions or concerns,
 please <a href="/feedback">submit
 feedback</a>.</p>
 
-	</div> <!-- .cw--c -->
-</div> <!-- .blk.blk--alt -->
-<div class="blk  blk--foot">
-	<div class="cw--c">
-		<div class="twothirds">
-			<p>© <a href="https://duckduckgo.com">DuckDuckGo</a></p>
-			<p>The search engine that doesn't track you.</p>
-		</div>
-	</div>
-</div>
+	</div> <!-- .cw--c //-->
+</div> <!-- .blk.blk--alt //-->

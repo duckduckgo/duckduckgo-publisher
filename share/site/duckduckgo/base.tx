@@ -51,6 +51,7 @@
 			</div> <!-- content_internal //-->
 		 </div> <!-- content //-->
 		 <: } :>
+		<: if $copyright_footer { include "footer_copyright.tx" } :>
 		<: include "footer.tx" :>
 		</div> <!-- content_wrapper //-->
 	<: } :>

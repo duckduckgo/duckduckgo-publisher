@@ -10,6 +10,7 @@ sub path { '/' }
 
 sub pages {{
 	about => sub {
+		copyright_footer => 1,
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
@@ -311,6 +312,7 @@ sub pages {{
 		no_logo => 1,
 	},
 	privacy => sub {
+		copyright_footer => 1,
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
