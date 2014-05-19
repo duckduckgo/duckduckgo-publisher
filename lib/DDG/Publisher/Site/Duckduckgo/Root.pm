@@ -273,7 +273,7 @@ sub pages {{
 		},{
 			title => "More <b>Meanings</b>",
 			raw_title => 'More Meanings',
-			text => "<span>When searching ambiguous terms, getting the meaning</span> <span>you want can be difficult. Not any more.</span>",
+			text => "<span>When searching ambiguous terms, getting the meaning</span> <span>you want can be difficult. Not anymore.</span>",
 			type => "meanings",
 			link => "/?q=orange",
 		},{
