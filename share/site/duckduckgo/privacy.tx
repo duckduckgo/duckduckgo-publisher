@@ -1,13 +1,16 @@
 <div class="blk  blk--hero">
 	<div class="cw--c"><a class="anchor" name="top"></a>
 		<div class="logo--dax" title="DuckDuckGo"></div>
-		<h1 class="tx-lt"><: l("We don't collect or share personal information.") :></h1>
-		<h5 class="tx-lt"><: l("That's our privacy policy in a nutshell.") :></h5>
+		<div class="blk__text">
+			<h1 class="hd-hr"><: l("We don't collect or share personal information.") :></h1>
+			<h5 class="hd-hr"><: l("That's our privacy policy in a nutshell.") :></h5>
+		</div>
 	</div>
 </div>
 <div class="blk  blk--alt">
 	<div class="cw--c">
-<div class="clu msg--info">Check out our illustrated search privacy guides at <a href="http://donttrack.us/">donttrack.us</a> and <a href="http://dontbubble.us/">dontbubble.us</a>.</div>
+		<div class="blk__text">
+<div class="msg--info">Check out our illustrated search privacy guides at <a href="http://donttrack.us/">donttrack.us</a> and <a href="http://dontbubble.us/">dontbubble.us</a>.</div>
 
 <p><b><a href="https://duckduckgo.com/?q=&t=i">DuckDuckGo</a> does not collect or share personal information.</b> That is our privacy policy in a nutshell. The rest of this page tries to explain why you should care.</p>
 <ul>
@@ -29,7 +32,9 @@
 
 
 <a class="anchor" name="s1"></a>
-<h3><b>Why You Should Care - Search Leakage</b> &nbsp; <span class="clu">[<a href="#top">top</a>]</span></h3>
+<h2 class="hd-lg">Why You Should Care</h2> 
+<hr class="hr"/>
+<h3 class="hd-md">Search Leakage &nbsp; <span class="anchor--link">[<a href="#top">top</a>]</span></h3>
 
 <p>At other search engines, when you do a search and then click on a link, your search terms are sent to that site you clicked on (in the <a href="/HTTP_referrer">HTTP referrer header</a>). We call this sharing of personal information "search leakage."</p>
 
@@ -55,7 +60,7 @@
 <p>Because of these drawbacks in HTTPS, POST and proxies we decided to take the redirect approach to combat search leakage. However, we leave the choice up to you. You can deviate from the default on our <a href="/settings">settings page</a> by toggling the redirect or address bar settings. You can also use our <a href="https://duckduckgo.com/">encrypted version</a>.</p>
 
 <a class="anchor" name="s2"></a>
-<h3><b>Why You Should Care - Search History</b>   &nbsp; <span class="clu">[<a href="#top">top</a>]</span></h3>
+<h3 class="hd-md">Search History   &nbsp; <span class="anchor--link">[<a href="#top">top</a>]</span></h3>
 
 <p>Other search engines save your search history. Usually your searches are saved along with the date and time of the search, some information about your computer (e.g. your <a href="/IP_Address">IP address</a>, <a href="/User_agent">User agent</a> and often a unique identifier stored in a <a href="/HTTP_cookie">browser cookie</a>), and if you are logged in, your account information (e.g. name and email address).</p>
 
@@ -79,7 +84,9 @@
 
 
 <a class="anchor" name="s3"></a>
-<h3><b>Information Not Collected</b>   &nbsp; <span class="clu">[<a href="#top">top</a>]</span></h3>
+<h2 class="hd-lg">Information</h2> 
+<hr class="hr"/>
+<h3 class="hd-md">Information Not Collected   &nbsp; <span class="anchor--link">[<a href="#top">top</a>]</span></h3>
 
 <p>When you search at DuckDuckGo, we don't know who you are and there is no way to tie your searches together.</p>
 
@@ -103,7 +110,7 @@ searches, we do not log (store) it at all. This is a very unusual practice, but 
 
 
 <a class="anchor" name="s4"></a>
-<h3><b>Information Collected</b>   &nbsp; <span class="clu">[<a href="#top">top</a>]</span></h3>
+<h3 class="hd-md">Information Collected   &nbsp; <span class="anchor--link">[<a href="#top">top</a>]</span></h3>
 
 <p>At DuckDuckGo, no cookies are used by default. If you have changed any <a href="/settings">settings</a>, then cookies are used to store those changes. However, in that case, they are not stored in a personally identifiable way. For example, the large size setting is stored as 's=l'; no unique identifier is in there. Furthermore, if you prefer not to use cookies to store settings, you can use <a href="/params">URL parameters</a> instead.</p>
 
@@ -119,7 +126,7 @@ searches, we do not log (store) it at all. This is a very unusual practice, but 
 
 
 <a class="anchor" name="s5"></a>
-<h3><b>Information Shared</b>   &nbsp; <span class="clu">[<a href="#top">top</a>]</span></h3>
+<h3 class="hd-md">Information Shared   &nbsp; <span class="anchor--link">[<a href="#top">top</a>]</span></h3>
 
 <p>If you turn redirects off in the <a href="/settings">settings</a> and you don't either turn POST on or use our <a href="https://duckduckgo.com/">encrypted site</a>, then your search could leak to sites you click on. Yet as explained above, this does not happen by default.</p>
 
@@ -128,7 +135,9 @@ searches, we do not log (store) it at all. This is a very unusual practice, but 
 
 
 <a class="anchor" name="change4"></a>
-<h3><b>Other Search Engines</b>   &nbsp; <span class="clu">[<a href="#top">top</a>]</span></h3>
+<h2 class="hd-lg">Other</h2> 
+<hr class="hr"/>
+<h3 class="hd-md">Other Search Engines   &nbsp; <span class="anchor--link">[<a href="#top">top</a>]</span></h3>
 
 <p>If you care about search privacy, you might also want to check out these other search engines that take it seriously by default.</p>
 <ul>
@@ -138,7 +147,7 @@ searches, we do not log (store) it at all. This is a very unusual practice, but 
 <p>Each does things a bit differently in terms of privacy and very differently in terms of results. And not all go as far as DuckDuckGo in some aspects. However, none store your personal information by default, which make them all pretty safe in our opinion.</p>
 
 
-<h3><b>Updates</b>   &nbsp; <span class="clu">[<a href="#top">top</a>]</span></h3>
+<h3 class="hd-md">Updates  &nbsp; <span class="anchor--link">[<a href="#top">top</a>]</span></h3>
 
 <p>If this policy is substantively updated,
 we will update the text of this page and provide notice to you
@@ -147,7 +156,7 @@ writing '(Updated)' in red next to the link to this page (in the footer) for a p
 of at least 30 days. 
 
 
-<h3><b>Feedback</b>  &nbsp; <span class="clu">[<a href="#top">top</a>]</span></h3>
+<h3 class="hd-md">Feedback  &nbsp; <span class="anchor--link">[<a href="#top">top</a>]</span></h3>
 
 <p>I
 (<a href="/?q=Gabriel+Weinberg">Gabriel
@@ -155,6 +164,6 @@ Weinberg</a>) am the founder of Duck Duck Go and personally wrote this
 privacy policy. If you have any questions or concerns,
 please <a href="/feedback">submit
 feedback</a>.</p>
-
+		</div> <!-- .blk__text //-->
 	</div> <!-- .cw--c //-->
 </div> <!-- .blk.blk--alt //-->
