@@ -13,7 +13,7 @@
 <: } :>
 <: if $f.filebase != "about" { :>
 	<li class="nav-menu__item"><a href="/about/" tabindex="-1"><: l('About') :></a></li>
-<: } if $f.filebase != "privacy" :>
+<: } if $f.filebase != "privacy" { :>
 	<li class="nav-menu__item"><a href="/privacy/" tabindex="-1"><: l('Privacy') :></a></li>
 <: } if $menu_show_press { :>
 	<li class="nav-menu__item"><a href="https://duck.co/help/company/press" tabindex="-1"><: l('Press') :></a></li>
