@@ -229,10 +229,10 @@ sub pages {{
 		}]
 	},
 	bang => sub {},
-	goodies => sub {
-		goodies => 1,
-		no_content_internal => 1,
-	},
+#	goodies => sub {
+#		goodies => 1,
+#		no_content_internal => 1,
+#	},
 	index => sub {
 		no_wrapper => 1,
 		homepage => 1,
