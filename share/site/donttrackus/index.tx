@@ -161,9 +161,6 @@
 
 <div style="margin-top:10px;"></div>
 <h4><: l('Use %s instead.',r('<a href="https://duckduckgo.com/">DuckDuckGo</a>')) :>
-	<script type="text/JavaScript">
-	nib(0,'','&nbsp;','.');
-	</script>
 </h4>
 <div style="margin-top:10px;"></div>
 <h4><: lp('privacyis',"Privacy is just %s of %s reasons why it's awesome.",r('<a href="https://duckduckgo.com/about.html">') ~ lp('privacyis','one') ~ r('</a>'),r('<a href="https://duckduckgo.com/goodies/">') ~ lp('privacyis','many') ~ r('</a>')) :></h4>
