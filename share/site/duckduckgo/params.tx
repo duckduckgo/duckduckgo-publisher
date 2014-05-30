@@ -33,16 +33,6 @@ These parameters are intended for individual use. They can also be used in conju
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('Safe Search:') :>
-</td>
-<td class="ctd">
-<: l('%s for %s','kp = 1',lp('setting','On')) :>;
-<: l('%s for %s','kp = -1',lp('setting','Off')) :>.
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
 <: l('Region:') :>
 </td>
 <td class="ctd">
@@ -122,17 +112,17 @@ kl =
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('Meanings (disambig):') :>
+<: l('Safe Search:') :>
 </td>
 <td class="ctd">
-<: l('%s for %s','ki = 1',lp('setting','On')) :>;
-<: l('%s for %s','-1',lp('setting','Off')) :>.
+<: l('%s for %s','kp = 1',lp('setting','On')) :>;
+<: l('%s for %s','kp = -1',lp('setting','Off')) :>.
 </td>
 </tr>
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('0-click box:') :>
+<: l('Open Instant Answers:') :>
 </td>
 <td class="ctd">
 <: l('%s for %s','kz = 1',lp('setting','On')) :>;
@@ -176,16 +166,21 @@ kf =
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('Embeds:') :>
+<: l('Full URLs:') :>
 </td>
 <td class="ctd">
-kb =
-<ul>
-<li><: l('%s for %s','d','videos when asked, thumbnails otherwise') :>
-<li><: l('%s for %s','e','everything') :>
-<li><: l('%s for %s','t','just thumbnails') :>
-<li><: l('%s for %s','v','just videos') :>
-<li><: l('%s for %s','n','none') :>
+<: l('%s for %s','kaf = 1',lp('setting','On')) :>;
+<: l('%s for %s','-1',lp('setting','Off')) :>.
+</td>
+</tr>
+
+<tr>
+<td class="ctd" style="padding-right:15px;" align="right" valign="top">
+<: l('Auto-suggest:') :>
+</td>
+<td class="ctd">
+<: l('%s for %s','kac = 1',lp('setting','On')) :>;
+<: l('%s for %s','-1',lp('setting','Off')) :>.
 </td>
 </tr>
 
@@ -203,16 +198,6 @@ kb =
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('Address bar:') :>
-</td>
-<td class="ctd">
-<: l('%s for %s','kg = g','GET') :>;
-<: l('%s for %s','p','POST') :>.
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
 <: l('HTTPS:') :>
 </td>
 <td class="ctd">
@@ -223,6 +208,31 @@ kh =
 </ul>
 </td>
 </tr>
+
+<tr>
+<td class="ctd" style="padding-right:15px;" align="right" valign="top">
+<: l('Address bar:') :>
+</td>
+<td class="ctd">
+<: l('%s for %s','kg = g','GET') :>;
+<: l('%s for %s','p','POST') :>.
+</td>
+</tr>
+
+<tr>
+<td class="ctd" style="padding-right:15px;" align="right" valign="top">
+<: l('Video Playback:') :>
+</td>
+<td class="ctd">
+k5 =
+<ul>
+<li><: l('%s for %s','1',lp('setting','Always play on DuckDuckGo')) :>
+<li><: l('%s for %s','2',lp('setting','Open on third-party site')) :>
+<li><: l('%s for %s','-1',lp('setting','Prompt me')) :>
+</ul>
+</td>
+</tr>
+
 
 <tr><td colspan="2" class="ctd3"><b><: l('Color Settings') :></b></td></tr>
 
@@ -294,8 +304,16 @@ kx =
 <td class="ctd">
 k7 =
 <ul>
-<li><: l('%s for %s','ow',l('Off-white')) :> (<: lp('setting','default') :>)
-<li><: l('%s for %s','w',l('White')) :>
+<li><: l('%s for %s','w',l('White')) :> (<: lp('setting','default') :>)
+<li><: l('%s for %s','d',l('Light green')) :>
+<li><: l('%s for %s','g',l('Intense green')) :>
+<li><: l('%s for %s','g2',l('Green')) :>
+<li><: l('%s for %s','b',l('Light blue')) :>
+<li><: l('%s for %s','b2',l('Blue')) :>
+<li><: l('%s for %s','r',l('Intense red')) :>
+<li><: l('%s for %s','r2',l('Red')) :>
+<li><: l('%s for %s','p',l('Purple')) :>
+<li><: l('%s for %s','o',l('Orange')) :>
 <li><: l('or write out the color code you want, e.g. %s (%s is an encoded %s char).','%23395323','%23','#') :>
 </ul>
 </td>
@@ -321,7 +339,8 @@ k8 =
 <td class="ctd">
 k9 =
 <ul>
-<li><: l('%s for %s','b',l('Blue')) :> (<: lp('setting','default') :>)
+<li><: l('%s for %s','g',l('Dark Grey')) :> (<: lp('setting','default') :>)
+<li><: l('%s for %s','b',l('Blue')) :> 
 <li><: l('or write out the color code you want, e.g. %s (%s is an encoded %s char).','%23395323','%23','#') :>
 </ul>
 </td>
@@ -334,27 +353,32 @@ k9 =
 <td class="ctd">
 kaa =
 <ul>
-<li><: l('%s for %s','p',l('Purple')) :> (<: lp('setting','default') :>)
-<li><: l('or write out the color code you want, e.g. %s (%s is an encoded %s char).','%23395323','%23','#') :>
-</ul>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('Border:') :>
-</td>
-<td class="ctd">
-kab =
-<ul>
-<li><: l('%s for %s','e',l('Grey')) :> (<: lp('setting','default') :>)
-<li><: l('%s for %s','r',l('Red')) :>
+<li><: l('%s for %s','p',lp('setting','Grey with checkmark')) :> (<: lp('setting','default') :>)
+<li><: l('%s for %s','p',l('Purple')) :> 
 <li><: l('or write out the color code you want, e.g. %s (%s is an encoded %s char).','%23395323','%23','#') :>
 </ul>
 </td>
 </tr>
 
 <tr><td colspan="2" class="ctd3"><b><: l('Look & Feel Settings') :></b></td></tr>
+
+<tr>
+<td class="ctd" style="padding-right:15px;" align="right" valign="top">
+<: l('Theme:') :>
+</td>
+<td class="ctd">
+kae =
+<ul>
+<li><: l('%s for %s','-1',lp('theme','Default')) :> (<: lp('setting','default') :>)
+<li><: l('%s for %s','c',lp('theme','Contrast')) :>
+<li><: l('%s for %s','r',lp('theme','Retro')) :>
+<li><: l('%s for %s','d',lp('theme','Dark')) :>
+<li><: l('%s for %s','t',lp('theme','Terminal')) :>
+<li><: l('or write out the color code you want, e.g. %s (%s is an encoded %s char).','%23395323','%23','#') :>
+</ul>
+</td>
+</tr>
+
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
@@ -379,7 +403,7 @@ ks =
 <td class="ctd">
 kw =
 <ul>
-<li><: l('%s for %s','n',lp('width','Normal')) :>
+<li><: l('%s for %s','n',lp('width','Normal')) :> (<: lp('setting','default') :>)
 <li><: l('%s for %s','w',lp('width','Wide')) :>
 <li><: l('%s for %s','s',lp('width','Super wide')) :>
 </ul>
@@ -393,7 +417,7 @@ kw =
 <td class="ctd">
 km = 
 <ul>
-<li><: l('%s for %s','m',lp('placement','Middle')) :>
+<li><: l('%s for %s','m',lp('placement','Middle')) :> (<: lp('setting','default') :>)
 <li><: l('%s for %s','l',lp('placement','Left')) :>
 </ul>
 </td>
@@ -410,6 +434,7 @@ ka =
 <li><: l('%s for %s','c','Century Gothic') :>
 <li><: l('%s for %s','g','Georgia') :>
 <li><: l('%s for %s','h','Helvetica') :>
+<li><: l('%s for %s','p','Proxima Nova') :> (<: lp('setting','default') :>)
 <li><: l('%s for %s','n','Sans-serif') :>
 <li><: l('%s for %s','e','Segoe UI') :>
 <li><: l('%s for %s','s','Serif') :>
@@ -430,7 +455,7 @@ ka =
 ku =
 <ul>
 <li><: l('%s for %s','1',lp('setting','On')) :>
-<li><: l('%s for %s','-1',lp('setting','Off')) :>
+<li><: l('%s for %s','-1',lp('setting','Off')) :> (<: lp('setting','default') :>)
 </td>
 </tr>
 
@@ -445,6 +470,7 @@ kt =
 <li><: l('%s for %s','c','Century Gothic') :>
 <li><: l('%s for %s','g','Georgia') :>
 <li><: l('%s for %s','h','Helvetica') :>
+<li><: l('%s for %s','p','Proxima Nova') :> (<: lp('setting','default') :>)
 <li><: l('%s for %s','n','Sans-serif') :>
 <li><: l('%s for %s','e','Segoe UI') :>
 <li><: l('%s for %s','s','Serif') :>
@@ -453,18 +479,6 @@ kt =
 <li><: l('%s for %s','b','Trebuchet MS') :>
 <li><: l('%s for %s','v','Verdana') :>
 <li><: l('or write out the font you want') :>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('Text link:') :>
-</td>
-<td class="ctd">
-k2 =
-<ul>
-<li><: l('%s for %s','1',lp('setting','On')) :> (<: lp('setting','default') :>)
-<li><: l('%s for %s','-1',lp('setting','Off')) :>
 </td>
 </tr>
 
@@ -478,77 +492,10 @@ k2 =
 ko =
 <ul>
 <li><: l('%s for %s','1',lp('setting','On & floating')) :>
-<li><: l('%s for %s','s',lp('setting','On & scrolling')) :>
-<li><: l('%s for %s','-1',lp('setting','Off')) :> (Please do not remove our header for anything other than individual use. See paragraph at the top for more details.)
+<li><: l('%s for %s','s',lp('setting','On & scrolling')) :> (<: lp('setting','default') :>)
+<li><: l('%s for %s','-1',lp('setting','Off except for Instant Answer Menu')) :> (Please do not remove our header for anything other than individual use. See paragraph at the top for more details.)
+<li><: l('%s for %s','-2',lp('setting','Off')) :> (Please do not remove our header for anything other than individual use. See paragraph at the top for more details.)
 </ul>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('Twitter:') :>
-</td>
-<td class="ctd">
-k3 =
-<ul>
-<li><: l('%s for %s','0',lp('setting','Off')) :>
-<li><: l('%s for %s',lp('setting','username'),lp('setting','a particular username, e.g. %s','lifehacker')) :>
-</ul>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('Shortcuts:') :>
-</td>
-<td class="ctd">
-kk =
-<ul>
-<li><: l('%s for %s','1',lp('setting','On')) :>
-<li><: l('%s for %s','-1',lp('setting','Off')) :>
-<li><: l('%s for %s','l',lp('setting','Just hide legend')) :>
-<li><: l('%s for %s','s',lp('setting','Show full legend')) :>
-</ul>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('Feedback:') :>
-</td>
-<td class="ctd">
-ke =
-<ul>
-<li><: l('%s for %s','1',lp('setting','On')) :>
-<li><: l('%s for %s','-1',lp('setting','Off')) :>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('Top links:') :>
-</td>
-<td class="ctd">
-kr =
-<ul>
-<li><: l('%s for %s','1',lp('setting','On')) :>
-<li><: l('%s for %s','-1',lp('setting','Off')) :>
-<li><: l('%s for %s','c',lp('setting','Off & centered')) :>
-<li><: l('%s for %s','b',lp('setting','Just hide "%s"',l('Add to Browser'))) :>
-</ul>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('Dropdown:') :>
-</td>
-<td class="ctd">
-kq =
-<ul>
-<li><: l('%s for %s','1',lp('setting','On')) :>
-<li><: l('%s for %s','n',lp('setting',"On but don't save")) :>
-<li><: l('%s for %s','-1',lp('setting','Off')) :>
 </td>
 </tr>
 
@@ -559,8 +506,7 @@ kq =
 <td class="ctd">
 k1 =
 <ul>
-<li><: l('%s for %s','1',lp('setting','On')) :>
-<li><: l('%s for %s','n',lp('setting',"On but don't save")) :>
+<li><: l('%s for %s','1',lp('setting','On')) :> (<: lp('setting','default') :>)
 <li><: l('%s for %s','-1',lp('setting','Off')) :>
 </td>
 </tr>
@@ -573,18 +519,7 @@ kv =
 <ul>
 <li><: l('%s for %s','1',lp('setting','On')) :>
 <li><: l('%s for %s','n',lp('setting',"On but no numbers")) :>
-<li><: l('%s for %s','-1',lp('setting','Off')) :>
-</td>
-</tr>
-
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('Sidebar:') :>
-</td>
-<td class="ctd">
-k4 =
-<ul>
-<li><: l('%s for %s','1',lp('setting','On')) :>
-<li><: l('%s for %s','-1',lp('setting','Off')) :>
+<li><: l('%s for %s','-1',lp('setting','Off')) :> (<: lp('setting','default') :>)
 </td>
 </tr>
 
