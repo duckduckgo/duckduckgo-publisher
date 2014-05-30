@@ -53,6 +53,7 @@ sub pages {{
 			title => 'Front-End',
 			info => 'Coffee Snob',
 			image => 'doug',
+			link => 'https://twitter.com/sdougbrown',
 		},{
 			name => 'Chris Morast',
 			title => 'Design',
