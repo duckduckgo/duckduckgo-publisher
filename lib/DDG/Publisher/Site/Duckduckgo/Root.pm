@@ -35,7 +35,7 @@ sub pages {{
 			title => 'Duck.co',
 			info => 'Lead Vocalist',
 			image => 'zac',
-			link => 'http://zpappis.com/',
+			link => 'https://twitter.com/zacpappis',
 		},{
 			name => 'Russell Holt',
 			title => 'Duck Duck Hack',
