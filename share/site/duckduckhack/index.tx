@@ -31,17 +31,17 @@
 		  <div class="slide img-right">
 			<h2 class="a3 ad-l">Better Answers</h2>
 			<h3 class="a3 ad-l">Help make a better long-term search engine with <strong>instant answers</strong> that are better than links.</h3>
-			<img src="images/answer-xkcd.png" alt="address bar search for 'zombies'" class="a3" />
+            <img src="images/answer-alternative-to.png" alt="search for 'alternative to notepad' shows multiple text editors" class="a3" />
 		  </div>
 		  <div class="slide img-right">
 			<h2 class="a3 ad-l">What You Like</h2>
 			<h3 class="a3 ad-l">Hack on things that you <strong>know and care about</strong><br>to improve search results for your community.</h3>
-			<img src="images/answer-java.png" alt="search bar settings" class="a3" />
+            <img src="images/answer-qr-code.png" alt="search for 'qrcode htts://duckduckgo.com' generates qr code" class="a3" />
 		  </div>
 		  <div class="slide img-right">
 			<h2 class="a3 ad-l">Showcase APIs</h2>
 			<h3 class="a3 ad-l">Use open data and APIs, <strong>including your own,</strong><br>to present the best information to searchers.</h3>
-			<img src="images/answer-twitter.png" alt="contextual search for 'triple crown' on Babe Ruth's wikipedia page in firefox" class="a3 short" />
+            <img src="images/answer-bitcoin.png" alt="contextual search for 'bitcoin price' show most recent USD buy/sell price" class="a3 short" />
 		  </div>
 	  </div>
 	</div>
