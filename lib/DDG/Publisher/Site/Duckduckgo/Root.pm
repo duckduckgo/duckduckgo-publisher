@@ -113,7 +113,7 @@ sub pages {{
 		},{
 			date => 'February 26, 2011',
 			title => '2011 Donations',
-			snippet => 'DuckDuckGo relies on a lot of great open-source projects to keep our gears spinning. In 2011, we decided to start paying some of that love back to the open-source community, donating to nginx, FreeBSD, Tor, Clamwin, Taho-LAFS and OpenSSH.',
+			snippet => 'DuckDuckGo relies on a lot of great open-source projects to keep our gears spinning. In 2011, we decided to start paying some of that love back to the open-source community, donating to nginx, FreeBSD, Tor, Clamwin, Tahoe-LAFS and OpenSSH.',
 			type => 'internal',
 			subtype => 'foss',
 		},{
