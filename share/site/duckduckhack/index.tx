@@ -49,17 +49,17 @@
 	<a name="#features"></a>
 	<div id="features" class="content-wrap features">
 		<div class="right instant-answers">
-			<img src="images/answer-xkcd.png" alt="address bar search for 'zombies'" class="" />
+            <img src="images/answer-alternative-to.png" alt="search for 'alternative to notepad' shows multiple text editors" class="" />
 			<h4>Better Answers</h4>
 			<p>Help make a better long-term search engine with <strong>instant answers</strong> that are better than links.</p>
 		</div>
 		<div class="left open-source">
-			<img src="images/answer-java.png" alt="search bar settings" class=""b />
+            <img src="images/answer-qr-code.png" alt="search for 'qrcode htts://duckduckgo.com' generates qr code" class="" />
 			<h4>What You Like</h4>
 			<p>Hack on things that you <strong>know and care about</strong><br>to improve search results for your community.</p>
 		</div>
 		<div class="right improve-results">
-			<img src="images/answer-twitter.png" alt="contextual search for 'triple crown' on Babe Ruth's wikipedia page in firefox" class="" />
+            <img src="images/answer-bitcoin.png" alt="contextual search for 'bitcoin price' show most recent USD buy/sell price" class=""/>
 			<h4>Showcase APIs</h4>
 			<p>Use open data and APIs, <strong>including your own,</strong><br>to present the best information to searchers.</p>
 		</div>
