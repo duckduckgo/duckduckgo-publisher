@@ -1,9 +1,9 @@
+<!--
 		<a id="logo_homepage_link" class="logo-wrap--home" title="About DuckDuckGo" href="/about">
 			<div id="logo_homepage" class="logo_homepage">About DuckDuckGo</div>
 		</a>
-
-<!--
-		<a id="logo_homepage_link" title="Sean Connery" href="/?q=Sean+Connery">
-			<div id="logo_homepage">Sean Connery</div>
-		</a>
 		//-->
+
+		<a id="logo_homepage_link" class="logo-wrap--home" title="Reset the Net" href="https://www.resetthenet.org/" target="_new">
+			<div id="logo_homepage" class="logo_homepage  logo_homepage--resetthenet">Reset the Net</div>
+		</a>
