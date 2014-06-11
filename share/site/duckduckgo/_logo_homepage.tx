@@ -1,8 +1,8 @@
-		<a id="logo_homepage_link" class="logo-wrap--home" title="About DuckDuckGo" href="/about">
-			<div id="logo_homepage" class="logo_homepage">About DuckDuckGo</div>
-		</a>
+		<div class="logo-wrap--home">
+			<a id="logo_homepage_link" class="logo_homepage" title="About DuckDuckGo" href="/about">About DuckDuckGo</a>
+		</div>
 <!--
-		<a id="logo_homepage_link" class="logo-wrap--home" title="Reset the Net" href="https://www.resetthenet.org/" target="_new">
-			<div id="logo_homepage" class="logo_homepage  logo_homepage--resetthenet">Reset the Net</div>
-		</a>
+		<div class="logo-wrap--home">
+			<a id="logo_homepage_link" class="logo_homepage  logo_homepage--resetthenet" title="Reset the Net" href="https://www.resetthenet.org/" target="_new">Reset the Net</a>
+		</div>
 		//-->
