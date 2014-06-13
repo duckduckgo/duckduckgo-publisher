@@ -13,7 +13,7 @@
 			</div>
 		</div>
 	</span>
-	<a href="https://duck.co" class="btn--home  js-modal" data-modal="learn_more_modal"><i class="btn--home__icon  ddgst-more"></i> <: lp('frontpage', 'Learn %sMore%s', '<span>', '</span>') :>
+	<a href="https://duck.co" class="btn--home  js-modal" data-modal="learn_more_modal"><i class="btn--home__icon  ddgst-more"></i> <: lp('frontpage', 'Learn %sMore%s', '<span>', '</span>') :></a>
 	
 </div>
 
