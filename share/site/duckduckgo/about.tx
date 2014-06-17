@@ -27,6 +27,7 @@
 	</div>
 </div>
 <div class="abt  abt--alt  abt--keys">
+	<a href="#keys" class="abt__anchor ddgsi">v</a><a name="keys" class="anchor"></a>
 	<div class="cw--c">
 		<h2 class="abt__title">About Us</h2>
 		<hr class="hr--abt" />
