@@ -4,6 +4,7 @@
 			<span class="event-nav  nav  nav--prev  js-event-prev"></span>
 			<span class="event-nav  nav  nav--next  js-event-next"></span>
 			<div class="event  event--first  js-event" data-text="START">
+				<div class="event__icon  logo--dax"></div>
 				<h1 class="abt__title--hero">Our Vision is Simple.</h1>
 				<div class="abt--hero__text">
 					<h5 class="abt__sub--hero">To give you great search results without tracking you.</h5>
@@ -11,6 +12,7 @@
 			</div>
 			<: for $ddg_events -> $event { :>
 			<div class="event  js-event  event--<: $event.type :><: if $event.subtype { :> event--<: $event.type :>--<: $event.subtype } :>" data-type="<: $event.type :>" data-date="<: $event.date :>">
+				<div class="event__icon  ddgst  ddgst-<: if $event.icon { $event.icon } else { $event.type } :>"></div>
 				<h1 class="abt__title--hero"><: $event.title :></h1>
 				<div class="abt--hero__text">
 					<h5 class="abt__sub--hero"><: $event.snippet :></h5>
@@ -27,6 +29,7 @@
 	</div>
 </div>
 <div class="abt  abt--alt  abt--keys">
+	<a href="#keys" class="abt__anchor ddgsi">v</a><a name="keys" class="anchor"></a>
 	<div class="cw--c">
 		<h2 class="abt__title">About Us</h2>
 		<hr class="hr--abt" />
@@ -173,7 +176,7 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 		<form class="frm--newsletter" action="https://flash.duckduckgo.com/e.js" method="post" name="y">
 			<input type="hidden" name="add" value="1" />
 			<input type="text" placeholder="Enter your email address" class="frm__input" name="from" />
-			<input type="submit" value="Subscribe" class="btn  btn--abt--prim" />
+			<input type="submit" value="Subscribe" class="frm__btn  btn  btn--abt--prim" />
 			<div class="frm--newsletter__chks">
 				<label class="frm__label" for="add">
 					<input class="frm__label__chk" type="checkbox" id="add" name="add" checked="checked">
