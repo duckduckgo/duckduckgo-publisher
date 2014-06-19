@@ -1,3 +1,3 @@
 <: include "meta/title.tx" { title => l("What's New on DuckDuckGo?") } :>
 
-<script src="js/r/whatsnew101.js"></script>
+<script src="js/r/whatsnew102.js"></script>
