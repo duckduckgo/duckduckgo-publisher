@@ -203,7 +203,7 @@ sub pages {{
 		},{
 			date => 'March 17, 2014',
 			title => 'Employee #10',
-			snippet => 'We have tens of thousands of less employees than the big guys, but each one is part of our family and grew out of our community. Brian Stoner joined us just in time!',
+			snippet => 'We have tens of thousands of fewer employees than the big guys, but each one is part of our family and grew out of our community. Brian Stoner joined us just in time!',
 			type => 'company',
 		},{
 			date => 'May 19, 2014',
