@@ -6,7 +6,7 @@
 <link rel="canonical" href="https://duckduckgo.com<: $url :>">
 
 <link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_FILE || '/style.css' :>" type="text/css">
-<link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_2_FILE || '/style_2.css' :>" type="text/css">
+<link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_2_FILE || '/static.css' :>" type="text/css">
 <script type="text/javascript" src="/locales/<: $f.locale :>/LC_MESSAGES/<: $s.locale_domain :>+sprintf+gettext+locale-simple.<: $locale_package_version :>.js"></script>
 <script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_FILE || '/duckduck.js' :>"></script>
 
