@@ -151,7 +151,7 @@ sub pages {{
 		},{
 			date => 'March 7, 2012',
 			title => '2012 Donations',
-			snippet => 'For our second year of open-source donations we chose the theme "open data/information." The company-directed portion went to Tor and the Wikimedia foundation. The community-directed portion went to unhosted.org, the Disaspora project, Freenet, and friendica.',
+			snippet => 'For our second year of open-source donations we chose the theme "open data/information." The company-directed portion went to Tor and the Wikimedia foundation. The community-directed portion went to unhosted.org, the Diaspora project, Freenet, and friendica.',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
