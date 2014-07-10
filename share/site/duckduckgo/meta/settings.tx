@@ -1,2 +1,2 @@
 <: include "meta/title.tx" { title => l('DuckDuckGo Settings') } :>
-<link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_SETTINGS_CSS_FILE || 'css/r/settings_latest.css' :>" type="text/css">
+<script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_2_FILE || '/duckgo_dev.js' :>"></script>

@@ -7,6 +7,7 @@
 
 <link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_FILE || '/style.css' :>" type="text/css">
 <link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_2_FILE || '/static.css' :>" type="text/css">
+<script type="text/javascript">settings_js_version = "<: $ENV.DDG_DYNAMIC_SETTINGS_FILE || '/set.js' :>";</script>
 <script type="text/javascript" src="/locales/<: $f.locale :>/LC_MESSAGES/<: $s.locale_domain :>+sprintf+gettext+locale-simple.<: $locale_package_version :>.js"></script>
 <script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_FILE || '/duckduck.js' :>"></script>
 
