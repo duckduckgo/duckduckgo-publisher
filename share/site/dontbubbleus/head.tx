@@ -6,9 +6,9 @@
 <meta name="author" content="DuckDuckGo" />
 <meta name="viewport" content="width=100%, initial-scale=1.0"/>
 	
-<!-- Stylesheets -->		
-<link rel="stylesheet" type="text/css" href="common/css/micro.css?1" /> 		
-<link rel="stylesheet" type="text/css" href="css/bubble.css?1" /> 		
+<!-- Stylesheets -->
+<link rel="stylesheet" type="text/css" href="common/css/micro.css?2" />
+<link rel="stylesheet" type="text/css" href="css/bubble.css?1" /> 
 
 <!--[if lte IE 9]><style>.frame, .frame input, .reveal-modal, .reveal-modal-bg, .pie { behavior: url(common/PIE.htc);} </style><![endif]-->
 

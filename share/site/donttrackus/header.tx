@@ -1,19 +1,7 @@
   <div id="add_to_browser" class="add_to_browser"></div>
   <a name="top"></a>
 
-  <div id="lang-select" class="button">
-	<span class="current"><img src="<: $locales[$f.locale].flag_url :>" /><: $locales[$f.locale].name_in_local :></span>
-	<ul class="hide">
-		<: for $locales.keys() -> $locale { :>
-			<: if $locales[$locale].percent > 95 || $locale == $s.default_locale { :>
-				<li<: if $locale == $f.locale { :> class="current"<: } :>><a href="/?kad=<: $locale :>">
-					<img src="<: $locales[$locale].flag_url :>" />
-					<: $locales[$locale].name_in_local :>
-				</a></li>
-			<: } :>
-		<: } :>
-	</ul>
-  </div>
+  <: include "lang_select.tx" {s=>$s,f=>$f,locales=>$locales} :>
 
   <div class="site-header" id="header">			
 		<img src="images/dont-track-us.png" alt="DONT TRACK US" id="title" />

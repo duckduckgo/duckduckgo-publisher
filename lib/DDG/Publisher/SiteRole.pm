@@ -194,6 +194,16 @@ sub _build_template_engine {
 				return $filename if eval { $self->template_engine->find_file($filename); 1 };
 				return 0;
 			},
+			substr => sub {
+				my($str, $offset, $length) = @_;
+				return undef unless defined $str;
+				$offset = 0 unless defined $offset;
+				$length = length($str) unless defined $length;
+				return CORE::substr($str, $offset, $length);
+			},
+			lowercase => sub {
+				return defined($_[0]) ? CORE::lc($_[0]) : undef;
+			},
 		},
 	);
 }

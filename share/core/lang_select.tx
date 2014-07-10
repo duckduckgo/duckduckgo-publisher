@@ -1,0 +1,13 @@
+<div id="lang-select" class="button  lang-select">
+	<span class="current"><span class="lang-select__flag  flag-sm  flag-sm-<: lowercase(substr($locales[$f.locale].locale,-2,2)) :>"></span><: $locales[$f.locale].name_in_local :></span>
+	<ul class="hide">
+		<: for $locales.keys() -> $locale { :>
+			<: if $locales[$locale].percent > 95 || $locale == $s.default_locale { :>
+				<li class="lang-select__item  <: if $locale == $f.locale { :> current<: } :>"><a href="/?kad=<: $locale :>">
+					<span class="lang-select__flag  flag-sm  flag-sm-<: lowercase(substr($locale,-2,2)) :>"></span>
+					<: $locales[$locale].name_in_local :>
+				</a></li>
+			<: } :>
+		<: } :>
+	</ul>
+</div>
