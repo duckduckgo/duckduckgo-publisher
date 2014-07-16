@@ -56,7 +56,7 @@
 	</div>
 </div>
 
-<h4><: l("which advertisers can use to target ads at you everywhere,") :></h4>
+<h4><: l("which advertisers use to target ads at you everywhere,") :></h4>
 
 <div class="frame-wrap" id="fig8" name="fig8">
 	<div class="frame"><span class="fig"><: l('Fig. %d',8) :></span>
@@ -64,7 +64,7 @@
 	</div>
 </div>
 
-<h4><: l("since Google ads are on millions of Web sites.") :></h4>
+<h4><: l("since Google's ads are on millions of Web sites.") :></h4>
 
 <div class="frame-wrap" id="fig9" name="fig9">
 	<div class="frame"><span class="fig"><: l('Fig. %d',9) :></span>
@@ -104,7 +104,7 @@
 	</div>
 </div>
 
-<h4><: l('and neither will its %smisleading "Do Not Track" setting.%s','<a href="http://whatisdnt.com/" target="_whatisdnt">','</a>') :></h4>
+<h4><: l('and neither will its misleading %s"Do Not Track" setting%s.','<a href="http://whatisdnt.com/" target="_whatisdnt">','</a>') :></h4>
 
 <div class="frame-wrap" id="fig14" name="fig14">
 	<div class="frame"><span class="fig"><: l('Fig. %d',14) :></span>
