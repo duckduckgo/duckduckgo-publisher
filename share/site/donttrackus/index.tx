@@ -112,7 +112,8 @@
 	</div>
 </div>
 
-<h4><: l("On the other hand, searching on DuckDuckGo is completely anonymous.") :></h4>
+<h3><: l("On the other hand..."):></h3>
+<h4><: l("Searching on DuckDuckGo is completely anonymous.") :></h4>
 
 <div class="frame-wrap" id="fig15" name="fig15">
 	<div class="frame"><span class="fig"><: l('Fig. %d',15) :></span>
@@ -120,7 +121,7 @@
 	</div>
 </div>
 
-<h4><: l("We don't store any personal information at all.  That's our privacy policy in a nutshell.") :></h4>
+<h4><: l("We don't store any personal information at all. %s That's our privacy policy in a nutshell.",'<br/>') :></h4>
 
 <div class="frame-wrap" id="fig16" name="fig16">
 	<div class="frame"><span class="fig"><: l('Fig. %d',16) :></span>
@@ -128,10 +129,6 @@
 	</div>
 </div>
 
-<h4><: l("So don't get tracked when searching.  Use DuckDuckGo!") :></h4>
-
-<div class="frame-wrap">
-	<iframe src="https://duckduckgo.com/search.html"></iframe>
-</div>
+<h4><: l("So don't get tracked when searching.  %sUse DuckDuckGo!%s",'<a href="https://duckduckgo.com/">','</a>') :></h4>
 
 <h4><: l('Privacy is just one of the %smany reasons%s why its awesome!','<a href="https://duckduckgo.com/about">','</a>') :></h4>
