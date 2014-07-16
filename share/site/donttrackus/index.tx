@@ -19,7 +19,7 @@
 
 <div class="frame-wrap" id="fig3" name="fig3">
 	<div class="frame"><span class="fig"><: l('Fig. %d',3) :></span>
-		<img src="images/vary-prices.jpg" alt="screenshot from a WSJ article" />
+		<a href="http://online.wsj.com/news/articles/SB10001424127887323777204578189391813881534" target="_wsj-vary"><img src="images/vary-prices.jpg" alt="screenshot from a WSJ article" /></a>
 	</div>
 </div>
 
@@ -27,7 +27,7 @@
 
 <div class="frame-wrap" id="fig4" name="fig4">
 	<div class="frame"><span class="fig"><: l('Fig. %d',4) :></span>
-		<img src="images/ads-profile.png" alt="screenshot of a Google ads profile" />
+		<a href="https://www.google.com/settings/ads" target="_google-ads"><img src="images/ads-profile.png" alt="screenshot of a Google ads profile" /></a>
 	</div>
 </div>
 
@@ -44,7 +44,7 @@
 
 <div class="frame-wrap" id="fig6" name="fig6">
 	<div class="frame"><span class="fig"><: l('Fig. %d',6) :></span>
-		<img src="images/herpes.png" alt="i think this is what all of those lumps mean" />
+		<a href="https://history.google.com/history" target="_googlehistory"><img src="images/herpes.png" alt="i think this is what all of those lumps mean" /></a>
 	</div>
 </div>
 
@@ -52,7 +52,7 @@
 
 <div class="frame-wrap" id="fig7" name="fig7">
 	<div class="frame"><span class="fig"><: l('Fig. %d',7) :></span>
-		<img src="images/herp-data-closer.png" alt="just doing research, I swear" />
+		<a href="https://history.google.com/history" target="_googlehistory"><img src="images/herp-data-closer.png" alt="just doing research, I swear" /></a>
 	</div>
 </div>
 
