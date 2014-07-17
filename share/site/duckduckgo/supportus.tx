@@ -14,7 +14,7 @@
 
 <h3><: l('To introduce people to DuckDuckGo, you can use:') :></h3>
 <ul>
-<li><a href="/about.html"><: l('About DuckDuckGo') :></a>
+<li><a href="/about"><: l('About DuckDuckGo') :></a>
 <li><a href="/goodies.html">DuckDuckGoodies</a>
 <li><a href="http://donttrack.us/">DontTrack.us</a>
 <li><a href="http://dontbubble.us/">DontBubble.us</a>
