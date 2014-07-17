@@ -32,6 +32,6 @@
 
 <a href="http://www.facebook.com/share.php?u=https://duckduckgo.com/about.html" class="shareon facebook" target="_blank" onClick="return fbs_click()">Share on Facebook</a>
 
-<a href="https://twitter.com/?status=I%20now%20use%20%40DuckDuckGo%20as%20my%20primary%20search%20engine%20and%20you%20should%20too!%3A%20https%3A%2F%2Fduckduckgo.com%2F" class="shareon twitter" target="_blank">Share on Twitter</a>
+<a href="https://twitter.com/share?text=I%20now%20use%20%40DuckDuckGo%20as%20my%20primary%20search%20engine%20and%20you%20should%20too!%3A%20https%3A%2F%2Fduckduckgo.com%2F" class="shareon twitter" target="_blank">Share on Twitter</a>
 
 -->
