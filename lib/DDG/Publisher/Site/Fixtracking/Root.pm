@@ -22,7 +22,7 @@ sub pages {{
 				flashcookies => 1,				
 			},
 			addlink => {
-				firefox => "https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/?src=cb-dl-mostpopular",				
+				firefox => "https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/",				
 			},
 		},{
 			name => l("DoNotTrackMe"),
@@ -39,7 +39,7 @@ sub pages {{
 				bugs => 1,				
 			},
 			addlink => {
-				firefox => "https://addons.mozilla.org/en-US/firefox/addon/donottrackplus/?src=search",
+				firefox => "https://addons.mozilla.org/en-US/firefox/addon/donottrackplus/",
 				chrome => "https://chrome.google.com/webstore/detail/donottrackme/epanfjkfahimkgomnigadpkobaefekcd",				
 				safari => "http://www.abine.com/dntdetail.php#",				
 				msie => "http://www.abine.com/dntdetail.php#",
@@ -96,7 +96,7 @@ sub pages {{
 				referrer => 1,
 			},
 			addlink => {
-				firefox => "https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/?src=search",
+				firefox => "https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/",
 				chrome => "https://chrome.google.com/webstore/detail/duckduckgo-for-chrome/bpphkkgodbfncbcpgopijlfakfgmclao",				
 				safari => "http://duckduckgo.com/extensions/duckduckgo.safariextz",
 				opera => "https://addons.opera.com/en/extensions/details/duckduckgo-for-opera-2/",
@@ -148,7 +148,7 @@ sub pages {{
 				bugs => 1,				
 			},
 			addlink => {
-				firefox => "https://addons.mozilla.org/en-US/firefox/addon/ghostery/?src=cb-dl-mostpopular",
+				firefox => "https://addons.mozilla.org/en-US/firefox/addon/ghostery/",
 				chrome => "https://chrome.google.com/webstore/detail/mlomiejdfkolichcflejclcbmpeaniij",				
 				safari => "https://www.ghostery.com/download",
 				opera => "https://addons.opera.com/en/extensions/details/ghostery/",
@@ -176,15 +176,19 @@ sub pages {{
 			optional => {
 				firefox => 1,
 				chrome => 1,
-				opera => 1,				
+				opera => 1,
+				msie => 1,
+				safari => 1,				
 			},
 			types => {				
 				bugs => 1,				
 			},
 			addlink => {
-				firefox => "https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/",
-				chrome => "https://chrome.google.com/webstore/detail/adblock-plus-beta/cfhdojbkjhnklbpkdaibdccddilifddb",
-				opera => "https://addons.opera.com/extensions/details/opera-adblock/",
+				firefox => "https://adblockplus.org/en/firefox",
+				chrome => "https://adblockplus.org/en/chrome",
+				opera => "https://adblockplus.org/en/opera",
+				msie => "https://adblockplus.org/en/internet-explorer",
+				safari => "https://adblockplus.org/en/safari",
 			},
 		},{
 			name => l("Adblock"),
@@ -212,7 +216,7 @@ sub pages {{
 				scripts => 1,				
 			},
 			addlink => {
-				firefox => "https://addons.mozilla.org/en-US/firefox/addon/noscript/?src=cb-dl-mostpopular",				
+				firefox => "https://addons.mozilla.org/en-US/firefox/addon/noscript/",				
 			},
 		},{
 			name => l("NotScripts"),
