@@ -1,0 +1,129 @@
+<style>
+/* This is temporary */
+
+</style>
+<div class="blk  blk--hero">
+	<div class="cw--c"><a class="anchor" name="top"></a>
+		<div class="logo--dax" title="DuckDuckGo"></div>
+		<div class="blk__text">
+			<h1 class="hd-hr"><: l("DuckDuckGo Style Guide") :></h1>
+			<h5 class="hd-hr"><: l("A guide to stylish elements for all developers.") :></h5>
+		</div>
+	</div>
+</div>
+<div class="blk  blk--alt  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg"><: l("About This Page") :></h2>
+			<hr class="hr"/>
+			<p>This is a largely technical document, outlining common elements, styles, and conventions designed for use on DuckDuckGo &mdash; either on the results page itself via <a href="http://duckduckhack.com">instant answers</a>, or on static pages just like this one.</p>
+			<h3 class="hd-md"><: l("Table of Contents") :></h3>
+			<ul>
+				<li><a href="#buttons"><: l("Buttons") :></a></li>
+				<li><a href="#icons"><: l("Icons") :></a></li>
+				<li><a href="#alerts"><: l("Alert Messages") :></a></li>
+				<li><: l("Text & Colors") :></li>
+				<li><: l("Grids") :></li>
+				<li><: l("Forms") :></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="blk  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg"><: l("Buttons") :><a name="buttons"></a></h2>
+			<hr class="hr"/>
+			<p>Buttons are attention-grabbing, and users will expect them to 'do' something, so don't let them down.  Always link your buttons or fire a javascript function on click - don't just use these to fancy the place up!</p>
+			
+			<h3 class="hd-md"><: l("Variations") :></h3>
+			<p>Buttons come in a few different flavours.  The default variety has a white-ish background.  Be sure to use the correct variant based on where you'll be displaying your buttons:</p>
+			<div class="tile  tile--a  tile--s  tile--mid">
+				<span class="btn">Default</span>
+				<span class="btn btn--alt">Alternate</span>
+				<span class="btn btn--primary">Primary</span>
+				<span class="btn btn--primary--alt">Primary(Alt)</span>
+				<span class="btn btn--secondary">Secondary</span>
+				<span class="btn btn--wire">Wire</span>
+				<code>
+<pre>
+&lt;span class="btn"&gt;Default&lt;/span&gt;
+&lt;span class="btn btn--alt"&gt;Alternate&lt;/span&gt;
+&lt;span class="btn btn--primary"&gt;Primary&lt;/span&gt;
+&lt;span class="btn btn--primary--alt"&gt;Primary(Alt)&lt;/span&gt;
+&lt;span class="btn btn--secondary"&gt;Secondary&lt;/span&gt;
+&lt;span class="btn btn--wire"&gt;Wire&lt;/span&gt;</pre>
+				</code>
+			</div><!--// .tile //-->
+			
+			<h3 class="hd-md"><: l("Grouping") :></h3>
+			<p>Buttons can be squished together to give a 'tabbed' appearance.  This can be accomplished in two different ways - either by wrapping the buttons with a <tt>.btn-grp</tt> element, or by applying the <tt>.btn--grp</tt> class to each item. (The latter could allow you to re-order the buttons if needed.)</p>
+			<div class="tile  tile--a  tile--s  tile--mid">
+				<div class="fix">
+					<div class="half">
+						<div class="btn-grp">
+							<span class="btn">Tab 1</span>
+							<span class="btn">Tab 2</span>
+							<span class="btn">Tab 3</span>
+						</div>
+					</div><div class="half">
+						<span class="btn btn--grp btn--grp--fakefirst">Tab 4</span>
+						<span class="btn btn--grp btn--grp--first  pull-left">Tab 5</span>
+						<span class="btn btn--grp btn--grp--last">Tab 6</span>
+					</div>
+				</div>
+				<code>
+<pre>
+&lt;div class="btn-grp"&gt;
+	&lt;span class="btn"&gt;Tab 1&lt;/span&gt;
+	&lt;span class="btn"&gt;Tab 2&lt;/span&gt;
+	&lt;span class="btn"&gt;Tab 3&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;span class="btn  btn--grp  btn--grp--fakefirst"&gt;Tab 4&lt;/span&gt;
+&lt;span class="btn  btn--grp  btn--grp--first  pull-left"&gt;Tab 5&lt;/span&gt;
+&lt;span class="btn  btn--grp  btn--grp--last"&gt;Tab 6&lt;/span&gt;</pre>
+				</code>
+			</div><!--// .tile //-->
+		</div><!--// .blk__text //-->
+	</div><!--// .cw--c //-->
+</div><!--// .blk //-->
+<div class="blk  blk--alt  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg"><: l("Icons") :><a name="icons"></a></h2>
+			<hr class="hr"/>
+			<p>Icons are a great way to visualize controls and simplify labels.  We have a built-in icon font that you can use by applying the <tt>.ddgsi</tt> class to any element.  The available icons are:</p>
+			<: for $icons -> $icon { :>
+			<div class="twenty  thirty--screen-s  half--screen-xs">
+				<div class="tile  t-mid">
+					<span class="guide-icon-example  ddgsi ddgsi-<:$icon:>"></span>
+					<p><tt class="one-line  t-s">.ddgsi-<:$icon:></tt></p>
+				</div>
+			</div>
+			<: } :>
+			</div>
+		</div><!--// .blk__text //-->
+	</div><!--// .cw--c //-->
+</div><!--// .blk //-->
+<div class="blk  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg"><: l("Alerts & Messages") :><a name="alerts"></a></h2>
+			<hr class="hr"/>
+			<p>Useful to draw interest on content-heavy pages.</p>
+			<div class="tile  tile--a  tile--s  tile--mid">
+				<div class="msg">This is a default message.</div>
+				<div class="msg  msg--info">This is an info message.</div>
+				<div class="msg  msg--help">This is a help message.</div>
+				<div class="msg  msg--warning">This is a warning message.</div>
+				<code>
+<pre>&lt;div class="msg"&gt;This is a default message.&lt;/div&gt;
+&lt;div class="msg  msg--info"&gt;This is an info message.&lt;/div&gt;
+&lt;div class="msg  msg--help"&gt;This is a help message.&lt;/div&gt;
+&lt;div class="msg  msg--warning"&gt;This is a warning message.&lt;/div&gt;</pre>
+				</code>
+			</div>
+		</div><!--// .blk__text //-->
+	</div><!--// .cw--c //-->
+</div><!--// .blk //-->
