@@ -38,7 +38,7 @@
 			
 			<h3 class="hd-md"><: l("Variations") :></h3>
 			<p>Buttons come in a few different flavours.  The default variety has a white-ish background.  Be sure to use the correct variant based on where you'll be displaying your buttons:</p>
-			<div class="tile  tile--a  tile--s  tile--mid">
+			<div class="tile--a  tile--s  tile--mid">
 				<span class="btn">Default</span>
 				<span class="btn btn--alt">Alternate</span>
 				<span class="btn btn--primary">Primary</span>
@@ -58,7 +58,7 @@
 			
 			<h3 class="hd-md"><: l("Grouping") :></h3>
 			<p>Buttons can be squished together to give a 'tabbed' appearance.  This can be accomplished in two different ways - either by wrapping the buttons with a <tt>.btn-grp</tt> element, or by applying the <tt>.btn--grp</tt> class to each item. (The latter could allow you to re-order the buttons if needed.)</p>
-			<div class="tile  tile--a  tile--s  tile--mid">
+			<div class="tile--a  tile--s  tile--mid">
 				<div class="fix">
 					<div class="half">
 						<div class="btn-grp">
@@ -96,7 +96,7 @@
 			<p>Icons are a great way to visualize controls and simplify labels.  We have a built-in icon font that you can use by applying the <tt>.ddgsi</tt> class to any element.  The available icons are:</p>
 			<: for $icons -> $icon { :>
 			<div class="twenty  thirty--screen-s  half--screen-xs">
-				<div class="tile  t-mid">
+				<div class="t-mid">
 					<span class="guide-icon-example  ddgsi ddgsi-<:$icon:>"></span>
 					<p><tt class="one-line  t-s">.ddgsi-<:$icon:></tt></p>
 				</div>
@@ -111,7 +111,7 @@
 			<h2 class="hd-lg"><: l("Alerts & Messages") :><a name="alerts"></a></h2>
 			<hr class="hr"/>
 			<p>Useful to draw interest on content-heavy pages.</p>
-			<div class="tile  tile--a  tile--s  tile--mid">
+			<div class="tile--a  tile--s  tile--mid">
 				<div class="msg">This is a default message.</div>
 				<div class="msg  msg--info">This is an info message.</div>
 				<div class="msg  msg--help">This is a help message.</div>
@@ -134,7 +134,7 @@
 			<h3 class="hd-md"><: l("Text Sizes") :></h3>
 			<p>The vast majority of DuckDuckGo has been rebuilt using <tt>em</tt> units in order to better accommodate user settings.  As a result, virtually all element sizing can be adjusted simply by changing the font size.</p>
 			<p>We have a built-in double-stranded "t-shirt sizing" scale that will allow you to quickly adjust the text size of any element.  Use the <tt>.t-</tt> prefix to scale up or down from the base size, or use the <tt>.h-</tt> prefix to choose header sizes.</p>
-			<div class="tile  tile--s  tile--mid  guide-text-spec">
+			<div class="tile--s  tile--mid  guide-text-spec">
 				<div class="fix">
 					<div class="half">
 						<div class="t-xxxxl">XXXXL</div>
@@ -181,6 +181,41 @@
 &lt;span class="t-double btn  btn--alt  btn--fill"&gt;Big Button&lt;/span&gt;</pre>
 				</code>
 			</div><!--// .tile //-->
+			
+			<h3 class="hd-md"><: l("Text Colors") :></h3>
+			<p>As a general rule (for the moment) we want to keep the results page largely monochrome.  That said, some variety in text shading is often necessary.  To save you time and keep our page looking good across all themes, please stick to these styling classes when adjusting text colors in your instant answers:</p>
+			<div class="tile--s  tile--mid">
+				<div class="fix">
+					<div class="half">
+						<h3 class="text--primary">Primary Text</h3>
+						<div class="tx-clr--dk">Primary dark color.</div>
+						<div class="tx-clr--dk2">Alternate dark color.</div>
+					</div>
+					<div class="half">
+						<h3 class="text--secondary">Secondary Text</h3>
+						<div class="tx-clr--lt">Primary light color.</div>
+						<div class="tx-clr--lt2">Alternate light color.</div>
+					</div>
+				</div>
+				<hr class="hr" />
+				<p>Feel free to apply these classes to <tt>span</tt>s, <tt>div</tt>s, or any other text element.  This is just an example.</p>
+				<code>
+<pre>&lt;h3 class="text--primary"&gt;Primary Text&lt;/h3&gt;
+&lt;div class="tx-clr--dk"&gt;Primary dark color.&lt;/div&gt;
+&lt;div class="tx-clr--dk2"&gt;Alternate dark color.&lt;/div&gt;
+
+&lt;h3 class="text--secondary"&gt;Secondary Text&lt;/h3&gt;
+&lt;div class="tx-clr--lt"&gt;Primary light color.&lt;/div&gt;
+&lt;div class="tx-clr--lt2"&gt;Alternate light color.&lt;/div&gt;</pre>
+				</code>
+			</div><!--// .tile //-->
+			
+			<h3 class="hd-md"><: l("Other Colors") :></h3>
+			<div class="guide-clr-wrap">
+				<: for $colors -> $color { :>
+					<div class="guide-clr  guide-clr--<:$color:>  circle" data-name="$<:$color:>"></div>
+				<: } :>
+			</div>
 		</div><!--// .blk__text //-->
 	</div><!--// .cw--c //-->
 </div><!--// .blk //-->
