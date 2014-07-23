@@ -22,7 +22,7 @@
 				<li><a href="#buttons"><: l("Buttons") :></a></li>
 				<li><a href="#icons"><: l("Icons") :></a></li>
 				<li><a href="#alerts"><: l("Alert Messages") :></a></li>
-				<li><: l("Text & Colors") :></li>
+				<li><a href="#txt-n-color"><: l("Text & Colors") :></a></li>
 				<li><: l("Grids") :></li>
 				<li><: l("Forms") :></li>
 			</ul>
@@ -102,7 +102,6 @@
 				</div>
 			</div>
 			<: } :>
-			</div>
 		</div><!--// .blk__text //-->
 	</div><!--// .cw--c //-->
 </div><!--// .blk //-->
@@ -123,7 +122,65 @@
 &lt;div class="msg  msg--help"&gt;This is a help message.&lt;/div&gt;
 &lt;div class="msg  msg--warning"&gt;This is a warning message.&lt;/div&gt;</pre>
 				</code>
-			</div>
+			</div><!--// .tile //-->
+		</div><!--// .blk__text //-->
+	</div><!--// .cw--c //-->
+</div><!--// .blk //-->
+<div class="blk  blk--alt  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg"><: l("Text & Colors") :><a name="txt-n-color"></a></h2>
+			<hr class="hr"/>
+			<h3 class="hd-md"><: l("Text Sizes") :></h3>
+			<p>The vast majority of DuckDuckGo has been rebuilt using <tt>em</tt> units in order to better accommodate user settings.  As a result, virtually all element sizing can be adjusted simply by changing the font size.</p>
+			<p>We have a built-in double-stranded "t-shirt sizing" scale that will allow you to quickly adjust the text size of any element.  Use the <tt>.t-</tt> prefix to scale up or down from the base size, or use the <tt>.h-</tt> prefix to choose header sizes.</p>
+			<div class="tile  tile--s  tile--mid  guide-text-spec">
+				<div class="fix">
+					<div class="half">
+						<div class="t-xxxxl">XXXXL</div>
+						<div class="t-xxxl">XXXL</div>
+						<div class="t-xxl">XXL</div>
+						<div class="t-xl">XL</div>
+						<div class="t-l">L</div>
+						<div class="t-m">M</div>
+						<div class="t-s">S</div>
+						<div class="t-xs">XS</div>
+						<div class="t-xxs">XXS</div>
+						<div class="t-xxxs">XXXS</div>
+					</div>
+					<div class="half  tx-bld">
+						<div class="h-xxl">XXL Heading</div>
+						<div class="h-xl">XL Heading</div>
+						<div class="h-l">L Heading</div>
+						<div class="h-m">M Heading</div>
+						<div class="h-s">S Heading</div>
+						<div class="h-xs">XS Heading</div>
+						
+						<span class="t-double btn  btn--alt  btn--fill">Big Button</span>
+					</div>
+				</div>
+				<code>
+<pre>&lt;div class="t-xxxxl"&gt;XXXXL&lt;/div&gt;
+&lt;div class="t-xxxl"&gt;XXXL&lt;/div&gt;
+&lt;div class="t-xxl"&gt;XXL&lt;/div&gt;
+&lt;div class="t-xl"&gt;XL&lt;/div&gt;
+&lt;div class="t-l"&gt;L&lt;/div&gt;
+&lt;div class="t-m"&gt;M&lt;/div&gt;
+&lt;div class="t-s"&gt;S&lt;/div&gt;
+&lt;div class="t-xs"&gt;XS&lt;/div&gt;
+&lt;div class="t-xxs"&gt;XXS&lt;/div&gt;
+&lt;div class="t-xxxs"&gt;XXXS&lt;/div&gt;
+
+&lt;div class="h-xxl"&gt;XXL Heading&lt;/div&gt;
+&lt;div class="h-xl"&gt;XL Heading&lt;/div&gt;
+&lt;div class="h-l"&gt;L Heading&lt;/div&gt;
+&lt;div class="h-m"&gt;M Heading&lt;/div&gt;
+&lt;div class="h-s"&gt;S Heading&lt;/div&gt;
+&lt;div class="h-xs"&gt;XS Heading&lt;/div&gt;
+
+&lt;span class="t-double btn  btn--alt  btn--fill"&gt;Big Button&lt;/span&gt;</pre>
+				</code>
+			</div><!--// .tile //-->
 		</div><!--// .blk__text //-->
 	</div><!--// .cw--c //-->
 </div><!--// .blk //-->
