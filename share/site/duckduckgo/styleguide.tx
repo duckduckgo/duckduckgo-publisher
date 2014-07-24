@@ -1,7 +1,3 @@
-<style>
-/* This is temporary */
-
-</style>
 <div class="blk  blk--hero">
 	<div class="cw--c"><a class="anchor" name="top"></a>
 		<div class="logo--dax" title="DuckDuckGo"></div>
@@ -23,8 +19,8 @@
 				<li><a href="#icons"><: l("Icons") :></a></li>
 				<li><a href="#alerts"><: l("Alert Messages") :></a></li>
 				<li><a href="#txt-n-color"><: l("Text & Colors") :></a></li>
-				<li><: l("Grids") :></li>
-				<li><: l("Forms") :></li>
+				<li><a href="#forms"><: l("Forms") :></a></li>
+				<li><a href="#grids"><: l("Grids") :></a></li>
 			</ul>
 		</div>
 	</div>
@@ -96,7 +92,7 @@
 			<p>Icons are a great way to visualize controls and simplify labels.  We have a built-in icon font that you can use by applying the <tt>.ddgsi</tt> class to any element.  The available icons are:</p>
 			<: for $icons -> $icon { :>
 			<div class="twenty  thirty--screen-s  half--screen-xs">
-				<div class="t-mid">
+				<div class="tile  t-mid">
 					<span class="guide-icon-example  ddgsi ddgsi-<:$icon:>"></span>
 					<p><tt class="one-line  t-s">.ddgsi-<:$icon:></tt></p>
 				</div>
@@ -216,6 +212,75 @@
 					<div class="guide-clr  guide-clr--<:$color:>  circle" data-name="$<:$color:>"></div>
 				<: } :>
 			</div>
+		</div><!--// .blk__text //-->
+	</div><!--// .cw--c //-->
+</div><!--// .blk //-->
+<div class="blk  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg"><: l("Forms") :><a name="forms"></a></h2>
+			<hr class="hr"/>
+			
+		</div><!--// .blk__text //-->
+	</div><!--// .cw--c //-->
+</div><!--// .blk //-->
+<div class="blk  blk--alt  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg"><: l("Grids") :><a name="grids"></a></h2>
+			<hr class="hr"/>
+			<p>It may occasionally be necessary to visualize pages or results by breaking things up into a grid.  We've come up with an intuitive grid system to help with this:</p>
+			
+			<h4 class="hd-md"><: l("Easy to Use") :></h4>
+			
+			<p>Careful consideration was given to the fact that these could see heavy use, so we wanted to make sure that the naming made sense and was easy to recall.  The result is a hybrid system with simple fractions and multiples of ten:</p>
+			<div class="tile--s  tile--mid">
+				<div class="gw">
+					<div class="g  ninety"><span class="guide-grid">.ninety</span></div>
+					<div class="g  ten"><span class="guide-grid">.ten</span></div>
+					<div class="g  eighty"><span class="guide-grid">.eighty</span></div>
+					<div class="g  twenty"><span class="guide-grid">.twenty</span></div>
+					<div class="g  seventy"><span class="guide-grid">.seventy</span></div>
+					<div class="g  thirty"><span class="guide-grid">.thirty</span></div>
+					<div class="g  sixty"><span class="guide-grid">.sixty</span></div>
+					<div class="g  forty"><span class="guide-grid">.forty</span></div>
+					<div class="g  fifty"><span class="guide-grid">.fifty</span></div>
+					<div class="g  fifty"><span class="guide-grid">.fifty</span></div>
+				</div>
+				<div class="gw">
+					<div class="g  quarter"><span class="guide-grid">.quarter</span></div>
+					<div class="g  threequarter"><span class="guide-grid">.threequarter(s)</span></div>
+					<div class="g  third"><span class="guide-grid">.third</span></div>
+					<div class="g  twothird"><span class="guide-grid">.twothird(s)</span></div>
+					<div class="g  half"><span class="guide-grid">.half</span></div>
+					<div class="g  half"><span class="guide-grid">.half</span></div>
+				</div>
+			
+			</div><!--// .tile //-->
+			
+			<h4 class="hd-md"><: l("With or Without Wrappers") :></h4>
+			
+			<p>The grid system can be used with the correct "control" classes (<tt>.gw</tt> on a parent element, and <tt>.g</tt> on each grid item), or it can work without since the default behaviour for all defined grid sizes is to <tt>float: left;</tt>.</p>
+			<div class="tile--s  tile--mid">
+				<div class="fix">
+					<div class="guide-grid  half">.half</div>
+					<div class="guide-grid  half">.half</div>
+				</div>
+				<div class="gw">
+					<div class="g  half"><span class="guide-grid">.g.half</span></div>
+					<div class="g  half"><span class="guide-grid">.g.half</span></div>
+				</div>
+				<code>
+<pre>&lt;div class="fix"&gt;
+	&lt;div class="guide-grid  half"&gt;.half&lt;/div&gt;
+	&lt;div class="guide-grid  half"&gt;.half&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="gw"&gt;
+	&lt;div class="g  half"&gt;&lt;span class="guide-grid"&gt;.g.half&lt;/span&gt;&lt;/div&gt;
+	&lt;div class="g  half"&gt;&lt;span class="guide-grid"&gt;.g.half&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+				</code>
+			</div><!--// .tile //-->
 		</div><!--// .blk__text //-->
 	</div><!--// .cw--c //-->
 </div><!--// .blk //-->
