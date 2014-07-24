@@ -220,7 +220,89 @@
 		<div class="blk__text">
 			<h2 class="hd-lg"><: l("Forms") :><a name="forms"></a></h2>
 			<hr class="hr"/>
+			<p>Forms are mostly for internal use, and primarially for gathering feedback or accepting newsletter subscriptions.</p>
 			
+			<h4 class="hd-md"><: l('Newsletter Form') :></h4>
+			
+			<p>One field with a big button.  Checkmarks optional.</p>
+			
+			<hr class="hr--mid" />
+			
+			<div class="t-mid">
+				<form class="frm--newsletter" action="https://flash.duckduckgo.com/e.js" method="post" name="y">
+					<input type="hidden" name="add" value="1" />
+					<input type="text" placeholder="Enter your email address" class="frm__input" name="from" />
+					<input type="submit" value="Subscribe" class="frm__btn  btn  btn--abt--prim" />
+					<div class="frm--newsletter__chks">
+						<label class="frm__label" for="add">
+							<input class="frm__label__chk" type="checkbox" id="add" name="add" checked="checked">
+							<span class="frm__label__txt">
+								Newsletter 
+								<span class="frm--newsletter__frq">Monthly</span>
+							</span>
+						</label>
+						<label class="frm__label" for="add2">
+							<input class="frm__label__chk" type="checkbox" id="add2" name="add2"> 
+							<span class="frm__label__txt">
+								Beta
+								<span class="frm--newsletter__frq">New stuff</span>
+							</span>
+						</label>
+						<label class="frm__label" for="add3">
+							<input class="frm__label__chk" type="checkbox" id="add3" name="add3"> 
+							<span class="frm__label__txt">
+								Spread
+								<span class="frm--newsletter__frq">Promotions</span>
+							</span>
+						</label>
+						<label class="frm__label" for="add4">
+							<input class="frm__label__chk" type="checkbox" id="add4" name="add4"> 
+							<span class="frm__label__txt">
+								Privacy
+								<span class="frm--newsletter__frq">Education</span>
+							</span>
+						</label>
+					</div>
+				</form>
+			</div>
+			
+			<hr class="hr--mid" />
+			
+			<h4 class="hd-md"><: l('Feedback Form') :></h4>
+			<div class="tile--s  tile--mid">
+				<div class="frm  frm--vrt  fix">
+					<label class="frm__label"><: l('Form Field'):></label>
+					<input type="text" class="frm__input" />
+					<label class="frm__label"><: l('Form Field'):></label>
+					<div class="frm__input--clearable">
+						<input type="text" disabled="disabled" class="frm__input  frm__input--disabled" />
+						<a class="frm__input__clear">X</a>
+					</div>
+					<label for="guide-textarea" class="frm__label"><: l('Text Box:'):></label>
+					<textarea class="frm__text" placeholder="Enter your text" id="guide-textarea"></textarea>
+					<div class="frm__buttons  pull-right">
+						<span class="btn  btn--alt  frm__btn"><: l('Cancel') :></span>
+						<span class="btn  btn--primary  frm__btn"><: l('Send') :></span>
+					</div>
+				</div>
+				<code>
+<pre>&lt;form class="frm  frm--vrt"&gt;
+	&lt;label class="frm__label"&gt;<: l('Form Field'):>&lt;/label&gt;
+	&lt;input type="text" class="frm__input" /&gt;
+	&lt;label class="frm__label"&gt;<: l('Form Field'):>&lt;/label&gt;
+	&lt;div class="frm__input--clearable"&gt;
+		&lt;input type="text" disabled="disabled" class="frm__input  frm__input--disabled" /&gt;
+		&lt;a class="frm__input__clear"&gt;X&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;label for="guide-textarea" class="frm__label"&gt;<: l('Text Box:'):>&lt;/label&gt;
+	&lt;textarea class="frm__text" placeholder="Enter your text" id="guide-textarea"&gt;&lt;/textarea&gt;
+	&lt;div class="frm__buttons  pull-right"&gt;
+		&lt;span class="btn  btn--alt  frm__btn"&gt;<: l('Cancel') :>&lt;/span&gt;
+		&lt;input type="submit" class="btn  btn--primary  frm__btn" value="<: l('Send') :>"&gt;
+	&lt;/div&gt;
+&lt;/form&gt;</pre>
+				</code>
+			</div>
 		</div><!--// .blk__text //-->
 	</div><!--// .cw--c //-->
 </div><!--// .blk //-->
