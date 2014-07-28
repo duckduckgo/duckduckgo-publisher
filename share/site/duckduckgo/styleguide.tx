@@ -490,6 +490,23 @@
 &lt;/div&gt;</pre>
 				</code>
 			</div> <!--// .tile //-->
+			
+			<h3 class="hd-md"><: l("Vertical Responsiveness") :></h3>
+			<p>We are very sensitive to the use of vertical space on our results page.  It becomes even more critical to conserve vertical pixels when on a small desktop screen.  As a result, we apply the <tt>.use-opts</tt> class to the root document when on a vertically small screen.  This allows developers to specify 'optional' areas of their instant answer that can be disabled or otherwise adjusted in order to conserve screen real-estate.</p>
+			
+			<p>In addition to completely disabling elements, their positioning and text size could be adjusted as well.</p>
+			<div class="tile--s  tile--mid">
+				<div class="opt  msg--info"><tt>.use-opts</tt> <b>not applied</b></div>
+				<div class="gw">
+					<span class="g  half  opt--right"><span class="guide-grid">.opt--right</span></span>
+					<span class="g  half  opt--left"><span class="guide-grid">.opt--left</span></span>
+				</div>
+				<p class="opt--t-l">Text size can also be adjusted.</p>
+				<p class="opt--t-m">Either up </p>
+				<p class="opt--t-s">or down...</p>
+				<p class="opt--t-xs">Either subtly...</p>
+				<p class="opt--t-xxs">or in less than subtle ways.</p>
+			</div> <!--// .tile //-->
 		</div><!--// .blk__text //-->
 	</div><!--// .cw--c //-->
 </div><!--// .blk //-->
