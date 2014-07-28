@@ -22,6 +22,7 @@
 				<li><a href="#forms"><: l("Forms") :></a></li>
 				<li><a href="#grids"><: l("Grids") :></a></li>
 				<li><a href="#popovers">Popovers</a></li>
+				<li><a href="#responsive"><: l("Responsiveness") :></a></li>
 			</ul>
 		</div>
 	</div>
@@ -419,6 +420,76 @@
 &lt;/div&gt;</pre>
 				</code>
 			</div><!--// .tile //-->
+		</div><!--// .blk__text //-->
+	</div><!--// .cw--c //-->
+</div><!--// .blk //-->
+<div class="blk  blk--alt  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg"><: l("Responsiveness") :><a name="responsive"></a></h2>
+			<hr class="hr"/>
+			<p>We want all of our designs to look amazing across all platforms.  Somtimes that means making small tweaks at different screen sizes, and sometimes it calls for major differences.  We've made a wide variety of options available to you. </p>
+			
+			<h3 class="hd-md"><: l("Horizontal Breakpoints") :></h3>
+			<p>When relatively minor tweaks are needed, they're usueally best handled with these built-in helpers.  We've retained the "t-shirt sizing" methodology with our horizontal breakpoints as well, with sizes ranging from extra-small (<tt>--screen-xs</tt>) to extra-large (<tt>--screen-xl</tt>).</p>  
+			
+			<p>It should be noted that the 'default' styling essentally acts as an undeclared breakpoint somewhere betwen medium (<tt>--screen-m</tt>) and large (<tt>--screen-l</tt>).  Doing it this way allows us to easily cater to browsers that don't support media queries without needing to support separate stylesheets or a myriad of edge-cases.  The result of this is that the 'medium', 'small', and 'extra-small' breakpoints are "max-width" media queries, and the 'large' and 'extra-large' are "min-width".</p>
+			<div class="tile--s  tile--mid">
+				<h6 class="tx-clr--lt">Current Screen Size:</h6>
+				<span class="hd-lg">
+					<span class="hide--screen-m  hide--screen-l">Default</span>
+					<span class="hide  show--screen-l  hide--screen-xl">Large</span>
+					<span class="hide  show--screen-xl">Extra-Large</span>
+					<span class="hide  show--screen-m  hide--screen-s">Medium</span>
+					<span class="hide  show--screen-s  hide--screen-xs">Small</span>
+					<span class="hide  show--screen-xs">Extra-Small</span>
+				</span>
+				<code>
+<pre>&lt;span class="hd-lg"&gt;
+	&lt;span class="hide--screen-m  hide--screen-l"&gt;Default&lt;/span&gt;
+	&lt;span class="hide  show--screen-l  hide--screen-xl"&gt;Large&lt;/span&gt;
+	&lt;span class="hide  show--screen-xl"&gt;Extra-Large&lt;/span&gt;
+	&lt;span class="hide  show--screen-m  hide--screen-s"&gt;Medium&lt;/span&gt;
+	&lt;span class="hide  show--screen-s  hide--screen-xs"&gt;Small&lt;/span&gt;
+	&lt;span class="hide  show--screen-xs"&gt;Extra-Small&lt;/span&gt;
+&lt;/span&gt;</pre>
+				</code>
+			</div> <!--// .tile //-->
+			
+			<h3 class="hd-md"><: l("Responsive Grids") :></h3>
+			<div class="msg--info">All grids auto-collapse at the "small" screen size as a convenience feature.</div>
+			<p>Six-column grids just don't work on mobile.  That should be obvious.  Achieving the best layout often means adjusting the column count for different screen sizes.  Adjusting your grid on the fly is easy - use our <a href="#grids">grid names</a>, and combine them with the responsive modifiers from the above example.</p>
+			<div class="tile--s  tile--mid">
+				<h6>Four-Column Grid, Collapse to Halves</h6>
+				<div class="gw">
+					<div class="g  quarter  half--screen-s"><span class="guide-grid"> </span></div>
+					<div class="g  quarter  half--screen-s"><span class="guide-grid"> </span></div>
+					<div class="g  quarter  half--screen-s"><span class="guide-grid"> </span></div>
+					<div class="g  quarter  half--screen-s"><span class="guide-grid"> </span></div>
+				</div>
+				<h6>Or go crazy...</h6>
+				<div class="gw">
+					<div class="g  ninety--screen-xl  eighty--screen-l  seventy  sixty--screen-m  fifty--screen-s  forty--screen-xs"><span class="guide-grid"> </span></div>
+					<div class="g  ten--screen-xl  twenty--screen-l  thirty  forty--screen-m  fifty--screen-s  sixty--screen-xs"><span class="guide-grid"> </span></div>
+				</div>
+				<code>
+<pre>&lt;div class="gw"&gt;
+		&lt;div class="g  quarter  half--screen-s"&gt;&lt;span class="guide-grid"&gt; &lt;/span&gt;&lt;/div&gt;
+		&lt;div class="g  quarter  half--screen-s"&gt;&lt;span class="guide-grid"&gt; &lt;/span&gt;&lt;/div&gt;
+		&lt;div class="g  quarter  half--screen-s"&gt;&lt;span class="guide-grid"&gt; &lt;/span&gt;&lt;/div&gt;
+		&lt;div class="g  quarter  half--screen-s"&gt;&lt;span class="guide-grid"&gt; &lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="gw"&gt;
+		&lt;div class="g  ninety--screen-xl  eighty--screen-l  seventy  sixty--screen-m  fifty--screen-s  forty--screen-xs"&gt;
+				&lt;span class="guide-grid"&gt; &lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class="g  ten--screen-xl  twenty--screen-l  thirty  forty--screen-m  fifty--screen-s  sixty--screen-xs"&gt;
+				&lt;span class="guide-grid"&gt; &lt;/span&gt;
+		&lt;/div&gt;
+&lt;/div&gt;</pre>
+				</code>
+			</div> <!--// .tile //-->
 		</div><!--// .blk__text //-->
 	</div><!--// .cw--c //-->
 </div><!--// .blk //-->
