@@ -1,0 +1,48 @@
+<div class="blk  blk--hero">
+	<div class="cw--c"><a class="anchor" name="top"></a>
+		<div class="spread-hero" title="<: l('Help Spread DuckDuckGo') :>"></div>
+		
+			<h1 class="hd-hr"><: l("Help DuckDuckGo grow!") :>
+			<br/>
+			<: l("Get your friends and family to switch.") :></h1>
+			<h6 class="hd-hr  spread-subtitle"><: l("Join the millions of users who are spreading the word and inviting people they know to use DuckDuckGo.") :></h6>
+	</div>
+</div>
+<div class="blk  blk--dark  blk--arr">
+	<div class="cw--c">
+		<h2 class="hd-hr  h-xxl"><: l("Our success depends on you.") :></h2>
+		
+		<div class="fix">
+			<div class="third">
+				<div class="spread-info">
+					<span class="spread-img  spread-img--love" title="You know you love us..."></span>
+					
+					<h4 class="spread-info__hd"><: l('You Chose Us') :></h4>
+					<p class="spread-info__p"><: l("You've seen the future of search.  From real privacy to smarter answers and less clutter, everyone has a reason to love DuckDuckGo.") :></p>
+				</div>
+			</div>
+			<div class="third">
+				<div class="spread-info  spread-info--mid">
+					<span class="spread-img  spread-img--share" title="so share us with your friends"></span>
+					
+					<h4 class="spread-info__hd"><: l('Show Your Friends') :></h4>
+					<p class="spread-info__p"><: l("98%s of the world has never heard about DuckDuckGo.  Show your friends and family why you love DuckDuckGo and get them to switch.", "%") :></p>
+				</div>
+			</div>
+			<div class="third">
+				<div class="spread-info">
+					<span class="spread-img  spread-img--takeoff" title="... and help us take off!"></span>
+					
+					<h4 class="spread-info__hd"><: l('We Rely On You') :></h4>
+					<p class="spread-info__p"><: l("We're up against billion-dollar giants but we've got awesome people like you on our side.  When you get others to use DuckDuckGo, we grow!") :></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="blk  blk--arr">
+	<div class="spread-callout">
+		<h2 class="hd-hr  h-xxl"><: l("Take it one step further and get a t-shirt for sharing DuckDuckGo!") :></h2>
+		<span class="btn  btn--alt">Coming Soon...</span>
+	</div>
+</div>
