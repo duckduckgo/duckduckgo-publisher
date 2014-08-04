@@ -43,6 +43,6 @@
 <div class="blk  blk--arr  blk--alt">
 	<div class="spread-callout">
 		<h2 class="hd-hr  spread-title"><: l("Take it one step further and get a t-shirt for sharing DuckDuckGo!") :></h2>
-		<span class="btn  btn--alt">Coming Soon...</span>
+		<span class="btn  btn--alt  spread-callout__btn">Coming Soon...</span>
 	</div>
 </div>
