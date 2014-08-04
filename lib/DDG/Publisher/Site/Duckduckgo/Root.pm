@@ -268,7 +268,7 @@ sub pages {{
 		colors => ['white','white-alt','silver','ash','grey','dim','jet','red','green','teal','cyan','blue','blue-dark','blue-pale','orange','salmon','salmon-dark',],
 	},
 	spread => sub {
-		copyright_footer => 1,
+		copyright_footer => 2,
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
