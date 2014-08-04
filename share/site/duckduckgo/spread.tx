@@ -2,7 +2,7 @@
 	<div class="cw--c"><a class="anchor" name="top"></a>
 		<div class="spread-hero" title="<: l('Help Spread DuckDuckGo') :>"></div>
 		
-			<h1 class="hd-hr"><: l("Help DuckDuckGo grow!") :>
+			<h1 class="hd-hr  spread-title--hero"><: l("Help DuckDuckGo grow!") :>
 			<br/>
 			<: l("Get your friends and family to switch.") :></h1>
 			<h6 class="hd-hr  spread-subtitle"><: l("Join the millions of users who are spreading the word and inviting people they know to use DuckDuckGo.") :></h6>
@@ -10,9 +10,9 @@
 </div>
 <div class="blk  blk--dark  blk--arr">
 	<div class="cw--c">
-		<h2 class="hd-hr  h-xxl"><: l("Our success depends on you.") :></h2>
+		<h2 class="hd-hr  spread-title"><: l("Our success depends on you.") :></h2>
 		
-		<div class="fix">
+		<div class="spread-info-wrap  fix">
 			<div class="third">
 				<div class="spread-info">
 					<span class="spread-img  spread-img--love" title="You know you love us..."></span>
@@ -40,9 +40,9 @@
 		</div>
 	</div>
 </div>
-<div class="blk  blk--arr">
+<div class="blk  blk--arr  blk--alt">
 	<div class="spread-callout">
-		<h2 class="hd-hr  h-xxl"><: l("Take it one step further and get a t-shirt for sharing DuckDuckGo!") :></h2>
+		<h2 class="hd-hr  spread-title"><: l("Take it one step further and get a t-shirt for sharing DuckDuckGo!") :></h2>
 		<span class="btn  btn--alt">Coming Soon...</span>
 	</div>
 </div>
