@@ -1,2 +1,5 @@
 <: include "meta/title.tx" { title => l('DuckDuckGo Settings') } :>
+
+<meta name="description" content="Customize the way DuckDuckGo works, looks, and feels. For example, boost results for your region or change the fonts and color.">
+
 <link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_SETTINGS_CSS_FILE || 'css/r/settings_latest.css' :>" type="text/css">
