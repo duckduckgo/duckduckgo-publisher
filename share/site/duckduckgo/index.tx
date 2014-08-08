@@ -3,12 +3,7 @@
 <div id="tagline_homepage" class="tag-home">
 
 	<: lp('frontpage','The search engine that %s.', lp('frontpage',"doesn't track you")) :>
-	<a href="/whatsnew" class="r-block--screen-xs"><: l("What's new!") :></a>
 
-<!--
-	<a href="http://donttrack.us/" class="tag-home__link"><: lp('frontpage','Search %s.',r('<em>') ~ lp('frontpage','Anonymously') ~ r('</em>')) :></a>
-&nbsp;<a href="/goodies/" class="tag-home__link"><: lp('frontpage','Find %s.',r('<em>') ~ lp('frontpage','Instantly') ~ r('</em>')) :></a>
-//-->
 </div>
 		
 		<div id="error_homepage"></div>

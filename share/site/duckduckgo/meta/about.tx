@@ -1,5 +1,7 @@
 <: include "meta/title.tx" { title => l('About DuckDuckGo') } :>
 
+<meta name="description" content="Our vision is simple. To give you great results without tracking you. We're not just servers and algorithm. We're so much more.">
+
 <meta property="og:image" content="http://duckduckgo.com/assets/about/about-duckduckgo-posterimg.jpg" />
 <meta property="og:type" content="article" />
 <meta property="og:description" content="<: l('DuckDuckGo has better instant answers, less spam and clutter, and real privacy.') :>" />

@@ -1,2 +1,3 @@
 <: include "meta/title.tx" { title => l('DuckDuckGo Settings') } :>
 <script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_2_FILE || '/duckgo_dev.js' :>"></script>
+<meta name="description" content="Customize the way DuckDuckGo works, looks, and feels. For example, boost results for your region or change the fonts and color.">

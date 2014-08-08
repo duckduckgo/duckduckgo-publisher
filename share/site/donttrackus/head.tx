@@ -2,7 +2,7 @@
 <link rel="image_src" href="ddg/tools/google9.jpg"/> 
 <link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="ddg/opensearch.xml">
 <!-- <link rel="stylesheet" href="ddg/s515.css" type="text/css"> -->
-<link rel="stylesheet" type="text/css" href="common/css/micro.css?1">
+<link rel="stylesheet" type="text/css" href="common/css/micro.css?2">
 <link rel="stylesheet" type="text/css" href="css/track.css?1" /> 
 <meta name="viewport" content="width=100%, initial-scale=1.0" />
 

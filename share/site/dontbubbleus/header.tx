@@ -1,16 +1,4 @@
-<div id="lang-select" class="button">
-	<span class="current"><img src="<: $locales[$f.locale].flag_url :>" /><: $locales[$f.locale].name_in_local :></span>
-	<ul class="hide">
-		<: for $locales.keys() -> $locale { :>
-			<: if $locales[$locale].percent > 95 || $locale == $s.default_locale { :>
-				<li<: if $locale == $f.locale { :> class="current"<: } :>><a href="/?kad=<: $locale :>">
-					<img src="<: $locales[$locale].flag_url :>" />
-					<: $locales[$locale].name_in_local :>
-				</a></li>
-			<: } :>
-		<: } :>
-	</ul>
-</div>
+<: include "lang_select.tx" {s=>$s,f=>$f,locales=>$locales} :>
 
 <div class="site-header" id="header">
         <a href="http://fixtracking.com/"><span class="topmsg">Fix Tracking!</span></a>
