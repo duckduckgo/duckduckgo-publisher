@@ -57,8 +57,6 @@
 		<: include "footer.tx" :>
 		</div> <!-- content_wrapper //-->
 	<: } :>
-	    <div id="add_to_browser" class="modal grp_modal"></div>
-		<div id="add_to_browser_homepage" class="modal grp_modal"></div>
     </div> <!-- site-wrapper -->
   </body>
 </html>

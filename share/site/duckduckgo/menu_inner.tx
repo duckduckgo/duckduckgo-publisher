@@ -31,9 +31,9 @@
 	<ul class="nav-menu--add-to">
 	<li class="nav-menu__heading"><span><: l('Add DuckDuckGo') :></span></li>
 	<li class="nav-menu__item"><script type="text/javascript">
-		nib(0,'','','',0,0,'');
+		//nib(0,'','','',0,0,'');
 	</script></li>
 	<li class="nav-menu__item"><script type="text/javascript">
-		nib(0,'','','',0,1,'');
+		//nib(0,'','','',0,1,'');
 	</script></li>
 	</ul>

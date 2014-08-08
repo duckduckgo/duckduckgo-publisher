@@ -1,10 +1,11 @@
-<div id="footer_homepage" class="foot-home">	
+<div id="footer_homepage" class="foot-home">
+	<span class="js-home-add-to-browser"></span><span class="js-home-add-to-homepage"></span>
 	<script type="text/javascript">
-		nib(0,'btn--icon btn--home js-modal','','</span>',0,0,'<i class="btn--home__icon  ddgst-add"></i> <span>');
-		nib(0,'btn--icon btn--home js-modal','','</span>',0,1,'<i class="btn--home__icon  ddgst-home"></i> <span>');
+		//nib(0,'btn--icon btn--home js-modal','','</span>',0,0,'<i class="btn--home__icon  ddgst-add"></i> <span>');
+		//nib(0,'btn--icon btn--home js-modal','','</span>',0,1,'<i class="btn--home__icon  ddgst-home"></i> <span>');
 	</script>
 	<span class="modal_trig">
-		<div id="learn_more_modal" class="modal grp_modal">
+		<div id="learn_more_modal" class="modal  js-modal  js-learn-more-modal">
 			<i class="logo_modal"></i>
 			<h4 class="modal__title"><: l('More DuckDuckGo?') :></h4>
 			<div class="modal__buttons">
@@ -13,7 +14,7 @@
 			</div>
 		</div>
 	</span>
-	<a href="https://duck.co" class="btn--icon  btn--home  js-modal" data-modal="learn_more_modal"><i class="btn--home__icon  ddgst-more"></i> <: lp('frontpage', 'Learn %sMore%s', '<span>', '</span>') :></a>
+	<a href="https://duck.co" class="btn--icon  btn--home  js-learn-more-modal-trigger"><i class="btn--home__icon  ddgst-more"></i> <: lp('frontpage', 'Learn %sMore%s', '<span>', '</span>') :></a>
 	
 </div>
 
