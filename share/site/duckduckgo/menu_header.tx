@@ -1,4 +1,4 @@
-<div id="header_button_menu" class="nav-menu--slideout">
+<div class="nav-menu--slideout  js-main-menu">
     <ul class="nav-menu__list">
 		<i class="nav-menu__close  js-trigger-main-menu">x</i>
 		<: include "menu_inner.tx" :>

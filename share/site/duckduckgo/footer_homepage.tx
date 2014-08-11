@@ -1,9 +1,5 @@
 <div id="footer_homepage" class="foot-home">
 	<span class="js-home-add-to-browser"></span><span class="js-home-add-to-homepage"></span>
-	<script type="text/javascript">
-		//nib(0,'btn--icon btn--home js-modal','','</span>',0,0,'<i class="btn--home__icon  ddgst-add"></i> <span>');
-		//nib(0,'btn--icon btn--home js-modal','','</span>',0,1,'<i class="btn--home__icon  ddgst-home"></i> <span>');
-	</script>
 	<span class="modal_trig">
 		<div id="learn_more_modal" class="modal  js-modal  js-learn-more-modal">
 			<i class="logo_modal"></i>
@@ -32,9 +28,4 @@
 	}
 	fq=1;
 	ric=0;
-var ref=new RegExp('[\?\&]add=([^\&]+)');
-if (ref.test(window.location.href) || (document.referrer && document.referrer.indexOf('duckduckgo.com/')==-1)) {
-//   console.log(document.referrer);
-   if (document.getElementById('trig_add_to_browser')) setTimeout("DDG.mv_elem('add_to_browser','trig_add_to_browser');DDG.toggle('add_to_browser');",50);
-}
 </script>
