@@ -26,6 +26,4 @@
 	if (kurl) {
 	  document.getElementById("logo_homepage_link").href += (document.getElementById("logo_homepage_link").href.indexOf('?')==-1 ? '?t=i' : '') + kurl;
 	}
-	fq=1;
-	ric=0;
 </script>
