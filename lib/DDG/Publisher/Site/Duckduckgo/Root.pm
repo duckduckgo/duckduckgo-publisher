@@ -254,7 +254,7 @@ sub pages {{
 	newbang => sub {},
 	params => sub {},
 	settings => sub {
-		yui_body_header => 1
+		menu_hide_settings => 1
 	},
 	styleguide => sub {
 		copyright_footer => 1,
