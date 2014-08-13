@@ -1,16 +1,15 @@
 <div class="blk  blk--hero">
 	<div class="cw--c"><a class="anchor" name="top"></a>
 		<div class="spread-hero" title="<: l('Help Spread DuckDuckGo') :>"></div>
-		
-			<h1 class="hd-hr  spread-title--hero"><: l("Help DuckDuckGo grow!") :>
-			<br/>
-			<: l("Get your friends and family to switch.") :></h1>
+		<div class="spread-hero--text">
+			<h1 class="hd-hr  spread-title--hero"><: l("Get your friends to switch %s and help DuckDuckGo grow!", '<br>') :></h1>
 			<h6 class="hd-hr  spread-subtitle"><: l("Join the millions of users who are spreading the word and inviting people they know to use DuckDuckGo.") :></h6>
+		</div>
 	</div>
 </div>
 <div class="blk  blk--dark  blk--arr">
 	<div class="cw--c">
-		<h2 class="hd-hr  spread-title"><: l("Our success depends on you.") :></h2>
+		<h2 class="hd-hr  spread-title"><: l("Get people you know to try DuckDuckGo.") :></h2>
 		
 		<div class="spread-info-wrap  fix">
 			<div class="third">
@@ -26,7 +25,7 @@
 					<span class="spread-img  spread-img--share" title="so share us with your friends"></span>
 					
 					<h4 class="spread-info__hd"><: l('Show Your Friends') :></h4>
-					<p class="spread-info__p"><: l("98%s of the world has never heard about DuckDuckGo.  Show your friends and family why you love DuckDuckGo and get them to switch.", "%") :></p>
+					<p class="spread-info__p"><: l("Show your friends and family why you love DuckDuckGo and get them to switch.  Did you know %s of the world has never heard about us?", '98%') :></p>
 				</div>
 			</div>
 			<div class="third">
@@ -34,7 +33,7 @@
 					<span class="spread-img  spread-img--takeoff" title="... and help us take off!"></span>
 					
 					<h4 class="spread-info__hd"><: l('We Rely On You') :></h4>
-					<p class="spread-info__p"><: l("We're up against billion-dollar giants but we've got awesome people like you on our side.  When you get others to use DuckDuckGo, we grow!") :></p>
+					<p class="spread-info__p"><: l("When you get others to use switch, we grow!  We're up against billion-dollar giants, but we've got awesome people like you on our side.") :></p>
 				</div>
 			</div>
 		</div>
@@ -42,7 +41,8 @@
 </div>
 <div class="blk  blk--arr  blk--alt">
 	<div class="spread-callout">
-		<h2 class="hd-hr  spread-title"><: l("Take it one step further and get a t-shirt for sharing DuckDuckGo!") :></h2>
-		<span class="btn  btn--alt  spread-callout__btn">Coming Soon...</span>
+		<span class="spread-img  spread-img--t-shirt" title="Will it have a duck on it?  Only time will tell..."></span>
+		<h2 class="hd-hr  spread-callout__title"><: l("Take it one step further and get a t-shirt for sharing DuckDuckGo!") :></h2>
+		<h6 class="spread-callout__subtitle"><: l("Check back here for details after Sept. 15th, 2014") :></h6>
 	</div>
 </div>
