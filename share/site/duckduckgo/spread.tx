@@ -33,7 +33,7 @@
 					<span class="spread-img  spread-img--takeoff" title="... and help us take off!"></span>
 					
 					<h4 class="spread-info__hd"><: l('We Rely On You') :></h4>
-					<p class="spread-info__p"><: l("When you get others to use switch, we grow!  We're up against billion-dollar giants, but we've got awesome people like you on our side.") :></p>
+					<p class="spread-info__p"><: l("When you get others to switch, we grow!  We're up against billion-dollar giants, but we've got awesome people like you on our side.") :></p>
 				</div>
 			</div>
 		</div>
