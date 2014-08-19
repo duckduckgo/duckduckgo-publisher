@@ -1,18 +1,4 @@
-<div id="footer_homepage" class="foot-home">
-	<span class="js-home-add-to-browser"></span><span class="js-home-add-to-homepage"></span>
-	<span class="modal_trig">
-		<div id="learn_more_modal" class="modal  js-modal  js-learn-more-modal">
-			<i class="logo_modal"></i>
-			<h4 class="modal__title"><: l('More DuckDuckGo?') :></h4>
-			<div class="modal__buttons">
-				<a target="about" href="/about" class="btn"><: l('About'):></a>
-				<a target="about" href="https://duck.co" class="btn"><: l('Community'):></a>
-			</div>
-		</div>
-	</span>
-	<a href="https://duck.co" class="btn--icon  btn--home  js-learn-more-modal-trigger"><i class="btn--home__icon  ddgst-more"></i> <: lp('frontpage', 'Learn %sMore%s', '<span>', '</span>') :></a>
-	
-</div>
+<div id="footer_homepage" class="foot-home  js-foot-home"></div>
 
 <script type="text/javascript">
 	{function seterr(str) {
