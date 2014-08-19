@@ -30,6 +30,6 @@
 	
 	<ul class="nav-menu--add-to">
 	<li class="nav-menu__heading"><span><: l('Add DuckDuckGo') :></span></li>
-	<li class="nav-menu__item"><span class="js-menu-add-to-browser"></span></li>
-	<li class="nav-menu__item"><span class="js-menu-add-to-homepage"></span></li>
+	<li class="nav-menu__item js-menu-add-to-browser"></li>
+	<li class="nav-menu__item js-menu-add-to-homepage"></li>
 	</ul>
