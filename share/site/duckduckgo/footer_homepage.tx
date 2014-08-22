@@ -1,21 +1,4 @@
-<div id="footer_homepage" class="foot-home">	
-	<script type="text/javascript">
-		nib(0,'btn--icon btn--home js-modal','','</span>',0,0,'<i class="btn--home__icon  ddgst-add"></i> <span>');
-		nib(0,'btn--icon btn--home js-modal','','</span>',0,1,'<i class="btn--home__icon  ddgst-home"></i> <span>');
-	</script>
-	<span class="modal_trig">
-		<div id="learn_more_modal" class="modal grp_modal">
-			<i class="logo_modal"></i>
-			<h4 class="modal__title"><: l('More DuckDuckGo?') :></h4>
-			<div class="modal__buttons">
-				<a target="about" href="/about" class="btn"><: l('About'):></a>
-				<a target="about" href="https://duck.co" class="btn"><: l('Community'):></a>
-			</div>
-		</div>
-	</span>
-	<a href="https://duck.co" class="btn--icon  btn--home  js-modal" data-modal="learn_more_modal"><i class="btn--home__icon  ddgst-more"></i> <: lp('frontpage', 'Learn %sMore%s', '<span>', '</span>') :></a>
-	
-</div>
+<div id="footer_homepage" class="foot-home  js-foot-home"></div>
 
 <script type="text/javascript">
 	{function seterr(str) {
@@ -29,11 +12,4 @@
 	if (kurl) {
 	  document.getElementById("logo_homepage_link").href += (document.getElementById("logo_homepage_link").href.indexOf('?')==-1 ? '?t=i' : '') + kurl;
 	}
-	fq=1;
-	ric=0;
-var ref=new RegExp('[\?\&]add=([^\&]+)');
-if (ref.test(window.location.href) || (document.referrer && document.referrer.indexOf('duckduckgo.com/')==-1)) {
-//   console.log(document.referrer);
-   if (document.getElementById('trig_add_to_browser')) setTimeout("DDG.mv_elem('add_to_browser','trig_add_to_browser');DDG.toggle('add_to_browser');",50);
-}
 </script>
