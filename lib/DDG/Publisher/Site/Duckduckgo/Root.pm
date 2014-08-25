@@ -23,7 +23,7 @@ sub pages {{
 			title => 'Founder',
 			info => 'Family guy',
 			image => 'gabriel',
-			link => 'https://twitter.com/yegg/',
+			link => 'https://twitter.com/yegg',
 		},{
 			name => 'Caine Tighe',
 			title => 'Core Components',
@@ -77,7 +77,7 @@ sub pages {{
 			title => 'Duck.co',
 			info => 'Discombobulator',
 			image => 'john',
-			link => 'https://github.com/jbarrett/',
+			link => 'https://github.com/jbarrett',
 		}],
 		
 		ddg_events => [{
