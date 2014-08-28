@@ -27,7 +27,7 @@
 
 <div class="frame-wrap" id="fig4" name="fig4">
 	<div class="frame"><span class="fig"><: l('Fig. %d',4) :></span>
-		<a href="https://www.google.com/settings/ads" target="_google-ads"><img src="images/ads-profile.png" alt="<: lp('alt','screenshot of a Google ads profile') :>" /></a>
+		<a href="https://www.google.com/settings/ads" target="_google-ads"><img src="images/google-profile.png" alt="<: lp('alt','screenshot of a Google ads profile') :>" /></a>
 	</div>
 </div>
 
