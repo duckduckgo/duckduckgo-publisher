@@ -1,5 +1,0 @@
-<: include "meta/title.tx" { title => l("What's New on DuckDuckGo?") } :>
-
-<meta name="description" content="Take a quick tour of DuckDuckGo and see for yourself why people are switching.  It's so much more than privacy!">
-
-<script src="js/r/whatsnew102.js"></script>
