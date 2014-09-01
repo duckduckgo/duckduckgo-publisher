@@ -83,6 +83,70 @@
 </div>
 <div class="blk  blk--tour  blk--alt"><a class="anchor" name="saying"></a>
 	<div class="cw--c">
+		<div class="tour-text--mid">
+			<h3 class="tour-title"><: l("...and did we mention we still don't track you?"):></h3>
+			<p class="tour-text__p"><: l("If that's not convincing enough, have a look at what others are saying..."):></p>
 		
+			<div class="tour-quotes">
+				<blockquote>I wonder how long it would take us to make duckduckgo.com our default search engine?  Go duck, go! <cite><a href="https://twitter.com/stephenfry">Stephen Fry @stephenfry</a></cite></blockquote>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<div class="tour-search  blk  blk--hero  blk--hero--alt">
+	<div class="cw--c">
+		<i class="tour-search__icon  ddgsi  ddgsi-loupe"></i>
+		<form class="tour-search__form  js-tour-search-form" name="x" action="/">
+			<div class="tour-search__input-wrap">
+				<input type="text" name="q" autocomplete="off" class="tour-search__input  search__input  js-tour-search-input" placeholder="<: l('Try a search'):>" >
+			</div>
+			<input class="tour-search__btn  btn  btn--primary--alt  js-tour-search-button" type="submit" value="Show me the money!" />
+		</form>
+	</div>
+</div>
+<div class="tour-foot  blk  blk--tour  blk--dark">
+	<div class="cw--c">
+		<div class="tour-suggest">
+			<h4 class="tour-suggest__title"><: l("Or try one of these:") :></h4>
+			<div class="gw">
+				<div class="g quarter">
+					<h6 class="tour-suggest__hd"><: l("Images") :></h6>
+					<a class="tour-suggest__a" href="/?q=tilt+shift+images">Tilt Shift Images</a>
+					<a class="tour-suggest__a" href="/?q=thailand+beach+images">Thailand Beach Images</a>
+					<h6 class="tour-suggest__hd"><: l("Videos") :></h6>
+					<a class="tour-suggest__a" href="/?q=justin+timberlake+videos">Justin Timberlake Videos</a>
+					<a class="tour-suggest__a" href="/?q=photoshop+tutorial+videos">Photoshop Tutorial Videos</a>
+				</div>
+				<div class="g quarter">
+					<h6 class="tour-suggest__hd"><: l("Weather") :></h6>
+					<a class="tour-suggest__a" href="/?q=weather+in+encinitas">Weather in Encinitas</a>
+					<a class="tour-suggest__a" href="/?q=weather+in+paris">Weather in Paris</a>
+					<h6 class="tour-suggest__hd"><: l("Recipes") :></h6>
+					<a class="tour-suggest__a" href="/?q=tilapia+recipes">Tilapia Recipes</a>
+					<a class="tour-suggest__a" href="/?q=vanilla+fudge">Vanilla Fudge</a>
+				</div>
+				<div class="g quarter">
+					<h6 class="tour-suggest__hd"><: l("Places") :></h6>
+					<a class="tour-suggest__a" href="/?q=thai+food+in+San+Francisco">Thai food in San Francisco</a>
+					<a class="tour-suggest__a" href="/?q=bars+near+me">Bars near me</a>
+					<a class="tour-suggest__a" href="/?q=coffeebar+truckee,+ca">Coffeebar Truckee, CA</a>
+					<h6 class="tour-suggest__hd"><: l("Meanings") :></h6>
+					<a class="tour-suggest__a" href="/?q=orange">Orange</a>
+				</div>
+				<div class="g quarter">
+					<h6 class="tour-suggest__hd"><: l("SoundCloud") :></h6>
+					<a class="tour-suggest__a" href="/?q=daft+punk+soundcloud">Daft Punk Soundcloud</a>
+					<a class="tour-suggest__a" href="/?q=the+XX+sc">The XX sc</a>
+					<h6 class="tour-suggest__hd"><: l("Other Goodies") :></h6>
+					<a class="tour-suggest__a" href="/?q=8+oz+to+grams">8 oz to grams</a>
+					<a class="tour-suggest__a" href="/?q=population+of+california">Population of California</a>
+				</div>
+			</div>
+		</div>
+		<div class="tour-copyright">
+			&copy; DuckDuckGo, Inc.  All Rights Reserved.<br/>
+			Check out <a href="/privacy">The Best Privacy Policy Ever</a>.
+		</div>
 	</div>
 </div>
