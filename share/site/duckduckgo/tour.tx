@@ -10,7 +10,7 @@
 		<div class="g half">
 			<div class="tour-text">
 				<h2 class="tour-text__head" data-number="1"><: l("Great Results") :></h2>
-				<h3 class="tour-text__title"><: l("Join the millions who are choosing a better search experience") :></h3>
+				<h3 class="tour-text__title"><: l("Join the millions who are choosing a better search experience.") :></h3>
 				<p class="tour-text__p">DuckDuckGo has everything you expect a search engine to have, including images, news, and places, all while respecting your privacy.  Great results without tracking you.  That's DuckDuckGo in a nutshell.</p>
 				<a href="#answers" class="tour-text__next  ddgsi-b  ddgsi-arrow-down"></a>
 			</div>
@@ -26,7 +26,7 @@
 			<div class="tour-text">
 				<h2 class="tour-text__head" data-number="2"><: l("Instant Answers") :></h2>
 				<h3 class="tour-text__title"><: l("Instant Answers for every situation.  Music, weather, & recipes to name a few.") :></h3>
-				<p class="tour-text__p">Instant Answers help you find what you're looking for in few or zero clicks.  There are thousands available so you can use a stopwatch for your workout, define a word, or discover movies with Chuck Norries without leaving your search engine!</p>
+				<p class="tour-text__p">Instant Answers help you find what you're looking for in few or zero clicks.  There are thousands available so you can use a stopwatch for your workout, define a word, or discover movies with Chuck Norris without leaving your search engine!</p>
 				<a href="#settings" class="tour-text__next  ddgsi-b  ddgsi-arrow-down"></a>
 			</div>
 		</div>
@@ -56,7 +56,7 @@
 			<div class="tour-text">
 				<h2 class="tour-text__head" data-number="4"><: l("!bangs") :></h2>
 				<h3 class="tour-text__title"><: l("A feature to help you search on thousands of other sites, directly.") :></h3>
-				<p class="tour-text__p">A search for !amazon shoes will take you right to an Amazon search for shoes on Amazon.com.  Try <a href="/?q=!a+shoes" target="amazon">!a shoes</a> or <a href="/?q=!ebay+wallet" target="ebay">!ebay wallet</a>.  There are <a href="/bang">thousands of !bangs</a> and you can even <a href="/newbang">submit your own.</a></p>
+				<p class="tour-text__p">A search for <a href="/?q=!amazon+shoes" target="amazon">!amazon shoes</a> will take you right to an Amazon search for shoes on Amazon.com.  Try <a href="/?q=!a+shoes" target="amazon">!a shoes</a> or <a href="/?q=!ebay+wallet" target="ebay">!ebay wallet</a>.  There are <a href="/bang">thousands of !bangs</a> and you can even <a href="/newbang">submit your own.</a></p>
 				<a href="#switch" class="tour-text__next  ddgsi-b  ddgsi-arrow-down"></a>
 			</div>
 		</div>
@@ -71,7 +71,7 @@
 		<div class="g half">
 			<div class="tour-text">
 				<h2 class="tour-text__head" data-number="5"><: l("Time to Switch!") :></h2>
-				<h3 class="tour-text__title"><: l("It's never been easier to switch now that we're an available option in Safari!") :></h3>
+				<h3 class="tour-text__title"><: l("It's never been easier to switch now that we're available in Safari!") :></h3>
 				<p class="tour-text__p">No matter what your browser, just go to our <a href="/">homepage</a> and click the button at the bottom to add DuckDuckGo.  Get great results without being tracked.</p>
 				<a href="#saying" class="tour-text__next  ddgsi-b  ddgsi-arrow-down"></a>
 			</div>
