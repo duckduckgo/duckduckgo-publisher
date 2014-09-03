@@ -42,9 +42,9 @@
 				<noscript>
 					<img class="tour-img  tour-img--r" src="/assets/tour/2b_weather.jpg" alt="weather results on mobile" />
 				</noscript>
-				<img class="tour-img  tour-img--l  tour-img--rot  js-tour-img" src="" data-src="/assets/tour/2a_music.jpg" alt="music results on mobile for 'daft punk'" />
-				<img class="tour-img  tour-img--l  tour-img--rot  js-tour-img" src="" data-src="/assets/tour/2b_weather.jpg" alt="weather results on mobile" />
-				<img class="tour-img  tour-img--l  tour-img--rot  js-tour-img" src="" data-src="/assets/tour/2c_recipes.jpg" alt="recipes results on mobile for 'sorbet'" />
+				<img class="tour-img  tour-img--r  tour-img--rot  js-tour-img" src="" data-src="/assets/tour/2a_music.jpg" alt="music results on mobile for 'daft punk'" />
+				<img class="tour-img  tour-img--r  tour-img--rot  js-tour-img" src="" data-src="/assets/tour/2b_weather.jpg" alt="weather results on mobile" />
+				<img class="tour-img  tour-img--r  tour-img--rot  js-tour-img" src="" data-src="/assets/tour/2c_recipes.jpg" alt="recipes results on mobile for 'sorbet'" />
 			</div>
 		</div>
 	</div>
@@ -62,7 +62,7 @@
 			</div>
 			<div class="g half  tour-img-wrap">
 				<noscript>
-					<img class="tour-img  tour-img--r" src="/assets/tour/3b_theme.jpg" alt="'contrast' theme" />
+					<img class="tour-img  tour-img--l" src="/assets/tour/3b_theme.jpg" alt="'contrast' theme" />
 				</noscript>
 				<img class="tour-img  tour-img--l  tour-img--rot  js-tour-img" src="" data-src="/assets/tour/3a_region.jpg" alt="region selector" />
 				<img class="tour-img  tour-img--l  tour-img--rot  js-tour-img" src="" data-src="/assets/tour/3b_theme.jpg" alt="'contrast' theme" />
