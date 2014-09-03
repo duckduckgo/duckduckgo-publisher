@@ -38,7 +38,7 @@
 					<a href="#settings" class="tour-text__next"></a>
 				</div>
 			</div>
-			<div class="g half  tour-img-wrap">
+			<div class="g half  tour-img-wrap  js-tour-2">
 				<noscript>
 					<img class="tour-img  tour-img--r" src="/assets/tour/2b_weather.jpg" alt="weather results on mobile" />
 				</noscript>
@@ -60,7 +60,7 @@
 					<a href="#bangs" class="tour-text__next"></a>
 				</div>
 			</div>
-			<div class="g half  tour-img-wrap">
+			<div class="g half  tour-img-wrap  js-tour-3">
 				<noscript>
 					<img class="tour-img  tour-img--l" src="/assets/tour/3b_theme.jpg" alt="'contrast' theme" />
 				</noscript>
