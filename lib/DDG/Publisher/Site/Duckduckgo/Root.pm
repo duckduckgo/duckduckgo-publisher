@@ -254,7 +254,8 @@ sub pages {{
 	newbang => sub {},
 	params => sub {},
 	settings => sub {
-		menu_hide_settings => 1
+		menu_hide_settings => 1,
+		js_skip_init => 1,
 	},
 	styleguide => sub {
 		copyright_footer => 1,
@@ -285,6 +286,7 @@ sub pages {{
 		alt_header_text => 1,
 		menu_show_press => 1,
 		menu_hide_themes => 1,
+		js_page_type => 'Tour',
 	},
 
 	## TODO

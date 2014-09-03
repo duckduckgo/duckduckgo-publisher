@@ -1,7 +1,1 @@
 <: include "meta/title.tx" { title => l('Tour DuckDuckGo - Smarter Search, Less Clutter, and Real Privacy.') } :>
-
-<script>
-	DDG.ready(function(){
-		DDG.page = new DDG.Pages.Tour();
-	});
-</script>
