@@ -1,5 +1,5 @@
 		<form id="search_form_homepage" class="search  search--home  js-search-init" name="x" method="POST" action="/html">			
-			<input id="search_form_input_homepage" class="search__input  js-search-input" type="text" autocomplete="off" name="q" autofocus tabindex="1" value="">
+			<input id="search_form_input_homepage" class="search__input  js-search-input" type="text" autocomplete="off" name="q" tabindex="1" value="">
 			<input id="search_button_homepage" class="search__button  js-search-button" type="submit" tabindex="2" value="S" />
 			<input id="search_form_input_clear" class="search__clear  empty  js-search-clear" type="button" tabindex="3" value="X" />
 			<div id="search_elements_hidden" class="search__hidden  js-search-hidden"></div>
