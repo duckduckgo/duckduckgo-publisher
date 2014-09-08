@@ -3,8 +3,9 @@
 <div id="tagline_homepage" class="tag-home">
 
 	<: lp('frontpage','The search engine that %s.', lp('frontpage',"doesn't track you")) :>
-        <a href="/spread" class="r-block--screen-xs  js-homepage-cta"><: l("Help Spread DuckDuckGo!") :></a>
-
+	<span class="tag-home__links">
+		<a href="/tour" class="tag-home__link"><: l("Take A Tour.") :></a><span class="js-homepage-cta"><span class="tag-home__links__sep">|</span> <a href="/spread" class="tag-home__link"><: l("Help Spread DuckDuckGo!") :></a></span>
+	</span>
 </div>
 		
 		<div id="error_homepage"></div>
