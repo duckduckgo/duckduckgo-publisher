@@ -7,16 +7,7 @@
 
 <link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_FILE || '/style.css' :>" type="text/css">
 <link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_2_FILE || '/static.css' :>" type="text/css">
-<script type="text/javascript">settings_js_version = "<: $ENV.DDG_DYNAMIC_SETTINGS_JS_FILE || '/set.js' :>";</script>
-<script type="text/javascript" src="/locales/<: $f.locale :>/LC_MESSAGES/<: $s.locale_domain :>+sprintf+gettext+locale-simple.<: $locale_package_version :>.js"></script>
-<script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_FILE || '/duckduck.js' :>"></script>
-<: if !$js_skip_init { :>
-<script type="text/javascript">
-	DDG.ready(function(){
-		DDG.page = new DDG.Pages.<: if $js_page_type { $js_page_type } else if $homepage { :>Home<: } else { :>Static<: } :>();
-	});
-</script>
-<: } :>
+
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 24x24 32x32 64x64"/>
 <link rel="apple-touch-icon" href="/assets/icons/meta/DDG-iOS-icon_60x60.png"/>
 <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/meta/DDG-iOS-icon_76x76.png"/>
