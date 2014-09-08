@@ -78,7 +78,7 @@
 				<div class="tour-text">
 					<h2 class="tour-text__head" data-number="4"><: l("!bangs") :></h2>
 					<h3 class="tour-text__title"><: l("A feature to help you search on thousands of other sites, directly.") :></h3>
-					<p class="tour-text__p">A search for <a href="/?q=!amazon+shoes" target="amazon">!amazon shoes</a> will take you right to an Amazon search for shoes on Amazon.com.  Try <a href="/?q=!a+shoes" target="amazon">!a shoes</a> or <a href="/?q=!ebay+wallet" target="ebay">!ebay wallet</a>.  There are <a href="/bang">thousands of !bangs</a> and you can even <a href="/newbang">submit your own.</a></p>
+					<p class="tour-text__p">A search for <a href="/?q=!amazon+shoes" target="amazon">!amazon shoes</a> will take you right to an Amazon search for shoes on Amazon.com.  Try <a href="/?q=!a+shoes" target="amazon">!a shoes</a> or <a href="/?q=!imdb+rushmore" target="imdb">!imdb rushmore</a>.  There are <a href="/bang">thousands of !bangs</a> and you can even <a href="/newbang">submit your own.</a></p>
 					<a href="#switch" class="tour-text__next  js-tour-anchor-link"></a>
 				</div>
 			</div>
