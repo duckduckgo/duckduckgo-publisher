@@ -150,7 +150,7 @@
 </div>
 
 <h4>
-	<: lp('socheckout','So %s check out %s,%s and support other services that really Do Not Track.', r('<a href="https://duckduckgo.com/goodies/">') ~ lp('socheckout','our goodies') ~ r('</a>'), r('<br/>')) :>
+	<: lp('socheckout','So check out %s,%s and support other services that really Do Not Track.', r('<a href="https://duckduckgo.com/goodies/">') ~ lp('socheckout','our goodies') ~ r('</a>'), r('<br/>')) :>
 </h4>
 <div class="frame-wrap" id="fig16" name="fig16">
 	<div class="frame"><span class="fig"><: l('Fig. %d', 16) :></span>
