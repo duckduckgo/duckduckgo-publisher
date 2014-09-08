@@ -154,38 +154,37 @@
 					<a class="tour-suggest__a" href="/?q=tilt+shift+images">Tilt Shift Images</a>
 					<a class="tour-suggest__a" href="/?q=thailand+beach+images">Thailand Beach Images</a>
 					<h6 class="tour-suggest__hd"><: l("Videos") :></h6>
-					<a class="tour-suggest__a" href="/?q=justin+timberlake+videos">Justin Timberlake Videos</a>
-					<a class="tour-suggest__a" href="/?q=photoshop+tutorial+videos">Photoshop Tutorial Videos</a>
+					<a class="tour-suggest__a" href="/?q=gopro+videos">GoPro videos</a>
+					<a class="tour-suggest__a" href="/?q=jimmy+fallon+videos">Jimmy Fallon videos</a>
 				</div>
 				<div class="g quarter  half--screen-s  whole--screen-xs">
 					<h6 class="tour-suggest__hd"><: l("Weather") :></h6>
 					<a class="tour-suggest__a" href="/?q=weather+in+encinitas">Weather in Encinitas</a>
 					<a class="tour-suggest__a" href="/?q=weather+in+paris">Weather in Paris</a>
 					<h6 class="tour-suggest__hd"><: l("Recipes") :></h6>
-					<a class="tour-suggest__a" href="/?q=tilapia+recipes">Tilapia Recipes</a>
-					<a class="tour-suggest__a" href="/?q=vanilla+fudge">Vanilla Fudge</a>
+					<a class="tour-suggest__a" href="/?q=tilapia+recipes">Tilapia recipes</a>
+					<a class="tour-suggest__a" href="/?q=vanilla+fudge">Sorbet recipes</a>
 				</div>
 				<div class="g quarter  half--screen-s  whole--screen-xs">
 					<h6 class="tour-suggest__hd"><: l("Places") :></h6>
 					<a class="tour-suggest__a" href="/?q=thai+food+in+San+Francisco">Thai food in San Francisco</a>
 					<a class="tour-suggest__a" href="/?q=bars+near+me">Bars near me</a>
-					<a class="tour-suggest__a" href="/?q=coffeebar+truckee,+ca">Coffeebar Truckee, CA</a>
+					<a class="tour-suggest__a" href="/?q=katz's+deli+new+york">Katz's Deli New York</a>
 					<h6 class="tour-suggest__hd"><: l("Meanings") :></h6>
 					<a class="tour-suggest__a" href="/?q=orange">Orange</a>
 				</div>
 				<div class="g quarter  half--screen-s  whole--screen-xs">
 					<h6 class="tour-suggest__hd"><: l("SoundCloud") :></h6>
 					<a class="tour-suggest__a" href="/?q=daft+punk+soundcloud">Daft Punk Soundcloud</a>
-					<a class="tour-suggest__a" href="/?q=the+XX+sc">The XX sc</a>
 					<h6 class="tour-suggest__hd"><: l("Other Goodies") :></h6>
-					<a class="tour-suggest__a" href="/?q=8+oz+to+grams">8 oz to grams</a>
-					<a class="tour-suggest__a" href="/?q=population+of+california">Population of California</a>
+					<a class="tour-suggest__a" href="/?q=8oz+to+grams">8oz to grams</a>
+					<a class="tour-suggest__a" href="/?q=define+superlative">Define superlative</a>
+					<a class="tour-suggest__a" href="/?q=people+in+space">People in space</a>
 				</div>
 			</div>
 		</div>
 		<div class="tour-copyright">
-			&copy; DuckDuckGo, Inc.  All Rights Reserved.<br/>
-			Check out <a href="/privacy">The Best Privacy Policy Ever</a>.
+			&copy; DuckDuckGo, Inc.  All Rights Reserved.
 		</div>
 	</div>
 </div>
