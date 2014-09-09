@@ -1,6 +1,9 @@
 <script type="text/javascript">settings_js_version = "<: $ENV.DDG_DYNAMIC_SETTINGS_JS_FILE || '/set.js' :>";</script>
 <script type="text/javascript" src="/locales/<: $f.locale :>/LC_MESSAGES/<: $s.locale_domain :>+sprintf+gettext+locale-simple.<: $locale_package_version :>.js"></script>
 <script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_FILE || '/duckduck.js' :>"></script>
+<: if $js_include_g { :>
+<script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_2_FILE || '/duckgo_dev.js' :>"></script>
+<: } :>
 <: if !$js_skip_init { :>
 <script type="text/javascript">
 	DDG.ready(function(){

@@ -256,6 +256,7 @@ sub pages {{
 	settings => sub {
 		menu_hide_settings => 1,
 		js_skip_init => 1,
+		js_include_g => 1,
 	},
 	styleguide => sub {
 		copyright_footer => 1,
