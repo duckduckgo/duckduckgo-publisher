@@ -163,7 +163,7 @@
 					<a class="tour-suggest__a" href="/?q=weather+in+paris">Weather in Paris</a>
 					<h6 class="tour-suggest__hd"><: l("Recipes") :></h6>
 					<a class="tour-suggest__a" href="/?q=tilapia+recipes">Tilapia recipes</a>
-					<a class="tour-suggest__a" href="/?q=vanilla+fudge">Sorbet recipes</a>
+					<a class="tour-suggest__a" href="/?q=sorbet+recipes">Sorbet recipes</a>
 				</div>
 				<div class="g quarter  half--screen-s  whole--screen-xs">
 					<h6 class="tour-suggest__hd"><: l("Places") :></h6>
