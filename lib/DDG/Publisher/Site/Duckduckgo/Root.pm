@@ -254,7 +254,8 @@ sub pages {{
 	newbang => sub {},
 	params => sub {},
 	settings => sub {
-		menu_hide_settings => 1
+		menu_hide_settings => 1,
+		js_skip_init => 1,
 	},
 	styleguide => sub {
 		copyright_footer => 1,
@@ -277,63 +278,15 @@ sub pages {{
 		menu_show_press => 1,
 		menu_hide_themes => 1,
 	},
-	whatsnew => sub {
+	tour => sub {
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
 		alt_header => 1,
+		alt_header_text => 1,
 		menu_show_press => 1,
-		menu_hide_settings => 1,
 		menu_hide_themes => 1,
-		answer_types => [{
-			title => '<b>DuckDuckGo</b>',
-			raw_title => 'DuckDuckGo Redesigned', 
-			text => "<span>Introducing the reimagined and redesigned DuckDuckGo.</span> <span>Smarter search, less clutter, and real privacy.</span>",
-			type => "redesign",
-			link => "/?q=daft+punk",
-		},{
-			title => "<b>Images</b> & <b>Videos</b>",
-			raw_title => 'Images & Videos',
-			text => "<span>Images and Videos are always available.</span> <span>View them without leaving the page.</span>",
-			type => "images-videos",
-			link => "/?q=images+beaches+in+thailand",
-		},{
-			title => "Find <b>Places</b>",
-			raw_title => 'Find Places',
-			text => "<span>A better place to start your search for restaurants,</span> <span>or anywhere else you might decide to go.</span>",
-			type => "places",
-			link => "/?q=thai+food+in+san+francisco",
-		},{
-			title => "More <b>Meanings</b>",
-			raw_title => 'More Meanings',
-			text => "<span>When searching ambiguous terms, getting the meaning</span> <span>you want can be difficult. Not anymore.</span>",
-			type => "meanings",
-			link => "/?q=orange",
-		},{
-			title => "<b>Recipe</b> Search",
-			raw_title => 'Recipe Search',
-			text => "<span>Introducing recipe search on DuckDuckGo.</span> <span>A great place to start your next meal.</span>",
-			type => "recipes",
-			link => "/?q=mozzarella+tomato+salad",
-		},{
-			title => "<b>Weather</b>",
-			raw_title => 'Weather',
-			text => "<span>This week's forecast may not look so good,</span> <span>but our instant answer makes it a little better.</span>",
-			type => "weather",
-			link => "/?q=weather",
-		},{
-			title => 'Smarter <b>Answers</b>',
-			raw_title => 'Smarter Answers',
-			text => "<span>Answers to your questions from the best sources,</span> <span>developed by our open source community.</span>",
-			type => "answers",
-			link => "/?q=what+rhymes+with+duck",
-		},{
-			title => '<b>Try DuckDuckGo</b>',
-			raw_title => 'Try DuckDuckGo',
-			hero_form => 1,
-			type => "home",
-			link => "/",
-		}],
+		js_page_type => 'Tour',
 	},
 
 	## TODO

@@ -1,0 +1,1 @@
+<: include "meta/title.tx" { title => l('Tour DuckDuckGo - Smarter Search, Less Clutter, and Real Privacy.') } :>

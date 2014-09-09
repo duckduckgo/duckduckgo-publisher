@@ -43,21 +43,21 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 				<h3 class="abt__key__title">Real Privacy</h3>
 				<h6 class="abt__key__sub">We don't track you.</h6>
 				<p>From funny videos to health and finance questions, searches are a reflection of your personal life. That's why we don't collect or share personal information.</p>
-				<a class="btn--abt  btn--abt--key" href="/privacy">Our Policy</a>
+				<a class="btn  btn--abt  btn--abt--key" href="/privacy">Our Policy</a>
 			</div>
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--answers  circle"></i>
 				<h3 class="abt__key__title">Smarter Search</h3>
 				<h6 class="abt__key__sub">Get answers quicker.</h6>
 				<p>We help you get where you want to go in fewer clicks. We do that through instant answers, !bangs, and keyboard shortcuts. You can even help improve your search engine!</p>
-				<a class="btn--abt  btn--abt--key" href="http://duckduckhack.com">Get Involved</a>
+				<a class="btn  btn--abt  btn--abt--key" href="http://duckduckhack.com">Get Involved</a>
 			</div>
 			<div class="abt__key  third">
 				<i class="abt__key__icon  abt__key__icon--clutter  circle"></i>
 				<h3 class="abt__key__title">Less Clutter</h3>
 				<h6 class="abt__key__sub">Fewer ads and reduced spam.</h6>
 				<p>Our only focus is search. We don't have to promote other services like social networks in our results.  We are clutter-free and you can change the look and feel.</p>
-				<a class="btn--abt  btn--abt--key" href="/settings">Tweak Settings</a>
+				<a class="btn  btn--abt  btn--abt--key" href="/settings">Tweak Settings</a>
 			</div>
 		</div>
 	</div>
