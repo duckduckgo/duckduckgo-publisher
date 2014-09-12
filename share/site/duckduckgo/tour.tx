@@ -1,6 +1,6 @@
 <div class="blk  blk--tour  blk--hero">
 	<div class="cw--c  tour-hero"><a class="anchor tour-anchor js-tour-anchor" name="top"></a>
-		<h1 class="tour-hero__title  hd-hr"><: l("Welcome to DuckDuckGo!") :><br/><: l("Smarter Search, Less Clutter and Real Privacy.") :></h1>
+		<h1 class="tour-hero__title  hd-hr"><: l("Welcome to DuckDuckGo!") :><br/><: l("Smarter Search, Less Clutter, and Real Privacy.") :></h1>
 		<a href="#results" class="tour-hero__btn  btn  btn--wire--hero  js-tour-anchor-link">Take a Tour</a>
 	</div>
 	<img class="tour-img--hero" src="/assets/tour/daft-punk_hero.jpg" alt="search results and instant answer for 'Daft Punk'" />
@@ -12,7 +12,7 @@
 				<div class="tour-text">
 					<h2 class="tour-text__head" data-number="1"><: l("Great Results") :></h2>
 					<h3 class="tour-text__title"><: l("Join the millions who are choosing a better search experience.") :></h3>
-					<p class="tour-text__p">DuckDuckGo has everything you expect a search engine to have, including <a href="?q=thailand+beach+images" target="ddg_images">images</a>, <a href="/?q=obama+news" target="ddg_news">news</a> and <a href="/?q=pizza+near+me" target="ddg_places">places</a>, all while respecting your privacy.  Great results without tracking you.  That's DuckDuckGo in a nutshell.</p>
+					<p class="tour-text__p">DuckDuckGo has everything you expect a search engine to have, including <a href="?q=thailand+beach+images" target="ddg_images">images</a>, <a href="/?q=obama+news" target="ddg_news">news</a>, and <a href="/?q=pizza+near+me" target="ddg_places">places</a>, all while respecting your privacy.  Great results without tracking you.  That's DuckDuckGo in a nutshell.</p>
 					<a href="#answers" class="tour-text__next  js-tour-anchor-link"></a>
 				</div>
 			</div>
@@ -33,7 +33,7 @@
 			<div class="g half  pull-right">
 				<div class="tour-text">
 					<h2 class="tour-text__head" data-number="2"><: l("Instant Answers") :></h2>
-					<h3 class="tour-text__title">Instant Answers for every situation.  <a href="/?q=daft+punk+soundcloud" target="ddg_soundloud">Music</a>, <a href="/?q=weather" target="ddg_weather">weather</a> and <a href="/?q=salmon+recipes" target="ddg_recipes">recipes</a> to name a few.</h3>
+					<h3 class="tour-text__title">Instant Answers for every situation.  <a href="/?q=daft+punk+soundcloud" target="ddg_soundloud">Music</a>, <a href="/?q=weather" target="ddg_weather">weather</a>, and <a href="/?q=salmon+recipes" target="ddg_recipes">recipes</a> to name a few.</h3>
 					<p class="tour-text__p">Instant Answers help you find what you're looking for in few or zero clicks.  There are thousands available so you can use a <a href="/?q=stopwatch" target="ddg_stopwatch">stopwatch</a> for your workout, <a href="/?q=define+privacy" target="ddg_define">define</a> a word, or discover <a href="/?q=movies+with+Chuck+Norris" target="ddg_chuck_movies">movies with Chuck Norris</a> without leaving your search engine!</p>
 					<a href="#settings" class="tour-text__next  js-tour-anchor-link"></a>
 				</div>
