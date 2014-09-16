@@ -12,7 +12,7 @@
 				<div class="tour-text">
 					<h2 class="tour-text__head" data-number="1"><: l("Great Results") :></h2>
 					<h3 class="tour-text__title"><: l("Join the millions who are choosing a better search experience.") :></h3>
-					<p class="tour-text__p">DuckDuckGo has everything you expect a search engine to have, including <a href="?q=thailand+beach+images" target="ddg_images">images</a>, <a href="/?q=obama+news" target="ddg_news">news</a> and <a href="/?q=pizza+near+me" target="ddg_places">places</a>, all while respecting your privacy.  Great results without tracking you.  That's DuckDuckGo in a nutshell.</p>
+					<p class="tour-text__p">DuckDuckGo has everything you expect a search engine to have, including <a href="/?q=thailand+beach+images" target="ddg_images">images</a>, <a href="/?q=obama+news" target="ddg_news">news</a> and <a href="/?q=pizza+near+me" target="ddg_places">places</a>, all while respecting your privacy.  Great results without tracking you.  That's DuckDuckGo in a nutshell.</p>
 					<a href="#answers" class="tour-text__next  js-tour-anchor-link"></a>
 				</div>
 			</div>
