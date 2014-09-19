@@ -151,8 +151,8 @@
 			<div class="gw">
 				<div class="g quarter  half--screen-s  whole--screen-xs">
 					<h6 class="tour-suggest__hd"><: l("Images") :></h6>
-					<a class="tour-suggest__a" href="/?q=tilt+shift+images">Tilt Shift Images</a>
-					<a class="tour-suggest__a" href="/?q=thailand+beach+images">Thailand Beach Images</a>
+					<a class="tour-suggest__a" href="/?q=tilt+shift+images">Tilt Shift images</a>
+					<a class="tour-suggest__a" href="/?q=thailand+beach+images">Thailand Beach images</a>
 					<h6 class="tour-suggest__hd"><: l("Videos") :></h6>
 					<a class="tour-suggest__a" href="/?q=gopro+videos">GoPro videos</a>
 					<a class="tour-suggest__a" href="/?q=jimmy+fallon+videos">Jimmy Fallon videos</a>
