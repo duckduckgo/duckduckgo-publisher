@@ -5,7 +5,7 @@
 				<span class="header__logo">DuckDuckGo</span>
 			</a>
 			<div class="header__content  header__search  search-wrap--header">
-				<form id="search_form" class="search--adv  search--header  js-search-init" name="x" action="/">
+				<form id="search_form" class="search--adv  search--header  js-search-form" name="x" action="/">
 					<input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" class="search__input--adv  js-search-input" placeholder="<: l('Search DuckDuckGo'):>" />
 					<input id="search_button" class="search__button  js-search-button" type="submit" tabindex="2" value="S" />
 					<input id="search_form_input_clear" class="search__clear  empty  js-search-clear" type="button" tabindex="3" value="X" />
