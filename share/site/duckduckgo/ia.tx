@@ -1,0 +1,30 @@
+<div id="table-left">
+<table>
+
+<thead style="border-bottom: 1px solid #CCC">
+<tr>
+<td>
+    <p id="link-left">By Topic</p>
+</td>
+<td>
+    <p id="link-right">Full Index</p>
+</td>
+</tr>
+
+</thead>
+
+: for $catagories -> $cat {
+    <tr><td> <h5> <: $cat :> </h5> </td></tr>
+    <tr><td> top IA ... </td></tr>
+    <tr><td> top IA ... </td></tr>
+    <tr><td> top IA ... </td></tr>
+: }
+
+</tbody>
+
+</table>
+</div>
+
+<div id="table-right">
+<h2> IA Name </h2>
+</div>

@@ -9,6 +9,18 @@ with qw(
 sub path { '/' }
 
 sub pages {{
+    ia => sub {
+		no_content_internal => 1,
+		no_spacer => 1,
+		no_cw => 1,
+        catagories => [
+            'food and drink',
+            'gaming',
+            'cryptography',
+            'programming',
+            'science'
+        ]
+    },
 	about => sub {
 		copyright_footer => 1,
 		no_content_internal => 1,
@@ -79,7 +91,7 @@ sub pages {{
 			image => 'john',
 			link => 'https://github.com/jbarrett/',
 		}],
-		
+
 		ddg_events => [{
 			date => 'October 29, 2007',
 			title => 'The Beginning',
@@ -212,7 +224,7 @@ sub pages {{
 			type => 'company',
 			icon => 'redesign',
 		}],
-		
+
 		news_articles => [{
 			source => 'theguardian',
 			source_full => 'The Observer',
