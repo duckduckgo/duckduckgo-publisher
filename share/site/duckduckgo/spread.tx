@@ -44,6 +44,6 @@
 		<span class="spread-img  spread-img--t-shirt" title="Will it have a duck on it?  Only time will tell..."></span>
 		<h2 class="hd-hr  spread-callout__title"><: l("Take it one step further and get a t-shirt for sharing DuckDuckGo!") :></h2>
 		<h6 class="spread-callout__subtitle"><: l("John the DuckDuckGo Share It & Wear It campaign.") :></h6>
-		<span class="btn btn--primary"><a href="https://duck.co/wear">Show Me How</a></span>
+		<span class="spread-callout__btn btn btn--primary--alt"><a href="https://duck.co/wear">Show Me How</a></span>
 	</div>
 </div>
