@@ -1,30 +1,22 @@
-<div id="table-left">
-<table>
+<script type="text/javascript" src="/ia.js"></script>
+<div id="ia_index_main">
+    <table>
+    <thead>
+        <tr>
+            <td>
+                <p id="link-left" class="zcm__link" href="">By Topic</p>
+            </td>
+            <td>
+                <p id="link-right" class="zcm__link" href="">Full Index</p>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <div id="ia_index_topics"></div>
+    </tbody>
+    </table>
 
-<thead style="border-bottom: 1px solid #CCC">
-<tr>
-<td>
-    <p id="link-left">By Topic</p>
-</td>
-<td>
-    <p id="link-right">Full Index</p>
-</td>
-</tr>
+<div id="ia_index_detail"></div>
+<div id="ia_index_list"></div>
 
-</thead>
-
-: for $catagories -> $cat {
-    <tr><td> <h5> <: $cat :> </h5> </td></tr>
-    <tr><td> top IA ... </td></tr>
-    <tr><td> top IA ... </td></tr>
-    <tr><td> top IA ... </td></tr>
-: }
-
-</tbody>
-
-</table>
-</div>
-
-<div id="table-right">
-<h2> IA Name </h2>
 </div>
