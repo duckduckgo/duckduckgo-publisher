@@ -49,7 +49,7 @@ Our instant answers come from a variety of sources, including <a href="http://wi
 </ul>
 
 <p style="margin-top: 25px;">
-To consume it yourself, you can use one of the language libraries listed below or simply add '&format=json' (or xml if you have a death wish) onto any query URL in the api subdomain, e.g.
+To consume it yourself, you can use one of the language libraries listed below or simply add '&format=json' (or xml if you prefer) onto any query URL in the api subdomain, e.g.
 <br><a href="http://api.duckduckgo.com/?q=DuckDuckGo&format=json&pretty=1">http://api.duckduckgo.com/?q=DuckDuckGo&format=json</a>  
 
 <p style="margin-top: 25px;">
