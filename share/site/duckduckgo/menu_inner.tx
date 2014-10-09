@@ -2,9 +2,9 @@
 	<ul class="nav-menu--theme  hide--mob">
 	    <li class="nav-menu__heading"><span><: l('Theme') :></span></li>
 		<li class="nav-menu__item"><a href="#" class="nav-menu__theme  nav-menu__theme--default" data-theme="" tabindex="-1"><: l('Default') :></a></li>
+		<li class="nav-menu__item"><a href="#" class="nav-menu__theme  nav-menu__theme--b" data-theme="b" tabindex="-1"><: l('Basic') :></a></li>
 		<li class="nav-menu__item"><a href="#" class="nav-menu__theme  nav-menu__theme--c" data-theme="c" tabindex="-1"><: l('Contrast') :></a></li>
 		<li class="nav-menu__item"><a href="#" class="nav-menu__theme  nav-menu__theme--d" data-theme="d" tabindex="-1"><: l('Dark') :></a></li>
-		<li class="nav-menu__item"><a href="#" class="nav-menu__theme  nav-menu__theme--b" data-theme="b" tabindex="-1"><: l('Basic') :></a></li>
 		<li class="nav-menu__item"><a href="/settings#appearance" tabindex="-1"><: l('More...') :></a></li>
     </ul>
 <: } :>
