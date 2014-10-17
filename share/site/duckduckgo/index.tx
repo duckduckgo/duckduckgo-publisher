@@ -4,7 +4,7 @@
 
 	<: lp('frontpage','The search engine that %s.', lp('frontpage',"doesn't track you")) :>
 	<span class="tag-home__links">
-		<span class="js-homepage-cta"><a href="/spread" class="tag-home__link"><: l("Help Spread DuckDuckGo!") :></a> <span class="tag-home__links__sep">|</span> </span><a href="/tour" class="tag-home__link"><: l("Take a Tour.") :></a>
+		<span class="js-homepage-cta"><a href="/spread" class="tag-home__link"><: l("Help Spread DuckDuckGo!") :></a> <span class="tag-home__links__sep">|</span> </span><a href="/tour" class="tag-home__link"><: lp('frontpage', "Take a Tour.") :></a>
 	</span>
 </div>
 		
