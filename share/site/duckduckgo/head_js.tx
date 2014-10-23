@@ -4,6 +4,13 @@
 <: if $js_include_g { :>
 <script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_2_FILE || '/duckgo_dev.js' :>"></script>
 <: } :>
+
+: if $use_ia_metadata {
+<script type="text/javascript">
+; var ia_index_metadata = "<: $ENV.DDG_MAX_METADATA :>";
+</script>
+: }
+
 <: if !$js_skip_init { :>
 <script type="text/javascript">
 	DDG.ready(function(){

@@ -13,13 +13,7 @@ sub pages {{
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
-        catagories => [
-            'food and drink',
-            'gaming',
-            'cryptography',
-            'programming',
-            'science'
-        ]
+                use_ia_metadata => 1
     },
 	about => sub {
 		copyright_footer => 1,
