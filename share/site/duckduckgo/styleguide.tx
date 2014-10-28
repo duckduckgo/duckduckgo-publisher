@@ -573,18 +573,18 @@
 			<div class="tile--s  tile--a  tile--mid">
 				<div class="zci is-active">
 					<h1 class="zci__header">Header</h1>
-					<div class="zci__content">Main Answer Content</div>
+					<div class="zci__content">Main Answer Content - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</div>
 					<div class="zci__links"><a href="#" class="zci__more-at">More at DuckDuckGo</a></div>
 				</div>
 				<div class="zci is-active">
 					<h1 class="zci__header has-sub">Header<span class="zci__header__sub">Nested Subheader</span></h1>
-					<div class="zci__content">Main Answer Content</div>
+					<div class="zci__content">Main Answer Content - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</div>
 					<div class="zci__links"><a href="#" class="zci__more-at">More at DuckDuckGo</a></div>
 				</div>
 				<div class="zci is-active">
 					<h1 class="zci__header">Header</h1>
 					<div class="zci__subheader">Subheader</div>
-					<div class="zci__content">Main Answer Content</div>
+					<div class="zci__content">Main Answer Content - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</div>
 					<div class="zci__links"><a href="#" class="zci__more-at">More at DuckDuckGo</a></div>
 				</div>
 				<code>
