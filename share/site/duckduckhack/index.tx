@@ -73,7 +73,9 @@
 
 	<hr class="glow"/>
 	
-	<h2>Get Started Now!</h2>
+<!--	<h2>Get Started Now!</h2>-->
+
+        <a class="button" href="https://dukgo.com/duckduckhack/ddh-intro">Start Coding</a>
 	
 	<h3>For non-coders and coders alike:</h3>
 
