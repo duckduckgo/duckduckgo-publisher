@@ -1,6 +1,0 @@
-<div class="nav-menu--slideout  js-main-menu">
-    <ul class="nav-menu__list">
-		<i class="nav-menu__close  js-trigger-main-menu">X</i>
-		<: include "menu_inner.tx" :>
-	</ul>
-</div>
