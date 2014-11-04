@@ -1,4 +1,4 @@
-<div id="header_wrapper" class="header-wrap<: if $alt_header { :> header-wrap--with-alt<: } :>">
+<div id="header_wrapper" class="header-wrap<: if $alt_header { :> header-wrap--with-alt<: } :> js-header-wrap">
 	<div id="header" class="header  cw">
 		<div class="header__search-wrap">
 			<a href="/" class="header__logo-wrap">
@@ -14,21 +14,13 @@
 			</div>
 		</div>
 	</div>
-	<div class="header--aside  js-trigger-main-menu">
-		 <a class="header__button--menu" tabindex="5" href="#menu">&#8694;</a>
-	</div>
 </div>
 <: if $alt_header { :>
-<div class="header-wrap--alt">
+<div class="header-wrap--alt  js-header-wrap">
 	<div class="header--alt  cw  js-show-header">
 		<i class="header--alt__loupe"></i>
 		<: if $alt_header_text { :><span class="header--alt__text"><: l('Try a search!') :></span><: } :>
 	</div>
-	<div class="header--aside  js-trigger-main-menu">
-		 <a class="header__button--menu  header__button--alt-menu" tabindex="5" href="#menu">&#8694;</a>
-	</div>
 </div>
 <: } :>
-<: include "menu_header.tx" :>
-<select id="bang" class="hide" size="2" onChange="if (ip) nbb(this);" onClick="if (!ip) nbb(this);" onBlur="bang_toggle();"></select>
-
+<div class="nav-menu--slideout  js-side-menu"></div>
