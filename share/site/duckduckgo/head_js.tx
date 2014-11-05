@@ -7,7 +7,8 @@
 
 : if $use_ia_metadata {
 <script type="text/javascript">
-; var ia_index_metadata = "<: $ENV.DDG_MAX_METADATA :>";
+    var ia_index_metadata = "/metadata<: $ENV.DDG_MAX_METADATA :>.json";
+    var ia_index_js = "<: $ENV.DDG_MAX_IAINDEX_JS :>";
 </script>
 : }
 

@@ -1,4 +1,4 @@
-<script type="text/javascript" src="/ia.js"></script>
+<script type="text/javascript" src="/iaindex<: $ia_index_js || '' :>.js"></script>
 <div id="ia_index_main">
 
     <p id="link-left" class="zcm__link" href="#">By Topic</p>
