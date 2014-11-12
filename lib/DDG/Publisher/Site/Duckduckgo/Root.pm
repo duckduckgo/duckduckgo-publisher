@@ -9,11 +9,12 @@ with qw(
 sub path { '/' }
 
 sub pages {{
-    ia => sub {
+    iaindex => sub {
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
-                use_ia_metadata => 1
+        use_ia_metadata => 1,
+        js_skip_init =>1,
     },
 	about => sub {
 		copyright_footer => 1,

@@ -5,12 +5,6 @@
 <script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_2_FILE || '/duckgo_dev.js' :>"></script>
 <: } :>
 
-: if $use_ia_metadata {
-<script type="text/javascript">
-    var ia_index_metadata = "/metadata<: $ENV.DDG_MAX_METADATA :>.json";
-    var ia_index_js = "<: $ENV.DDG_MAX_IAINDEX_JS :>";
-</script>
-: }
 
 <: if !$js_skip_init { :>
 <script type="text/javascript">
@@ -19,3 +13,13 @@
 	});
 </script>
 <: } :>
+
+: if $use_ia_metadata {
+<script type="text/javascript">
+    var ia_index_metadata = "/metadata<: $ENV.DDG_MAX_METADATA :>.json";
+    var ia_index_js = "<: $ENV.DDG_MAX_IAINDEX_JS :>";
+</script>
+<script type="text/javascript" src="/iaindex<: $ENV.DDG_MAX_IA_INDEX_JS || '' :>.js"></script> 
+: }
+
+
