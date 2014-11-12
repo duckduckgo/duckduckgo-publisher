@@ -14,7 +14,7 @@ sub pages {{
 		no_spacer => 1,
 		no_cw => 1,
         use_ia_metadata => 1,
-        js_skip_init =>1,
+        js_skip_init => 1,
     },
 	about => sub {
 		copyright_footer => 1,
