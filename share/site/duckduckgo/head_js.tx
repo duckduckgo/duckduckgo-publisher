@@ -5,15 +5,6 @@
 <script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_2_FILE || '/duckgo_dev.js' :>"></script>
 <: } :>
 
-
-<: if !$js_skip_init { :>
-<script type="text/javascript">
-	DDG.ready(function(){
-		DDG.page = new DDG.Pages.<: if $js_page_type { $js_page_type } else if $homepage { :>Home<: } else { :>Static<: } :>();
-	});
-</script>
-<: } :>
-
 : if $use_ia_metadata {
 <script type="text/javascript">
     var ia_index_metadata = "/metadata<: $ENV.DDG_MAX_METADATA :>.json";
@@ -22,4 +13,10 @@
 <script type="text/javascript" src="/iaindex<: $ENV.DDG_MAX_IA_INDEX_JS || '' :>.js"></script> 
 : }
 
-
+<: if !$js_skip_init { :>
+<script type="text/javascript">
+	DDG.ready(function(){
+		DDG.page = new DDG.Pages.<: if $js_page_type { $js_page_type } else if $homepage { :>Home<: } else { :>Static<: } :>();
+	});
+</script>
+<: } :>
