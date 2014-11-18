@@ -76,6 +76,18 @@ sub pages {{
 			info => 'Discombobulator',
 			image => 'john',
 			link => 'https://github.com/jbarrett/',
+		},{
+			name => 'Jason Dorweiler',
+			title => 'Duck Duck Hack',
+			info => 'Robot',
+			image => 'jason',
+			link => 'http://www.transistor.io',
+		},{
+			name => 'Maria Grazia Alastra',
+			title => 'Duck Duck Hack',
+			info => 'Time Traveler',
+			image => 'maria',
+			link => 'https://github.com/MariagraziaAlastra/',
 		}],
 		
 		ddg_events => [{
