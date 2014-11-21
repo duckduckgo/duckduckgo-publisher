@@ -9,11 +9,12 @@ with qw(
 sub path { '/' }
 
 sub pages {{
-    ia => sub {
+    iaindex => sub {
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
-                use_ia_metadata => 1
+        use_ia_metadata => 1,
+        js_skip_init => 1,
     },
 	about => sub {
 		copyright_footer => 1,
@@ -22,8 +23,6 @@ sub pages {{
 		no_cw => 1,
 		alt_header => 1,
 		alt_header_text => 1,
-		menu_show_press => 1,
-		menu_hide_themes => 1,
 		team_members => [{
 			name => 'Gabriel Weinberg',
 			title => 'Founder',
@@ -84,6 +83,18 @@ sub pages {{
 			info => 'Discombobulator',
 			image => 'john',
 			link => 'https://github.com/jbarrett/',
+		},{
+			name => 'Jason Dorweiler',
+			title => 'Duck Duck Hack',
+			info => 'Robot',
+			image => 'jason',
+			link => 'http://www.transistor.io',
+		},{
+			name => 'Maria Grazia Alastra',
+			title => 'Duck Duck Hack',
+			info => 'Time Traveler',
+			image => 'maria',
+			link => 'https://github.com/MariagraziaAlastra/',
 		}],
 
 		ddg_events => [{
@@ -249,10 +260,6 @@ sub pages {{
 		}]
 	},
 	bang => sub {},
-#	goodies => sub {
-#		goodies => 1,
-#		no_content_internal => 1,
-#	},
 	index => sub {
 		no_wrapper => 1,
 		homepage => 1,
@@ -260,7 +267,6 @@ sub pages {{
 	newbang => sub {},
 	params => sub {},
 	settings => sub {
-		menu_hide_settings => 1,
 		js_skip_init => 1,
 		js_include_g => 1,
 	},
@@ -271,7 +277,6 @@ sub pages {{
 		no_cw => 1,
 		alt_header => 1,
 		alt_header_text => 1,
-		menu_hide_themes => 1,
 		icons => ['plus','clear-field','home','chev-down','chev-up','more','move','user','star','close-menu','menu','grid','check-sign','eye','loupe','check','region','cry','uploaded','prev','next','close-grid','marker','arrow-left','arrow-right','arrow-up','arrow-down',],
 		colors => ['white','white-alt','silver','ash','grey','dim','jet','red','green','teal','cyan','blue','blue-dark','blue-pale','orange','salmon','salmon-dark',],
 	},
@@ -282,8 +287,6 @@ sub pages {{
 		no_cw => 1,
 		alt_header => 1,
 		alt_header_text => 1,
-		menu_show_press => 1,
-		menu_hide_themes => 1,
 	},
 	tour => sub {
 		no_content_internal => 1,
@@ -291,8 +294,6 @@ sub pages {{
 		no_cw => 1,
 		alt_header => 1,
 		alt_header_text => 1,
-		menu_show_press => 1,
-		menu_hide_themes => 1,
 		js_page_type => 'Tour',
 	},
 
@@ -311,8 +312,6 @@ sub pages {{
 		no_cw => 1,
 		alt_header => 1,
 		alt_header_text => 1,
-		menu_show_press => 1,
-		menu_hide_themes => 1,
 	},
 	search_box => sub {},
 

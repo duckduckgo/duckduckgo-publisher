@@ -23,6 +23,7 @@
 				<li><a href="#grids"><: l("Grids") :></a></li>
 				<li><a href="#popovers">Popovers</a></li>
 				<li><a href="#responsive"><: l("Responsiveness") :></a></li>
+				<li><a href="#ia_structure"><: l("Instant Answer Structure") :></a></li>
 			</ul>
 		</div>
 	</div>
@@ -507,6 +508,112 @@
 				<p class="opt--t-xs">Either subtly...</p>
 				<p class="opt--t-xxs">or in less than subtle ways.</p>
 			</div> <!--// .tile //-->
+		</div><!--// .blk__text //-->
+	</div><!--// .cw--c //-->
+</div><!--// .blk //-->
+<div class="blk  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg"><: l("Answer Structure") :><a name="ia_structure"></a></h2>
+			<hr class="hr"/>
+			<p>There are many useful built-in templates that you are welcome to use when putting together an instant answer.  Sometimes though, you need to color a bit outside the lines.  This is an overview of some of the primary structural classes that you can build from.</p>
+			
+			<h3 class="hd-md">.zci</h3>
+			<p>This is the main wrapper for all instant answers.  It is pre-generated for you and should require no additional styling.  It is hidden by default, and only displayed with the <tt>.is-active</tt> class.</p>
+			<div class="tile--s  tile--a  tile--mid">
+				<code><pre>&lt;div class="zci"&gt;&lt;/div&gt;</pre></code>
+			</div> <!--// .tile //-->
+			
+			<h3 class="hd-md">.cw and .zci__main</h3>
+			<p><tt>.cw</tt> is a global width controller.  <tt>.zci__main</tt> indicates the primary answer area, and applies the correct left padding to maintain the page's 'gutter' layout.  Certain full-width answer types (such as maps) may exclude these classes.</p>
+			<div class="tile--s  tile--a  tile--mid">
+				<code>
+<pre>&lt;div class="zci"&gt;
+	&lt;div class="cw"&gt;
+		&lt;div class="zci__main"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</pre>
+				</code>
+			</div> <!--// .tile //-->
+			
+			<h3 class="hd-md">.zci__aux</h3>
+			<p>This is a secondary (auxiliary) section, generally aligned on the right side of the screen.  Home of the infobox.</p>
+			<div class="tile--s  tile--a  tile--mid">
+				<code>
+<pre>&lt;div class="zci"&gt;
+	&lt;div class="cw"&gt;
+		&lt;div class="zci__main"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="zci__aux"&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+				</code>
+			</div> <!--// .tile //-->
+			
+			<h3 class="hd-md"><: l("Images") :></h3>
+			<p>When displaying an image along with the content, we recommend the following structure:</p>
+			<div class="tile--s  tile--a  tile--mid">
+				<div class="media">
+					<div class="zci__img-wrap">
+						<img class="zci__img" src="https://duckduckgo.com/i/d4b3d3a2.jpg" alt="duck image" />
+					</div>
+					<div class="zci__body">Text Goes Here</div>
+				</div>
+				<code>
+<pre>&lt;div class="zci__main"&gt;
+	&lt;div class="zci__img-wrap"&gt;
+		&lt;img class="zci__img"&gt;
+	&lt;/div&gt;
+	&lt;div class="zci__body"&gt;Text Goes Here&lt;/div&gt;
+&lt;/div&gt;</pre>
+				</code>
+			</div> <!--// .tile //-->
+			
+			<h3 class="hd-md"><: l("Headers & Content") :></h3>
+			<p>Striking the correct balance can be tricky.  We've done most of the hard stuff for you - just mix-and-match our built-in classes to display your content.</p>
+			<div class="tile--s  tile--a  tile--mid">
+				<div class="guide-font-reset zci is-active">
+					<h1 class="zci__header">Header</h1>
+					<div class="zci__content">Main Answer Content - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</div>
+					<div class="zci__links"><a href="#" class="zci__more-at">More at DuckDuckGo</a></div>
+				</div>
+				<div class="guide-font-reset zci is-active">
+					<h1 class="zci__header has-sub">Header<span class="zci__header__sub">Nested Subheader</span></h1>
+					<div class="zci__content">Main Answer Content - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</div>
+					<div class="zci__links"><a href="#" class="zci__more-at">More at DuckDuckGo</a></div>
+				</div>
+				<div class="guide-font-reset zci is-active">
+					<h1 class="zci__header">Header</h1>
+					<div class="zci__subheader">Subheader</div>
+					<div class="zci__content">Main Answer Content - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</div>
+					<div class="zci__links"><a href="#" class="zci__more-at">More at DuckDuckGo</a></div>
+				</div>
+				<code>
+<pre>&lt;div class="zci is-active"&gt;
+	&lt;h1 class="zci__header"&gt;Header&lt;/h1&gt;
+	&lt;div class="zci__content"&gt;Main Answer Content&lt;/div&gt;
+	&lt;div class="zci__links"&gt;&lt;a href="#" class="zci__more-at"&gt;More at DuckDuckGo&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="zci is-active"&gt;
+	&lt;h1 class="zci__header has-sub"&gt;Header&lt;span class="zci__header__sub"&gt;Nested Subheader&lt;/span&gt;&lt;/h1&gt;
+	&lt;div class="zci__content"&gt;Main Answer Content&lt;/div&gt;
+	&lt;div class="zci__links"&gt;&lt;a href="#" class="zci__more-at"&gt;More at DuckDuckGo&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="zci is-active"&gt;
+	&lt;h1 class="zci__header"&gt;Header&lt;/h1&gt;
+	&lt;div class="zci__subheader"&gt;Subheader&lt;/div&gt;
+	&lt;div class="zci__content"&gt;Main Answer Content&lt;/div&gt;
+	&lt;div class="zci__links"&gt;&lt;a href="#" class="zci__more-at"&gt;More at DuckDuckGo&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+				</code>
+			</div> <!--// .tile //-->
+			
+			<h3 class="hd-md"><: l("Captions") :></h3>
+			<p>Simple one-line answers can be very useful!  Simply style your short answers with the <tt>.zci__caption</tt> class.</p>
+			<div class="tile--s  tile--a  tile--mid">
+				<div class="guide-font-reset zci is-active"><div class="zci__caption">234 + 254 = 488</div></div>
+				<code><pre>&lt;div class="zci__caption"&gt;234 + 254 = 488&lt;/div&gt;</pre></code>
+			</div> <!--// .tile //-->
+			
 		</div><!--// .blk__text //-->
 	</div><!--// .cw--c //-->
 </div><!--// .blk //-->

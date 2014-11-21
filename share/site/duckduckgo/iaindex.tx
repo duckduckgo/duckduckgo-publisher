@@ -1,0 +1,7 @@
+<script>
+    DDG.ready(function() {
+        DDG.page = new DDG.Pages.IAIndex({
+            appendTo: '.content-wrap'
+        });
+    });
+</script>

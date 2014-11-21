@@ -1,14 +1,16 @@
 <script type="text/javascript">settings_js_version = "<: $ENV.DDG_DYNAMIC_SETTINGS_JS_FILE || '/set.js' :>";</script>
 <script type="text/javascript" src="/locales/<: $f.locale :>/LC_MESSAGES/<: $s.locale_domain :>+sprintf+gettext+locale-simple.<: $locale_package_version :>.js"></script>
-<script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_FILE || '/duckduck.js' :>"></script>
+<script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_FILE || '/base.js' :>"></script>
 <: if $js_include_g { :>
-<script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_2_FILE || '/duckgo_dev.js' :>"></script>
+<script type="text/javascript" src="<: $ENV.DDG_DYNAMIC_JS_2_FILE || '/serp.js' :>"></script>
 <: } :>
 
 : if $use_ia_metadata {
 <script type="text/javascript">
-; var ia_index_metadata = "<: $ENV.DDG_MAX_METADATA :>";
+    var ia_index_metadata = "/metadata<: $ENV.DDG_MAX_METADATA :>.json";
+    var ia_index_js = "<: $ENV.DDG_MAX_IAINDEX_JS :>";
 </script>
+<script type="text/javascript" src="/iaindex<: $ENV.DDG_MAX_IA_INDEX_JS || '' :>.js"></script> 
 : }
 
 <: if !$js_skip_init { :>
