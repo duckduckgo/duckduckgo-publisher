@@ -1,16 +1,7 @@
-<div id="ia_index_main">
-
-    <p id="link-left" class="zcm__link" href="#">By Topic</p>
-    <p id="link-right" class="zcm__link" href="#">Full Index</p>
-
-    <div id="ia_index_topic_view">
-    
-        <div id="ia_topic_list">
-        	<div id="ia_index_topics"></div>
-        </div>
-
-        <div id="ia_index_topic_detail"></div>
-
-    </div>
-
-</div>
+<script>
+    DDG.ready(function() {
+        DDG.page = new DDG.Pages.IAIndex({
+            appendTo: '.content-wrap'
+        });
+    });
+</script>
