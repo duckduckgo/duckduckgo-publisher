@@ -16,6 +16,7 @@ sub pages {{
 		no_cw => 1,
 		alt_header => 1,
 		alt_header_text => 1,
+		js_page_type => 'About',
 		team_members => [{
 			name => 'Gabriel Weinberg',
 			title => 'Founder',
@@ -101,6 +102,7 @@ sub pages {{
 			title => 'It\'s Official',
 			snippet => 'In early 2008, Gabriel emerged from his basement with a plan. He soon made it official by incorporating DuckDuckGo.',
 			type => 'company',
+			icon => 'idea',
 		},{
 			date => 'September 25, 2008',
 			title => 'Launch!',
@@ -142,6 +144,7 @@ sub pages {{
 			title => 'Employee #1',
 			snippet => 'For years Gabriel was the only full-timer. Caine Tighe changed all that, coming on board as our first official employee.',
 			type => 'company',
+			icon => 'growth',
 		},{
 			date => 'December 1, 2011',
 			title => 'Headquarters',
@@ -152,12 +155,13 @@ sub pages {{
 			title => 'Redesign',
 			snippet => 'Our first major visual overhaul introduced a new design that made you not want to close your browser the second you saw our results page. ',
 			type => 'news',
-			icon => 'redesign',
+			icon => 'design',
 		},{
 			date => 'February 13, 2012',
 			title => '1,000,000!',
 			snippet => 'Reaching 1 million searches a day was a major milestone for us, having steadily grown from 100 to 1,000 to 10,000 to 100,000 and finally to 1,000,000. That\'s more than 10 searches a second!',
 			type => 'traffic',
+			icon => 'growth',
 		},{
 			date => 'March 7, 2012',
 			title => '2012 Donations',
@@ -183,26 +187,31 @@ sub pages {{
 			title => '2,000,000',
 			snippet => '483 days after reaching one million, we doubled our daily searches. This milestone happened days after people started sharing private alternatives (like us) in the wake of the NSA revelations. ',
 			type => 'traffic',
+			icon => 'growth',
 		},{
 			date => 'June 17, 2013',
 			title => '3,000,000',
 			snippet => 'Just eight days after hitting two million searches per day, we added another million. To put this in perspective, it took 1,445 days to get to one million from the day we launched.',
 			type => 'traffic',
+			icon => 'growth',
 		},{
 			date => 'June 27, 2013',
 			title => 'Search & Stories',
 			snippet => 'DuckDuckGo delivers an app that gives you the most interesting stories of the day packed with a convenient way to search. TIME ranked it in their, "Top 50 iPhone apps of 2013."',
 			type => 'news',
+			icon => 'stories',
 		},{
 			date => 'August 19, 2013',
 			title => '4,000,000',
 			snippet => 'Just over two months after hitting two million searches/day, we doubled our traffic again. People start to realize we\'re not a Chinese restaurant.',
 			type => 'traffic',
+			icon => 'growth',
 		},{
 			date => 'February 26, 2014',
 			title => '5,000,000',
 			snippet => 'Five million direct searches in one day. That\'s 150 million a month, 1.825 billion a year! We will stop marking each million milestone now.',
 			type => 'traffic',
+			icon => 'growth',
 		},{
 			date => 'March 12, 2014',
 			title => '2014 Donations',
@@ -215,12 +224,13 @@ sub pages {{
 			title => 'Employee #10',
 			snippet => 'We have thousands of fewer employees than the big guys, but each one is part of our family and grew out of our community. Brian Stoner joined us just in time!',
 			type => 'company',
+			icon => 'growth',
 		},{
 			date => 'May 19, 2014',
 			title => 'Reimagined',
 			snippet => 'DuckDuckGo launches a reimagined and redesigned search engine with a refined look and a focus on smarter answers.',
 			type => 'company',
-			icon => 'redesign',
+			icon => 'design',
 		}],
 		
 		news_articles => [{
@@ -228,7 +238,6 @@ sub pages {{
 			source_full => 'The Observer',
 			source_link => 'http://www.theguardian.com/technology/2014/apr/04/duckduckgo-gabriel-weinberg-secure-searches',
 			author_name => 'Alex Hern',
-			author_img => 'the-guardian_alex-hern',
 			date => '4 April 2014',
 			headline => 'DuckDuckGo: the plucky upstart taking on Google with secure searches',
 			snippet => 'Gabriel Weinberg launched DuckDuckGo as a search engine that puts privacy first, rather than collecting data for advertisers and security agencies...',
@@ -237,7 +246,6 @@ sub pages {{
 			source_full => 'FastCoLabs',
 			source_link => 'http://www.fastcolabs.com/3026698/inside-duckduckgo-googles-tiniest-fiercest-competitor',
 			author_name => 'John Paul Titlow',
-			author_img => 'fast-co_john-paul-titlow',
 			date => '20 February 2014',
 			headline => 'Inside DuckDuckGo, Google\'s Tiniest, Fiercest Competitor',
 			snippet => 'In 2008, launching a search engine seemed like a crazy idea.  Here\'s how Gabriel Weinberg proved the critics wrong.',
@@ -246,7 +254,6 @@ sub pages {{
 			source_full => 'The Washington Post',
 			source_link => 'http://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html',
 			author_name => 'Michael Rosenwald',
-			author_img => 'washington-post_michael-rosenwald',
 			date => '9 November 2012',
 			headline => 'Ducking Google in search engines',
 			snippet => 'Not far from Valley Forge, around the corner from Bravo Pizza, up the road from Paoli Auto Body, there is an odd-looking office building that resembles a stone castle.  An eye doctor is on the first floor.  On the second floor is a search engine.',

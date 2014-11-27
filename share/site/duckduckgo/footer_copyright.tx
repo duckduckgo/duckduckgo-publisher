@@ -1,6 +1,5 @@
 <div class="blk  blk--foot<: if $copyright_footer > 1 { :>  blk--foot--alt<: } :>">
 	<div class="cw--c">
-			<p>&copy; <a href="https://duckduckgo.com">DuckDuckGo</a></p>
-			<p><: l("The search engine that doesn't track you.") :></p>
+			<p>&copy; <a href="https://duckduckgo.com">DuckDuckGo</a>. <: l("The search engine that doesn't track you.") :></p>
 	</div>
 </div>
