@@ -97,12 +97,14 @@ sub pages {{
 			snippet => 'DuckDuckGo all started with the name and an idea to make answers easier to find.',
 			type => 'company',
 			icon => 'idea',
+			year => '2007',
 		},{
 			date => 'February 29, 2008',
 			title => 'It\'s Official',
 			snippet => 'In early 2008, Gabriel emerged from his basement with a plan. He soon made it official by incorporating DuckDuckGo.',
 			type => 'company',
 			icon => 'idea',
+			year => '2008',
 		},{
 			date => 'September 25, 2008',
 			title => 'Launch!',
@@ -115,18 +117,21 @@ sub pages {{
 			snippet => 'Inspired by conversations on reddit and because search history is so personal, DuckDuckGo decides to take a bold move and not collect or share any personal information on its users.',
 			type => 'news',
 			icon => 'privacy',
+			year => '2009',
 		},{
 			date => 'July 21, 2010',
 			title => 'Duck.co',
 			snippet => 'DuckDuckGo\'s community is its extended team. Duck.co was born from the community\'s need for a centralized place to swap ideas.',
 			type => 'news',
 			icon => 'community',
+			year => '2010',
 		},{
 			date => 'January 11, 2011',
 			title => 'The Billboard',
 			snippet => 'DuckDuckGo delivered a message in the heart of the tech world: a billboard in San Francisco that read "Google tracks you. We don\'t."',
 			type => 'news',
 			icon => 'billboard',
+			year => '2011',
 		},{
 			date => 'February 26, 2011',
 			title => '2011 Donations',
@@ -156,6 +161,7 @@ sub pages {{
 			snippet => 'Our first major visual overhaul introduced a new design that made you not want to close your browser the second you saw our results page. ',
 			type => 'news',
 			icon => 'design',
+			year => '2012',
 		},{
 			date => 'February 13, 2012',
 			title => '1,000,000!',
@@ -182,6 +188,7 @@ sub pages {{
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
+			year => '2013',
 		},{
 			date => 'June 10, 2013',
 			title => '2,000,000',
@@ -212,6 +219,7 @@ sub pages {{
 			snippet => 'Five million direct searches in one day. That\'s 150 million a month, 1.825 billion a year! We will stop marking each million milestone now.',
 			type => 'traffic',
 			icon => 'growth',
+			year => '2014',
 		},{
 			date => 'March 12, 2014',
 			title => '2014 Donations',

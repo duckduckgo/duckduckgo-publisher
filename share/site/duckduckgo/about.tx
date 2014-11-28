@@ -7,7 +7,7 @@
 		<div class="timeline  js-timeline-box">
 			<div class="timeline__panel  is-active  js-timeline-item" data-date="START">
 				<div class="timeline__cw">
-					<div class="timeline__icon  logo--dax"></div>
+					<img class="timeline__logo" src="/assets/about/dax.svg" />
 					<h1 class="timeline__title">Our vision is simple.</h1>
 					<p class="timeline__snippet">To give you great search results without tracking you.</p>
 				</div>
@@ -21,7 +21,13 @@
 			</div><:- } -:>
 		</div>
 		<div class="timeline-nav">
-			<div class="timeline-nav__cw  js-timeline-nav"></div>
+			<div class="timeline-nav__cw  js-timeline-nav">
+				<span class="timeline-nav__it  timeline-nav__it--start  is-active  js-timeline-nav-item  js-timeline-start"></span>
+				<:- for $ddg_events -> $event { -:>
+					<: if $event.year {:><span class="timeline-nav__it  timeline-nav__it--year"><: $event.year :></span><: } :>
+					<span class="timeline-nav__it js-timeline-nav-item"></span>
+				<:- } -:>
+			</div>
 		</div>
 	</div>
 </div>
