@@ -121,7 +121,6 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 </div>
 <div class="abt  blk  blk--alt  blk--arr">
 	<h2 class="abt__title">In the News</h2>
-	<div class="cw--c">
 		<div class="news-slider js-news-slider">
 			<div class="news-slider__wrap  js-news-slider-wrap">
 			<: for $news_articles -> $news { :>
@@ -154,7 +153,6 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 				<: } :>
 			</ul>
 		</div>
-	</div>
 </div>
 <div class="abt  blk  blk--arr">
 	<div class="cw--c">
