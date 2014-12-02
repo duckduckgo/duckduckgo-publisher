@@ -13,7 +13,7 @@
 				</div>
 			</div><:- for $ddg_events -> $event { -:><div class="timeline__panel  js-timeline-item" data-date="<: $event.date :>">
 				<div class="timeline__cw">
-					<img class="timeline__icon  js-lazyload" src="" data-src="/assets/about/icons/<: if $event.icon { $event.icon } else { $event.type } :>.png" />
+					<img class="timeline__icon  js-lazysvg" src="" data-src="/assets/about/icons/<: if $event.icon { $event.icon } else { $event.type } :>" />
 					<h2 class="timeline__title"><: $event.title :></h2>
 					<p class="timeline__snippet"><: $event.snippet :></p>
 					<p class="timeline__date"><: $event.date :></p>
@@ -40,19 +40,28 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 		</p>
 		<div class="abt__row">
 			<div class="abt__key  third  half--screen-m">
-				<img class="abt__key__icon  js-lazyload" src="" data-src="/assets/about/icons/privacy-light.png">
+				<noscript>
+					<img class="abt__key__icon" src="/assets/about/icons/privacy-alt.png" />
+				</noscript>
+				<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/privacy-alt">
 				<h3 class="abt__key__title">Real Privacy</h3>
 				<h6 class="abt__key__sub">We don't track you.</h6>
 				<p>What you search for is your own business and we'd like to keep it that way. That's why we don't collect any personal information and therefore, have none to share.</p>
 				<a class="abt__key__link" href="/privacy">Our Policy</a>
 			</div><div class="abt__key  third  half--screen-m">
-				<img class="abt__key__icon  js-lazyload" src="" data-src="/assets/about/icons/search-light.png">
+				<noscript>
+					<img class="abt__key__icon" src="/assets/about/icons/search-alt.png" />
+				</noscript>
+				<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/search-alt">
 				<h3 class="abt__key__title">Smarter Search</h3>
 				<h6 class="abt__key__sub">Get answers quicker.</h6>
 				<p>We help you get where you want to go in fewer clicks. We do that through instant answers, keyboard shortcuts and !bangs. You can even help improve your search engine!</p>
 				<a class="abt__key__link" href="http://duckduckhack.com">Get Involved</a>
 			</div><div class="abt__key  third  half--screen-m">
-				<img class="abt__key__icon  js-lazyload" src="" data-src="/assets/about/icons/design-light.png">
+				<noscript>
+					<img class="abt__key__icon" src="/assets/about/icons/design-alt.png" />
+				</noscript>
+				<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/design-alt">
 				<h3 class="abt__key__title">Less Clutter</h3>
 				<h6 class="abt__key__sub">Fewer ads and reduced spam.</h6>
 				<p>With search our only focus, we are dedicated to delivering you a clutter-free interface that you can fully customize to your liking.</p>
@@ -96,21 +105,30 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 		<div class="abt__row">
 			<div class="abt__key  third  half--screen-m">
 				<a href="https://duck.co">
-					<img class="abt__key__icon  js-lazyload" src="" data-src="/assets/about/icons/build.png">
+					<noscript>
+						<img class="abt__key__icon" src="/assets/about/icons/build.png" />
+					</noscript>
+					<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/build">
 					<h3 class="abt__key__title">Duck.co</h3>
 				</a>
 				<p>Duck.co is the hub of the DuckDuckGo community, where you can create instant answers, submit and discuss ideas, or help translate pages into other languages.</p>
 				<a class="abt__key__link" href="https://duck.co">Improve DuckDuckGo</a>
 			</div><div class="abt__key  third  half--screen-m">
 				<a href="https://duck.co/forum">
-					<img class="abt__key__icon  js-lazyload" src="" data-src="/assets/about/icons/community.png">
+					<noscript>
+						<img class="abt__key__icon" src="/assets/about/icons/community.png" />
+					</noscript>
+					<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/community">
 					<h3 class="abt__key__title">Discuss</h3>
 				</a>
 				<p>Our forums are a place to chat about all things DuckDuckGo. Ask questions, give feedback, and engage other community members.</p>
 				<a class="abt__key__link" href="https://duck.co">Discuss DuckDuckGo</a>
 			</div><div class="abt__key  third  half--screen-m">
 				<a href="/spread">
-					<img class="abt__key__icon  js-lazyload" src="" data-src="/assets/about/icons/love.png">
+					<noscript>
+						<img class="abt__key__icon" src="/assets/about/icons/love.png" />
+					</noscript>
+					<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/love">
 					<h3 class="abt__key__title">Spread</h3>
 				</a>
 				<p>Everyone could use real privacy. Join us and other community members in spreading DuckDuckGo to new users.</p>
