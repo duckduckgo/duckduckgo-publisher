@@ -67,7 +67,7 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 				<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/design-alt">
 				<h3 class="abt__key__title">Less Clutter</h3>
 				<h6 class="abt__key__sub">Fewer ads and reduced spam.</h6>
-				<p>With search our only focus, we are dedicated to delivering you a clutter-free interface that you can fully customize to your liking.</p>
+				<p>With search our only focus, we are dedicated to delivering you a clutter-free interface that you can fully customize to your liking or apply one of our preset themes.</p>
 				<a class="abt__key__link" href="/settings">Tweak Settings</a>
 			</div>
 		</div>
@@ -124,7 +124,7 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 					<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/community">
 					<h3 class="abt__key__title">Discuss</h3>
 				</a>
-				<p>Our forums are a place to chat about all things DuckDuckGo. Ask questions, give feedback, and engage other community members.</p>
+				<p>Have feedback to share? Our forums are a place to chat about all things DuckDuckGo. Ask questions, share ideas, and engage other community members.</p>
 				<a class="abt__key__link" href="https://duck.co">Discuss DuckDuckGo</a>
 			</div><div class="abt__key  third  half--screen-m">
 				<a href="/spread">
@@ -134,7 +134,7 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 					<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/love">
 					<h3 class="abt__key__title">Spread</h3>
 				</a>
-				<p>Everyone could use real privacy. Join us and other community members in spreading DuckDuckGo to new users.</p>
+				<p>Everyone could use real privacy. Want to join us and other community members in spreading DuckDuckGo to new users? Get your friends and family to "duck it".</p>
 				<a class="abt__key__link" href="/spread">Spread DuckDuckGo</a>
 			</div>
 		</div>
