@@ -7,7 +7,10 @@
 		<div class="timeline  js-timeline-box">
 			<div class="timeline__panel  is-active  js-timeline-item" data-date="START">
 				<div class="timeline__cw">
-					<img class="timeline__logo" src="/assets/about/dax.svg" />
+					<noscript>
+						<img class="timeline__logo js-lazysvg no-js__hide" src="/assets/dax-alt.png" />
+					</noscript>
+					<img class="timeline__logo js-lazysvg no-js__hide" src="" data-src="/assets/dax-alt" />
 					<h1 class="timeline__title">Our vision is simple.</h1>
 					<p class="timeline__snippet">To give you great search results without tracking you.</p>
 				</div>
