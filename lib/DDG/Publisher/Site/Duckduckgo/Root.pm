@@ -89,6 +89,18 @@ sub pages {{
 			info => 'Time Traveler',
 			image => 'maria',
 			link => 'https://github.com/MariagraziaAlastra/',
+		},{
+			name => 'Abe Yang',
+			title => 'Design',
+			info => 'Hero',
+			image => 'abe',
+			link => 'https://twitter.com/abeyang',
+		},{
+			name => 'Thom van der Weerd',
+			title => 'Design',
+			info => 'Thinker',
+			image => 'thom',
+			link => 'http://thomweerd.com/',
 		}],
 		
 		ddg_events => [{
