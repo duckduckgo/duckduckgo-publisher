@@ -98,7 +98,7 @@ sub pages {{
 		},{
 			name => 'Thom van der Weerd',
 			title => 'Design',
-			info => 'Thinker',
+			info => 'Pixel Whisperer',
 			image => 'thom',
 			link => 'http://thomweerd.com/',
 		}],
