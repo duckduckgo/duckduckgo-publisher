@@ -14,7 +14,10 @@
 		<div class="spread-info-wrap  fix">
 			<div class="third">
 				<div class="spread-info">
-					<span class="spread-img  spread-img--love" title="You know you love us..."></span>
+					<noscript>
+						<img class="spread-img" title="You know you love us..." src="/assets/spread/love.png" />
+					</noscript>
+					<img class="spread-img  js-lazysvg  no-js__hide" title="You know you love us..." src="" data-src="/assets/spread/love" />
 					
 					<h4 class="spread-info__hd"><: l('You Chose Us') :></h4>
 					<p class="spread-info__p"><: l("You've seen the future of search.  From real privacy to smarter answers and less clutter, everyone has a reason to love DuckDuckGo.") :></p>
@@ -22,7 +25,10 @@
 			</div>
 			<div class="third">
 				<div class="spread-info  spread-info--mid">
-					<span class="spread-img  spread-img--share" title="so share us with your friends"></span>
+					<noscript>
+						<img class="spread-img" title="so share us with your friends" src="/assets/spread/share.png" />
+					</noscript>
+					<img class="spread-img  js-lazysvg  no-js__hide" title="so share us with your friends" src="" data-src="/assets/spread/share" />
 					
 					<h4 class="spread-info__hd"><: l('Show Your Friends') :></h4>
 					<p class="spread-info__p"><: l("Show your friends and family why you love DuckDuckGo and get them to switch.  Did you know %s of the world has never heard about us?", '98%') :></p>
@@ -30,7 +36,10 @@
 			</div>
 			<div class="third">
 				<div class="spread-info">
-					<span class="spread-img  spread-img--takeoff" title="... and help us take off!"></span>
+					<noscript>
+						<img class="spread-img" title="... and help us take off!" src="/assets/spread/growth.png" />
+					</noscript>
+					<img class="spread-img  js-lazysvg  no-js__hide" title="... and help us take off!" src="" data-src="/assets/spread/growth" />
 					
 					<h4 class="spread-info__hd"><: l('We Rely On You') :></h4>
 					<p class="spread-info__p"><: l("When you get others to switch, we grow!  We're up against billion-dollar giants, but we've got awesome people like you on our side.") :></p>
@@ -41,7 +50,10 @@
 </div>
 <div class="blk  blk--arr  blk--alt">
 	<div class="spread-callout">
-		<span class="spread-img  spread-img--t-shirt" title="Will it have a duck on it?  Only time will tell..."></span>
+		<noscript>
+			<img class="spread-img" title="Will it have a duck on it?  Only time will tell..." src="/assets/spread/t-shirt.png" />
+		</noscript>
+		<img class="spread-img  js-lazysvg  no-js__hide" title="Will it have a duck on it?  Only time will tell..." src="" data-src="/assets/spread/t-shirt" />
 		<h2 class="hd-hr  spread-callout__title"><: l("Take it one step further and get a t-shirt for sharing DuckDuckGo!") :></h2>
 		<h6 class="spread-callout__subtitle"><: l("Join the DuckDuckGo Share It & Wear It campaign.") :></h6>
         <a class="spread-callout__btn btn btn--primary--alt t-xl" href="https://duck.co/wear">Show Me How</a>

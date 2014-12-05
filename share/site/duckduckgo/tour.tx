@@ -99,16 +99,16 @@
 			<div class="g half">
 				<div class="tour-text">
 					<h2 class="tour-text__head" data-number="5"><: l("Time to Switch!") :></h2>
-					<h3 class="tour-text__title"><: l("It's never been easier to switch now that we're available in Safari!") :></h3>
+					<h3 class="tour-text__title"><: l("It's never been easier to switch now that we're available in Safari & Firefox!") :></h3>
 					<p class="tour-text__p">No matter what your browser, just go to our <a href="/">homepage</a> and click the button at the bottom to add DuckDuckGo.  Get great results without being tracked.</p>
 					<a href="#saying" class="tour-text__next  js-tour-anchor-link"></a>
 				</div>
 			</div>
 			<div class="g half  tour-img-wrap">
 				<noscript>
-					<img class="tour-img  tour-img--l" src="/assets/tour/safari_integration.jpg" alt="DuckDuckGo is available in Safari!" />
+					<img class="tour-img  tour-img--l" src="/assets/tour/safari-FF_integration.jpg" alt="DuckDuckGo is available in Safari and Firefox!" />
 				</noscript>
-				<img class="tour-img  tour-img--l  js-tour-img" src="" data-src="/assets/tour/safari_integration.jpg" alt="DuckDuckGo is available in Safari!" />
+				<img class="tour-img  tour-img--l  js-tour-img" src="" data-src="/assets/tour/safari-FF_integration.jpg" alt="DuckDuckGo is available in Safari and Firefox!" />
 			</div>
 		</div>
 	</div>

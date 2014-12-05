@@ -307,6 +307,7 @@ sub pages {{
 		no_cw => 1,
 		alt_header => 1,
 		alt_header_text => 1,
+		js_page_type => 'Spread',
 	},
 	tour => sub {
 		no_content_internal => 1,
