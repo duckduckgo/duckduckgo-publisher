@@ -112,7 +112,7 @@ sub pages {{
 			year => '2007',
 		},{
 			date => 'February 29, 2008',
-			title => 'It&rsquo;s Official',
+			title => 'It’s Official',
 			snippet => 'In early 2008, Gabriel emerged from his basement with a plan. He soon made it official by incorporating DuckDuckGo.',
 			type => 'company',
 			icon => 'idea',
@@ -133,14 +133,14 @@ sub pages {{
 		},{
 			date => 'July 21, 2010',
 			title => 'Duck.co',
-			snippet => 'DuckDuckGo&rsquo;s community is its extended team. Duck.co was born from the community&rsquo;s need for a centralized place to swap ideas.',
+			snippet => 'DuckDuckGo’s community is its extended team. Duck.co was born from the community’s need for a centralized place to swap ideas.',
 			type => 'news',
 			icon => 'community',
 			year => '2010',
 		},{
 			date => 'January 11, 2011',
 			title => 'The Billboard',
-			snippet => 'DuckDuckGo delivered a message in the heart of the tech world: a billboard in San Francisco that read “Google tracks you. We don&rsquo;t.”',
+			snippet => 'DuckDuckGo delivered a message in the heart of the tech world: a billboard in San Francisco that read “Google tracks you. We don’t.”',
 			type => 'news',
 			icon => 'billboard',
 			year => '2011',
@@ -165,7 +165,7 @@ sub pages {{
 		},{
 			date => 'December 1, 2011',
 			title => 'Headquarters',
-			snippet => 'DuckDuckGo moves out of Gabriel&rsquo;s basement and into our fortress in Paoli, PA, USA. It really does look like a castle!',
+			snippet => 'DuckDuckGo moves out of Gabriel’s basement and into our fortress in Paoli, PA, USA. It really does look like a castle!',
 			type => 'company',
 		},{
 			date => 'January 16, 2012',
@@ -177,7 +177,7 @@ sub pages {{
 		},{
 			date => 'February 13, 2012',
 			title => '1,000,000!',
-			snippet => 'Reaching 1 million searches a day was a major milestone for us, having steadily grown from 100 to 1,000 to 10,000 to 100,000 and finally to 1,000,000. That&rsquo;s more than 10 searches a second!',
+			snippet => 'Reaching 1 million searches a day was a major milestone for us, having steadily grown from 100 to 1,000 to 10,000 to 100,000 and finally to 1,000,000. That’s more than 10 searches a second!',
 			type => 'traffic',
 			icon => 'growth',
 		},{
@@ -222,13 +222,13 @@ sub pages {{
 		},{
 			date => 'August 19, 2013',
 			title => '4,000,000',
-			snippet => 'Just over two months after hitting two million searches/day, we doubled our traffic again. People start to realize we&rsquo;re not a Chinese restaurant.',
+			snippet => 'Just over two months after hitting two million searches/day, we doubled our traffic again. People start to realize we’re not a Chinese restaurant.',
 			type => 'traffic',
 			icon => 'growth',
 		},{
 			date => 'February 26, 2014',
 			title => '5,000,000',
-			snippet => 'Five million direct searches in one day. That&rsquo;s 150 million a month, 1.825 billion a year! We will stop marking each million milestone now.',
+			snippet => 'Five million direct searches in one day. That’s 150 million a month, 1.825 billion a year! We will stop marking each million milestone now.',
 			type => 'traffic',
 			icon => 'growth',
 			year => '2014',
@@ -267,8 +267,8 @@ sub pages {{
 			source_link => 'http://www.fastcolabs.com/3026698/inside-duckduckgo-googles-tiniest-fiercest-competitor',
 			author_name => 'John Paul Titlow',
 			date => '20 February 2014',
-			headline => 'Inside DuckDuckGo, Google&rsquo;s Tiniest, Fiercest Competitor',
-			snippet => 'In 2008, launching a search engine seemed like a crazy idea.  Here&rsquo;s how Gabriel Weinberg proved the critics wrong.',
+			headline => 'Inside DuckDuckGo, Google’s Tiniest, Fiercest Competitor',
+			snippet => 'In 2008, launching a search engine seemed like a crazy idea.  Here’s how Gabriel Weinberg proved the critics wrong.',
 		},{
 			source => 'wapost',
 			source_full => 'The Washington Post',
