@@ -182,7 +182,7 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 		<form class="frm--newsletter  abt__newsletter" action="https://flash.duckduckgo.com/e.js" method="post" name="y">
 			<input type="hidden" name="add" value="1" />
 			<input type="text" placeholder="Your email address" class="frm__input" name="from" />
-			<input type="submit" value="Subscribe" class="frm__btn  btn  btn--primary--alt" />
+			<input type="submit" value="Subscribe" class="frm__btn  btn  btn--primary" />
 			<div class="frm--newsletter__chks">
 				<label class="frm__label" for="add">
 					<input class="frm__label__chk" type="checkbox" id="add" name="add" checked="checked">

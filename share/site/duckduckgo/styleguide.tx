@@ -44,6 +44,7 @@
 				<span class="btn btn--primary--alt">Primary(Alt)</span>
 				<span class="btn btn--secondary">Secondary</span>
 				<span class="btn btn--wire">Wire</span>
+				<span class="btn btn--lite">Lite</span>
 				<code>
 <pre>
 &lt;span class="btn"&gt;Default&lt;/span&gt;
@@ -51,7 +52,8 @@
 &lt;span class="btn btn--primary"&gt;Primary&lt;/span&gt;
 &lt;span class="btn btn--primary--alt"&gt;Primary(Alt)&lt;/span&gt;
 &lt;span class="btn btn--secondary"&gt;Secondary&lt;/span&gt;
-&lt;span class="btn btn--wire"&gt;Wire&lt;/span&gt;</pre>
+&lt;span class="btn btn--wire"&gt;Wire&lt;/span&gt;
+&lt;span class="btn btn--lite"&gt;Lite&lt;/span&gt;</pre>
 				</code>
 			</div><!--// .tile //-->
 			
