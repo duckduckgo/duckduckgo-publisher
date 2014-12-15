@@ -240,7 +240,7 @@
 				<form class="frm--newsletter" action="https://flash.duckduckgo.com/e.js" method="post" name="y">
 					<input type="hidden" name="add" value="1" />
 					<input type="text" placeholder="Enter your email address" class="frm__input" name="from" />
-					<input type="submit" value="Subscribe" class="frm__btn  btn  btn--abt--prim" />
+					<input type="submit" value="Subscribe" class="frm__btn  btn  btn--primary" />
 					<div class="frm--newsletter__chks">
 						<label class="frm__label" for="add">
 							<input class="frm__label__chk" type="checkbox" id="add" name="add" checked="checked">

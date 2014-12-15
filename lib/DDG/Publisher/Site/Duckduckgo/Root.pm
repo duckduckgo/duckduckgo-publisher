@@ -298,7 +298,7 @@ sub pages {{
 		alt_header => 1,
 		alt_header_text => 1,
 		icons => ['plus','clear-field','home','chev-down','chev-up','chev-left','chev-right','more','move','user','star','close-menu','menu','grid','check-sign','eye','loupe','check','region','cry','uploaded','prev','next','close-grid','marker','arrow-left','arrow-right','arrow-up','arrow-down',],
-		colors => ['white','white-alt','silver','ash','grey','dim','jet','red-light','red','red-dark','green','blue-light','blue','blue-dark','blue-pale',],
+		colors => ['white','white-alt','silver','ash','grey','dim','jet','red-light','red','red-dark','green','blue-light','blue','blue-dark',],
 	},
 	spread => sub {
 		copyright_footer => 2,
