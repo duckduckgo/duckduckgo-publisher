@@ -4,10 +4,10 @@
 			<div class="nav-col">
 				<h4>Things you can do:</h4>
 				<ul>
-					<li><a href="https://dukgo.com/translate">Translate DuckDuckGo</a></li>
-					<li><a href="http://duck.co/">Join our Forums</a></li>
-					<li><a href="https://dukgo.com/blog">Browse our Blog</a></li>
-					<li><a href="https://dukgo.com/blog/using-pidgin-with-xmpp-jabber">Chat via XMPP/Jabber</a></li>
+					<li><a href="https://duck.co/translate">Translate DuckDuckGo</a></li>
+					<li><a href="https://duck.co/forum/general">Join our Forums</a></li>
+					<li><a href="https://duck.co/blog">Browse our Blog</a></li>
+					<li><a href="https://duck.co/help/community-platform/xmpp">Chat via XMPP/Jabber</a></li>
 					<li><a href="https://github.com/duckduckgo/community-platform">Develop this site</a></li>
 					<li><a href="https://github.com/duckduckgo/duckduckgo/wiki">Develop instant answers</a></li>
 					<li><a href="https://duckduckgo.com/spread">Spread DuckDuckGo!</a></li>
@@ -23,7 +23,7 @@
 					<li><a href="https://duckduckgo.com/">Homepage</a></li>
 					<li><a href="http://donttrack.us/">DontTrack.us</a></li>
 					<li><a href="http://dontbubble.us/">DontBubble.us</a></li>
-					<li><a href="https://dukgo.com/help/en_US">Help</a></li>
+					<li><a href="https://duck.co/help/">Help</a></li>
 					<li><a href="https://duck.co/">Forum</a></li>
 					<li><a href="http://cafepress.com/duckduckgo">Store</a></li>
 					<li><a href="http://www.stickermule.com/duckduckgo">Sticker Store</a></li>

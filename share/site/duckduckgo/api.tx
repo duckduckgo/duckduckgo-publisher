@@ -19,24 +19,24 @@ pre {
 
 <div style="margin-bottom:30px;"></div>
 Our Instant Answer API gives you free access to many of our instant answers like:
-<a href="http://duckduckgo.com/?q=valley+forge+national+park">topic summaries</a> 
+<a href="/?q=valley+forge+national+park&ia=about">topic summaries</a> 
 (<a href="http://api.duckduckgo.com/?q=valley+forge+national+park&format=json&pretty=1">API example</a>), 
-<a href="http://duckduckgo.com/?q=simpsons+characters">categories</a>
+<a href="/?q=simpsons+characters&ia=list">categories</a>
 (<a href="http://api.duckduckgo.com/?q=simpsons+characters&format=json&pretty=1">API example</a>), 
-<a href="http://duckduckgo.com/?q=apple">disambiguation</a>  
+<a href="/?q=apple&ia=meanings">disambiguation</a>  
 (<a href="http://api.duckduckgo.com/?q=apple&format=json&pretty=1">API example</a>),
 and
 <a href="/bang.html">!bang redirects</a>
 (<a href="http://api.duckduckgo.com/?q=!imdb+rushmore&format=json&pretty=1&no_redirect=1">API example</a>).
 
 <div style="margin-bottom:20px;"></div>
-This API does not include all of our links, however. That is, it is not a full search results API or a way to get DuckDuckGo results into your applications beyond our instant answers. Because of the way <a href="http://help.duckduckgo.com/customer/portal/articles/216399">we generate our search results</a>, we unfortunately do not have the rights to fully syndicate our results. For the same reason, we cannot allow framing our results without our branding. Please see <a href="http://help.duckduckgo.com/customer/portal/articles/775109">our partnerships page</a> for more info on guidelines and getting in touch with us.
+This API does not include all of our links, however. That is, it is not a full search results API or a way to get DuckDuckGo results into your applications beyond our instant answers. Because of the way <a href="https://duck.co/help/results/sources">we generate our search results</a>, we unfortunately do not have the rights to fully syndicate our results. For the same reason, we cannot allow framing our results without our branding. Please see <a href="https://duck.co/help/company/partnerships">our partnerships page</a> for more info on guidelines and getting in touch with us.
 
 <div style="margin-bottom:20px;"></div>
-Our long-term goal is for <a href="https://duckduckgo.com/goodies/">all of our instant answers</a> to be available through this open API. Many of these instant answers are open source via our <a href="http://duckduckhack.com/">DuckDuckHack</a> platform. Using that platform, you can add your own APIs and data sources as well.
+Our long-term goal is for <a href="/tour">all of our instant answers</a> to be available through this open API. Many of these instant answers are open source via our <a href="http://duckduckhack.com/">DuckDuckHack</a> platform. Using that platform, you can add your own APIs and data sources as well.
 
 <p style="margin-top: 20px;">
-Our instant answers come from a variety of sources, including <a href="http://wikipedia.org">Wikipedia</a>, <a href="http://wikia.com/">Wikia</a>, <a href="http://crunchbase.com">Crunchbase</a>, <a href="http://github.com">GitHub</a>, <a href="http://wikihow.com">WikiHow</a>, <a href="http://thefreedictionary.com">The Free Dictionary</a> &ndash; over 100 in total.
+Our instant answers come from a variety of sources, including <a href="https://www.wikipedia.org/">Wikipedia</a>, <a href="http://wikia.com/">Wikia</a>, <a href="https://www.crunchbase.com/">CrunchBase</a>, <a href="https://github.com">GitHub</a>, <a href="http://wikihow.com">WikiHow</a>, <a href="http://thefreedictionary.com">The Free Dictionary</a> &ndash; over 100 in total.
 
 <p style="margin-top: 20px;">
   This API serves <a href="/traffic.html">over 10,000,000 queries a day</a> for a variety of uses, e.g.:
@@ -55,9 +55,9 @@ To consume it yourself, you can use one of the language libraries listed below o
 <p style="margin-top: 25px;">
 Here are the requirements for use: 
 <ul>
-<li>Attribution in each place you use our API for both us and any underlying source. For the source, you can link to the source's relevant detail page. For us, you can say <a href="https://duckduckgo.com/">Results from DuckDuckGo</a> with our logo (and link to the specific result page). 
-<li>Non-commercial use unless you get <a href="http://help.duckduckgo.com/customer/portal/articles/775109">email approval from us</a> (though we're generally fine with anything that isn't sketchy).
-<li>Use a descriptive <a href="http://help.duckduckgo.com/customer/portal/articles/448610">t parameter</a>, i.e. append &t=nameofapp to your requests.
+<li>Attribution in each place you use our API for both us and any underlying source. For the source, you can link to the source's relevant detail page. For us, you can say <a href="/">Results from DuckDuckGo</a> with our logo (and link to the specific result page). 
+<li>Non-commercial use unless you get <a href="https://duck.co/help/company/partnerships">email approval from us</a> (though we're generally fine with anything that isn't sketchy).
+<li>Use a descriptive <a href="https://duck.co/help/privacy/t">t parameter</a>, i.e. append &t=nameofapp to your requests.
 </ul>
 
 Our overall goal is to get more people using DuckDuckGo, so please keep that in mind as well. 
@@ -74,7 +74,7 @@ Image: link to image that goes with Abstract
 Heading: name of topic that goes with Abstract
 
 Answer: instant answer
-AnswerType: type of Answer, e.g. calc, color, digest, info, ip, iploc, phone, pw, rand, regexp, unicode, upc, or zip (see <a href="http://duckduckgo.com/goodies.html">goodies</a> & <a href="http://duckduckgo.com/tech.html">tech</a> pages for examples).
+AnswerType: type of Answer, e.g. calc, color, digest, info, ip, iploc, phone, pw, rand, regexp, unicode, upc, or zip (see the <a href="/tour">tour page</a> for examples).
 
 Definition: dictionary definition (may differ from Abstract)
 DefinitionSource: name of Definition source
@@ -115,7 +115,7 @@ format: output format (json or xml)
 If format=='json', you can also pass:
 
 callback: function to callback (JSONP format)
-pretty: 1 to make JSON look pretty (like JSONView for <a href="https://chrome.google.com/extensions/detail/chklaanhfefbnpoihckbnefhakgolnmc">Chrome</a>/<a href="https://addons.mozilla.org/en-US/firefox/addon/10869/">Firefox</a>)
+pretty: 1 to make JSON look pretty (like JSONView for <a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc">Chrome</a>/<a href="https://addons.mozilla.org/en-US/firefox/addon/jsonview/">Firefox</a>)
 
 
 no_redirect: 1 to skip HTTP redirects (for !bang commands).
@@ -185,11 +185,11 @@ vs
 <p style="margin-top: 5px;">
 <ul>
 <span class="small">
-<li>You can consume this API via <a href="http://www.mashape.com/apis/DuckDuckGo%20Zero-click%20Info">Mashape</a>, which provides PHP, Ruby, Python, Objective-C and Java (including Android) libraries. To do so, <a href="http://www.mashape.com/account/request-alpha-invite?apiName=DuckDuckGo%20Zero-click%20Info">sign up</a> (use the code DUCKDUCK) and <a href="http://www.mashape.com/account/login?apiName=DuckDuckGo%20Zero-click%20Info">login</a>.
-<li><a href="http://search.cpan.org/perldoc?WWW::DuckDuckGo">Perl module</a> & <a href="http://search.cpan.org/perldoc?duckduckgo">command line app</a> by <a href="http://twitter.com/#!/raudssus">@raudssus</a>. 
-<li><a href="http://pypi.python.org/pypi/duckduckgo2/0.2">Python library</a> by mikejs. 
-<li><a href="http://dhruvbird.com/ddb/zc.html">Zero-click jQuery Search Widget</a> by <a href="http://twitter.com/#!/dhruvbird">@dhruvbird</a> that provides info for you in iframe format. 
-<li><a href="https://github.com/SiegfriedEhret/jddg">jddg jQuery plugin</a> [<a href="http://dev.federalbureauofinhumanity.org/jddg/demo/">demo</a>] by <a href="http://federalbureauofinhumanity.org/">Siegfried Ehret</a>
+<li>You can consume this API via <a href="https://www.mashape.com/duckduckgo/duckduckgo-zero-click-info">Mashape</a>, which provides Curl, Java (including Android), Node, PHP, Python, Ruby, Objective C, and .NET libraries.
+<li><a href="http://search.cpan.org/~getty/WWW-DuckDuckGo-0.016/lib/WWW/DuckDuckGo.pm">Perl module</a> & <a href="http://search.cpan.org/~getty/App-DuckDuckGo-0.008/bin/duckduckgo">command line app</a> by <a href="https://twitter.com/raudssus">@raudssus</a>. 
+<li><a href="https://pypi.python.org/pypi/duckduckgo2/">Python library</a> by mikejs. 
+<li><a href="http://dhruvbird.com/ddb/zc.html">Zero-click jQuery Search Widget</a> by <a href="https://twitter.com/dhruvbird">@dhruvbird</a> that provides info for you in iframe format. 
+<li><a href="https://github.com/SiegfriedEhret/jddg">jddg jQuery plugin</a> [<a href="http://htmlpreview.github.io/?https://github.com/SiegfriedEhret/jddg/blob/master/demo/index.html">demo</a>] by <a href="https://ehret.me/">Siegfried Ehret</a>
 <li><a href="https://github.com/andrewrjones/ruby-duck-duck-go">Ruby Gem</a> by <a href="http://andrew-jones.com/">Andrew Jones</a>
 <li><a href="https://github.com/ajanicij/goduckgo">Go library</a> by <a href="https://github.com/ajanicij">ajanicij</a>
 <li><a href="https://github.com/lukewendling/ddg-api">Node.js module</a> by <a href="http://lukewendling.com">Luke Wendling</a>
@@ -212,7 +212,7 @@ vs
 
 <p style="margin-top: 5px;">
 <span class="small">
-Not all of our instant answers are available right now via this API for a variety of reasons, though it is our long term goal to make them so. However, if you would like to see something in particular please <a href="/feedback.html">let us know</a>, and perhaps we can prioritize making it happen.
+Not all of our instant answers are available right now via this API for a variety of reasons, though it is our long term goal to make them so. However, if you would like to see something in particular please <a href="/feedback">let us know</a>, and perhaps we can prioritize making it happen.
 </span>
 
 
@@ -221,7 +221,7 @@ Not all of our instant answers are available right now via this API for a variet
 
 <p style="margin-top: 5px;">
 <span class="small">
-Yes and no. We do not want to confuse users into thinking that your application was made by us. Please see <a href="http://help.duckduckgo.com/customer/portal/articles/775109">our partnerships page</a> for more info on guidelines and getting in touch with us. 
+Yes and no. We do not want to confuse users into thinking that your application was made by us. Please see <a href="https://duck.co/help/company/partnerships">our partnerships page</a> for more info on guidelines and getting in touch with us. 
 </span>
 
 
@@ -230,7 +230,7 @@ Yes and no. We do not want to confuse users into thinking that your application 
 
 <p style="margin-top: 5px;">
 <span class="small">
-No, though many of the instant answers it provides are open source via our <a href="http://duckduckhack.com/">DuckDuckHack platform</a>, which is completely open source. For more information on DuckDuckGo open source, please see <a href="http://help.dukgo.com/customer/portal/articles/216390-open-source">this help article</a>.
+No, though many of the instant answers it provides are open source via our <a href="http://duckduckhack.com/">DuckDuckHack platform</a>, which is completely open source. For more information on DuckDuckGo open source, please see <a href="https://duck.co/help/open-source/opensource-overview">this help article</a>.
 </span>
 
 
@@ -239,9 +239,9 @@ No, though many of the instant answers it provides are open source via our <a hr
 
 <p style="margin-top: 5px;">
 <span class="small">
-We simply do not have the resources to support high queries per second (QPS) for a single machine. Generally, this isn't a problem because our API is designed to be used client-side by individual users after they take some specific action (like a search or right-click). We also get a lot of botnet attacks. As a result, there is automatic throttling for API requests that will probably not effect you if you use the API in a distributed fashion (i.e. on your application's front-end). For specific situations we also provide higher limits. If you feel you may be in such a situation, please <a href="http://help.dukgo.com/customer/portal/articles/775109-partnerships">reach out</a>. For legal limits, please see above for attribution and other requirements. 
+We simply do not have the resources to support high queries per second (QPS) for a single machine. Generally, this isn't a problem because our API is designed to be used client-side by individual users after they take some specific action (like a search or right-click). We also get a lot of botnet attacks. As a result, there is automatic throttling for API requests that will probably not effect you if you use the API in a distributed fashion (i.e. on your application's front-end). For specific situations we also provide higher limits. If you feel you may be in such a situation, please <a href="https://duck.co/help/company/partnerships">reach out</a>. For legal limits, please see above for attribution and other requirements. 
 </span>
 
 
 <p style="margin-top: 25px;">
-If you have more questions, please <a href="http://help.duckduckgo.com/customer/portal/articles/775109">let us know</a>.
+If you have more questions, please <a href="https://duck.co/help/company/partnerships">let us know</a>.
