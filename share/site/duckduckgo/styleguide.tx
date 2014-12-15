@@ -40,18 +40,23 @@
 			<div class="tile--a  tile--s  tile--mid">
 				<span class="btn">Default</span>
 				<span class="btn btn--alt">Alternate</span>
+				<span class="btn btn--wire">Wire</span>
+				<span class="btn btn--lite">Lite</span>
+				<br/><br/>
+				<span class="btn btn--critical">Critical</span>
 				<span class="btn btn--primary">Primary</span>
 				<span class="btn btn--primary--alt">Primary(Alt)</span>
 				<span class="btn btn--secondary">Secondary</span>
-				<span class="btn btn--wire">Wire</span>
 				<code>
 <pre>
 &lt;span class="btn"&gt;Default&lt;/span&gt;
 &lt;span class="btn btn--alt"&gt;Alternate&lt;/span&gt;
+&lt;span class="btn btn--wire"&gt;Wire&lt;/span&gt;
+&lt;span class="btn btn--lite"&gt;Lite&lt;/span&gt;
+&lt;span class="btn btn--critical"&gt;Critical&lt;/span&gt;
 &lt;span class="btn btn--primary"&gt;Primary&lt;/span&gt;
 &lt;span class="btn btn--primary--alt"&gt;Primary(Alt)&lt;/span&gt;
-&lt;span class="btn btn--secondary"&gt;Secondary&lt;/span&gt;
-&lt;span class="btn btn--wire"&gt;Wire&lt;/span&gt;</pre>
+&lt;span class="btn btn--secondary"&gt;Secondary&lt;/span&gt;</pre>
 				</code>
 			</div><!--// .tile //-->
 			
@@ -235,7 +240,7 @@
 				<form class="frm--newsletter" action="https://flash.duckduckgo.com/e.js" method="post" name="y">
 					<input type="hidden" name="add" value="1" />
 					<input type="text" placeholder="Enter your email address" class="frm__input" name="from" />
-					<input type="submit" value="Subscribe" class="frm__btn  btn  btn--abt--prim" />
+					<input type="submit" value="Subscribe" class="frm__btn  btn  btn--primary" />
 					<div class="frm--newsletter__chks">
 						<label class="frm__label" for="add">
 							<input class="frm__label__chk" type="checkbox" id="add" name="add" checked="checked">
