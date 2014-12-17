@@ -251,6 +251,18 @@ sub pages {{
 			snippet => 'DuckDuckGo launches a reimagined and redesigned search engine with a refined look and a focus on smarter answers.',
 			type => 'company',
 			icon => 'design',
+		},{
+			date => 'September 17, 2014',
+			title => 'Safari',
+			snippet => 'Apple begins including DuckDuckGo in Safari, with the launch of iOS 8 and OSX Yosemite.',
+			type => 'company',
+			icon => 'growth',
+		},{
+			date => 'November 10, 2014',
+			title => 'Firefox',
+			snippet => 'Mozilla adds DuckDuckGo as a built-in option to Firefox and Firefox OS.',
+			type => 'company',
+			icon => 'growth',
 		}],
 		
 		news_articles => [{
