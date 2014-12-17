@@ -104,7 +104,7 @@ sub pages {{
 			},
 			moreinfo => {				
 				chrome => {
-					link => 'http://help.duckduckgo.com/customer/portal/articles/216440-chrome',
+					link => 'https://duck.co/help/desktop/chrome',
 					text => l('Make Default Search'),
 				},
 			},

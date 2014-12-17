@@ -22,7 +22,7 @@ pre {
 <: l('Feel free to adjust the settings below. Then, just copy and paste the code into your website.') :>
 
 <div style="margin-bottom:15px;"></div>
-Because of the way <a href="http://help.duckduckgo.com/customer/portal/articles/216399">we generate our search results</a>, we do not have the syndication rights to allow you to host our results on your site (e.g. in a frame). When your users click on the results they will be instead taken to our site. Please see <a href="http://help.duckduckgo.com/customer/portal/articles/775109">our partnerships page</a> for more info on guidelines and getting in touch with us.
+Because of the way <a href="https://duck.co/help/results/sources">we generate our search results</a>, we do not have the syndication rights to allow you to host our results on your site (e.g. in a frame). When your users click on the results they will be instead taken to our site. Please see <a href="https://duck.co/help/company/partnerships">our partnerships page</a> for more info on guidelines and getting in touch with us.
 
 <div style="margin-bottom:30px;"></div>
 <iframe id="code_frame" src="/search.html" style="overflow:hidden;margin:0;padding:0;width:550px;height:39px;" frameborder="0"></iframe>
@@ -106,7 +106,7 @@ new_code();
 You can use our <a href="/params.html">URL params</a> and use DuckDuckGo settings to further customize the results pages. However, please see the guidelines at the top of that page before doing so.
 
 <div style="margin-bottom:15px;"></div>
-You can also make and style your own box like <a href="http://ye.gg/blog">our founder has on his blog</a> (that one has a blue button, for example). There is also a great <a href="http://hardikpandya.com/2013/06/01/stylising-duckduckgo-site-search/">a blog post</a> on how to do this.
+You can also make and style your own box like <a href="http://ye.gg/blog">our founder has on his blog</a> (that one has a blue button, for example). There is also a great <a href="http://hardik.org/2013/06/01/stylising-duckduckgo-site-search/">a blog post</a> on how to do this.
 
 
 </span>
