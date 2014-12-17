@@ -112,7 +112,7 @@ sub pages {{
 			year => '2007',
 		},{
 			date => 'February 29, 2008',
-			title => 'It\'s Official',
+			title => 'It’s Official',
 			snippet => 'In early 2008, Gabriel emerged from his basement with a plan. He soon made it official by incorporating DuckDuckGo.',
 			type => 'company',
 			icon => 'idea',
@@ -133,14 +133,14 @@ sub pages {{
 		},{
 			date => 'July 21, 2010',
 			title => 'Duck.co',
-			snippet => 'DuckDuckGo\'s community is its extended team. Duck.co was born from the community\'s need for a centralized place to swap ideas.',
+			snippet => 'DuckDuckGo’s community is its extended team. Duck.co was born from the community’s need for a centralized place to swap ideas.',
 			type => 'news',
 			icon => 'community',
 			year => '2010',
 		},{
 			date => 'January 11, 2011',
 			title => 'The Billboard',
-			snippet => 'DuckDuckGo delivered a message in the heart of the tech world: a billboard in San Francisco that read "Google tracks you. We don\'t."',
+			snippet => 'DuckDuckGo delivered a message in the heart of the tech world: a billboard in San Francisco that read “Google tracks you. We don’t.”',
 			type => 'news',
 			icon => 'billboard',
 			year => '2011',
@@ -153,7 +153,7 @@ sub pages {{
 			icon => 'love',
 		},{
 			date => 'October 13, 2011',
-			title => 'Series "A" Funding',
+			title => 'Series “A” Funding',
 			snippet => 'Four years in, DuckDuckGo secures funding from Union Square Ventures, a group that shares the same vision of smarter search and real privacy.',
 			type => 'company',
 		},{
@@ -165,7 +165,7 @@ sub pages {{
 		},{
 			date => 'December 1, 2011',
 			title => 'Headquarters',
-			snippet => 'DuckDuckGo moves out of Gabriel\'s basement and into our fortress in Paoli, PA, USA. It really does look like a castle!',
+			snippet => 'DuckDuckGo moves out of Gabriel’s basement and into our fortress in Paoli, PA, USA. It really does look like a castle!',
 			type => 'company',
 		},{
 			date => 'January 16, 2012',
@@ -177,13 +177,13 @@ sub pages {{
 		},{
 			date => 'February 13, 2012',
 			title => '1,000,000!',
-			snippet => 'Reaching 1 million searches a day was a major milestone for us, having steadily grown from 100 to 1,000 to 10,000 to 100,000 and finally to 1,000,000. That\'s more than 10 searches a second!',
+			snippet => 'Reaching 1 million searches a day was a major milestone for us, having steadily grown from 100 to 1,000 to 10,000 to 100,000 and finally to 1,000,000. That’s more than 10 searches a second!',
 			type => 'traffic',
 			icon => 'growth',
 		},{
 			date => 'March 7, 2012',
 			title => '2012 Donations',
-			snippet => 'For our second year of open-source donations we chose the theme "open data/information." The company-directed portion went to Tor and the Wikimedia foundation. The community-directed portion went to unhosted.org, the Diaspora project, Freenet, and friendica.',
+			snippet => 'For our second year of open-source donations we chose the theme “open data/information.” The company-directed portion went to Tor and the Wikimedia foundation. The community-directed portion went to unhosted.org, the Diaspora project, Freenet, and friendica.',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
@@ -196,7 +196,7 @@ sub pages {{
 		},{
 			date => 'February 25, 2013',
 			title => '2013 Donations',
-			snippet => 'Our 3rd year of open-source donations were under the theme of "fix tracking." The company portion went to the Open Street Map Foundation and the Electronic Frontier Foundation. The community directed donations to Riseup, F-Droid, NoScript, Cryptocat, and Javascript Blocker. ',
+			snippet => 'Our 3rd year of open-source donations were under the theme of “fix tracking.” The company portion went to the Open Street Map Foundation and the Electronic Frontier Foundation. The community directed donations to Riseup, F-Droid, NoScript, Cryptocat, and Javascript Blocker. ',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
@@ -216,26 +216,26 @@ sub pages {{
 		},{
 			date => 'June 27, 2013',
 			title => 'Search & Stories',
-			snippet => 'DuckDuckGo delivers an app that gives you the most interesting stories of the day packed with a convenient way to search. TIME ranked it in their, "Top 50 iPhone apps of 2013."',
+			snippet => 'DuckDuckGo delivers an app that gives you the most interesting stories of the day packed with a convenient way to search. TIME ranked it in their, “Top 50 iPhone apps of 2013.”',
 			type => 'news',
 			icon => 'stories',
 		},{
 			date => 'August 19, 2013',
 			title => '4,000,000',
-			snippet => 'Just over two months after hitting two million searches/day, we doubled our traffic again. People start to realize we\'re not a Chinese restaurant.',
+			snippet => 'Just over two months after hitting two million searches/day, we doubled our traffic again. People start to realize we’re not a Chinese restaurant.',
 			type => 'traffic',
 			icon => 'growth',
 		},{
 			date => 'February 26, 2014',
 			title => '5,000,000',
-			snippet => 'Five million direct searches in one day. That\'s 150 million a month, 1.825 billion a year! We will stop marking each million milestone now.',
+			snippet => 'Five million direct searches in one day. That’s 150 million a month, 1.825 billion a year! We will stop marking each million milestone now.',
 			type => 'traffic',
 			icon => 'growth',
 			year => '2014',
 		},{
 			date => 'March 12, 2014',
 			title => '2014 Donations',
-			snippet => 'Needed more than ever, our 2014 donation theme was, "secure communications." Our company directed portion went to SecureDrop and NoiseTor. The community directed donations went to Lavabit, Riseup, Mailpile, and I2P.',
+			snippet => 'Needed more than ever, our 2014 donation theme was, “secure communications.” Our company directed portion went to SecureDrop and NoiseTor. The community directed donations went to Lavabit, Riseup, Mailpile, and I2P.',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
@@ -279,8 +279,8 @@ sub pages {{
 			source_link => 'http://www.fastcolabs.com/3026698/inside-duckduckgo-googles-tiniest-fiercest-competitor',
 			author_name => 'John Paul Titlow',
 			date => '20 February 2014',
-			headline => 'Inside DuckDuckGo, Google\'s Tiniest, Fiercest Competitor',
-			snippet => 'In 2008, launching a search engine seemed like a crazy idea.  Here\'s how Gabriel Weinberg proved the critics wrong.',
+			headline => 'Inside DuckDuckGo, Google’s Tiniest, Fiercest Competitor',
+			snippet => 'In 2008, launching a search engine seemed like a crazy idea.  Here’s how Gabriel Weinberg proved the critics wrong.',
 		},{
 			source => 'wapost',
 			source_full => 'The Washington Post',

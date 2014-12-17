@@ -38,8 +38,8 @@
 	<div class="cw--c">
 		<h2 class="abt__title">About us</h2>
 		<p class="abt__sub">
-DuckDuckGo is a search engine driven by community &ndash; you're on the team! 
-<br class="hide--screen-s">We're not just servers and an algorithm. We're so much more.
+DuckDuckGo is a search engine driven by community &ndash; you&rsquo;re on the team! 
+<br class="hide--screen-s">We&rsquo;re not just servers and an algorithm. We&rsquo;re so much more.
 		</p>
 		<div class="abt__row">
 			<div class="abt__key  third  half--screen-m">
@@ -48,8 +48,8 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 				</noscript>
 				<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/privacy-alt">
 				<h3 class="abt__key__title">Real Privacy</h3>
-				<h6 class="abt__key__sub">We don't track you.</h6>
-				<p>What you search for is your own business and we'd like to keep it that way. That's why we don't collect any personal information and therefore, have none to share.</p>
+				<h6 class="abt__key__sub">We don&rsquo;t track you.</h6>
+				<p>What you search for is your own business and we&rsquo;d like to keep it that way. That&rsquo;s why we don&rsquo;t collect any personal information and therefore, have none to share.</p>
 				<a class="abt__key__link" href="/privacy">Our Policy</a>
 			</div><div class="abt__key  third  half--screen-m">
 				<noscript>
@@ -134,7 +134,7 @@ DuckDuckGo is a search engine driven by community &ndash; you're on the team!
 					<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/love">
 					<h3 class="abt__key__title">Spread</h3>
 				</a>
-				<p>Everyone could use real privacy. Want to join us and other community members in spreading DuckDuckGo to new users? Get your friends and family to "duck it".</p>
+				<p>Everyone could use real privacy. Want to join us and other community members in spreading DuckDuckGo to new users? Get your friends and family to &ldquo;duck it&rdquo;.</p>
 				<a class="abt__key__link" href="/spread">Spread DuckDuckGo</a>
 			</div>
 		</div>
