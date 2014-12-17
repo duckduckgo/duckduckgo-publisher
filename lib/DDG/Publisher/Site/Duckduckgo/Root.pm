@@ -254,7 +254,7 @@ sub pages {{
 		},{
 			date => 'September 17, 2014',
 			title => 'Safari',
-			snippet => 'Apple begins including DuckDuckGo in Safari, with the launch of iOS 8 and OSX Yosemite.',
+			snippet => 'Apple begins including DuckDuckGo in Safari, with the launch of iOS 8 and OS X Yosemite.',
 			type => 'company',
 			icon => 'growth',
 		},{
