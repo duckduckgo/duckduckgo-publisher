@@ -20,6 +20,7 @@
 	<div class="header--hero  cw  js-show-header">
 		<i class="header--hero__loupe"></i>
 		<: if $hero_header_text { :><span class="header--hero__text"><: l('Try a search!') :></span><: } :>
+		<: if $hero_header_alt_text { :><span class="header--hero__text"><: l('Try DuckDuckGo') :></span><: } :>
 	</div>
 </div>
 <: } :>

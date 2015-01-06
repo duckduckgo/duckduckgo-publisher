@@ -150,7 +150,7 @@ sub pages {
 	# Old index.
 	$pages{'index'} = sub {
 		hero_header => 1,
-		hero_header_text => 1,
+		hero_header_alt_text => 1,
 		hero_alt => 1,
 		absolute_search_url => 1,
 		asset_path => 'ddg',
