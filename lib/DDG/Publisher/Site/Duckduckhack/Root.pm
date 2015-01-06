@@ -155,6 +155,7 @@ sub pages {
 		absolute_search_url => 1,
 		asset_path => 'ddg',
 		js_no_locale => 1,
+		js_page_type => 'DDH',
 	};
 
 	my $prev_next_hash_ref = $self->get_prev_next;

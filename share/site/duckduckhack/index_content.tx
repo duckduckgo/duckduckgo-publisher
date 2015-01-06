@@ -1,3 +1,22 @@
 <div class="blk  blk--hero  blk--hero--alt">
-	<h1 class="">DuckDuckHack</h1>
+	<div class="cw--c  ddh-hero"><a class="anchor ddh-anchor js-anchor" name="top"></a>
+		<h1 class="hd-hr">DuckDuckHack</h1>
+		<a href="#start" class="ddh-hero__btn  btn  btn--wire--hero  js-anchor-link"><: l("Get Started") :></a>
+	</div>
+	<div class="ddh-hero-slides  js-hero-slides">
+		<span class="ddh-hero-slides__nav  nav  nav--hero  nav--prev  js-hero-slides-prev"></span>
+		<span class="ddh-hero-slides__nav  nav  nav--hero  nav--next  js-hero-slides-next"></span>
+		<div class="ddh-hero-slides__wrap">
+			<img class="ddh-hero-slides__img  js-hero-img  js-lazyload" src="" data-src="images/soundcloud_hero.jpg" alt="SoundCloud Instant Answer" />
+			<img class="ddh-hero-slides__img  js-hero-img  js-lazyload" src="" data-src="images/recipes_hero.jpg" alt="Recipes Instant Answer" />
+			<img class="ddh-hero-slides__img  js-hero-img  js-lazyload" src="" data-src="images/movies_hero.jpg" alt="Movies Instant Answer" />
+			<img class="ddh-hero-slides__img  js-hero-img  js-lazyload" src="" data-src="images/regex_hero.jpg" alt="RegEx Cheat Sheet Instant Answer" />
+			<noscript>
+				<img class="ddh-hero-slides__img--no-js" src="images/soundcloud_hero.jpg" alt="SoundCloud Instant Answer" />
+			</noscript>
+		</div>
+	</div>
+</div>
+<div class="blk"><a class="anchor ddh-anchor js-anchor" name="start"></a>
+
 </div>
