@@ -6,8 +6,6 @@
 <: } :>
 <: if !$js_skip_init { :>
 <script type="text/javascript">
-	DDG.ready(function(){
-		DDG.page = new DDG.Pages.<: if $js_page_type { $js_page_type } else if $homepage { :>Home<: } else { :>Static<: } :>();
-	});
+    DDG.page = new DDG.Pages.<: if $js_page_type { $js_page_type } else if $homepage { :>Home<: } else { :>Static<: } :>();
 </script>
 <: } :>

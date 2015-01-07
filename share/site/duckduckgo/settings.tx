@@ -8,12 +8,8 @@
 </div>
 
 <script>
-    DDG.require('settings',function(){
-        DDG.ready(function(){
-            DDG.page = new DDG.Pages.Settings({
-                appendTo: '.settings-page-wrapper'
-            });
-        });
+    DDG.page = new DDG.Pages.Settings({
+        appendTo: '.settings-page-wrapper'
     });
 </script>
 
