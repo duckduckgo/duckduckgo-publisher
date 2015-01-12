@@ -154,7 +154,6 @@ sub pages {
 		hero_alt => 1,
 		absolute_search_url => 1,
 		asset_path => 'ddg',
-		js_no_locale => 1,
 		js_page_type => 'DDH',
 		foot_useful => [{
 			name => 'Recipes',
