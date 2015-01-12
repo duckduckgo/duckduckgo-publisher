@@ -22,7 +22,7 @@
 <div class="blk  blk--alt  ddh"><a class="anchor ddh-anchor js-anchor" name="start"></a>
 	<div class="cw--c">
 		<h2 class="ddh__title"><: l("Ready to Contribute?") :></h2>
-		<p class="blk__sub"><: l("Help us point you in the right direction.") :></p>
+		<p class="ddh__sub"><: l("Help us point you in the right direction.") :></p>
 		<div class="ddh__split">
 			<div class="ddh__split__item  half">
 				<div class="ddh-cta">
@@ -33,7 +33,7 @@
 					<h4 class="ddh-cta__title"><: l("Develop") :></h4>
 					<p class="ddh-cta__sub"><: l("Help create an Instant Answer") :></p>
 					
-					<p class="ddh-cta__text">Bring your Instant Answer idea to life! Harness great data sources to improve search results for the topics you care most about.</p>
+					<p class="ddh-cta__text"><: l("Bring your Instant Answer idea to life! Harness great data sources to improve search results for the topics you care most about.") :></p>
 					<a href="https://duck.co/duckduckhack/ddh-intro" class="ddh-cta__btn  btn  btn--critical"><: l("Get Started") :></a>
 				</div>
 			</div>
@@ -47,7 +47,7 @@
 					<h4 class="ddh-cta__title"><: l("Discuss") :></h4>
 					<p class="ddh-cta__sub"><: l("Share ideas and feedback") :></p>
 					
-					<p class="ddh-cta__text">Suggest new Instant Answers and which sources should power them. Ensure that every Instant Answer is as great as it can be.</p>
+					<p class="ddh-cta__text"><: l("Suggest new Instant Answers and which sources should power them. Ensure that every Instant Answer is as great as it can be.") :></p>
 					<a href="https://duck.co/forum/general" class="ddh-cta__btn  btn  btn--critical"><: l("Join a forum") :></a>
 				</div>
 			</div>
@@ -57,7 +57,7 @@
 <div class="blk  ddh">
 	<div class="cw--c">
 		<h2 class="ddh__title"><: l("Check out what others are saying...") :></h2>
-		<p class="blk__sub"><: l("Whether it's just helping out or improving your celebrity status, there are many reasons to contribute.") :></p>
+		<p class="ddh__sub"><: l("Whether it's just helping out or improving your celebrity status, there are many reasons to contribute.") :></p>
 		<div class="ddh-quotes  js-ddh-quotes">
 			<div class="ddh-quote  js-quote">
 				<blockquote>It was my first time contributing to an open source project and I haven't been able to stop since. Keep being awesome, and thanks for inspiring me :) <cite><a href="https://news.ycombinator.com/item?id=8523527" target="_ddh_quote1">prezjordan on HackerNews</a></cite></blockquote>
@@ -72,5 +72,38 @@
 				<blockquote>I think I just found an <a href="https://twitter.com/hashtag/opensource" target="_twitter_hashtag">#opensource</a> community that I want to become a part of <a href="#top" class="js-anchor-link">http://duckduckhack.com/</a> <cite><a href="https://twitter.com/NickUI/status/436674289513676800" target="_ddh_quote4">Nick Kuchinski @NickUI</a></cite></blockquote>
 			</div>
 		</div>
+	</div>
+</div>
+<div class="blk  blk--hero  blk--hero--alt  ddh  ddh--foot">
+	<div class="cw--c">
+		<div class="gw">
+			<div class="g twothird">
+				<h4 class="ddh--foot__title"><: l("Staff Pick Instant Answers") :></h2>
+				<div class="half">
+					<h5 class="ddh--foot__sub"><: l("Useful") :></h5>
+					<: for $foot_useful -> $item { :>
+						<: include "ddh-feature.tx" {item=>$item} :>
+					<: } :>
+				</div>
+				<div class="half">
+					<h5 class="ddh--foot__sub"><: l("Just for Fun") :></h5>
+					<: for $foot_fun -> $item { :>
+						<: include "ddh-feature.tx" {item=>$item} :>
+					<: } :>
+				</div>
+			</div>
+			<div class="g third">
+				<h4 class="ddh--foot__title"><: l("Top contributors active now") :></h2>
+				<h5 class="ddh--foot__sub"><: l("Thank you to:") :></h5>
+				<: for $foot_users -> $item { :>
+					<: include "ddh-feature.tx" {item=>$item} :>
+				<: } :>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="blk  blk--foot">
+	<div class="cw--c">
+			<p class="ddh-copyright">&copy; <a href="https://duckduckgo.com">DuckDuckGo</a>. <: l("The search engine that doesn't track you.") :></p>
 	</div>
 </div>

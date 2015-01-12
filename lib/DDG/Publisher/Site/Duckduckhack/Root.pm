@@ -156,6 +156,54 @@ sub pages {
 		asset_path => 'ddg',
 		js_no_locale => 1,
 		js_page_type => 'DDH',
+		foot_useful => [{
+			name => 'Recipes',
+			desc => 'Find recipes by ingredient',
+			user => 'mwmiller',
+			link => 'https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/Recipes.pm',
+			example_link => 'https://duckduckgo.com/?q=carrot+ginger+soup+recipes&ia=recipes',
+		},{
+			name => 'Regex cheat sheet',
+			desc => 'Quickly see regex syntax',
+			user => 'mintsoft',
+			link => 'https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/RegexCheatSheet.pm',
+			example_link => 'https://duckduckgo.com/?q=regex+cheat+sheet&t=ffab&ia=answer',
+		},{
+			name => 'Timer',
+			desc => 'Set a timer for any occasion',
+			user => 'puskin94',
+			link => 'https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/Timer.pm',
+			example_link => 'https://duckduckgo.com/?q=timer+5+minutes&t=ffab&ia=timer',
+		}],
+		foot_fun => [{
+			name => 'People in Space',
+			desc => "Find out who's orbiting Earth",
+			user => 'NeoSilky',
+			link => 'https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/PeopleInSpace.pm',
+			example_link => 'https://duckduckgo.com/?q=people+in+space&t=ffab&ia=answer',
+		},{
+			name => 'Flip a Coin',
+			desc => 'Play virtual heads or tails',
+			user => 'mattlehning',
+			link => 'https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/Coin.pm',
+			example_link => 'https://duckduckgo.com/?q=flip+a+coin&t=ffab&ia=answer',
+		},{
+			name => 'Figlet',
+			desc => 'Generate a figlet design',
+			user => 'larseng',
+			link => 'https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/FIGlet.pm',
+			example_link => 'https://duckduckgo.com/?q=figlet+Welcome+to+DuckDuckHack&t=ffab&ia=answer',
+		}],
+		foot_users => [{
+			name => 'Usman Raza',
+			user => 'killerfish',
+		},{
+			name => 'Rob Emery',
+			user => 'mintsoft',
+		},{
+			name => 'Chris Wilson',
+			user => 'MrChrisW',
+		}],
 	};
 
 	my $prev_next_hash_ref = $self->get_prev_next;
