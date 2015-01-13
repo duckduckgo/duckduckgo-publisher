@@ -75,7 +75,7 @@
 	</div>
 </div>
 <div class="blk  blk--hero  blk--hero--alt  ddh  ddh--foot">
-	<div class="cw--c">
+	<div class="cw--c  ddh--foot__cw">
 		<div class="gw">
 			<div class="g twothird">
 				<h4 class="ddh--foot__title"><: l("Staff Pick Instant Answers") :></h2>
