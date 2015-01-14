@@ -149,10 +149,12 @@ sub pages {
 
 	# Old index.
 	$pages{'index'} = sub {
+		no_search_header => 1,
 		hero_header => 1,
-		hero_header_alt_text => 1,
+		no_hero_header_icon => 1,
+		hero_header_link => 'https://duck.co/duckduckhack/ddh-intro',
+		hero_header_link_text => "Docs",
 		hero_alt => 1,
-		absolute_search_url => 1,
 		asset_path => 'ddg',
 		js_page_type => 'DDH',
 		foot_useful => [{

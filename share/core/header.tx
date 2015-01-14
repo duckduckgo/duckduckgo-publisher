@@ -1,4 +1,5 @@
-<div id="header_wrapper" class="header-wrap<: if $hero_header { :> header-wrap--hero <: if $hero_alt { :>header-wrap--hero--alt<: } :><: } :> js-header-wrap">
+<: if !$no_search_header { :>
+<div id="header_wrapper" class="header-wrap<: if $hero_header { :> header-wrap--with-hero <: } :> js-header-wrap">
 	<div id="header" class="header  cw">
 		<div class="header__search-wrap">
 			<a href="/" class="header__logo-wrap">
@@ -15,12 +16,14 @@
 		</div>
 	</div>
 </div>
-<: if $hero_header { :>
+<: } if $hero_header { :>
 <div class="header-wrap--hero <: if $hero_alt { :>header-wrap--hero--alt<: } :> js-header-wrap">
-	<div class="header--hero  cw  js-show-header">
-		<i class="header--hero__loupe"></i>
+	<div class="header--hero  cw <: if !$no_search_header { :> js-show-header <: } :>">
+		<: if !$no_hero_header_icon { :><i class="header--hero__loupe"></i><: } :>
 		<: if $hero_header_text { :><span class="header--hero__text"><: l('Try a search!') :></span><: } :>
-		<: if $hero_header_alt_text { :><span class="header--hero__text"><: l('Try DuckDuckGo') :></span><: } :>
+		<: if $hero_header_link { :>
+			<a href="<: $hero_header_link :>" class="header--hero__link" target="_ddg_header_link"><: l($hero_header_link_text) :></a>
+		<: } :>
 	</div>
 </div>
 <: } :>
