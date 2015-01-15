@@ -1,18 +1,31 @@
-<div class="blk  blk--hero  blk--hero--alt">
-	<div class="cw--c  ddh-hero"><a class="anchor ddh-anchor js-anchor" name="top"></a>
-		<h1 class="ddh-hero__title  hd-hr"><: l("Welcome to %sDuckDuckHack%s, a place where you can help change the future of search!", "<b>","</b>") :></h1>
+<div class="blk  blk--hero  blk--hero--alt  js-hero-slides"><a class="anchor ddh-anchor js-anchor" name="top"></a>
+	<div class="cw--c  ddh-hero">
+		<div class="ddh-hero-slides">
+			<div class="ddh-hero-slides__item  js-hero-text">
+				<h1 class="ddh-hero__title  hd-hr">
+					<: l("Welcome to %sDuckDuckHack%s, an open source community changing the future of search with Instant Answers.", "<b>","</b>") :>
+				</h1>
+			</div><div class="ddh-hero-slides__item  js-hero-text">
+				<h1 class="ddh-hero__title  hd-hr">
+					<: l("Getting what you search for in few or zero clicks makes a great search experience. That's %sDuckDuckHack%s.", "<b>","</b>") :>
+				</h1>
+			</div><div class="ddh-hero-slides__item  js-hero-text">
+				<h1 class="ddh-hero__title  hd-hr">
+					<: l("Use the Web's best sources for a specific topic or build an Instant Answer from scratch!") :>
+				</h1>
+			</div>
+		</div>
 		<a href="#start" class="ddh-hero__btn  btn  btn--wire--hero  js-anchor-link"><: l("Get Started") :></a>
 	</div>
-	<div class="ddh-hero-slides  js-hero-slides">
+	<div class="ddh-hero-slides--img">
 		<span class="ddh-hero-slides__nav-wrap">
 			<span class="ddh-hero-slides__nav  nav  nav--hero  nav--prev  js-hero-slides-prev"></span>
 			<span class="ddh-hero-slides__nav  nav  nav--hero  nav--next  js-hero-slides-next"></span>
 		</span>
 		<div class="ddh-hero-slides__wrap">
-			<img class="ddh-hero-slides__img  js-hero-img  js-lazyload" src="" data-src="images/soundcloud_hero.jpg" alt="SoundCloud Instant Answer" />
 			<img class="ddh-hero-slides__img  js-hero-img  js-lazyload" src="" data-src="images/recipes_hero.jpg" alt="Recipes Instant Answer" />
-			<img class="ddh-hero-slides__img  js-hero-img  js-lazyload" src="" data-src="images/movies_hero.jpg" alt="Movies Instant Answer" />
 			<img class="ddh-hero-slides__img  js-hero-img  js-lazyload" src="" data-src="images/regex_hero.jpg" alt="RegEx Cheat Sheet Instant Answer" />
+			<img class="ddh-hero-slides__img  js-hero-img  js-lazyload" src="" data-src="images/movies_hero.jpg" alt="Movies Instant Answer" />
 			<noscript>
 				<img class="ddh-hero-slides__img--no-js" src="images/soundcloud_hero.jpg" alt="SoundCloud Instant Answer" />
 			</noscript>
@@ -21,7 +34,7 @@
 </div>
 <div class="blk  blk--alt  ddh"><a class="anchor ddh-anchor js-anchor" name="start"></a>
 	<div class="cw--c">
-		<h2 class="ddh__title"><: l("Ready to Contribute?") :></h2>
+		<h2 class="ddh__title"><: l("Thanks for getting involved!") :></h2>
 		<p class="ddh__sub"><: l("Help us point you in the right direction.") :></p>
 		<div class="ddh__split">
 			<div class="ddh__split__item  half">
@@ -30,8 +43,8 @@
 						<img src="images/develop.png" class="ddh-cta__icon" />
 					</noscript>
 					<img src="" data-src="images/develop" class="ddh-cta__icon  js-lazysvg  no-js__hide" />
-					<h4 class="ddh-cta__title"><: l("Develop") :></h4>
-					<p class="ddh-cta__sub"><: l("Help create an Instant Answer") :></p>
+					<h4 class="ddh-cta__title"><: l("I can code") :></h4>
+					<p class="ddh-cta__sub"><: l("Create an Instant Answer") :></p>
 					
 					<p class="ddh-cta__text"><: l("Bring your Instant Answer idea to life! Harness great data sources to improve search results for the topics you care most about.") :></p>
 					<a href="https://duck.co/duckduckhack/ddh-intro" class="ddh-cta__btn  btn  btn--critical"><: l("Get Started") :></a>
@@ -44,8 +57,8 @@
 						<img src="images/discuss.png" class="ddh-cta__icon" />
 					</noscript>
 					<img src="" data-src="images/discuss" class="ddh-cta__icon  js-lazysvg  no-js__hide" />
-					<h4 class="ddh-cta__title"><: l("Discuss") :></h4>
-					<p class="ddh-cta__sub"><: l("Share ideas and feedback") :></p>
+					<h4 class="ddh-cta__title"><: l("I can't code") :></h4>
+					<p class="ddh-cta__sub"><: l("Share Instant Answer ideas and feedback") :></p>
 					
 					<p class="ddh-cta__text"><: l("Suggest new Instant Answers and which sources should power them. Ensure that every Instant Answer is as great as it can be.") :></p>
 					<a href="https://duck.co/forum/general" class="ddh-cta__btn  btn  btn--critical"><: l("Join a forum") :></a>
@@ -56,19 +69,16 @@
 </div>
 <div class="blk  ddh">
 	<div class="cw--c">
-		<h2 class="ddh__title"><: l("Check out what others are saying...") :></h2>
-		<p class="ddh__sub"><: l("Whether it's just helping out or improving your celebrity status, there are many reasons to contribute.") :></p>
+		<h2 class="ddh__title"><: l("What others have said about DuckDuckHack...") :></h2>
+		<p class="ddh__sub"><: l("Whatever your reason for contributing, our community is here to make it a positive experience.") :></p>
 		<div class="ddh-quotes  js-ddh-quotes">
 			<div class="ddh-quote  js-quote">
 				<blockquote>It was my first time contributing to an open source project and I haven't been able to stop since. Keep being awesome, and thanks for inspiring me :) <cite><a href="https://news.ycombinator.com/item?id=8523527" target="_ddh_quote1">prezjordan on HackerNews</a></cite></blockquote>
-			</div>
-			<div class="ddh-quote  js-quote">
+			</div><div class="ddh-quote  js-quote">
 				<blockquote>Contributing to an open-source project like DuckDuckGo is a fun and fulfilling experience. <cite><a href="http://blog.ackx.net/duckduckhack-accepted.html" target="_ddh_quote2">Youri Ackx</a></cite></blockquote>
-			</div>
-			<div class="ddh-quote  js-quote">
+			</div><div class="ddh-quote  js-quote">
 				<blockquote>I had my first ever pull request merged by <a href="https://twitter.com/duckduckhack" target="twitter_ddh">@duckduckhack</a>. Yay! I helped make the internet a better place! <a href="https://twitter.com/duckduckgo" target="_twitter_ddg">@duckduckgo</a> <a href="https://twitter.com/duckco" target="_twitter_ddgc">@duckco</a> <cite><a href="https://twitter.com/ecounysis/status/483697431201058816" target="_ddh_quote3">Eric Christensen @ecounysis</a></cite></blockquote>
-			</div>
-			<div class="ddh-quote  js-quote">
+			</div><div class="ddh-quote  js-quote">
 				<blockquote>I think I just found an <a href="https://twitter.com/hashtag/opensource" target="_twitter_hashtag">#opensource</a> community that I want to become a part of <a href="#top" class="js-anchor-link">http://duckduckhack.com/</a> <cite><a href="https://twitter.com/NickUI/status/436674289513676800" target="_ddh_quote4">Nick Kuchinski @NickUI</a></cite></blockquote>
 			</div>
 		</div>
@@ -93,8 +103,8 @@
 				</div>
 			</div>
 			<div class="g third">
-				<h4 class="ddh--foot__title"><: l("Top contributors active now") :></h2>
-				<h5 class="ddh--foot__sub"><: l("Thank you to:") :></h5>
+				<h4 class="ddh--foot__title"><: l("Top Contributors Active Now") :></h2>
+				<h5 class="ddh--foot__sub"><: l("Thank you to") :></h5>
 				<: for $foot_users -> $item { :>
 					<: include "ddh-feature.tx" {item=>$item} :>
 				<: } :>
