@@ -1,19 +1,11 @@
 <div class="blk  blk--hero  blk--hero--alt  js-hero-slides"><a class="anchor ddh-anchor js-anchor" name="top"></a>
 	<div class="cw--c  ddh-hero">
 		<div class="ddh-hero-slides">
-			<div class="ddh-hero-slides__item  js-hero-text">
+		<: for $hero_slides -> $h { :><div class="ddh-hero-slides__item  js-hero-text">
 				<h1 class="ddh-hero__title  hd-hr">
-					<: l("Welcome to %sDuckDuckHack%s, an open source community changing the future of search with Instant Answers.", "<b>","</b>") :>
+					<: l($h.text, "<b>","</b>") :>
 				</h1>
-			</div><div class="ddh-hero-slides__item  js-hero-text">
-				<h1 class="ddh-hero__title  hd-hr">
-					<: l("Getting what you search for in few or zero clicks makes a great search experience. That's %sDuckDuckHack%s.", "<b>","</b>") :>
-				</h1>
-			</div><div class="ddh-hero-slides__item  js-hero-text">
-				<h1 class="ddh-hero__title  hd-hr">
-					<: l("Use the Web's best sources for a specific topic or build an Instant Answer from scratch!") :>
-				</h1>
-			</div>
+			</div><: } :>
 		</div>
 		<a href="#start" class="ddh-hero__btn  btn  btn--wire--hero  js-anchor-link"><: l("Get Started") :></a>
 	</div>
@@ -23,9 +15,12 @@
 			<span class="ddh-hero-slides__nav  nav  nav--hero  nav--next  js-hero-slides-next"></span>
 		</span>
 		<div class="ddh-hero-slides__wrap">
-			<img class="ddh-hero-slides__img  js-hero-img  js-lazyload" src="" data-src="images/recipes_hero.jpg" alt="Recipes Instant Answer" />
-			<img class="ddh-hero-slides__img  js-hero-img  js-lazyload" src="" data-src="images/regex_hero.jpg" alt="RegEx Cheat Sheet Instant Answer" />
-			<img class="ddh-hero-slides__img  js-hero-img  js-lazyload" src="" data-src="images/movies_hero.jpg" alt="Movies Instant Answer" />
+			<: for $hero_slides -> $h { :>
+				<div class="ddh-hero-slides__img-wrap  js-hero-img  no-js__hide">
+					<span class="ddh-hero-slides__attr  one-line"><span class="ddh-hero-slides__attr__item"><: l("Featured IA:") :> <a href="<:$h.link:>" target="_ia<:$h.tab:>"><: $h.tab :></a></span><span class="ddh-hero-slides__attr__item"><: l("Contributor:") :> <a href="https://github.com/<:$h.user:>" target="_github<:$h.user:>"><: $h.user:></a></span></span>
+					<img class="ddh-hero-slides__img  js-lazyload" src="" data-src="images/<: $h.img :>_hero.jpg" alt="<: $h.tab :> Instant Answer" />
+				</div>
+			<: } :>
 			<noscript>
 				<img class="ddh-hero-slides__img--no-js" src="images/soundcloud_hero.jpg" alt="SoundCloud Instant Answer" />
 			</noscript>
