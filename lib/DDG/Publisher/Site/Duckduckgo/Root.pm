@@ -10,6 +10,7 @@ sub path { '/' }
 
 sub pages {{
 	about => sub {
+		nav_footer => 1,
 		copyright_footer => 1,
 		no_content_internal => 1,
 		no_spacer => 1,

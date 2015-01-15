@@ -7,6 +7,8 @@
 		<: include "header.tx" :>
 		<div class="content-wrap">
 			<: include "index_content.tx" :>
+			<: include "footer_nav.tx" :>
+			<: include "footer_copyright.tx" :>
 		</div>
 	</div>
 </body>
