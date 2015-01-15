@@ -32,7 +32,7 @@
 		</div>
 	</div>
 </div>
-<div class="blk  blk--alt  ddh"><a class="anchor ddh-anchor js-anchor" name="start"></a>
+<div class="blk  blk--alt  blk--arr--white  ddh"><a class="anchor ddh-anchor js-anchor" name="start"></a>
 	<div class="cw--c">
 		<h2 class="ddh__title"><: l("Thanks for getting involved!") :></h2>
 		<p class="ddh__sub"><: l("Help us point you in the right direction.") :></p>
@@ -67,7 +67,7 @@
 		</div>
 	</div>
 </div>
-<div class="blk  ddh">
+<div class="blk  blk--arr  ddh">
 	<div class="cw--c">
 		<h2 class="ddh__title"><: l("What others have said about DuckDuckHack...") :></h2>
 		<p class="ddh__sub"><: l("Whatever your reason for contributing, our community is here to make it a positive experience.") :></p>
@@ -84,7 +84,7 @@
 		</div>
 	</div>
 </div>
-<div class="blk  blk--hero  blk--hero--alt  ddh  ddh--foot">
+<div class="blk  blk--hero  blk--hero--alt  blk--arr  ddh  ddh--foot">
 	<div class="cw--c  ddh--foot__cw">
 		<div class="gw">
 			<div class="g twothird">
