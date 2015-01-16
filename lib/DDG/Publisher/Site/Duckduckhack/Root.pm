@@ -164,11 +164,17 @@ sub pages {
 			user => 'mwmiller',
 			link => 'https://duckduckgo.com/?q=reese%27s+cookie+recipes&ia=recipes',
 		},{
-			text => "Getting what you search for in few or zero clicks makes a great search experience. That's %sDuckDuckHack%s.",
+			text => "Getting what you search for in few or zero clicks makes a great search experience.",
 			img => 'regex',
 			tab => 'Regex',
 			user => 'mintsoft',
 			link => 'https://duckduckgo.com/?q=regex+cheat+sheet&ia=answer',
+		},{
+			text => "With the help of you and our community, every search can have an Instant Answer.",
+			img => 'soundcloud',
+			tab => 'Audio',
+			user => 'jdan',
+			link => 'https://duckduckgo.com/?q=songs+by+tycho&ia=audio',
 		},{
 			text => "Use the Web's best sources for a specific topic or build an Instant Answer from scratch!",
 			img => 'movies',

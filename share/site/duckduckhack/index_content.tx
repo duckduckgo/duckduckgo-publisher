@@ -82,7 +82,7 @@
 <div class="blk  blk--hero  blk--hero--alt  blk--arr  ddh  ddh--foot">
 	<div class="cw--c  ddh--foot__cw">
 		<div class="gw">
-			<div class="g twothird">
+			<div class="g threequarter">
 				<h4 class="ddh--foot__title"><: l("Staff Pick Instant Answers") :></h2>
 				<div class="half">
 					<h5 class="ddh--foot__sub"><: l("Useful") :></h5>
@@ -97,8 +97,8 @@
 					<: } :>
 				</div>
 			</div>
-			<div class="g third">
-				<h4 class="ddh--foot__title"><: l("Top Contributors Active Now") :></h2>
+			<div class="g quarter">
+				<h4 class="ddh--foot__title"><: l("Top Active Contributors") :></h2>
 				<h5 class="ddh--foot__sub"><: l("Thank you to") :></h5>
 				<: for $foot_users -> $item { :>
 					<: include "ddh-feature.tx" {item=>$item} :>

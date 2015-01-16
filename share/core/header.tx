@@ -22,7 +22,7 @@
 		<: if !$no_hero_header_icon { :><i class="header--hero__loupe"></i><: } :>
 		<: if $hero_header_text { :><span class="header--hero__text"><: l('Try a search!') :></span><: } :>
 		<: if $hero_header_link { :>
-			<a href="<: $hero_header_link :>" class="header--hero__link" target="_ddg_header_link"><: l($hero_header_link_text) :></a>
+			<a href="<: $hero_header_link :>" class="header--hero__btn  btn  btn--wire  btn--wire--hero" target="_ddg_header_link"><: l($hero_header_link_text) :></a>
 		<: } :>
 	</div>
 </div>
