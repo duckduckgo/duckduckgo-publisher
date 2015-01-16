@@ -56,7 +56,7 @@
 					<p class="ddh-cta__sub"><: l("Share ideas and feedback") :></p>
 					
 					<p class="ddh-cta__text"><: l("Suggest new Instant Answers and which sources should power them. Ensure that every Instant Answer is as great as it can be.") :></p>
-					<a href="https://duck.co/forum/general" class="ddh-cta__btn  btn  btn--critical"><: l("Discuss") :></a>
+					<a href="https://duck.co/ideas" class="ddh-cta__btn  btn  btn--critical"><: l("Discuss") :></a>
 				</div>
 			</div>
 		</div>
