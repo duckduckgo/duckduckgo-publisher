@@ -158,7 +158,7 @@ sub pages {
 		asset_path => 'ddg',
 		js_page_type => 'DDH',
 		hero_slides => [{
-			text => "Welcome to %sDuckDuckHack%s, an open source community changing the future of search with Instant Answers.",
+			text => "Welcome to %sDuckDuckHack%s, an open source community changing the future of search.",
 			img => 'recipes',
 			tab => 'Recipes',
 			user => 'mwmiller',

@@ -38,7 +38,7 @@
 						<img src="images/develop.png" class="ddh-cta__icon" />
 					</noscript>
 					<img src="" data-src="images/develop" class="ddh-cta__icon  js-lazysvg  no-js__hide" />
-					<h4 class="ddh-cta__title"><: l("I can code") :></h4>
+					<h4 class="ddh-cta__title"><: l("I Want to Create") :></h4>
 					<p class="ddh-cta__sub"><: l("Create an Instant Answer") :></p>
 					
 					<p class="ddh-cta__text"><: l("Bring your Instant Answer idea to life! Harness great data sources to improve search results for the topics you care most about.") :></p>
@@ -52,8 +52,8 @@
 						<img src="images/discuss.png" class="ddh-cta__icon" />
 					</noscript>
 					<img src="" data-src="images/discuss" class="ddh-cta__icon  js-lazysvg  no-js__hide" />
-					<h4 class="ddh-cta__title"><: l("I can't code") :></h4>
-					<p class="ddh-cta__sub"><: l("Share Instant Answer ideas and feedback") :></p>
+					<h4 class="ddh-cta__title"><: l("I Want to Suggest") :></h4>
+					<p class="ddh-cta__sub"><: l("Share ideas and feedback") :></p>
 					
 					<p class="ddh-cta__text"><: l("Suggest new Instant Answers and which sources should power them. Ensure that every Instant Answer is as great as it can be.") :></p>
 					<a href="https://duck.co/forum/general" class="ddh-cta__btn  btn  btn--critical"><: l("Join a forum") :></a>
