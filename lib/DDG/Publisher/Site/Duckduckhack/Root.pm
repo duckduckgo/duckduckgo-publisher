@@ -191,7 +191,7 @@ sub pages {
 		},{
 			name => 'Timer',
 			desc => 'Set a timer for any occasion',
-			user => 'puskin94',
+			user => 'mattr555',
 			link => 'https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/Timer.pm',
 			example_link => 'https://duckduckgo.com/?q=timer+5+minutes&t=ffab&ia=timer',
 		}],
