@@ -159,10 +159,10 @@ sub pages {
 		js_page_type => 'DDH',
 		hero_slides => [{
 			text => "Welcome to %sDuckDuckHack%s, an open source community changing the future of search.",
-			img => 'recipes',
-			tab => 'Recipes',
-			user => 'mwmiller',
-			link => 'https://duckduckgo.com/?q=reese%27s+cookie+recipes&ia=recipes',
+			img => 'soundcloud',
+			tab => 'Audio',
+			user => 'jdan',
+			link => 'https://duckduckgo.com/?q=songs+by+tycho&ia=audio',
 		},{
 			text => "Getting what you search for in few or zero clicks makes a great search experience.",
 			img => 'regex',
@@ -171,10 +171,10 @@ sub pages {
 			link => 'https://duckduckgo.com/?q=regex+cheat+sheet&ia=answer',
 		},{
 			text => "With the help of you and our community, every search can have an Instant Answer.",
-			img => 'soundcloud',
-			tab => 'Audio',
-			user => 'jdan',
-			link => 'https://duckduckgo.com/?q=songs+by+tycho&ia=audio',
+			img => 'recipes',
+			tab => 'Recipes',
+			user => 'mwmiller',
+			link => 'https://duckduckgo.com/?q=reese%27s+cookie+recipes&ia=recipes',
 		},{
 			text => "Use the Web's best sources for a specific topic or build an Instant Answer from scratch!",
 			img => 'movies',
