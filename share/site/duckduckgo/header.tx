@@ -1,0 +1,30 @@
+<: if !$no_search_header { :>
+<div id="header_wrapper" class="header-wrap<: if $hero_header { :> header-wrap--with-hero <: } :> js-header-wrap">
+	<div id="header" class="header  cw">
+		<div class="header__search-wrap">
+			<a href="/" class="header__logo-wrap">
+				<span class="header__logo">DuckDuckGo</span>
+			</a>
+			<div class="header__content  header__search  search-wrap--header">
+				<form id="search_form" class="search  search--header  js-search-form" name="x" action="<: if $absolute_search_url { :>https://duckduckgo.com<: } :>/">
+					<input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" class="search__input  js-search-input" placeholder="<: l('Search DuckDuckGo'):>" />
+					<input id="search_button" class="search__button  js-search-button" type="submit" tabindex="2" value="S" />
+					<input id="search_form_input_clear" class="search__clear  empty  js-search-clear" type="button" tabindex="3" value="X" />
+					<div id="search_elements_hidden" class="search__hidden  js-search-hidden"></div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<: } if $hero_header { :>
+<div class="header-wrap--hero <: if $hero_alt { :>header-wrap--hero--alt<: } :> js-header-wrap">
+	<div class="header--hero  cw <: if !$no_search_header { :> js-show-header <: } :>">
+		<: if !$no_hero_header_icon { :><i class="header--hero__loupe"></i><: } :>
+		<: if $hero_header_text { :><span class="header--hero__text"><: l('Try a search!') :></span><: } :>
+		<: if $hero_header_link { :>
+			<a href="<: $hero_header_link :>" class="header--hero__link" target="_ddg_header_link"><: l($hero_header_link_text) :></a>
+		<: } :>
+	</div>
+</div>
+<: } :>
+<div class="nav-menu--slideout  js-side-menu"></div>
