@@ -10,12 +10,13 @@ sub path { '/' }
 
 sub pages {{
 	about => sub {
+		nav_footer => 1,
 		copyright_footer => 1,
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
-		alt_header => 1,
-		alt_header_text => 1,
+		hero_header => 1,
+		hero_header_text => 1,
 		js_page_type => 'About',
 		team_members => [{
 			name => 'Gabriel Weinberg',
@@ -307,8 +308,8 @@ sub pages {{
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
-		alt_header => 1,
-		alt_header_text => 1,
+		hero_header => 1,
+		hero_header_text => 1,
 		icons => ['plus','clear-field','home','chev-down','chev-up','chev-left','chev-right','more','move','user','star','close-menu','menu','grid','check-sign','eye','loupe','check','region','cry','uploaded','prev','next','close-grid','marker','arrow-left','arrow-right','arrow-up','arrow-down',],
 		colors => ['white','white-alt','silver','ash','grey','dim','jet','red-light','red','red-dark','green','blue-light','blue','blue-dark',],
 	},
@@ -317,16 +318,16 @@ sub pages {{
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
-		alt_header => 1,
-		alt_header_text => 1,
+		hero_header => 1,
+		hero_header_text => 1,
 		js_page_type => 'Spread',
 	},
 	tour => sub {
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
-		alt_header => 1,
-		alt_header_text => 1,
+		hero_header => 1,
+		hero_header_text => 1,
 		js_page_type => 'Tour',
 	},
 
@@ -343,8 +344,8 @@ sub pages {{
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
-		alt_header => 1,
-		alt_header_text => 1,
+		hero_header => 1,
+		hero_header_text => 1,
 	},
 	search_box => sub {},
 

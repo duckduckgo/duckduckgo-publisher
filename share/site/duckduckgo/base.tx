@@ -49,7 +49,9 @@
 			</div> <!-- content_internal //-->
 		 </div> <!-- content //-->
 		 <: } :>
-		<: if $copyright_footer { :> 
+		<: if $nav_footer { :> 
+			<: include "footer_nav.tx" :>
+		<: } if $copyright_footer { :> 
 			<: include "footer_copyright.tx" :>
 		<: } :>
 		<: include "footer.tx" :>

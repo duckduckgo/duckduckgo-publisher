@@ -1,6 +1,6 @@
 <: if !$raw_output { :>
 <head>	
-	<: include "inc/head.tx" :>	
+	<: include "inc/head_doc.tx" :>	
 	<title><: $title :><: if $category { :> / <: $category } :> / DuckDuckHack</title>
 </head>
 <body class="pg-duckduckhack  texture">
