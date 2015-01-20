@@ -176,7 +176,7 @@ DuckDuckGo is a search engine driven by community &ndash; you&rsquo;re on the te
 		</div>
 </div>
 <div class="abt  blk  blk--arr">
-	<div class="cw--c">
+	<div class="cw--c"><a class="newsletter-anchor" name="newsletter"></a>
 		<h2 class="abt__title">Our Newsletter</h2>
 		<p class="abt__sub">Stay up to date with all things DuckDuckGo.</p>
 		<form class="frm--newsletter  abt__newsletter" action="https://flash.duckduckgo.com/e.js" method="post" name="y">
