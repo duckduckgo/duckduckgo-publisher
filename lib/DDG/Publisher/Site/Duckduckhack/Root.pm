@@ -173,7 +173,7 @@ sub pages {
 			text => "With the help of you and our community, every search can have an Instant Answer.",
 			img => 'recipes',
 			tab => 'Recipes',
-			user => 'mwmiller',
+			user => 'bsstoner',
 			link => 'https://duckduckgo.com/?q=reese%27s+cookie+recipes&ia=recipes',
 		},{
 			text => "Use the Web's best sources for a specific topic or build an Instant Answer from scratch!",
@@ -185,7 +185,7 @@ sub pages {
 		foot_useful => [{
 			name => 'Recipes',
 			desc => 'Find recipes by ingredient',
-			user => 'mwmiller',
+			user => 'bsstoner',
 			link => 'https://github.com/duckduckgo/zeroclickinfo-spice/blob/master/lib/DDG/Spice/Recipes.pm',
 			example_link => 'https://duckduckgo.com/?q=carrot+ginger+soup+recipes&ia=recipes',
 		},{
