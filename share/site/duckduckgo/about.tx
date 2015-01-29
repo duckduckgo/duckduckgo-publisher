@@ -176,7 +176,7 @@ DuckDuckGo is a search engine driven by community &ndash; you&rsquo;re on the te
 		</div>
 </div>
 <div class="abt  blk  blk--arr">
-	<div class="cw--c">
+	<div class="cw--c"><a class="anchor" name="newsletter"></a>
 		<h2 class="abt__title">Our Newsletter</h2>
 		<p class="abt__sub">Stay up to date with all things DuckDuckGo.</p>
 		<form class="frm--newsletter  abt__newsletter" action="https://flash.duckduckgo.com/e.js" method="post" name="y">
@@ -214,38 +214,5 @@ DuckDuckGo is a search engine driven by community &ndash; you&rsquo;re on the te
 				</label>
 			</div>
 		</form>
-	</div>
-</div>
-<div class="abt  abt--foot  blk  blk--foot  blk--arr">
-	<div class="cw--c">
-		<div class="abt--foot__nav-col  third  thirty--screen-s">
-			<h5 class="abt--foot__nav-head">Community</h5>
-			<ul>
-				<li><a href="https://duck.co/">Duck.co</a></li>
-				<li><a href="http://duckduckhack.com/">DuckDuckHack</a></li>
-				<li><a href="https://duck.co/translate">Translate</a></li>
-				<li><a href="https://duck.co/forum">Discuss</a></li>
-				<li><a href="https://duckduckgo.com/spread">Spread</a></li>
-			</ul>
-		</div>
-		<div class="abt--foot__nav-col  third  thirty--screen-s">
-			<h5 class="abt--foot__nav-head">Follow</h5>
-			<ul>
-				<li><a href="https://duck.co/blog">Blog</a></li>
-				<li><a href="https://twitter.com/duckduckgo">Twitter</a><li>
-				<li><a href="https://twitter.com/duckduckgo/team/members">Contributors</a></li>
-				<li><a href="http://www.reddit.com/r/duckduckgo">Reddit</a></li>
-				<li><a href="https://github.com/duckduckgo">GitHub</a></li>
-			</ul>
-		</div>
-		<div class="abt--foot__nav-col  third  thirty--screen-s">
-			<h5 class="abt--foot__nav-head">More</h5>
-			<ul>
-				<li><a href="https://duck.co/help/">Help</a></li>
-				<li><a href="/privacy">Privacy</a></li>
-				<li><a href="https://duck.co/help/company/press">Press</a></li>
-				<li><a href="https://duck.co/help/company/hiring">Jobs</a></li>
-				<li><a href="/traffic">Traffic</a></li>
-		</div>
 	</div>
 </div>
