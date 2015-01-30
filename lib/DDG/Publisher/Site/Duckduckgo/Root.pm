@@ -118,7 +118,7 @@ sub pages {{
 			name => 'We’re hiring',
 			msg => 'Come work with us!',
 			icon => 'person-alt',
-			link => 'https://duck.co/help/hiring',
+			link => 'https://duck.co/help/company/hiring',
 		}],
 		
 		ddg_events => [{
