@@ -103,17 +103,17 @@ sub pages {{
 			image => 'thom',
 			link => 'http://thomweerd.com/',
 		},{
+			name => 'Zaahir Moolla',
+			title => 'Platform',
+			info => 'Tool Connoisseur',
+			image => 'zaahir',
+			link => 'https://zaahir.ca',
+		},{
 			name => 'Tommy Leung',
 			title => 'Search',
 			info => 'Amateur Chef',
 			image => 'tommy',
 			link => 'http://www.tommyleung.com',
-		},{
-			name => 'Zaahir Moolla',
-			title => 'Platform',
-			info => 'Tool Connoiseur',
-			image => 'zaahir',
-			link => 'https://zaahir.ca',
 		},{
 			name => 'We’re hiring',
 			msg => 'Come work with us!',
