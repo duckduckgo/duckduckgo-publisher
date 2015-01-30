@@ -1,6 +1,6 @@
 <div class="blk  blk--tour  blk--hero">
 	<div class="cw--c  tour-hero"><a class="anchor tour-anchor js-anchor" name="top"></a>
-		<h1 class="tour-hero__title  hd-hr"><: l("Welcome to DuckDuckGo!") :><br/><: l("Smarter Search, Less Clutter and Real Privacy.") :></h1>
+		<h1 class="tour-hero__title  hd-hr"><: l("Welcome to %sDuckDuckGo%s!","<b>","</b>") :><br/><: l("Smarter Search, Less Clutter and Real Privacy.") :></h1>
 		<a href="#results" class="tour-hero__btn  btn  btn--wire--hero  js-anchor-link">Take a Tour</a>
 	</div>
 	<img class="tour-img--hero" src="/assets/tour/tycho_hero.jpg" alt="search results and instant answer for 'Tycho'" />

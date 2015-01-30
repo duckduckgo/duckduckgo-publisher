@@ -86,15 +86,23 @@ DuckDuckGo is a search engine driven by community &ndash; you&rsquo;re on the te
 				<: if $team.link {:><a href="<: $team.link :>"><:}:>
 				<span class="team__img-wrap">
 					<noscript>
-						<img class="team__img" src="/assets/about/team/<: $team.image :>.jpg" />
+						<img class="team__img" src="/assets/about<: if $team.image { :>/team/<: $team.image :>.jpg"<: } if $team.icon { :>/icons/<:$team.icon:>.png<: } :> />
 					</noscript>
+					<: if $team.image { :>
 					<img class="team__img  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/<: $team.image :>.jpg" />
+					<: } if $team.icon { :>
+					<img class="team__img  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/<: $team.icon :>" />
+					<: } :>
 				</span>
 				<: if $team.link {:></a><:}:>
 				<div class="team__details">
 					<span class="team__name"><: $team.name :></span>
+					<: if $team.msg { :>
+					<span class="team__msg"><: $team.msg :></span>
+					<: } else { :>
 					<span class="team__title"><: $team.title :></span>
 					<span class="team__info"><: $team.info :></span>
+					<: } :>
 				</div>
 			</li><:- } -:>
 		</ul>
