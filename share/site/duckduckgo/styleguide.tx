@@ -42,6 +42,7 @@
 				<span class="btn btn--alt">Alternate</span>
 				<span class="btn btn--wire">Wire</span>
 				<span class="btn btn--lite">Lite</span>
+				<span class="btn btn--inline">Inline</span>
 				<br/><br/>
 				<span class="btn btn--critical">Critical</span>
 				<span class="btn btn--primary">Primary</span>
@@ -53,6 +54,7 @@
 &lt;span class="btn btn--alt"&gt;Alternate&lt;/span&gt;
 &lt;span class="btn btn--wire"&gt;Wire&lt;/span&gt;
 &lt;span class="btn btn--lite"&gt;Lite&lt;/span&gt;
+&lt;span class="btn btn--inline"&gt;Inline&lt;/span&gt;
 &lt;span class="btn btn--critical"&gt;Critical&lt;/span&gt;
 &lt;span class="btn btn--primary"&gt;Primary&lt;/span&gt;
 &lt;span class="btn btn--primary--alt"&gt;Primary(Alt)&lt;/span&gt;
