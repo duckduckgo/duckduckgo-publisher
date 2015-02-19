@@ -24,6 +24,7 @@
 				<li><a href="#popovers">Popovers</a></li>
 				<li><a href="#responsive"><: l("Responsiveness") :></a></li>
 				<li><a href="#ia_structure"><: l("Instant Answer Structure") :></a></li>
+				<li><a href="#content_layouts"><: l("Content Layouts") :></a></li>
 			</ul>
 		</div>
 	</div>
@@ -556,25 +557,6 @@
 				</code>
 			</div> <!--// .tile //-->
 			
-			<h3 class="hd-md"><: l("Images") :></h3>
-			<p>When displaying an image along with the content, we recommend the following structure:</p>
-			<div class="tile--s  tile--a  tile--mid">
-				<div class="media">
-					<div class="zci__img-wrap">
-						<img class="zci__img" src="https://duckduckgo.com/i/d4b3d3a2.jpg" alt="duck image" />
-					</div>
-					<div class="zci__body">Text Goes Here</div>
-				</div>
-				<code>
-<pre>&lt;div class="zci__main"&gt;
-	&lt;div class="zci__img-wrap"&gt;
-		&lt;img class="zci__img"&gt;
-	&lt;/div&gt;
-	&lt;div class="zci__body"&gt;Text Goes Here&lt;/div&gt;
-&lt;/div&gt;</pre>
-				</code>
-			</div> <!--// .tile //-->
-			
 			<h3 class="hd-md"><: l("Headers & Content") :></h3>
 			<p>Striking the correct balance can be tricky.  We've done most of the hard stuff for you - just mix-and-match our built-in classes to display your content.</p>
 			<div class="tile--s  tile--a  tile--mid">
@@ -621,6 +603,65 @@
 				<code><pre>&lt;div class="zci__caption"&gt;234 + 254 = 488&lt;/div&gt;</pre></code>
 			</div> <!--// .tile //-->
 			
+		</div><!--// .blk__text //-->
+	</div><!--// .cw--c //-->
+</div><!--// .blk //-->
+<div class="blk  blk--alt  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg"><: l("Layouts") :><a name="content_layouts"></a></h2>
+			<hr class="hr"/>
+			<p>We've come up with a few great ways to display content that can be used in instant answers.</p>
+			<h3 class="hd-md"><: l("Text Layouts") :></h3>
+			<p>Used for Wikipedia among many others, this layout should be used when the real focus is that informative block of text.  It uses the base styles but has some extra wrapping to display images and responsive magic for mobile and small screens.</p>
+			<div class="tile--s  tile--mid">
+				<div class="guide-font-reset zci is-active">
+					<div class="c-text">
+						<div class="c-text__img-wrap  c-text__img-wrap--clip">
+							<span class="c-text__img-wrap__in"><img class="c-text__img" src="https://duckduckgo.com/i/d4b3d3a2.jpg" alt="duck image" /></span>
+						</div>
+						<div class="c-text__body">
+							<h4 class="c-text__title  has-sub">Text With Image <span class="c-text__title__sub">Subtitle</span></h4>
+							<div class="c-text__content chomp js-ellipsis">Auto-cropped image with a header and subtitle. - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</div>
+							<div class="c-text__links">
+								<span class="c-text__link  c-text__link--chomp  chomp--link  sep--after  js-chomp-link  can-expand"><i class="chomp--link__icn"></i> <span class="chomp--link__mr">Show More</span><span class="chomp--link__ls">Show Less</span></span><span class="c-text__link">More at DuckDuckGo</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="is-mobile">
+					<div class="guide-font-reset zci is-active">
+						<!--// Don't copy this inline padding - it's only here because we have a fake mobile layout. -->
+						<div class="c-text" style="padding-left:1em;padding-right:1em;">
+							<div class="c-text__img-wrap  c-text__img-wrap--clip">
+								<span class="c-text__img-wrap__in"><img class="c-text__img" src="https://duckduckgo.com/i/d4b3d3a2.jpg" alt="duck image" /></span>
+							</div>
+							<div class="c-text__body">
+								<h4 class="c-text__title  has-sub">Mobile <span class="c-text__title__sub">Subtitle</span></h4>
+								<div class="c-text__content chomp js-ellipsis">Mobile layout with image and subtitle- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</div>
+								<div class="c-text__links">
+									<span class="c-text__link  c-text__link--chomp  chomp--link  sep--after  js-chomp-link  can-expand"><i class="chomp--link__icn"></i> <span class="chomp--link__mr">Show More</span><span class="chomp--link__ls">Show Less</span></span><span class="c-text__link">More at DuckDuckGo</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="guide-font-reset zci is-active">
+					<div class="c-text">
+						<div class="c-text__img-wrap  c-text__img-wrap--logo">
+							<span class="c-text__img-wrap__in"><img class="c-text__img" src="/assets/icons/browsers/ddg.png" alt="ddg" /></span>
+						</div>
+						<div class="c-text__body">
+							<h4 class="c-text__title">Logo-style Image</h4>
+							<div class="c-text__content chomp js-ellipsis">No subtitle, displaying 4 lines of content now. - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</div>
+							<div class="c-text__links">
+								<span class="c-text__link  c-text__link--chomp  chomp--link  sep--after  js-chomp-link  can-expand"><i class="chomp--link__icn"></i> <span class="chomp--link__mr">Show More</span><span class="chomp--link__ls">Show Less</span></span><span class="c-text__link">More at DuckDuckGo</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <!--// .tile //-->
+					
 		</div><!--// .blk__text //-->
 	</div><!--// .cw--c //-->
 </div><!--// .blk //-->
