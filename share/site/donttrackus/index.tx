@@ -96,7 +96,7 @@
 	</div>
 </div>
 
-<h4><: l("Your browser's \"private\" mode %swon't help you.%s",'<a href="http://privatebrowsingmyths.com/" target="_privatebrowsingmyths">'.'</a>') :></h4>
+<h4><: l("Your browser's \"private\" mode %swon't help you.%s",'<a href="http://privatebrowsingmyths.com/" target="_privatebrowsingmyths">','</a>') :></h4>
 
 <div class="frame-wrap" id="fig13" name="fig13">
 	<div class="frame"><span class="fig"><: l('Fig. %d',13) :></span>
