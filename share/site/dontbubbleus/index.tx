@@ -13,18 +13,17 @@
 <div class="frame-wrap" id="fig2" name="fig2">
 	<div class="frame"><span class="fig"><: l('Fig. %d',2) :></span>
 		
-		<input type="text" class="search" readonly="readonly" value="climate change" />
+		<input type="text" class="search" readonly="readonly" value="bp" />
 		<hr/>
 		<div class="box">
-			<h5><: l('Informational Sites') :></h5>
-				<img src="images/bing-climate-change-info.jpg" alt="<: l('bing result showing information on climate change') :>" />
+			<h5><: l('News Sites') :></h5>
+				<img src="images/google-bp-news.jpg" alt="<: l('google result showing bp news sites') :>" />
 		</div>
 		<h3>vs.</h3>
 		<div class="box">
-			<h5><: l('Climate Action Sites') :></h5>
-				<img src="images/bing-climate-change-action.jpg" alt="<: l('bing result showing climate action sites') :>" />
+			<h5><: l('Investment Sites') :></h5>
+				<img src="images/google-bp-investment.jpg" alt="<: l('google result showing bp investment sites') :>" />
 		</div>		
-		<p class="clear">(<: l('%s a Bing search for "%s"',r('<a target="_blank" href="http://www.bing.com/search?q=climate%20change"><b>') ~ l('Try') ~ r('</b></a>'),'climate change') :>)</p>
 	</div>
 </div>
 
