@@ -9,28 +9,14 @@
 		</form>	
 		<h3 class="site-bottom__heading">More you might like to know&hellip;</h3>
 		<div class="gw">
-			<div class="g quarter palm-half">
+			<div class="g half palm-half">
 				<a href="http://dontbubble.us" class="frame micro-link">
 					<div class="micro-link__img"><img src="common/images/dontbubbleus.png" alt="escape your filter bubble by duckduckgo" /></div>
 					<h4 class="micro-link__heading">DontBubble.Us</h4>
 					<h5 class="micro-link__subtitle">Escape the Filter Bubble</h5>
 				</a>
 			</div>
-			<div class="g quarter palm-half">
-				<a href="http://fixtracking.com" class="frame micro-link">
-					<div class="micro-link__img"><img src="common/images/fixtracking.png" alt="dax the duck as the tracking sherrif" /></div>
-					<h4 class="micro-link__heading">Fixtracking.com</h4>
-					<h5 class="micro-link__subtitle">Fix your browser's tracking</h5>
-				</a>
-			</div>
-			<div class="g quarter palm-half">
-				<a href="http://whatisdnt.com" class="frame micro-link">
-					<div class="micro-link__img"><img src="common/images/dnt.png" alt="do not track button" /></div>
-					<h4 class="micro-link__heading">WhatisDNT.com</h4>
-					<h5 class="micro-link__subtitle">Info on Do Not Track</h5>
-				</a>
-			</div>
-			<div class="g quarter palm-half">
+			<div class="g half palm-half">
 				<a href="http://donttrack.us" class="frame micro-link">
 					<div class="micro-link__img"><img src="common/images/donttrackus.png" alt="dont track us barcode logo" /></div>
 					<h4 class="micro-link__heading">DontTrack.Us</h4>

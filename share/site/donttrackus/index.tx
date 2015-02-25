@@ -96,19 +96,11 @@
 	</div>
 </div>
 
-<h4><: l("Your browser's \"private\" mode %swon't help you.%s",'<a href="http://privatebrowsingmyths.com/" target="_privatebrowsingmyths">','</a>') :></h4>
+<h4><: l("Your browser's \"private\" mode %swon't help you.%s",'<a href="http://privatebrowsingmyths.com/" target="_privatebrowsingmyths">'.'</a>') :></h4>
 
 <div class="frame-wrap" id="fig13" name="fig13">
 	<div class="frame"><span class="fig"><: l('Fig. %d',13) :></span>
 		<a href="http://www.imglols.com/that-should-do-the-trick/" target="_imglols"><img src="images/fire-stupidity.jpg" alt="<: lp('alt','throwing a bucket of water on a towering inferno') :>" /></a>
-	</div>
-</div>
-
-<h4><: l('and neither will its misleading %s"Do Not Track" setting%s.','<a href="http://whatisdnt.com/" target="_whatisdnt">','</a>') :></h4>
-
-<div class="frame-wrap" id="fig14" name="fig14">
-	<div class="frame"><span class="fig"><: l('Fig. %d',14) :></span>
-		<a href="http://whatisdnt.com/" target="_whatisdnt"><img src="images/DNT-chrome.png" alt="<: lp('alt',"'Do Not Track' is voluntary and useless") :>" /></a>
 	</div>
 </div>
 

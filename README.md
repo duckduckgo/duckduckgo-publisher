@@ -8,8 +8,6 @@ You require the following libraries of https://duckpan.org/
  - DDGC::Locale::DuckduckgoDuckduckgo
  - DDGC::Locale::DuckduckgoDontbubbleus
  - DDGC::Locale::DuckduckgoDonttrackus
- - DDGC::Locale::DuckduckgoWhatisdnt
- - DDGC::Locale::DuckduckgoFixtracking
 
 You can install App::DuckPAN of CPAN for this and then do the following command:
 
@@ -19,8 +17,6 @@ duckpan \
 	DDGC::Locale::DuckduckgoDuckduckgo \
 	DDGC::Locale::DuckduckgoDontbubbleus \
 	DDGC::Locale::DuckduckgoDonttrackus \
-	DDGC::Locale::DuckduckgoWhatisdnt \
-	DDGC::Locale::DuckduckgoFixtracking
 ```
 
 # Publishing
