@@ -17,16 +17,12 @@
 		<hr/>
 		<div class="box">
 			<h5><: l('Informational Sites') :></h5>
-			<a target="_blank" href="">
 				<img src="images/bing-climate-change-info.jpg" alt="<: l('bing result showing information on climate change') :>" />
-			</a>
 		</div>
 		<h3>vs.</h3>
 		<div class="box">
 			<h5><: l('Climate Action Sites') :></h5>
-			<a target="_blank" href="">
 				<img src="images/bing-climate-change-action.jpg" alt="<: l('bing result showing climate action sites') :>" />
-			</a>
 		</div>		
 		<p class="clear">(<: l('%s a Bing search for "%s"',r('<a target="_blank" href="http://www.bing.com/search?q=climate%20change"><b>') ~ l('Try') ~ r('</b></a>'),'climate change') :>)</p>
 	</div>
@@ -57,9 +53,7 @@
 <h4><: l('Since you often click on things you agree with') :>&hellip;</h4>
 <div class="frame-wrap" id="fig6" name="fig6">
 	<div class="frame"><span class="fig"><: l('Fig. %d',6) :></span>
-		<a target="_blank" href="">
 			<img src="images/onion.gif" alt="<: l('article from the onion') :>" />
-		</a>
 	</div>
 </div>
 
@@ -81,12 +75,12 @@
 		<hr/>
 		<div class="box">
 			<h5><: l('%s gets %s','Ann','MSNBC') :></h5>
-			<a target="_blank" href=""><img src="images/google-barack-obama-ann.jpg" alt="<: l('google result showing an msnbc news article for barack obama') :>" /></a>
+			<img src="images/google-barack-obama-ann.jpg" alt="<: l('google result showing an msnbc news article for barack obama') :>" />
 		</div>
 		
 		<div class="box">
 			<h5><: l('%s gets %s','Elaine','Fox News') :></h5>
-			<a target="_blank" href=""><img src="images/google-barack-obama-elaine.jpg" alt="<: l('google result showing a fox news article for barack obama') :>" /></a>
+			<img src="images/google-barack-obama-elaine.jpg" alt="<: l('google result showing a fox news article for barack obama') :>" />
 		</div>
 		<p>(<: l('%s a Google search for "%s"',r('<a target="_blank" href="https://encrypted.google.com/search?hl=en&q=barack+obama"><b>') ~ l('Try') ~ r('</b></a>'),'barack obama') :>)</p>
 	</div>
@@ -135,12 +129,12 @@
 		<hr/>
 		<div class="box">
 			<h5><: l('%s gets %s','Scott',l('Egyptian Protests')) :></h5>
-			<a target="_blank" href=""><img src="images/google-egypt-results-scott.jpg" alt="<: l('google result showing egypt protest information') :>" /></a>
+			<img src="images/google-egypt-results-scott.jpg" alt="<: l('google result showing egypt protest information') :>" />
 		</div>
 		
 		<div class="box">
 			<h5><: l('%s gets %s','Daniel',l('Travel Information')) :></h5>
-			<a target="_blank" href=""><img src="images/google-egypt-results-daniel.jpg" alt="<: l('google result showing egypt travel information ') :>" /></a>
+			<img src="images/google-egypt-results-daniel.jpg" alt="<: l('google result showing egypt travel information ') :>" />
 		</div>
 		<p>(<: l('%s a Google search for "%s"',r('<a target="_blank" href="https://encrypted.google.com/search?hl=en&q=egypt"><b>') ~ l('Try') ~ r('</b></a>'),'egypt') :>)</p>
 	</div>
