@@ -1,12 +1,4 @@
 
-		<form action="https://flash.duckduckgo.com/e.js" method="post">
-			<div class="clu">
-				Get updates on net privacy (rarely): &nbsp;
-				<input type="email" size="33" class="email-input text" name="from" placeholder="Enter Email Address" />
-				<input type="submit" class="button dark" value="Submit">
-				<input type="hidden" name="add5" value="1">
-			</div>
-		</form>	
 		<h3 class="site-bottom__heading">More you might like to know&hellip;</h3>
 		<div class="gw">
 			<div class="g half palm-half">
