@@ -18,7 +18,6 @@
 	  </div>
 	  <div class="site-bottom">
 		<div class="content-wrap">
-		  <: include "share_links.tx" :>
 		  <: include "micro_bottom.tx" :>
 		</div>
 	  </div>

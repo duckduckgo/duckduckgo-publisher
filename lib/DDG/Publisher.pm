@@ -26,8 +26,6 @@ sub _build_site_classes {[qw(
 	Duckduckgo
 	Donttrackus
 	Dontbubbleus
-	Whatisdnt
-	Fixtracking
 	Duckduckhack
 )]}
 

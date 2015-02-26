@@ -1,7 +1,6 @@
 <: include "lang_select.tx" {s=>$s,f=>$f,locales=>$locales} :>
 
 <div class="site-header" id="header">
-        <a href="http://fixtracking.com/"><span class="topmsg">Fix Tracking!</span></a>
 	<div class="content-wrap">
 		<h1><: l("Escape your Search Engine's %s",r('<span class="huge">') ~ l('filter bubble') ~ r('</span>')) :></h1>
 		<h2><: l('An illustrated guide by %s',r('<span class="sans"><a href="https://duckduckgo.com/?kad=') ~ $f.locale ~ r('" title="%s">') ~ 'DuckDuckGo' ~ r('</a></span>')) :></h2>
