@@ -107,16 +107,16 @@
 <h3><: l("On the other hand...%sSearching on DuckDuckGo is completely anonymous.", '</h3>
 <h4>') :></h4>
 
-<div class="frame-wrap" id="fig15" name="fig15">
-	<div class="frame"><span class="fig"><: l('Fig. %d',15) :></span>
+<div class="frame-wrap" id="fig14" name="fig14">
+	<div class="frame"><span class="fig"><: l('Fig. %d',14) :></span>
 		<img src="common/images/ddg-home-logo.png" id="ddg-home-logo" alt="<: lp('alt','DuckDuckGo Search Engine') :>">
 	</div>
 </div>
 
 <h4><: l("We don't store any personal information at all. %s That's our privacy policy in a nutshell.",'<br/>') :></h4>
 
-<div class="frame-wrap" id="fig16" name="fig16">
-	<div class="frame"><span class="fig"><: l('Fig. %d',16) :></span>
+<div class="frame-wrap" id="fig15" name="fig15">
+	<div class="frame"><span class="fig"><: l('Fig. %d',15) :></span>
 		<a href="https://duckduckgo.com/privacy" target="_ddg-privacy"><img src="images/nutshell.png" alt="<: lp('alt','our privacy policy in a nutshell... get it?') :>" /></a>
 	</div>
 </div>
