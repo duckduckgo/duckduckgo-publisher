@@ -665,16 +665,25 @@
 			<p>Used to display a short snippet of text with a descriptive icon or badge.</p>
 			<div class="tile--s  tile--mid">
 				<div class="guide-font-reset zci is-active">
-					<div class="c-icon">
-						<div class="c-icon__img-wrap"><img class="c-icon__img" src="/assets/flags/64/ca.png" alt="canada" /></div>
+					<div class="c-icon  c-icon--head">
+						<div class="c-icon__img-wrap"><img class="c-icon__img" src="/assets/weather/png/80px/tornado.png" alt="tornado" /></div>
 						<div class="c-icon__body">
-							<h4 class="c-icon__title">Default Icon</h4>
+							<h4 class="c-icon__title  c-icon__title--lg">Non-Standard Icon Style</h4>
+							<p class="c-icon__sub">No pre-set size.</p>
+						</div>
+					</div>
+				</div>
+				<div class="guide-font-reset zci is-active">
+					<div class="c-icon  c-icon--head">
+						<div class="c-icon__img-wrap  c-icon__img-wrap--sm"><img class="c-icon__img" src="/assets/flags/64/ca.png" alt="canada" /></div>
+						<div class="c-icon__body">
+							<h4 class="c-icon__title">Small Icon</h4>
 							<p class="c-icon__sub">One line descriptive subtitle.</p>
 						</div>
 					</div>
 				</div>
 				<div class="guide-font-reset zci is-active">
-					<div class="c-icon">
+					<div class="c-icon  c-icon--head">
 						<div class="c-icon__img-wrap  c-icon__img-wrap--md"><img class="c-icon__img" src="/assets/flags/64/ca.png" alt="canada" /></div>
 						<div class="c-icon__body">
 							<h4 class="c-icon__title  c-icon__title--lg">Medium Icon, Large Title</h4>
@@ -684,14 +693,14 @@
 				</div>
 				<div class="guide-font-reset zci is-active">
 					<div class="c-icon">
-						<div class="c-icon__img-wrap  c-icon__img-wrap--lg"><img class="c-icon__img" src="/assets/flags/64/ca.png" alt="canada" /></div>
-						<div class="c-icon__body">
-							<h4 class="c-icon__title  c-icon__title--lg">'Large' Icon, Large Title</h4>
-							<p class="c-icon__sub">Descriptive subtitle. <span class="sep"></span> Second Subtitle Item</p>
-							<p class="c-icon__sub">Secondary subtitle.</p>
+						<div class="c-icon__head">
+							<div class="c-icon__img-wrap  c-icon__img-wrap--lg"><img class="c-icon__img" src="/assets/flags/64/ca.png" alt="canada" /></div>
+							<div class="c-icon__body">
+								<h4 class="c-icon__title  c-icon__title--lg">'Large' Icon, Large Title</h4>
+								<p class="c-icon__sub">Descriptive subtitle. <span class="sep"></span> Second Subtitle Item</p>
+								<p class="c-icon__sub">Secondary subtitle.</p>
+							</div>
 						</div>
-					</div>
-					<div class="c-icon  c-icon--body">
 						<div class="c-icon__content">Default content size is large, and so the text displayed here should be short.</div>
 						<div class="c-icon__links">
 							<span class="c-icon__link">More at DuckDuckGo</span>
@@ -699,38 +708,29 @@
 					</div>
 				</div>
 				<div class="guide-font-reset zci is-active">
-					<div class="c-icon">
-						<div class="c-icon__img-wrap  c-icon__img-wrap--ns"><img class="c-icon__img" src="/assets/weather/png/80px/tornado.png" alt="tornado" /></div>
+					<div class="c-icon  c-icon--head">
+						<span class="c-icon__badge  c-icon__badge--sm  bg-clr--red">Duck</span>
 						<div class="c-icon__body">
-							<h4 class="c-icon__title  c-icon__title--lg">Non-Standard Icon Style</h4>
-							<p class="c-icon__sub">No pre-set size.</p>
+							<h4 class="c-icon__title  c-icon__title">Small Text Badge</h4>
+							<p class="c-icon__sub">Fits 3-4 characters.</p>
 						</div>
 					</div>
 				</div>
 				<div class="guide-font-reset zci is-active">
-					<div class="c-icon">
-						<span class="c-icon__badge  bg-clr--red">Duck</span>
-						<div class="c-icon__body">
-							<h4 class="c-icon__title  c-icon__title">Text Badge</h4>
-							<p class="c-icon__sub">Default size is 'small'</p>
-						</div>
-					</div>
-				</div>
-				<div class="guide-font-reset zci is-active">
-					<div class="c-icon">
+					<div class="c-icon  c-icon--head">
 						<span class="c-icon__badge  c-icon__badge--md  bg-clr--blue">Go</span>
 						<div class="c-icon__body">
 							<h4 class="c-icon__title  c-icon__title">Medium Text Badge</h4>
-							<p class="c-icon__sub">Bounding size stays the same, text size changes.</p>
+							<p class="c-icon__sub">2 Chars.  Bounding size stays the same, text size changes.</p>
 						</div>
 					</div>
 				</div>
 				<div class="guide-font-reset zci is-active">
-					<div class="c-icon">
+					<div class="c-icon  c-icon--head">
 						<span class="c-icon__badge  c-icon__badge--lg  bg-clr--red-dark">2</span>
 						<div class="c-icon__body">
 							<h4 class="c-icon__title  c-icon__title">Large Text Badge</h4>
-							<p class="c-icon__sub">Bounding size stays the same, text size changes.</p>
+							<p class="c-icon__sub">1 Char.  Bounding size stays the same, text size changes.</p>
 						</div>
 					</div>
 				</div>
