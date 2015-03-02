@@ -1,5 +1,0 @@
-<: include "meta/title.tx" { title => l('DuckDuckGo Goodies') } :>
-
-<: include "meta/goodies-metaheader.tx" :>
-
-
