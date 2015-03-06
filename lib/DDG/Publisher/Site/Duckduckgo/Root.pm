@@ -115,6 +115,18 @@ sub pages {{
 			image => 'tommy',
 			link => 'http://www.tommyleung.com',
 		},{
+			name => 'Brian Buttrick',
+			title => 'Search',
+			info => '',
+			image => 'B2',
+			link => '',
+		},{
+			name => 'Zach Thompson',
+			title => 'Platform',
+			info => '',
+			image => 'zach',
+			link => '',
+		},{
 			name => 'We’re hiring',
 			msg => 'Come work with us!',
 			icon => 'person-alt',
