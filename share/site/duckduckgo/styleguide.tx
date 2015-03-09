@@ -648,11 +648,11 @@
 				</div>
 				<div class="guide-font-reset zci is-active">
 					<div class="c-text">
-						<div class="c-text__img-wrap  c-text__img-wrap--logo">
+						<div class="c-text__img-wrap  c-text__img-wrap--tile">
 							<span class="c-text__img-wrap__in"><img class="c-text__img" src="/assets/icons/browsers/ddg.png" alt="ddg" /></span>
 						</div>
 						<div class="c-text__body">
-							<h4 class="c-text__title">Logo-style Image</h4>
+							<h4 class="c-text__title">Framed Image</h4>
 							<div class="c-text__content chomp js-ellipsis">No subtitle, displaying 4 lines of content now. - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</div>
 							<div class="c-text__links">
 								<span class="c-text__link  c-text__link--chomp  chomp--link  sep--after  js-chomp-link  can-expand"><i class="chomp--link__icn"></i> <span class="chomp--link__mr">Show More</span><span class="chomp--link__ls">Show Less</span></span><span class="c-text__link">More at DuckDuckGo</span>
