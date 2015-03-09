@@ -123,9 +123,9 @@ sub pages {{
 		},{
 			name => 'Zach Thompson',
 			title => 'Platform',
-			info => '',
+			info => '42',
 			image => 'zach',
-			link => '',
+			link => 'http://apod.nasa.gov/apod/',
 		},{
 			name => 'We’re hiring',
 			msg => 'Come work with us!',
