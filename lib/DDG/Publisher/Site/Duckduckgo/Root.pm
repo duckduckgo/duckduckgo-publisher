@@ -115,6 +115,18 @@ sub pages {{
 			image => 'tommy',
 			link => 'http://www.tommyleung.com',
 		},{
+			name => 'Brian Buttrick',
+			title => 'Search',
+			info => 'For Science',
+			image => 'B2',
+			link => 'https://www.youtube.com/watch?v=NfG47NsWVYA',
+		},{
+			name => 'Zach Thompson',
+			title => 'Platform',
+			info => '42',
+			image => 'zach',
+			link => 'http://apod.nasa.gov/apod/',
+		},{
 			name => 'We’re hiring',
 			msg => 'Come work with us!',
 			icon => 'person-alt',
