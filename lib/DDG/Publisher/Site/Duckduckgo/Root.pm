@@ -117,9 +117,9 @@ sub pages {{
 		},{
 			name => 'Brian Buttrick',
 			title => 'Search',
-			info => '',
+			info => 'For Science',
 			image => 'B2',
-			link => '',
+			link => 'https://www.youtube.com/watch?v=NfG47NsWVYA',
 		},{
 			name => 'Zach Thompson',
 			title => 'Platform',
