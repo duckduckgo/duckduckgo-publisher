@@ -11,8 +11,8 @@
 						<img class="timeline__logo js-lazysvg no-js__hide" src="/assets/dax-alt.png" />
 					</noscript>
 					<img class="timeline__logo js-lazysvg no-js__hide" src="" data-src="/assets/dax-alt" />
-					<h1 class="timeline__title">Our vision is simple.</h1>
-					<p class="timeline__snippet">To give you great search results without tracking you.</p>
+					<h1 class="timeline__title">Take back your privacy!</h1>
+					<p class="timeline__snippet">Switch to the search engine that doesn't track you.</p>
 				</div>
 			</div><:- for $ddg_events -> $event { -:><div class="timeline__panel  js-timeline-item" data-date="<: $event.date :>">
 				<div class="timeline__cw">
