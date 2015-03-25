@@ -24,6 +24,7 @@
 				<li><a href="#popovers">Popovers</a></li>
 				<li><a href="#responsive"><: l("Responsiveness") :></a></li>
 				<li><a href="#ia_structure"><: l("Instant Answer Structure") :></a></li>
+				<li><a href="#content_layouts"><: l("Content Layouts") :></a></li>
 			</ul>
 		</div>
 	</div>
@@ -42,6 +43,7 @@
 				<span class="btn btn--alt">Alternate</span>
 				<span class="btn btn--wire">Wire</span>
 				<span class="btn btn--lite">Lite</span>
+				<span class="btn btn--inline">Inline</span>
 				<br/><br/>
 				<span class="btn btn--critical">Critical</span>
 				<span class="btn btn--primary">Primary</span>
@@ -53,6 +55,7 @@
 &lt;span class="btn btn--alt"&gt;Alternate&lt;/span&gt;
 &lt;span class="btn btn--wire"&gt;Wire&lt;/span&gt;
 &lt;span class="btn btn--lite"&gt;Lite&lt;/span&gt;
+&lt;span class="btn btn--inline"&gt;Inline&lt;/span&gt;
 &lt;span class="btn btn--critical"&gt;Critical&lt;/span&gt;
 &lt;span class="btn btn--primary"&gt;Primary&lt;/span&gt;
 &lt;span class="btn btn--primary--alt"&gt;Primary(Alt)&lt;/span&gt;
@@ -554,25 +557,6 @@
 				</code>
 			</div> <!--// .tile //-->
 			
-			<h3 class="hd-md"><: l("Images") :></h3>
-			<p>When displaying an image along with the content, we recommend the following structure:</p>
-			<div class="tile--s  tile--a  tile--mid">
-				<div class="media">
-					<div class="zci__img-wrap">
-						<img class="zci__img" src="https://duckduckgo.com/i/d4b3d3a2.jpg" alt="duck image" />
-					</div>
-					<div class="zci__body">Text Goes Here</div>
-				</div>
-				<code>
-<pre>&lt;div class="zci__main"&gt;
-	&lt;div class="zci__img-wrap"&gt;
-		&lt;img class="zci__img"&gt;
-	&lt;/div&gt;
-	&lt;div class="zci__body"&gt;Text Goes Here&lt;/div&gt;
-&lt;/div&gt;</pre>
-				</code>
-			</div> <!--// .tile //-->
-			
 			<h3 class="hd-md"><: l("Headers & Content") :></h3>
 			<p>Striking the correct balance can be tricky.  We've done most of the hard stuff for you - just mix-and-match our built-in classes to display your content.</p>
 			<div class="tile--s  tile--a  tile--mid">
@@ -619,6 +603,171 @@
 				<code><pre>&lt;div class="zci__caption"&gt;234 + 254 = 488&lt;/div&gt;</pre></code>
 			</div> <!--// .tile //-->
 			
+		</div><!--// .blk__text //-->
+	</div><!--// .cw--c //-->
+</div><!--// .blk //-->
+<div class="blk  blk--alt  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg"><: l("Layouts") :><a name="content_layouts"></a></h2>
+			<hr class="hr"/>
+			<p>We've come up with a few great ways to display content that can be used in instant answers.</p>
+			<h3 class="hd-md"><: l("Text Layouts") :></h3>
+			<p>Used for Wikipedia among many others, this layout should be used when the real focus is that informative block of text.  It uses the base styles but has some extra wrapping to display images and responsive magic for mobile and small screens.</p>
+			<div class="tile--s  tile--mid">
+				<div class="guide-font-reset zci is-active">
+					<div class="c-text">
+						<div class="c-text__img-wrap  c-text__img-wrap--clip">
+							<span class="c-text__img-wrap__in"><img class="c-text__img" src="https://duckduckgo.com/i/d4b3d3a2.jpg" alt="duck image" /></span>
+						</div>
+						<div class="c-text__body">
+							<h4 class="c-text__title  has-sub">Text With Image <span class="c-text__title__sub">Subtitle</span></h4>
+							<div class="c-text__content chomp js-ellipsis">Auto-cropped image with a header and subtitle. - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</div>
+							<div class="c-text__links">
+								<span class="c-text__link  c-text__link--chomp  chomp--link  sep--after  js-chomp-link  can-expand"><i class="chomp--link__icn"></i> <span class="chomp--link__mr">Show More</span><span class="chomp--link__ls">Show Less</span></span><span class="c-text__link">More at DuckDuckGo</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="is-mobile">
+					<div class="guide-font-reset zci is-active">
+						<!--// Don't copy this inline padding - it's only here because we have a fake mobile layout. -->
+						<div class="c-text" style="padding-left:1em;padding-right:1em;">
+							<div class="c-text__img-wrap  c-text__img-wrap--clip">
+								<span class="c-text__img-wrap__in"><img class="c-text__img" src="https://duckduckgo.com/i/d4b3d3a2.jpg" alt="duck image" /></span>
+							</div>
+							<div class="c-text__body">
+								<h4 class="c-text__title  has-sub">Mobile <span class="c-text__title__sub">Subtitle</span></h4>
+								<div class="c-text__content chomp js-ellipsis">Mobile layout with image and subtitle- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</div>
+								<div class="c-text__links">
+									<span class="c-text__link  c-text__link--chomp  chomp--link  sep--after  js-chomp-link  can-expand"><i class="chomp--link__icn"></i> <span class="chomp--link__mr">Show More</span><span class="chomp--link__ls">Show Less</span></span><span class="c-text__link">More at DuckDuckGo</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="guide-font-reset zci is-active">
+					<div class="c-text">
+						<div class="c-text__img-wrap  c-text__img-wrap--tile">
+							<span class="c-text__img-wrap__in"><img class="c-text__img" src="/assets/icons/browsers/ddg.png" alt="ddg" /></span>
+						</div>
+						<div class="c-text__body">
+							<h4 class="c-text__title">Framed Image</h4>
+							<div class="c-text__content chomp js-ellipsis">No subtitle, displaying 4 lines of content now. - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</div>
+							<div class="c-text__links">
+								<span class="c-text__link  c-text__link--chomp  chomp--link  sep--after  js-chomp-link  can-expand"><i class="chomp--link__icn"></i> <span class="chomp--link__mr">Show More</span><span class="chomp--link__ls">Show Less</span></span><span class="c-text__link">More at DuckDuckGo</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <!--// .tile //-->
+			<h3 class="hd-md"><: l("Icon Layouts") :></h3>
+			<p>Used to display a short snippet of text with a descriptive icon or badge.</p>
+			<div class="tile--s  tile--mid">
+				<div class="guide-font-reset zci is-active">
+					<div class="c-icon  c-icon--head">
+						<div class="c-icon__img-wrap"><img class="c-icon__img" src="/assets/weather/png/80px/tornado.png" alt="tornado" /></div>
+						<div class="c-icon__body">
+							<h4 class="c-icon__title  c-icon__title--lg">Non-Standard Icon Style</h4>
+							<p class="c-icon__sub">No pre-set size.</p>
+						</div>
+					</div>
+				</div>
+				<div class="guide-font-reset zci is-active">
+					<div class="c-icon  c-icon--head">
+						<div class="c-icon__img-wrap  c-icon__img-wrap--sm"><img class="c-icon__img" src="/assets/flags/64/ca.png" alt="canada" /></div>
+						<div class="c-icon__body">
+							<h4 class="c-icon__title">Small Icon</h4>
+							<p class="c-icon__sub">One line descriptive subtitle.</p>
+						</div>
+					</div>
+				</div>
+				<div class="guide-font-reset zci is-active">
+					<div class="c-icon  c-icon--head">
+						<div class="c-icon__img-wrap  c-icon__img-wrap--md"><img class="c-icon__img" src="/assets/flags/64/ca.png" alt="canada" /></div>
+						<div class="c-icon__body">
+							<h4 class="c-icon__title  c-icon__title--lg">Medium Icon, Large Title</h4>
+							<p class="c-icon__sub">One line descriptive subtitle.</p>
+						</div>
+					</div>
+				</div>
+				<div class="guide-font-reset zci is-active">
+					<div class="c-icon">
+						<div class="c-icon__head">
+							<div class="c-icon__img-wrap  c-icon__img-wrap--lg"><img class="c-icon__img" src="/assets/flags/64/ca.png" alt="canada" /></div>
+							<div class="c-icon__body">
+								<h4 class="c-icon__title  c-icon__title--lg">'Large' Icon, Large Title</h4>
+								<p class="c-icon__sub">Descriptive subtitle. <span class="sep"></span> Second Subtitle Item</p>
+								<p class="c-icon__sub">Secondary subtitle.</p>
+							</div>
+						</div>
+						<div class="c-icon__content">Default content size is large, and so the text displayed here should be short.</div>
+						<div class="c-icon__links">
+							<span class="c-icon__link">More at DuckDuckGo</span>
+						</div>
+					</div>
+				</div>
+				<div class="guide-font-reset zci is-active">
+					<div class="c-icon  c-icon--head">
+						<span class="c-icon__badge  c-icon__badge--sm  bg-clr--red">Duck</span>
+						<div class="c-icon__body">
+							<h4 class="c-icon__title  c-icon__title">Small Text Badge</h4>
+							<p class="c-icon__sub">Fits 3-4 characters.</p>
+						</div>
+					</div>
+				</div>
+				<div class="guide-font-reset zci is-active">
+					<div class="c-icon  c-icon--head">
+						<span class="c-icon__badge  c-icon__badge--md  bg-clr--blue">Go</span>
+						<div class="c-icon__body">
+							<h4 class="c-icon__title  c-icon__title">Medium Text Badge</h4>
+							<p class="c-icon__sub">2 Chars.  Bounding size stays the same, text size changes.</p>
+						</div>
+					</div>
+				</div>
+				<div class="guide-font-reset zci is-active">
+					<div class="c-icon  c-icon--head">
+						<span class="c-icon__badge  c-icon__badge--lg  bg-clr--red-dark">2</span>
+						<div class="c-icon__body">
+							<h4 class="c-icon__title  c-icon__title">Large Text Badge</h4>
+							<p class="c-icon__sub">1 Char.  Bounding size stays the same, text size changes.</p>
+						</div>
+					</div>
+				</div>
+			</div> <!--// .tile //-->
+			<h3 class="hd-md"><: l("List Layouts") :></h3>
+			<p>For display of simple lists, or tabular data via the record template.</p>
+			<div class="tile--s  tile--mid">
+				<div class="guide-font-reset zci is-active">
+					<div class="c-list">
+						<h4 class="c-list__title">List Data</h4>
+						<div class="c-list__content  chomp">
+							<ul class="c-list__items">
+								<li class="c-list__item">List items accept custom templates</li>
+								<li class="c-list__item">So that you can format your data as neccessary.</li>
+								<li class="c-list__item">
+									<div class="gw">
+										<div class="g half">Sometimes that means...</div>
+										<div class="g half">You might need to split it up.</div>
+									</div>
+								</li>
+								<li class="c-list__item">
+									<div class="gw">
+										<div class="g thirty">You can use</div>
+										<div class="g thirty">custom</div>
+										<div class="g thirty">grid layouts!</div>
+									</div>
+								</li>
+								<li class="c-list__item">The list layout is flexible, but limits to a maximum height.</li>
+								<li class="c-list__item">Users will have an option to 'show more' if necessary.</li>
+							</ul>
+						</div>
+						<div class="c-list__links">
+							<span class="c-list__link  chomp--link  sep--after  js-chomp-link  can-expand"><i class="chomp--link__icn"></i> <span class="chomp--link__mr">Show More</span><span class="chomp--link__ls">Show Less</span></span><span class="c-list__link">More at DuckDuckGo</span>
+						</div>
+					</div>
+				</div>
+			</div> <!--// .tile //-->
 		</div><!--// .blk__text //-->
 	</div><!--// .cw--c //-->
 </div><!--// .blk //-->
