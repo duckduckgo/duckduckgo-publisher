@@ -21,7 +21,6 @@
 				<li><a href="#txt-n-color"><: l("Text & Colors") :></a></li>
 				<li><a href="#forms"><: l("Forms") :></a></li>
 				<li><a href="#grids"><: l("Grids") :></a></li>
-				<li><a href="#popovers">Popovers</a></li>
 				<li><a href="#responsive"><: l("Responsiveness") :></a></li>
 				<li><a href="#ia_structure"><: l("Instant Answer Structure") :></a></li>
 				<li><a href="#content_layouts"><: l("Content Layouts") :></a></li>
@@ -42,7 +41,6 @@
 				<span class="btn">Default</span>
 				<span class="btn btn--alt">Alternate</span>
 				<span class="btn btn--wire">Wire</span>
-				<span class="btn btn--lite">Lite</span>
 				<span class="btn btn--inline">Inline</span>
 				<br/><br/>
 				<span class="btn btn--critical">Critical</span>
@@ -54,7 +52,6 @@
 &lt;span class="btn"&gt;Default&lt;/span&gt;
 &lt;span class="btn btn--alt"&gt;Alternate&lt;/span&gt;
 &lt;span class="btn btn--wire"&gt;Wire&lt;/span&gt;
-&lt;span class="btn btn--lite"&gt;Lite&lt;/span&gt;
 &lt;span class="btn btn--inline"&gt;Inline&lt;/span&gt;
 &lt;span class="btn btn--critical"&gt;Critical&lt;/span&gt;
 &lt;span class="btn btn--primary"&gt;Primary&lt;/span&gt;
@@ -371,61 +368,6 @@
 &lt;div class="gw"&gt;
 	&lt;div class="g  half"&gt;&lt;span class="guide-grid"&gt;.g.half&lt;/span&gt;&lt;/div&gt;
 	&lt;div class="g  half"&gt;&lt;span class="guide-grid"&gt;.g.half&lt;/span&gt;&lt;/div&gt;
-&lt;/div&gt;</pre>
-				</code>
-			</div><!--// .tile //-->
-		</div><!--// .blk__text //-->
-	</div><!--// .cw--c //-->
-</div><!--// .blk //-->
-<div class="blk  blk--content">
-	<div class="cw--c">
-		<div class="blk__text">
-			<h2 class="hd-lg">Popovers<a name="popovers"></a></h2>
-			<hr class="hr"/>
-			<p>Popovers are a way of isolating controls or content.  They should be used with caution and careful consideration.  They work by default without any javascript interaction, allowing for rapid prototyping.  It's generally preferred to override the css <tt>:target</tt> behaviour for consistency, though.</p>
-			<div class="tile--s  tile--a  tile--mid">
-				<a class="btn btn--alt" href="#guide-popover-one">Launch Popover One</a>
-				<a class="btn btn--alt" href="#guide-popover-two">Launch Popover Two</a>
-				<div class="popover" id="guide-popover-one">
-					<a href="#_" class="popover__esc  js-popover-close"></a>
-					<div class="popover__wrap">
-						<div class="popover__box">
-							<h1 class="guide-popover__title">Hi I'm a Popover!</h1>
-							<p>I have a pretty white background.</p>
-						</div>
-					</div>
-				</div>
-				<div class="popover  popover--dk" id="guide-popover-two">
-					<a href="#_" class="popover__esc  js-popover-close"></a>
-					<div class="popover__wrap">
-						<div class="popover__box">
-							<h1 class="guide-popover__title">Hi I'm also a Popover!</h1>
-							<p>I have a darker background.</p>
-						</div>
-					</div>
-				</div>
-				<code>
-<pre>&lt;a class="btn btn--alt" href="#guide-popover-one"&gt;Launch Popover One&lt;/a&gt;
-&lt;a class="btn btn--alt" href="#guide-popover-two"&gt;Launch Popover Two&lt;/a&gt;
-
-&lt;div class="popover" id="guide-popover-one"&gt;
-	&lt;a href="#_" class="popover__esc  js-popover-close"&gt;&lt;/a&gt;
-	&lt;div class="popover__wrap"&gt;
-		&lt;div class="popover__box"&gt;
-			&lt;h1 class="guide-popover__title"&gt;Hi I'm a Popover!&lt;/h1&gt;
-			&lt;p&gt;I have a pretty white background.&lt;/p&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="popover  popover--dk" id="guide-popover-two"&gt;
-	&lt;a href="#_" class="popover__esc  js-popover-close"&gt;&lt;/a&gt;
-	&lt;div class="popover__wrap"&gt;
-		&lt;div class="popover__box"&gt;
-			&lt;h1 class="guide-popover__title"&gt;Hi I'm also a Popover!&lt;/h1&gt;
-			&lt;p&gt;I have a darker background.&lt;/p&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
 &lt;/div&gt;</pre>
 				</code>
 			</div><!--// .tile //-->
