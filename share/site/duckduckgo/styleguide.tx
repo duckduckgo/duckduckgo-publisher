@@ -21,7 +21,6 @@
 				<li><a href="#txt-n-color"><: l("Text & Colors") :></a></li>
 				<li><a href="#forms"><: l("Forms") :></a></li>
 				<li><a href="#grids"><: l("Grids") :></a></li>
-				<li><a href="#popovers">Popovers</a></li>
 				<li><a href="#responsive"><: l("Responsiveness") :></a></li>
 				<li><a href="#ia_structure"><: l("Instant Answer Structure") :></a></li>
 				<li><a href="#content_layouts"><: l("Content Layouts") :></a></li>
@@ -42,7 +41,6 @@
 				<span class="btn">Default</span>
 				<span class="btn btn--alt">Alternate</span>
 				<span class="btn btn--wire">Wire</span>
-				<span class="btn btn--lite">Lite</span>
 				<span class="btn btn--inline">Inline</span>
 				<br/><br/>
 				<span class="btn btn--critical">Critical</span>
@@ -54,7 +52,6 @@
 &lt;span class="btn"&gt;Default&lt;/span&gt;
 &lt;span class="btn btn--alt"&gt;Alternate&lt;/span&gt;
 &lt;span class="btn btn--wire"&gt;Wire&lt;/span&gt;
-&lt;span class="btn btn--lite"&gt;Lite&lt;/span&gt;
 &lt;span class="btn btn--inline"&gt;Inline&lt;/span&gt;
 &lt;span class="btn btn--critical"&gt;Critical&lt;/span&gt;
 &lt;span class="btn btn--primary"&gt;Primary&lt;/span&gt;
@@ -189,6 +186,39 @@
 				</code>
 			</div><!--// .tile //-->
 			
+			<p>In addition to the above scales, we've also implimented a 'precision' scale that should give you the appropriate scalable units according to a 'pixel' scale.  (Actually implimented using <tt>rem</tt> units though, to maintain accessibility and functionality with our text size settings.)  Simply use a prefix of <tt>.tx--</tt> and then your desired pixel size.</p>
+			
+			<div class="tile--s  tile--mid  guide-text-spec">
+				<div class="fix">
+					<div class="half">
+						<div class="tx--25">25px</div>
+						<div class="tx--21">21px</div>
+						<div class="tx--19">19px</div>
+						<div class="tx--17">17px</div>
+					</div>
+					<div class="half">
+						<div class="tx--16">16px</div>
+						<div class="tx--15">15px</div>
+						<div class="tx--14">14px</div>
+						<div class="tx--13">13px</div>
+						<div class="tx--12">12px</div>
+						<div class="tx--11">11px</div>
+					</div>
+				</div>
+				<code>
+<pre>&lt;div class="tx--25"&gt;25px&lt;/div&gt;
+&lt;div class="tx--21"&gt;21px&lt;/div&gt;
+&lt;div class="tx--19"&gt;19px&lt;/div&gt;
+&lt;div class="tx--17"&gt;17px&lt;/div&gt;
+&lt;div class="tx--16"&gt;16px&lt;/div&gt;
+&lt;div class="tx--15"&gt;15px&lt;/div&gt;
+&lt;div class="tx--14"&gt;14px&lt;/div&gt;
+&lt;div class="tx--13"&gt;13px&lt;/div&gt;
+&lt;div class="tx--12"&gt;12px&lt;/div&gt;
+&lt;div class="tx--11"&gt;11px&lt;/div&gt;</pre>
+				</code>
+			</div><!--// .tile //-->
+			
 			<h3 class="hd-md"><: l("Text Colors") :></h3>
 			<p>As a general rule (for the moment) we want to keep the results page largely monochrome.  That said, some variety in text shading is often necessary.  To save you time and keep our page looking good across all themes, please stick to these styling classes when adjusting text colors in your instant answers:</p>
 			<div class="tile--s  tile--mid">
@@ -217,10 +247,27 @@
 				</code>
 			</div><!--// .tile //-->
 			
-			<h3 class="hd-md"><: l("Other Colors") :></h3>
+			<h3 class="hd-md"><: l("Color Palette") :></h3>
 			<div class="guide-clr-wrap">
 				<: for $colors -> $color { :>
 					<div class="guide-clr  guide-clr--<:$color:>  circle" data-name="$<:$color:>"></div>
+				<: } :>
+			</div>
+			
+			<p>Occasionally you may need to use these colors directly as either a background or as text.  We have classes for those as well!</p>
+			<div class="tile--s  tile--mid">
+				<: for $colors -> $color { :>
+				<div class="gw">
+					<div class="g quarter  half--screen-s">
+						<span class="guide-box  tx-clr--silver-light  bg-clr--<:$color:>">.bg-clr--<:$color:></span>
+					</div><div class="g quarter  half--screen-s">
+						<span class="guide-box  tx-clr--<:$color:>  bg-clr--dk">.tx-clr--<:$color:></span>
+					</div><div class="g quarter  half--screen-s">
+						<span class="guide-box  tx-clr--dk  bg-clr--<:$color:>">.bg-clr--<:$color:></span>
+					</div><div class="g quarter  half--screen-s">
+						<span class="guide-box  tx-clr--<:$color:>  bg-btn">.tx-clr--<:$color:></span>
+					</div>
+				</div>
 				<: } :>
 			</div>
 		</div><!--// .blk__text //-->
@@ -371,61 +418,6 @@
 &lt;div class="gw"&gt;
 	&lt;div class="g  half"&gt;&lt;span class="guide-grid"&gt;.g.half&lt;/span&gt;&lt;/div&gt;
 	&lt;div class="g  half"&gt;&lt;span class="guide-grid"&gt;.g.half&lt;/span&gt;&lt;/div&gt;
-&lt;/div&gt;</pre>
-				</code>
-			</div><!--// .tile //-->
-		</div><!--// .blk__text //-->
-	</div><!--// .cw--c //-->
-</div><!--// .blk //-->
-<div class="blk  blk--content">
-	<div class="cw--c">
-		<div class="blk__text">
-			<h2 class="hd-lg">Popovers<a name="popovers"></a></h2>
-			<hr class="hr"/>
-			<p>Popovers are a way of isolating controls or content.  They should be used with caution and careful consideration.  They work by default without any javascript interaction, allowing for rapid prototyping.  It's generally preferred to override the css <tt>:target</tt> behaviour for consistency, though.</p>
-			<div class="tile--s  tile--a  tile--mid">
-				<a class="btn btn--alt" href="#guide-popover-one">Launch Popover One</a>
-				<a class="btn btn--alt" href="#guide-popover-two">Launch Popover Two</a>
-				<div class="popover" id="guide-popover-one">
-					<a href="#_" class="popover__esc  js-popover-close"></a>
-					<div class="popover__wrap">
-						<div class="popover__box">
-							<h1 class="guide-popover__title">Hi I'm a Popover!</h1>
-							<p>I have a pretty white background.</p>
-						</div>
-					</div>
-				</div>
-				<div class="popover  popover--dk" id="guide-popover-two">
-					<a href="#_" class="popover__esc  js-popover-close"></a>
-					<div class="popover__wrap">
-						<div class="popover__box">
-							<h1 class="guide-popover__title">Hi I'm also a Popover!</h1>
-							<p>I have a darker background.</p>
-						</div>
-					</div>
-				</div>
-				<code>
-<pre>&lt;a class="btn btn--alt" href="#guide-popover-one"&gt;Launch Popover One&lt;/a&gt;
-&lt;a class="btn btn--alt" href="#guide-popover-two"&gt;Launch Popover Two&lt;/a&gt;
-
-&lt;div class="popover" id="guide-popover-one"&gt;
-	&lt;a href="#_" class="popover__esc  js-popover-close"&gt;&lt;/a&gt;
-	&lt;div class="popover__wrap"&gt;
-		&lt;div class="popover__box"&gt;
-			&lt;h1 class="guide-popover__title"&gt;Hi I'm a Popover!&lt;/h1&gt;
-			&lt;p&gt;I have a pretty white background.&lt;/p&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="popover  popover--dk" id="guide-popover-two"&gt;
-	&lt;a href="#_" class="popover__esc  js-popover-close"&gt;&lt;/a&gt;
-	&lt;div class="popover__wrap"&gt;
-		&lt;div class="popover__box"&gt;
-			&lt;h1 class="guide-popover__title"&gt;Hi I'm also a Popover!&lt;/h1&gt;
-			&lt;p&gt;I have a darker background.&lt;/p&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
 &lt;/div&gt;</pre>
 				</code>
 			</div><!--// .tile //-->
