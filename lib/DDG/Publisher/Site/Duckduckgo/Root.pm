@@ -136,7 +136,7 @@ sub pages {{
 		ddg_events => [{
 			date => 'February 29, 2008',
 			title => 'We Hatched',
-			snippet => 'As is often the case with these things, DuckDuckGo hatched out of as a rack of servers in a dusty basement.',
+			snippet => 'DuckDuckGo began as a idea for a better search experience with more instant answers and less spam. We hatched out of a few servers in a dusty basement.',
 			type => 'company',
 			icon => 'idea',
 			year => '2008',
@@ -163,14 +163,14 @@ sub pages {{
 		},{
 			date => 'January 11, 2011',
 			title => 'The Billboard',
-			snippet => 'We put up a billboard in Google’s backyard that read: “Google tracks you. We don’t.”',
+			snippet => 'We told the world “Google tracks you. We don’t” with a billboard in their backyard.',
 			type => 'news',
 			icon => 'billboard',
 			year => '2011',
 		},{
 			date => 'February 26, 2011',
 			title => '2011 Donations',
-			snippet => 'DuckDuckGo relies on a lot of great free and open-source projects to keep our wings flapping. We decided to start giving back, donating to nginx, FreeBSD, Tor, Clamwin, Tahoe-LAFS and OpenSSH.',
+			snippet => 'We rely on a lot of great free and open-source projects to keep our wings flapping. So we decided to start giving back, donating to nginx, FreeBSD, Tor, Clamwin, Tahoe-LAFS and OpenSSH.',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
@@ -284,7 +284,7 @@ sub pages {{
 		},{
 			date => 'March 20, 2015',
 			title => '2015 Donations',
-			snippet => 'For our fifth year of free and open source donations, we gave $125,000 across five projects: SecureDrop, PrivacyBadger, GPGTools, Tails, and Girl Develop It.',
+			snippet => 'For our fifth year of free and open source donations, we divided $125,000 equally over five projects: SecureDrop, PrivacyBadger, GPGTools, Tails, and Girl Develop It.',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
