@@ -127,6 +127,12 @@ sub pages {{
 			image => 'zach',
 			link => 'http://apod.nasa.gov/apod/',
 		},{
+			name => 'Adam Cochran',
+			title => 'BizDev',
+			info => 'Nerd-in-Residence',
+			image => 'adam',
+			link => 'http://nerdflock.com/',
+		},{
 			name => 'We’re hiring',
 			msg => 'Come work with us!',
 			icon => 'person-alt',
