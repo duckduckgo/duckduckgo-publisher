@@ -144,7 +144,7 @@ sub pages {{
 			title => 'We Hatched',
 			snippet => 'DuckDuckGo began as a idea for a better search experience with more instant answers and less spam. We hatched out of a few servers in a dusty basement.',
 			type => 'company',
-			icon => 'idea',
+			icon => 'idea-b',
 			year => '2008',
 		},{
 			date => 'September 25, 2008',
@@ -191,6 +191,7 @@ sub pages {{
 			title => 'Headquarters',
 			snippet => 'We finally moved out of Gabriel’s basement into our fortress in Paoli, PA, USA. It really does look like a castle!',
 			type => 'company',
+			icon => 'company-b',
 		},{
 			date => 'January 16, 2012',
 			title => 'Redesign',
