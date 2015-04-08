@@ -1,9 +1,9 @@
 <div class="blk  blk--hero">
 	<div class="cw--c"><a class="anchor" name="top"></a>
 		<div class="spread-hero" title="<: l('Help Spread DuckDuckGo') :>"></div>
-		<div class="spread-hero--text">
-			<h1 class="hd-hr  spread-title--hero"><: l("Get your friends to switch %s and help DuckDuckGo grow!", '<br>') :></h1>
-			<h6 class="hd-hr  spread-subtitle"><: l("Join the millions of users who are spreading the word and inviting people they know to use DuckDuckGo.") :></h6>
+		<div class="spread-hero--text--wide">
+			<h1 class="hd-hr  spread-title--hero"><: l("You know and use DuckDuckGo.%s Most people don't. Let's fix that!", '<br>') :></h1>
+			<h6 class="hd-hr  spread-subtitle"><: l("Help your friends and family take back their privacy.") :></h6>
 		</div>
 	</div>
 </div>
