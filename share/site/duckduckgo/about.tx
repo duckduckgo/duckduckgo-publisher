@@ -36,10 +36,9 @@
 </div>
 <div class="abt  blk  blk--alt  blk--arr">
 	<div class="cw--c">
-		<h2 class="abt__title">About us</h2>
+		<h2 class="abt__title">About Us</h2>
 		<p class="abt__sub">
-DuckDuckGo is a search engine driven by community &ndash; you&rsquo;re on the team! 
-<br class="hide--screen-s">We&rsquo;re not just servers and an algorithm. We&rsquo;re so much more.
+Smarter search without the tracking.
 		</p>
 		<div class="abt__row">
 			<div class="abt__key  third  half--screen-m">
@@ -53,22 +52,22 @@ DuckDuckGo is a search engine driven by community &ndash; you&rsquo;re on the te
 				<a class="abt__key__link" href="/privacy">Our Policy</a>
 			</div><div class="abt__key  third  half--screen-m">
 				<noscript>
+					<img class="abt__key__icon" src="/assets/about/icons/community-alt.png" />
+				</noscript>
+				<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/community-alt">
+				<h3 class="abt__key__title">Community</h3>
+				<h6 class="abt__key__sub">Our Extended Team.</h6>
+				<p>Our search engine is more than just servers and an algorithm. Our community directly contributes to DuckDuckGo. Get involved in changing the future of search.</p>
+				<a class="abt__key__link  js-anchor-link" href="#getinvolved">Get Involved</a>
+			</div><div class="abt__key  third  half--screen-m">
+				<noscript>
 					<img class="abt__key__icon" src="/assets/about/icons/search-alt.png" />
 				</noscript>
 				<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/search-alt">
 				<h3 class="abt__key__title">Smarter Search</h3>
 				<h6 class="abt__key__sub">Get answers quicker.</h6>
-				<p>We help you get where you want to go in fewer clicks. We do that through instant answers, keyboard shortcuts and !bangs. You can even help improve your search engine!</p>
-				<a class="abt__key__link" href="http://duckduckhack.com">Get Involved</a>
-			</div><div class="abt__key  third  half--screen-m">
-				<noscript>
-					<img class="abt__key__icon" src="/assets/about/icons/design-alt.png" />
-				</noscript>
-				<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/design-alt">
-				<h3 class="abt__key__title">Less Clutter</h3>
-				<h6 class="abt__key__sub">Fewer ads and reduced spam.</h6>
-				<p>With search our only focus, we are dedicated to delivering you a clutter-free interface that you can fully customize to your liking or apply one of our preset themes.</p>
-				<a class="abt__key__link" href="/settings">Tweak Settings</a>
+				<p>We help you get where you want to go in fewer clicks. We do that through instant answers, themes and !bangs. We have everything you expect and more.</p>
+				<a class="abt__key__link" href="/tour">Take a Tour</a>
 			</div>
 		</div>
 	</div>
@@ -79,7 +78,7 @@ DuckDuckGo is a search engine driven by community &ndash; you&rsquo;re on the te
 		<p class="abt__sub">
 			Meet the DuckDuckGo core team and check out our full team <a href="https://twitter.com/duckduckgo/lists/team/members">on twitter</a>.
 			<br/>
-			Interested in working with us?  Check out our <a href="https://duck.co/help/company/hiring">hiring philosophy</a>.
+			Interested in working with us?  Check out our <a href="https://duck.co/help/company/hiring">hiring page</a>.
 		</p>
 		
 		<ul class="team"><:- for $team_members -> $team { -:><li class="team__m  js-team-toggle  twenty  quarter--screen-m  thirty--screen-s  fifty--screen-xs">
@@ -109,41 +108,42 @@ DuckDuckGo is a search engine driven by community &ndash; you&rsquo;re on the te
 	</div>
 </div>
 <div class="abt  blk  blk--hero  blk--arr">
+	<a name="getinvolved" class="anchor js-anchor"></a>
 	<div class="cw--c">
-		<h2 class="abt__title">Our Community</h2>
+		<h2 class="abt__title">Get Involved</h2>
 		<p class="abt__sub">Our community is our extended team.
 <br>Join the community and help improve DuckDuckGo.</p>
 		<div class="abt__row">
 			<div class="abt__key  third  half--screen-m">
-				<a href="https://duck.co">
+				<a href="http://duckduckhack.com">
 					<noscript>
 						<img class="abt__key__icon" src="/assets/about/icons/build.png" />
 					</noscript>
 					<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/build">
-					<h3 class="abt__key__title">Duck.co</h3>
+					<h3 class="abt__key__title">Hack</h3>
 				</a>
-				<p>Duck.co is the hub of the DuckDuckGo community, where you can create instant answers, submit and discuss ideas, or help translate pages into other languages.</p>
-				<a class="abt__key__link" href="https://duck.co">Improve DuckDuckGo</a>
-			</div><div class="abt__key  third  half--screen-m">
-				<a href="https://duck.co/forum">
-					<noscript>
-						<img class="abt__key__icon" src="/assets/about/icons/community.png" />
-					</noscript>
-					<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/community">
-					<h3 class="abt__key__title">Discuss</h3>
-				</a>
-				<p>Have feedback to share? Our forums are a place to chat about all things DuckDuckGo. Ask questions, share ideas, and engage other community members.</p>
-				<a class="abt__key__link" href="https://duck.co">Discuss DuckDuckGo</a>
+				<p>Help people find find what they're looking for in fewer clicks! Extend our search engine with better instant answers on your favorite topics.</p>
+				<a class="abt__key__link" href="http://duckduckhack.com">Hack DuckDuckGo</a>
 			</div><div class="abt__key  third  half--screen-m">
 				<a href="/spread">
 					<noscript>
 						<img class="abt__key__icon" src="/assets/about/icons/love.png" />
 					</noscript>
 					<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/love">
-					<h3 class="abt__key__title">Spread</h3>
+					<h3 class="abt__key__title">Share</h3>
 				</a>
-				<p>Everyone could use real privacy. Want to join us and other community members in spreading DuckDuckGo to new users? Get your friends and family to &ldquo;duck it&rdquo;.</p>
-				<a class="abt__key__link" href="/spread">Spread DuckDuckGo</a>
+				<p>Everyone could use real privacy, but not everyone knows how to get it. Join the other DuckDuckGo users who are getting their friends and family to make the switch.</p>
+				<a class="abt__key__link" href="/spread">Share DuckDuckGo</a>
+			</div><div class="abt__key  third  half--screen-m">
+				<a href="https://duck.co/translate">
+					<noscript>
+						<img class="abt__key__icon" src="/assets/about/icons/community.png" />
+					</noscript>
+					<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/community">
+					<h3 class="abt__key__title">Translate</h3>
+				</a>
+				<p>Our users are anonymous but we know they come from all corners of the world. Improve your search experience by translating DuckDuckGo into your preferred language.</p>
+				<a class="abt__key__link" href="https://duck.co/translate">Translate DuckDuckGo</a>
 			</div>
 		</div>
 	</div>
