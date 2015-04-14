@@ -305,14 +305,6 @@ sub pages {{
 		}],
 		
 		news_articles => [{
-			source => 'theguardian',
-			source_full => 'The Observer',
-			source_link => 'http://www.theguardian.com/technology/2014/apr/04/duckduckgo-gabriel-weinberg-secure-searches',
-			author_name => 'Alex Hern',
-			date => '4 April 2014',
-			headline => 'DuckDuckGo: the plucky upstart taking on Google with secure searches',
-			snippet => 'Gabriel Weinberg launched DuckDuckGo as a search engine that puts privacy first, rather than collecting data for advertisers and security agencies...',
-		},{
 			source => 'fastco',
 			source_full => 'FastCoLabs',
 			source_link => 'http://www.fastcolabs.com/3026698/inside-duckduckgo-googles-tiniest-fiercest-competitor',
@@ -320,6 +312,14 @@ sub pages {{
 			date => '20 February 2014',
 			headline => 'Inside DuckDuckGo, Google’s Tiniest, Fiercest Competitor',
 			snippet => 'In 2008, launching a search engine seemed like a crazy idea.  Here’s how Gabriel Weinberg proved the critics wrong.',
+		},{
+			source => 'theguardian',
+			source_full => 'The Observer',
+			source_link => 'http://www.theguardian.com/technology/2014/apr/04/duckduckgo-gabriel-weinberg-secure-searches',
+			author_name => 'Alex Hern',
+			date => '4 April 2014',
+			headline => 'DuckDuckGo: the plucky upstart taking on Google with secure searches',
+			snippet => 'Gabriel Weinberg launched DuckDuckGo as a search engine that puts privacy first, rather than collecting data for advertisers and security agencies...',
 		},{
 			source => 'wapost',
 			source_full => 'The Washington Post',
