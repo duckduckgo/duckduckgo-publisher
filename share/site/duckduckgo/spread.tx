@@ -54,8 +54,7 @@
 			<img class="spread-img" title="Will it have a duck on it?  Only time will tell..." src="/assets/spread/t-shirt.png" />
 		</noscript>
 		<img class="spread-img  js-lazysvg  no-js__hide" title="Will it have a duck on it?  Only time will tell..." src="" data-src="/assets/spread/t-shirt" />
-		<h2 class="hd-hr  spread-callout__title"><: l("Get a t-shirt when you get others to switch!") :></h2>
-		<h6 class="spread-callout__subtitle"><: l("Join the proud few who rock the DuckDuckGo t-shirt. %s Share DuckDuckGo for 30 days and earn one for free.", '<br class="hide--screen-s">') :></h6>
+		<h2 class="hd-hr  spread-callout__title"><: l("Join the duck side and get a DuckDuckGo T-shirt %s for sharing DuckDuckGo with friends and family.", '<br class="hide--screen-s">') :></h2>
         <a class="spread-callout__btn btn btn--primary--alt t-xl" href="https://duck.co/wear">Show Me How</a>
 	</div>
 </div>
