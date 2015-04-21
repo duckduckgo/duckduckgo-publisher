@@ -11,6 +11,7 @@
 					<input id="search_button" class="search__button  js-search-button" type="submit" tabindex="2" value="S" />
 					<input id="search_form_input_clear" class="search__clear  empty  js-search-clear" type="button" tabindex="3" value="X" />
 					<div id="search_elements_hidden" class="search__hidden  js-search-hidden"></div>
+					<span class="search__overlay  js-search-overlay"></span>
 				</form>
 			</div>
 		</div>
