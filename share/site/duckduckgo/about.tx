@@ -85,7 +85,7 @@ Smarter search without the tracking.
 				<: if $team.link {:><a href="<: $team.link :>"><:}:>
 				<span class="team__img-wrap">
 					<noscript>
-						<img class="team__img" src="/assets/about<: if $team.image { :>/team/<: $team.image :>.jpg"<: } if $team.icon { :>/icons/<:$team.icon:>.png<: } :> />
+						<img class="team__img" src="/assets/about<: if $team.image { :>/team/<: $team.image :>.jpg<: } if $team.icon { :>/icons/<:$team.icon:>.png<: } :>" />
 					</noscript>
 					<: if $team.image { :>
 					<img class="team__img  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/<: $team.image :>.jpg" />
