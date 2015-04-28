@@ -24,6 +24,7 @@
 				<li><a href="#responsive"><: l("Responsiveness") :></a></li>
 				<li><a href="#ia_structure"><: l("Instant Answer Structure") :></a></li>
 				<li><a href="#content_layouts"><: l("Content Layouts") :></a></li>
+				<li><a href="#popouts"><: l("Popouts") :></a></li>
 			</ul>
 		</div>
 	</div>
@@ -760,6 +761,25 @@
 					</div>
 				</div>
 			</div> <!--// .tile //-->
+		</div><!--// .blk__text //-->
+	</div><!--// .cw--c //-->
+</div><!--// .blk //-->
+<div class="blk  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg"><: l("Popouts") :><a name="popouts"></a></h2>
+			<hr class="hr"/>
+			<p>Large tooltips for displaying extra content blocks.</p>
+			<div class="tile--s  tile--a  tile--mid  t-mid">
+				<div class="popout  guide-popout  popout--top"><div class="popout__body"><h2 class="guide-popout__title">Hello</h2><p>I'm a top popout</p></div></div>
+				<div class="popout  guide-popout  popout--left"><div class="popout__body"><h2 class="guide-popout__title">Hello</h2><p>I'm a left popout</p></div></div>
+				<div class="popout  guide-popout  popout--right"><div class="popout__body"><h2 class="guide-popout__title">Hello</h2><p>I'm a right popout</p></div></div>
+				<div class="popout  guide-popout  popout--bottom"><div class="popout__body"><h2 class="guide-popout__title">Hello</h2><p>I'm a bottom popout</p></div></div>
+			</div>
+			<p>Popouts are intended to be triggered via user interaction, and should be positioned relative to the triggering control.</p>
+			<div class="tile--s  tile--a  tile--mid  t-mid">
+				<span class="btn btn--primary  popout-trig  guide-popout-trig">Popout Trigger <span class="popout-wrap"><div class="popout  popout--bottom  is-showing  guide-popout--dy"><div class="popout__body"><h3 class="guide-popout__title">Open Popout</h3><p>Text goes here</p></div></div></span></span>
+			</div>
 		</div><!--// .blk__text //-->
 	</div><!--// .cw--c //-->
 </div><!--// .blk //-->
