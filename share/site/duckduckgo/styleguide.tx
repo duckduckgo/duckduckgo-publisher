@@ -24,7 +24,8 @@
 				<li><a href="#responsive" class="js-anchor-link"><: l("Responsiveness") :></a></li>
 				<li><a href="#ia_structure" class="js-anchor-link"><: l("Instant Answer Structure") :></a></li>
 				<li><a href="#content_layouts" class="js-anchor-link"><: l("Content Layouts") :></a></li>
-				<li><a href="#popouts" class="js-anchor-link"><: l("Popouts") :></a></li>
+				<li><a href="#popouts" class="js-anchor-link">Popouts</a></li>
+				<li><a href="#popovers" class="js-anchor-link">Popovers</a></li>
 			</ul>
 		</div>
 	</div>
@@ -767,7 +768,7 @@
 <div class="blk  blk--content">
 	<div class="cw--c">
 		<div class="blk__text">
-			<h2 class="hd-lg"><: l("Popouts") :><a name="popouts" class="js-anchor"></a></h2>
+			<h2 class="hd-lg">Popouts<a name="popouts" class="js-anchor"></a></h2>
 			<hr class="hr"/>
 			<p>Large tooltips for displaying extra content blocks.</p>
 			<div class="tile--s  tile--a  tile--mid  t-mid">
@@ -778,7 +779,6 @@
 			</div>
 			<p>Popouts are intended to be triggered via user interaction, and should be positioned relative to the triggering control.  They don't require any javascript positioning to accomplish this &mdash; they just need to specify size and direction via classnames, and to toggle the <tt>.is-showing</tt> class on interactions.</p>
 			
-			<p>Care should be taken not to position them inside an element set to <tt>overflow: hidden;</tt> so that they don't appear to be clipped.</p>
 			<div class="tile--s  tile--a  tile--mid  t-mid  guide-popout-wrapper">
 				<span class="btn  btn--disabled  popout-trig  guide-popout-trig">Popout Trigger 
 					<span class="popout-wrap  popout-wrap--top"><div class="popout  popout--lg  popout--top  is-showing  guide-popout--dy"><div class="popout__body"><h3>Large Open Popout</h3><p>Large size, top positioning.</p></div></div></span>
@@ -793,21 +793,44 @@
 				<: include "popout.tx" {
 					dir=>'top',
 					size=>'lg',
-					link=>'<a class="btn btn--secondary js-popout-link">Trigger Large Popout</a>',
+					link=>'<a class="btn btn--alt js-popout-link">Trigger Large Popout</a>',
 					content=>'<h3>Large Popout</h3><p>Large size, top positioning.</p>'
 				} :>
 				<: include "popout.tx" {
 					dir=>'bottom',
-					link=>'<a class="btn btn--secondary js-popout-link">Trigger Popout</a>',
+					link=>'<a class="btn btn--alt js-popout-link">Trigger Popout</a>',
 					content=>'<h5>Popout!</h5><p>Default size, bottom positioning.</p>'
 				} :>
 				<: include "popout.tx" {
 					dir=>'bottom-right',
 					size=>'sm',
-					link=>'<a class="btn btn--secondary js-popout-link">Trigger Small Popout</a>',
+					link=>'<a class="btn btn--alt js-popout-link">Trigger Small Popout</a>',
 					content=>'<h5>Small</h5><p>Small size, bottom-right positioning.</p>'
 				} :>
 			</div>
+			<p>Care should be taken not to position a popout inside an element set to <tt>overflow: hidden;</tt> so that they don't appear to be clipped.</p>
 		</div><!--// .blk__text //-->
 	</div><!--// .cw--c //-->
 </div><!--// .blk //-->
+<div class="blk  blk--alt  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg">Popovers<a name="popovers" class="js-anchor"></a></h2>
+			<hr class="hr"/>
+			<p>Popovers are a way of isolating controls or content.  They should be used with caution and careful consideration.  They require javascript and specific markup in order to function correctly, but on static DDG pages those are easily handled via the 'popover' include.</p>
+			<div class="tile--s  tile--mid">
+				<a class="btn btn--alt js-popover-one">Launch Popover One</a>
+				<a class="btn btn--alt js-popover-two">Launch Popover Two</a>
+			</div><!--// .tile //-->
+		</div><!--// .blk__text //-->
+	</div><!--// .cw--c //-->
+</div><!--// .blk //-->
+<: include "popover.tx" {
+	linkSelector=>'.js-popover-one',
+	content=>'<div class="cw"><h1>Hi I&apos;m a Popover!</h1><p>I have a pretty white background.</p></div>'
+} :>
+<: include "popover.tx" {
+	linkSelector=>'.js-popover-two',
+	mainClass=>'popover--dk',
+	content=>'<div class="cw"><h1>Hi I&apos;m also a Popover</h1><p>I have a darker background.</p></div>'
+} :>
