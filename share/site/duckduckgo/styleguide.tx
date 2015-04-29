@@ -776,9 +776,16 @@
 				<div class="popout  guide-popout  popout--right"><div class="popout__body"><h2 class="guide-popout__title">Hello</h2><p>I'm a right popout</p></div></div>
 				<div class="popout  guide-popout  popout--bottom"><div class="popout__body"><h2 class="guide-popout__title">Hello</h2><p>I'm a bottom popout</p></div></div>
 			</div>
-			<p>Popouts are intended to be triggered via user interaction, and should be positioned relative to the triggering control.</p>
-			<div class="tile--s  tile--a  tile--mid  t-mid">
-				<span class="btn btn--primary  popout-trig  guide-popout-trig">Popout Trigger <span class="popout-wrap"><div class="popout  popout--bottom  is-showing  guide-popout--dy"><div class="popout__body"><h3 class="guide-popout__title">Open Popout</h3><p>Text goes here</p></div></div></span></span>
+			<p>Popouts are intended to be triggered via user interaction, and should be positioned relative to the triggering control.  They don't require any javascript positioning to accomplish this &mdash; they just need to specify size and direction via classnames, and to toggle the <tt>.is-showing</tt> class on interactions.</p>
+			
+			<p>Care should be taken not to position them inside an element set to <tt>overflow: hidden;</tt> so that they don't appear to be clipped.</p>
+			<div class="tile--s  tile--a  tile--mid  t-mid  guide-popout-wrapper">
+				<span class="btn  btn--disabled  popout-trig  guide-popout-trig">Popout Trigger 
+					<span class="popout-wrap  popout-wrap--top"><div class="popout  popout--lg  popout--top  is-showing  guide-popout--dy"><div class="popout__body"><h3 class="guide-popout__title">Large Open Popout</h3><p>Large size, top positioning</p></div></div></span>
+					<span class="popout-wrap  popout-wrap--bottom"><div class="popout  popout--bottom  is-showing  guide-popout--dy"><div class="popout__body"><h3 class="guide-popout__title">Popout</h3><p>Default size, bottom positioning</p></div></div></span>
+					<span class="popout-wrap  popout-wrap--left"><div class="popout  popout--sm  popout--left  is-showing  guide-popout--dy"><div class="popout__body"><h3 class="guide-popout__title">Popout</h3><p>Small size, left</p></div></div></span>
+					<span class="popout-wrap  popout-wrap--right"><div class="popout  popout--sm  popout--right  is-showing  guide-popout--dy"><div class="popout__body"><h3 class="guide-popout__title">Popout</h3><p>Small size, right</p></div></div></span>
+				</span>
 			</div>
 		</div><!--// .blk__text //-->
 	</div><!--// .cw--c //-->
