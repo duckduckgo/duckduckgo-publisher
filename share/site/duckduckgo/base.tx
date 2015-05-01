@@ -12,6 +12,7 @@
   <body id="pg-<: $f.filebase :>" class="page-<: $f.filebase :><: if $homepage { :> body--home<: } :>">
 	<: include "head_js.tx" :>
 	<div class="site-wrapper <: if $homepage { :> site-wrapper--home<: } else { :> site-wrapper--static<: } :>  js-site-wrapper">
+		<div class="site-wrapper-border"></div>
 	<: if !$no_wrapper { :> 
 	  <: if !$no_header { include "header.tx" } :>
 	  <div id="content_wrapper" class="content-wrap">
