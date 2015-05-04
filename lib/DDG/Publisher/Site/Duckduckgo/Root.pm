@@ -47,7 +47,7 @@ sub pages {{
 			title => 'Operations',
 			info => 'BOFH',
 			image => 'jaryd',
-			link => 'https://www.youtube.com/watch?v=09j6vMdKi3E',
+			link => 'https://jaryd.org',
 		},{
 			name => 'Doug Brown',
 			title => 'Search',
