@@ -827,10 +827,12 @@
 </div><!--// .blk //-->
 <: include "popover.tx" {
 	linkSelector=>'.js-popover-one',
-	content=>'<div class="cw"><h1>Hi I&apos;m a Popover!</h1><p>I have a pretty white background.</p></div>'
+	boxClass=>'guide-popover-box',
+	content=>'<h1>Hi I&apos;m a Popover!</h1><p>I have a pretty white background.</p>'
 } :>
 <: include "popover.tx" {
 	linkSelector=>'.js-popover-two',
+	boxClass=>'guide-popover-box',
 	mainClass=>'popover--dk',
-	content=>'<div class="cw"><h1>Hi I&apos;m also a Popover</h1><p>I have a darker background.</p></div>'
+	content=>'<h1>Hi I&apos;m also a Popover</h1><p>I have a darker background.</p>'
 } :>
