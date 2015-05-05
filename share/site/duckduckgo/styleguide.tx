@@ -1,5 +1,5 @@
 <div class="blk  blk--hero">
-	<div class="cw--c"><a class="anchor" name="top"></a>
+	<div class="cw--c"><a class="anchor js-anchor" name="top"></a>
 		<div class="logo--dax" title="DuckDuckGo"></div>
 		<div class="blk__text">
 			<h1 class="hd-hr"><: l("DuckDuckGo Style Guide") :></h1>
@@ -15,15 +15,17 @@
 			<p>This is a largely technical document, outlining common elements, styles, and conventions designed for use on DuckDuckGo &mdash; either on the results page itself via <a href="http://duckduckhack.com">instant answers</a>, or on static pages just like this one.</p>
 			<h3 class="hd-md"><: l("Table of Contents") :></h3>
 			<ul>
-				<li><a href="#buttons"><: l("Buttons") :></a></li>
-				<li><a href="#icons"><: l("Icons") :></a></li>
-				<li><a href="#alerts"><: l("Alert Messages") :></a></li>
-				<li><a href="#txt-n-color"><: l("Text & Colors") :></a></li>
-				<li><a href="#forms"><: l("Forms") :></a></li>
-				<li><a href="#grids"><: l("Grids") :></a></li>
-				<li><a href="#responsive"><: l("Responsiveness") :></a></li>
-				<li><a href="#ia_structure"><: l("Instant Answer Structure") :></a></li>
-				<li><a href="#content_layouts"><: l("Content Layouts") :></a></li>
+				<li><a href="#buttons" class="js-anchor-link"><: l("Buttons") :></a></li>
+				<li><a href="#icons" class="js-anchor-link"><: l("Icons") :></a></li>
+				<li><a href="#alerts" class="js-anchor-link"><: l("Alert Messages") :></a></li>
+				<li><a href="#txt-n-color" class="js-anchor-link"><: l("Text & Colors") :></a></li>
+				<li><a href="#forms" class="js-anchor-link"><: l("Forms") :></a></li>
+				<li><a href="#grids" class="js-anchor-link"><: l("Grids") :></a></li>
+				<li><a href="#responsive" class="js-anchor-link"><: l("Responsiveness") :></a></li>
+				<li><a href="#ia_structure" class="js-anchor-link"><: l("Instant Answer Structure") :></a></li>
+				<li><a href="#content_layouts" class="js-anchor-link"><: l("Content Layouts") :></a></li>
+				<li><a href="#popouts" class="js-anchor-link">Popouts</a></li>
+				<li><a href="#popovers" class="js-anchor-link">Popovers</a></li>
 			</ul>
 		</div>
 	</div>
@@ -31,7 +33,7 @@
 <div class="blk  blk--content">
 	<div class="cw--c">
 		<div class="blk__text">
-			<h2 class="hd-lg"><: l("Buttons") :><a name="buttons"></a></h2>
+			<h2 class="hd-lg"><: l("Buttons") :><a name="buttons" class="js-anchor"></a></h2>
 			<hr class="hr"/>
 			<p>Buttons are attention-grabbing, and users will expect them to 'do' something, so don't let them down.  Always link your buttons or fire a javascript function on click - don't just use these to fancy the place up!</p>
 			
@@ -95,7 +97,7 @@
 <div class="blk  blk--alt  blk--content">
 	<div class="cw--c">
 		<div class="blk__text">
-			<h2 class="hd-lg"><: l("Icons") :><a name="icons"></a></h2>
+			<h2 class="hd-lg"><: l("Icons") :><a name="icons" class="js-anchor"></a></h2>
 			<hr class="hr"/>
 			<p>Icons are a great way to visualize controls and simplify labels.  We have a built-in icon font that you can use by applying the <tt>.ddgsi</tt> class to any element.  The available icons are:</p>
 			<: for $icons -> $icon { :>
@@ -112,7 +114,7 @@
 <div class="blk  blk--content">
 	<div class="cw--c">
 		<div class="blk__text">
-			<h2 class="hd-lg"><: l("Alerts & Messages") :><a name="alerts"></a></h2>
+			<h2 class="hd-lg"><: l("Alerts & Messages") :><a name="alerts" class="js-anchor"></a></h2>
 			<hr class="hr"/>
 			<p>Useful to draw interest on content-heavy pages.</p>
 			<div class="tile--a  tile--s  tile--mid">
@@ -133,7 +135,7 @@
 <div class="blk  blk--alt  blk--content">
 	<div class="cw--c">
 		<div class="blk__text">
-			<h2 class="hd-lg"><: l("Text & Colors") :><a name="txt-n-color"></a></h2>
+			<h2 class="hd-lg"><: l("Text & Colors") :><a name="txt-n-color" class="js-anchor"></a></h2>
 			<hr class="hr"/>
 			<h3 class="hd-md"><: l("Text Sizes") :></h3>
 			<p>The vast majority of DuckDuckGo has been rebuilt using <tt>em</tt> units in order to better accommodate user settings.  As a result, virtually all element sizing can be adjusted simply by changing the font size.</p>
@@ -276,7 +278,7 @@
 <div class="blk  blk--content">
 	<div class="cw--c">
 		<div class="blk__text">
-			<h2 class="hd-lg"><: l("Forms") :><a name="forms"></a></h2>
+			<h2 class="hd-lg"><: l("Forms") :><a name="forms" class="js-anchor"></a></h2>
 			<hr class="hr"/>
 			<p>Forms are mostly for internal use, and primarially for gathering feedback or accepting newsletter subscriptions.</p>
 			
@@ -367,7 +369,7 @@
 <div class="blk  blk--alt  blk--content">
 	<div class="cw--c">
 		<div class="blk__text">
-			<h2 class="hd-lg"><: l("Grids") :><a name="grids"></a></h2>
+			<h2 class="hd-lg"><: l("Grids") :><a name="grids" class="js-anchor"></a></h2>
 			<hr class="hr"/>
 			<p>It may occasionally be necessary to visualize pages or results by breaking things up into a grid.  We've come up with an intuitive grid system to help with this:</p>
 			
@@ -427,7 +429,7 @@
 <div class="blk  blk--alt  blk--content">
 	<div class="cw--c">
 		<div class="blk__text">
-			<h2 class="hd-lg"><: l("Responsiveness") :><a name="responsive"></a></h2>
+			<h2 class="hd-lg"><: l("Responsiveness") :><a name="responsive" class="js-anchor"></a></h2>
 			<hr class="hr"/>
 			<p>We want all of our designs to look amazing across all platforms.  Somtimes that means making small tweaks at different screen sizes, and sometimes it calls for major differences.  We've made a wide variety of options available to you. </p>
 			
@@ -514,7 +516,7 @@
 <div class="blk  blk--content">
 	<div class="cw--c">
 		<div class="blk__text">
-			<h2 class="hd-lg"><: l("Answer Structure") :><a name="ia_structure"></a></h2>
+			<h2 class="hd-lg"><: l("Answer Structure") :><a name="ia_structure" class="js-anchor"></a></h2>
 			<hr class="hr"/>
 			<p>There are many useful built-in templates that you are welcome to use when putting together an instant answer.  Sometimes though, you need to color a bit outside the lines.  This is an overview of some of the primary structural classes that you can build from.</p>
 			
@@ -601,7 +603,7 @@
 <div class="blk  blk--alt  blk--content">
 	<div class="cw--c">
 		<div class="blk__text">
-			<h2 class="hd-lg"><: l("Layouts") :><a name="content_layouts"></a></h2>
+			<h2 class="hd-lg"><: l("Layouts") :><a name="content_layouts" class="js-anchor"></a></h2>
 			<hr class="hr"/>
 			<p>We've come up with a few great ways to display content that can be used in instant answers.</p>
 			<h3 class="hd-md"><: l("Info Layouts") :></h3>
@@ -763,3 +765,74 @@
 		</div><!--// .blk__text //-->
 	</div><!--// .cw--c //-->
 </div><!--// .blk //-->
+<div class="blk  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg">Popouts<a name="popouts" class="js-anchor"></a></h2>
+			<hr class="hr"/>
+			<p>Large tooltips for displaying extra content blocks.</p>
+			<div class="tile--s  tile--a  tile--mid  t-mid">
+				<div class="popout  guide-popout  popout--top"><div class="popout__body"><h2>Hello</h2><p>I'm a top popout</p></div></div>
+				<div class="popout  guide-popout  popout--left"><div class="popout__body"><h2>Hello</h2><p>I'm a left popout</p></div></div>
+				<div class="popout  guide-popout  popout--right"><div class="popout__body"><h2>Hello</h2><p>I'm a right popout</p></div></div>
+				<div class="popout  guide-popout  popout--bottom"><div class="popout__body"><h2>Hello</h2><p>I'm a bottom popout</p></div></div>
+			</div>
+			<p>Popouts are intended to be triggered via user interaction, and should be positioned relative to the triggering control.  They don't require any javascript positioning to accomplish this &mdash; they just need to specify size and direction via classnames, and to toggle the <tt>.is-showing</tt> class on interactions.</p>
+			
+			<div class="tile--s  tile--a  tile--mid  t-mid  guide-popout-wrapper">
+				<span class="btn  btn--disabled  popout-trig  guide-popout-trig">Popout Trigger 
+					<span class="popout-wrap  popout-wrap--top"><div class="popout  popout--lg  popout--top  is-showing  guide-popout--dy"><div class="popout__body"><h3>Large Open Popout</h3><p>Large size, top positioning.</p></div></div></span>
+					<span class="popout-wrap  popout-wrap--bottom"><div class="popout  popout--bottom  is-showing  guide-popout--dy"><div class="popout__body"><h3>Popout</h3><p>Default size, bottom positioning.</p></div></div></span>
+					<span class="popout-wrap  popout-wrap--left"><div class="popout  popout--sm  popout--left  is-showing  guide-popout--dy"><div class="popout__body"><h3>Popout</h3><p>Small size, left.</p></div></div></span>
+					<span class="popout-wrap  popout-wrap--right"><div class="popout  popout--sm  popout--right  is-showing  guide-popout--dy"><div class="popout__body"><h3>Popout</h3><p>Small size, right.</p></div></div></span>
+				</span>
+			</div>
+			
+			<h3 class="hd-md"><: l("Working Examples") :></h3>
+			<div class="tile--s  tile--a  tile--mid  guide-popout-wrapper">
+				<: include "popout.tx" {
+					dir=>'top',
+					size=>'lg',
+					link=>'<a class="btn btn--alt js-popout-link">Trigger Large Popout</a>',
+					content=>'<h3>Large Popout</h3><p>Large size, top positioning.</p>'
+				} :>
+				<: include "popout.tx" {
+					dir=>'bottom',
+					link=>'<a class="btn btn--alt js-popout-link">Trigger Popout</a>',
+					content=>'<h5>Popout!</h5><p>Default size, bottom positioning.</p>'
+				} :>
+				<: include "popout.tx" {
+					dir=>'bottom-right',
+					size=>'sm',
+					link=>'<a class="btn btn--alt js-popout-link">Trigger Small Popout</a>',
+					content=>'<h5>Small</h5><p>Small size, bottom-right positioning.</p>'
+				} :>
+			</div>
+			<p>Care should be taken not to position a popout inside an element set to <tt>overflow: hidden;</tt> so that they don't appear to be clipped.</p>
+		</div><!--// .blk__text //-->
+	</div><!--// .cw--c //-->
+</div><!--// .blk //-->
+<div class="blk  blk--alt  blk--content">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="hd-lg">Popovers<a name="popovers" class="js-anchor"></a></h2>
+			<hr class="hr"/>
+			<p>Popovers are a way of isolating controls or content.  They should be used with caution and careful consideration.  They require javascript and specific markup in order to function correctly, but on static DDG pages those are easily handled via the 'popover' include.</p>
+			<div class="tile--s  tile--mid">
+				<a class="btn btn--alt js-popover-one">Launch Popover One</a>
+				<a class="btn btn--alt js-popover-two">Launch Popover Two</a>
+			</div><!--// .tile //-->
+		</div><!--// .blk__text //-->
+	</div><!--// .cw--c //-->
+</div><!--// .blk //-->
+<: include "popover.tx" {
+	linkSelector=>'.js-popover-one',
+	boxClass=>'guide-popover-box',
+	content=>'<h1>Hi I&apos;m a Popover!</h1><p>I have a pretty white background.</p>'
+} :>
+<: include "popover.tx" {
+	linkSelector=>'.js-popover-two',
+	boxClass=>'guide-popover-box',
+	mainClass=>'popover--dk',
+	content=>'<h1>Hi I&apos;m also a Popover</h1><p>I have a darker background.</p>'
+} :>

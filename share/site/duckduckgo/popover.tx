@@ -1,0 +1,10 @@
+<div class="popover js-popover <: $mainClass :>" data-js-selector="<: $linkSelector :>">
+	<a href="#_" class="popover__esc  js-popover-close"></a>
+	<div class="popover__wrap <: $wrapClass :>">
+		<div class="popover__box <: $boxClass :>">
+			<div class="popover__box__content">
+				<: r($content) :>
+			</div>
+		</div>
+	</div>
+</div>
