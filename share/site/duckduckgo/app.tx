@@ -6,7 +6,7 @@
             </noscript>
             <img class="app__logo js-lazysvg no-js__hide" src="" data-src="/assets/dax-alt" />
             <h1 class="app__title"><: l("%sDuckDuckGo%s for Mobile", "<b>", "</b>") :></h1>
-            <p><: l("With our native iOS and Android apps you get to experience blazing fast search, combined with Stories.") :></p>
+            <p class="app__blurb"><: l("With our native iOS and Android apps you get to experience blazing fast search, combined with Stories.") :></p>
             <div class="app__download">
                 <button class="app__download__btn btn">iPhone</button>
                 <button class="app__download__btn btn">Android</button>
@@ -35,7 +35,7 @@
     </div>
 </div>
 <div class="app blk blk--alt">
-    <div class="cw--c">
+    <div class="app__features cw--c">
 		<div class="app__row">
 			<div class="app__key third half--screen-m">
 				<noscript>
@@ -69,7 +69,7 @@
 </div>
 <div class="app blk blk--arr">
     <div class="cw--c">
-        <h2 class="app__title">What people are saying...</h2>
+        <h2 class="app__title app__title--reviews">What people are saying...</h2>
         <div class="reviews-slider js-reviews-slider">
             <div class="review-slider__item js-review">
                 <blockquote>
@@ -93,7 +93,10 @@
                 </blockquote>
             </div>
         </div>
-        <button class="btn">Share</button>
-        <button class="btn">Tweet</button>
+
+        <div class="app__share">
+            <button class="btn app__share__button">Share</button>
+            <button class="btn app__share__button">Tweet</button>
+        </div>
     </div>
 </div>
