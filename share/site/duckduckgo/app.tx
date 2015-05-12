@@ -2,14 +2,26 @@
     <div class="cw--c">
         <div class="app__intro">
             <noscript>
-                <img class="app__logo js-lazysvg no-js__hide" src="/assets/dax-alt.png" />
+                <img class="app__logo" src="/assets/dax-alt.png" />
             </noscript>
             <img class="app__logo js-lazysvg no-js__hide" src="" data-src="/assets/dax-alt" />
             <h1 class="app__title"><: l("%sDuckDuckGo%s for Mobile", "<b>", "</b>") :></h1>
             <p class="app__blurb"><: l("With our native iOS and Android apps you get to experience blazing fast search, combined with Stories.") :></p>
             <div class="app__download">
-                <button class="app__download__btn btn">iPhone</button>
-                <button class="app__download__btn btn">Android</button>
+                <a href="https://itunes.apple.com/us/app/id663592361" class="app__download__btn btn">
+                    <noscript>
+                        <img src="/assets/app/btn-icon-ios.png" data-src="" />
+                    </noscript>
+                    <img class="js-lazysvg no-js__hide" src="" data-src="/assets/app/btn-icon-ios" />
+                    iPhone
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android" class="app__download__btn btn">
+                    <noscript>
+                        <img src="/assets/app/btn-icon-android.png" data-src="" />
+                    </noscript>
+                    <img class="js-lazysvg no-js__hide" src="" data-src="/assets/app/btn-icon-android" />
+                    Android
+                </a>
             </div>
         </div>
         <div class="app__screens">
@@ -95,8 +107,20 @@
         </div>
 
         <div class="app__share">
-            <button class="btn app__share__button">Share</button>
-            <button class="btn app__share__button">Tweet</button>
+            <a href="https://facebook.com/sharer.php?u=https://duckduckgo.com/app" class="btn app__share__btn app__share__btn--facebook">
+                <noscript>
+                    <img src="/assets/app/btn-icon-facebook.png" data-src="" />
+                </noscript>
+                <img class="js-lazysvg no-js__hide" src="" data-src="/assets/app/btn-icon-facebook" />
+                Share
+            </a>
+            <a href="https://twitter.com/?status=Check+out+the+new+@duckduckgo+app.+https://duckduckgo.com/app" class="btn app__share__btn app__share__btn--twitter">
+                <noscript>
+                    <img src="/assets/app/btn-icon-twitter.png" data-src="" />
+                </noscript>
+                <img class="js-lazysvg no-js__hide" src="" data-src="/assets/app/btn-icon-twitter" />
+                Tweet
+            </a>
         </div>
     </div>
 </div>
