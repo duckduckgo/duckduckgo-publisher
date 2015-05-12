@@ -13,13 +13,28 @@
             </div>
         </div>
         <div class="app__screens">
-            <div class="app__screens__device"></div>
-            <div class="app__screens__device"></div>
-            <div class="app__screens__device"></div>
+            <div class="app__device app__device--left app__device--ios">
+                <noscript>
+                    <img class="js-lazyload no-js__hide" src="/assets/app/screens/ios-screenshot-favorites.jpg"/>
+                </noscript>
+                <img class="js-lazyload no-js__hide" src="" data-src="/assets/app/screens/ios-screenshot-favorites.jpg"/>
+            </div>
+            <div class="app__device app__device--ios">
+                <noscript>
+                    <img class="js-lazyload no-js__hide" src="/assets/app/screens/ios-screenshot-feed.jpg"/>
+                </noscript>
+                <img class="js-lazyload no-js__hide" src="" data-src="/assets/app/screens/ios-screenshot-feed.jpg"/>
+            </div>
+            <div class="app__device app__device--right app__device--ios">
+                <noscript>
+                    <img class="js-lazyload no-js__hide" src="/assets/app/screens/ios-screenshot-story.jpg"/>
+                </noscript>
+                <img class="js-lazyload no-js__hide" src="" data-src="/assets/app/screens/ios-screenshot-story.jpg"/>
+            </div>
         </div>
     </div>
 </div>
-<div class="app blk blk--arr blk--alt">
+<div class="app blk blk--alt">
     <div class="cw--c">
 		<div class="app__row">
 			<div class="app__key third half--screen-m">
