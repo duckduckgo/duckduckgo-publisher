@@ -368,6 +368,16 @@ sub pages {{
 		hero_header_text => 1,
 		js_page_type => 'Tour',
 	},
+	app => sub {
+		copyright_footer => 1,
+		nav_footer => 1,
+		no_content_internal => 1,
+		no_spacer => 1,
+		no_cw => 1,
+		hero_header => 1,
+		hero_header_text => 1,
+		js_page_type => 'App'
+	},
 
 	## TODO
 

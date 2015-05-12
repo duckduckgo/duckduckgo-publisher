@@ -1,0 +1,84 @@
+<div class="app blk blk--hero">
+    <div class="cw--c">
+        <div class="app__intro">
+            <noscript>
+                <img class="app__logo js-lazysvg no-js__hide" src="/assets/dax-alt.png" />
+            </noscript>
+            <img class="app__logo js-lazysvg no-js__hide" src="" data-src="/assets/dax-alt" />
+            <h1 class="app__title"><: l("%sDuckDuckGo%s for Mobile", "<b>", "</b>") :></h1>
+            <p><: l("With our native iOS and Android apps you get to experience blazing fast search, combined with Stories.") :></p>
+            <div class="app__download">
+                <button class="app__download__btn btn">iPhone</button>
+                <button class="app__download__btn btn">Android</button>
+            </div>
+        </div>
+        <div class="app__screens">
+            <div class="app__screens__device"></div>
+            <div class="app__screens__device"></div>
+            <div class="app__screens__device"></div>
+        </div>
+    </div>
+</div>
+<div class="app blk blk--arr blk--alt">
+    <div class="cw--c">
+		<div class="app__row">
+			<div class="app__key third half--screen-m">
+				<noscript>
+					<img class="app__key__icon" src="/assets/about/icons/privacy-alt.png" />
+				</noscript>
+				<img class="app__key__icon js-lazysvg no-js__hide" src="" data-src="/assets/about/icons/privacy-alt">
+
+                <h3 class="app__key__title"><: l("Smarter Search") :></h3>
+                <p><: l("We help you get where you want to go in fewer steps. We do that through instant answers, keyboard shortcuts and !bangs.") :></p>
+            </div>
+			<div class="app__key third half--screen-m">
+				<noscript>
+					<img class="app__key__icon" src="/assets/about/icons/privacy-alt.png" />
+				</noscript>
+				<img class="app__key__icon js-lazysvg no-js__hide" src="" data-src="/assets/about/icons/privacy-alt">
+
+                <h3 class="app__key__title"><: l("Top Stories") :></h3>
+                <p><: l("The most shared stories from hand-crafted sources. Together with search this is truly the most efficient way to stay on top of the news.") :></p>
+            </div>
+			<div class="app__key third half--screen-m">
+				<noscript>
+					<img class="app__key__icon" src="/assets/about/icons/privacy-alt.png" />
+				</noscript>
+				<img class="app__key__icon js-lazysvg no-js__hide" src="" data-src="/assets/about/icons/privacy-alt">
+
+                <h3 class="app__key__title"><: l("Open Source") :></h3>
+                <p><: l("Since our apps are completely open source you can contribute to the code and help us improve our products yourself if you want!") :></p>
+            </div>
+		</div>
+    </div>
+</div>
+<div class="app blk blk--arr">
+    <div class="cw--c">
+        <h2 class="app__title">What people are saying...</h2>
+        <div class="reviews-slider js-reviews-slider">
+            <div class="review-slider__item js-review">
+                <blockquote>
+                    This app is great. I love the Stories option as well. I'm setting DuckDuckGo as my default search engine on mobile and desktop.
+
+                    <cite><a href="#">John Doe</a> via App Store</cite>
+                </blockquote>
+            </div>
+            <div class="review-slider__item js-review">
+                <blockquote>
+                    This app is great. I love the Stories option as well. I'm setting DuckDuckGo as my default search engine on mobile and desktop.
+
+                    <cite><a href="#">John Doe</a> via App Store</cite>
+                </blockquote>
+            </div>
+            <div class="review-slider__item js-review">
+                <blockquote>
+                    This app is great. I love the Stories option as well. I'm setting DuckDuckGo as my default search engine on mobile and desktop.
+
+                    <cite><a href="#">John Doe</a> via App Store</cite>
+                </blockquote>
+            </div>
+        </div>
+        <button class="btn">Share</button>
+        <button class="btn">Tweet</button>
+    </div>
+</div>
