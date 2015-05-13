@@ -27,7 +27,7 @@ Because of the way <a href="https://duck.co/help/results/sources">we generate ou
 <div style="margin-bottom:30px;"></div>
 <iframe id="code_frame" src="/search.html" style="overflow:hidden;margin:0;padding:0;width:550px;height:39px;" frameborder="0"></iframe>
 <pre id="code">
-&lt;iframe src="http://duckduckgo.com/search.html" style="overflow:hidden;margin:0;padding:0;width:550px;height:60px;" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;iframe src="https://duckduckgo.com/search.html" style="overflow:hidden;margin:0;padding:0;width:550px;height:60px;" frameborder="0"&gt;&lt;/iframe&gt;
 </pre>
 <script type="text/javascript">
 new_code_width = '';
@@ -59,7 +59,7 @@ function new_code() {
   if (new_code_duck=='yes') width+=75;
   else if (new_code_duck=='small') width+=34;
 
-  str = '&lt;iframe src=\"http://duckduckgo.com/search.html';
+  str = '&lt;iframe src=\"https://duckduckgo.com/search.html';
   if (params) str += params;
   str += '\" style=\"overflow:hidden;margin:0;padding:0;';
   str += 'width:'+width+'px;height:'+height+';\" frameborder=\"0\"&gt;&lt;/iframe&gt;';
