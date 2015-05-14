@@ -1,35 +1,16 @@
-<div id="zero_click_header">!Bang</div>
-
-<div class="small">
-
-<div style="margin-bottom:30px;"></div>
-<: l('DuckDuckGo enables you to search 100s of other sites directly.') :>
-
-<div style="margin-bottom:15px;"></div>
-<: l('Just use this dropdown next to the search box. As you use it, your most frequented sites will automatically be displayed at the top.') :>
-
-<div style="margin-bottom:20px;"></div>
-<: l("Or you can type in a command like '%s bags', which will take you to %s and auto-search it for 'bags'.",'!amazon','amazon.com') :>
-
-<div style="margin-bottom:15px;"></div>
-<: l('We call these commands %s, and this syntax works for 100s of sites:','!bangs') :>
-
-<div class="clu">
-<p style="margin-top: 3px;">
-<ul>
-<li><: l('Most big sites work, e.g. %s (see full list below)',r('!youtube')) :>
-<p style="margin-top: 5px;">
-<li><: l('Most generic keywords work too, e.g. %s','!images') :>
-<p style="margin-top: 5px;">
-<li><: l('There are also shorter versions, e.g. %s','!g (google) !i (images) !yt (youtube)') :>
-<p style="margin-top: 5px;">
-<li><: l("'%s' or '%s' or '%s' will take you to the first result.",'!ducky','! ','\\') :>
-<p style="margin-top: 5px;">
-<li><: l('%s will run a search with safe search off.','!safeoff') :>
-</ul>
+<div class="bang blk blk--hero">
+    <div class="cw--c">
+        <h1>Say hello to bangs</h1>
+        <h2>Search thousands of sites directly from DuckDuckGo</h2>
+    </div>
 </div>
-
-<!-- Full List Here -->
-
-<div style="margin-bottom:15px;"></div>
-<b><: lp('newbang',"If you'd like to add or edit a %s, please %s!",'!bang',r('<a href="/newbang">') ~ lp('newbang','submit it here') ~ r('</a>')) :></b>
+<div class="bang blk blk--alt blk--arr">
+    <div class="cw--c">
+        <h2>What are bangs?</h2>
+    </div>
+</div>
+<div class="bang blk blk--arr">
+    <div class="cw--c js-bangs-wrap">
+        <!-- this gets populated via JS -->
+    </div>
+</div>
