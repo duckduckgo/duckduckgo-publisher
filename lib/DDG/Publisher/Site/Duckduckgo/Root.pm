@@ -348,7 +348,7 @@ sub pages {{
 		no_cw => 1,
 		hero_header => 1,
 		hero_header_text => 1,
-		icons => ['minus','plus','clear-field','home','chev-down','chev-up','chev-left','chev-right','more','move','user','star','close-menu','menu','grid','check-sign','eye','loupe','check','region','cry','uploaded','prev','next','close-grid','marker','arrow-left','arrow-right','arrow-up','arrow-down',],
+		icons => ['loupe','menu','region','star','music','marker','home','more','eye','check','cry','user','users','comment','plus','minus','close','close-bold','move','grid','uploaded','upload','download','prev','next','left','right','down','up','left-big','right-big','right-sign','left-sign','more-sign','less-sign','check-sign'],
 		colors => ['white','silver-light','silver','silver-dark','platinum-light','platinum','platinum-dark','platinum-darker','grey-light','grey','grey-dark','slate-light','slate','red-light','red','red-dark','blue-light','blue','blue-dark','green','gold','purple',],
 	},
 	spread => sub {
