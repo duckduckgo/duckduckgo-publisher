@@ -1,16 +1,31 @@
-<div class="bang blk blk--hero">
+<div class="bang bang--hero blk blk--hero">
     <div class="cw--c">
-        <h1>Say hello to bangs</h1>
-        <h2>Search thousands of sites directly from DuckDuckGo</h2>
+        <noscript>
+            <img class="bang--hero__icon" src="/assets/bang/bang.png" data-src="" />
+        </noscript>
+        <img class="bang--hero__icon js-lazysvg no-js__hide" src="" data-src="/assets/bang/bang" />
+        <h1 class="bang--hero__title">Say hello to bangs.</h1>
+        <h2 class="bang--hero__snippet">Search thousands of sites directly from DuckDuckGo.</h2>
     </div>
 </div>
-<div class="bang blk blk--alt blk--arr">
-    <div class="cw--c">
-        <h2>What are bangs?</h2>
+<div class="bang bang--about blk blk--alt blk--arr">
+    <div class="cw--c cw--bang">
+        <noscript>
+            <img class="bang--about__screenshot" src="/assets/bang/screenshot.png" data-src="" />
+        </noscript>
+        <img class="js-lazyload no-js__hide bang--about__screenshot" src="" data-src="/assets/bang/screenshot.png" />
+        <div class="bang--about__text">
+            <h2>What are bangs?</h2>
+            <h3>Bangs allow you to search on thousands of sites, directly.</h3>
+            <p>A search for <a href="/?q=!amazon+shoes">!amazon shoes</a> will take you right to an Amazon search for shoes
+            on Amazon.com. Try <a href="/?q=!a+shoes">!a shoes</a> or <a href="/?q=!ebay+wallet">!ebay wallet</a>.
+            There are <a href="#bangs-list">thousands of !bangs</a> and you can even <a href="/newbang">submit your own</a>.</p>
+            <p>With out !bang autocomplete, it's even easier than ever to search directly on your favourite sites. <a href="#">Try it now!</a></p>
+        </div>
     </div>
 </div>
-<div class="bang blk blk--arr">
-    <div class="cw--c js-bangs-wrap">
+<div class="bang blk">
+    <div id="bangs-list" class="cw--c js-bangs-wrap">
         <!-- this gets populated via JS -->
     </div>
 </div>
