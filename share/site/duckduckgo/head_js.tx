@@ -9,3 +9,6 @@
     DDG.page = new DDG.Pages.<: if $js_page_type { $js_page_type } else if $homepage { :>Home<: } else { :>Static<: } :>();
 </script>
 <: } :>
+<script type="text/javascript">
+    DDG.Data.locale = "<: $f.locale :>";
+</script>
