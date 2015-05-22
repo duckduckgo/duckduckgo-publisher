@@ -6,7 +6,6 @@ use Path::Class;
 use Class::Load ':all';
 use IO::All -utf8;
 use HTML::Packer;
-use Term::ProgressBar::Simple;
 use JSON;
 use File::Path qw(make_path);
 
