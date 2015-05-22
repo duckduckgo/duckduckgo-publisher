@@ -1,4 +1,7 @@
-<script type="text/javascript">settings_js_version = "<: $asset_path :><: $ENV.DDG_DYNAMIC_SETTINGS_JS_FILE || '/set.js' :>";</script>
+<script type="text/javascript">
+var settings_js_version = "<: $asset_path :><: $ENV.DDG_DYNAMIC_SETTINGS_JS_FILE || '/set.js' :>",
+    locale = "<: $f.locale :>";
+</script>
 <script type="text/javascript" src="<: $asset_path :>/locales/<: $f.locale :>/LC_MESSAGES/<: $s.locale_domain :>+sprintf+gettext+locale-simple.<: $locale_package_version :>.js"></script>
 <script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_DYNAMIC_JS_FILE || '/base.js' :>"></script>
 <: if $js_include_g { :>
@@ -9,6 +12,3 @@
     DDG.page = new DDG.Pages.<: if $js_page_type { $js_page_type } else if $homepage { :>Home<: } else { :>Static<: } :>();
 </script>
 <: } :>
-<script type="text/javascript">
-    DDG.Data.locale = "<: $f.locale :>";
-</script>
