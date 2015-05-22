@@ -7,6 +7,9 @@
 
 <link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_FILE || '/style.css' :>" type="text/css">
 <link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_2_FILE || '/static.css' :>" type="text/css">
+<: if $css_serp { :>
+<link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_3_FILE || '/serp.css' :>" type="text/css">
+<: } :>
 
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 24x24 32x32 64x64"/>
 <link rel="apple-touch-icon" href="/assets/icons/meta/DDG-iOS-icon_60x60.png"/>
