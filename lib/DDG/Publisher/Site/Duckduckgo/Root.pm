@@ -348,6 +348,7 @@ sub pages {{
 		no_cw => 1,
 		hero_header => 1,
 		hero_header_text => 1,
+		css_serp => 1,
 		icons => ['loupe','menu','region','star','music','marker','home','more','eye','check','cry','clock','user','users','comment','plus','minus','close','close-bold','move','grid','uploaded','upload','download','prev','next','left','right','down','up','left-big','right-big','check-sign','right-sign','left-sign','more-sign','less-sign'],
 		colors => ['white','silver-light','silver','silver-dark','platinum-light','platinum','platinum-dark','platinum-darker','grey-light','grey','grey-dark','slate-light','slate','red-light','red','red-dark','blue-light','blue','blue-dark','green','gold','purple',],
 	},
