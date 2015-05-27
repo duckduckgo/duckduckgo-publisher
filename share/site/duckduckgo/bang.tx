@@ -10,10 +10,6 @@
 </div>
 <div class="bang bang--about blk blk--alt blk--arr">
     <div class="cw--c bang--about__cw">
-        <noscript>
-            <img class="bang--about__screenshot" src="/assets/bang/screenshot.png" data-src="" />
-        </noscript>
-        <img class="js-lazyload no-js__hide bang--about__screenshot" src="" data-src="/assets/bang/screenshot.png" />
         <div class="bang--about__text">
             <h2 class="bang--about__title">What are bangs?</h2>
             <p class="bang--about__snippet">Bangs allow you to search on thousands of sites, directly.</p>
@@ -22,6 +18,10 @@
             There are <a href="#bangs-list">thousands of !bangs</a> and you can even <a href="/newbang">submit your own</a>.</p>
             <p>With our !bang autocomplete, it's even easier than ever to search directly on your favourite sites. <a href="#">Try it now!</a></p>
         </div>
+        <noscript>
+            <img class="bang--about__screenshot" src="/assets/bang/screenshot.png" data-src="" />
+        </noscript>
+        <img class="js-lazyload no-js__hide bang--about__screenshot" src="" data-src="/assets/bang/screenshot.png" />
     </div>
 </div>
 <div class="bang blk">
