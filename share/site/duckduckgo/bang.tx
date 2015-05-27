@@ -9,18 +9,18 @@
     </div>
 </div>
 <div class="bang bang--about blk blk--alt blk--arr">
-    <div class="cw--c cw--bang">
+    <div class="cw--c bang--about__cw">
         <noscript>
             <img class="bang--about__screenshot" src="/assets/bang/screenshot.png" data-src="" />
         </noscript>
         <img class="js-lazyload no-js__hide bang--about__screenshot" src="" data-src="/assets/bang/screenshot.png" />
         <div class="bang--about__text">
-            <h2>What are bangs?</h2>
-            <h3>Bangs allow you to search on thousands of sites, directly.</h3>
+            <h2 class="bang--about__title">What are bangs?</h2>
+            <p class="bang--about__snippet">Bangs allow you to search on thousands of sites, directly.</p>
             <p>A search for <a href="/?q=!amazon+shoes">!amazon shoes</a> will take you right to an Amazon search for shoes
             on Amazon.com. Try <a href="/?q=!a+shoes">!a shoes</a> or <a href="/?q=!ebay+wallet">!ebay wallet</a>.
             There are <a href="#bangs-list">thousands of !bangs</a> and you can even <a href="/newbang">submit your own</a>.</p>
-            <p>With out !bang autocomplete, it's even easier than ever to search directly on your favourite sites. <a href="#">Try it now!</a></p>
+            <p>With our !bang autocomplete, it's even easier than ever to search directly on your favourite sites. <a href="#">Try it now!</a></p>
         </div>
     </div>
 </div>
