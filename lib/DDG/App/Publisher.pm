@@ -67,6 +67,17 @@ option tmpl_dir => (
 	predicate => 1,
 );
 
+=attr quiet
+
+Don't print Text::XSlate warnings
+
+=cut
+
+option quiet => (
+	is => 'ro',
+	predicate => 1,
+);
+
 =method run
 
 This method gets executed for the run of the publisher
@@ -91,12 +102,13 @@ sub run {
 			: die "Require a target path or DDG_PUBLISHER_TARGETDIR set";
 	my $dir = dir($target)->absolute;
 	my $publisher = DDG::Publisher->new(
+		$self->has_quiet ? ( quiet => $self->quiet ) : (),
 		$self->has_compression ? ( compression => $self->compression ) : (),
 		$self->has_dryrun ? ( dryrun => $self->dryrun ) : (),
 		$self->has_site_only ? ( site_classes => [$self->site_only] ) : (),
 		$self->has_tmpl_dir ? ( extra_template_dirs => [$self->tmpl_dir] ) : (),
 	);
-	print "Publishing to ".$dir." ... \n";
+	print "Publishing to ".$dir."\n";
 	my $count;
 	eval {
 		$count = $publisher->publish_to($dir);

@@ -155,6 +155,17 @@ has template_engine => (
 	builder => 1,
 );
 
+=attr quiet
+
+Don't print Text::XSlate warnings
+
+=cut
+
+has quiet => (
+    is => 'ro',
+    default => sub { 0 },
+);
+
 sub _build_template_engine {
 	my ( $self ) = @_;
 	my $site_template_root = dir(dist_dir('DDG-Publisher'),'site',$self->key)->stringify;
@@ -171,7 +182,7 @@ sub _build_template_engine {
 			return mark_raw($translation);
 		};
 	}
-	return Text::Xslate->new(
+    my %args = (
 		#
 		# Include share/site/$key and share/core as template directories
 		#
@@ -205,7 +216,9 @@ sub _build_template_engine {
 				return defined($_[0]) ? CORE::lc($_[0]) : undef;
 			},
 		},
-	);
+    );
+    $args{warn_handler} = sub {} if $self->publisher->quiet;
+	return Text::Xslate->new(%args);
 }
 
 1;

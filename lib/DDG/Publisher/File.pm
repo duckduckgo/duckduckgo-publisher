@@ -195,9 +195,6 @@ sub _build_content {
 	# explicit getting out no_base for template decision later
 	my $no_base = defined $vars{no_base} && $vars{no_base};
 
-#	use Data::Dumper;
-#	warn Dumper($vars{'ENV'});
-
 	#
 	# Gathering the save data for the data files generation
 	#

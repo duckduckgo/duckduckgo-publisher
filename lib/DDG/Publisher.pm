@@ -6,7 +6,6 @@ use Path::Class;
 use Class::Load ':all';
 use IO::All -utf8;
 use HTML::Packer;
-use String::ProgressBar;
 use JSON;
 use File::Path qw(make_path);
 
@@ -105,6 +104,17 @@ has dryrun => (
 	predicate => 1,
 );
 
+=attr quiet
+
+Don't print Text::XSlate warnings
+
+=cut
+
+has quiet => (
+	is => 'ro',
+	predicate => 1,
+);
+
 sub BUILD {
 	my ( $self ) = @_;
 	$self->sites;
@@ -135,17 +145,9 @@ sub publish_to {
 		#
 
 		for my $dir (values %{$site->dirs}) {
-			print "\n".(ref $site).$dir->web_path."\n\n";
+			print "  - " . (ref $site) . substr($dir->web_path, 0, -1) . "\n";
 			my @files = values %{$dir->fullpath_files};
-			my $progress = String::ProgressBar->new(
-				max => scalar @files,
-				length => 50,
-			);
-			my $i = 0;
 			for (sort { $a->fullpath cmp $b->fullpath } @files) {
-				$i++;
-				$progress->update($i);
-				$progress->write;
 				my $real_file = file($target_dir,$site->key,$_->fullpath)->absolute;
 				$real_file->dir->mkpath unless -f $real_file->dir->absolute->stringify;
 				my $content = $_->content;
@@ -169,7 +171,6 @@ sub publish_to {
 				io($real_file->stringify)->print($content);
 				$count++;
 			}
-			print "\n";
 		}
 
 		#
