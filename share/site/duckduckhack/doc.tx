@@ -12,7 +12,7 @@
 				<div id="duckduckhack-body">
 					<div class="breadcrumb-nav">
 						<div class="breadcrumbs">
-							 <a href="https://dukgo.com/">Home</a> &gt; <a href="http://duckduckhack.com">DuckDuckHack</a> &gt; <: if $category { $category :> &gt; <: } $title :> 
+							 <a href="https://duck.co/">Home</a> &gt; <a href="https://duck.co/duckduckhack/">DuckDuckHack</a> &gt; <: if $category { $category :> &gt; <: } $title :> 
 						</div>												
 					</div>
 					<div class="gw  gw--sm  mg-bottom">
