@@ -37,6 +37,11 @@ sub pages {{
 			image => 'zac',
 			link => 'https://twitter.com/zacpappis',
 		},{
+			name => 'Prakash',
+			title => 'BizDev',
+			info => 'Sports fan',
+			image => 'prakash',
+		},{
 			name => 'Russell Holt',
 			title => 'Platform',
 			info => 'Geek Dad',
@@ -131,6 +136,12 @@ sub pages {{
 			title => 'BizDev',
 			info => 'Nerd-in-Residence',
 			image => 'adam',
+			link => 'http://nerdflock.com/',
+		},{
+			name => 'Jeffrey Vanneste',
+			title => 'Operations',
+			info => 'Gamer Ops',
+			image => 'jeffrey',
 			link => 'http://nerdflock.com/',
 		},{
 			name => 'We’re hiring',
