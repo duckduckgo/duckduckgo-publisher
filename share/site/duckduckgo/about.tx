@@ -81,7 +81,7 @@ Smarter search without the tracking.
 			Interested in working with us?  Check out our <a href="https://duck.co/help/company/hiring">hiring page</a>.
 		</p>
 		
-		<ul class="team"><:- for $team_members -> $team { -:><li class="team__m  js-team-toggle  twenty  quarter--screen-m  thirty--screen-s  fifty--screen-xs">
+		<ul class="team"><:- for $team_members -> $team { -:><li class="team__m  js-team-toggle  sixth  quarter--screen-m  thirty--screen-s  fifty--screen-xs">
 				<: if $team.link {:><a href="<: $team.link :>"><:}:>
 				<span class="team__img-wrap">
 					<noscript>
