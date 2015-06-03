@@ -24,8 +24,8 @@
     </noscript>
     <img class="js-lazyload no-js__hide bang--about__screenshot" src="" data-src="/assets/bang/screenshot.png" />
 </div>
-<div class="bang blk">
-    <div id="bangs-list" class="cw--c js-bangs-wrap">
+<div class="bang bang--list blk">
+    <div id="bangs-list" class="cw--c bang--list__cw js-bangs-wrap">
         <!-- this gets populated via JS -->
     </div>
 </div>
