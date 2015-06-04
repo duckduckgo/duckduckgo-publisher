@@ -13,8 +13,8 @@
         <div class="bang--about__content">
             <h2 class="bang--about__title">What are bangs?</h2>
             <p class="bang--about__snippet">Bangs allow you to search on thousands of sites, directly.</p>
-            <p class="bang--about__text">A search for <a class="js-about-bang-link" data-query="!amazon shoes" href="#">!amazon shoes</a> will take you right to an Amazon search for shoes
-            on Amazon.com. Try <a class="js-about-bang-link" data-query="!a shoes" href="#">!a shoes</a> or <a class="js-about-bang-link" data-query="!ebay wallet" href="#">!ebay wallet</a>.
+            <p class="bang--about__text">A search for <a class="js-about-bang-link" data-bang="amazon" data-query="shoes" href="#">!amazon shoes</a> will take you right to an Amazon search for shoes
+            on Amazon.com. Try <a class="js-about-bang-link" data-bang="a" data-query="shoes" href="#">!a shoes</a> or <a class="js-about-bang-link" data-bang="ebay" data-query="wallet" href="#">!ebay wallet</a>.
             There are <a href="#bangs-list">thousands of !bangs</a> and you can even <a href="/newbang">submit your own</a>.</p>
             <p class="bang--about__text">With our !bang autocomplete, it's even easier than ever to search directly on your favourite sites. <a href="#">Try it now!</a></p>
         </div>
