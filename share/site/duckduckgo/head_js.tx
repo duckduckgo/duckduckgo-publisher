@@ -9,3 +9,8 @@
     DDG.page = new DDG.Pages.<: if $js_page_type { $js_page_type } else if $homepage { :>Home<: } else { :>Static<: } :>();
 </script>
 <: } :>
+<: if $js_bang_version { :>
+<script type="text/javascript">
+    DDG.inject("DDG.Data.bangs.version", <: $ENV.DDG_MAX_BANG_JS || 0 :>);
+</script>
+<: } :>

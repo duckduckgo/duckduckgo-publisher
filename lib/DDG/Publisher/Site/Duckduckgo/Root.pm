@@ -337,7 +337,8 @@ sub pages {{
 		no_cw => 1,
 		hero_header => 1,
 		hero_header_text => 1,
-		js_page_type => 'Bang'
+		js_page_type => 'Bang',
+		js_bang_version => 1
 	},
 	index => sub {
 		no_wrapper => 1,
