@@ -26,6 +26,11 @@
 </div>
 <div class="bang bang--list blk">
     <div id="bangs-list" class="cw--c bang--list__cw js-bangs-wrap">
+        <noscript>
+            <div class="bang--list__no-js">
+            Don't have Javascript enabled? Please visit the <a href="/bang_lite.html">lite page</a> for a full list of our !bangs.
+            </div>
+        </noscript>
         <!-- this gets populated via JS -->
     </div>
 </div>
