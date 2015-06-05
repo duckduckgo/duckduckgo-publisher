@@ -8,14 +8,14 @@
             <h1 class="app__title"><: l("%sDuckDuckGo%s for Mobile", "<b>", "</b>") :></h1>
             <p class="app__blurb"><: l("With our native iOS and Android apps you get to experience blazing fast search, combined with Stories.") :></p>
             <div class="app__download">
-                <a href="https://itunes.apple.com/us/app/id663592361" class="app__download__btn btn">
+                <a href="https://itunes.apple.com/us/app/id663592361" class="app__download__btn app__download__btn--ios btn">
                     <noscript>
                         <img src="/assets/app/btn-icon-ios.png" data-src="" />
                     </noscript>
                     <img class="js-lazysvg no-js__hide" src="" data-src="/assets/app/btn-icon-ios" />
                     iPhone
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android" class="app__download__btn btn">
+                <a href="https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android" class="app__download__btn app__download__btn--android btn">
                     <noscript>
                         <img src="/assets/app/btn-icon-android.png" data-src="" />
                     </noscript>
