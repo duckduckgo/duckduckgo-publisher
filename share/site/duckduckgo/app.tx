@@ -6,7 +6,7 @@
             </noscript>
             <img class="app__logo js-lazysvg no-js__hide" src="" data-src="/assets/dax-alt" />
             <h1 class="app__title"><: l("%sDuckDuckGo%s for Mobile", "<b>", "</b>") :></h1>
-            <p class="app__blurb"><: l("With our native iOS and Android apps you get to experience blazing fast search, combined with Stories.") :></p>
+            <p class="app__snippet"><: l("With our native iOS and Android apps you get to experience blazing fast search, combined with Stories.") :></p>
             <div class="app__download">
                 <a href="https://itunes.apple.com/us/app/id663592361" class="app__download__btn app__download__btn--ios btn">
                     <noscript>
