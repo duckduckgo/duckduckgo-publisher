@@ -96,16 +96,14 @@
     <div class="cw--c">
         <h2 class="app__title app__title--reviews">What people are saying...</h2>
         <div class="reviews-slider js-reviews-slider">
-            <:- for $reviews -> $review { -:>
-            <div class="review-slider__item js-review">
+            <:- for $reviews -> $review { -:><div class="review-slider__item js-review">
                 <h3 class="review-slider__item__title"><: $review.title :></h3>
                 <blockquote class="review-slider__item__snippet">
                     <: $review.snippet :>
 
                     <cite class="review-slider__item__source"><a href="<: $review.user_link :>"><: $review.user_name :></a> via Google Play</cite>
                 </blockquote>
-            </div>
-            <:- } -:>
+            </div><:- } -:>
         </div>
 
         <div class="app__share">
