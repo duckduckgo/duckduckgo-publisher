@@ -92,8 +92,8 @@
 		</div>
     </div>
 </div>
-<div class="app blk blk--arr">
-    <div class="cw--c">
+<div class="app app--reviews blk blk--arr">
+    <div class="app--reviews__cw cw--c">
         <h2 class="app__title app__title--reviews">What people are saying...</h2>
         <div class="reviews-slider js-reviews-slider">
             <:- for $reviews -> $review { -:><div class="review-slider__item js-review">
