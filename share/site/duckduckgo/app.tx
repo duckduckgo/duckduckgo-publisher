@@ -81,27 +81,16 @@
     <div class="cw--c">
         <h2 class="app__title app__title--reviews">What people are saying...</h2>
         <div class="reviews-slider js-reviews-slider">
+            <:- for $reviews -> $review { -:>
             <div class="review-slider__item js-review">
-                <blockquote>
-                    This app is great. I love the Stories option as well. I'm setting DuckDuckGo as my default search engine on mobile and desktop.
+                <h3 class="review-slider__item__title"><: $review.title :></h3>
+                <blockquote class="review-slider__item__snippet">
+                    <: $review.snippet :>
 
-                    <cite><a href="#">John Doe</a> via App Store</cite>
+                    <cite class="review-slider__item__source"><a href="<: $review.user_link :>"><: $review.user_name :></a> via Google Play</cite>
                 </blockquote>
             </div>
-            <div class="review-slider__item js-review">
-                <blockquote>
-                    This app is great. I love the Stories option as well. I'm setting DuckDuckGo as my default search engine on mobile and desktop.
-
-                    <cite><a href="#">John Doe</a> via App Store</cite>
-                </blockquote>
-            </div>
-            <div class="review-slider__item js-review">
-                <blockquote>
-                    This app is great. I love the Stories option as well. I'm setting DuckDuckGo as my default search engine on mobile and desktop.
-
-                    <cite><a href="#">John Doe</a> via App Store</cite>
-                </blockquote>
-            </div>
+            <:- } -:>
         </div>
 
         <div class="app__share">
