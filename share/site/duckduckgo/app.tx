@@ -27,21 +27,36 @@
         <div class="app__screens">
             <div class="app__device app__device--left app__device--android">
                 <noscript>
-                    <img class="js-lazyload no-js__hide" src="/assets/app/screens/android-screenshot-favorites.jpg"/>
+                    <img class="app__device__frame js-lazyload no-js__hide" src="/assets/app/screens/android-device-grey.png"/>
                 </noscript>
-                <img class="js-lazyload no-js__hide" src="" data-src="/assets/app/screens/android-screenshot-favorites.jpg"/>
+                <img class="app__device__frame js-lazyload no-js__hide" src="" data-src="/assets/app/screens/android-device-grey.png"/>
+
+                <noscript>
+                    <img class="app__device__screen js-lazyload no-js__hide" src="/assets/app/screens/android-screenshot-favorites.jpg"/>
+                </noscript>
+                <img class="app__device__screen js-lazyload no-js__hide" src="" data-src="/assets/app/screens/android-screenshot-favorites.jpg"/>
             </div>
             <div class="app__device app__device--android">
                 <noscript>
-                    <img class="js-lazyload no-js__hide" src="/assets/app/screens/android-screenshot-feed.jpg"/>
+                    <img class="app__device__frame js-lazyload no-js__hide" src="/assets/app/screens/android-device-grey.png"/>
                 </noscript>
-                <img class="js-lazyload no-js__hide" src="" data-src="/assets/app/screens/android-screenshot-feed.jpg"/>
+                <img class="app__device__frame js-lazyload no-js__hide" src="" data-src="/assets/app/screens/android-device-grey.png"/>
+
+                <noscript>
+                    <img class="app__device__screen js-lazyload no-js__hide" src="/assets/app/screens/android-screenshot-feed.jpg"/>
+                </noscript>
+                <img class="app__device__screen js-lazyload no-js__hide" src="" data-src="/assets/app/screens/android-screenshot-feed.jpg"/>
             </div>
             <div class="app__device app__device--right app__device--android">
                 <noscript>
-                    <img class="js-lazyload no-js__hide" src="/assets/app/screens/android-screenshot-story.jpg"/>
+                    <img class="app__device__frame js-lazyload no-js__hide" src="/assets/app/screens/android-device-grey.png"/>
                 </noscript>
-                <img class="js-lazyload no-js__hide" src="" data-src="/assets/app/screens/android-screenshot-story.jpg"/>
+                <img class="app__device__frame js-lazyload no-js__hide" src="" data-src="/assets/app/screens/android-device-grey.png"/>
+
+                <noscript>
+                    <img class="app__device__screen js-lazyload no-js__hide" src="/assets/app/screens/android-screenshot-story.jpg"/>
+                </noscript>
+                <img class="app__device__screen js-lazyload no-js__hide" src="" data-src="/assets/app/screens/android-screenshot-story.jpg"/>
             </div>
         </div>
     </div>
