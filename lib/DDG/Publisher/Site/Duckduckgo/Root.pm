@@ -380,17 +380,14 @@ sub pages {{
 		reviews => [{
 			user_name => "Tepper Pass",
 			user_link => "https://play.google.com/store/people/details?id=111128213744500122312",
-			title => "BEST search engine!",
 			snippet => "Use DuckDuckGo on all my PC and Mac browsers, as well as all my tablets and phones! Great query results, accurate search queries, fast returns, secure and tracking free! The app takes all of the great browser features and mixes in some fun and convenient features and serves them up!"
 		},{
 			user_name => "Hrishikesh Kamat",
 			user_link => "https://play.google.com/store/people/details?id=112195711209590649981",
-			title => "Excellent application",
 			snippet => "Something different. Something more interesting. Overall, a great concept. Impeccable search results. The feeds on homepage are just addictive for readers. Can search with apps. Something really worth downloading."
 		},{
 			user_name => "Terry White",
 			user_link => "https://play.google.com/store/people/details?id=104766596324905914583",
-			title => "Good & Private",
 			snippet => "Nice search features and consistently improving. But most important is unlike Google, the search data isn't archived and used to build a profile on you. God bless freedom!"
 		}]
 	},
