@@ -61,8 +61,8 @@
         </div>
     </div>
 </div>
-<div class="app blk blk--alt">
-    <div class="app__features cw--c">
+<div class="app app--features blk blk--alt">
+    <div class="app--features__cw cw--c">
 		<div class="app__row">
 			<div class="app__key third half--screen-m">
 				<noscript>
