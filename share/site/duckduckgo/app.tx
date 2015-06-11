@@ -98,7 +98,7 @@
         <div class="reviews-slider js-reviews-slider">
             <:- for $reviews -> $review { -:><div class="review-slider__item js-review">
                 <blockquote class="review-slider__item__snippet">
-                    <: $review.snippet :>
+                    &ldquo;<: $review.snippet :>&rdquo;
 
                     <cite class="review-slider__item__source"><a href="<: $review.user_link :>"><: $review.user_name :></a> via Google Play</cite>
                 </blockquote>
