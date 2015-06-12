@@ -1,35 +1,36 @@
-<div id="zero_click_header">!Bang</div>
-
-<div class="small">
-
-<div style="margin-bottom:30px;"></div>
-<: l('DuckDuckGo enables you to search 100s of other sites directly.') :>
-
-<div style="margin-bottom:15px;"></div>
-<: l('Just use this dropdown next to the search box. As you use it, your most frequented sites will automatically be displayed at the top.') :>
-
-<div style="margin-bottom:20px;"></div>
-<: l("Or you can type in a command like '%s bags', which will take you to %s and auto-search it for 'bags'.",'!amazon','amazon.com') :>
-
-<div style="margin-bottom:15px;"></div>
-<: l('We call these commands %s, and this syntax works for 100s of sites:','!bangs') :>
-
-<div class="clu">
-<p style="margin-top: 3px;">
-<ul>
-<li><: l('Most big sites work, e.g. %s (see full list below)',r('!youtube')) :>
-<p style="margin-top: 5px;">
-<li><: l('Most generic keywords work too, e.g. %s','!images') :>
-<p style="margin-top: 5px;">
-<li><: l('There are also shorter versions, e.g. %s','!g (google) !i (images) !yt (youtube)') :>
-<p style="margin-top: 5px;">
-<li><: l("'%s' or '%s' or '%s' will take you to the first result.",'!ducky','! ','\\') :>
-<p style="margin-top: 5px;">
-<li><: l('%s will run a search with safe search off.','!safeoff') :>
-</ul>
+<div class="bang bang--hero blk blk--hero">
+    <div class="cw--c">
+        <noscript>
+            <img class="bang--hero__icon" src="/assets/bang/bang.png" data-src="" />
+        </noscript>
+        <img class="bang--hero__icon js-lazysvg no-js__hide" src="" data-src="/assets/bang/bang" />
+        <h1 class="bang--hero__title">Say hello to bangs.</h1>
+        <h2 class="bang--hero__snippet">Search thousands of sites directly from DuckDuckGo.</h2>
+    </div>
 </div>
-
-<!-- Full List Here -->
-
-<div style="margin-bottom:15px;"></div>
-<b><: lp('newbang',"If you'd like to add or edit a %s, please %s!",'!bang',r('<a href="/newbang">') ~ lp('newbang','submit it here') ~ r('</a>')) :></b>
+<div class="bang bang--about blk blk--alt blk--arr">
+    <div class="cw--c bang--about__cw">
+        <div class="bang--about__content">
+            <h2 class="bang--about__title">What are bangs?</h2>
+            <p class="bang--about__snippet">Bangs allow you to search on thousands of sites, directly.</p>
+            <p class="bang--about__text">A search for <a class="js-about-bang-link" data-bang="amazon" data-query="shoes" href="#">!amazon shoes</a> will take you right to an Amazon search for shoes
+            on Amazon.com. Try <a class="js-about-bang-link" data-bang="a" data-query="shoes" href="#">!a shoes</a> or <a class="js-about-bang-link" data-bang="ebay" data-query="wallet" href="#">!ebay wallet</a>.
+            There are <a href="#bangs-list">thousands of !bangs</a> and you can even <a href="/newbang">submit your own</a>.</p>
+            <p class="bang--about__text">With our !bang autocomplete, it's even easier than ever to search directly on your favourite sites. <a href="#" class="js-about-bang-link" data-bang="a" data-query="clae shoes">Try it now!</a></p>
+        </div>
+    </div>
+    <noscript>
+        <img class="bang--about__screenshot" src="/assets/bang/screenshot.png" data-src="" />
+    </noscript>
+    <img class="js-lazyretina no-js__hide bang--about__screenshot" src="" data-src="/assets/bang/screenshot" />
+</div>
+<div class="bang bang--list blk">
+    <div id="bangs-list" class="cw--c bang--list__cw js-bangs-wrap">
+        <noscript>
+            <div class="bang--list__no-js">
+            Don't have Javascript enabled? Please visit the <a href="/bang_lite.html">lite page</a> for a full list of our !bangs.
+            </div>
+        </noscript>
+        <!-- this gets populated via JS -->
+    </div>
+</div>

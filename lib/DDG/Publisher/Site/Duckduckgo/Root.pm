@@ -341,7 +341,16 @@ sub pages {{
 			snippet => 'Not far from Valley Forge, around the corner from Bravo Pizza, up the road from Paoli Auto Body, there is an odd-looking office building that resembles a stone castle.  An eye doctor is on the first floor.  On the second floor is a search engine.',
 		}]
 	},
-	bang => sub {},
+	bang => sub {
+		nav_footer => 1,
+		no_content_internal => 1,
+		no_spacer => 1,
+		no_cw => 1,
+		hero_header => 1,
+		hero_header_text => 1,
+		js_page_type => 'Bang',
+		js_bang_version => 1
+	},
 	index => sub {
 		no_wrapper => 1,
 		homepage => 1,
