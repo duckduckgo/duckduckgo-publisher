@@ -37,7 +37,7 @@ sub pages {{
 			image => 'zac',
 			link => 'https://twitter.com/zacpappis',
 		},{
-			name => 'Prakash',
+			name => 'Prakash Swaminathan',
 			title => 'BizDev',
 			info => 'Sports fan',
 			image => 'prakash',
