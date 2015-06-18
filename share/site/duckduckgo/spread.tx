@@ -48,7 +48,7 @@
 		</div>
 	</div>
 </div>
-<div class="blk  blk--arr  blk--alt">
+<div class="blk  blk--arr  blk--alt  is-hidden  js-spread-callout">
 	<div class="spread-callout">
 		<noscript>
 			<img class="spread-img" title="Will it have a duck on it?  Only time will tell..." src="/assets/spread/t-shirt.png" />
