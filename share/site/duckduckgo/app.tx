@@ -23,6 +23,7 @@
                     Android
                 </a>
             </div>
+            <p class="app__apk-link"><: l("or %sdownload the Android APK directly%s", "<a href='/app/android.apk'>", "</a>") :></p>
         </div>
         <div class="app__screens">
             <div class="app__device app__device--left app__device--android">
