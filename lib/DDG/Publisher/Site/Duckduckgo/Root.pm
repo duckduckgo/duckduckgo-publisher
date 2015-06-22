@@ -398,6 +398,16 @@ sub pages {{
 		hero_header => 1,
 		hero_header_text => 1,
 		js_page_type => 'App',
+		screens => [{
+			position => "left",
+			name => "favorites"
+		},{
+			position => "middle",
+			name => "feed"
+		},{
+			position => "right",
+			name => "story"
+		}],
 		reviews => [{
 			user_name => "Tepper Pass",
 			user_link => "https://play.google.com/store/people/details?id=111128213744500122312",
