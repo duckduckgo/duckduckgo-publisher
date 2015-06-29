@@ -313,6 +313,12 @@ sub pages {{
 			snippet => 'How should we celebrate when we hit 10,000,000 searches a day? We can see the light.',
 			type => 'traffic',
 			icon => 'growth',
+		},{
+			date => 'June 22, 2015',
+			title => '10,000,000',
+			snippet => 'Boom! 10 million searches in a single day (10,210,082 to be exact). To celebrate, we’re giving away 10,000 DuckDuckGo T-shirts!',
+			type => 'traffic',
+			icon => 'growth',
 		}],
 		
 		news_articles => [{
