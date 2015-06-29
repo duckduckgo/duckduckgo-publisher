@@ -316,7 +316,7 @@ sub pages {{
 		},{
 			date => 'June 22, 2015',
 			title => '10,000,000',
-			snippet => 'To celebrate 10,000,000 searches a day, we’re giving away 10,000 DuckDuckGo shirts!',
+			snippet => 'Boom! 10 million searches in a single day (10,210,082 to be exact). To celebrate, we’re giving away 10,000 DuckDuckGo T-shirts!',
 			type => 'traffic',
 			icon => 'growth',
 		}],
