@@ -10,14 +10,14 @@
             <div class="app__download">
                 <a href="https://itunes.apple.com/us/app/id663592361" class="app__download__btn app__download__btn--ios btn">
                     <noscript>
-                        <img src="/assets/app/btn-icon-ios.png" data-src="" />
+                        <img src="/assets/app/btn-icon-ios.png" />
                     </noscript>
                     <img class="js-lazysvg no-js__hide" src="" data-src="/assets/app/btn-icon-ios" />
                     iPhone
                 </a>
                 <a href="https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android" class="app__download__btn app__download__btn--android btn">
                     <noscript>
-                        <img src="/assets/app/btn-icon-android.png" data-src="" />
+                        <img src="/assets/app/btn-icon-android.png" />
                     </noscript>
                     <img class="js-lazysvg no-js__hide" src="" data-src="/assets/app/btn-icon-android" />
                     Android
@@ -28,23 +28,23 @@
         <div class="app__screens">
             <:- for $screens -> $screen { -:><div class="app__device app__device--<:- $screen.position :> app__device--android js-device">
                 <noscript>
-                    <img class="app__device__frame js-lazyload" src="/assets/app/screens/android-device-grey.png"/>
+                    <img class="app__device__frame" src="/assets/app/screens/android-device-grey.png"/>
                 </noscript>
                 <img class="app__device__frame js-lazyload no-js__hide" src="" data-src="/assets/app/screens/android-device-grey.png"/>
 
                 <noscript>
-                    <img class="app__device__screen js-lazyload" src="/assets/app/screens/android-screenshot-<:- $screen.name :>.jpg"/>
+                    <img class="app__device__screen" src="/assets/app/screens/android-screenshot-<:- $screen.name :>.jpg"/>
                 </noscript>
                 <img class="app__device__screen js-lazyload no-js__hide" src="" data-src="/assets/app/screens/android-screenshot-<:- $screen.name :>.jpg"/>
             </div>
             <div class="app__device app__device--<:- $screen.position :> app__device--ios is-invisible js-device">
                 <noscript>
-                    <img class="app__device__frame js-lazyload" src="/assets/app/screens/ios-device-grey.png"/>
+                    <img class="app__device__frame" src="/assets/app/screens/ios-device-grey.png"/>
                 </noscript>
                 <img class="app__device__frame js-lazyload no-js__hide" src="" data-src="/assets/app/screens/ios-device-grey.png"/>
 
                 <noscript>
-                    <img class="app__device__screen js-lazyload" src="/assets/app/screens/ios-screenshot-<:- $screen.name :>.jpg"/>
+                    <img class="app__device__screen" src="/assets/app/screens/ios-screenshot-<:- $screen.name :>.jpg"/>
                 </noscript>
                 <img class="app__device__screen js-lazyload no-js__hide" src="" data-src="/assets/app/screens/ios-screenshot-<:- $screen.name :>.jpg"/>
             </div><:- } :>
