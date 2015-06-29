@@ -8,7 +8,7 @@
 			<div class="timeline__panel  is-active  js-timeline-item" data-date="START">
 				<div class="timeline__cw">
 					<noscript>
-						<img class="timeline__logo js-lazysvg no-js__hide" src="/assets/dax-alt.png" />
+						<img class="timeline__logo js-lazysvg" src="/assets/dax-alt.png" />
 					</noscript>
 					<img class="timeline__logo js-lazysvg no-js__hide" src="" data-src="/assets/dax-alt" />
 					<h1 class="timeline__title">Take back your privacy!</h1>
