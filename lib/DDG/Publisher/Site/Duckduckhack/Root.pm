@@ -2,6 +2,7 @@ package DDG::Publisher::Site::Duckduckhack::Root;
 
 use MooX;
 
+use Encode;
 use IO::All;
 use Data::Dumper;
 use DDP;
@@ -9,6 +10,7 @@ use DDP;
 use File::Path qw(make_path);
 use File::Find;
 use File::chdir;
+use File::Slurp;
 
 use Path::Class;
 
@@ -253,7 +255,7 @@ sub pages {
 		($dir_rel,$file) = $file =~ /^(.*)\/(.*)/ if $file =~ /\//;
 		#	warn qq($dir_rel\t$file\n);;
 
-		my $markdown = io($name)->slurp;
+		my $markdown = read_file($name, binmode => ":utf8");
 
 		# Replaces hard github links to other markdown files to our newly converted relative links
 		$markdown =~ s~(\]\()https://github.com/duckduckgo/duckduckgo-documentation/blob/master/duckduckhack/(?:[^\/\.]+\/){1,4}([^\.]+?)\.md([^\)]*?\))~$1$2$3~sg;
@@ -269,7 +271,7 @@ sub pages {
 		#	make_path("$dir_output/$dir_rel") if $dir_rel;
 		#	open(IN,">$dir_output/$dir_rel/$file.html");
 		my $buffer = q{};
-		open my $fh, '>', \$buffer;
+		open my $fh, '>:utf8', \$buffer;
 
 		my $handler = Markdent::Handler::HTMLStream::Document->new(
 			title => $name,
@@ -280,7 +282,7 @@ sub pages {
 		my $parser = Markdent::Parser->new( dialect => 'GitHub', handler => $handler );
 		$parser->parse( markdown => $markdown );
 
-		my $html = $buffer;
+		my $html = decode_utf8($buffer);
 
 		# Gets embedded in wrapped html.
 		$html =~ s/^.*?<html>.*?<\/head>\s*<body>\s*//s;
