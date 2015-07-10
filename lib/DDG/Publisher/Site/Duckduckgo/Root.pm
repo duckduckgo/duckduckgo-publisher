@@ -142,7 +142,7 @@ sub pages {{
 			title => 'Operations',
 			info => 'Gamer Ops',
 			image => 'jeffrey',
-			link => 'http://http://jeffrey.vanneste.ca/',
+			link => 'http://jeffrey.vanneste.ca/',
 		},{
 			name => 'We’re hiring',
 			msg => 'Come work with us!',
