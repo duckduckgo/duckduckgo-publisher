@@ -153,7 +153,7 @@ sub pages {{
 		ddg_events => [{
 			date => 'February 29, 2008',
 			title => 'We Hatched',
-			snippet => 'DuckDuckGo began as a idea for a better search experience with more instant answers and less spam. We hatched out of a few servers in a dusty basement.',
+			snippet => 'DuckDuckGo began as an idea for a better search experience with more instant answers and less spam. We hatched out of a few servers in a dusty basement.',
 			type => 'company',
 			icon => 'idea-b',
 			year => '2008',
