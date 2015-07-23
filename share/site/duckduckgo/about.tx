@@ -115,7 +115,7 @@ Smarter search without the tracking.
 <br>Join the community and help improve DuckDuckGo.</p>
 		<div class="abt__row">
 			<div class="abt__key  third  half--screen-m">
-				<a href="http://duckduckhack.com">
+				<a class="abt__key__title-link" href="http://duckduckhack.com">
 					<noscript>
 						<img class="abt__key__icon" src="/assets/about/icons/build.png" />
 					</noscript>
@@ -125,7 +125,7 @@ Smarter search without the tracking.
 				<p>Help people find find what they're looking for in fewer clicks! Extend our search engine with better instant answers on your favorite topics.</p>
 				<a class="abt__key__link" href="http://duckduckhack.com">Hack DuckDuckGo</a>
 			</div><div class="abt__key  third  half--screen-m">
-				<a href="/spread">
+				<a class="abt__key__title-link" href="/spread">
 					<noscript>
 						<img class="abt__key__icon" src="/assets/about/icons/love.png" />
 					</noscript>
@@ -135,7 +135,7 @@ Smarter search without the tracking.
 				<p>Everyone could use real privacy, but not everyone knows how to get it. Join the other DuckDuckGo users who are getting their friends and family to make the switch.</p>
 				<a class="abt__key__link" href="/spread">Share DuckDuckGo</a>
 			</div><div class="abt__key  third  half--screen-m">
-				<a href="https://duck.co/translate">
+				<a class="abt__key__title-link" href="https://duck.co/translate">
 					<noscript>
 						<img class="abt__key__icon" src="/assets/about/icons/community.png" />
 					</noscript>
