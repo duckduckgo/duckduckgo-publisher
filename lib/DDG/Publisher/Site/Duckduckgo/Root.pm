@@ -144,6 +144,18 @@ sub pages {{
 			image => 'jeffrey',
 			link => 'http://jeffrey.vanneste.ca/',
 		},{
+			name => 'Eric Johnson',
+			title => 'Operations',
+			info => 'Ice cream every meal',
+			image => 'eric',
+			link => 'http://blog.kablamo.org/',
+		},{
+			name => 'Blake Jennelle',
+			title => 'Search',
+			info => 'Powered by Avocado',
+			image => 'blake',
+			link => 'http://twitter.com/bjennelle',
+		},{
 			name => 'We’re hiring',
 			msg => 'Come work with us!',
 			icon => 'person-alt',
