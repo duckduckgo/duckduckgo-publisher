@@ -20,8 +20,8 @@
 
 <link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="/opensearch.xml">
 
-<meta name="twitter:site" value="@duckduckgo">
-<meta name="twitter:url" value="https://duckduckgo.com<: $url :>">
+<meta name="twitter:site" content="@duckduckgo">
+<meta name="twitter:url" content="https://duckduckgo.com<: $url :>">
 
 <meta property="og:url" content="https://duckduckgo.com<: $url :>" />
 <meta property="og:site_name" content="DuckDuckGo" />
