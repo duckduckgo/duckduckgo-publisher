@@ -387,7 +387,7 @@ sub pages {{
 		hero_header => 1,
 		hero_header_text => 1,
 		css_serp => 1,
-		icons => ['loupe','menu','region','star','music','marker','home','more','eye','check','cry','clock','user','users','comment','plus','minus','close','close-bold','move','grid','uploaded','upload','download','heart','play','pause','t-up','t-down','t-left','t-right','prev','next','left','right','down','up','left-big','right-big','check-sign','right-sign','left-sign','more-sign','less-sign','info','circle','alert','swap','football','cloudsave','arrow-top','news'],
+		icons => ['alert','arrow-down','arrow-left','arrow-right','arrow-top','arrow-up','check','check-sign','circle','clock','close','close-bold','cloudsave','comment','cry','down','download','eye','football','grid','heart','home','info','left','left-big','left-sign','less-sign','loupe','marker','menu','minus','more','more-sign','move','music','news','next','pause','play','plus','prev','region','right','right-big','right-sign','star','swap','t-down','t-left','t-right','t-up','up','upload','uploaded','user','users',],
 		colors => ['white','silver-light','silver','silver-dark','platinum-light','platinum','platinum-dark','platinum-darker','grey-light','grey','grey-dark','slate-light','slate','red-light','red','red-dark','blue-light','blue','blue-dark','green','gold','purple',],
 	},
 	spread => sub {
