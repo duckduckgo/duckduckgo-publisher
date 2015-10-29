@@ -361,6 +361,7 @@ sub pages {{
 	},
 	bang => sub {
 		nav_footer => 1,
+		no_footer_arrow => 1,
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
