@@ -34,7 +34,7 @@
 		</div>
 	</div>
 </div>
-<div class="abt  blk  blk--alt  blk--arr">
+<div class="abt  blk  blk--arr">
 	<div class="cw--c">
 		<h2 class="abt__title">About Us</h2>
 		<p class="abt__sub">
@@ -72,7 +72,11 @@ Smarter search without the tracking.
 		</div>
 	</div>
 </div>
-<div class="abt  blk  blk--hero  blk--arr">
+<div>
+	<div id='map'></div>
+	<script src="/assets/about/map/map.js"></script>	
+</div>
+<div class="abt  blk  blk--hero">
 	<a name="getinvolved" class="anchor js-anchor"></a>
 	<div class="cw--c">
 		<h2 class="abt__title">Get Involved</h2>
