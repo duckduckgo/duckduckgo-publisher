@@ -73,7 +73,7 @@ Smarter search without the tracking.
 	</div>
 </div>
 <div>
-	<div id='map'></div>
+	<div id="team-map"></div>
 	<script src="/assets/about/map/map.js"></script>	
 </div>
 <div class="abt  blk  blk--hero">
