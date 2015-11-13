@@ -75,7 +75,6 @@ Smarter search without the tracking.
 <div class="map">
 	<h2 class="abt__title map__title">Meet Our Global Team</h2>
 	<div id="team-map"></div>
-	<script src="/assets/about/map/map.js"></script>	
 </div>
 <div class="abt  blk  blk--hero">
 	<a name="getinvolved" class="anchor js-anchor"></a>
