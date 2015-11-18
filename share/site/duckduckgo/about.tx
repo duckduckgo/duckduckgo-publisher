@@ -72,9 +72,9 @@ Smarter search without the tracking.
 		</div>
 	</div>
 </div>
-<div class="map">
+<div class="map no-js__hide">
 	<h2 class="abt__title map__title">Meet Our Global Team</h2>
-	<div id="team-map"></div>
+	<div id="team-map" class="js-team-map"></div>
 </div>
 <div class="abt  blk  blk--hero">
 	<a name="getinvolved" class="anchor js-anchor"></a>
