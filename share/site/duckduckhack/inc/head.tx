@@ -7,8 +7,8 @@
 
 <link rel="canonical" href="https://duckduckhack.com">
 
-<link rel="stylesheet" href="<: $asset_path :><: $ENV.DDG_DYNAMIC_CSS_FILE || '/style.css' :>" type="text/css">
-<link rel="stylesheet" href="<: $asset_path :><: $ENV.DDG_DYNAMIC_CSS_2_FILE || '/static.css' :>" type="text/css">
+<link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_FILE || $asset_path ~ '/style.css' :>" type="text/css">
+<link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_2_FILE || $asset_path ~ '/static.css' :>" type="text/css">
 
 <meta name="twitter:site" value="@duckduckhack">
 <meta name="twitter:url" value="https://duckduckhack.com">
