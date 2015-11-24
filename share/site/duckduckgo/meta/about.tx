@@ -26,5 +26,6 @@
 
 <!-- mapbox -->
 <script src="/js/mapbox/mapbox-2.2.3.js"></script>
+<script src="/js/mapbox/leaflet.markercluster-0.4.0.js"></script>
 <link href="/js/mapbox/mapbox-2.2.3.css" rel="stylesheet"/>
 
