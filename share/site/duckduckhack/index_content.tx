@@ -62,6 +62,17 @@
 		</div>
 	</div>
 </div>
+<div class="blk blk--arr ddh">
+    <div class="cw--c">
+        <h2 class="ddh__title"><: l("Join a Community") :></h2>
+        <p class="ddh__sub"><: l("The best way to get plugged in is to join one of our thriving communities") :></p>
+        <div class="gw">
+            <div class="g third">Slack</div>
+            <div class="g third">Meetup</div>
+            <div class="g third">Twitter</div>
+        </div>
+   </div>
+</div>
 <div class="blk  blk--arr  ddh">
 	<div class="cw--c">
 		<h2 class="ddh__title"><: l("What others have said about DuckDuckHack...") :></h2>
