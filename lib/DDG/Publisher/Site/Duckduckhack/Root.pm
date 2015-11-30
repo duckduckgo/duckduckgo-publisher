@@ -192,7 +192,7 @@ sub pages {
 			name => 'Regex cheat sheet',
 			desc => 'Quickly see regex syntax',
 			user => 'mintsoft',
-			link => 'https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/RegexCheatSheet.pm',
+			link => 'https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/share/goodie/cheat_sheets/json/regex.json',
 			example_link => 'https://duckduckgo.com/?q=regex+cheat+sheet&t=ffab&ia=answer',
 		},{
 			name => 'Timer',
