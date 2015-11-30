@@ -143,6 +143,7 @@ sub get_nav {
 my $dir_output = '/usr/local/ddg/www-static/duckduckhack.com/tmp';
 
 sub pages {
+	return {} if $ENV{DDH_SKIP_DOCS_BUILD};
 	my $self = shift;
 
 	my %pages = ();
