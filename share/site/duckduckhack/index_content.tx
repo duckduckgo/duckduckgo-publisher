@@ -62,7 +62,7 @@
 		</div>
 	</div>
 </div>
-<div class="blk blk--arr ddh">
+<div class="blk blk--alt ddh">
     <div class="cw--c">
         <h2 class="ddh__title"><: l("Join a Community") :></h2>
         <p class="ddh__sub"><: l("The best way to get plugged in is to join one of our thriving communities") :></p>
