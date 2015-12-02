@@ -62,14 +62,50 @@
 		</div>
 	</div>
 </div>
-<div class="blk blk--alt ddh">
+<div class="blk blk--alt ddh ddh--comm">
     <div class="cw--c">
         <h2 class="ddh__title"><: l("Join a Community") :></h2>
         <p class="ddh__sub"><: l("The best way to get plugged in is to join one of our thriving communities") :></p>
-        <div class="gw">
-            <div class="g third">Slack</div>
-            <div class="g third">Meetup</div>
-            <div class="g third">Twitter</div>
+        <div class="gw ddh-communities">
+            <div class="g third ddh-community">
+                <a target="_slack" href="https://duck.co/duckduckhack/ddh-intro">
+                    <div class="bg-clr--blue-light tx-clr--white">
+                        <span class="tx--17 tx-lt"><: l("Join") :></span>
+                        <span class="tx--25 tx-bld">#duckduckhack</span>
+                    </div>
+                    <span class="ddh-community-circle"></span>
+                    <div class="bg-clr--white text--secondary">
+                        <span class="ddh__title js-ddh-slackers">214</span>
+                        <span class="tx--17 tx-lt"><: l("Online") :></span>
+                    </div>
+                </a>
+            </div>
+            <div class="g third ddh-community">    
+                <a target="_quacknhack" href="http://www.meetup.com/pro/duckduckgo/">
+                    <div class="bg-clr--blue-light tx-clr--white">
+                        <span class="tx--17 tx-lt"><: l("Meet Up") :></span>
+                        <span class="tx--25 tx-bld">Global Quack & Hack</span>
+                    </div> 
+                    <span class="ddh-community-circle"><span class="tx--17 tx-lt">JAN</span><span class="tx--25 tx-bld">30</span></span>
+                    <div class="bg-clr--white text--secondary">
+                        <span class="ddh__title">19</span>
+                        <span class="tx--17 tx-lt"><: l("Locations Worldwide") :></span>
+                    </div>
+                </a>
+            </div>
+            <div class="g third ddh-community">  
+                <a target="_twitter" href="https://twitter.com/duckduckhack">
+                    <div class="bg-clr--blue-light tx-clr--white">
+                        <span class="tx--17 tx-lt"><: l("Follow") :></span>
+                        <span class="tx--25 tx-bld">@duckduckhack</span>
+                    </div>
+                    <span class="ddh-community-circle icon-twitter"></span>
+                    <div class="bg-clr--white text--secondary">
+                        <span class="ddh__title js-ddh-tweeters">6,197</span>
+                        <span class="tx--17 tx-lt"><: l("Followers") :></span>
+                    </div>
+                </a>    
+            </div>
         </div>
    </div>
 </div>
