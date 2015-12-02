@@ -7,6 +7,9 @@ var settings_js_version = "<: $asset_path :><: $ENV.DDG_DYNAMIC_SETTINGS_JS_FILE
 <: if $js_include_g { :>
 <script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_DYNAMIC_JS_2_FILE || '/serp.js' :>"></script>
 <: } :>
+<: if !$homepage { :>
+<script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_DYNAMIC_JS_3_FILE || '/static.js' :>"></script>
+<: } :>
 <: if !$js_skip_init { :>
 <script type="text/javascript">
     DDG.page = new DDG.Pages.<: if $js_page_type { $js_page_type } else if $homepage { :>Home<: } else { :>Static<: } :>();
