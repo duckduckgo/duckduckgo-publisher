@@ -16,7 +16,7 @@ duckpan \
 	DDG \
 	DDGC::Locale::DuckduckgoDuckduckgo \
 	DDGC::Locale::DuckduckgoDontbubbleus \
-	DDGC::Locale::DuckduckgoDonttrackus \
+	DDGC::Locale::DuckduckgoDonttrackus
 ```
 
 # Publishing
