@@ -8,7 +8,7 @@ var settings_js_version = "<: $asset_path :><: $ENV.DDG_DYNAMIC_SETTINGS_JS_FILE
 <script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_DYNAMIC_JS_2_FILE || '/serp.js' :>"></script>
 <: } :>
 <: if !$homepage { :>
-<script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_DYNAMIC_JS_3_FILE || '/static.js' :>"></script>
+<script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_DYNAMIC_STATIC_JS_FILE || '/static.js' :>"></script>
 <: } :>
 <: if !$js_skip_init { :>
 <script type="text/javascript">

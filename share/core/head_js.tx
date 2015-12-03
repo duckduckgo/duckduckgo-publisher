@@ -5,7 +5,7 @@
 <script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_DYNAMIC_JS_2_FILE || '/serp.js' :>"></script>
 <: } :>
 <: if $js_page_type && !$homepage { :>
-<script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_DYNAMIC_JS_3_FILE || '/static.js' :>"></script>
+<script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_DYNAMIC_STATIC_JS_FILE || '/static.js' :>"></script>
 <: } :>
 <: if !$js_skip_init { :>
 <script type="text/javascript">
