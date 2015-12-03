@@ -73,7 +73,7 @@
                         <span class="tx--17 tx-lt"><: l("Join") :></span>
                         <span class="tx--25 tx-bld">#duckduckhack</span>
                     </div>
-                    <span class="ddh-community-circle"></span>
+                    <span class="ddh-community-circle"><i class="fa fa-slack"></i></span>
                     <div class="bg-clr--white text--secondary">
                         <span class="ddh__title js-ddh-slackers">214</span>
                         <span class="tx--17 tx-lt"><: l("Online") :></span>
@@ -99,7 +99,7 @@
                         <span class="tx--17 tx-lt"><: l("Follow") :></span>
                         <span class="tx--25 tx-bld">@duckduckhack</span>
                     </div>
-                    <span class="ddh-community-circle icon-twitter"></span>
+                    <span class="ddh-community-circle icon-twitter"><i class="fa fa-twitter"></i></span>
                     <div class="bg-clr--white text--secondary">
                         <span class="ddh__title js-ddh-tweeters">6,197</span>
                         <span class="tx--17 tx-lt"><: l("Followers") :></span>
