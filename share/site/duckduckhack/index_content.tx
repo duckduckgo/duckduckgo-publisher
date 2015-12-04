@@ -27,6 +27,23 @@
 		</div>
 	</div>
 </div>
+<div class="blk bg-clr--midnight tx-clr--white ddh">
+    <div class="cw--c">
+        <h2 class="ddh__title"><: l("Power of Instant Answers") :></h2>
+        <p class="ddh__sub"><: l("Instant Answers are tailor-made for specific queries") :><br><: l("Check them out!") :></p>
+        <div class="gw ddh-ias">
+            <div class="g third ddh-ia">
+                <h3>630</h3>
+                <span><: l("Live") :></span>
+                <a href="">View All</a>
+            </div>
+            <div class="g third ddh-ia">    
+            </div>
+            <div class="g third ddh-ia">  
+            </div>
+        </div>
+    </div>
+</div>
 <div class="blk  blk--alt  blk--arr--white  ddh"><a class="anchor ddh-anchor js-anchor" name="start"></a>
 	<div class="cw--c">
 		<h2 class="ddh__title"><: l("Thanks for getting involved!") :></h2>
@@ -75,7 +92,7 @@
                     </div>
                     <span class="ddh-community-circle"><i class="fa fa-slack"></i></span>
                     <div class="bg-clr--white text--secondary">
-                        <span class="ddh__title js-ddh-slackers">214</span>
+                        <span class="ddh__title js-ddh-slackers"></span>
                         <span class="tx--17 tx-lt"><: l("Online") :></span>
                     </div>
                 </a>
