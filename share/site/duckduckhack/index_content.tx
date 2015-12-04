@@ -1,4 +1,4 @@
-<div class="blk  blk--hero  blk--hero--alt  js-hero-slides"><a class="anchor ddh-anchor js-anchor" name="top"></a>
+ <div class="blk  blk--hero  blk--hero--alt  js-hero-slides"><a class="anchor ddh-anchor js-anchor" name="top"></a>
 	<div class="cw--c  ddh-hero">
 		<div class="ddh-hero-slides">
 		<: for $hero_slides -> $h { :><div class="ddh-hero-slides__item  js-hero-text">
@@ -27,19 +27,28 @@
 		</div>
 	</div>
 </div>
-<div class="blk bg-clr--midnight tx-clr--white ddh">
+<div class="blk blk--ias tx-clr--white ddh">
     <div class="cw--c">
         <h2 class="ddh__title"><: l("Power of Instant Answers") :></h2>
-        <p class="ddh__sub"><: l("Instant Answers are tailor-made for specific queries") :><br><: l("Check them out!") :></p>
+        <p class="ddh__sub"><: l("Instant Answers are tailor-made for specific queries") :></p>
         <div class="gw ddh-ias">
-            <div class="g third ddh-ia">
-                <h3>630</h3>
-                <span><: l("Live") :></span>
-                <a href="">View All</a>
+            <div class="g third ddh-ia tx--17">
+                <h3 class="ddh-ia__number tx-bld js-ddh-ia--live">630</h3>
+                <span class="ddh-ia__status"><: l("Live") :></span>
+                <p class="tx-clr--grey-light">Bacon ipsum dolor amet chuck drumstick shank chicken, t-bone rump beef jowl pork loin tenderloin bresaola porchetta beef ribs boudin pork.</p> 
+                <a class="ddh-ia__link tx-bld" href=""><i class="fa fa-chevron-circle-right"></i>View All</a>
             </div>
-            <div class="g third ddh-ia">    
+            <div class="g third ddh-ia tx--17">    
+                <h3 class="ddh-ia__number tx-bld js-ddh-ia--development">182</h3>
+                <span class="ddh-ia__status"><: l("In Development") :></span>
+                <p class="tx-clr--grey-light">Bacon ipsum dolor amet chuck drumstick shank chicken, t-bone rump beef jowl pork loin tenderloin bresaola porchetta beef ribs boudin pork.</p> 
+                <a class="ddh-ia__link tx-bld" href=""><i class="fa fa-chevron-circle-right"></i>Contribute</a>
             </div>
-            <div class="g third ddh-ia">  
+            <div class="g third ddh-ia tx--17">  
+                <h3 class="ddh-ia__number tx-bld js-ddh-ia--beta">39</h3>
+                <span class="ddh-ia__status"><: l("In Beta") :></span>
+                <p class="tx-clr--grey-light">Bacon ipsum dolor amet chuck drumstick shank chicken, t-bone rump beef jowl pork loin tenderloin bresaola porchetta beef ribs boudin pork.</p> 
+                <a class="ddh-ia__link tx-bld" href=""><i class="fa fa-chevron-circle-right"></i>Beta Server</a>
             </div>
         </div>
     </div>
