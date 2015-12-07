@@ -68,7 +68,7 @@
 					<p class="ddh-cta__sub"><: l("Create an Instant Answer") :></p>
 					
 					<p class="ddh-cta__text"><: l("Bring your Instant Answer idea to life! Harness great data sources to improve search results for the topics you care most about.") :></p>
-					<a href="https://duck.co/duckduckhack/ddh-intro" class="ddh-cta__btn  btn  btn--primary"><: l("Develop") :></a>
+					<a href="https://duck.co/ia/new_ia" class="ddh-cta__btn  btn  btn--primary"><: l("Develop") :></a>
 				</div>
 			</div>
 			<span class="ddh__split__divide"><: l("OR") :></span>
@@ -82,7 +82,7 @@
 					<p class="ddh-cta__sub"><: l("Share ideas and feedback") :></p>
 					
 					<p class="ddh-cta__text"><: l("There's no better way than getting your hands dirty! Improve the platform while understanding how code works...") :></p>
-					<a href="https://duck.co/ideas" class="ddh-cta__btn  btn  btn--primary"><: l("Fix") :></a>
+					<a href="https://duck.co/ia/dev/issues" class="ddh-cta__btn  btn  btn--primary"><: l("Fix") :></a>
 				</div>
 			</div>
 		</div>
