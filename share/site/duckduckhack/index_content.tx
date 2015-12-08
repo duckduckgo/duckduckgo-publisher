@@ -88,6 +88,31 @@
 		</div>
 	</div>
 </div>
+<div class="blk blk--arr ddh ddh--help">
+    <div class="cw--c">
+        <h2 class="ddh__title"><: l("Need Help Getting Started?") :></h2>
+        <p class="ddh__sub"><: l("You can always ") :><a target="_docs" href="https://duck.co/duckduckhack/ddh-intro"><: l("check out our docs") :></a><: l(" for more info!") :></p>
+        <div class="gw">
+            <div class="g half">
+                <a class="ddh-help-item" target="_cheatsheet" href="https://duck.co/duckduckhack/goodie_cheat_sheets">
+                    <div class="twenty ddh-help-num ddh__title">01</div>
+                    <div class="eighty t-xxl"><span>How do I create a cheatsheet?</span></div>
+                </a>    
+                <a class="ddh-help-item" target="_account" href="https://duck.co/my/register">
+                    <span class="twenty ddh-help-num ddh__title">02</span><span class="eighty t-xxl">How do I create a Duck.co Account?</span>
+                </a>
+            </div>
+            <div class="g half">   
+                <a class="ddh-help-item" target="_environment" href="https://duck.co/duckduckhack/setup_dev_environment">
+                    <span class="twenty ddh-help-num ddh__title">03</span><span class="eighty t-xxl">How do I set up my own development environment?</span>
+                </a>
+                <a class="ddh-help-item" target="_duckpan" href="https://duck.co/duckduckhack/other_development_environments">
+                    <span class="twenty ddh-help-num ddh__title">04</span><span class="eighty t-xxl">How do I get started with DuckPan? What is DuckPan?</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="blk blk--alt ddh ddh--comm">
     <div class="cw--c">
         <h2 class="ddh__title"><: l("Join a Community") :></h2>
