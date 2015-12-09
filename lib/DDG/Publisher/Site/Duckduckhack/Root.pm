@@ -33,7 +33,7 @@ sub pages {
 			img => 'regex',
 			tab => 'Regex',
 			user => 'mintsoft',
-			link => 'https://duckduckgo.com/?q=regex+cheat+sheet&ia=answer',
+			link => 'https://duckduckgo.com/?q=regex+cheat+sheet&ia=cheatsheet',
 		},{
 			text => "With the help of you and our community, every search can have an Instant Answer.",
 			img => 'recipes',
@@ -57,8 +57,8 @@ sub pages {
 			name => 'Regex cheat sheet',
 			desc => 'Quickly see regex syntax',
 			user => 'mintsoft',
-			link => 'https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/lib/DDG/Goodie/RegexCheatSheet.pm',
-			example_link => 'https://duckduckgo.com/?q=regex+cheat+sheet&t=ffab&ia=answer',
+			link => 'https://github.com/duckduckgo/zeroclickinfo-goodies/blob/master/share/goodie/cheat_sheets/json/regex.json',
+			example_link => 'https://duckduckgo.com/?q=regex+cheat+sheet&t=ffab&ia=cheatsheet',
 		},{
 			name => 'Timer',
 			desc => 'Set a timer for any occasion',
