@@ -53,7 +53,7 @@
 
 <p>Another way to prevent search leakage is by using something called a <a href="/?q=POST+request">POST request</a>, which has the effect of not showing your search in your browser, and, as a consequence, does not send it to other sites. You can turn on POST requests on our <a href="/settings">settings page</a>, but it has its own issues. POST requests usually break browser back buttons, and they make it impossible for you to easily share your search by copying and pasting it out of your Web browser's address bar.</p>
 
-<p>Finally, if you want to prevent sites from knowing you visited them at all, you can use a proxy like <a href="https://www.torproject.org/">Tor</a>. DuckDuckGo actually operates a <a href="http://ye.gg/tor">Tor exit enclave</a>, which means you can get end to end anonymous and encrypted searching using Tor & DDG together.</p>
+<p>Finally, if you want to prevent sites from knowing you visited them at all, you can use a proxy like <a href="https://www.torproject.org/">Tor</a>. DuckDuckGo actually operates a <a href="https://duck.co/help/privacy/tor-exit-enclave">Tor exit enclave</a>, which means you can get end to end anonymous and encrypted searching using Tor & DDG together.</p>
 
 <p>You can enter !proxy domain into DuckDuckGo as well, and we will route you through a proxy, e.g. <a href="/?q=!proxy+breadpig.com">!proxy breadpig.com</a>. This feature is part of our <a href="/bang">!bang syntax</a>. Unfortunately, proxies can also be slow, and free proxies (like the one we use) are funded by arguably excessive advertising.</p>
 

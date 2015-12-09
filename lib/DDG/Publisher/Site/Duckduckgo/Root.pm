@@ -18,150 +18,6 @@ sub pages {{
 		hero_header => 1,
 		hero_header_text => 1,
 		js_page_type => 'About',
-		team_members => [{
-			name => 'Gabriel Weinberg',
-			title => 'Founder',
-			info => 'Family guy',
-			image => 'gabriel',
-			link => 'https://twitter.com/yegg/',
-		},{
-			name => 'Caine Tighe',
-			title => 'Search',
-			info => 'Border Collie',
-			image => 'caine',
-			link => 'http://opensesame.st/',
-		},{
-			name => 'Zac Pappis',
-			title => 'Community',
-			info => 'Lead Vocalist',
-			image => 'zac',
-			link => 'https://twitter.com/zacpappis',
-		},{
-			name => 'Prakash Swaminathan',
-			title => 'BizDev',
-			info => 'Sports fan',
-			image => 'prakash',
-		},{
-			name => 'Russell Holt',
-			title => 'Platform',
-			info => 'Geek Dad',
-			image => 'russell',
-			link => 'http://beicheequi9vieveetohc3aequohngu0ohsh2zeihef7eecha9op7choofohcae.com/',
-		},{
-			name => 'Jaryd Malbin',
-			title => 'Operations',
-			info => 'BOFH',
-			image => 'jaryd',
-			link => 'https://jaryd.org',
-		},{
-			name => 'Doug Brown',
-			title => 'Search',
-			info => 'Coffee Snob',
-			image => 'doug',
-			link => 'https://twitter.com/sdougbrown',
-		},{
-			name => 'Chris Morast',
-			title => 'Design',
-			info => 'Margarita Enthusiast',
-			image => 'chris',
-			link => 'http://christophermorast.com/',
-		},{
-			name => 'Jag Talon',
-			title => 'Platform',
-			info => 'Internet Survival Expert',
-			image => 'jag',
-			link => 'https://twitter.com/juantalon',
-		},{
-			name => 'Brian Stoner',
-			title => 'Search',
-			info => 'Person',
-			image => 'brian',
-			link => 'https://twitter.com/bsstoner',
-		},{
-			name => 'John Barrett',
-			title => 'Community',
-			info => 'Discombobulator',
-			image => 'john',
-			link => 'https://github.com/jbarrett/',
-		},{
-			name => 'Jason Dorweiler',
-			title => 'Platform',
-			info => 'Robot',
-			image => 'jason',
-			link => 'http://www.transistor.io',
-		},{
-			name => 'Maria Grazia Alastra',
-			title => 'Platform',
-			info => 'Time Traveler',
-			image => 'maria',
-			link => 'https://github.com/MariagraziaAlastra/',
-		},{
-			name => 'Abe Yang',
-			title => 'Design',
-			info => 'Hero',
-			image => 'abe',
-			link => 'https://twitter.com/abeyang',
-		},{
-			name => 'Thom van der Weerd',
-			title => 'Design',
-			info => 'Pixel Whisperer',
-			image => 'thom',
-			link => 'http://thomweerd.com/',
-		},{
-			name => 'Zaahir Moolla',
-			title => 'Platform',
-			info => 'Tool Connoisseur',
-			image => 'zaahir',
-			link => 'https://zaahir.ca',
-		},{
-			name => 'Tommy Leung',
-			title => 'Search',
-			info => 'Amateur Chef',
-			image => 'tommy',
-			link => 'http://www.tommyleung.com',
-		},{
-			name => 'Brian Buttrick',
-			title => 'Search',
-			info => 'For Science',
-			image => 'B2',
-			link => 'https://www.youtube.com/watch?v=NfG47NsWVYA',
-		},{
-			name => 'Zach Thompson',
-			title => 'Platform',
-			info => '42',
-			image => 'zach',
-			link => 'http://apod.nasa.gov/apod/',
-		},{
-			name => 'Adam Cochran',
-			title => 'BizDev',
-			info => 'Nerd-in-Residence',
-			image => 'adam',
-			link => 'http://nerdflock.com/',
-		},{
-			name => 'Jeffrey Vanneste',
-			title => 'Operations',
-			info => 'Gamer Ops',
-			image => 'jeffrey',
-			link => 'http://jeffrey.vanneste.ca/',
-		},{
-			name => 'Eric Johnson',
-			title => 'Operations',
-			info => 'Ice cream every meal',
-			image => 'eric',
-			link => 'http://blog.kablamo.org/',
-		},{
-			name => 'Blake Jennelle',
-			title => 'Search',
-			info => 'Powered by Avocado',
-			image => 'blake',
-			link => 'http://twitter.com/bjennelle',
-		},{
-			name => 'We’re hiring',
-			msg => 'Come work with us!',
-			icon => 'person-alt',
-			link => 'https://duck.co/help/company/hiring',
-		}],
-		
 		ddg_events => [{
 			date => 'February 29, 2008',
 			title => 'We Hatched',
@@ -361,6 +217,7 @@ sub pages {{
 	},
 	bang => sub {
 		nav_footer => 1,
+		no_footer_arrow => 1,
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
@@ -387,7 +244,7 @@ sub pages {{
 		hero_header => 1,
 		hero_header_text => 1,
 		css_serp => 1,
-		icons => ['loupe','menu','region','star','music','marker','home','more','eye','check','cry','clock','user','users','comment','plus','minus','close','close-bold','move','grid','uploaded','upload','download','heart','play','pause','t-up','t-down','t-left','t-right','prev','next','left','right','down','up','left-big','right-big','check-sign','right-sign','left-sign','more-sign','less-sign'],
+		icons => ['alert','arrow-down','arrow-left','arrow-right','arrow-top','arrow-up','check','check-sign','circle','clock','close','close-bold','cloudsave','comment','cry','down','download','eye','football','grid','heart','home','info','left','left-big','left-sign','less-sign','loupe','marker','menu','minus','more','more-sign','move','music','news','next','pause','play','plus','prev','region','right','right-big','right-sign','star','swap','t-down','t-left','t-right','t-up','up','upload','uploaded','user','users',],
 		colors => ['white','silver-light','silver','silver-dark','platinum-light','platinum','platinum-dark','platinum-darker','grey-light','grey','grey-dark','slate-light','slate','red-light','red','red-dark','blue-light','blue','blue-dark','green','gold','purple',],
 	},
 	spread => sub {
@@ -416,16 +273,7 @@ sub pages {{
 		hero_header => 1,
 		hero_header_text => 1,
 		js_page_type => 'App',
-		screens => [{
-			position => "left",
-			name => "favorites"
-		},{
-			position => "middle",
-			name => "feed"
-		},{
-			position => "right",
-			name => "story"
-		}],
+		screens => ["left","middle","right"],
 		reviews => [{
 			user_name => "Tepper Pass",
 			user_link => "https://play.google.com/store/people/details?id=111128213744500122312",

@@ -3,7 +3,7 @@
 	<div id="header" class="header  cw">
 		<div class="header__search-wrap">
 			<a href="/" class="header__logo-wrap">
-				<span class="header__logo">DuckDuckGo<span class="header__logo__tt">Duck it!</span></span>
+				<span class="header__logo">DuckDuckGo</span>
 			</a>
 			<div class="header__content  header__search  search-wrap--header">
 				<form id="search_form" class="search  search--header  js-search-form" name="x" action="<: if $absolute_search_url { :>https://duckduckgo.com<: } :>/">

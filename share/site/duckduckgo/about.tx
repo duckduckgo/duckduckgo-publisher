@@ -34,7 +34,7 @@
 		</div>
 	</div>
 </div>
-<div class="abt  blk  blk--alt  blk--arr">
+<div class="abt  blk  blk--arr">
 	<div class="cw--c">
 		<h2 class="abt__title">About Us</h2>
 		<p class="abt__sub">
@@ -66,48 +66,17 @@ Smarter search without the tracking.
 				<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/search-alt">
 				<h3 class="abt__key__title">Smarter Search</h3>
 				<h6 class="abt__key__sub">Get answers quicker.</h6>
-				<p>We help you get where you want to go in fewer clicks. We do that through instant answers, themes and !bangs. We have everything you expect and more.</p>
+				<p>It’s our goal to get you where you want to go in fewer clicks. We do that through instant answers, themes and !bangs. We have everything you’d expect and a whole lot more.</p>
 				<a class="abt__key__link" href="/tour">Take a Tour</a>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="abt  blk  blk--arr">
-	<div class="cw--c">
-		<h2 class="abt__title">Our Team</h2>
-		<p class="abt__sub">
-			Meet the DuckDuckGo core team and check out our full team <a href="https://twitter.com/duckduckgo/lists/team/members">on twitter</a>.
-			<br/>
-			Interested in working with us?  Check out our <a href="https://duck.co/help/company/hiring">hiring page</a>.
-		</p>
-		
-		<ul class="team"><:- for $team_members -> $team { -:><li class="team__m  js-team-toggle  sixth  quarter--screen-m  thirty--screen-s  fifty--screen-xs">
-				<: if $team.link {:><a href="<: $team.link :>"><:}:>
-				<span class="team__img-wrap">
-					<noscript>
-						<img class="team__img" src="/assets/about<: if $team.image { :>/team/<: $team.image :>.jpg<: } if $team.icon { :>/icons/<:$team.icon:>.png<: } :>" />
-					</noscript>
-					<: if $team.image { :>
-					<img class="team__img  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/<: $team.image :>.jpg" />
-					<: } if $team.icon { :>
-					<img class="team__img  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/<: $team.icon :>" />
-					<: } :>
-				</span>
-				<: if $team.link {:></a><:}:>
-				<div class="team__details">
-					<span class="team__name"><: $team.name :></span>
-					<: if $team.msg { :>
-					<span class="team__msg"><: $team.msg :></span>
-					<: } else { :>
-					<span class="team__title"><: $team.title :></span>
-					<span class="team__info"><: $team.info :></span>
-					<: } :>
-				</div>
-			</li><:- } -:>
-		</ul>
-	</div>
+<div class="map no-js__hide">
+	<h2 class="abt__title map__title">Meet Our Global Team</h2>
+	<div class="js-team-map"></div>
 </div>
-<div class="abt  blk  blk--hero  blk--arr">
+<div class="abt  blk  blk--hero">
 	<a name="getinvolved" class="anchor js-anchor"></a>
 	<div class="cw--c">
 		<h2 class="abt__title">Get Involved</h2>
@@ -122,7 +91,7 @@ Smarter search without the tracking.
 					<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/build">
 					<h3 class="abt__key__title">Hack</h3>
 				</a>
-				<p>Help people find what they're looking for in fewer clicks! Extend our search engine with better instant answers on your favorite topics.</p>
+				<p>Join the DuckDuckGo community to help people find what they're looking for in fewer clicks! Extend our search engine with better instant answers on your favorite topics.</p>
 				<a class="abt__key__link" href="http://duckduckhack.com">Hack DuckDuckGo</a>
 			</div><div class="abt__key  third  half--screen-m">
 				<a class="abt__key__title-link" href="/spread">

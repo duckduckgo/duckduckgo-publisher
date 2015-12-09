@@ -23,3 +23,9 @@
 <meta name="twitter:player:height" value="544">
 
 <link rel="image_src" href="/assets/about/about-duckduckgo-posterimg.jpg"/>
+
+<!-- mapbox -->
+<script src="/js/mapbox/mapbox-2.2.3.js"></script>
+<script src="/js/mapbox/leaflet.markercluster-0.4.0.js"></script>
+<link href="/js/mapbox/mapbox-2.2.3.css" rel="stylesheet"/>
+
