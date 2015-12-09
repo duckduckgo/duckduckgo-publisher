@@ -833,6 +833,6 @@
 <: include "popover.tx" {
 	linkSelector=>'.js-popover-two',
 	boxClass=>'guide-popover-box',
-	mainClass=>'popover--dk',
+	mainClass=>'modal--popover--dk',
 	content=>'<h1>Hi I&apos;m also a Popover</h1><p>I have a darker background.</p>'
 } :>
