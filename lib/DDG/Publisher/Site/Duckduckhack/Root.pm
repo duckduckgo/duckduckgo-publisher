@@ -20,6 +20,7 @@ sub pages {
 		hero_header_link => '',
 		hero_header_link_text => "Docs",
 		hero_alt => 1,
+        no_footer_arrow => 1,
 		asset_path => 'ddg',
 		js_page_type => 'DDH',
 		hero_slides => [{
