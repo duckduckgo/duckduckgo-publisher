@@ -772,19 +772,19 @@
 			<hr class="hr"/>
 			<p>Large tooltips for displaying extra content blocks.</p>
 			<div class="tile--s  tile--a  tile--mid  t-mid">
-				<div class="popout  guide-popout  popout--top"><div class="popout__body"><h2>Hello</h2><p>I'm a top popout</p></div></div>
-				<div class="popout  guide-popout  popout--left"><div class="popout__body"><h2>Hello</h2><p>I'm a left popout</p></div></div>
-				<div class="popout  guide-popout  popout--right"><div class="popout__body"><h2>Hello</h2><p>I'm a right popout</p></div></div>
-				<div class="popout  guide-popout  popout--bottom"><div class="popout__body"><h2>Hello</h2><p>I'm a bottom popout</p></div></div>
+				<div class="modal modal--popout  guide-popout  modal--popout--top"><div class="modal__box"><div class="modal__body"><h2>Hello</h2><p>I'm a top popout</p></div></div></div>
+				<div class="modal modal--popout  guide-popout  modal--popout--left"><div class="modal__box"><div class="modal__body"><h2>Hello</h2><p>I'm a left popout</p></div></div></div>
+				<div class="modal modal--popout  guide-popout  modal--popout--right"><div class="modal__box"><div class="modal__body"><h2>Hello</h2><p>I'm a right popout</p></div></div></div>
+				<div class="modal modal--popout  guide-popout  modal--popout--bottom"><div class="modal__box"><div class="modal__body"><h2>Hello</h2><p>I'm a bottom popout</p></div></div></div>
 			</div>
 			<p>Popouts are intended to be triggered via user interaction, and should be positioned relative to the triggering control.  They don't require any javascript positioning to accomplish this &mdash; they just need to specify size and direction via classnames, and to toggle the <tt>.is-showing</tt> class on interactions.</p>
 			
 			<div class="tile--s  tile--a  tile--mid  t-mid  guide-popout-wrapper">
 				<span class="btn  btn--disabled  popout-trig  guide-popout-trig">Popout Trigger 
-					<span class="popout-wrap  popout-wrap--top"><div class="popout  popout--lg  popout--top  is-showing  guide-popout--dy"><div class="popout__body"><h3>Large Open Popout</h3><p>Large size, top positioning.</p></div></div></span>
-					<span class="popout-wrap  popout-wrap--bottom"><div class="popout  popout--bottom  is-showing  guide-popout--dy"><div class="popout__body"><h3>Popout</h3><p>Default size, bottom positioning.</p></div></div></span>
-					<span class="popout-wrap  popout-wrap--left"><div class="popout  popout--sm  popout--left  is-showing  guide-popout--dy"><div class="popout__body"><h3>Popout</h3><p>Small size, left.</p></div></div></span>
-					<span class="popout-wrap  popout-wrap--right"><div class="popout  popout--sm  popout--right  is-showing  guide-popout--dy"><div class="popout__body"><h3>Popout</h3><p>Small size, right.</p></div></div></span>
+					<div class="modal modal--popout  modal--popout--lg  modal--popout--top  is-showing  guide-popout--dy"><div class="modal__box"><div class="modal__body"><h3>Large Open Popout</h3><p>Large size, top positioning.</p></div></div></div>
+					<div class="modal modal--popout  modal--popout--bottom  is-showing  guide-popout--dy"><div class="modal__box"><div class="modal__body"><h3>Popout</h3><p>Default size, bottom positioning.</p></div></div></div>
+					<div class="modal modal--popout  modal--popout--sm  modal--popout--left  is-showing  guide-popout--dy"><div class="modal__box"><div class="modal__body"><h3>Popout</h3><p>Small size, left.</p></div></div></div>
+					<div class="modal modal--popout  modal--popout--sm  modal--popout--right  is-showing  guide-popout--dy"><div class="modal__box"><div class="modal__body"><h3>Popout</h3><p>Small size, right.</p></div></div></div>
 				</span>
 			</div>
 			
@@ -833,6 +833,6 @@
 <: include "popover.tx" {
 	linkSelector=>'.js-popover-two',
 	boxClass=>'guide-popover-box',
-	mainClass=>'popover--dk',
+	mainClass=>'modal--popover--dk',
 	content=>'<h1>Hi I&apos;m also a Popover</h1><p>I have a darker background.</p>'
 } :>
