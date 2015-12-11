@@ -35,28 +35,28 @@
             <div class="g third ddh-ia tx--17">
                 <h3 class="ddh-ia__number tx-bld js-ddh-num--live">630</h3>
                 <span class="ddh-ia__status"><: l("Live") :></span>
-                <p class="tx-clr--grey-light">Bacon ipsum dolor amet chuck drumstick shank chicken, t-bone rump beef jowl pork loin tenderloin bresaola porchetta beef ribs boudin pork.</p> 
-                <a class="ddh-ia__link tx-bld" href=""><i class="fa fa-chevron-circle-right"></i>View All</a>
+                <p class="tx-clr--grey-light"><: l("Explore the variety of instant answers live on DuckDuckGo, from real-time APIs to full text search.") :></p>
+                <a class="ddh-ia__link tx-bld" href="https://duck.co/ia"><i class="fa fa-chevron-circle-right"></i><: l("View All") :></a>
             </div>
             <div class="g third ddh-ia tx--17">    
                 <h3 class="ddh-ia__number tx-bld js-ddh-num--development">182</h3>
                 <span class="ddh-ia__status"><: l("In Development") :></span>
-                <p class="tx-clr--grey-light">Bacon ipsum dolor amet chuck drumstick shank chicken, t-bone rump beef jowl pork loin tenderloin bresaola porchetta beef ribs boudin pork.</p> 
-                <a class="ddh-ia__link tx-bld" href=""><i class="fa fa-chevron-circle-right"></i>Contribute</a>
+                <p class="tx-clr--grey-light"><: l("The DuckDuckHack development pipeline helps the community view and manage IAs in development.") :></p> 
+                <a class="ddh-ia__link tx-bld" href="https://duck.co/ia/dev/pipeline"><i class="fa fa-chevron-circle-right"></i><: l("Dev Pipeline") :></a>
             </div>
             <div class="g third ddh-ia tx--17">  
                 <h3 class="ddh-ia__number tx-bld js-ddh-num--beta">39</h3>
                 <span class="ddh-ia__status"><: l("In Beta") :></span>
-                <p class="tx-clr--grey-light">Bacon ipsum dolor amet chuck drumstick shank chicken, t-bone rump beef jowl pork loin tenderloin bresaola porchetta beef ribs boudin pork.</p> 
-                <a class="ddh-ia__link tx-bld" href=""><i class="fa fa-chevron-circle-right"></i>Beta Server</a>
+                <p class="tx-clr--grey-light"><: l("Before they go live, IAs are installed on DuckDuckGo's beta server for the community to test.") :></p>
+                <a class="ddh-ia__link tx-bld" href="https://beta.duckduckgo.com/installed/?ia=iatesting&iax=1"><i class="fa fa-chevron-circle-right"></i><: l("Beta Server") :></a>
             </div>
         </div>
     </div>
 </div>
 <div class="blk  blk--alt  ddh"><a class="anchor ddh-anchor js-anchor" name="start"></a>
 	<div class="cw--c">
-		<h2 class="ddh__title"><: l("Thanks for getting involved!") :></h2>
-		<p class="ddh__sub"><: l("Help us point you in the right direction.") :></p>
+		<h2 class="ddh__title"><: l("Get involved!") :></h2>
+		<p class="ddh__sub"><: l("Take a look at what you can do to help!") :></p>
 		<div class="ddh__split">
 			<div class="ddh__split__item  half">
 				<div class="ddh-cta">
@@ -64,10 +64,10 @@
 						<img src="images/develop.png" class="ddh-cta__icon" />
 					</noscript>
 					<img src="" data-src="images/develop" class="ddh-cta__icon  js-lazysvg  no-js__hide" />
-					<h4 class="ddh-cta__title"><: l("I Want to Create") :></h4>
-					<p class="ddh-cta__sub"><: l("Create an Instant Answer") :></p>
+					<h4 class="ddh-cta__title"><: l("Create an Instant Answer") :></h4>
+					<p class="ddh-cta__sub"><: l("Build something new") :></p>
 					
-					<p class="ddh-cta__text"><: l("Bring your Instant Answer idea to life! Harness great data sources to improve search results for the topics you care most about.") :></p>
+					<p class="ddh-cta__text"><: l("For Developers, creating an IA is fun and rewarding. Utilize great data sources to improve search results for the topics you care most about.") :></p>
 					<a href="https://duck.co/ia/new_ia" class="ddh-cta__btn  btn  btn--primary"><: l("Develop") :></a>
 				</div>
 			</div>
@@ -78,11 +78,11 @@
 						<img src="images/bugfix.png" class="ddh-cta__icon" />
 					</noscript>
 					<img src="" data-src="images/bugfix" class="ddh-cta__icon  js-lazysvg  no-js__hide" />
-					<h4 class="ddh-cta__title"><: l("I Want to Fix") :></h4>
-					<p class="ddh-cta__sub"><: l("Share ideas and feedback") :></p>
+					<h4 class="ddh-cta__title"><: l("Review and Fix Bugs") :></h4>
+					<p class="ddh-cta__sub"><: l("Learn by squashing bugs") :></p>
 					
-					<p class="ddh-cta__text"><: l("There's no better way than getting your hands dirty! Improve the platform while understanding how code works...") :></p>
-					<a href="https://duck.co/ia/dev/issues" class="ddh-cta__btn  btn  btn--primary"><: l("Fix") :></a>
+					<p class="ddh-cta__text"><: l("Fixing issues is a great way to get involved in the community and contribute while learning. Help improve IAs you like and find inspiration for your own.") :></p>
+					<a href="https://duck.co/ia/dev" class="ddh-cta__btn  btn  btn--primary"><: l("Fix") :></a>
 				</div>
 			</div>
 		</div>
@@ -94,23 +94,23 @@
         <p class="ddh__sub"><: l("You can always ") :><a target="_docs" href="https://duck.co/duckduckhack/ddh-intro"><: l("check out our docs") :></a><: l(" for more info!") :></p>
         <div class="gw">
             <div class="g half">
-                <a class="ddh-help-item" target="_cheatsheet" href="https://duck.co/duckduckhack/goodie_cheat_sheets">
+                <a class="ddh-help-item" target="_cheatsheet" href="https://duck.co/duckduckhack/setup_dev_environment">
                     <span class="twenty ddh-help-num ddh__title">01</span>
-                    <span class="eighty t-xxl">How do I create a cheatsheet?</span>
+                    <span class="eighty t-xxl"><: l("How do I set up my development environment?") :></span>
                 </a>    
                 <a class="ddh-help-item" target="_account" href="https://duck.co/my/register">
                     <span class="twenty ddh-help-num ddh__title">02</span>
-                    <span class="eighty t-xxl">How do I create a Duck.co Account?</span>
+                    <span class="eighty t-xxl"><: l("How do I create a Duck.co Account?") :></span>
                 </a>
             </div>
             <div class="g half">   
-                <a class="ddh-help-item" target="_environment" href="https://duck.co/duckduckhack/setup_dev_environment">
+                <a class="ddh-help-item" target="_environment" href="https://duck.co/duckduckhack/goodie_cheat_sheets">
                     <span class="twenty ddh-help-num ddh__title">03</span>
-                    <span class="eighty t-xxl">How do I set up my own development environment?</span>
+                    <span class="eighty t-xxl"><: l("How do I create a Cheat Sheet?") :></span>
                 </a>
                 <a class="ddh-help-item" target="_duckpan" href="https://duck.co/duckduckhack/other_development_environments">
                     <span class="twenty ddh-help-num ddh__title">04</span>
-                    <span class="eighty t-xxl">How do I get started with DuckPan? What is DuckPan?</span>
+                    <span class="eighty t-xxl"><: l("How do I get started with DuckPan? What is DuckPan?") :></span>
                 </a>
             </div>
         </div>
