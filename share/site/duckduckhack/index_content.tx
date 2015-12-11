@@ -41,7 +41,7 @@
             <div class="g third ddh-ia tx--17">    
                 <h3 class="ddh-ia__number tx-bld js-ddh-num--development">182</h3>
                 <span class="ddh-ia__status"><: l("In Development") :></span>
-                <p class="tx-clr--grey-light"><: l("The DuckDuckHack development pipeline helps the community view and manage Instant Answers in development.") :></p> 
+                <p class="tx-clr--grey-light"><: l("The DuckDuckHack Dev Pipeline helps the community view and manage Instant Answers in development.") :></p> 
                 <a class="ddh-ia__link tx-bld" href="https://duck.co/ia/dev/pipeline"><i class="fa fa-chevron-circle-right"></i><: l("Dev Pipeline") :></a>
             </div>
             <div class="g third ddh-ia tx--17">  
