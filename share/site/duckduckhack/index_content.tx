@@ -27,28 +27,28 @@
 		</div>
 	</div>
 </div>
-<div class="blk blk--ias tx-clr--white ddh">
+<div class="blk tx-clr--white ddh ddh--ias">
     <div class="cw--c">
         <h2 class="ddh__title"><: l("Power of Instant Answers") :></h2>
         <p class="ddh__sub"><: l("Instant Answers are tailor-made for specific queries") :></p>
-        <div class="gw ddh-ias">
-            <div class="g third ddh-ia tx--17">
-                <h3 class="ddh-ia__number tx-bld js-ddh-num--live">630</h3>
-                <span class="ddh-ia__status"><: l("Live") :></span>
-                <p class="tx-clr--grey-light"><: l("Explore the variety of Instant Answers live on DuckDuckGo, from real-time APIs to full text search.") :></p>
-                <a class="ddh-ia__link tx-bld" href="https://duck.co/ia"><i class="fa fa-chevron-circle-right"></i><: l("View All") :></a>
+        <div class="gw ddh--ias__items">
+            <div class="g third ddh--ias__item tx--17">
+                <h3 class="ddh--ias__number tx-bld js-ddh-num--live">630</h3>
+                <span class="ddh--ias__status"><: l("Live") :></span>
+                <p class="ddh--ias__desc"><: l("Explore the variety of Instant Answers live on DuckDuckGo, from real-time APIs to full text search.") :></p>
+                <a class="ddh--ias__link tx-bld" href="https://duck.co/ia"><i class="ddh--ias__icon fa fa-chevron-circle-right"></i><: l("View All") :></a>
             </div>
-            <div class="g third ddh-ia tx--17">    
-                <h3 class="ddh-ia__number tx-bld js-ddh-num--development">182</h3>
-                <span class="ddh-ia__status"><: l("In Development") :></span>
-                <p class="tx-clr--grey-light"><: l("The DuckDuckHack Dev Pipeline helps the community view and manage Instant Answers in development.") :></p> 
-                <a class="ddh-ia__link tx-bld" href="https://duck.co/ia/dev/pipeline"><i class="fa fa-chevron-circle-right"></i><: l("Dev Pipeline") :></a>
+            <div class="g third ddh--ias__item tx--17">    
+                <h3 class="ddh--ias__number tx-bld js-ddh-num--development">182</h3>
+                <span class="ddh--ias__status"><: l("In Development") :></span>
+                <p class="ddh--ias__desc"><: l("The DuckDuckHack Dev Pipeline helps the community view and manage Instant Answers in development.") :></p> 
+                <a class="ddh--ias__link tx-bld" href="https://duck.co/ia/dev/pipeline"><i class="ddh--ias__icon fa fa-chevron-circle-right"></i><: l("Dev Pipeline") :></a>
             </div>
-            <div class="g third ddh-ia tx--17">  
-                <h3 class="ddh-ia__number tx-bld js-ddh-num--beta">39</h3>
-                <span class="ddh-ia__status"><: l("In Beta") :></span>
-                <p class="tx-clr--grey-light"><: l("Before they go live, Instant Answers are installed on DuckDuckGo's beta server for the community to test.") :></p>
-                <a class="ddh-ia__link tx-bld" href="https://beta.duckduckgo.com/installed/?ia=iatesting&iax=1"><i class="fa fa-chevron-circle-right"></i><: l("Beta Server") :></a>
+            <div class="g third ddh--ias__item tx--17">  
+                <h3 class="ddh--ias__number tx-bld js-ddh-num--beta">39</h3>
+                <span class="ddh--ias__status"><: l("In Beta") :></span>
+                <p class="ddh--ias__desc"><: l("Before they go live, Instant Answers are installed on DuckDuckGo's beta server for the community to test.") :></p>
+                <a class="ddh--ias__link tx-bld" href="https://beta.duckduckgo.com/installed/?ia=iatesting&iax=1"><i class="ddh--ias__icon fa fa-chevron-circle-right"></i><: l("Beta Server") :></a>
             </div>
         </div>
     </div>
