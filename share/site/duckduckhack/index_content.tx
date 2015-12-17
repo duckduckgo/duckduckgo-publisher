@@ -36,19 +36,19 @@
                 <h3 class="ddh--ias__number tx-bld js-ddh-num--live">630</h3>
                 <span class="ddh--ias__status"><: l("Live") :></span>
                 <p class="ddh--ias__desc"><: l("Explore the variety of Instant Answers live on DuckDuckGo, from real-time APIs to full text search.") :></p>
-                <a class="ddh--ias__link tx-bld" href="https://duck.co/ia"><i class="ddh--ias__icon fa fa-chevron-circle-right"></i><: l("View All") :></a>
+                <a class="ddh--ias__link tx-bld" target="_live" href="https://duck.co/ia"><i class="ddh--ias__icon fa fa-chevron-circle-right"></i><: l("View All") :></a>
             </div>
             <div class="g third ddh--ias__item tx--17">    
                 <h3 class="ddh--ias__number tx-bld js-ddh-num--development">182</h3>
                 <span class="ddh--ias__status"><: l("In Development") :></span>
                 <p class="ddh--ias__desc"><: l("The DuckDuckHack Dev Pipeline helps the community view and manage Instant Answers in development.") :></p> 
-                <a class="ddh--ias__link tx-bld" href="https://duck.co/ia/dev/pipeline"><i class="ddh--ias__icon fa fa-chevron-circle-right"></i><: l("Dev Pipeline") :></a>
+                <a class="ddh--ias__link tx-bld" target="_development" href="https://duck.co/ia/dev/pipeline"><i class="ddh--ias__icon fa fa-chevron-circle-right"></i><: l("Dev Pipeline") :></a>
             </div>
             <div class="g third ddh--ias__item tx--17">  
                 <h3 class="ddh--ias__number tx-bld js-ddh-num--beta">39</h3>
                 <span class="ddh--ias__status"><: l("In Beta") :></span>
                 <p class="ddh--ias__desc"><: l("Before they go live, Instant Answers are installed on DuckDuckGo's beta server for the community to test.") :></p>
-                <a class="ddh--ias__link tx-bld" href="https://beta.duckduckgo.com/installed/?ia=iatesting&iax=1"><i class="ddh--ias__icon fa fa-chevron-circle-right"></i><: l("Beta Server") :></a>
+                <a class="ddh--ias__link tx-bld" target="_beta" href="https://beta.duckduckgo.com/installed/?ia=iatesting&iax=1"><i class="ddh--ias__icon fa fa-chevron-circle-right"></i><: l("Beta Server") :></a>
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@
 					<p class="ddh-cta__sub"><: l("Build something new") :></p>
 					
 					<p class="ddh-cta__text"><: l("For Developers, creating an IA is fun and rewarding. Utilize great data sources to improve search results for the topics you care most about.") :></p>
-					<a href="https://duck.co/ia/new_ia" class="ddh-cta__btn  btn  btn--primary"><: l("Develop") :></a>
+					<a target="_develop" href="https://duck.co/ia/new_ia" class="ddh-cta__btn  btn  btn--primary"><: l("Develop") :></a>
 				</div>
 			</div>
 			<span class="ddh__split__divide"><: l("OR") :></span>
@@ -82,7 +82,7 @@
 					<p class="ddh-cta__sub"><: l("Learn by squashing bugs") :></p>
 					
 					<p class="ddh-cta__text"><: l("Fixing issues is a great way to get involved in the community and contribute while learning. Help improve Instant Answers you like and find inspiration for your own.") :></p>
-					<a href="https://duck.co/ia/dev" class="ddh-cta__btn  btn  btn--primary"><: l("Fix") :></a>
+					<a target="_fix" href="https://duck.co/ia/dev" class="ddh-cta__btn  btn  btn--primary"><: l("Fix") :></a>
 				</div>
 			</div>
 		</div>
@@ -122,7 +122,7 @@
         <p class="ddh__sub"><: l("The best way to get plugged in is to join one of our thriving communities") :></p>
         <div class="gw ddh--comm__items">
             <div class="g third third--first ddh--comm__item">
-                <a class="ddh--comm__link" arget="_slack" href="https://duck.co/duckduckhack/ddh-intro">
+                <a class="ddh--comm__link" target="_slack" href="https://duck.co/duckduckhack/ddh-intro">
                     <div class="ddh--comm__item__top tx-clr--white">
                         <div class="tx--17 tx-lt"><: l("Join") :></div>
                         <div class="tx--25 tx-bld">#duckduckhack</div>
