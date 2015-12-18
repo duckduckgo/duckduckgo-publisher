@@ -91,10 +91,10 @@
 <div class="blk ddh ddh--help">
     <div class="cw--c">
         <h2 class="ddh__title"><: l("Need Help Getting Started?") :></h2>
-        <p class="ddh__sub"><: l("You can always ") :><a class="ddh__sub--link" target="_docs" href="https://duck.co/duckduckhack/ddh-intro"><: l("check out our docs") :></a><: l(" for more info!") :></p>
+        <p class="ddh__sub"><: l("You can always ") :><a class="ddh__sub--link" target="_docs" href="http://docs.duckduckhack.com/"><: l("check out our docs") :></a><: l(" for more info!") :></p>
         <div class="gw">
             <div class="g half half--first ddh--help__half">
-                <a class="ddh--help__item ddh--help__item--first" target="_cheatsheet" href="https://duck.co/duckduckhack/setup_dev_environment">
+                <a class="ddh--help__item ddh--help__item--first" target="_cheatsheet" href="http://docs.duckduckhack.com/welcome/setup-dev-environment.html">
                     <span class="twenty ddh--help__num ddh__title">01</span>
                     <span class="eighty t-xxl ddh--help__text"><: l("How do I set up my development environment?") :></span>
                 </a>    
@@ -104,11 +104,11 @@
                 </a>
             </div>
             <div class="g half half--last ddh--help__half">   
-                <a class="ddh--help__item ddh--help__item--first" target="_environment" href="https://duck.co/duckduckhack/goodie_cheat_sheets">
+                <a class="ddh--help__item ddh--help__item--first" target="_environment" href="http://docs.duckduckhack.com/walkthroughs/programming-syntax.html">
                     <span class="twenty ddh--help__num ddh__title">03</span>
                     <span class="eighty t-xxl ddh--help__text"><: l("How do I create a Cheat Sheet?") :></span>
                 </a>
-                <a class="ddh--help__item" target="_duckpan" href="https://duck.co/duckduckhack/other_development_environments">
+                <a class="ddh--help__item" target="_duckpan" href="http://docs.duckduckhack.com/resources/other-dev-environments.html">
                     <span class="twenty ddh--help__num ddh__title">04</span>
                     <span class="eighty t-xxl ddh--help__text"><: l("How do I get started with DuckPan? What is DuckPan?") :></span>
                 </a>
@@ -122,7 +122,7 @@
         <p class="ddh__sub"><: l("The best way to get plugged in is to join one of our thriving communities") :></p>
         <div class="gw ddh--comm__items">
             <div class="g third third--first ddh--comm__item">
-                <a class="ddh--comm__link" target="_slack" href="https://duck.co/duckduckhack/ddh-intro">
+                <a class="ddh--comm__link" target="_slack" href="http://docs.duckduckhack.com/">
                     <div class="ddh--comm__item__top tx-clr--white">
                         <div class="tx--17 tx-lt"><: l("Join") :></div>
                         <div class="tx--25 tx-bld">#duckduckhack</div>
