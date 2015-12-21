@@ -108,7 +108,7 @@
                     <span class="twenty ddh--help__num ddh__title">03</span>
                     <span class="eighty t-xxl ddh--help__text"><: l("How do I create a Cheat Sheet?") :></span>
                 </a>
-                <a class="ddh--help__item" target="_duckpan" href="http://docs.duckduckhack.com/resources/other-dev-environments.html">
+                <a class="ddh--help__item" target="_duckpan" href="http://docs.duckduckhack.com/resources/duckpan-overview.html">
                     <span class="twenty ddh--help__num ddh__title">04</span>
                     <span class="eighty t-xxl ddh--help__text"><: l("How do I get started with DuckPan? What is DuckPan?") :></span>
                 </a>
