@@ -17,9 +17,10 @@ sub pages {
 		no_search_header => 1,
 		hero_header => 1,
 		no_hero_header_icon => 1,
-		hero_header_link => 'https://duck.co/duckduckhack/ddh-intro',
+		hero_header_link => '',
 		hero_header_link_text => "Docs",
 		hero_alt => 1,
+        	no_footer_arrow => 1,
 		asset_path => 'ddg',
 		js_page_type => 'DDH',
 		hero_slides => [{
