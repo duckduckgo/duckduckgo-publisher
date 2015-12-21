@@ -98,9 +98,9 @@
                     <span class="twenty ddh--help__num ddh__title">01</span>
                     <span class="eighty t-xxl ddh--help__text"><: l("How do I set up my development environment?") :></span>
                 </a>    
-                <a class="ddh--help__item" target="_account" href="https://duck.co/my/register">
+                <a class="ddh--help__item" target="_git" href="http://docs.duckduckhack.com/resources/git-workflow.html">
                     <span class="twenty ddh--help__num ddh__title">02</span>
-                    <span class="eighty t-xxl ddh--help__text"><: l("How do I create a Duck.co Account?") :></span>
+                    <span class="eighty t-xxl ddh--help__text"><: l("How do I work with Git and Github?") :></span>
                 </a>
             </div>
             <div class="g half half--last ddh--help__half">   
