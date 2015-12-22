@@ -48,7 +48,7 @@
                 <h3 class="ddh--ias__number tx-bld js-ddh-num--beta">39</h3>
                 <span class="ddh--ias__status"><: l("In Beta") :></span>
                 <p class="ddh--ias__desc"><: l("Before they go live, Instant Answers are installed on DuckDuckGo's beta server for the community to test.") :></p>
-                <a class="ddh--ias__link tx-bld" target="_beta" href="https://beta.duckduckgo.com/installed/?ia=iatesting&iax=1"><i class="ddh--ias__icon fa fa-chevron-circle-right"></i><: l("Beta Server") :></a>
+                <a class="ddh--ias__link tx-bld" target="_beta" href="https://beta.duckduckgo.com/installed?ia=iatesting&iax=1"><i class="ddh--ias__icon fa fa-chevron-circle-right"></i><: l("Beta Server") :></a>
             </div>
         </div>
     </div>
