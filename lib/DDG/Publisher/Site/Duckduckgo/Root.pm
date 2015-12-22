@@ -306,7 +306,12 @@ sub pages {{
 		hero_header_text => 1,
 	},
 	search_box => sub {},
-
+	yahoo_static => sub {
+		no_content_internal => 1,
+		no_spacer => 1,
+		no_cw => 1,
+		hero_header => 1,
+    }
 }}
 
 sub statics {{
