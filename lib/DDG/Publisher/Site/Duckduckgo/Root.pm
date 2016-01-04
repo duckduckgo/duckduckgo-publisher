@@ -310,7 +310,8 @@ sub pages {{
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
-		hero_header => 1,
+		no_header => 1,
+        hero_header => 1,
     }
 }}
 
