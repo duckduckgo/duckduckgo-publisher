@@ -10,7 +10,7 @@
     <: include "head.tx" :>
   </head>
   <body id="pg-<: $f.filebase :>" class="page-<: $f.filebase :><: if $homepage { :> body--home<: } :>">
-	<: include "head_js.tx" :>
+	<: if !$no_js { include "head_js.tx" } :>
 	<div class="site-wrapper <: if $homepage { :> site-wrapper--home<: } else { :> site-wrapper--static<: } :>  js-site-wrapper">
 	<: if !$hero_header { :>
 		<div class="site-wrapper-border"></div>
@@ -57,7 +57,7 @@
 		<: } if $copyright_footer { :> 
 			<: include "footer_copyright.tx" :>
 		<: } :>
-		<: include "footer.tx" :>
+		<: if !$no_js { include "footer.tx" } :>
 		</div> <!-- content_wrapper //-->
 	<: } :>
     </div> <!-- site-wrapper -->

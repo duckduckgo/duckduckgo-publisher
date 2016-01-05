@@ -312,6 +312,7 @@ sub pages {{
 		no_cw => 1,
 		no_header => 1,
 		hero_header => 1,
+		no_js => 1,
     }
 }}
 
