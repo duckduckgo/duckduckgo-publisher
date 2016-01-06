@@ -48,7 +48,7 @@
                 <h3 class="ddh--ias__number tx-bld js-ddh-num--beta">39</h3>
                 <span class="ddh--ias__status"><: l("In Beta") :></span>
                 <p class="ddh--ias__desc"><: l("Before they go live, Instant Answers are installed on DuckDuckGo's beta server for the community to test.") :></p>
-                <a class="ddh--ias__link tx-bld" target="_beta" href="https://beta.duckduckgo.com/installed/?ia=iatesting&iax=1"><i class="ddh--ias__icon fa fa-chevron-circle-right"></i><: l("Beta Server") :></a>
+                <a class="ddh--ias__link tx-bld" target="_beta" href="https://beta.duckduckgo.com/?q=installed&ia=iatesting&iax=1"><i class="ddh--ias__icon fa fa-chevron-circle-right"></i><: l("Beta Server") :></a>
             </div>
         </div>
     </div>
@@ -122,7 +122,7 @@
         <p class="ddh__sub"><: l("The best way to get plugged in is to join one of our thriving communities") :></p>
         <div class="gw ddh--comm__items">
             <div class="g third third--first ddh--comm__item">
-                <a class="ddh--comm__link" target="_slack" href="http://docs.duckduckhack.com/">
+                <a class="ddh--comm__link" target="_slack" href="http://docs.duckduckhack.com/resources/get-in-touch.html">
                     <div class="ddh--comm__item__top tx-clr--white">
                         <div class="tx--17 tx-lt"><: l("Join") :></div>
                         <div class="tx--25 tx-bld">#duckduckhack</div>
