@@ -27,7 +27,7 @@
 		</div>
 	</div>
 </div>
-<div class="blk tx-clr--white ddh ddh--ias">
+<div id="power-of-ias" class="blk tx-clr--white ddh ddh--ias">
     <div class="cw--c">
         <h2 class="ddh__title"><: l("Power of Instant Answers") :></h2>
         <p class="ddh__sub"><: l("Instant Answers are tailor-made for specific queries") :></p>
@@ -53,7 +53,7 @@
         </div>
     </div>
 </div>
-<div class="blk  blk--alt  ddh"><a class="anchor ddh-anchor js-anchor" name="start"></a>
+<div id="get-involved" class="blk  blk--alt  ddh"><a class="anchor ddh-anchor js-anchor" name="start"></a>
 	<div class="cw--c">
 		<h2 class="ddh__title"><: l("Get involved!") :></h2>
 		<p class="ddh__sub"><: l("Take a look at what you can do to help!") :></p>
@@ -88,7 +88,7 @@
 		</div>
 	</div>
 </div>
-<div class="blk ddh ddh--help">
+<div id="get-help" class="blk ddh ddh--help">
     <div class="cw--c">
         <h2 class="ddh__title"><: l("Need Help Getting Started?") :></h2>
         <p class="ddh__sub"><: l("You can always ") :><a class="ddh__sub--link" target="_docs" href="http://docs.duckduckhack.com/"><: l("check out our docs") :></a><: l(" for more info!") :></p>
@@ -116,7 +116,7 @@
         </div>
     </div>
 </div>
-<div class="blk blk--alt ddh ddh--comm">
+<div id="join-community" class="blk blk--alt ddh ddh--comm">
     <div class="cw--c ddh--comm__wrapper">
         <h2 class="ddh__title"><: l("Join a Community") :></h2>
         <p class="ddh__sub"><: l("The best way to get plugged in is to join one of our thriving communities") :></p>
@@ -163,7 +163,7 @@
         </div>
    </div>
 </div>
-<div class="blk ddh">
+<div id="plaudits" class="blk ddh">
 	<div class="cw--c">
 		<h2 class="ddh__title"><: l("What others have said about DuckDuckHack...") :></h2>
 		<p class="ddh__sub"><: l("Whatever your reason for contributing, our community is here to make it a positive experience.") :></p>
@@ -180,7 +180,7 @@
 		</div>
 	</div>
 </div>
-<div class="blk blk--hero blk--hero--alt ddh ddh--foot">
+<div id="ia-suggestions" class="blk blk--hero blk--hero--alt ddh ddh--foot">
 	<div class="cw--c  ddh--foot__cw">
 		<div class="gw">
 			<div class="g threequarter">
