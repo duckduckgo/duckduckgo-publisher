@@ -1,5 +1,9 @@
  <div class="blk  blk--hero  blk--hero--alt  js-hero-slides"><a class="anchor ddh-anchor js-anchor" name="top"></a>
-	<div class="cw--c  ddh-hero">
+	<div class="ddh-gqh">
+        <a class="ddh-qqh__link tx-clr--white" target="_gqhblog" href="https://duck.co/blog/post/239/global-quack-hack-2-details"><: l("Join us for our global Quack & Hack Event on January 30, 2016!") :></a>
+    <span id="ddh-gqh__close"><i class="ddgsi-close"></i></span>
+    </div>
+    <div class="cw--c  ddh-hero">
 		<div class="ddh-hero-slides">
 		<: for $hero_slides -> $h { :><div class="ddh-hero-slides__item  js-hero-text">
 				<h1 class="ddh-hero__title  hd-hr">
