@@ -80,7 +80,7 @@ sub pages {
 			link => 'https://duck.co/ia/view/minecraft',
 			example_link => 'https://duckduckgo.com/?q=cake+minecraft&ia=answer',
 		},{
-			name => 'Rffsy Gif Search',
+			name => 'Riffsy Gif Search',
 			desc => 'Search emoji-related gifs',
 			user => 'bryanhart',
 			link => 'https://duck.co/ia/view/riffsy',
