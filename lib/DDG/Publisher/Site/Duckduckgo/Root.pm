@@ -216,6 +216,7 @@ sub pages {{
 		}]
 	},
 	bang => sub {
+		copyright_footer => 1,
 		nav_footer => 1,
 		no_footer_arrow => 1,
 		no_content_internal => 1,
