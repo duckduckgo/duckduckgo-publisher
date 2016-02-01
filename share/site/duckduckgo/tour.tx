@@ -3,7 +3,7 @@
 		<h1 class="tour-hero__title  hd-hr"><: l("Welcome to %sDuckDuckGo%s!","<b>","</b>") :><br/><: l("Smarter Search, Less Clutter and Real Privacy.") :></h1>
 		<a href="#results" class="tour-hero__btn  btn  btn--wire--hero  js-anchor-link">Take a Tour</a>
 	</div>
-	<img class="tour-img--hero" src="/assets/tour/tycho_hero.jpg" alt="search results and instant answer for 'Tycho'" />
+	<img class="tour-img--hero  js-tour-img" src="/assets/tour/tycho_hero.jpg" data-src="/assets/tour/tycho_hero.jpg" alt="search results and instant answer for 'Tycho'" />
 </div>
 <div class="blk  blk--tour"><a class="anchor tour-anchor js-anchor" name="results"></a>
 	<div class="cw cw--tour">
