@@ -22,7 +22,7 @@
     <noscript>
         <img class="bang--about__screenshot" src="/assets/bang/screenshot.png" data-src="" />
     </noscript>
-    <img class="js-lazyretina no-js__hide bang--about__screenshot" src="" data-src="/assets/bang/screenshot" />
+    <img class="js-lazyretina no-js__hide bang--about__screenshot" src="" data-src="/assets/bang/screenshot.png" />
 </div>
 <div class="bang bang--list blk">
     <div id="bangs-list" class="cw--c bang--list__cw js-bangs-wrap">
