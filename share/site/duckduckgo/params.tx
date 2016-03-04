@@ -524,6 +524,18 @@ kv =
 </tr>
 
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
+<: l('Units of Measure:') :>
+</td>
+<td class="ctd">
+kaj =
+<ul>
+<li><: l('%s for %s','m',lp('setting','Metric (Kilograms, Meters, Celsius)')) :>
+<li><: l('%s for %s','u',lp('setting','US based (Pounds, Feet, Fahrenheit)')) :>
+<li><: l('%s for %s','-1',lp('setting','No Preference')) :> (<: lp('setting','default') :>)
+</td>
+</tr>
+
+<td class="ctd" style="padding-right:15px;" align="right" valign="top">
 <: l('Source:') :>
 </td>
 <td class="ctd">
