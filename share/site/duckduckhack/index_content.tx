@@ -143,7 +143,7 @@
                         <div class="tx--17 tx-lt"><: l("Meet Up") :></div>
                         <div class="tx--25 tx-bld">Global Quack & Hack</div>
                     </div> 
-                    <div class="ddh--comm__circle"><div class="ddh--comm__circle__month tx--17 tx-lt">JAN</div><div class="ddh--comm__circle__day tx--25 tx-bld">30</div></div>
+                    <div class="ddh--comm__circle"><i class="ddh--comm__icon fa fa-map-marker"></i></div>
                     <div class="ddh--comm__item__bottom bg-clr--white text--secondary">
                         <div class="ddh__title js-ddh-num--meetup">19</div>
                         <div class="tx--17 tx-lt"><: l("Locations Worldwide") :></div>
