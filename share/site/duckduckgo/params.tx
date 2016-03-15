@@ -546,4 +546,21 @@ t =
 </td>
 </tr>
 
+<tr>
+<td class="ctd" style="padding-right:15px;" align="right" valign="top">
+<: l('Directions Source:') :>
+</td>
+<td class="ctd">
+kam =
+<ul>
+<li><: l('%s for %s','apple-maps',lp('setting','Apple Maps')) :>
+<li><: l('%s for %s','bing-maps',lp('setting','Bing Maps')) :>
+<li><: l('%s for %s','google-maps',lp('setting','Google Maps')) :>
+<li><: l('%s for %s','here-maps',lp('setting','HERE Maps')) :>
+<li><: l('%s for %s','osm',lp('setting','OpenStreetMap')) :>
+</ul>
+</td>
+</tr>
+
+
 </table>
