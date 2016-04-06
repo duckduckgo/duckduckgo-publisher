@@ -18,7 +18,7 @@
 <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/meta/DDG-iOS-icon_152x152.png"/>
 <link rel="image_src" href="/assets/icons/meta/DDG-icon_256x256.png"/>
 
-<link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="/opensearch_v6.xml">
+<link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="/opensearch_v7.xml">
 
 <meta name="twitter:site" value="@duckduckgo">
 <meta name="twitter:url" value="https://duckduckgo.com<: $url :>">
