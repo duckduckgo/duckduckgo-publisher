@@ -123,4 +123,4 @@
 
 <h4><: l("So don't get tracked when searching.  %sUse DuckDuckGo!%s",'<a href="https://duckduckgo.com/">','</a>') :></h4>
 
-<h4><: l('Privacy is just one of the %smany reasons%s why its awesome!','<a href="https://duckduckgo.com/about">','</a>') :></h4>
+<h4><: l('Privacy is just one of the %smany reasons%s why it's awesome!','<a href="https://duckduckgo.com/about">','</a>') :></h4>
