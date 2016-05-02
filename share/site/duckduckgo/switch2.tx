@@ -5,7 +5,7 @@
         <h1 style="margin:100px 0 0 0; line-height:1.1em; font-weight:700; font-size:54px ; padding:0">Search Like <br>Nobody&rsquo;s Watching.</h1>
         <h3 style="margin:10px auto; color:#8f8f8f">Switch to DuckDuckGo, and search <b>anonymously</b>.</h3>
 
-        <form id="search_form_homepage" class="search  search--home  js-search-form" name="x" data-cta="1" method="POST" action="/" style="margin:40px 0 120px 0">
+        <form id="search_form_homepage" class="search  search--home  js-search-form" name="x" data-cta="1" method="GET" action="/" style="margin:40px 0 120px 0">
             <input id="search_form_input_homepage" class="search__input  js-search-input" data-cta="1" type="text" autocomplete="off" name="q" tabindex="1" placeholder="Search on DuckDuckGo">
             <input id="search_button_homepage" class="search__button  js-search-button" type="submit" tabindex="2" value="S" />
             <input id="search_form_input_clear" class="search__clear  empty  js-search-clear" type="button" tabindex="3" value="X" />
@@ -67,7 +67,7 @@
         <h2 class="abt__title">Ready to take back your privacy?</h2>
         <h4 style="font-weight:400; color:#7f7f7f; width:700px; margin:10px auto; font-size:22px">Try it for yourself.</h4>
         <div style="width:600px; margin:0 auto">
-            <form id="search_form_homepage" class="search  search--home  js-search-form" data-cta="2" name="x" method="POST" action="/" style="margin:40px 0 80px 0">
+            <form id="search_form_homepage" class="search  search--home  js-search-form" data-cta="2" name="x" method="GET" action="/" style="margin:40px 0 80px 0">
                 <input id="search_form_input_homepage" class="search__input  js-search-input" data-cta="2" type="text" autocomplete="off" name="q" tabindex="1" placeholder="Search on DuckDuckGo">
                 <input id="search_button_homepage" class="search__button  js-search-button" type="submit" tabindex="2" value="S" />
                 <input id="search_form_input_clear" class="search__clear  empty  js-search-clear" type="button" tabindex="3" value="X" />
