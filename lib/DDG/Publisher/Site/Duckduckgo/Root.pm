@@ -190,7 +190,7 @@ sub pages {{
 		},{
 			date => 'May 3, 2016',
 			title => '2016 Donations',
-			snippet => 'For our sixth year of free and open source donations, we divided $225,000 equally over nine projects: SecureDrop, Freenet, OpenBSD Foundation, CrypTech, Tor, Save Security, VeraCrypt, LEAP, GPGTools.',
+			snippet => 'For our sixth year of free and open source donations, we divided $225,000 equally over nine projects: SecureDrop, Freenet, OpenBSD Foundation, CrypTech, Tor Project, Fight for the Future, VeraCrypt, LEAP, GPGTools.',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
