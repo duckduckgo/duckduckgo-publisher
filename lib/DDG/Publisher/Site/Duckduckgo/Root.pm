@@ -187,6 +187,14 @@ sub pages {{
 			snippet => 'Boom! 10 million searches in a single day (10,210,082 to be exact). To celebrate, we’re giving away 10,000 DuckDuckGo T-shirts!',
 			type => 'traffic',
 			icon => 'growth',
+		},{
+			date => 'May 3, 2016',
+			title => '2016 Donations',
+			snippet => 'For our sixth year of free and open source donations, we divided $225,000 equally over nine projects: SecureDrop, Freenet, OpenBSD Foundation, CrypTech, Tor, Save Security, VeraCrypt, LEAP, GPGTools.',
+			type => 'company',
+			subtype => 'foss',
+			icon => 'love',
+			year => '2016',
 		}],
 		
 		news_articles => [{
