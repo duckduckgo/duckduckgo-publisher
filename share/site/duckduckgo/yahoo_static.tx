@@ -1,7 +1,7 @@
 <div class="yahoo_static__content">
 	<img src="/assets/dax-alt.svg" width="120" height="120">
-	<h2 class="hd-hr">This domain is operated by <strong>DuckDuckGo</strong></h2>
+	<h2 class="hd-hr">This domain is owned and operated by <strong>DuckDuckGo</strong></h2>
 	<div>
-	    This domain (duckduckgo.yahoo.net) is operated by DuckDuckGo and runs solely on our servers. Yahoo! has delegated the entire domain to DuckDuckGo so that we can work with them effectively and continue to protect your privacy per our privacy policy (<a href="https://duckduckgo.com/privacy">https://duckduckgo.com/privacy</a>). You can find additional technical details at <a href="https://duck.co/help/results/technical-implementation">https://duck.co/help/results/technical-implementation</a>.
+           This DuckDuckGo owned server is operating on a subdomain (duckduckgo-owned-server.yahoo.net). That subdomain has been delegated to DuckDuckGo via DNS so that we can continue to protect your privacy per our privacy policy (<a href="https://duckduckgo.com/privacy">https://duckduckgo.com/privacy</a>). You can find additional technical details at <a href="https://duck.co/help/results/technical-implementation">https://duck.co/help/results/technical-implementation</a>.
 	</div>
 </div>
