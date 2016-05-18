@@ -1,14 +1,14 @@
-<div class="blk" style="background:#f7f7f7;border-top:2px solid #de5833;border-bottom:1px solid #ddd;text-align:center;">
+<div class="blk" style="background:#f7f7f7;border-top:2px solid #de5833;border-bottom:1px solid #ddd;text-align:center;padding-bottom:2em;">
     <p style="margin-top:50px;">
-        <img style="height:132px;" src="/assets/add-to-browser/install-firefox/ff-header-img@2x.png" />
+        <img style="height:99px;" src="/assets/add-to-browser/install-firefox/ff-header-img@2x.png" />
     </p>
-    <h1 style="line-height:1.2;font-weight:600;">Setting DuckDuckGo as your<br/>default search engine in Firefox</h1>
+    <h1 style="line-height:1.2;font-weight:600;font-size:2.5em;">Setting DuckDuckGo as your<br/>default search engine in Firefox</h1>
 </div>
-<div class="blk" style="margin:60px auto;max-width:960px;">
-    <div class="fifty" style="font-size:18px;">
+<div class="blk" style="margin:60px auto 15px;max-width:800px;">
+    <div class="fifty" style="font-size:16px;">
         <div style="margin-left:30px;">
-            <p style="background:#de5833;border-radius:100%;color:#fff;width:50px;height:50px;line-height:50px;font-size:24px;text-align:center;padding:0;">1</p>
-            <p style="margin-top:50px;color:#888;">
+            <p style="background:#de5833;border-radius:100%;color:#fff;width:35px;height:35px;line-height:35px;text-align:center;padding:0;">1</p>
+            <p style="margin-top:40px;color:#666;font-weight:200;">
                 Click on the <b>magnifying glass</b><br/>
                 in the search bar
             </p>
@@ -16,16 +16,16 @@
     </div>
     <div class="fifty">
         <div style="margin-right:30px;">
-            <img style="border:5px solid #eee;" src="/assets/add-to-browser/install-firefox/ff-ss-step1@2x.jpg" />
+            <img style="border:3px solid #eee;" src="/assets/add-to-browser/install-firefox/ff-ss-step1@2x.jpg" />
         </div>
     </div>
     <div class="clearfix"></div>
 </div>
-<div class="blk" style="margin:30px auto;max-width:960px;">
-    <div class="fifty" style="font-size:18px;">
+<div class="blk" style="margin:15px auto;max-width:800px;">
+    <div class="fifty" style="font-size:16px;">
         <div style="margin-left:30px;">
-            <p style="background:#de5833;border-radius:100%;color:#fff;width:50px;height:50px;line-height:50px;font-size:24px;text-align:center;padding:0;">2</p>
-            <p style="margin-top:50px;color:#888;">
+            <p style="background:#de5833;border-radius:100%;color:#fff;width:35px;height:35px;line-height:35px;text-align:center;padding:0;">2</p>
+            <p style="margin-top:40px;color:#666;font-weight:200;">
                 Click on <b>Change Search Settings</b><br/>
                 in the drop down
             </p>
@@ -33,16 +33,16 @@
     </div>
     <div class="fifty">
         <div style="margin-right:30px;">
-            <img style="border:5px solid #eee;" src="/assets/add-to-browser/install-firefox/ff-ss-step2@2x.jpg" />
+            <img style="border:3px solid #eee;" src="/assets/add-to-browser/install-firefox/ff-ss-step2@2x.jpg" />
         </div>
     </div>
     <div class="clearfix"></div>
 </div>
-<div class="blk" style="margin:30px auto;max-width:960px;">
-    <div class="fifty" style="font-size:18px;">
+<div class="blk" style="margin:15px auto;max-width:800px;">
+    <div class="fifty" style="font-size:16px;">
         <div style="margin-left:30px;">
-            <p style="background:#de5833;border-radius:100%;color:#fff;width:50px;height:50px;line-height:50px;font-size:24px;text-align:center;padding:0;">3</p>
-            <p style="margin-top:50px;color:#888;">
+            <p style="background:#de5833;border-radius:100%;color:#fff;width:35px;height:35px;line-height:35px;text-align:center;padding:0;">3</p>
+            <p style="margin-top:40px;color:#666;font-weight:200;">
                 Select <b>DuckDuckGo</b> under the<br/>
                 <b>Default Search Engine</b> section
             </p>
@@ -50,7 +50,7 @@
     </div>
     <div class="fifty">
         <div style="margin-right:30px;">
-            <img style="border: 5px solid #eee;" src="/assets/add-to-browser/install-firefox/ff-ss-step3@2x.jpg" />
+            <img style="border:3px solid #eee;" src="/assets/add-to-browser/install-firefox/ff-ss-step3@2x.jpg" />
         </div>
     </div>
     <div class="clearfix"></div>
