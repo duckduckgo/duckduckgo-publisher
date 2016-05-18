@@ -1,0 +1,63 @@
+<div class="blk" style="background:#f7f7f7;border-top:2px solid #de5833;border-bottom:1px solid #ddd;text-align:center;">
+    <p style="margin-top:50px;">
+        <img style="height:185px;" src="/assets/logo_header.v107.lg.svg" />
+        <span style="font-size:100px;font-weight:200;line-height:185px;vertical-align:top;color:#cbcbcb;">+</span>
+        <img style="height:185px;" src="/assets/logo_header.v107.lg.svg" />
+    </p>
+    <h1 style="line-height:1.2;font-weight:600;">Setting DuckDuckGo as your<br/>default search engine in Firefox</h1>
+</div>
+<div class="blk" style="margin:60px auto;max-width:960px;">
+    <div class="fifty" style="font-size:18px;">
+        <div style="margin-left:30px;">
+            <p style="background:#de5833;border-radius:100%;color:#fff;width:35px;height:35px;line-height:35px;text-align:center;padding:0;">1</p>
+            <p style="margin-top:50px;color:#888;">
+                Click on the <b>magnifying glass</b><br/>
+                in the search bar
+            </p>
+        </div>
+    </div>
+    <div class="fifty">
+        <div style="margin-right:30px;">
+            <img src="/assets/add-to-browser/firefox-detailed/ff-ss-step1.jpg" />
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="blk" style="margin:30px auto;max-width:960px;">
+    <div class="fifty" style="font-size:18px;">
+        <div style="margin-left:30px;">
+            <p style="background:#de5833;border-radius:100%;color:#fff;width:35px;height:35px;line-height:35px;text-align:center;padding:0;">2</p>
+            <p style="margin-top:50px;color:#888;">
+                Click on <b>Change Search Settings</b><br/>
+                in the drop down
+            </p>
+        </div>
+    </div>
+    <div class="fifty">
+        <div style="margin-right:30px;">
+            <img src="/assets/add-to-browser/firefox-detailed/ff-ss-step2.jpg" />
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="blk" style="margin:30px auto;max-width:960px;">
+    <div class="fifty" style="font-size:18px;">
+        <div style="margin-left:30px;">
+            <p style="background:#de5833;border-radius:100%;color:#fff;width:35px;height:35px;line-height:35px;text-align:center;padding:0;">3</p>
+            <p style="margin-top:50px;color:#888;">
+                Select <b>DuckDuckGo</b> under the<br/>
+                <b>Default Search Engine</b> section
+            </p>
+        </div>
+    </div>
+    <div class="fifty">
+        <div style="margin-right:30px;">
+            <img src="/assets/add-to-browser/firefox-detailed/ff-ss-step2.jpg" />
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+<script>
+    DDG.page = new DDG.Pages.ATBInstall();
+</script>
