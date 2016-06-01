@@ -1,0 +1,83 @@
+<div class="blk" style="background:#f7f7f7;border-top:2px solid #de5833;border-bottom:1px solid #ddd;text-align:center;padding-bottom:2em;">
+    <p style="margin-top:50px;">
+        <img style="height:99px;" src="/assets/add-to-browser/install-chrome/chrome-header-img@2x.png" />
+    </p>
+    <h1 style="line-height:1.2;font-weight:600;font-size:2.5em;">Setting DuckDuckGo as your<br/>default search engine in Chrome</h1>
+</div>
+<div class="blk" style="margin:60px auto 15px;max-width:790px;">
+    <div class="fifty" style="font-size:16px;">
+        <div style="margin:0 50px;">
+            <p style="background:#de5833;border-radius:100%;color:#fff;width:35px;height:35px;line-height:35px;text-align:center;padding:0;">1</p>
+            <p style="margin-top:40px;color:#666;font-weight:200;">
+                <b>Right click</b> in the search bar
+            </p>
+        </div>
+    </div>
+    <div class="fifty">
+        <div style="margin:0 50px;">
+            <img style="max-width:315px;border:3px solid #eee;" src="/assets/add-to-browser/install-chrome/chrome-ss-step1@2x.jpg" />
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="blk" style="margin:15px auto;max-width:790px;">
+    <div class="fifty" style="font-size:16px;">
+        <div style="margin:0 50px;">
+            <p style="background:#de5833;border-radius:100%;color:#fff;width:35px;height:35px;line-height:35px;text-align:center;padding:0;">2</p>
+            <p style="margin-top:40px;color:#666;font-weight:200;">
+                Select <b>Edit Search Engines...</b><br/>
+                in the dropdown
+            </p>
+        </div>
+    </div>
+    <div class="fifty">
+        <div style="margin:0 50px;">
+            <img style="max-width:315px;border:3px solid #eee;" src="/assets/add-to-browser/install-chrome/chrome-ss-step2@2x.jpg" />
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="blk" style="margin:15px auto;max-width:790px;">
+    <div class="fifty" style="font-size:16px;">
+        <div style="margin:0 50px;">
+            <p style="background:#de5833;border-radius:100%;color:#fff;width:35px;height:35px;line-height:35px;text-align:center;padding:0;">3</p>
+            <p style="margin-top:40px;color:#666;font-weight:200;">
+                Find <b>DuckDuckGo</b> and click<br/>
+                <b>Make default</b>
+            </p>
+        </div>
+    </div>
+    <div class="fifty">
+        <div style="margin:0 50px;">
+            <img style="max-width:315px;border:3px solid #eee;" src="/assets/add-to-browser/install-chrome/chrome-ss-step3@2x.jpg" />
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="blk blk--hero" style="text-align:center;padding-top:4em;padding-bottom:8em;">
+    <h1 style="line-height:1.2;font-size:2.5em;">Congratulations!<br/>You just took back your privacy!</h1>
+    <p style="font-weight:300;font-size:1.5em;margin-top:1em;">
+        Now help your friends and family take back theirs:
+    </p>
+    <ul style="margin-top:2em;">
+        <li style="display:inline-block;">
+            <a class="btn" style="font-size:1.4em;margin:5px;border:none;padding-top:8px;padding-bottom:8px;width:130px;">
+                <img style="margin-right:15px;height:28px;display:inline-block;position:relative;top:-2px;vertical-align:middle;" src="/assets/add-to-browser/install-chrome/fb.png" />Share
+            </a>
+        </li>
+        <li style="display:inline-block;">
+            <a class="btn" style="font-size:1.4em;margin:5px;border:none;padding-top:8px;padding-bottom:8px;width:130px;" href="https://twitter.com/home?status=From now on I'm keeping my searches private, you can too with @duckduckgo https://duckduckgo.com/tour?atb=v15">
+                <img style="margin-right:15px;height:26px;display:inline-block;position:relative;top:-2px;vertical-align:middle;" src="/assets/add-to-browser/install-chrome/twitter.png" />Tweet
+            </a>
+        </li>
+        <li style="display:inline-block;">
+            <a class="btn" style="font-size:1.4em;margin:5px;border:none;padding-top:8px;padding-bottom:8px;width:130px;" href="mailto:?subject=Take%20back%20your%20privacy&body=From%20now%20on%20I'm%20keeping%20my%20searches%20private%2C%20you%20can%20too%20with%20DuckDuckGo%3A%20https%3A%2F%2Fduckduckgo.com%2Ftour%3Fatb%3Dv15" >
+                <img style="margin-right:15px;height:16px;display:inline-block;position:relative;top:-2px;vertical-align:middle;" src="/assets/add-to-browser/install-chrome/email.svg" />Email
+            </a>
+        </li>
+    </ul>
+</div>
+
+<script>
+    DDG.page = new DDG.Pages.ATBInstall();
+</script>
