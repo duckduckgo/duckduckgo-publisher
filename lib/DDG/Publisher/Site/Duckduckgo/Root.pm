@@ -326,7 +326,16 @@ sub pages {{
         no_cw => 1,
         no_spacer => 1,
         no_content_internal => 1,
-        js_skip_init => 1
+        js_skip_init => 1,
+        atb_version => "15",
+    },
+    install_chrome => sub {
+        no_header => 1,
+        no_cw => 1,
+        no_spacer => 1,
+        no_content_internal => 1,
+        js_skip_init => 1,
+        atb_version => "15",
     },
     switch1 => sub {
         no_header => 1,
