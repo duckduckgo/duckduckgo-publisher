@@ -327,7 +327,7 @@ sub pages {{
         no_spacer => 1,
         no_content_internal => 1,
         js_skip_init => 1,
-        atb_version => "v16",
+        atb_version => "v17",
     },
     install_chrome => sub {
         no_header => 1,
@@ -335,7 +335,7 @@ sub pages {{
         no_spacer => 1,
         no_content_internal => 1,
         js_skip_init => 1,
-        atb_version => "v16",
+        atb_version => "v17",
     },
     switch1 => sub {
         no_header => 1,
