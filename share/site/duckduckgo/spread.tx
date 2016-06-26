@@ -2,8 +2,7 @@
 	<div class="cw--c"><a class="anchor" name="top"></a>
 		<div class="spread-hero" title="<: l('Help Spread DuckDuckGo') :>"></div>
 		<div class="spread-hero--text--wide">
-			<h1 class="hd-hr  spread-title--hero"><: l("You know and use DuckDuckGo.%s Most people don't. Let's fix that!", '<br>') :></h1>
-			<h6 class="hd-hr  spread-subtitle"><: l("Help your friends and family take back their privacy.") :></h6>
+			<h1 class="hd-hr  spread-title--hero"><: l("Help your friends and family %s take back their privacy!", '<br>') :></h1>
 		</div>
 	</div>
 </div>
@@ -20,7 +19,7 @@
 					<img class="spread-img  js-lazysvg  no-js__hide" title="You know you love us..." src="" data-src="/assets/spread/love" />
 					
 					<h4 class="spread-info__hd"><: l('You Chose Us') :></h4>
-					<p class="spread-info__p"><: l("You've seen the future of search.  From real privacy to smarter answers and less clutter, everyone has a reason to love DuckDuckGo.") :></p>
+					<p class="spread-info__p"><: l("You appreciate not being tracked, from ads not following you around to much worse. And we appreciate you joining us on the Duck side.") :></p>
 				</div>
 			</div>
 			<div class="third">
@@ -31,7 +30,7 @@
 					<img class="spread-img  js-lazysvg  no-js__hide" title="so share us with your friends" src="" data-src="/assets/spread/share" />
 					
 					<h4 class="spread-info__hd"><: l('Show Your Friends') :></h4>
-					<p class="spread-info__p"><: l("Show your friends and family why you love DuckDuckGo and get them to switch.  Did you know %s of the world has never heard about us?", '98%') :></p>
+					<p class="spread-info__p"><: l("Did you know %s of the world has never heard about DuckDuckGo? Show your friends and family how they can protect their search history.", '98%') :></p>
 				</div>
 			</div>
 			<div class="third">
@@ -42,7 +41,7 @@
 					<img class="spread-img  js-lazysvg  no-js__hide" title="... and help us take off!" src="" data-src="/assets/spread/growth" />
 					
 					<h4 class="spread-info__hd"><: l('We Rely On You') :></h4>
-					<p class="spread-info__p"><: l("When you get others to switch, we grow!  We're up against billion-dollar giants, but we've got awesome people like you on our side.") :></p>
+					<p class="spread-info__p"><: l("When you get others to switch, we can do more! We're up against giant corporations, and yet we can make a real difference with your help.") :></p>
 				</div>
 			</div>
 		</div>
