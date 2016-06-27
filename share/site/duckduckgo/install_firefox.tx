@@ -53,31 +53,7 @@
     </div>
     <div class="clearfix"></div>
 </div>
-<div class="blk blk--hero" style="text-align:center;padding-top:4em;padding-bottom:8em;background-color:#434A50;">
-    <h1 style="line-height:1.2;font-size:2.5em;">Congratulations!<br/>You just took back your privacy!</h1>
-    <p style="font-weight:300;font-size:1.2em;margin-top:1em;">
-        Wasn't that easy?</br>
-        Now share this with your friends and family and help them take back theirs!
-    </p>
-    <ul style="margin-top:2em;">
-        <li style="display:inline-block;">
-            <a class="btn btn--share" data-channel="facebook" style="font-size:1.2em;margin:5px;border:none;padding-top:8px;padding-bottom:8px;width:120px;" href="https://www.facebook.com/sharer/sharer.php?quote=Just%20switched%20my%20search%20engine%20to%20DuckDuckGo!&u=https://duckduckgo.com/tour%3Fatb=<: $atb_version :>f" target="_blank">
-                <img style="margin-right:12px;height:20px;display:inline-block;position:relative;top:-2px;vertical-align:middle;" src="/assets/add-to-browser/install-chrome/fb.png" />Share
-            </a>
-        </li>
-        <li style="display:inline-block;">
-            <a class="btn btn--share" data-channel="twitter" style="font-size:1.2em;margin:5px;border:none;padding-top:8px;padding-bottom:8px;width:120px;" href="https://twitter.com/home?status=Just%20switched%20my%20search%20engine%20to%20%40DuckDuckGo%2C%20who's%20coming%20with%20me%3F%20https%3A%2F%2Fduckduckgo.com%2Ftour%3Fatb%3D<: $atb_version :>t" target="_blank">
-                <img style="margin-right:12px;height:18px;display:inline-block;position:relative;top:-2px;vertical-align:middle;" src="/assets/add-to-browser/install-chrome/twitter.png" />Tweet
-            </a>
-        </li>
-        <li style="display:inline-block;">
-                <a class="btn btn--share" data-channel="email" style="font-size:1.2em;margin:5px;border:none;padding-top:8px;padding-bottom:8px;width:120px;" href="mailto:?subject=Keep%20your%20searches%20private!&body=I%20just%20switched%20my%20search%20engine%20to%20DuckDuckGo.%20Thought%20you%20might%20be%20interested%20in%20giving%20them%20a%20try%3A%20https%3A%2F%2Fduckduckgo.com%2Ftour%3Fatb%3D<: $atb_version :>e" >
-                <img style="margin-right:12px;height:12px;display:inline-block;position:relative;top:-2px;vertical-align:middle;" src="/assets/add-to-browser/install-chrome/email.svg" />Email
-            </a>
-        </li>
-    </ul>
-</div>
-
+<div class="blk blk--hero js-atb-install-share" style="text-align:center;padding-top:4em;padding-bottom:8em;background-color:#434A50;"></div>
 <script>
     DDG.page = new DDG.Pages.ATBInstall();
 </script>
