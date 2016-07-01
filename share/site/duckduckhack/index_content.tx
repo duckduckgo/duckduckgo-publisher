@@ -1,6 +1,6 @@
  <div class="blk  blk--hero  blk--hero--alt  js-hero-slides"><a class="anchor ddh-anchor js-anchor" name="top"></a>
 	<div class="ddh-banner">
-        <span class="ddh-banner__link tx-clr--white"><: l("Join us in making DuckDuckGo the best search engine for programmers.") :><a href="https://forum.duckduckhack.com/t/duckduckhack-programming-mission-overview/"><span class="btn btn--wire--hero">i<: l(Learn Mor) :>e</span></a></span>
+        <span class="ddh-banner__text tx-clr--white"><: l("Join us in making DuckDuckGo the best search engine for programmers.") :></span><a href="https://forum.duckduckhack.com/t/duckduckhack-programming-mission-overview/"><span class="btn btn--wire--hero"><: l("Learn More") :></span></a>
     </div>
     <div class="cw--c  ddh-hero">
 		<div class="ddh-hero-slides">
