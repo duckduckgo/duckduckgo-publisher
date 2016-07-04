@@ -1,6 +1,6 @@
  <div class="blk  blk--hero  blk--hero--alt  js-hero-slides"><a class="anchor ddh-anchor js-anchor" name="top"></a>
-	<div class="ddh-gqh js-gqh">
-        <a class="ddh-gqh__link tx-clr--white" target="_gqhblog" href="https://duck.co/blog/post/239/global-quack-hack-2-details"><: l("Join us for our global Quack & Hack Event on January 30, 2016!") :></a>
+	<div class="ddh-banner">
+        <span class="ddh-banner__text tx-clr--white"><: l("Join us in making DuckDuckGo the best search engine for programmers.") :></span><a href="https://forum.duckduckhack.com/t/duckduckhack-programming-mission-overview/"><span class="btn btn--wire--hero"><: l("Learn More") :></span></a>
     </div>
     <div class="cw--c  ddh-hero">
 		<div class="ddh-hero-slides">
