@@ -321,14 +321,7 @@ sub pages {{
 		hero_header => 1,
 		no_js => 1,
     },
-    install_firefox => sub {
-        no_header => 1,
-        no_cw => 1,
-        no_spacer => 1,
-        no_content_internal => 1,
-        js_skip_init => 1
-    },
-    install_chrome => sub {
+    install => sub {
         no_header => 1,
         no_cw => 1,
         no_spacer => 1,
