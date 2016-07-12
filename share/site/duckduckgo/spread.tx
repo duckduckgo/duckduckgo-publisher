@@ -1,14 +1,15 @@
 <div class="blk  blk--hero">
-	<div class="cw--c"><a class="anchor" name="top"></a>
-		<div class="spread-hero" title="<: l('Help Spread DuckDuckGo') :>"></div>
-		<div class="spread-hero--text--wide">
-			<h1 class="hd-hr  spread-title--hero"><: l("Help your friends and family %s take back their privacy!", '<br>') :></h1>
+	<div class="cw--c" style="width:605px;"><a class="anchor" name="top"></a>
+		<div class="spread-hero--text--wide" style="width:605px;">
+                <h1 class="hd-hr  spread-title--hero">#ComeToTheDuckSide</h1>
+                <a href="https://duckduckgo.com/?q=KareAnderson&ia=web"><img title="#ComeToTheDuckSide" src="/assets/spread/easteregg-tweet.png" /></a>
+                <h1 class="hd-hr  spread-title--hero">Take Back Your Privacy!</h1>
 		</div>
 	</div>
 </div>
 <div class="blk  blk--dark  blk--arr">
 	<div class="cw--c">
-		<h2 class="hd-hr  spread-title"><: l("Get people you know to try DuckDuckGo.") :></h2>
+		<h2 class="hd-hr  spread-title"><a href="https://duckduckgo.com/?t=spread" style="color:white;">DuckDuckGo</a> doesn't store your personal information.</h2>
 		
 		<div class="spread-info-wrap  fix">
 			<div class="third">
@@ -18,8 +19,8 @@
 					</noscript>
 					<img class="spread-img  js-lazysvg  no-js__hide" title="You know you love us..." src="" data-src="/assets/spread/love" />
 					
-					<h4 class="spread-info__hd"><: l('You Chose Us') :></h4>
-					<p class="spread-info__p"><: l("You appreciate not being tracked, from ads not following you around to much worse. And we appreciate you joining us on the Duck side.") :></p>
+					<h4 class="spread-info__hd">We Love Your Privacy</h4>
+					<p class="spread-info__p">Stop being followed by creepy ads, being sold out to advertisers, and being charged more money based on your search history.</p>
 				</div>
 			</div>
 			<div class="third">
@@ -29,8 +30,8 @@
 					</noscript>
 					<img class="spread-img  js-lazysvg  no-js__hide" title="so share us with your friends" src="" data-src="/assets/spread/share" />
 					
-					<h4 class="spread-info__hd"><: l('Show Your Friends') :></h4>
-					<p class="spread-info__p"><: l("Did you know %s of the world has never heard about DuckDuckGo? Show your friends and family how they can protect their search history.", '98%') :></p>
+					<h4 class="spread-info__hd">Pass Along Knowledge</h4>
+					<p class="spread-info__p">Let your friends and family know that private browsing mode is not the solution. Other search engines can and do still track your searches there.</p>
 				</div>
 			</div>
 			<div class="third">
@@ -40,8 +41,8 @@
 					</noscript>
 					<img class="spread-img  js-lazysvg  no-js__hide" title="... and help us take off!" src="" data-src="/assets/spread/growth" />
 					
-					<h4 class="spread-info__hd"><: l('We Rely On You') :></h4>
-					<p class="spread-info__p"><: l("When you get others to switch, we can do more! We're up against giant corporations, and yet we can make a real difference with your help.") :></p>
+					<h4 class="spread-info__hd"><: l('We Need Your Help') :></h4>
+					<p class="spread-info__p"><: l("When you get others to switch, we can do even more! We're up against giant corporations, yet we are making a difference with your help.") :></p>
 				</div>
 			</div>
 		</div>
@@ -50,15 +51,11 @@
 <div class="blk  blk--arr  blk--alt">
    <div class="spread-callout">
                                    <h2 class="hd-hr  spread-callout__title">
-                                                     <: l("Pssst... you can get a personalized %s easter (duck) egg for sharing DuckDuckGo:", '<br class="hide--screen-s">') :>
+                                                     <: l("Pssst... get your own personalized %s easter (duck) egg just by spreading privacy:", '<br class="hide--screen-s">') :>
                                                         </h2>
-        <a class="spread-callout__btn btn btn--primary--alt t-xl" href="https://twitter.com/?status=DuckDuckGo%20is%20my%20search%20engine%20of%20choice.%20%23ComeToTheDuckSide%20-%20We%20have%20privacy.%20https%3A%2F%2Fduckduckgo.com%2F">Tweet</a>
+        <a class="spread-callout__btn btn btn--primary--alt t-xl" href="https://twitter.com/?status=DuckDuckGo.com%20is%20my%20search%20engine%3A%20they%20don&#39;t%20track%20you.%20%23ComeToTheDuckSide%20%26%20get%20an%20easter%20egg%3A%20https%3A%2F%2Fduckduckgo.com%2Fspread">Tweet</a>
 
-        <br>
-        <br>
-        <br>
-        <br>
-						<img title="#ComeToTheDuckSide" src="/assets/spread/easteregg-tweet.png" />
+
 
         </div>
 </div>
