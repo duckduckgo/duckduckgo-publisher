@@ -1,6 +1,6 @@
 <div class="blk  blk--hero">
-	<div class="cw--c" style="width:605px;"><a class="anchor" name="top"></a>
-		<div class="spread-hero--text--wide" style="width:605px;">
+	<div class="cw--c" style="max-width:605px;"><a class="anchor" name="top"></a>
+		<div class="spread-hero--text--wide" style="max-width:605px;">
                 <h1 class="hd-hr  spread-title--hero">#ComeToTheDuckSide</h1>
 		</div>
 	</div>
