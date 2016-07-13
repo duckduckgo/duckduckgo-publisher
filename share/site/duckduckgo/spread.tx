@@ -2,8 +2,6 @@
 	<div class="cw--c" style="max-width:605px;"><a class="anchor" name="top"></a>
 		<div class="spread-hero--text--wide" style="max-width:605px;">
                 <h1 class="hd-hr  spread-title--hero">#ComeToTheDuckSide</h1>
-                <a href="https://duckduckgo.com/?q=KareAnderson&ia=web"><img title="#ComeToTheDuckSide" src="/assets/spread/easteregg-tweet.png" /></a>
-                <h1 class="hd-hr  spread-title--hero">Take Back Your Privacy!</h1>
 		</div>
 	</div>
 </div>
@@ -19,7 +17,7 @@
 					</noscript>
 					<img class="spread-img  js-lazysvg  no-js__hide" title="You know you love us..." src="" data-src="/assets/spread/love" />
 					
-					<h4 class="spread-info__hd">We Love Your Privacy</h4>
+					<h4 class="spread-info__hd">We Love Our Privacy</h4>
 					<p class="spread-info__p">Stop being followed by creepy ads, being sold out to advertisers, and being charged more money based on your search history.</p>
 				</div>
 			</div>
@@ -30,7 +28,7 @@
 					</noscript>
 					<img class="spread-img  js-lazysvg  no-js__hide" title="so share us with your friends" src="" data-src="/assets/spread/share" />
 					
-					<h4 class="spread-info__hd">Pass Along Knowledge</h4>
+					<h4 class="spread-info__hd">Help Your Friends</h4>
 					<p class="spread-info__p">Let your friends and family know that private browsing mode is not the solution. Other search engines can and do still track your searches there.</p>
 				</div>
 			</div>
@@ -51,9 +49,9 @@
 <div class="blk  blk--arr  blk--alt">
    <div class="spread-callout">
                                    <h2 class="hd-hr  spread-callout__title">
-                                                     <: l("Pssst... get your own personalized %s easter (duck) egg just by spreading privacy:", '<br class="hide--screen-s">') :>
+                                                     <: l("Pssst... get your own personal easter egg:", '<br class="hide--screen-s">') :>
                                                         </h2>
-        <a class="spread-callout__btn btn btn--primary--alt t-xl" href="https://twitter.com/?status=DuckDuckGo.com%20is%20my%20search%20engine%3A%20they%20don&#39;t%20track%20you.%20%23ComeToTheDuckSide%20%26%20get%20an%20easter%20egg%3A%20https%3A%2F%2Fduckduckgo.com%2Fspread">Tweet</a>
+        <a class="spread-callout__btn btn btn--primary--alt t-xl" href="https://twitter.com/?status=DuckDuckGo%20is%20the%20search%20engine%20that%20doesn&#39;t%20track%20you.%20%23ComeToTheDuckSide%20-%20we%20have%20privacy.%20https%3A%2F%2Fduckduckgo.com%2Fspread">Tweet</a>
 
 
 
