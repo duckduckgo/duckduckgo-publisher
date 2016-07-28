@@ -49,7 +49,7 @@
 <div class="blk  blk--arr  blk--alt">
    <div class="spread-callout">
                                    <h2 class="hd-hr  spread-callout__title">
-                                                     <: l("Pssst... get your own personal easter egg:", '<br class="hide--screen-s">') :>
+                                                     <: l("Please consider sharing DuckDuckGo:", '<br class="hide--screen-s">') :>
                                                         </h2>
         <a class="js-twitter-btn spread-callout__btn btn btn--primary--alt t-xl" href="https://twitter.com/?status=DuckDuckGo%20is%20the%20search%20engine%20that%20doesn&#39;t%20track%20you.%20%23ComeToTheDuckSide%20-%20we%20have%20privacy.%20https%3A%2F%2Fduckduckgo.com%2Fspread">Tweet</a>
 
