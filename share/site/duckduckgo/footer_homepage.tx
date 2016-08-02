@@ -6,7 +6,7 @@
 		error.innerHTML=str;
 		$(error).css('display','block');
 	}
-	var err=new RegExp('[\?\&]e=([^\&]+)');var errm=new Array();errm['2']='<: js(l('no search')) :>';errm['3']='<: l('search too long') :>';errm['4']='<: js(l('not %s encoding','UTF-8')) :>';if (err.test(window.location.href)) seterr('Oops, '+(errm[RegExp.$1]?errm[RegExp.$1]:'<: js(l('there was an error.')) :>')+' &nbsp;<: js(l('Please try again')) :>');};if (DDG.device.isIDevice) setTimeout('nuo(1)',250);nip(1)
+	var err=new RegExp('[\?\&]e=([^\&]+)');var errm=new Array();errm['2']='<: js(l('no search')) :>';errm['3']='<: l('search too long') :>';errm['4']='<: js(l('not %s encoding','UTF-8')) :>';if (err.test(window.location.href)) seterr('Oops, '+(errm[RegExp.$1]?errm[RegExp.$1]:'<: js(l('there was an error.')) :>')+' &nbsp;<: js(l('Please try again')) :>');};if (DDG.device.isIDevice) setTimeout('DDG.device.scrollTop(1)',250);nip(1)
 	
 	if (kurl) {
 	  document.getElementById("logo_homepage_link").href += (document.getElementById("logo_homepage_link").href.indexOf('?')==-1 ? '?t=i' : '') + kurl;
