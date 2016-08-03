@@ -51,7 +51,15 @@
                                    <h2 class="hd-hr  spread-callout__title">
                                                      <: l("Please consider sharing DuckDuckGo:", '<br class="hide--screen-s">') :>
                                                         </h2>
+					<p class="spread-info__p" style="color:#666; margin-top:20px;">DuckDuckGo is the search engine that doesn't track you.<br>#ComeToTheDuckSide - we have privacy. https://duckduckgo.com/spread</p>
         <a class="js-twitter-btn spread-callout__btn btn btn--primary--alt t-xl" href="https://twitter.com/?status=DuckDuckGo%20is%20the%20search%20engine%20that%20doesn&#39;t%20track%20you.%20%23ComeToTheDuckSide%20-%20we%20have%20privacy.%20https%3A%2F%2Fduckduckgo.com%2Fspread">Tweet</a>
+
+					<p class="spread-info__p" style="color:#666; margin-top:55px;">DuckDuckGo is my search engine of choice.<br>#ComeToTheDuckSide - we have privacy. https://duckduckgo.com/spread</p>
+        <a class="js-twitter-btn spread-callout__btn btn btn--primary--alt t-xl" href="https://twitter.com/?status=DuckDuckGo%20is%20my%20search%20engine%20of%20choice.%20%23ComeToTheDuckSide%20-%20we%20have%20privacy.%20https%3A%2F%2Fduckduckgo.com%2Fspread">Tweet</a>
+
+
+					<p class="spread-info__p" style="color:#666; margin-top:55px;">Switch to DuckDuckGo so your searches aren't tracked.<br>#ComeToTheDuckSide - we have privacy. https://duckduckgo.com/spread</p>
+        <a class="js-twitter-btn spread-callout__btn btn btn--primary--alt t-xl" href="https://twitter.com/?status=Switch%20to%20DuckDuckGo%20so%20your%20searches%20aren&#39;t%20tracked.%20%23ComeToTheDuckSide%20-%20we%20have%20privacy.%20https%3A%2F%2Fduckduckgo.com%2Fspread">Tweet</a>
 
 
 
