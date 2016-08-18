@@ -24,7 +24,7 @@ sub pages {
 		asset_path => 'ddg',
 		js_page_type => 'DDH',
 		hero_slides => [{
-			text => "Help us make %sDuckDuckGo%s, the best search engine for programmers.",
+			text => "Help us make %sDuckDuckGo%s the best search engine for programmers.",
 			img => 'regex',
 			tab => 'Regex',
 			user => 'mintsoft',
