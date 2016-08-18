@@ -1,7 +1,4 @@
  <div class="blk  blk--hero  blk--hero--alt  js-hero-slides"><a class="anchor ddh-anchor js-anchor" name="top"></a>
-	<div class="ddh-gqh js-gqh">
-        <a class="ddh-gqh__link tx-clr--white" target="_gqhblog" href="https://duck.co/blog/post/239/global-quack-hack-2-details"><: l("Join us for our global Quack & Hack Event on January 30, 2016!") :></a>
-    </div>
     <div class="cw--c  ddh-hero">
 		<div class="ddh-hero-slides">
 		<: for $hero_slides -> $h { :><div class="ddh-hero-slides__item  js-hero-text">
@@ -10,13 +7,9 @@
 				</h1>
 			</div><: } :>
 		</div>
-		<a href="#start" class="ddh-hero__btn  btn  btn--wire--hero  js-anchor-link"><: l("Get Started") :></a>
+		<a href="https://forum.duckduckhack.com/t/duckduckhack-programming-mission-overview/53" class="ddh-hero__btn  btn  btn--wire--hero"><: l("Get Started") :></a>
 	</div>
 	<div class="ddh-hero-slides--img">
-		<span class="ddh-hero-slides__nav-wrap">
-			<span class="ddh-hero-slides__nav  nav  nav--hero  nav--prev  js-hero-slides-prev"></span>
-			<span class="ddh-hero-slides__nav  nav  nav--hero  nav--next  js-hero-slides-next"></span>
-		</span>
 		<div class="ddh-hero-slides__wrap">
 			<: for $hero_slides -> $h { :>
 				<div class="ddh-hero-slides__img-wrap  js-hero-img  no-js__hide">
