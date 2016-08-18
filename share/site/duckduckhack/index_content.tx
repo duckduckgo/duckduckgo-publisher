@@ -23,7 +23,7 @@
 		</div>
 	</div>
 </div>
-<div id="power-of-ias" class="blk tx-clr--white ddh ddh--ias">
+<!-- <div id="power-of-ias" class="blk tx-clr--white ddh ddh--ias">
     <div class="cw--c">
         <h2 class="ddh__title"><: l("Power of Instant Answers") :></h2>
         <p class="ddh__sub"><: l("Instant Answers are tailor-made for specific queries") :></p>
@@ -83,7 +83,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 <div id="get-help" class="blk ddh ddh--help">
     <div class="cw--c">
         <h2 class="ddh__title"><: l("Need Help Getting Started?") :></h2>
