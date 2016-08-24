@@ -1,0 +1,51 @@
+<div style="background:#f7f7f7;">
+    <a href="https://duckduckgo.com"><img class="" src="/assets/ddg-icon_48x48.png" style="float:left ; margin:10px" /></a>
+    <div style="text-align:center ; max-width:700px; margin:0 auto">
+        <div style="clear:both"></div>
+        <h1 style="margin:100px 0 0 0; line-height:1.1em; font-weight:700; font-size:54px ; padding:0">Search Like <br>Nobody&rsquo;s Watching.</h1>
+        <h3 style="margin:10px auto; color:#8f8f8f">Switch to DuckDuckGo, and search <b>anonymously</b>.</h3>
+        <a href="#results" class="tour-search__btn  btn  btn--primary--alt  js-atb-button" data-cta="1" style="position:relative; margin:10px 0 140px 0; font-size:26px; font-weight:500">Try DuckDuckGo</a>
+    </div>
+        
+    <!-- White background -->
+    <div class="abt  blk  blk--arr" style="background:#fff; padding:50px 0">
+        <div class="cw--c">
+            <h3 style="color:#3f3f3f; margin-bottom:50px; font-weight:700">Join the millions using DuckDuckGo and take your privacy back!</h3>
+            
+            <div class="abt__row">
+                <div class="abt__key  third  half--screen-m">
+                    <img class="abt__key__icon" src="/assets/switch/images/price-lg.svg" />
+                    <h3 class="abt__key__title">Stop getting <br> charged higher prices</h3>
+                    <p>DuckDuckGo doesn&rsquo;t save or share your search history with advertisers so they can&rsquo;t adjust pricing to fit.</p>
+                    <!-- <a class="abt__key__link" href="https://duckduckgo.com/privacy">Our Policy</a> -->
+
+                </div><div class="abt__key  third  half--screen-m">
+                    <img class="abt__key__icon" src="/assets/switch/images/incognito-lg.svg" />
+                    <h3 class="abt__key__title">Keep your &ldquo;private&rdquo; searches private</h3>
+                    <p>Other search engines still track you in Incognito or Private Mode and associate your activity with your &ldquo;profile&rdquo;.</p>
+                    <!-- <a class="abt__key__link  js-anchor-link" href="#getinvolved">Get Involved</a> -->
+
+                </div><div class="abt__key  third  half--screen-m">
+                    <img class="abt__key__icon" src="/assets/switch/images/ninja_1-lg.svg" />
+                    <h3 class="abt__key__title">Escape the filter bubble.</h3>
+                    <p>Other search engines tailor your results to your search &ldquo;profile&rdquo; We don&rsquo;t tailor your results to your search history.</p>
+                    <!-- <a class="abt__key__link" href="https://duckduckgo.com/tour">Take a Tour</a> -->
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Gray background -->
+    <div class="abt  blk  blk--alt  blk--arr" style="padding-bottom:150px">
+        <h2 class="abt__title">Ready to take back your privacy?</h2>
+        <a href="#results" class="tour-search__btn  btn  btn--primary--alt  js-atb-button" data-cta="2" style="position:relative; margin:30px 0 40px 0; font-size:26px; font-weight:500">Try DuckDuckGo</a>
+    </div>
+</div>
+<script type="text/javascript" src="/assets/switch/js/landing.js"></script>
+<script>
+    DDG.page = new DDG.Pages.Landing({
+        version: "<: $atb_version :>"
+    });
+</script>

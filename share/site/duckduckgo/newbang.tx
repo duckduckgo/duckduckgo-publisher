@@ -1,4 +1,4 @@
-<div id="special_page_header"><: lp('newbang','New %s','!bang') :></div>
+<div id="special_page_header"><: lp('newbang','Please fill in this form to %1$s submit a new %2$s%3$s or %1$supdate an existing %2$s%3$s.','<strong>','!bang','</strong>') :></div>
 
 <script type="text/JavaScript">
 var i;

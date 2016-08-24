@@ -15,8 +15,6 @@ pre {
 
 <div id="special_page_header"><: l('Instant Answer API') :></div>
 
-<: include "untranslated.tx" :>
-
 <div style="margin-bottom:30px;"></div>
 Our Instant Answer API gives you free access to many of our instant answers like:
 <a href="/?q=valley+forge+national+park&ia=about">topic summaries</a> 
