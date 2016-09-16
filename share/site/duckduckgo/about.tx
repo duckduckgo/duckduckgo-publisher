@@ -70,7 +70,7 @@ Smarter search without the tracking.
 				<a class="abt__key__link" href="/tour">Take a Tour</a>
 			</div>
 		</div>
-        <div class="abt_row  abt__atb  js-about-us-atb">
+        <div class="abt_row  abt__atb  ddg-extension-hide  js-about-us-atb">
             <h4>Ready to take back your privacy?</h4>
         </div>
 	</div>
@@ -155,7 +155,7 @@ Smarter search without the tracking.
         </ul>
     </div>
     <div class="cw--c">
-        <div class="abt_row  abt__atb  js-about-news-atb">
+        <div class="abt_row  abt__atb  ddg-extension-hide  js-about-news-atb">
             <h4>Ready to take back your privacy?</h4>
         </div>
     </div>
