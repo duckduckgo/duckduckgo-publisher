@@ -70,6 +70,9 @@ Smarter search without the tracking.
 				<a class="abt__key__link" href="/tour">Take a Tour</a>
 			</div>
 		</div>
+        <div class="abt_row  abt__atb  ddg-extension-hide  js-about-us-atb">
+            <h4>Ready to take back your privacy?</h4>
+        </div>
 	</div>
 </div>
 <div class="map no-js__hide">
@@ -119,38 +122,43 @@ Smarter search without the tracking.
 </div>
 <div class="abt  blk  blk--alt  blk--arr">
 	<h2 class="abt__title">In the News</h2>
-		<div class="news-slider js-news-slider">
-			<div class="news-slider__wrap  js-news-slider-wrap">
-			<: for $news_articles -> $news { :>
-			<div class="news-slider__it  js-news-item" data-source="<: $news.source :>">
-				<div class="tile  news-tile">
-					<div class="news-tile__meta">
-						<div class="news-tile__meta__img-wrap">
-							<noscript><img src="assets/about/news/<: $news.source :>_author.jpg" alt="" class="news-tile__meta__img" /></noscript>
-							<img src="" data-src="assets/about/news/<: $news.source :>_author.jpg" alt="" class="news-tile__meta__img  js-lazyload  no-js__hide" />
-						</div>
-						<div class="news-tile__meta__body">
-							<span class="news-tile__author">by <: $news.author_name :></span>
-							<span class="news-tile__source"><: $news.source_full :></span>
-							<span class="news-tile__date"><: $news.date :></span>
-						</div>
-					</div>
-					<h2 class="news-tile__title"><: $news.headline :></h2>
-					<p class="news-tile__snippet"><: $news.snippet :></p>
-					<a href="<: $news.source_link :>" class="news-tile__link"><: lp('newslink', 'Full Story') :></a>
-				</div>
-			</div>
-			<: } :>
-			</div>
-			<ul class="news-slider__list">
-				<: for $news_articles -> $news { :>
-				<li class="news-slider__list__it  js-news-nav" data-source="<: $news.source :>">
-					<noscript><img src="assets/about/news/<: $news.source :>_logo.png" class="news-slider__list__img" alt="<: $news.source_full :>" /></noscript>
-					<img src="" data-src="assets/about/news/<: $news.source :>_logo.png" class="news-slider__list__img  js-lazyload  no-js__hide" alt="<: $news.source_full :>" />
-				</li>
-				<: } :>
-			</ul>
-		</div>
+    <div class="news-slider js-news-slider">
+        <div class="news-slider__wrap  js-news-slider-wrap">
+        <: for $news_articles -> $news { :>
+        <div class="news-slider__it  js-news-item" data-source="<: $news.source :>">
+            <div class="tile  news-tile">
+                <div class="news-tile__meta">
+                    <div class="news-tile__meta__img-wrap">
+                        <noscript><img src="assets/about/news/<: $news.source :>_author.jpg" alt="" class="news-tile__meta__img" /></noscript>
+                        <img src="" data-src="assets/about/news/<: $news.source :>_author.jpg" alt="" class="news-tile__meta__img  js-lazyload  no-js__hide" />
+                    </div>
+                    <div class="news-tile__meta__body">
+                        <span class="news-tile__author">by <: $news.author_name :></span>
+                        <span class="news-tile__source"><: $news.source_full :></span>
+                        <span class="news-tile__date"><: $news.date :></span>
+                    </div>
+                </div>
+                <h2 class="news-tile__title"><: $news.headline :></h2>
+                <p class="news-tile__snippet"><: $news.snippet :></p>
+                <a href="<: $news.source_link :>" class="news-tile__link"><: lp('newslink', 'Full Story') :></a>
+            </div>
+        </div>
+        <: } :>
+        </div>
+        <ul class="news-slider__list">
+            <: for $news_articles -> $news { :>
+            <li class="news-slider__list__it  js-news-nav" data-source="<: $news.source :>">
+                <noscript><img src="assets/about/news/<: $news.source :>_logo.png" class="news-slider__list__img" alt="<: $news.source_full :>" /></noscript>
+                <img src="" data-src="assets/about/news/<: $news.source :>_logo.png" class="news-slider__list__img  js-lazyload  no-js__hide" alt="<: $news.source_full :>" />
+            </li>
+            <: } :>
+        </ul>
+    </div>
+    <div class="cw--c">
+        <div class="abt_row  abt__atb  ddg-extension-hide  js-about-news-atb">
+            <h4>Ready to take back your privacy?</h4>
+        </div>
+    </div>
 </div>
 <div class="abt  blk  blk--arr">
 	<div class="cw--c"><a class="anchor" name="newsletter"></a>
