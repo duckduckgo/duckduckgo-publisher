@@ -40,7 +40,7 @@ Our instant answers come from a variety of sources, including <a href="https://w
   This API serves <a href="/traffic.html">over 10,000,000 queries a day</a> for a variety of uses, e.g.:
 
 <ul>
-<li>Defining people, places, things, words and concepts, e.g. for side-bars, onMouseover or onHiglight.
+<li>Defining people, places, things, words and concepts, e.g. for side-bars, onMouseover or onHighlight.
 <li>Providing direct links to other services (via <a href="/bang.html">!bang syntax</a>).
 <li>Listing related topics.
 <li>Giving official sites when available.
@@ -184,7 +184,7 @@ vs
 <ul>
 <span class="small">
 <li>You can consume this API via <a href="https://www.mashape.com/duckduckgo/duckduckgo-zero-click-info">Mashape</a>, which provides Curl, Java (including Android), Node, PHP, Python, Ruby, Objective C, and .NET libraries.
-<li><a href="http://search.cpan.org/~getty/WWW-DuckDuckGo-0.016/lib/WWW/DuckDuckGo.pm">Perl module</a> & <a href="http://search.cpan.org/~getty/App-DuckDuckGo-0.008/bin/duckduckgo">command line app</a> by <a href="https://twitter.com/raudssus">@raudssus</a>. 
+<li><a href="http://search.cpan.org/~moollaza/WWW-DuckDuckGo-0.016/lib/WWW/DuckDuckGo.pm">Perl module</a> & <a href="http://search.cpan.org/~crzedpsyc/App-DuckDuckGo-0.007/bin/duckduckgo">command line app</a> by <a href="https://twitter.com/raudssus">@raudssus</a>. 
 <li><a href="https://pypi.python.org/pypi/duckduckgo2/">Python library</a> by mikejs. 
 <li><a href="http://dhruvbird.com/ddb/zc.html">Zero-click jQuery Search Widget</a> by <a href="https://twitter.com/dhruvbird">@dhruvbird</a> that provides info for you in iframe format. 
 <li><a href="https://github.com/SiegfriedEhret/jddg">jddg jQuery plugin</a> [<a href="http://htmlpreview.github.io/?https://github.com/SiegfriedEhret/jddg/blob/master/demo/index.html">demo</a>] by <a href="https://ehret.me/">Siegfried Ehret</a>
