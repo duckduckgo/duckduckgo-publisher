@@ -1,7 +1,7 @@
 <div class="blk  blk--hero">
 	<div class="cw--c"><a class="anchor" name="top"></a>
 		<div class="logo--dax" title="DuckDuckGo"></div>
-		<div class="blk__text">
+		<div class="blk__text  blk__text--hero-privacy  js-privacy-hero">
 			<h1 class="hd-hr"><: l("We don't collect or share personal information.") :></h1>
 			<h5 class="hd-hr"><: l("That's our privacy policy in a nutshell.") :></h5>
 		</div>
@@ -164,6 +164,7 @@ Weinberg</a>) am the founder of Duck Duck Go and personally wrote this
 privacy policy. If you have any questions or concerns,
 please <a href="/feedback">submit
 feedback</a>.</p>
+			<div class="js-privacy-bottom-atb"></div>
 		</div> <!-- .blk__text //-->
 	</div> <!-- .cw--c //-->
 </div> <!-- .blk.blk--alt //-->

@@ -311,6 +311,7 @@ sub pages {{
 		no_cw => 1,
 		hero_header => 1,
 		hero_header_text => 1,
+		js_page_type => 'Privacy',
 	},
 	search_box => sub {},
 	yahoo_static => sub {
