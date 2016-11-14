@@ -24,29 +24,11 @@ sub pages {
 		asset_path => 'ddg',
 		js_page_type => 'DDH',
 		hero_slides => [{
-			text => "Welcome to %sDuckDuckHack%s, an open source community changing the future of search.",
-			img => 'soundcloud',
-			tab => 'Audio',
-			user => 'jdan',
-			link => 'https://duckduckgo.com/?q=songs+by+tycho&ia=audio',
-		},{
-			text => "Getting what you search for in few or zero clicks makes a great search experience.",
+			text => "Help us make %sDuckDuckGo%s the best search engine for programmers.",
 			img => 'regex',
 			tab => 'Regex',
 			user => 'mintsoft',
 			link => 'https://duckduckgo.com/?q=regex+cheat+sheet&ia=cheatsheet',
-		},{
-			text => "With the help of you and our community, every search can have an Instant Answer.",
-			img => 'recipes',
-			tab => 'Recipes',
-			user => 'bsstoner',
-			link => 'https://duckduckgo.com/?q=reese%27s+cookie+recipes&ia=recipes',
-		},{
-			text => "Use the Web's best sources for a specific topic or build an Instant Answer from scratch!",
-			img => 'movies',
-			tab => 'Movies',
-			user => 'killerfish',
-			link => 'https://duckduckgo.com/?q=currently+in+theaters&ia=in_theaters&iai=0',
 		}],
 		foot_useful => [{
 			name => 'Fuel Economy',

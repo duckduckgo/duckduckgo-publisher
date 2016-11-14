@@ -187,6 +187,14 @@ sub pages {{
 			snippet => 'Boom! 10 million searches in a single day (10,210,082 to be exact). To celebrate, we’re giving away 10,000 DuckDuckGo T-shirts!',
 			type => 'traffic',
 			icon => 'growth',
+		},{
+			date => 'May 3, 2016',
+			title => '2016 Donations',
+			snippet => 'For our sixth year of free and open source donations, we divided $225,000 equally over nine projects: SecureDrop, Freenet, OpenBSD Foundation, CrypTech, Tor Project, Fight for the Future, VeraCrypt, LEAP, GPGTools.',
+			type => 'company',
+			subtype => 'foss',
+			icon => 'love',
+			year => '2016',
 		}],
 		
 		news_articles => [{
@@ -303,6 +311,7 @@ sub pages {{
 		no_cw => 1,
 		hero_header => 1,
 		hero_header_text => 1,
+		js_page_type => 'Privacy',
 	},
 	search_box => sub {},
 	yahoo_static => sub {
@@ -313,59 +322,12 @@ sub pages {{
 		hero_header => 1,
 		no_js => 1,
     },
-    switch1 => sub {
+    install => sub {
         no_header => 1,
         no_cw => 1,
         no_spacer => 1,
         no_content_internal => 1,
-        js_skip_init => 1,
-        atb_version => "l1",
-        opensearch_filename => "opensearch_l1.xml"
-    },
-    switch2 => sub {
-        no_header => 1,
-        no_cw => 1,
-        no_spacer => 1,
-        no_content_internal => 1,
-        js_skip_init => 1,
-        atb_version => "l2",
-        opensearch_filename => "opensearch_l2.xml"
-    },
-    switch3 => sub {
-        no_header => 1,
-        no_cw => 1,
-        no_spacer => 1,
-        no_content_internal => 1,
-        js_skip_init => 1,
-        atb_version => "l3",
-        opensearch_filename => "opensearch_l3.xml"
-    },
-    switch4 => sub {
-        no_header => 1,
-        no_cw => 1,
-        no_spacer => 1,
-        no_content_internal => 1,
-        js_skip_init => 1,
-        atb_version => "l4",
-        opensearch_filename => "opensearch_l4.xml"
-    },
-    switch5 => sub {
-        no_header => 1,
-        no_cw => 1,
-        no_spacer => 1,
-        no_content_internal => 1,
-        js_skip_init => 1,
-        atb_version => "l5",
-        opensearch_filename => "opensearch_l5.xml"
-    },
-    switch6 => sub {
-        no_header => 1,
-        no_cw => 1,
-        no_spacer => 1,
-        no_content_internal => 1,
-        js_skip_init => 1,
-        atb_version => "l6",
-        opensearch_filename => "opensearch_l6.xml"
+        js_skip_init => 1
     }
 }}
 

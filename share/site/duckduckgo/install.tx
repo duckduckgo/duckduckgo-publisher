@@ -1,0 +1,4 @@
+<div class="js-atb-install-browser"></div>
+<script>
+    DDG.page = new DDG.Pages.ATBInstall();
+</script>
