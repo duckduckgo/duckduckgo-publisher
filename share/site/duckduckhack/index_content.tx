@@ -30,14 +30,14 @@
         <i class="ddgsi ddgsi-check-sign"></i>
         <h2 class="ddh__title">Get Started</h2>
         <p>
-          Improve Instant Answers or create new ones
+          The DuckDuckHack community is focused on improving search
+          <br/>
+          results for the top 15 programming languages.
+          <br/>
+          Our goal is to have a high quality, relevant Instant Answer for every search.
         </p>
         <div class="ddh--help__link">
           <i class="ddgsi-arrow-right ddgsi"></i> <a href="https://forum.duckduckhack.com/t/duckduckhack-getting-started/53#tasks">Choose a task</a>
-        </div>
-
-        <div class="ddh--help__link">
-          <i class="ddgsi-arrow-right ddgsi"></i> <a href="https://quackslack.herokuapp.com/">Join our Slack community</a>
         </div>
 
       </div>
@@ -48,11 +48,11 @@
           Join the discussion on the DuckDuckHack forum
         </p>
         <div class="ddh--help__link">
-          <i class="ddgsi-arrow-right ddgsi"></i> <a href="https://forum.duckduckhack.com/tags/overview-post">Instant Answers by language</a>
+          <i class="ddgsi-arrow-right ddgsi"></i> <a href="https://forum.duckduckhack.com/tags/overview-post">See current Projects and Instant Answers</a>
         </div>
 
         <div class="ddh--help__link">
-          <i class="ddgsi-arrow-right ddgsi"></i> <a href="https://forum.duckduckhack.com/tags/brainstorming-post">Help define important search concepts</a>
+          <i class="ddgsi-arrow-right ddgsi"></i> <a href="https://quackslack.herokuapp.com/">Join our Slack community</a>
         </div>
 
       </div>
@@ -60,7 +60,9 @@
         <i class="ddgsi ddgsi-star"></i>
         <h2 class="ddh__title">Become a Leader</h2>
         <p>
-          Calling all experienced DuckDuckHack contributors!
+          If you are an experienced DuckDuckHack contributor,
+          <br/>
+          or are an expert in one of the languages we're working on, see:
         </p>
         <div class="ddh--help__link">
           <i class="ddgsi-arrow-right ddgsi"></i> <a href="https://forum.duckduckhack.com/t/looking-for-language-leaders/803%22">Become a language leader</a>
