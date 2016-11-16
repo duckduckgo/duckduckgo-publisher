@@ -9,7 +9,7 @@
   <head>
     <: include "head.tx" :>
   </head>
-  <body id="pg-<: $f.filebase :>" class="page-<: $f.filebase :><: if $homepage { :> body--home<: } :>">
+  <body id="pg-<: $f.filebase :>" class="page-<: $f.filebase :><: if $homepage { :> body--home<: } :> beta">
 	<: if !$no_js { include "head_js.tx" } :>
 	<div class="site-wrapper <: if $homepage { :> site-wrapper--home<: } else { :> site-wrapper--static<: } :>  js-site-wrapper">
 	<: if !$no_wrapper { :> 

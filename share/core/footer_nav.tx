@@ -3,8 +3,8 @@
 		<div class="blk--foot__nav-col  third  thirty--screen-s">
 			<h5 class="blk--foot__nav-head">Community</h5>
 			<ul>
-				<li><a href="https://duck.co/">Duck.co</a></li>
-				<li><a href="https://duck.co/ia/dev">Dev Center</a></li>
+				<li><a href="https://forum.duckduckhack.com/t/duckduckhack-getting-started/53">Getting Started</a></li>
+				<li><a href="https://quackslack.herokuapp.com/">Join Slack</a></li>
 				<li><a href="https://duck.co/translate">Translate</a></li>
 				<li><a href="http://www.meetup.com/pro/duckduckgo/">Meetup Groups</a></li>
 				<li><a href="https://duckduckgo.com/spread">Spread</a></li>

@@ -24,81 +24,54 @@
 	</div>
 </div>
 <div id="get-help" class="blk ddh ddh--help">
-    <div class="cw--c">
-        <h2 class="ddh__title"><: l("Need Help Getting Started?") :></h2>
-        <p class="ddh__sub"><: l("You can always ") :><a class="ddh__sub--link" target="_docs" href="http://docs.duckduckhack.com/"><: l("check out our docs") :></a><: l(" for more info!") :></p>
-        <div class="gw">
-            <div class="g half half--first ddh--help__half">
-                <a class="ddh--help__item ddh--help__item--first" target="_cheatsheet" href="http://docs.duckduckhack.com/welcome/setup-dev-environment.html">
-                    <span class="twenty ddh--help__num ddh__title">01</span>
-                    <span class="eighty t-xxl ddh--help__text"><: l("How do I set up my development environment?") :></span>
-                </a>    
-                <a class="ddh--help__item" target="_git" href="http://docs.duckduckhack.com/resources/git-workflow.html">
-                    <span class="twenty ddh--help__num ddh__title">02</span>
-                    <span class="eighty t-xxl ddh--help__text"><: l("How do I work with Git and Github?") :></span>
-                </a>
-            </div>
-            <div class="g half half--last ddh--help__half">   
-                <a class="ddh--help__item ddh--help__item--first" target="_environment" href="http://docs.duckduckhack.com/walkthroughs/programming-syntax.html">
-                    <span class="twenty ddh--help__num ddh__title">03</span>
-                    <span class="eighty t-xxl ddh--help__text"><: l("How do I create a Cheat Sheet?") :></span>
-                </a>
-                <a class="ddh--help__item" target="_duckpan" href="http://docs.duckduckhack.com/resources/duckpan-overview.html">
-                    <span class="twenty ddh--help__num ddh__title">04</span>
-                    <span class="eighty t-xxl ddh--help__text"><: l("How do I get started with DuckPan? What is DuckPan?") :></span>
-                </a>
-            </div>
+  <div class="cw--c">
+    <div class="">
+      <div class="ddh--help__section">
+        <i class="ddgsi ddgsi-check-sign"></i>
+        <h2 class="ddh__title">Get Started</h2>
+        <p>
+          The DuckDuckHack community is focused on improving search
+          <br/>
+          results for the top 15 programming languages.
+          <br/>
+          Our goal is to have a high quality, relevant Instant Answer for every search.
+        </p>
+        <div class="ddh--help__link">
+          <i class="ddgsi-arrow-right ddgsi"></i> <a href="https://forum.duckduckhack.com/t/duckduckhack-getting-started/53#tasks">Choose a task</a>
         </div>
+
+      </div>
+      <div class="ddh--help__section">
+        <i class="ddgsi ddgsi-comment"></i>
+        <h2 class="ddh__title">Discuss Your Ideas</h2>
+        <p>
+          Join the discussion on the DuckDuckHack forum
+        </p>
+        <div class="ddh--help__link">
+          <i class="ddgsi-arrow-right ddgsi"></i> <a href="https://forum.duckduckhack.com/tags/overview-post">See current Projects and Instant Answers</a>
+        </div>
+
+        <div class="ddh--help__link">
+          <i class="ddgsi-arrow-right ddgsi"></i> <a href="https://quackslack.herokuapp.com/">Join our Slack community</a>
+        </div>
+
+      </div>
+      <div class="ddh--help__section">
+        <i class="ddgsi ddgsi-star"></i>
+        <h2 class="ddh__title">Become a Leader</h2>
+        <p>
+          If you are an experienced DuckDuckHack contributor,
+          <br/>
+          or are an expert in one of the languages we're working on, see:
+        </p>
+        <div class="ddh--help__link">
+          <i class="ddgsi-arrow-right ddgsi"></i> <a href="https://forum.duckduckhack.com/t/looking-for-language-leaders/803%22">Become a language leader</a>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
-<div id="join-community" class="blk blk--alt ddh ddh--comm">
-    <div class="cw--c ddh--comm__wrapper">
-        <h2 class="ddh__title"><: l("Join a Community") :></h2>
-        <p class="ddh__sub"><: l("The best way to get plugged in is to join one of our thriving communities") :></p>
-        <div class="gw ddh--comm__items">
-            <div class="g third third--first ddh--comm__item">
-                <a class="ddh--comm__link" target="_slack" href="https://quackslack.herokuapp.com/">
-                    <div class="ddh--comm__item__top tx-clr--white">
-                        <div class="tx--17 tx-lt"><: l("Join") :></div>
-                        <div class="tx--25 tx-bld">#duckduckhack</div>
-                    </div>
-                    <div class="ddh--comm__circle"><i class="ddh--comm__icon fa fa-slack"></i></div>
-                    <div class="ddh--comm__item__bottom bg-clr--white text--secondary">
-                        <div class="ddh__title js-ddh-num--slack"></div>
-                        <div class="tx--17 tx-lt"><: l("Online") :></div>
-                    </div>
-                </a>
-            </div>
-            <div class="g third third--mid ddh--comm__item">    
-                <a class="ddh--comm__link" target="_quacknhack" href="http://www.meetup.com/pro/duckduckgo/">
-                    <div class="ddh--comm__item__top tx-clr--white">
-                        <div class="tx--17 tx-lt"><: l("Meet Up") :></div>
-                        <div class="tx--25 tx-bld">Global Quack & Hack</div>
-                    </div> 
-                    <div class="ddh--comm__circle"><i class="ddh--comm__icon fa fa-map-marker"></i></div>
-                    <div class="ddh--comm__item__bottom bg-clr--white text--secondary">
-                        <div class="ddh__title js-ddh-num--meetup">19</div>
-                        <div class="tx--17 tx-lt"><: l("Locations Worldwide") :></div>
-                    </div>
-                </a>
-            </div>
-            <div class="g third third--last ddh--comm__item">  
-                <a class="ddh--comm__link" target="_twitter" href="https://twitter.com/duckduckhack">
-                    <div class="ddh--comm__item__top tx-clr--white">
-                        <div class="tx--17 tx-lt"><: l("Follow") :></div>
-                        <div class="tx--25 tx-bld">@duckduckhack</div>
-                    </div>
-                    <div class="ddh--comm__circle icon-twitter"><i class="ddh--comm__icon fa fa-twitter"></i></div>
-                    <div class="ddh--comm__item__bottom bg-clr--white text--secondary">
-                        <div class="ddh__title js-ddh-num--twitter">6,302</div>
-                        <div class="tx--17 tx-lt"><: l("Followers") :></div>
-                    </div>
-                </a>    
-            </div>
-        </div>
-   </div>
-</div>
-<div id="plaudits" class="blk ddh">
+<div id="plaudits" class="blk ddh blk--alt">
 	<div class="cw--c">
 		<h2 class="ddh__title"><: l("What others have said about DuckDuckHack...") :></h2>
 		<p class="ddh__sub"><: l("Whatever your reason for contributing, our community is here to make it a positive experience.") :></p>
