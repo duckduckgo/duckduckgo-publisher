@@ -13,15 +13,19 @@ pre {
 }
 </style>
 
-<div id="special_page_header"><: l('Instant Answer API') :></div>
+<h2 id="special_page_header"><: l('Instant Answer API') :></h2>
+
+<div><strong>Summary: </strong>An API for some of our Instant Answers, <strong>not for full search results</strong>.</div>
+
+<hr>
 
 <div style="margin-bottom:30px;"></div>
 Our Instant Answer API gives you free access to many of our instant answers like:
-<a href="/?q=valley+forge+national+park&ia=about">topic summaries</a> 
-(<a href="http://api.duckduckgo.com/?q=valley+forge+national+park&format=json&pretty=1">API example</a>), 
+<a href="/?q=valley+forge+national+park&ia=about">topic summaries</a>
+(<a href="http://api.duckduckgo.com/?q=valley+forge+national+park&format=json&pretty=1">API example</a>),
 <a href="/?q=simpsons+characters&ia=list">categories</a>
-(<a href="http://api.duckduckgo.com/?q=simpsons+characters&format=json&pretty=1">API example</a>), 
-<a href="/?q=apple&ia=meanings">disambiguation</a>  
+(<a href="http://api.duckduckgo.com/?q=simpsons+characters&format=json&pretty=1">API example</a>),
+<a href="/?q=apple&ia=meanings">disambiguation</a>
 (<a href="http://api.duckduckgo.com/?q=apple&format=json&pretty=1">API example</a>),
 and
 <a href="/bang.html">!bang redirects</a>
@@ -48,17 +52,17 @@ Our instant answers come from a variety of sources, including <a href="https://w
 
 <p style="margin-top: 25px;">
 To consume it yourself, you can use one of the language libraries listed below or simply add '&format=json' (or xml if you prefer) onto any query URL in the api subdomain, e.g.
-<br><a href="http://api.duckduckgo.com/?q=DuckDuckGo&format=json&pretty=1">http://api.duckduckgo.com/?q=DuckDuckGo&format=json</a>  
+<br><a href="http://api.duckduckgo.com/?q=DuckDuckGo&format=json&pretty=1">http://api.duckduckgo.com/?q=DuckDuckGo&format=json</a>
 
 <p style="margin-top: 25px;">
-Here are the requirements for use: 
+Here are the requirements for use:
 <ul>
-<li>Attribution in each place you use our API for both us and any underlying source. For the source, you can link to the source's relevant detail page. For us, you can say <a href="/">Results from DuckDuckGo</a> with our logo (and link to the specific result page). 
+<li>Attribution in each place you use our API for both us and any underlying source. For the source, you can link to the source's relevant detail page. For us, you can say <a href="/">Results from DuckDuckGo</a> with our logo (and link to the specific result page).
 <li>Non-commercial use unless you get <a href="https://duck.co/help/company/partnerships">email approval from us</a> (though we're generally fine with anything that isn't sketchy).
 <li>Use a descriptive <a href="https://duck.co/help/privacy/t">t parameter</a>, i.e. append &t=nameofapp to your requests.
 </ul>
 
-Our overall goal is to get more people using DuckDuckGo, so please keep that in mind as well. 
+Our overall goal is to get more people using DuckDuckGo, so please keep that in mind as well.
 
 <p style="margin-top: 25px;">
 Here are the return fields:
@@ -150,7 +154,7 @@ Type: ""
 </pre>
 <!--
 <p style="margin-top: 5px;">
-<li class="small">If there is no icon for a given Topic or Result, Icon will be a blank hash, i.e. {}, instead of a hash with every sub-field being an empty string. 
+<li class="small">If there is no icon for a given Topic or Result, Icon will be a blank hash, i.e. {}, instead of a hash with every sub-field being an empty string.
 //-->
 
 <p style="margin-top: 5px;">
@@ -163,7 +167,7 @@ Type: ""
 <li class="small">For <a href="/bang.html">!bang commands</a>, the redirect will happen at the HTTP level (since that is fastest), but it will also be returned in the content (for parsing). If you don't want the redirect to happen in the HTTP header, use the no_redirect flag.
 
 <p style="margin-top: 5px;">
-<li class="small">Queries can be case sensitive e.g. 
+<li class="small">Queries can be case sensitive e.g.
 <a href="/?q=blackberry">blackberry</a> (<a href="http://api.duckduckgo.com/?q=blackberry&format=json&pretty=1">API example</a>)
 vs
 <a href="/?q=BlackBerry">BlackBerry</a> (<a href="http://api.duckduckgo.com/?q=BlackBerry&format=json&pretty=1">API example</a>). In the first case (lowercase blackberry) it returns a disambiguation page; in the latter case (MixedCase BlackBerry) it returns info primarily about the device (inferring what you meant from the case).
@@ -179,14 +183,14 @@ vs
 <b>FAQ</b>
 
 <p style="margin-top: 10px;">
-<i>Are there supporting library integrations?</i> 
+<i>Are there supporting library integrations?</i>
 <p style="margin-top: 5px;">
 <ul>
 <span class="small">
 <li>You can consume this API via <a href="https://www.mashape.com/duckduckgo/duckduckgo-zero-click-info">Mashape</a>, which provides Curl, Java (including Android), Node, PHP, Python, Ruby, Objective C, and .NET libraries.
-<li><a href="http://search.cpan.org/~moollaza/WWW-DuckDuckGo-0.016/lib/WWW/DuckDuckGo.pm">Perl module</a> & <a href="http://search.cpan.org/~crzedpsyc/App-DuckDuckGo-0.007/bin/duckduckgo">command line app</a> by <a href="https://twitter.com/raudssus">@raudssus</a>. 
-<li><a href="https://pypi.python.org/pypi/duckduckgo2/">Python library</a> by mikejs. 
-<li><a href="http://dhruvbird.com/ddb/zc.html">Zero-click jQuery Search Widget</a> by <a href="https://twitter.com/dhruvbird">@dhruvbird</a> that provides info for you in iframe format. 
+<li><a href="http://search.cpan.org/~moollaza/WWW-DuckDuckGo-0.016/lib/WWW/DuckDuckGo.pm">Perl module</a> & <a href="http://search.cpan.org/~crzedpsyc/App-DuckDuckGo-0.007/bin/duckduckgo">command line app</a> by <a href="https://twitter.com/raudssus">@raudssus</a>.
+<li><a href="https://pypi.python.org/pypi/duckduckgo2/">Python library</a> by mikejs.
+<li><a href="http://dhruvbird.com/ddb/zc.html">Zero-click jQuery Search Widget</a> by <a href="https://twitter.com/dhruvbird">@dhruvbird</a> that provides info for you in iframe format.
 <li><a href="https://github.com/SiegfriedEhret/jddg">jddg jQuery plugin</a> [<a href="http://htmlpreview.github.io/?https://github.com/SiegfriedEhret/jddg/blob/master/demo/index.html">demo</a>] by <a href="https://ehret.me/">Siegfried Ehret</a>
 <li><a href="https://github.com/andrewrjones/ruby-duck-duck-go">Ruby Gem</a> by <a href="http://andrew-jones.com/">Andrew Jones</a>
 <li><a href="https://github.com/ajanicij/goduckgo">Go library</a> by <a href="https://github.com/ajanicij">ajanicij</a>
@@ -200,14 +204,14 @@ vs
 
 
 <p style="margin-top: 25px;">
-<i>Why is x query blank? Where are all the Web links like on the main site?</i> 
+<i>Why is x query blank? Where are all the Web links like on the main site?</i>
 
 <p style="margin-top: 5px;">
 <span class="small">This is an Instant Answer API, and not a full results API. However, there are some Web links within it, e.g. official sites. Please see the second paragraph at the top for more info.</span>
 
 
 <p style="margin-top: 25px;">
-<i>Why is my query blank? I see an Instant Answer on the main site!</i> 
+<i>Why is my query blank? I see an Instant Answer on the main site!</i>
 
 <p style="margin-top: 5px;">
 <span class="small">
@@ -220,7 +224,7 @@ Not all of our instant answers are available right now via this API for a variet
 
 <p style="margin-top: 5px;">
 <span class="small">
-Yes and no. We do not want to confuse users into thinking that your application was made by us. Please see <a href="https://duck.co/help/company/partnerships">our partnerships page</a> for more info on guidelines and getting in touch with us. 
+Yes and no. We do not want to confuse users into thinking that your application was made by us. Please see <a href="https://duck.co/help/company/partnerships">our partnerships page</a> for more info on guidelines and getting in touch with us.
 </span>
 
 
@@ -238,7 +242,7 @@ No, though many of the instant answers it provides are open source via our <a hr
 
 <p style="margin-top: 5px;">
 <span class="small">
-We simply do not have the resources to support high queries per second (QPS) for a single machine. Generally, this isn't a problem because our API is designed to be used client-side by individual users after they take some specific action (like a search or right-click). We also get a lot of botnet attacks. As a result, there is automatic throttling for API requests that will probably not effect you if you use the API in a distributed fashion (i.e. on your application's front-end). For specific situations we also provide higher limits. If you feel you may be in such a situation, please <a href="https://duck.co/help/company/partnerships">reach out</a>. For legal limits, please see above for attribution and other requirements. 
+We simply do not have the resources to support high queries per second (QPS) for a single machine. Generally, this isn't a problem because our API is designed to be used client-side by individual users after they take some specific action (like a search or right-click). We also get a lot of botnet attacks. As a result, there is automatic throttling for API requests that will probably not effect you if you use the API in a distributed fashion (i.e. on your application's front-end). For specific situations we also provide higher limits. If you feel you may be in such a situation, please <a href="https://duck.co/help/company/partnerships">reach out</a>. For legal limits, please see above for attribution and other requirements.
 </span>
 
 
