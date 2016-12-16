@@ -51,7 +51,7 @@
                                    <h2 class="hd-hr  spread-callout__title">
                                                      <: l("Please consider sharing DuckDuckGo:", '<br class="hide--screen-s">') :>
                                                         </h2>
-        <a class="js-twitter-btn spread-callout__btn btn btn--primary--alt t-xl" href="https://twitter.com/?status=DuckDuckGo%20is%20my%20search%20engine%20of%20choice.%20%23ComeToTheDuckSide%20-%20we%20have%20privacy.%20https%3A%2F%2Fduckduckgo.com%2Fspread">Tweet #ComeToTheDuckSide</a>
+        <a class="js-twitter-btn spread-callout__btn btn btn--primary--alt t-xl" href="https://twitter.com/?status=DuckDuckGo%20is%20my%20search%20engine%20of%20choice.%20%23ComeToTheDuckSide%20-%20we%20have%20privacy.%20https%3A%2F%2Fduckduckgo.com%2F%231">Tweet #ComeToTheDuckSide</a>
 
         </div>
 </div>
