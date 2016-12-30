@@ -19,8 +19,8 @@
 <link rel="image_src" href="/assets/icons/meta/DDG-icon_256x256.png"/>
 <link rel="manifest" href="/manifest.json"/>
 
-<meta name="twitter:site" value="@duckduckgo">
-<meta name="twitter:url" value="https://duckduckgo.com<: $url :>">
+<meta name="twitter:site" content="@duckduckgo">
+<meta name="twitter:url" content="https://duckduckgo.com<: $url :>">
 
 <meta property="og:url" content="https://duckduckgo.com<: $url :>" />
 <meta property="og:site_name" content="DuckDuckGo" />
