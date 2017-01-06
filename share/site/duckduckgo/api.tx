@@ -185,6 +185,7 @@ vs
 <p style="margin-top: 10px;">
 <i>Are there supporting library integrations?</i>
 <p style="margin-top: 5px;">
+
 <ul>
 <span class="small">
 <li>You can consume this API via <a href="https://www.mashape.com/duckduckgo/duckduckgo-zero-click-info">Mashape</a>, which provides Curl, Java (including Android), Node, PHP, Python, Ruby, Objective C, and .NET libraries.
@@ -196,8 +197,9 @@ vs
 <li><a href="https://github.com/ajanicij/goduckgo">Go library</a> by <a href="https://github.com/ajanicij">ajanicij</a>
 <li><a href="https://github.com/lukewendling/ddg-api">Node.js module</a> by <a href="http://lukewendling.com">Luke Wendling</a>
 <li><a href="https://github.com/jawerty/node-ddg">Node.js wrapper</a> by <a href="http://jawerty.github.io/">Jared Wright</a>
-<li><a href="https://github.com/timkly/DuckDuckGo.Net">.Net Library</a> by <a href="http://tk.id.au/">Tim Kelly</a>
+<li><a href="https://github.com/timkly/DuckDuckGo.Net">.Net library</a> by <a href="http://tk.id.au/">Tim Kelly</a>
 <li><a href="https://github.com/mwhittaker/duckduckgo-ocaml">OCaml Library</a> by <a href="http://mwhittaker.github.io/">Michael Whittaker</a>
+<li><a href="https://github.com/Aaronepower/ddg/">Rust library</a> by <a href="https://github.com/Aaronepower/">Aaron Power</a>
 <li>If you make another supporting library, we'll add it here!
 </span>
 </ul>
