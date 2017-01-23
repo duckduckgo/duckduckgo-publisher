@@ -197,6 +197,7 @@ vs
 <li><a href="https://github.com/ajanicij/goduckgo">Go library</a> by <a href="https://github.com/ajanicij">ajanicij</a>
 <li><a href="https://github.com/lukewendling/ddg-api">Node.js module</a> by <a href="http://lukewendling.com">Luke Wendling</a>
 <li><a href="https://github.com/jawerty/node-ddg">Node.js wrapper</a> by <a href="http://jawerty.github.io/">Jared Wright</a>
+<li><a href="https://www.npmjs.com/package/node-duckduckgo">Node.js module</a> by <a href="https://www.npmjs.com/~franckldx">Franck Ledoux</a>
 <li><a href="https://github.com/timkly/DuckDuckGo.Net">.Net library</a> by <a href="http://tk.id.au/">Tim Kelly</a>
 <li><a href="https://github.com/mwhittaker/duckduckgo-ocaml">OCaml Library</a> by <a href="http://mwhittaker.github.io/">Michael Whittaker</a>
 <li><a href="https://github.com/Aaronepower/ddg/">Rust library</a> by <a href="https://github.com/Aaronepower/">Aaron Power</a>
