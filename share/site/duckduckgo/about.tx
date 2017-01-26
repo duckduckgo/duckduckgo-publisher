@@ -199,7 +199,12 @@ Smarter search without the tracking.
 				</label>
 			</div>
 		</form>
-	    <p class="text--secondary">Keep in touch via social media.</p>
-	    <p class="text--secondary"><a href="https://twitter.com/duckduckgo">Twitter</a> | <a href="https://reddit.com/r/duckduckgo">Reddit</a></p>
+        <div class="abt__social-media">
+            <p class="abt__social-media__cta text--secondary">Keep in touch via social media.</p>
+            <p class="abt__social-media__sites text--secondary">
+                <a href="https://twitter.com/duckduckgo" class="no-visited">Twitter</a> |
+                <a href="https://reddit.com/r/duckduckgo" class="no-visited">Reddit</a>
+            </p>
+        </div>
 	</div>
 </div>
