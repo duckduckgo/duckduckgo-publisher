@@ -1,1 +1,4 @@
 <: include "meta/title.tx" { title => l('DuckDuckGo Instant Answer API') } :>
+
+<meta property="og:description" content="DuckDuckGo Instant Answer API, giving free access to instant answers. ">
+<meta name="description" content="DuckDuckGo Instant Answer API, giving free access to instant answers. ">

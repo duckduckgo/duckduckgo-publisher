@@ -1,31 +1,9 @@
 <: include "meta/title.tx" { title => l('About DuckDuckGo') } :>
 
-<meta name="description" content="Our vision is simple. To give you great results without tracking you. We're not just servers and algorithm. We're so much more.">
-
-<meta property="og:image" content="http://duckduckgo.com/assets/about/about-duckduckgo-posterimg.jpg" />
-<meta property="og:type" content="article" />
-<meta property="og:description" content="<: l('DuckDuckGo has better instant answers, less spam and clutter, and real privacy.') :>" />
-
-<meta property="og:video:height" content="544" />
-<meta property="og:video:width" content="960" />
-<meta property="og:video:type" content="application/x-shockwave-flash" />
-<meta property="og:video" content="http://dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" />
-<meta property="og:video:secure_url" content="https://dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" />
-<meta property="og:video:type" content="video/mp4" />
-
-<meta content="544" name="video_height" />
-<meta content="960" name="video_width" />
-<meta content="application/x-shockwave-flash" name="video_type" />
-<meta name="twitter:card" value="player">
-<meta name="twitter:image" value="http://duckduckgo.com/assets/about/about-duckduckgo-posterimg.jpg">
-
-<meta name="twitter:player:width" value="960">
-<meta name="twitter:player:height" value="544">
-
-<link rel="image_src" href="/assets/about/about-duckduckgo-posterimg.jpg"/>
+<meta property="og:description" content="DuckDuckGo is the search engine that doesn't track you. We protect your search history from everyone – even us!">
+<meta name="description" content="DuckDuckGo is the search engine that doesn't track you. We protect your search history from everyone – even us!">
 
 <!-- mapbox -->
 <script src="/js/mapbox/mapbox-2.2.3.js"></script>
 <script src="/js/mapbox/leaflet.markercluster-0.4.0.js"></script>
 <link href="/js/mapbox/mapbox-2.2.3.css" rel="stylesheet"/>
-

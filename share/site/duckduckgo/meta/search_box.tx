@@ -1,1 +1,4 @@
 <: include "meta/title.tx" { title => l('DuckDuckGo Search Box') } :>
+
+<meta property="og:description" content="Add a DuckDuckGo search box to your site!">
+<meta name="description" content="Add a DuckDuckGo search box to your site!">

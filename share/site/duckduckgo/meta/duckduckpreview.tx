@@ -1,1 +1,4 @@
 <: include "meta/title.tx" { title => 'DuckDuckGo Preview Bot' } :>
+
+<meta property="og:description" content="DuckDuckPreview is the server process behind the DuckDuckGo preview function, which allows users to preview pages before visiting them.">
+<meta name="description" content="DuckDuckPreview is the server process behind the DuckDuckGo preview function, which allows users to preview pages before visiting them.">

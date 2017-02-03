@@ -1,1 +1,4 @@
 <: include "meta/title.tx" { title => l('DuckDuckGo Style Guide') } :>
+
+<meta property="og:description" content="DuckDuckGo guidelines for common design elements, styles, and conventions.">
+<meta name="description" content="DuckDuckGo guidelines for common design elements, styles, and conventions.">

@@ -1,3 +1,4 @@
 <: include "meta/title.tx" { title => 'DuckDuckGo' } :>
 
-<meta name="description" content="The search engine that doesn't track you. A superior search experience with smarter answers, less clutter and real privacy.">
+<meta property="og:description" content="DuckDuckGo is the search engine that doesn't track you. We protect your search history from everyone – even us!">
+<meta name="description" content="DuckDuckGo is the search engine that doesn't track you. We protect your search history from everyone – even us!">

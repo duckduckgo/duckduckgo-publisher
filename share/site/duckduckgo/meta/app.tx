@@ -1,1 +1,4 @@
 <: include "meta/title.tx" { title => l('DuckDuckGo for Mobile') } :>
+
+<meta property="og:description" content="Get the DuckDuckGo app for iOS or Android and start searching privately while mobile.">
+<meta name="description" content="Get the DuckDuckGo app for iOS or Android and start searching privately while mobile.">

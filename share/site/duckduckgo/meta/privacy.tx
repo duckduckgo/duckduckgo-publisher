@@ -1,3 +1,4 @@
 <: include "meta/title.tx" { title => l('DuckDuckGo Privacy') } :>
 
-<meta name="description" content="We don't track you. That's our privacy policy in a nutshell. Find out more about how DuckDuckGo protects your privacy.">
+<meta property="og:description" content="We don't collect or share personal information. That's our privacy policy in a nutshell.">
+<meta name="description" content="We don't collect or share personal information. That's our privacy policy in a nutshell.">
