@@ -1,2 +1,5 @@
 <: include "meta/title.tx" { title => l('DuckDuckGo Feedback') } :>
 <link rel="stylesheet" href="/css/feedback.css" />
+
+<meta property="og:description" content="Send DuckDuckGo feedback about things you'd like to see improved, added, or just things you love!">
+<meta name="description" content="Send DuckDuckGo feedback about things you'd like to see improved, added, or just things you love!">

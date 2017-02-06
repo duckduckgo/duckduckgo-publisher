@@ -1,1 +1,4 @@
 <: include "meta/title.tx" { title => l('DuckDuckGo URL Parameters') } :>
+
+<meta property="og:description" content="URL parameters you can use to change DuckDuckGo settings.">
+<meta name="description" content="URL parameters you can use to change DuckDuckGo settings.">

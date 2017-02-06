@@ -1,1 +1,4 @@
 <: include "meta/title.tx" { title => 'DuckDuckGo Bot' } :>
+
+<meta property="og:description" content="DuckDuckBot is the web crawler for DuckDuckGo.">
+<meta name="description" content="DuckDuckBot is the web crawler for DuckDuckGo.">

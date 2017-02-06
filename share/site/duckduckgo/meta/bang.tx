@@ -1,1 +1,4 @@
 <: include "meta/title.tx" { title => 'DuckDuckGo !Bang' } :>
+
+<meta property="og:description" content="Search thousands of sites directly from DuckDuckGo.">
+<meta name="description" content="Search thousands of sites directly from DuckDuckGo.">
