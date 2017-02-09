@@ -195,7 +195,26 @@ sub pages {{
 			subtype => 'foss',
 			icon => 'love',
 			year => '2016',
-		}],
+		},{
+			date => 'January 1, 2017',
+			title => '10 Billion Searches & Counting!',
+			snippet => 'We began the year by announcing we surpassed a cumulative count of 10 billion anonymous searches served, with over 4 billion in 2016!',
+			type => 'traffic',
+			icon => 'growth',
+			year => '2017',
+        },{
+			date => 'January 10, 2017',
+			title => '14,000,000',
+			snippet => '14 million searches in a single day (14,262,040 to be exact). To celebrate, we\'re going to double down and work even harder to protect our user\'s privacy online.',
+			type => 'traffic',
+			icon => 'growth',
+        },{
+			date => 'February 6, 2017',
+			title => '15,000,000',
+			snippet => '15 million searches in a single day (15,106,357 to be exact). More and more privacy conscious searchers are flocking to join the #DuckSide.',
+			type => 'traffic',
+			icon => 'growth',
+        }],
 		
 		news_articles => [{
 			source => 'fastco',
