@@ -189,21 +189,21 @@ sub pages {{
 			snippet => 'We concluded the year by announcing we surpassed a cumulative count of 10 billion anonymous searches served, with over 4 billion in 2016!',
 			type => 'traffic',
 			icon => 'growth',
-        },{
+		},{
 			date => 'February 6, 2017',
 			title => '15,000,000',
 			snippet => '15 million searches in a single day (15,106,357 to be exact). More and more privacy conscious searchers have #ComeToTheDuckSide.',
 			type => 'traffic',
 			icon => 'growth',
 			year => '2017',
-        },{
+		},{
 			date => 'February 10, 2017',
 			title => '2017 Donations',
 			snippet => 'For our seventh year of free and open source donations, we divided $300,000 over sixteen projects including: Freedom of the Press Foundation, World Privacy Forum, Open Whisper Systems, Privacy Rights Clearinghouse, Tor Project and Electronic Frontier Foundation (EFF).',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
-        }],
+		}],
 		
 		news_articles => [{
 			source => 'fastco',
