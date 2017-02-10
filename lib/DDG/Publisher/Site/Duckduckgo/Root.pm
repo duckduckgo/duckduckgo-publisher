@@ -124,12 +124,6 @@ sub pages {{
 			type => 'news',
 			icon => 'stories',
 		},{
-			date => 'August 19, 2013',
-			title => '4,000,000',
-			snippet => 'Just over two months after hitting two million searches/day, we doubled our traffic again. People start to realize we’re not a Chinese restaurant.',
-			type => 'traffic',
-			icon => 'growth',
-		},{
 			date => 'February 26, 2014',
 			title => '5,000,000',
 			snippet => 'Five million direct searches in one day. That’s 150 million a month, 1.825 billion a year!',
@@ -176,12 +170,6 @@ sub pages {{
 			icon => 'love',
 			year => '2015',
 		},{
-			date => 'March 23, 2015',
-			title => '9,000,000',
-			snippet => 'How should we celebrate when we hit 10,000,000 searches a day? We can see the light.',
-			type => 'traffic',
-			icon => 'growth',
-		},{
 			date => 'June 22, 2015',
 			title => '10,000,000',
 			snippet => 'Boom! 10 million searches in a single day (10,210,082 to be exact). To celebrate, we’re giving away 10,000 DuckDuckGo T-shirts!',
@@ -196,24 +184,25 @@ sub pages {{
 			icon => 'love',
 			year => '2016',
 		},{
-			date => 'January 1, 2017',
+			date => 'December 31, 2016',
 			title => '10 Billion Searches & Counting!',
-			snippet => 'We began the year by announcing we surpassed a cumulative count of 10 billion anonymous searches served, with over 4 billion in 2016!',
-			type => 'traffic',
-			icon => 'growth',
-			year => '2017',
-        },{
-			date => 'January 10, 2017',
-			title => '14,000,000',
-			snippet => '14 million searches in a single day (14,262,040 to be exact). To celebrate, we\'re going to double down and work even harder to protect our user\'s privacy online.',
+			snippet => 'We concluded the year by announcing we surpassed a cumulative count of 10 billion anonymous searches served, with over 4 billion in 2016!',
 			type => 'traffic',
 			icon => 'growth',
         },{
 			date => 'February 6, 2017',
 			title => '15,000,000',
-			snippet => '15 million searches in a single day (15,106,357 to be exact). More and more privacy conscious searchers are flocking to join the #DuckSide.',
+			snippet => '15 million searches in a single day (15,106,357 to be exact). More and more privacy conscious searchers have #ComeToTheDuckSide.',
 			type => 'traffic',
 			icon => 'growth',
+			year => '2017',
+        },{
+			date => 'February 10, 2017',
+			title => '2017 Donations',
+			snippet => 'For our seventh year of free and open source donations, we divided $300,000 over sixteen projects including: Freedom of the Press Foundation, World Privacy Forum, Open Whisper Systems, Privacy Rights Clearinghouse, Tor Project and Electronic Frontier Foundation (EFF).',
+			type => 'company',
+			subtype => 'foss',
+			icon => 'love',
         }],
 		
 		news_articles => [{
