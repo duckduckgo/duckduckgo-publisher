@@ -11,16 +11,24 @@
   <div class="cw--c">
     <div class="blk__text text-center">
       <div class="spread-email tile--s tile--mid text-left tx-clr--dk2">
-        <div class="spread-email__form">  
+        <div class="spread-email__form frm">
+          <div class="spread-email__col">
+            <label class="frm__label">From:<span class="ast">*</span></label>
+            <input type="text" class="frm__input" placeholder="Your name"/>
+          </div>
+          <div class="spread-email__col">
+            <label class="frm__label">To:<span class="ast">*</span></label>
+            <input type="text" class="frm__input" placeholder="Enter your friend's e-mail address"/>
+          </div>
         </div>
-
+        
         <div class="spread-email__content">
           
           <a class="spread-logo" href="/about">
             About DuckDuckGo
           </a>
 
-          <p>Your Friend had us send you this one privacy tip. Also, don’t worry—we already deleted your email address.</p>
+          <p><strong>Your Friend</strong> had us send you this one privacy tip. Also, don’t worry—we already deleted your email address.</p>
           <p>Here's the tip: private browsing mode is a myth. 68% of people think private browsing mode does more than it actually does like protect you from being tracked. Actually, it just stops your browser history from being stored on your computer. It does nothing to stop search engines and other sites from tracking you, even after you exit the mode.</p>
           <p>Did you like that? If you'd like more tips, click here to <a href="#">subscribe now.</a></p>
 
