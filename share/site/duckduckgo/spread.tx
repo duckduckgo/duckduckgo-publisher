@@ -11,14 +11,14 @@
   <div class="cw--c">
     <div class="blk__text text-center">
       <div class="spread-email tile--s tile--mid text-left tx-clr--dk2">
-        <form class="spread-email__form frm" id="spread-email__form">
+        <form class="spread-email__form frm js-spread-email-form" id="spread-email__form" method="post" name="y">
           <div class="spread-email__col">
             <label class="frm__label">From:<span class="ast">*</span></label>
-            <input type="text" class="frm__input js-spread-email-from" placeholder="Your name"/>
+            <input type="text" required class="frm__input js-spread-email-from" placeholder="Your name"/>
           </div>
           <div class="spread-email__col">
             <label class="frm__label">To:<span class="ast">*</span></label>
-            <input type="email" class="frm__input" placeholder="Enter your friend's e-mail address"/>
+            <input type="email" class="frm__input" required placeholder="Enter your friend's e-mail address"/>
           </div>
         </form>
         
