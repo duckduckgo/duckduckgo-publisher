@@ -7,6 +7,9 @@
     </h5>
   </div>
 </div>
+
+<div class="spread-email__error is-hidden">Doh! Looks like something went wrong!</div>
+
 <div class="blk blk--content">
   <div class="cw--c">
     <div class="blk__text text-center">
@@ -31,8 +34,14 @@
 
           <p><strong class="js-spread-email-name">Your Friend</strong> had us send you this one privacy tip. Also, don’t worry—we already deleted your email address.</p>
           <p>Here's the tip: private browsing mode is a myth. 68% of people think private browsing mode does more than it actually does like protect you from being tracked. Actually, it just stops your browser history from being stored on your computer. It does nothing to stop search engines and other sites from tracking you, even after you exit the mode.</p>
-          <p>Did you like that? If you'd like more tips, click here to <a href="#">subscribe now.</a></p>
+          <p>Did you like that? If you'd like more tips, click here to
 
+            <span class="popout-trig  js-popout">
+              <a href="#" class="js-popout-link">subscribe now.</a>
+            </span>
+            
+          </p>
+          
           <p>
             <img src="/signature.png" class="spread-sig" /></br>
             Stay private,</br>
@@ -45,5 +54,4 @@
   </div>
 </div>
 
-<div class="blk blk--content spread-footer">
-</div>
+<img src="/4-flag.svg" class="spread-footer">
