@@ -52,7 +52,7 @@
 
 
         </div>
-        <input type="submit" class="btn btn--primary spread-button js-spread-button is-disabled" value="Send Privacy Tip">
+        <input type="submit" class="btn btn--primary spread-button js-spread-button is-disabled" value="Send Privacy Tip" disabled>
         </form>
 
 
