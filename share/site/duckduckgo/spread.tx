@@ -1,7 +1,7 @@
 <div class="blk  blk--hero spread-hero">
   <div class="blk blk__text">
-    <h1 class="hd-hr spread-hero__title h-xl--screen-s">Give the gift of privacy!</h1>
-    <h5 class="hd-hr spread-hero__subtitle h-xs--screen-s">
+    <h1 class="hd-hr spread-hero__title h-xl--screen-xs">Give the gift of privacy!</h1>
+    <h5 class="hd-hr spread-hero__subtitle h-xs--screen-xs">
       <p>We need your help spreading privacy.</p>
       <p>Send your friends a useful tip below.</p>
     </h5>
