@@ -15,18 +15,18 @@
     <div class="blk__text text-center">
 
       <form class="spread-email__form frm js-spread-email-form" id="spread-email__form" method="post" name="y" action="https://requestb.in/1np3joc1">
-        <div class="spread-email tile--s tile--mid text-left tx-clr--dk2">
-          <div class="spread-email__col">
+        <div class="spread-email tile--s tile--mid text-left tx-clr--dk2 t-s--screen-s">
+          <div class="spread-email__col t-s--screen-s">
             <label class="frm__label">From:<span class="ast">*</span></label>
             <input type="text" required class="frm__input js-spread-email-from" placeholder="Your name" name="from"/>
           </div>
-          <div class="spread-email__col">
+          <div class="spread-email__col t-s--screen-s">
             <label class="frm__label spread-email__to__label">To:<span class="ast">*</span></label>
-            <input type="email" class="frm__input" required placeholder="Enter your friend's e-mail address" name="to"/>
+            <input type="email" class="frm__input" required placeholder="Friend's e-mail address" name="to"/>
             <span class="ddgsi ddgsi-more-sign spread-email__more"></span>
           </div>
         
-        <div class="spread-email__content">
+        <div class="spread-email__content t-s--screen-s">
           
           <span class="spread-logo">
             About DuckDuckGo
