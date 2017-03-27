@@ -40,7 +40,7 @@
           </p>
           
           <p>
-            <img src="/assets/spread/signature.png" class="spread-sig" /></br>
+            <img src="/assets/spread/signature.png" class="spread-sig" alt="Dax's signature"/></br>
             Stay private,</br>
             DuckDuckGo
           </p>
@@ -57,4 +57,4 @@
   </div>
 </div>
 
-<img src="/assets/spread/4-flag.svg" class="spread-footer">
+<img src="/assets/spread/4-flag.svg" class="spread-footer" alt="Person on a mountain holding a flag">
