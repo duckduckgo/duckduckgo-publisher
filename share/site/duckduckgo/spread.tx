@@ -1,8 +1,7 @@
 <div class="blk blk--hero spread-hero">
   <h1 class="hd-hr spread-hero__title h-xl--screen-xs">Give the gift of privacy!</h1>
-  <h5 class="hd-hr spread-hero__subtitle h-xs--screen-xs">
-    <div>We need your help spreading privacy.</div>
-    <div>Send your friends a useful tip below.</div>
+  <h5 class="hd-hr spread-hero__subtitle h-xs--screen-xs h-xs--screen-m">
+    <div>Your friends and family need your help to be more private online.</div>
   </h5>
 </div>
 
@@ -20,17 +19,34 @@
           </div>
           <div class="js-spread-email-col spread-email__col t-s--screen-s">
             <label class="frm__label spread-email__to__label">To:<span class="spread-email__ast">*</span></label>
-            <input type="email" class="frm__input frm__input--sp js-spread-email-to" required placeholder="Friend's e-mail address" name="to"/>
+            <input type="email" class="one-line frm__input frm__input--sp js-spread-email-to" required placeholder="Enter your friend's e-mail address" name="to"/>
             <span class="ddgsi ddgsi-more-sign spread-email__more js-spread-email-more"></span>
           </div>
-        
-        <div class="spread-email__content t-s--screen-s">
+
+          <div class="spread-email__options js-spread-email-options t-s t-xs--screen-s">
+            <a href="#" data-tab="1" class="tx-clr--dk is-selected">Private Browsing Myths</a>
+            <a href="#" data-tab="2" class="tx-clr--dk">Ads Cost You Money</a>
+            <a href="#" data-tab="3" class="tx-clr--dk hide--screen-s">Delete Your Google History</a>
+          </div>          
+
+        <div class="spread-email__content t-s--screen-s js-spread-email-content-1">
           
           <span class="spread-logo">
           </span>
 
-          <p><strong class="js-spread-email-name">Your Friend</strong> had us send you this one privacy tip. Also, don’t worry—we already deleted your email address.</p>
-          <p>Here's the tip: private browsing mode is a myth. 68% of people think private browsing mode does more than it actually does like protect you from being tracked. Actually, it just stops your browser history from being stored on your computer. It does nothing to stop search engines and other sites from tracking you, even after you exit the mode.</p>
+          <p class="t-s"><em><strong class="js-spread-email-name">Your Friend</strong> sent you this privacy tip from DuckDuckGo, the search engine that doesn't track you. You won't receive any more tips from us unless you opt-in below!</em></p>
+          <p>Recently we found that <strong>66%</strong> of people who use Private Browsing (aka Incognito Mode) over-estimate the protection it provides.</p>
+
+          <p>Private Browsing actually doesn't protect you from ad tracking or website tracking: all it does is prevent your own local computer from storing your browsing history. It still lets websites, companies, and others track your every move.</p>
+
+          <p>Privacy Tip – To truly browse privately:</p>
+
+          <ul>
+            <li>Use services that don't track you like DuckDuckGo for your search engine.</li>
+            <li>Install a browser add-on that blocks third-party trackers like Privacy Badger.</li>
+            <li>To be anonymous when visiting websites, use a VPN like TunnelBear, or browse via the Tor Browser.</li>
+          </ul>
+          
           <p>Did you like that? If you'd like more tips, click here to
 
             <span class="popout-trig  js-popout">
@@ -46,7 +62,68 @@
           </p>
         </div>
 
+        <div class="spread-email__content t-s--screen-s js-spread-email-content-2 is-hidden">
+          
+          <span class="spread-logo">
+          </span>
 
+          <p class="t-s"><em><strong class="js-spread-email-name">Your Friend</strong> sent you this privacy tip from DuckDuckGo, the search engine that doesn't track you. You won't receive any more tips from us unless you opt-in below!</em></p>
+
+          <p>Have you ever had ads stalk you across the net? One minute you're shopping for pants; the next minute pants ads are popping up on every site you visit!</p>
+
+          <p>Advertising networks have hidden trackers on most internet sites. Google alone has trackers on 75% of the top million sites! Unless you prevent it, you're being tracked on all these sites. Then, your profile is made available for advertisers to bid on, allowing them to target you with their ads wherever you go.</p>
+
+          <p>Privacy Tip: Avoid all this creepy targeting by reducing your online footprint.</p>
+
+          <ul>
+            <li>Use DuckDuckGo – the search engine that doesn't track you.</li>
+            <li>Install a browser add-on that blocks third-party trackers like Privacy Badger.</li>
+            <li>Opt-Out of Google Ad Targeting</li>
+          </ul>
+          
+          <p>Did you like that? If you'd like more tips, click here to
+
+            <span class="popout-trig  js-popout">
+              <a class="spread-email__subscribe js-popout-link">subscribe now.</a>
+            </span>
+            
+          </p>
+          
+          <p>
+            <img src="/assets/spread/signature.png" class="spread-sig" alt="Dax's signature"/></br>
+            Stay private,</br>
+            DuckDuckGo
+          </p>
+        </div>
+
+        
+        <div class="spread-email__content t-s--screen-s js-spread-email-content-3 is-hidden">
+          
+          <span class="spread-logo">
+          </span>
+
+          <p class="t-s"><em><strong class="js-spread-email-name">Your Friend</strong> sent you this privacy tip from DuckDuckGo, the search engine that doesn't track you. You won't receive any more tips from us unless you opt-in below!</em></p>
+
+          <p>When using Google services, they track everything about you that they can: your searches, the videos you watch on YouTube, the sites you visit in Chrome, even the locations you visit in the physical world via Android. You can see what they have on you here.</p>
+
+          <p>It's just plain creepy, and in 2012, Google made a change to their privacy policy that enabled them to combine all this data together into one master profile on you, just to better target ads at you across the Web.<p>
+
+          <p>Privacy Tip – Delete your Google activity on the "My Activity" page</p>
+          
+          <p>Did you like that? If you'd like more tips, click here to
+
+            <span class="popout-trig  js-popout">
+              <a class="spread-email__subscribe js-popout-link">subscribe now.</a>
+            </span>
+            
+          </p>
+          
+          <p>
+            <img src="/assets/spread/signature.png" class="spread-sig" alt="Dax's signature"/></br>
+            Stay private,</br>
+            DuckDuckGo
+          </p>
+        </div>
 
         </div>
         <input type="submit" class="btn btn--primary spread-button js-spread-button is-disabled" value="Send Privacy Tip" disabled>
