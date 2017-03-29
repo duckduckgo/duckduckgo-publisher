@@ -35,7 +35,7 @@
           </span>
 
           <p class="t-s"><em><strong class="js-spread-email-name">Your Friend</strong> sent you this privacy tip from DuckDuckGo, the search engine that doesn't track you. You won't receive any more tips from us unless you opt-in below!</em></p>
-          <p>Recently we found that <strong>66%</strong> of people who use Private Browsing (aka Incognito Mode) over-estimate the protection it provides.</p>
+          <p>Recently we found that <strong><a href="https://spreadprivacy.com/private-browsing-9276d6d16ea4#.gi5wwck7r" target="_blank">66%</a></strong> of people who use Private Browsing (aka Incognito Mode) over-estimate the protection it provides.</p>
 
           <p>Private Browsing actually doesn't protect you from ad tracking or website tracking: all it does is prevent your own local computer from storing your browsing history. It still lets websites, companies, and others track your every move.</p>
 
@@ -44,21 +44,13 @@
           <ul>
             <li>Use services that don't track you like DuckDuckGo for your search engine.</li>
             <li>Install a browser add-on that blocks third-party trackers like Privacy Badger.</li>
-            <li>To be anonymous when visiting websites, use a VPN like TunnelBear, or browse via the Tor Browser.</li>
+            <li>To be anonymous when visiting websites, use a VPN like <a href="https://www.tunnelbear.com/" target="_blank">TunnelBear</a>, or browse via the <a href="https://www.torproject.org/" target="_blank">Tor Browser</a>.</li>
           </ul>
-          
-          <p>Did you like that? If you'd like more tips, click here to
-
-            <span class="popout-trig  js-popout">
-              <a class="spread-email__subscribe js-popout-link">subscribe now.</a>
-            </span>
-            
-          </p>
           
           <p>
             <img src="/assets/spread/signature.png" class="spread-sig" alt="Dax's signature"/></br>
             Stay private,</br>
-            DuckDuckGo
+            Dax The Duck
           </p>
         </div>
 
@@ -78,21 +70,13 @@
           <ul>
             <li>Use DuckDuckGo – the search engine that doesn't track you.</li>
             <li>Install a browser add-on that blocks third-party trackers like Privacy Badger.</li>
-            <li>Opt-Out of Google Ad Targeting</li>
+            <li><a href="https://spreadprivacy.com/google-ad-settings-32640c90acbb" target="_blank">Opt-Out of Google Ad Targeting</a></li>
           </ul>
-          
-          <p>Did you like that? If you'd like more tips, click here to
-
-            <span class="popout-trig  js-popout">
-              <a class="spread-email__subscribe js-popout-link">subscribe now.</a>
-            </span>
-            
-          </p>
           
           <p>
             <img src="/assets/spread/signature.png" class="spread-sig" alt="Dax's signature"/></br>
             Stay private,</br>
-            DuckDuckGo
+            Dax The Duck
           </p>
         </div>
 
@@ -104,29 +88,21 @@
 
           <p class="t-s"><em><strong class="js-spread-email-name">Your Friend</strong> sent you this privacy tip from DuckDuckGo, the search engine that doesn't track you. You won't receive any more tips from us unless you opt-in below!</em></p>
 
-          <p>When using Google services, they track everything about you that they can: your searches, the videos you watch on YouTube, the sites you visit in Chrome, even the locations you visit in the physical world via Android. You can see what they have on you here.</p>
+          <p>When using Google services, they track everything about you that they can: your searches, the videos you watch on YouTube, the sites you visit in Chrome, even the locations you visit in the physical world via Android. You can see what they have on you <a href="https://myactivity.google.com/myactivity" target="_blank">here</a>.</p>
 
-          <p>It's just plain creepy, and in 2012, Google made a change to their privacy policy that enabled them to combine all this data together into one master profile on you, just to better target ads at you across the Web.<p>
+          <p>It's just plain creepy, and in 2012, Google made a change to their privacy policy that enabled them to combine all this data together into one master profile on you, just to better target ads at you across the Web. </p>
 
-          <p>Privacy Tip – Delete your Google activity on the "My Activity" page</p>
-          
-          <p>Did you like that? If you'd like more tips, click here to
-
-            <span class="popout-trig  js-popout">
-              <a class="spread-email__subscribe js-popout-link">subscribe now.</a>
-            </span>
-            
-          </p>
+          <p>Privacy Tip – Delete your Google activity on the <a href="https://myactivity.google.com/myactivity" target="_blank">"My Activity"</a> page</p>
           
           <p>
             <img src="/assets/spread/signature.png" class="spread-sig" alt="Dax's signature"/></br>
             Stay private,</br>
-            DuckDuckGo
+            Dax The Duck
           </p>
         </div>
 
         </div>
-        <input type="submit" class="btn btn--primary spread-button js-spread-button is-disabled" value="Send Privacy Tip" disabled>
+        <input type="submit" class="btn btn--primary spread-button js-spread-button is-disabled" value="Protect my Friends and Family!" disabled>
         </form>
 
 
