@@ -212,7 +212,7 @@ function validate_form (){
 
 <div style="margin-bottom:30px;"></div>
 
-<form name="y" style="margin-top:20px;border:2px solid #D1D1D1;border-radius:6px;padding:10px;" method="post" action="https://flash.duckduckgo.com/e.js" onsubmit="return validate_form ();">
+<form name="y" style="margin-top:20px;border:2px solid #D1D1D1;border-radius:6px;padding:10px;" method="post" action="https://duck.co/nb/newbang" onsubmit="return validate_form ();">
 
 <: l('Email') :> <small>(<: l('optional') :>)</small>:
 <br>
