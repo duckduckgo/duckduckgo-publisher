@@ -77,7 +77,7 @@
 
           <ul>
             <li>Use DuckDuckGo – the search engine that doesn't track you.</li>
-            <li>Install a browser add-on that blocks third-party trackers like Privacy Badger.</li>
+            <li>Install a browser add-on that blocks third-party trackers like <a href="https://www.eff.org/privacybadger" target="_blank">Privacy Badger</a>.</li>
             <li><a href="https://spreadprivacy.com/google-ad-settings-32640c90acbb" target="_blank">Opt-Out of Google Ad Targeting</a></li>
           </ul>
           
@@ -117,7 +117,7 @@
 </div>
 <input type="submit" class="btn btn--primary spread-button js-spread-button is-disabled" value="Protect my Friends and Family!" disabled>
 
-<div class="spread-email__disclaimer">Your friends email will not be shared or sold. We won't send them more emails without their permission. We send all emails ourselves with no third-parties.</div>
+<div class="spread-email__disclaimer">Your friend's email will not be shared or sold. We won't send them more emails without their permission. We send all emails ourselves with no third-parties.</div>
         </form>
 
 
