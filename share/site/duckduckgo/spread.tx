@@ -1,8 +1,9 @@
 <div class="blk blk--hero spread-hero">
   <h1 class="hd-hr spread-hero__title h-xl--screen-xs">Give the gift of privacy!</h1>
   <h5 class="hd-hr spread-hero__subtitle h-xs--screen-xs h-xs--screen-m">
-    <div>Your friends and family need your help to be more private online.</div>
-    <div>Choose a tip that you'd like to send to them below!</div>
+    <div class="hide--screen-s">Your friends and family need your help to be more private online.</div>
+    <div class="hide--screen-s">Send them one of the emails below and help them take back their privacy.</div>
+    <div class="hide show--screen-s">Send your friends and family of the emails below and help them take back their privacy.</div>
   </h5>
 </div>
 
@@ -51,9 +52,11 @@
           </ul>
           
           <p>
+            </br>
+            Proudly Private,</br>
             <img src="/assets/spread/signature.png" class="spread-sig" alt="Dax's signature"/></br>
-            Stay private,</br>
-            Dax The Duck
+            Dax The Duck,</br>
+            Mascot - DuckDuckGo
           </p>
         </div>
 
@@ -79,9 +82,11 @@
           </ul>
           
           <p>
+            </br>
+            Proudly Private,</br>
             <img src="/assets/spread/signature.png" class="spread-sig" alt="Dax's signature"/></br>
-            Stay private,</br>
-            Dax The Duck
+            Dax The Duck</br>
+            Mascot - DuckDuckGo
           </p>
         </div>
 
@@ -99,17 +104,20 @@
 
           <p>Privacy Tip – Delete your Google activity on the <a href="https://myactivity.google.com/myactivity" target="_blank">"My Activity"</a> page</p>
 
-          <img src="/assets/spread/delete.png" class="" alt="How to delete your history on Google"></a>
+          <img src="/assets/spread/delete.png" class="" alt="How to delete your history on Google">
           
           <p>
+            </br>
+            Proudly Private,</br>
             <img src="/assets/spread/signature.png" class="spread-sig" alt="Dax's signature"/></br>
-            Stay private,</br>
-            Dax The Duck
+            Dax The Duck,</br>
+            Mascot - DuckDuckGo
           </p>
         </div>
+</div>
+<input type="submit" class="btn btn--primary spread-button js-spread-button is-disabled" value="Protect my Friends and Family!" disabled>
 
-        </div>
-        <input type="submit" class="btn btn--primary spread-button js-spread-button is-disabled" value="Protect my Friends and Family!" disabled>
+<div class="spread-email__disclaimer">Your friends email will not be shared or sold. We won't send them more emails without their permission. We send all emails ourselves with no third-parties.</div>
         </form>
 
 
