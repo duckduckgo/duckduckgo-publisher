@@ -96,6 +96,15 @@
             <li>Install a browser add-on that blocks third-party trackers like <a href="https://www.eff.org/privacybadger" target="_blank">Privacy Badger</a>.</li>
             <li><a href="https://spreadprivacy.com/google-ad-settings-32640c90acbb" target="_blank">Opt-Out of Google Ad Targeting</a></li>
           </ul>
+
+          <div class="text-center spread-email__subscribe">
+          <span class="popout-trig  js-popout ">
+            <a class="btn btn--alt js-popout-link">Get More Privacy Tips By Email!</a>
+            <div class="modal modal--popout modal--popout--top modal--popout--lg  js-popout-main">
+              <div class="modal__box"><div class="modal__body tx-clr--dk2"><h5 class="tx-clr--dk">Opt-in!</h5><p>This is what your friend clicks if they want to subscribe!</p></div></div>
+            </div>
+          </span>
+          </div>
           
           <p>
             </br>
@@ -104,8 +113,15 @@
             Dax The Duck</br>
             Mascot - DuckDuckGo
           </p>
-        </div>
 
+          <p class="t-xxxs pd-bottom--none">
+            Duck Duck Go Inc</br>
+            20 Paoli Pike</br>
+            Paoli, PA 19301, USA</br>
+            <a>Unsubscribe</a>
+          </p>
+
+        </div>
         
         <div class="spread-email__content t-s--screen-s js-spread-email-content-3 is-hidden">
           
@@ -121,6 +137,15 @@
           <p>Privacy Tip – Delete your Google activity on the <a href="https://myactivity.google.com/myactivity" target="_blank">"My Activity"</a> page</p>
 
           <img src="/assets/spread/delete.png" class="" alt="How to delete your history on Google">
+
+          <div class="text-center spread-email__subscribe">
+          <span class="popout-trig  js-popout ">
+            <a class="btn btn--alt js-popout-link">Get More Privacy Tips By Email!</a>
+            <div class="modal modal--popout modal--popout--top modal--popout--lg  js-popout-main">
+              <div class="modal__box"><div class="modal__body tx-clr--dk2"><h5 class="tx-clr--dk">Opt-in!</h5><p>This is what your friend clicks if they want to subscribe!</p></div></div>
+            </div>
+          </span>
+          </div>
           
           <p>
             </br>
@@ -129,6 +154,14 @@
             Dax The Duck,</br>
             Mascot - DuckDuckGo
           </p>
+          
+          <p class="t-xxxs pd-bottom--none">
+            Duck Duck Go Inc</br>
+            20 Paoli Pike</br>
+            Paoli, PA 19301, USA</br>
+            <a>Unsubscribe</a>
+          </p>
+
         </div>
 </div>
 <input type="submit" class="btn btn--primary spread-button js-spread-button is-disabled" value="Protect my Friends and Family!" disabled>
