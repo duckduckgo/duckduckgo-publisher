@@ -16,11 +16,11 @@
       <form class="spread-email__form frm js-spread-email-form" id="spread-email__form" method="post" name="y">
         <div class="spread-email tile--s tile--mid text-left tx-clr--dk2 t-s--screen-s">
           <div class="js-spread-email-col spread-email__col t-s--screen-s">
-            <label class="frm__label">From:<span class="spread-email__ast">*</span></label>
+            <label class="frm__label">From: </label>
             <input type="text" required class="frm__input js-spread-email-from frm__input--sp" placeholder="Your name" name="from"/>
           </div>
           <div class="js-spread-email-col spread-email__col t-s--screen-s">
-            <label class="frm__label spread-email__to__label">To:<span class="spread-email__ast">*</span></label>
+            <label class="frm__label spread-email__to__label">To:<span class="tx-clr--lt2">*</span></label>
             <input type="email" class="one-line frm__input frm__input--sp js-spread-email-to" required placeholder="Enter your friend's e-mail address" name="to"/>
             <span class="ddgsi ddgsi-more-sign spread-email__more js-spread-email-more"></span>
           </div>
@@ -50,6 +50,15 @@
             <li>Install a browser add-on that blocks third-party trackers like <a href="https://www.eff.org/privacybadger" target="_blank">Privacy Badger</a>.</li>
             <li>To be anonymous when visiting websites, use a VPN like <a href="https://www.tunnelbear.com/" target="_blank">TunnelBear</a>, or browse via the <a href="https://www.torproject.org/" target="_blank">Tor Browser</a>.</li>
           </ul>
+
+          <div class="text-center spread-email__subscribe">
+          <span class="popout-trig  js-popout ">
+            <a class="btn btn--alt js-popout-link">Get More Privacy Tips By Email!</a>
+            <div class="modal modal--popout modal--popout--top modal--popout--lg  js-popout-main">
+              <div class="modal__box"><div class="modal__body tx-clr--dk2"><h5 class="tx-clr--dk">Opt-in!</h5><p>This is what your friend clicks if they want to subscribe!</p></div></div>
+            </div>
+          </span>
+          </div>
           
           <p>
             </br>
@@ -57,6 +66,13 @@
             <img src="/assets/spread/signature.png" class="spread-sig" alt="Dax's signature"/></br>
             Dax The Duck,</br>
             Mascot - DuckDuckGo
+          </p>
+
+          <p class="t-xxxs pd-bottom--none">
+            Duck Duck Go Inc</br>
+            20 Paoli Pike</br>
+            Paoli, PA 19301, USA</br>
+            <a>Unsubscribe</a>
           </p>
         </div>
 
@@ -117,7 +133,7 @@
 </div>
 <input type="submit" class="btn btn--primary spread-button js-spread-button is-disabled" value="Protect my Friends and Family!" disabled>
 
-<div class="spread-email__disclaimer">Your friend's email will not be shared or sold. We won't send them more emails without their permission. We send all emails ourselves with no third-parties.</div>
+<div class="spread-email__disclaimer">*Your friend's email will not be shared or sold. We won't send them more emails without their permission. We send all emails ourselves with no third-parties.</div>
         </form>
 
 
