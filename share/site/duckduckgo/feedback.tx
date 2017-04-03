@@ -1,6 +1,6 @@
   <div id="dest-boxes">
     <div class="feedback-dest">
-			<a href="http://dukgo.com/help">
+			<a href="http://duck.co/help">
 				<img src="/assets/logos/logo_feedback.help.png" class="feedback-dest__img" alt="Dax the Helpful Doctor" />
 				<div class="feedback-dest__body">
 					<h2 class="feedback-dest__title"><: l('Help') :></h2>
@@ -27,7 +27,7 @@
 			</a>
 		</div>
 		<div class="feedback-dest">
-			<a href="https://dukgo.com/">
+			<a href="https://duck.co/">
 				<img src="/assets/logos/logo_feedback.community.png" alt="" />
 				<h2 class="feedback-dest__title"><: l('Community Platform') :></h2>
 				<ul class="feedback-dest__list">
@@ -44,42 +44,42 @@
 
 	<div class="fb-step  fb-step--active">
 		<i class="fb-step__icon  ddgi-bug"></i>
-		<a href="https://dukgo.com/feedback/bug/" class="fb-step__body  fb-step__body--btn"><: l("I need to report a bug!") :></a>
+		<a href="https://duck.co/feedback/bug/" class="fb-step__body  fb-step__body--btn"><: l("I need to report a bug!") :></a>
 		<i class="fb-step__arrow  ddgi-arrow-right"></i>
 	</div>
 
 	<div class="fb-step fb-step--active">
 		<i class="fb-step__icon ddgi-dax"></i>
-		<a href="https://dukgo.com/feedback/partner/" class="fb-step__body fb-step__body--btn"><: l("I'd like to learn about partnerships with DuckDuckGo.") :></a>
+		<a href="https://duck.co/feedback/partner/" class="fb-step__body fb-step__body--btn"><: l("I'd like to learn about partnerships with DuckDuckGo.") :></a>
 		<i class="fb-step__arrow ddgi-arrow-right"></i>
 	</div>
 
 	<div class="fb-step  fb-step--active">
 		<i class="fb-step__icon  ddgi-sad-search"></i>
-		<a href="https://dukgo.com/feedback/relevancy/" class="fb-step__body  fb-step__body--btn"><: l("I'd like to report bad relevancy.") :></a>
+		<a href="https://duck.co/feedback/relevancy/" class="fb-step__body  fb-step__body--btn"><: l("I'd like to report bad relevancy.") :></a>
 		<i class="fb-step__arrow  ddgi-arrow-right"></i>
 	</div>
 
 	<div class="fb-step  fb-step--active">
 		<i class="fb-step__icon  ddgi-bang"></i>
-		<a href="https://dukgo.com/feedback/bang/" class="fb-step__body  fb-step__body--btn"><: l("I'd like to submit a new !bang.") :></a>
+		<a href="https://duck.co/feedback/bang/" class="fb-step__body  fb-step__body--btn"><: l("I'd like to submit a new !bang.") :></a>
 		<i class="fb-step__arrow  ddgi-arrow-right"></i>
 	</div>
 
 	<div class="fb-step  fb-step--active">
 		<i class="fb-step__icon  ddgi-coffee"></i>
-		<a href="https://dukgo.com/feedback/feature/" class="fb-step__body  fb-step__body--btn"><: l("I've got a feature request.") :></a>
+		<a href="https://duck.co/feedback/feature/" class="fb-step__body  fb-step__body--btn"><: l("I've got a feature request.") :></a>
 		<i class="fb-step__arrow  ddgi-arrow-right"></i>
 	</div>
 
 	<div class="fb-step  fb-step--active">
 		<i class="fb-step__icon  ddgi-heart"></i>
-		<a href="https://dukgo.com/feedback/love/" class="fb-step__body  fb-step__body--btn"><: l("I want to tell you about something I love.") :></a>
+		<a href="https://duck.co/feedback/love/" class="fb-step__body  fb-step__body--btn"><: l("I want to tell you about something I love.") :></a>
 		<i class="fb-step__arrow  ddgi-arrow-right"></i>
 	</div>
 
 	<div class="fb-step  fb-step--active">
 		<i class="fb-step__icon  ddgi-trash"></i>
-		<a href="https://dukgo.com/feedback/nolove/" class="fb-step__body  fb-step__body--btn"><: l("I want to tell you about something I don't love.") :></a>
+		<a href="https://duck.co/feedback/nolove/" class="fb-step__body  fb-step__body--btn"><: l("I want to tell you about something I don't love.") :></a>
 		<i class="fb-step__arrow  ddgi-arrow-right"></i>
 	</div>
