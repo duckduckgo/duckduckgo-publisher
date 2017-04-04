@@ -201,6 +201,7 @@ vs
 <li><a href="https://github.com/timkly/DuckDuckGo.Net">.Net library</a> by <a href="http://tk.id.au/">Tim Kelly</a>
 <li><a href="https://github.com/mwhittaker/duckduckgo-ocaml">OCaml Library</a> by <a href="http://mwhittaker.github.io/">Michael Whittaker</a>
 <li><a href="https://github.com/Aaronepower/ddg/">Rust library</a> by <a href="https://github.com/Aaronepower/">Aaron Power</a>
+<li><a href="https://github.com/dirkschumacher/duckduckr">R library</a> by <a href="https://github.com/dirkschumacher">Dirk Schumacher</a>
 <li>If you make another supporting library, we'll add it here!
 </span>
 </ul>
