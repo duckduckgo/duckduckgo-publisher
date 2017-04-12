@@ -1,4 +1,5 @@
-<: include "meta/title.tx" { title => l('Help Spread DuckDuckGo') } :>
+<: include "meta/title.tx" { title => l('Give the gift of privacy!') } :>
 
 <meta property="og:description" content="Give the gift of privacy. We need your help in sharing DuckDuckGo with friends and family.">
 <meta name="description" content="Give the gift of privacy. We need your help in sharing DuckDuckGo with friends and family.">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
