@@ -2,6 +2,9 @@
 <head>	
 	<: include "inc/head_doc.tx" :>	
 	<title><: $title :><: if $category { :> / <: $category } :> / DuckDuckHack</title>
+	<link rel="stylesheet" type="text/css" href="/static/js/tomorrow-night-eighties.css">
+	<script type="text/javascript" src="/static/js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body class="pg-duckduckhack  texture">
 	<div id="wrapper" class="site-wrapper">		
