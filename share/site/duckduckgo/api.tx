@@ -32,7 +32,7 @@ and
 (<a href="http://api.duckduckgo.com/?q=!imdb+rushmore&format=json&pretty=1&no_redirect=1">API example</a>).
 
 <div style="margin-bottom:20px;"></div>
-This API does not include all of our links, however. That is, it is not a full search results API or a way to get DuckDuckGo results into your applications beyond our instant answers. Because of the way <a href="https://duck.co/help/results/sources">we generate our search results</a>, we unfortunately do not have the rights to fully syndicate our results. For the same reason, we cannot allow framing our results without our branding. Please see <a href="https://duck.co/help/company/partnerships">our partnerships page</a> for more info on guidelines and getting in touch with us.
+This API does not include all of our links, however. That is, it is not a full search results API or a way to get DuckDuckGo results into your applications beyond our instant answers. Because of the way <a href="https://duck.co/help/results/sources">we generate our search results</a>, we unfortunately do not have the rights to fully syndicate our results, free or paid. For the same reason, we cannot allow framing our results without our branding. Please see <a href="https://duck.co/help/company/partnerships">our partnerships page</a> for more info on guidelines and getting in touch with us.
 
 <div style="margin-bottom:20px;"></div>
 Our long-term goal is for <a href="/tour">all of our instant answers</a> to be available through this open API. Many of these instant answers are open source via our <a href="http://duckduckhack.com/">DuckDuckHack</a> platform. Using that platform, you can add your own APIs and data sources as well.
@@ -201,6 +201,7 @@ vs
 <li><a href="https://github.com/timkly/DuckDuckGo.Net">.Net library</a> by <a href="http://tk.id.au/">Tim Kelly</a>
 <li><a href="https://github.com/mwhittaker/duckduckgo-ocaml">OCaml Library</a> by <a href="http://mwhittaker.github.io/">Michael Whittaker</a>
 <li><a href="https://github.com/Aaronepower/ddg/">Rust library</a> by <a href="https://github.com/Aaronepower/">Aaron Power</a>
+<li><a href="https://github.com/dirkschumacher/duckduckr">R library</a> by <a href="https://github.com/dirkschumacher">Dirk Schumacher</a>
 <li>If you make another supporting library, we'll add it here!
 </span>
 </ul>
