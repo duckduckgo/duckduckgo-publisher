@@ -162,42 +162,14 @@ Smarter search without the tracking.
 </div>
 <div class="abt  blk  blk--arr">
 	<div class="cw--c"><a class="anchor" name="newsletter"></a>
-		<h2 class="abt__title">Stay up to Date</h2>
-		<p class="abt__sub">Join our newsletters for all things DuckDuckGo.</p>
-		<form class="frm--newsletter  abt__newsletter" action="https://flash.duckduckgo.com/e.js" method="post" name="y">
-			<input type="hidden" name="add" value="1" />
-			<input type="text" placeholder="Your email address" class="frm__input" name="from" />
+		<h2 class="abt__title">Sign up to Privacy Tips from DuckDuckGo!</h2>
+		<p class="abt__sub">.</p>
+		<form class="frm--newsletter  abt__newsletter" action="https://duck.co/s/a" method="post" name="y">
+			<input type="hidden" name="page" value="1" />
+			<input type="hidden" name="campaign" value="b" />
+			<input type="hidden" name="flow" value="about" />
+			<input type="email" placeholder="Your email address" class="frm__input" name="email" />
 			<input type="submit" value="Subscribe" class="frm__btn  btn  btn--primary--alt" />
-			<div class="frm--newsletter__chks">
-				<label class="frm__label" for="add">
-					<input class="frm__label__chk" type="checkbox" id="add" name="add" checked="checked">
-					<span class="frm__label__txt">
-						Newsletter
-						<span class="frm--newsletter__frq">Monthly</span>
-					</span>
-				</label>
-				<label class="frm__label" for="add2">
-					<input class="frm__label__chk" type="checkbox" id="add2" name="add2">
-					<span class="frm__label__txt">
-						Beta
-						<span class="frm--newsletter__frq">New stuff</span>
-					</span>
-				</label>
-				<label class="frm__label" for="add3">
-					<input class="frm__label__chk" type="checkbox" id="add3" name="add3">
-					<span class="frm__label__txt">
-						Spread
-						<span class="frm--newsletter__frq">Promotions</span>
-					</span>
-				</label>
-				<label class="frm__label" for="add4">
-					<input class="frm__label__chk" type="checkbox" id="add4" name="add4">
-					<span class="frm__label__txt">
-						Privacy
-						<span class="frm--newsletter__frq">Education</span>
-					</span>
-				</label>
-			</div>
 		</form>
         <div class="abt__social-media">
             <p class="abt__social-media__cta text--secondary">Keep in touch via social media.</p>
