@@ -289,13 +289,15 @@
 			<hr class="hr--mid" />
 			
 			<div class="t-mid">
-				<form class="frm--newsletter" action="https://flash.duckduckgo.com/e.js" method="post" name="y">
-					<input type="hidden" name="add" value="1" />
-					<input type="text" placeholder="Enter your email address" class="frm__input" name="from" />
+				<form class="frm--newsletter" action="https://duck.co/s/a" method="post" name="y">
+					<input type="hidden" name="page" value="1" />
+					<input type="hidden" name="campaign" value="b" />
+					<input type="hidden" name="flow" value="styleguide" />
+					<input type="email" placeholder="Enter your email address" class="frm__input" name="from" />
 					<input type="submit" value="Subscribe" class="frm__btn  btn  btn--primary" />
 					<div class="frm--newsletter__chks">
 						<label class="frm__label" for="add">
-							<input class="frm__label__chk" type="checkbox" id="add" name="add" checked="checked">
+							<input class="frm__label__chk" type="checkbox" id="add" name="add">
 							<span class="frm__label__txt">
 								Newsletter 
 								<span class="frm--newsletter__frq">Monthly</span>
@@ -316,7 +318,7 @@
 							</span>
 						</label>
 						<label class="frm__label" for="add4">
-							<input class="frm__label__chk" type="checkbox" id="add4" name="add4"> 
+							<input class="frm__label__chk" type="checkbox" id="add4" name="add4" checked="checked"> 
 							<span class="frm__label__txt">
 								Privacy
 								<span class="frm--newsletter__frq">Education</span>
