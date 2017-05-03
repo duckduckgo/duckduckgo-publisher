@@ -204,7 +204,7 @@ sub pages {{
 			subtype => 'foss',
 			icon => 'love',
 		}],
-		
+
 		news_articles => [{
 			source => 'fastco',
 			source_full => 'FastCoLabs',
@@ -272,6 +272,15 @@ sub pages {{
 		hero_header => 1,
 		hero_header_text => 1,
 		js_page_type => 'Spread',
+	},
+	raffle => sub {
+		copyright_footer => 2,
+		no_content_internal => 1,
+		no_spacer => 1,
+		no_cw => 1,
+		hero_header => 1,
+		hero_header_text => 1,
+		js_page_type => 'Raffle',
 	},
 	tour => sub {
 		no_content_internal => 1,
