@@ -1,0 +1,5 @@
+<: include "meta/title.tx" { title => l('Search with DuckDuckGo and win awesome prizes!') } :>
+
+<meta property="og:description" content="Search with DuckDuckGo win awesome prizes! Enter the DuckDuckGo Prize Raffle now!">
+<meta name="description" content="Search with DuckDuckGo win awesome prizes! Enter the DuckDuckGo Prize Raffle now!">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
