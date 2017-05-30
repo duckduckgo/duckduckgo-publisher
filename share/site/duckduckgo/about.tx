@@ -171,7 +171,7 @@ Smarter search without the tracking.
 			<input type="email" placeholder="Your email address" class="frm__input" name="email" />
 			<input type="submit" value="Subscribe" class="frm__btn  btn  btn--primary--alt" />
 		</form>
-		<p class="abt__sub t-xs">Your email will not be shared or associated with anonymous searches. We also send all emails ourselves — no third parties are involved.</p>
+		<p class="abt__sub t-xs">Your email address will not be shared or associated with anonymous searches.</p>
         <div class="abt__social-media">
             <p class="abt__social-media__cta text--secondary">Keep in touch via social media.</p>
             <p class="abt__social-media__sites text--secondary">
