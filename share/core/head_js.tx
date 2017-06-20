@@ -1,5 +1,6 @@
 <script type="text/javascript">settings_js_version = "<: $asset_path :><: $ENV.DDG_DYNAMIC_SETTINGS_JS_FILE || '/set.js' :>";</script>
 <script type="text/javascript" src="/locales/<: $f.locale :>/LC_MESSAGES/<: $s.locale_domain :>+sprintf+gettext+locale-simple.<: $locale_package_version :>.js"></script>
+<script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_DYNAMIC_JS_LIBS || '/libs.js' :>"></script>
 <script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_DYNAMIC_JS_FILE || '/base.js' :>"></script>
 <: if $js_include_g { :>
 <script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_DYNAMIC_JS_2_FILE || '/serp.js' :>"></script>
