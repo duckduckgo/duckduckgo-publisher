@@ -274,12 +274,13 @@ sub pages {{
 		js_page_type => 'Spread',
          },
          iframe => sub {
-             copyright_footer => 2,
+             copyright_footer => 0,
              no_content_internal => 1,
              no_spacer => 1,
              no_cw => 1,
-             hero_header => 1,
-             hero_header_text => 1,
+             no_search_header => 1,
+             hero_header => 0,
+             hero_header_text => 0,
              js_page_type => 'Iframe',
 	},
 	tour => sub {
