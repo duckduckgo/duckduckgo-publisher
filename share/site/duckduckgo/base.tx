@@ -54,7 +54,6 @@
 		<: } if $copyright_footer { :> 
 			<: include "footer_copyright.tx" :>
 		<: } :>
-		<: if !$no_js { include "footer.tx" } :>
 		</div> <!-- content_wrapper //-->
 	<: } :>
     </div> <!-- site-wrapper -->
