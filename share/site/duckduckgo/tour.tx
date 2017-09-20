@@ -35,7 +35,7 @@
 				<div class="tour-text">
 					<h2 class="tour-text__head" data-number="2"><: l("Instant Answers") :></h2>
 					<h3 class="tour-text__title">Instant Answers for every situation.  <a href="/?q=daft+punk+soundcloud" target="ddg_soundloud">Music</a>, <a href="/?q=weather" target="ddg_weather">weather</a> and <a href="/?q=salmon+recipes" target="ddg_recipes">recipes</a> to name a few.</h3>
-					<p class="tour-text__p">Instant Answers help you find what you're looking for in fewer clicks.  Everything from a <a href="/?q=stopwatch" target="ddg_stopwatch">stopwatch</a> for your workout to finding <a href="/?q=movies+with+Chuck+Norris" target="ddg_chuck_movies">movies with Chuck Norris</a> can be found without leaving your search engine! You can even <a href="http://duckduckhack.com/">develop your own.</a></p>
+					<p class="tour-text__p">Instant Answers help you find what you're looking for in fewer clicks.  Everything from a <a href="/?q=stopwatch" target="ddg_stopwatch">stopwatch</a> for your workout to finding <a href="/?q=movies+with+Chuck+Norris" target="ddg_chuck_movies">movies with Chuck Norris</a> can be found without leaving your search engine!</p>
 					<div class="js-tour-atb2"></div>
 					<a href="#settings" class="tour-text__next  js-anchor-link"></a>
 				</div>
