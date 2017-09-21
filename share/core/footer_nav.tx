@@ -1,33 +1,29 @@
 <div class="blk  blk--foot  blk--foot--nav <: if $no_footer_arrow { :><: } else { :>  blk--arr <: } :>">
 	<div class="cw--c">
 		<div class="blk--foot__nav-col  third  thirty--screen-s">
-			<h5 class="blk--foot__nav-head">Community</h5>
+			<h5 class="blk--foot__nav-head">DuckDuckGo</h5>
 			<ul>
-				<li><a href="https://forum.duckduckhack.com/t/duckduckhack-getting-started/53">Getting Started</a></li>
-				<li><a href="https://quackslack.herokuapp.com/">Join Slack</a></li>
-				<li><a href="https://duck.co/translate">Translate</a></li>
-				<li><a href="https://www.meetup.com/topics/duckduckgo/">Meetup Groups</a></li>
+				<li><a href="https://duckduckgo.com/about">About</a></li>
+				<li><a href="https://duckduckgo.com/bang">Bangs</a></li>
 				<li><a href="https://duckduckgo.com/spread">Spread</a></li>
+				<li><a href="https://duckduckgo.com/hiring">Careers</a></li>
+				<li><a href="https://duck.co/help">Help</a></li>
 			</ul>
 		</div>
 		<div class="blk--foot__nav-col  third  thirty--screen-s">
-			<h5 class="blk--foot__nav-head">Follow</h5>
+			<h5 class="blk--foot__nav-head">Privacy</h5>
 			<ul>
 				<li><a href="https://spreadprivacy.com/">Blog</a></li>
-				<li><a href="https://twitter.com/duckduckgo">Twitter</a><li>
-				<li><a href="https://dribbble.com/duckduckgo">Dribbble</a></li>
-				<li><a href="https://www.reddit.com/r/duckduckgo/">Reddit</a></li>
-				<li><a href="https://github.com/duckduckgo">GitHub</a></li>
+				<li><a href="https://donttrack.us/">DontTrack.us</a></li>
+				<li><a href="https://duckduckgo.com/privacy">Policy</a></li>
 			</ul>
 		</div>
 		<div class="blk--foot__nav-col  third  thirty--screen-s">
-			<h5 class="blk--foot__nav-head">More</h5>
+			<h5 class="blk--foot__nav-head">Keep in Touch</h5>
 			<ul>
-				<li><a href="https://duck.co/help/">Help</a></li>
-				<li><a href="https://duckduckgo.com/privacy">Privacy</a></li>
-				<li><a href="https://duck.co/help/company/press">Press</a></li>
-				<li><a href="https://duckduckgo.com/hiring/">Careers</a></li>
-				<li><a href="https://duckduckgo.com/traffic">Traffic</a></li>
+				<li><a href="https://twitter.com/duckduckgo">Twitter</a></li>
+				<li><a href="https://reddit.com/r/duckduckgo">Reddit</a></li>
+			</ul>
 		</div>
 	</div>
 </div>
