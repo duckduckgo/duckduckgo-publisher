@@ -19,6 +19,18 @@ duckpan \
 	DDGC::Locale::DuckduckgoDonttrackus
 ```
 
+# Proxying Requests to Dev Server
+
+My default, asset URLs are relative (e.g. /style.css). To proxy these request to a development server, you can specify the domain for individual sites:
+
+```shell
+duckpan publisher --duckduckgo=http://moollaza.duckduckgo.com
+```
+
+Now all relative URLs will be directed to the specified server. In this case `/style.css` will be requested as `http://moollaza.duckduckgo.com/style.css`.
+
+This allows you to develop locally and load assets from another server.
+
 # Publishing
 
 Inside the repository you can do this to get a live simulation:
