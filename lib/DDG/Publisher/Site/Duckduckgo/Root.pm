@@ -204,11 +204,11 @@ sub pages {{
 			subtype => 'foss',
 			icon => 'love',
 		}],
-		
+
 		news_articles => [{
 			source => 'fastco',
 			source_full => 'FastCoLabs',
-			source_link => 'http://www.fastcolabs.com/3026698/inside-duckduckgo-googles-tiniest-fiercest-competitor',
+			source_link => 'https://www.fastcompany.com/3026698/inside-duckduckgo-googles-tiniest-fiercest-competitor',
 			author_name => 'John Paul Titlow',
 			date => '20 February 2014',
 			headline => 'Inside DuckDuckGo, Google’s Tiniest, Fiercest Competitor',
@@ -216,7 +216,7 @@ sub pages {{
 		},{
 			source => 'theguardian',
 			source_full => 'The Observer',
-			source_link => 'http://www.theguardian.com/technology/2014/apr/04/duckduckgo-gabriel-weinberg-secure-searches',
+			source_link => 'https://www.theguardian.com/technology/2014/apr/04/duckduckgo-gabriel-weinberg-secure-searches',
 			author_name => 'Alex Hern',
 			date => '4 April 2014',
 			headline => 'DuckDuckGo: the plucky upstart taking on Google with secure searches',
@@ -224,7 +224,7 @@ sub pages {{
 		},{
 			source => 'wapost',
 			source_full => 'The Washington Post',
-			source_link => 'http://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html',
+			source_link => 'https://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html',
 			author_name => 'Michael Rosenwald',
 			date => '9 November 2012',
 			headline => 'Ducking Google in search engines',
