@@ -314,14 +314,24 @@ sub pages {{
 		no_header => 1,
 		hero_header => 1,
 		no_js => 1,
-    },
-    install => sub {
-        no_header => 1,
-        no_cw => 1,
-        no_spacer => 1,
-        no_content_internal => 1,
-        js_skip_init => 1
-    }
+	},
+	install => sub {
+		no_header => 1,
+		no_cw => 1,
+		no_spacer => 1,
+		no_content_internal => 1,
+		js_skip_init => 1
+	},
+	foss_donations => sub {
+		nav_footer => 1,
+		copyright_footer => 1,
+		no_content_internal => 1,
+		no_spacer => 1,
+		#no_cw => 1,
+		hero_header => 1,
+		hero_header_text => 1,
+		js_page_type => 'FossDonations',
+	}
 }}
 
 sub statics {{
