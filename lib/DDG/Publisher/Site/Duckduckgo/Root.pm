@@ -322,15 +322,15 @@ sub pages {{
 		no_content_internal => 1,
 		js_skip_init => 1
 	},
-	foss_donations => sub {
+	foss => sub {
 		nav_footer => 1,
+		no_footer_arrow => 1,
 		copyright_footer => 1,
 		no_content_internal => 1,
 		no_spacer => 1,
 		#no_cw => 1,
 		hero_header => 1,
-		hero_header_text => 1,
-		js_page_type => 'FossDonations',
+		hero_header_text => 1
 	}
 }}
 
