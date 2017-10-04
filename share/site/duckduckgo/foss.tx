@@ -1,17 +1,27 @@
-<div class="blk blk--hero foss--hero">
+<div class="blk blk--hero foss__hero">
 	<div class="cw--c">
 		<div class="blk__text">
 			<a class="anchor" name="top"></a>
 			<h1 class="hd-hr">Take back your privacy!</h1>
 			<p>Each year we donate to organizations that share our vision on vestibulum venenatis ultrices massa vel dictum. Nulla rhoncus nisi in velit placerat.</p>
 		</div>
+	</div><img src="http://via.placeholder.com/1370x320" alt="">
+</div>
+
+<div class="blk foss__cta">
+	<div class="cw--c">
+		<div class="blk__text">
+			<div class="cta__text">Nulla rhoncus nisi in velit placerat.</div>
+			<div class="cta__btn__wrap">
+				<span class="ddgsi ddgsi-down cta__btn"></span>
+			</div>
+		</div>
 	</div>
 </div>
 
-<div class="blk">
+<div class="blk foss__timeline">
 	<div class="cw--c">
 		<div class="blk__text">
-
 		</div>
 	</div>
 </div>
