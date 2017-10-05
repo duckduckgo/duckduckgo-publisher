@@ -2,8 +2,8 @@
 	<div class="cw--c">
 		<div class="blk__text">
 			<a class="anchor" name="top"></a>
-			<h1 class="hd-hr">Take back your privacy!</h1>
-			<p>Each year we donate to organizations that share our vision on vestibulum venenatis ultrices massa vel dictum. Nulla rhoncus nisi in velit placerat.</p>
+			<h1 class="hd-hr">Donating for Privacy</h1>
+			<p>At DuckDuckGo, every year since 2011 we've been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
 		</div>
 	</div><img src="http://via.placeholder.com/1370x320" alt="">
 </div>
@@ -11,10 +11,10 @@
 <div class="blk foss__cta">
 	<div class="cw--c">
 		<div class="blk__text">
-			<div class="cta__text">Nulla rhoncus nisi in velit placerat.</div>
 			<div class="cta__btn__wrap">
 				<span class="ddgsi ddgsi-down cta__btn"></span>
 			</div>
+			<div class="cta__text">Over $700,000 in DuckDuckGo privacy donations</div>
 		</div>
 	</div>
 </div>
@@ -22,6 +22,30 @@
 <div class="blk foss__timeline">
 	<div class="cw--c">
 		<div class="blk__text">
+			<:- for $foss_donations -> $event { -:>
+			<div class="timeline__item">
+					<h3 class="timeline__year"><: $event.year :></h2>
+					<h2 class="timeline__title"><: $event.total :> <span class="ddgsi ddgsi-arrow-right"></span> <: $event.reason :></h2>
+					<p class="timeline__snippet"><: $event.snippet :></p>
+
+					<ul class="timeline__donations">
+						<:- for $event.donations.col1 -> $donation { -:>
+							<li>
+								<span class="donation__amount"><: $donation.amount :></span>
+								<span class="donation__recipient"><: $donation.recipient :></span>
+							</li>
+						<:- } -:>
+					</ul>
+					<ul class="timeline__donations">
+						<:- for $event.donations.col2 -> $donation { -:>
+							<li>
+								<span class="donation__amount"><: $donation.amount :></span>
+								<span class="donation__recipient"><: $donation.recipient :></span>
+							</li>
+						<:- } -:>
+					</ul>
+			</div>
+			<:- } -:>
 		</div>
 	</div>
 </div>
