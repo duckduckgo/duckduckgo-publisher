@@ -333,7 +333,7 @@ sub pages {{
 		foss_donations => [{
 			year => '2017',
 			total => '$300,000',
-			theme => 'Privacy Eduaction',
+			theme => 'Privacy Education',
 			snippet => 'For our seventh year of free and open source donations, we divided our donations over sixteen organizations:',
 			donations => {
 				col1 => [
