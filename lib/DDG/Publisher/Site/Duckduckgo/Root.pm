@@ -337,24 +337,24 @@ sub pages {{
 			snippet => 'For our seventh year of free and open source donations, we divided our donations over sixteen organizations:',
 			donations => {
 				col1 => [
-					{amount => '$100,000', recipient => 'Freedom of the Press Foundation'},
-					{amount => '$75,000', recipient => 'World Privacy Forum'},
-					{amount => '$29,000', recipient => 'Open Whisper Systems'},
-					{amount => '$25,000', recipient => 'Privacy Rights Clearinghouse'},
-					{amount => '$25,000', recipient => 'TOR Project'},
-					{amount => '$25,000', recipient => 'The Electronic Frontier Foundation'},
-					{amount => '$5,000', recipient => 'American Civil Liberties Union (ACLU)'},
-					{amount => '$5,000', recipient => 'Access Now'},
+					{amount => '$100,000', recipient => 'Freedom of the Press Foundation', url => 'https://freedom.press'},
+					{amount => '$75,000', recipient => 'World Privacy Forum', url => 'https://www.worldprivacyforum.org'},
+					{amount => '$29,000', recipient => 'Open Whisper Systems', url => 'https://signal.org'},
+					{amount => '$25,000', recipient => 'Privacy Rights Clearinghouse', url => 'https://www.privacyrights.org'},
+					{amount => '$25,000', recipient => 'TOR Project', url => 'https://www.torproject.org'},
+					{amount => '$25,000', recipient => 'The Electronic Frontier Foundation', url => 'https://www.eff.org'},
+					{amount => '$5,000', recipient => 'American Civil Liberties Union (ACLU)', url => 'https://www.aclu.org'},
+					{amount => '$5,000', recipient => 'Access Now', url => 'https://www.accessnow.org'},
 				],
 				col2 => [
-					{amount => '$25,00', recipient => 'The Calyx Institute'},
-					{amount => '$25,00', recipient => 'Center for Democracy & Technology'},
-					{amount => '$1,000', recipient => 'Restore the Fourth'},
-					{amount => '$1,000', recipient => 'Center for Digital Democracy (CDD)'},
-					{amount => '$1,000', recipient => 'Patent Privacy Rights'},
-					{amount => '$1,000', recipient => 'Online Trust Alliance (OTA)'},
-					{amount => '$1,000', recipient => 'Tech Freedom'},
-					{amount => '$1,000', recipient => 'Demand Progress'},
+					{amount => '$25,00', recipient => 'The Calyx Institute', url => 'https://freedom.press'},
+					{amount => '$25,00', recipient => 'Center for Democracy & Technology', url => 'https://www.worldprivacyforum.org'},
+					{amount => '$1,000', recipient => 'Restore the Fourth', url => 'https://signal.org'},
+					{amount => '$1,000', recipient => 'Center for Digital Democracy (CDD)', url => 'https://www.privacyrights.org'},
+					{amount => '$1,000', recipient => 'Patent Privacy Rights', url => 'https://www.torproject.org'},
+					{amount => '$1,000', recipient => 'Online Trust Alliance (OTA)', url => 'https://www.eff.org'},
+					{amount => '$1,000', recipient => 'Tech Freedom', url => 'https://www.aclu.org'},
+					{amount => '$1,000', recipient => 'Demand Progress', url => 'https://www.accessnow.org'},
 				]
 			}
 		},{
@@ -364,17 +364,17 @@ sub pages {{
 			snippet => 'For our sixth year of donations we divided $225K equally over the following nine organizations:',
 			donations => {
 				col1 => [
-					{amount => '$25,000', recipient => 'SecureDrop'},
-					{amount => '$25,000', recipient => 'Freenet'},
-					{amount => '$25,000', recipient => 'OpenBSD Foundation'},
-					{amount => '$25,000', recipient => 'CrypTech'},
-					{amount => '$25,000', recipient => 'TOR Project'},
+					{amount => '$25,000', recipient => 'SecureDrop', url => 'https://securedrop.org'},
+					{amount => '$25,000', recipient => 'Freenet', url => 'https://freenetproject.org'},
+					{amount => '$25,000', recipient => 'OpenBSD Foundation', url => 'http://www.openbsdfoundation.org'},
+					{amount => '$25,000', recipient => 'CrypTech', url => 'https://cryptech.is'},
+					{amount => '$25,000', recipient => 'TOR Project', url => 'https://www.torproject.org'},
 				],
 				col2 => [
-					{amount => '$25,000', recipient => 'Fight for the Future'},
-					{amount => '$25,000', recipient => 'VeraCrypt'},
-					{amount => '$25,000', recipient => 'LEAP'},
-					{amount => '$25,000', recipient => 'GPGTools'},
+					{amount => '$25,000', recipient => 'Fight for the Future', url => 'https://www.fightforthefuture.org'},
+					{amount => '$25,000', recipient => 'VeraCrypt', url => 'https://veracrypt.codeplex.com'},
+					{amount => '$25,000', recipient => 'LEAP', url => 'http://leapfoundation.com'},
+					{amount => '$25,000', recipient => 'GPGTools', url => 'https://gpgtools.org'},
 				]
 			}
 		},{
@@ -384,13 +384,13 @@ sub pages {{
 			snippet => 'For our fifth year of donations we divided $125K equally over the following five organizations:',
 			donations => {
 				col1 => [
-					{amount => '$25,000', recipient => 'SecureDrop'},
-					{amount => '$25,000', recipient => 'PrivacyBadger'},
-					{amount => '$25,000', recipient => 'GPGTools'},
+					{amount => '$25,000', recipient => 'SecureDrop', url => 'https://securedrop.org'},
+					{amount => '$25,000', recipient => 'PrivacyBadger', url => 'https://www.eff.org/privacybadger'},
+					{amount => '$25,000', recipient => 'GPGTools', url => 'https://gpgtools.org'},
 				],
 				col2 => [
-					{amount => '$25,000', recipient => 'Tails'},
-					{amount => '$25,000', recipient => 'Girl Develop It'},
+					{amount => '$25,000', recipient => 'Tails', url => 'https://tails.boum.org'},
+					{amount => '$25,000', recipient => 'Girl Develop It', url => 'https://www.girldevelopit.com'},
 				]
 			}
 		},{
@@ -400,14 +400,14 @@ sub pages {{
 			snippet => 'For our fourth year of donations we divided $40K over the six organizations, with four of the recipients chosen by our community:',
 			donations => {
 				col1 => [
-					{amount => '$10,000', recipient => 'SecureDrop'},
-					{amount => '$10,000', recipient => 'NoiseTor'},
-					{amount => '$5,000', recipient => 'Lavabit'},
+					{amount => '$10,000', recipient => 'SecureDrop', url => 'https://securedrop.org'},
+					{amount => '$10,000', recipient => 'NoiseTor', url => 'http://noisetor.net'},
+					{amount => '$5,000', recipient => 'Lavabit', url => 'https://lavabit.com'},
 				],
 				col2 => [
-					{amount => '$5,000', recipient => 'Riseup'},
-					{amount => '$5,000', recipient => 'Mailpile'},
-					{amount => '$5,000', recipient => 'I2P'},
+					{amount => '$5,000', recipient => 'Riseup', url => 'https://riseup.net'},
+					{amount => '$5,000', recipient => 'Mailpile', url => 'https://www.mailpile.is'},
+					{amount => '$5,000', recipient => 'I2P', url => 'https://geti2p.net/en'},
 				]
 			}
 		},{
@@ -417,15 +417,15 @@ sub pages {{
 			snippet => 'For our third year of donations we divided $20K over the seven organizations, with five of the recipients chosen by our community:',
 			donations => {
 				col1 => [
-					{amount => '$5,000', recipient => 'Open Street Map Foundation'},
-					{amount => '$5,000', recipient => 'Electronic Frontier Foundation'},
-					{amount => '$2,000', recipient => 'Riseup'},
-					{amount => '$2,000', recipient => 'F-Droid'},
+					{amount => '$5,000', recipient => 'Open Street Map Foundation', url => 'https://wiki.osmfoundation.org/wiki/Main_Page'},
+					{amount => '$5,000', recipient => 'Electronic Frontier Foundation', url => 'https://www.eff.org'},
+					{amount => '$2,000', recipient => 'Riseup', url => 'https://riseup.net'},
+					{amount => '$2,000', recipient => 'F-Droid', url => 'https://f-droid.org'},
 				],
 				col2 => [
-					{amount => '$2,000', recipient => 'NoScript'},
-					{amount => '$2,000', recipient => 'Cryptocat'},
-					{amount => '$2,000', recipient => 'Javascript Blocker'},
+					{amount => '$2,000', recipient => 'NoScript', url => 'https://noscript.net'},
+					{amount => '$2,000', recipient => 'Cryptocat', url => 'https://crypto.cat'},
+					{amount => '$2,000', recipient => 'Javascript Blocker', url => 'http://jsblocker.toggleable.com'},
 				]
 			}
 		},{
@@ -435,14 +435,14 @@ sub pages {{
 			snippet => 'For our second year of donations we divided $10K over the six organizations, with four of the recipients chosen by our community:',
 			donations => {
 				col1 => [
-					{amount => '$5,000', recipient => 'TOR Project'},
-					{amount => '$5,000', recipient => 'Wikimedia foundation'},
-					{amount => '$2,000', recipient => 'unhosted.org'},
+					{amount => '$5,000', recipient => 'TOR Project', url => 'https://www.torproject.org'},
+					{amount => '$5,000', recipient => 'Wikimedia foundation', url => 'https://wikimediafoundation.org/wiki/Home'},
+					{amount => '$2,000', recipient => 'unhosted.org', url => 'https://unhosted.org'},
 				],
 				col2 => [
-					{amount => '$2,000', recipient => 'Diaspora Project'},
-					{amount => '$2,000', recipient => 'Freenet'},
-					{amount => '$2,000', recipient => 'friendica'},
+					{amount => '$2,000', recipient => 'Diaspora Project', url => 'https://diasporafoundation.org'},
+					{amount => '$2,000', recipient => 'Freenet', url => 'https://freenetproject.org'},
+					{amount => '$2,000', recipient => 'friendica', url => 'https://friendi.ca'},
 				]
 			}
 		},{
@@ -452,14 +452,14 @@ sub pages {{
 			snippet => 'For our first year of donations, with the understanding that we rely on a lot of great free and open-source projects to keep our wings flapping, we decided to start giving back: ',
 			donations => {
 				col1 => [
-					{amount => '$5,000', recipient => 'nginx'},
-					{amount => '$5,000', recipient => 'FreeBSD'},
-					{amount => '$2,000', recipient => 'TOR Project'},
+					{amount => '$5,000', recipient => 'nginx', url => 'https://www.nginx.com'},
+					{amount => '$5,000', recipient => 'FreeBSD', url => 'https://www.freebsd.org'},
+					{amount => '$2,000', recipient => 'TOR Project', url => 'https://www.torproject.org'},
 				],
 				col2 => [
-					{amount => '$2,000', recipient => 'Clamwin'},
-					{amount => '$2,000', recipient => 'Tahoe-LAFS'},
-					{amount => '$2,000', recipient => 'OpenSSH'},
+					{amount => '$2,000', recipient => 'Clamwin', url => 'http://www.clamwin.com'},
+					{amount => '$2,000', recipient => 'Tahoe-LAFS', url => 'https://tahoe-lafs.org/trac/tahoe-lafs'},
+					{amount => '$2,000', recipient => 'OpenSSH', url => 'https://www.openssh.com'},
 				]
 			}
 		}],

@@ -36,13 +36,13 @@
 					<ul class="timeline__donations"
 						><:- for $event.donations.col1 -> $donation { -:><li
 							><span class="donation__amount"><: $donation.amount :></span
-							><span class="donation__recipient"><: $donation.recipient :></span
+							><span class="donation__recipient"><a href="<: $donation.url :>"><: $donation.recipient :></a></span
 						></li><:- } -:>
 					</ul
 					><ul class="timeline__donations"
 						><:- for $event.donations.col2 -> $donation { -:><li
 							><span class="donation__amount"><: $donation.amount :></span
-							><span class="donation__recipient"><: $donation.recipient :></span
+							><span class="donation__recipient"><a href="<: $donation.url :>"><: $donation.recipient :></a></span
 						></li><:- } -:>
 					</ul>
 			</div>
