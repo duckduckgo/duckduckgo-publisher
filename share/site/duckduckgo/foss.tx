@@ -5,8 +5,9 @@
 			<h1 class="hd-hr">Donating for Privacy</h1>
 			<p>At DuckDuckGo, every year since 2011 we've been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
 		</div>
-	</div><img src="http://via.placeholder.com/1370x320" alt="">
-</div>
+	</div
+	><img src="http://via.placeholder.com/1370x320" alt=""
+></div>
 
 <div class="blk foss__cta">
 	<div class="cw--c">
@@ -14,7 +15,7 @@
 			<div class="cta__btn__wrap">
 				<span class="ddgsi ddgsi-down cta__btn"></span>
 			</div>
-			<div class="cta__text">Over $700,000 in DuckDuckGo privacy donations</div>
+			<div class="cta__text">Over <b>$700,000</b> in DuckDuckGo privacy donations</div>
 		</div>
 	</div>
 </div>
@@ -25,24 +26,24 @@
 			<:- for $foss_donations -> $event { -:>
 			<div class="timeline__item">
 					<h3 class="timeline__year"><: $event.year :></h2>
-					<h2 class="timeline__title"><: $event.total :> <span class="ddgsi ddgsi-arrow-right"></span> <: $event.reason :></h2>
+					<h2 class="timeline__title"
+						><span class="timeline__total"><: $event.total :></span
+						><span class="ddgsi ddgsi-arrow-right"></span
+						><span class="timeline__theme"><: $event.theme :></span>
+					</h2>
 					<p class="timeline__snippet"><: $event.snippet :></p>
 
-					<ul class="timeline__donations">
-						<:- for $event.donations.col1 -> $donation { -:>
-							<li>
-								<span class="donation__amount"><: $donation.amount :></span>
-								<span class="donation__recipient"><: $donation.recipient :></span>
-							</li>
-						<:- } -:>
-					</ul>
-					<ul class="timeline__donations">
-						<:- for $event.donations.col2 -> $donation { -:>
-							<li>
-								<span class="donation__amount"><: $donation.amount :></span>
-								<span class="donation__recipient"><: $donation.recipient :></span>
-							</li>
-						<:- } -:>
+					<ul class="timeline__donations"
+						><:- for $event.donations.col1 -> $donation { -:><li
+							><span class="donation__amount"><: $donation.amount :></span
+							><span class="donation__recipient"><: $donation.recipient :></span
+						></li><:- } -:>
+					</ul
+					><ul class="timeline__donations"
+						><:- for $event.donations.col2 -> $donation { -:><li
+							><span class="donation__amount"><: $donation.amount :></span
+							><span class="donation__recipient"><: $donation.recipient :></span
+						></li><:- } -:>
 					</ul>
 			</div>
 			<:- } -:>

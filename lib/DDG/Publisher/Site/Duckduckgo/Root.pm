@@ -333,7 +333,7 @@ sub pages {{
 		foss_donations => [{
 			year => '2017',
 			total => '$300,000',
-			reason => 'Privacy Eduaction',
+			theme => 'Privacy Eduaction',
 			snippet => 'For our seventh year of free and open source donations, we divided our donations over sixteen organizations:',
 			donations => {
 				col1 => [
@@ -360,7 +360,7 @@ sub pages {{
 		},{
 			year => '2016',
 			total => '$225,000',
-			reason => 'Increasing Trust',
+			theme => 'Increasing Trust',
 			snippet => 'For our sixth year of donations we divided $225K equally over the following nine organizations:',
 			donations => {
 				col1 => [
@@ -380,7 +380,7 @@ sub pages {{
 		},{
 			year => '2015',
 			total => '$125,000',
-			reason => 'Privacy Tools',
+			theme => 'Privacy Tools',
 			snippet => 'For our fifth year of donations we divided $125K equally over the following five organizations:',
 			donations => {
 				col1 => [
@@ -396,7 +396,7 @@ sub pages {{
 		},{
 			year => '2014',
 			total => '$40,000',
-			reason => 'Secure Communications',
+			theme => 'Secure Communications',
 			snippet => 'For our fourth year of donations we divided $40K over the six organizations, with four of the recipients chosen by our community:',
 			donations => {
 				col1 => [
@@ -413,7 +413,7 @@ sub pages {{
 		},{
 			year => '2013',
 			total => '$20,000',
-			reason => 'Fix Tracking',
+			theme => 'Fix Tracking',
 			snippet => 'For our third year of donations we divided $20K over the seven organizations, with five of the recipients chosen by our community:',
 			donations => {
 				col1 => [
@@ -431,7 +431,7 @@ sub pages {{
 		},{
 			year => '2012',
 			total => '$10,000',
-			reason => 'Open Data',
+			theme => 'Open Data',
 			snippet => 'For our second year of donations we divided $10K over the six organizations, with four of the recipients chosen by our community:',
 			donations => {
 				col1 => [
@@ -448,7 +448,7 @@ sub pages {{
 		},{
 			year => '2011',
 			total => '$20,000',
-			reason => 'Privacy Open Sorce',
+			theme => 'Privacy Open Sorce',
 			snippet => 'For our first year of donations, with the understanding that we rely on a lot of great free and open-source projects to keep our wings flapping, we decided to start giving back: ',
 			donations => {
 				col1 => [
