@@ -27,9 +27,9 @@
 			<div class="timeline__item">
 					<h3 class="timeline__year"><: $event.year :></h2>
 					<h2 class="timeline__title">
-						<span class="timeline__total"><: $event.total :></span>
-						<span class="ddgsi ddgsi-arrow-right"></span><div class="timeline__title__for">for</div>
-						<span class="timeline__theme"><: $event.theme :></span>
+						<span class="timeline__total"><: $event.total :></span
+						><span class="ddgsi ddgsi-arrow-right"></span><div class="timeline__title__for">for</div
+						><span class="timeline__theme"><: $event.theme :></span>
 					</h2>
 					<p class="timeline__snippet"><: $event.snippet :></p>
 
