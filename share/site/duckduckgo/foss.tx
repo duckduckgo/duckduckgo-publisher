@@ -5,9 +5,10 @@
 			<h1 class="hd-hr">Donating for Privacy</h1>
 			<p>At DuckDuckGo, every year since 2011 we've been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
 		</div>
-	</div
-	><img src="/assets/foss/donations.svg"
-></div>
+	</div>
+	<img class="foss__hero__img" src="/assets/foss/donations.svg">
+	<img class="foss__hero__img--cropped" src="/assets/foss/donations_cropped.svg">
+</div>
 
 <div class="blk foss__cta">
 	<div class="cw--c">
