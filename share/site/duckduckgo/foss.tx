@@ -6,7 +6,7 @@
 			<p>At DuckDuckGo, every year since 2011 we've been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
 		</div>
 	</div
-	><img src="http://via.placeholder.com/1370x320" alt=""
+	><img src="/assets/foss/donations.svg"
 ></div>
 
 <div class="blk foss__cta">
@@ -27,9 +27,9 @@
 			<div class="timeline__item">
 					<h3 class="timeline__year"><: $event.year :></h2>
 					<h2 class="timeline__title">
-						<span class="timeline__total"><: $event.total :></span
+						<span class="timeline__title__total"><: $event.total :></span
 						><span class="ddgsi ddgsi-arrow-right"></span><div class="timeline__title__for">for</div
-						><span class="timeline__theme"><: $event.theme :></span>
+						><span class="timeline__title__theme"><: $event.theme :></span>
 					</h2>
 					<p class="timeline__snippet"><: $event.snippet :></p>
 
