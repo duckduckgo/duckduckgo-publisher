@@ -6,8 +6,8 @@
 			<p>At DuckDuckGo, every year since 2011 we've been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
 		</div>
 	</div>
-	<img class="foss__hero__img" src="/assets/foss/donations.svg">
-	<img class="foss__hero__img--cropped" src="/assets/foss/donations_cropped.svg">
+	<img class="foss__hero__img" src="/assets/foss/background.svg">
+	<img class="foss__hero__img--cropped" src="/assets/foss/background_cropped.svg">
 </div>
 
 <div class="blk foss__cta">
@@ -24,7 +24,7 @@
 <div class="blk foss__timeline">
 	<div class="cw--c">
 		<div class="blk__text">
-			<:- for $foss_donations -> $event { -:>
+			<:- for $yearly_donations -> $event { -:>
 			<div class="timeline__item">
 					<h3 class="timeline__year"><: $event.year :></h2>
 					<h2 class="timeline__title">
