@@ -430,7 +430,7 @@ sub pages {{
 			}
 		},{
 			year => '2012',
-			total => '$18,000',
+			total => '$10,000',
 			theme => 'Open Data',
 			snippet => 'For our second year of donations we divided $10K over the six organizations, with four of the recipients chosen by our community:',
 			donations => {
@@ -447,7 +447,7 @@ sub pages {{
 			}
 		},{
 			year => '2011',
-			total => '$18,000',
+			total => '$2,000',
 			theme => 'Privacy Open Sorce',
 			snippet => 'For our first year of donations, with the understanding that we rely on a lot of great free and open-source projects to keep our wings flapping, we decided to start giving back: ',
 			donations => {
