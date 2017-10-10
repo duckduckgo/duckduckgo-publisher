@@ -322,7 +322,7 @@ sub pages {{
 		no_content_internal => 1,
 		js_skip_init => 1
 	},
-	foss => sub {
+	donations => sub {
 		nav_footer => 1,
 		no_footer_arrow => 1,
 		copyright_footer => 1,
@@ -330,7 +330,7 @@ sub pages {{
 		no_spacer => 1,
 		hero_header => 1,
 		hero_header_text => 1,
-		foss_donations => [{
+		yearly_donations => [{
 			year => '2017',
 			total => '$300,000',
 			theme => 'Privacy Education',
