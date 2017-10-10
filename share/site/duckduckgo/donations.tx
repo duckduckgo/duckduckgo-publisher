@@ -1,4 +1,4 @@
-<div class="blk blk--hero foss__hero">
+<div class="blk blk--hero donations__hero">
 	<div class="cw--c">
 		<div class="blk__text">
 			<a class="anchor" name="top"></a>
@@ -6,11 +6,11 @@
 			<p>At DuckDuckGo, every year since 2011 we've been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
 		</div>
 	</div>
-	<img class="foss__hero__img" src="/assets/foss/background.svg">
-	<img class="foss__hero__img--cropped" src="/assets/foss/background_cropped.svg">
+	<img class="donations__hero__img" src="/assets/donations/background.svg">
+	<img class="donations__hero__img--cropped" src="/assets/donations/background_cropped.svg">
 </div>
 
-<div class="blk foss__cta">
+<div class="blk donations__cta">
 	<div class="cw--c">
 		<div class="blk__text">
 			<div class="cta__btn__wrap">
@@ -21,7 +21,7 @@
 	</div>
 </div>
 
-<div class="blk foss__timeline">
+<div class="blk donations__timeline">
 	<div class="cw--c">
 		<div class="blk__text">
 			<:- for $yearly_donations -> $event { -:>
