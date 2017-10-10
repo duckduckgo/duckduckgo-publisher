@@ -1,7 +1,7 @@
 <div class="blk blk--hero donations__hero">
 	<div class="cw--c">
 		<div class="blk__text">
-			<img class="timeline__logo" src="/assets/dax-alt.svg">
+			<img class="donations__logo" src="/assets/donations/dax-logo.svg">
 			<h1 class="hd-hr">Donating for Privacy</h1>
 			<p>At DuckDuckGo, every year since 2011 we've been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
 		</div>
@@ -21,10 +21,10 @@
 	</div>
 </div>
 
+<a name="donations-list" class="anchor js-anchor"></a>
 <div class="blk donations__timeline">
 	<div class="cw--c">
 		<div class="blk__text">
-			<a name="donations-list" class="anchor js-anchor"></a>
 			<:- for $yearly_donations -> $event { -:>
 				<div class="timeline__item">
 					<h3 class="timeline__year"><: $event.year :></h2>
