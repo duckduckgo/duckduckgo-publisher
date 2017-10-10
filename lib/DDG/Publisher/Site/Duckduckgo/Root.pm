@@ -347,8 +347,8 @@ sub pages {{
 					{amount => '$5,000', recipient => 'Access Now', url => 'https://www.accessnow.org'},
 				],
 				col2 => [
-					{amount => '$25,00', recipient => 'The Calyx Institute', url => 'https://freedom.press'},
-					{amount => '$25,00', recipient => 'Center for Democracy & Technology', url => 'https://www.worldprivacyforum.org'},
+					{amount => '$2,500', recipient => 'The Calyx Institute', url => 'https://freedom.press'},
+					{amount => '$2,500', recipient => 'Center for Democracy & Technology', url => 'https://www.worldprivacyforum.org'},
 					{amount => '$1,000', recipient => 'Restore the Fourth', url => 'https://signal.org'},
 					{amount => '$1,000', recipient => 'Center for Digital Democracy (CDD)', url => 'https://www.privacyrights.org'},
 					{amount => '$1,000', recipient => 'Patent Privacy Rights', url => 'https://www.torproject.org'},
