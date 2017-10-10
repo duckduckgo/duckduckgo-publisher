@@ -13,9 +13,9 @@
 <div class="blk donations__cta">
 	<div class="cw--c">
 		<div class="blk__text">
-			<div class="cta__btn__wrap">
+			<a class="cta__btn__wrap js-anchor-link" href="#donations-list">
 				<span class="ddgsi ddgsi-down cta__btn"></span>
-			</div>
+			</a>
 			<div class="cta__text">Over <b>$700,000</b> in DuckDuckGo privacy donations</div>
 		</div>
 	</div>
@@ -24,8 +24,9 @@
 <div class="blk donations__timeline">
 	<div class="cw--c">
 		<div class="blk__text">
+			<a name="donations-list" class="anchor js-anchor"></a>
 			<:- for $yearly_donations -> $event { -:>
-			<div class="timeline__item">
+				<div class="timeline__item">
 					<h3 class="timeline__year"><: $event.year :></h2>
 					<h2 class="timeline__title">
 						<span class="timeline__title__total"><: $event.total :></span
@@ -46,7 +47,7 @@
 							><span class="donation__recipient"><a href="<: $donation.url :>"><: $donation.recipient :></a></span
 						></li><:- } -:>
 					</ul>
-			</div>
+				</div>
 			<:- } -:>
 		</div>
 	</div>
