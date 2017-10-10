@@ -435,31 +435,32 @@ sub pages {{
 			snippet => 'For our second year of donations we divided $10K over the six organizations, with four of the recipients chosen by our community:',
 			donations => {
 				col1 => [
-					{amount => '$5,000', recipient => 'TOR Project', url => 'https://www.torproject.org'},
-					{amount => '$5,000', recipient => 'Wikimedia foundation', url => 'https://wikimediafoundation.org/wiki/Home'},
-					{amount => '$2,000', recipient => 'unhosted.org', url => 'https://unhosted.org'},
+					{amount => '$6000', recipient => 'Multiple Perl Events', url => 'https://www.perl.org/'},
+					{amount => '$940', recipient => 'TOR Project', url => 'https://www.torproject.org'},
+					{amount => '$940', recipient => 'Wikimedia foundation', url => 'https://wikimediafoundation.org/wiki/Home'},
+					{amount => '$940', recipient => 'unhosted.org', url => 'https://unhosted.org'},
 				],
 				col2 => [
-					{amount => '$2,000', recipient => 'Diaspora Project', url => 'https://diasporafoundation.org'},
-					{amount => '$2,000', recipient => 'Freenet', url => 'https://freenetproject.org'},
-					{amount => '$2,000', recipient => 'friendica', url => 'https://friendi.ca'},
+					{amount => '$940', recipient => 'Diaspora Project', url => 'https://diasporafoundation.org'},
+					{amount => '$940', recipient => 'Freenet', url => 'https://freenetproject.org'},
+					{amount => '$940', recipient => 'friendica', url => 'https://friendi.ca'},
 				]
 			}
 		},{
 			year => '2011',
-			total => '$2,000',
+			total => '$1,909',
 			theme => 'Privacy Open Sorce',
 			snippet => 'For our first year of donations, with the understanding that we rely on a lot of great free and open-source projects to keep our wings flapping, we decided to start giving back: ',
 			donations => {
 				col1 => [
-					{amount => '$5,000', recipient => 'nginx', url => 'https://www.nginx.com'},
-					{amount => '$5,000', recipient => 'FreeBSD', url => 'https://www.freebsd.org'},
-					{amount => '$2,000', recipient => 'TOR Project', url => 'https://www.torproject.org'},
+					{amount => '$482', recipient => 'nginx', url => 'https://www.nginx.com'},
+					{amount => '$475', recipient => 'FreeBSD', url => 'https://www.freebsd.org'},
+					{amount => '$238', recipient => 'TOR Project', url => 'https://www.torproject.org'},
 				],
 				col2 => [
-					{amount => '$2,000', recipient => 'Clamwin', url => 'http://www.clamwin.com'},
-					{amount => '$2,000', recipient => 'Tahoe-LAFS', url => 'https://tahoe-lafs.org/trac/tahoe-lafs'},
-					{amount => '$2,000', recipient => 'OpenSSH', url => 'https://www.openssh.com'},
+					{amount => '$238', recipient => 'Clamwin', url => 'http://www.clamwin.com'},
+					{amount => '$238', recipient => 'Tahoe-LAFS', url => 'https://tahoe-lafs.org/trac/tahoe-lafs'},
+					{amount => '$238', recipient => 'OpenSSH', url => 'https://www.openssh.com'},
 				]
 			}
 		}],
