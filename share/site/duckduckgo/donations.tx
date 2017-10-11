@@ -17,11 +17,11 @@
 				<span class="ddgsi ddgsi-down cta__btn"></span>
 			</a>
 			<div class="cta__text">Over <b>$700,000</b> in DuckDuckGo privacy donations</div>
+			<a name="donations-list" class="anchor js-anchor"></a>
 		</div>
 	</div>
 </div>
 
-<a name="donations-list" class="anchor js-anchor"></a>
 <div class="blk donations__timeline">
 	<div class="cw--c">
 		<div class="blk__text">
