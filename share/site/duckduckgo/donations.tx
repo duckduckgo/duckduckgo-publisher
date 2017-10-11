@@ -7,7 +7,7 @@
 		</div>
 	</div>
 	<img class="donations__hero__img" src="/assets/donations/background.svg">
-	<img class="donations__hero__img--cropped" src="/assets/donations/background_cropped.svg">
+	<img class="donations__hero__img--cropped donations__hero__img--cropped" src="/assets/donations/background_cropped.svg">
 </div>
 
 <div class="blk donations__cta">
