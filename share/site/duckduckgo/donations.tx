@@ -13,8 +13,8 @@
 <div class="blk donations__cta">
 	<div class="cw--c">
 		<div class="blk__text">
-			<a class="cta__btn__wrap js-anchor-link" href="#donations-list">
-				<span class="ddgsi ddgsi-down cta__btn"></span>
+			<a class="donations__cta__btn__wrap js-anchor-link" href="#donations-list">
+				<img class="donations__cta__btn" src="/assets/donations/angle-down.svg">
 			</a>
 			<div class="cta__text">Over <b>$700,000</b> in DuckDuckGo privacy donations</div>
 			<a name="donations-list" class="anchor js-anchor"></a>
@@ -30,7 +30,7 @@
 					<h3 class="timeline__year"><: $event.year :></h2>
 					<h2 class="timeline__title">
 						<span class="timeline__title__total"><: $event.total :></span
-						><span class="ddgsi ddgsi-arrow-right"></span><div class="timeline__title__for">for</div
+						><img class="timeline__title__arrow-right" src="/assets/donations/arrow-right.svg"><div class="timeline__title__for">for</div
 						><span class="timeline__title__theme"><: $event.theme :></span>
 					</h2>
 					<p class="timeline__snippet"><: $event.snippet :></p>

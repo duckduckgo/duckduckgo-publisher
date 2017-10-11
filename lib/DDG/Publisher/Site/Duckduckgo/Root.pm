@@ -449,7 +449,7 @@ sub pages {{
 		},{
 			year => '2011',
 			total => '$1,909',
-			theme => 'Privacy Open Sorce',
+			theme => 'Privacy Open Source',
 			snippet => 'For our first year of donations, with the understanding that we rely on a lot of great free and open-source projects to keep our wings flapping, we decided to start giving back: ',
 			donations => {
 				col1 => [
