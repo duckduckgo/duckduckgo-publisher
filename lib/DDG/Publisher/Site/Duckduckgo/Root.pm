@@ -334,7 +334,7 @@ sub pages {{
 			year => '2017',
 			total => '$300,000',
 			theme => 'Privacy Education',
-			snippet => 'For our seventh year of free and open source donations, we divided our donations over sixteen organizations:',
+			snippet => 'In our seventh year of privacy donations, we concentrated on efforts to educate people about privacy.',
 			donations => {
 				col1 => [
 					{amount => '$100,000', recipient => 'Freedom of the Press Foundation', url => 'https://freedom.press'},
@@ -361,7 +361,7 @@ sub pages {{
 			year => '2016',
 			total => '$225,000',
 			theme => 'Increasing Trust',
-			snippet => 'For our sixth year of donations we divided $225K equally over the following nine organizations:',
+			snippet => 'Our sixth year of privacy donations were distributed among causes that are increasing the ability to trust the internet.',
 			donations => {
 				col1 => [
 					{amount => '$25,000', recipient => 'SecureDrop', url => 'https://securedrop.org'},
@@ -381,7 +381,7 @@ sub pages {{
 			year => '2015',
 			total => '$125,000',
 			theme => 'Privacy Tools',
-			snippet => 'For our fifth year of donations we divided $125K equally over the following five organizations:',
+			snippet => 'For our fifth year of privacy donations we aimed to help improve privacy tools used by journalists.',
 			donations => {
 				col1 => [
 					{amount => '$25,000', recipient => 'SecureDrop', url => 'https://securedrop.org'},
@@ -397,7 +397,7 @@ sub pages {{
 			year => '2014',
 			total => '$40,000',
 			theme => 'Secure Communications',
-			snippet => 'For our fourth year of donations we divided $40K over the six organizations, with four of the recipients chosen by our community:',
+			snippet => 'In our fourth year of privacy donations, we focused on organizations dedicated to improving secure communications.',
 			donations => {
 				col1 => [
 					{amount => '$10,000', recipient => 'SecureDrop', url => 'https://securedrop.org'},
@@ -414,7 +414,7 @@ sub pages {{
 			year => '2013',
 			total => '$20,000',
 			theme => 'Fix Tracking',
-			snippet => 'For our third year of donations we divided $20K over the seven organizations, with five of the recipients chosen by our community:',
+			snippet => 'Our third year of privacy donations went towards assisting projects developing tools for people to escape pervasive tracking online.',
 			donations => {
 				col1 => [
 					{amount => '$5,000', recipient => 'Open Street Map Foundation', url => 'https://wiki.osmfoundation.org/wiki/Main_Page'},
@@ -430,9 +430,9 @@ sub pages {{
 			}
 		},{
 			year => '2012',
-			total => '$10,000',
+			total => '$10,000+',
 			theme => 'Open Data',
-			snippet => 'For our second year of donations we divided $10K over the six organizations, with four of the recipients chosen by our community:',
+			snippet => 'For our second year of privacy donations we chose projects that were helping people freely access information.',
 			donations => {
 				col1 => [
 					{amount => '$6000', recipient => 'Multiple Perl Events', url => 'https://www.perl.org/'},
@@ -450,7 +450,7 @@ sub pages {{
 			year => '2011',
 			total => '$1,909',
 			theme => 'Privacy Open Source',
-			snippet => 'For our first year of donations, with the understanding that we rely on a lot of great free and open-source projects to keep our wings flapping, we decided to start giving back: ',
+			snippet => 'In our first year of privacy donations, we donated mainly to privacy open source projects that we used to build DuckDuckGo.',
 			donations => {
 				col1 => [
 					{amount => '$482', recipient => 'nginx', url => 'https://www.nginx.com'},
