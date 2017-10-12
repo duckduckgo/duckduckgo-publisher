@@ -2,26 +2,24 @@
 	<div class="blk blk--hero donations__hero">
 		<div class="cw--c">
 			<div class="blk__text">
-				<img class="donations__logo" src="/assets/donations/dax-logo.svg">
+				<img class="donations__hero__logo" src="/assets/donations/dax-logo.svg">
 				<h1 class="hd-hr">Donating for&nbsp;Privacy</h1>
 				<p>At DuckDuckGo, every year since 2011 we've been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
 			</div>
 		</div>
 	</div>
 
-	<div class="donations__hero__img__wrap">
-		<img class="donations__hero__img" src="/assets/donations/background.svg">
-		<img class="donations__hero__img--cropped" src="/assets/donations/background_cropped.svg">
-	</div>
+	<img class="donations__hero__img" src="/assets/donations/background.svg">
+	<img class="donations__hero__img donations__hero__img--cropped" src="/assets/donations/background_cropped.svg">
 
 	<div class="blk donations__cta">
+		<a class="donations__cta__btn__wrap js-anchor-link" href="#donations-list">
+			<img class="donations__cta__btn" src="/assets/donations/angle-down.svg">
+		</a>
 		<div class="cw--c">
-			<div class="blk__text">
-				<a class="cta__btn__wrap js-anchor-link" href="#donations-list">
-					<span class="ddgsi ddgsi-down cta__btn"></span>
-				</a>
-				<div class="cta__text">Over <b>$700,000</b> in DuckDuckGo privacy donations</div>
-			</div>
+				<div class="donations__cta__text">
+					<p>Over <b>$700,000</b> in DuckDuckGo privacy donations</p>
+				</div>
 		</div>
 	</div>
 </div>
