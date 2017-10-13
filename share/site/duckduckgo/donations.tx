@@ -13,9 +13,8 @@
 		<img class="donations__cta__btn" src="/assets/donations/angle-down.svg">
 	</a>
 	<div class="cw--c">
-			<div class="donations__cta__text">
-				<p>Over <b>$700,000</b> in DuckDuckGo privacy donations</p>
-			</div>
+			<p class="donations__cta__text">Over <b>$700,000</b> in DuckDuckGo privacy donations</p>
+			</p>
 	</div>
 </div>
 
