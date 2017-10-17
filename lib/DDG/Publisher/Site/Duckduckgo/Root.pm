@@ -347,14 +347,14 @@ sub pages {{
 					{amount => '$5,000', recipient => 'Access Now', url => 'https://www.accessnow.org'},
 				],
 				col2 => [
-					{amount => '$2,500', recipient => 'The Calyx Institute', url => 'https://freedom.press'},
-					{amount => '$2,500', recipient => 'Center for Democracy & Technology', url => 'https://www.worldprivacyforum.org'},
-					{amount => '$1,000', recipient => 'Restore the Fourth', url => 'https://signal.org'},
-					{amount => '$1,000', recipient => 'Center for Digital Democracy (CDD)', url => 'https://www.privacyrights.org'},
-					{amount => '$1,000', recipient => 'Patent Privacy Rights', url => 'https://www.torproject.org'},
-					{amount => '$1,000', recipient => 'Online Trust Alliance (OTA)', url => 'https://www.eff.org'},
-					{amount => '$1,000', recipient => 'Tech Freedom', url => 'https://www.aclu.org'},
-					{amount => '$1,000', recipient => 'Demand Progress', url => 'https://www.accessnow.org'},
+					{amount => '$2,500', recipient => 'The Calyx Institute', url => 'https://www.calyxinstitute.org/'},
+					{amount => '$2,500', recipient => 'Center for Democracy & Technology', url => 'https://cdt.org/'},
+					{amount => '$1,000', recipient => 'Restore the Fourth', url => 'https://restorethe4th.com/'},
+					{amount => '$1,000', recipient => 'Center for Digital Democracy (CDD)', url => 'https://www.democraticmedia.org/'},
+					{amount => '$1,000', recipient => 'Patent Privacy Rights', url => 'https://patientprivacyrights.org/'},
+					{amount => '$1,000', recipient => 'Online Trust Alliance (OTA)', url => 'https://otalliance.org/'},
+					{amount => '$1,000', recipient => 'Tech Freedom', url => 'http://techfreedom.org/'},
+					{amount => '$1,000', recipient => 'Demand Progress', url => 'https://demandprogress.org/'},
 				]
 			}
 		},{
