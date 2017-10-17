@@ -1,4 +1,4 @@
-<: include "meta/title.tx" { title => l('DuckDuckGo FOSS Donations') } :>
+<: include "meta/title.tx" { title => l('DuckDuckGo Donations') } :>
 
-<meta property="og:description" content="Learn more about how DuckDuckGo's donations to FOSS Projects.">
-<meta name="description" content="Learn more about how DuckDuckGo's donations to FOSS Projects.">
+<meta property="og:description" content="Learn more about DuckDuckGo's donations to FOSS Projects.">
+<meta name="description" content="Learn more about DuckDuckGo's donations to FOSS Projects.">
