@@ -100,7 +100,7 @@ sub pages {{
 		},{
 			date => 'February 25, 2013',
 			title => '2013 Donations',
-			snippet => 'Our 3rd year of open-source donations were under the theme of “fix tracking.” The company portion went to the Open Street Map Foundation and the Electronic Frontier Foundation. The community directed donations to Riseup, F-Droid, NoScript, Cryptocat, and Javascript Blocker. ',
+			snippet => 'Our 3rd year of open-source donations were under the theme of “fix tracking.” The company portion went to the OpenStreetMap Foundation and the Electronic Frontier Foundation. The community directed donations to Riseup, F-Droid, NoScript, Cryptocat, and Javascript Blocker. ',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
@@ -164,7 +164,7 @@ sub pages {{
 		},{
 			date => 'March 20, 2015',
 			title => '2015 Donations',
-			snippet => 'For our fifth year of free and open source donations, we divided $125,000 equally over five projects: SecureDrop, PrivacyBadger, GPGTools, Tails, and Girl Develop It.',
+			snippet => 'For our fifth year of free and open source donations, we divided $125,000 equally over five projects: SecureDrop, Privacy Badger, GPGTools, Tails, and Girl Develop It.',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
@@ -385,7 +385,7 @@ sub pages {{
 			donations => {
 				col1 => [
 					{amount => '$25,000', recipient => 'SecureDrop', url => 'https://securedrop.org'},
-					{amount => '$25,000', recipient => 'PrivacyBadger', url => 'https://www.eff.org/privacybadger'},
+					{amount => '$25,000', recipient => 'Privacy Badger', url => 'https://www.eff.org/privacybadger'},
 					{amount => '$25,000', recipient => 'GPGTools', url => 'https://gpgtools.org'},
 				],
 				col2 => [
@@ -417,7 +417,7 @@ sub pages {{
 			snippet => 'Our third year of privacy donations went towards assisting projects developing tools for people to escape pervasive tracking online.',
 			donations => {
 				col1 => [
-					{amount => '$5,000', recipient => 'Open Street Map Foundation', url => 'https://wiki.osmfoundation.org/wiki/Main_Page'},
+					{amount => '$5,000', recipient => 'OpenStreetMap Foundation', url => 'https://wiki.osmfoundation.org/wiki/Main_Page'},
 					{amount => '$5,000', recipient => 'Electronic Frontier Foundation', url => 'https://www.eff.org'},
 					{amount => '$2,000', recipient => 'Riseup', url => 'https://riseup.net'},
 					{amount => '$2,000', recipient => 'F-Droid', url => 'https://f-droid.org'},
