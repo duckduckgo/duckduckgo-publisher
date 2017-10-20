@@ -373,7 +373,7 @@ sub pages {{
 				col2 => [
 					{amount => '$25,000', recipient => 'Fight for the Future', url => 'https://www.fightforthefuture.org'},
 					{amount => '$25,000', recipient => 'VeraCrypt', url => 'https://veracrypt.codeplex.com'},
-					{amount => '$25,000', recipient => 'LEAP', url => 'http://leapfoundation.com'},
+					{amount => '$25,000', recipient => 'LEAP', url => 'https://leap.se/'},
 					{amount => '$25,000', recipient => 'GPGTools', url => 'https://gpgtools.org'},
 				]
 			}
