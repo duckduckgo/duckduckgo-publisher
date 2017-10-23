@@ -100,7 +100,7 @@ sub pages {{
 		},{
 			date => 'February 25, 2013',
 			title => '2013 Donations',
-			snippet => 'Our 3rd year of open-source donations were under the theme of “fix tracking.” The company portion went to the Open Street Map Foundation and the Electronic Frontier Foundation. The community directed donations to Riseup, F-Droid, NoScript, Cryptocat, and Javascript Blocker. ',
+			snippet => 'Our 3rd year of open-source donations were under the theme of “fix tracking.” The company portion went to the OpenStreetMap Foundation and the Electronic Frontier Foundation. The community directed donations to Riseup, F-Droid, NoScript, Cryptocat, and Javascript Blocker. ',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
@@ -164,7 +164,7 @@ sub pages {{
 		},{
 			date => 'March 20, 2015',
 			title => '2015 Donations',
-			snippet => 'For our fifth year of free and open source donations, we divided $125,000 equally over five projects: SecureDrop, PrivacyBadger, GPGTools, Tails, and Girl Develop It.',
+			snippet => 'For our fifth year of free and open source donations, we divided $125,000 equally over five projects: SecureDrop, Privacy Badger, GPGTools, Tails, and Girl Develop It.',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
@@ -272,16 +272,16 @@ sub pages {{
 		hero_header => 1,
 		hero_header_text => 1,
 		js_page_type => 'Spread',
-         },
-         iframe => sub {
-             copyright_footer => 0,
-             no_content_internal => 1,
-             no_spacer => 1,
-             no_cw => 1,
-             no_search_header => 1,
-             hero_header => 0,
-             hero_header_text => 0,
-             js_page_type => 'Iframe',
+	},
+	iframe => sub {
+		 copyright_footer => 0,
+		 no_content_internal => 1,
+		 no_spacer => 1,
+		 no_cw => 1,
+		 no_search_header => 1,
+		 hero_header => 0,
+		 hero_header_text => 0,
+		 js_page_type => 'Iframe',
 	},
 	tour => sub {
 		no_content_internal => 1,
@@ -314,14 +314,157 @@ sub pages {{
 		no_header => 1,
 		hero_header => 1,
 		no_js => 1,
-    },
-    install => sub {
-        no_header => 1,
-        no_cw => 1,
-        no_spacer => 1,
-        no_content_internal => 1,
-        js_skip_init => 1
-    }
+	},
+	install => sub {
+		no_header => 1,
+		no_cw => 1,
+		no_spacer => 1,
+		no_content_internal => 1,
+		js_skip_init => 1
+	},
+	donations => sub {
+		nav_footer => 1,
+		no_footer_arrow => 1,
+		copyright_footer => 1,
+		no_content_internal => 1,
+		no_spacer => 1,
+		hero_header => 1,
+		hero_header_text => 1,
+		yearly_donations => [{
+			year => '2017',
+			total => '$300,000',
+			theme => 'Privacy Education',
+			snippet => 'In our seventh year of privacy donations, we concentrated on efforts to educate people about privacy.',
+			donations => {
+				col1 => [
+					{amount => '$100,000', recipient => 'Freedom of the Press Foundation', url => 'https://freedom.press'},
+					{amount => '$75,000', recipient => 'World Privacy Forum', url => 'https://www.worldprivacyforum.org'},
+					{amount => '$29,000', recipient => 'Open Whisper Systems', url => 'https://signal.org'},
+					{amount => '$25,000', recipient => 'Privacy Rights Clearinghouse', url => 'https://www.privacyrights.org'},
+					{amount => '$25,000', recipient => 'TOR Project', url => 'https://www.torproject.org'},
+					{amount => '$25,000', recipient => 'The Electronic Frontier Foundation', url => 'https://www.eff.org'},
+					{amount => '$5,000', recipient => 'American Civil Liberties Union (ACLU)', url => 'https://www.aclu.org'},
+					{amount => '$5,000', recipient => 'Access Now', url => 'https://www.accessnow.org'},
+				],
+				col2 => [
+					{amount => '$2,500', recipient => 'The Calyx Institute', url => 'https://www.calyxinstitute.org/'},
+					{amount => '$2,500', recipient => 'Center for Democracy & Technology', url => 'https://cdt.org/'},
+					{amount => '$1,000', recipient => 'Restore the Fourth', url => 'https://restorethe4th.com/'},
+					{amount => '$1,000', recipient => 'Center for Digital Democracy (CDD)', url => 'https://www.democraticmedia.org/'},
+					{amount => '$1,000', recipient => 'Patent Privacy Rights', url => 'https://patientprivacyrights.org/'},
+					{amount => '$1,000', recipient => 'Online Trust Alliance (OTA)', url => 'https://otalliance.org/'},
+					{amount => '$1,000', recipient => 'Tech Freedom', url => 'http://techfreedom.org/'},
+					{amount => '$1,000', recipient => 'Demand Progress', url => 'https://demandprogress.org/'},
+				]
+			}
+		},{
+			year => '2016',
+			total => '$225,000',
+			theme => 'Increasing Trust',
+			snippet => 'Our sixth year of privacy donations were distributed among causes that are increasing the ability to trust the internet.',
+			donations => {
+				col1 => [
+					{amount => '$25,000', recipient => 'SecureDrop', url => 'https://securedrop.org'},
+					{amount => '$25,000', recipient => 'Freenet', url => 'https://freenetproject.org'},
+					{amount => '$25,000', recipient => 'OpenBSD Foundation', url => 'http://www.openbsdfoundation.org'},
+					{amount => '$25,000', recipient => 'CrypTech', url => 'https://cryptech.is'},
+					{amount => '$25,000', recipient => 'TOR Project', url => 'https://www.torproject.org'},
+				],
+				col2 => [
+					{amount => '$25,000', recipient => 'Fight for the Future', url => 'https://www.fightforthefuture.org'},
+					{amount => '$25,000', recipient => 'VeraCrypt', url => 'https://veracrypt.codeplex.com'},
+					{amount => '$25,000', recipient => 'LEAP', url => 'https://leap.se/'},
+					{amount => '$25,000', recipient => 'GPGTools', url => 'https://gpgtools.org'},
+				]
+			}
+		},{
+			year => '2015',
+			total => '$125,000',
+			theme => 'Privacy Tools',
+			snippet => 'For our fifth year of privacy donations we aimed to help improve privacy tools used by journalists.',
+			donations => {
+				col1 => [
+					{amount => '$25,000', recipient => 'SecureDrop', url => 'https://securedrop.org'},
+					{amount => '$25,000', recipient => 'Privacy Badger', url => 'https://www.eff.org/privacybadger'},
+					{amount => '$25,000', recipient => 'GPGTools', url => 'https://gpgtools.org'},
+				],
+				col2 => [
+					{amount => '$25,000', recipient => 'Tails', url => 'https://tails.boum.org'},
+					{amount => '$25,000', recipient => 'Girl Develop It', url => 'https://www.girldevelopit.com'},
+				]
+			}
+		},{
+			year => '2014',
+			total => '$40,000',
+			theme => 'Secure Communications',
+			snippet => 'In our fourth year of privacy donations, we focused on organizations dedicated to improving secure communications.',
+			donations => {
+				col1 => [
+					{amount => '$10,000', recipient => 'SecureDrop', url => 'https://securedrop.org'},
+					{amount => '$10,000', recipient => 'NoiseTor', url => 'http://noisetor.net'},
+					{amount => '$5,000', recipient => 'Lavabit', url => 'https://lavabit.com'},
+				],
+				col2 => [
+					{amount => '$5,000', recipient => 'Riseup', url => 'https://riseup.net'},
+					{amount => '$5,000', recipient => 'Mailpile', url => 'https://www.mailpile.is'},
+					{amount => '$5,000', recipient => 'I2P', url => 'https://geti2p.net/en'},
+				]
+			}
+		},{
+			year => '2013',
+			total => '$20,000',
+			theme => 'Fix Tracking',
+			snippet => 'Our third year of privacy donations went towards assisting projects developing tools for people to escape pervasive tracking online.',
+			donations => {
+				col1 => [
+					{amount => '$5,000', recipient => 'OpenStreetMap Foundation', url => 'https://wiki.osmfoundation.org/wiki/Main_Page'},
+					{amount => '$5,000', recipient => 'Electronic Frontier Foundation', url => 'https://www.eff.org'},
+					{amount => '$2,000', recipient => 'Riseup', url => 'https://riseup.net'},
+					{amount => '$2,000', recipient => 'F-Droid', url => 'https://f-droid.org'},
+				],
+				col2 => [
+					{amount => '$2,000', recipient => 'NoScript', url => 'https://noscript.net'},
+					{amount => '$2,000', recipient => 'Cryptocat', url => 'https://crypto.cat'},
+					{amount => '$2,000', recipient => 'Javascript Blocker', url => 'http://jsblocker.toggleable.com'},
+				]
+			}
+		},{
+			year => '2012',
+			total => '$10,000+',
+			theme => 'Open Data',
+			snippet => 'For our second year of privacy donations we chose projects that were helping people freely access information.',
+			donations => {
+				col1 => [
+					{amount => '$6000', recipient => 'Multiple Perl Events', url => 'https://www.perl.org/'},
+					{amount => '$940', recipient => 'TOR Project', url => 'https://www.torproject.org'},
+					{amount => '$940', recipient => 'Wikimedia foundation', url => 'https://wikimediafoundation.org/wiki/Home'},
+					{amount => '$940', recipient => 'unhosted.org', url => 'https://unhosted.org'},
+				],
+				col2 => [
+					{amount => '$940', recipient => 'Diaspora Project', url => 'https://diasporafoundation.org'},
+					{amount => '$940', recipient => 'Freenet', url => 'https://freenetproject.org'},
+					{amount => '$940', recipient => 'friendica', url => 'https://friendi.ca'},
+				]
+			}
+		},{
+			year => '2011',
+			total => '$1,909',
+			theme => 'Privacy Open Source',
+			snippet => 'In our first year of privacy donations, we donated mainly to privacy open source projects that we used to build DuckDuckGo.',
+			donations => {
+				col1 => [
+					{amount => '$482', recipient => 'nginx', url => 'https://www.nginx.com'},
+					{amount => '$475', recipient => 'FreeBSD', url => 'https://www.freebsd.org'},
+					{amount => '$238', recipient => 'TOR Project', url => 'https://www.torproject.org'},
+				],
+				col2 => [
+					{amount => '$238', recipient => 'Clamwin', url => 'http://www.clamwin.com'},
+					{amount => '$238', recipient => 'Tahoe-LAFS', url => 'https://tahoe-lafs.org/trac/tahoe-lafs'},
+					{amount => '$238', recipient => 'OpenSSH', url => 'https://www.openssh.com'},
+				]
+			}
+		}],
+	}
 }}
 
 sub statics {{

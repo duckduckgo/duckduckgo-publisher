@@ -1,0 +1,50 @@
+<div class="blk blk--hero donations__hero">
+	<div class="cw--c">
+		<img class="donations__hero__logo" src="/assets/donations/dax-logo.svg">
+		<h1 class="hd-hr">Donating for&nbsp;Privacy</h1>
+		<p>At DuckDuckGo, every year since 2011 we've been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
+	</div>
+	<img class="donations__hero__img" src="/assets/donations/background.svg">
+	<img class="donations__hero__img donations__hero__img--cropped" src="/assets/donations/background_cropped.svg">
+</div>
+
+<div class="blk donations__cta">
+	<a class="donations__cta__btn__wrap js-anchor-link" href="#donations-list">
+		<img class="donations__cta__btn" src="/assets/donations/angle-down.svg">
+	</a>
+	<div class="cw--c">
+		<p class="donations__cta__text">Over <b>$700,000</b> in DuckDuckGo privacy donations</p>
+	</div>
+</div>
+
+<a name="donations-list" class="anchor js-anchor"></a>
+<div class="blk donations__timeline">
+	<div class="cw--c">
+		<div class="blk__text">
+			<:- for $yearly_donations -> $event { -:>
+				<div class="timeline__item">
+					<h3 class="timeline__year"><: $event.year :></h2>
+					<h2 class="timeline__title">
+						<span class="timeline__title__total"><: $event.total :></span
+						><img class="timeline__title__arrow-right" src="/assets/donations/arrow-right.svg"><div class="timeline__title__for">for</div
+						><span class="timeline__title__theme"><: $event.theme :></span>
+					</h2>
+					<p class="timeline__snippet"><: $event.snippet :></p>
+
+					<ul class="timeline__donations"
+						><:- for $event.donations.col1 -> $donation { -:><li
+							><span class="donation__amount"><: $donation.amount :></span
+							><span class="donation__recipient"><a href="<: $donation.url :>"><: $donation.recipient :></a></span
+						></li><:- } -:>
+					</ul
+					><ul class="timeline__donations"
+						><:- for $event.donations.col2 -> $donation { -:><li
+							><span class="donation__amount"><: $donation.amount :></span
+							><span class="donation__recipient"><a href="<: $donation.url :>"><: $donation.recipient :></a></span
+						></li><:- } -:>
+					</ul>
+				</div>
+			<:- } -:>
+		</div>
+	</div>
+</div>
