@@ -332,12 +332,12 @@ sub pages {{
 		hero_header_text => 1,
 		yearly_donations => [{
 			year => '2017',
-			total => '$300,000',
+			total => '$400,000',
 			theme => 'Privacy Education',
 			snippet => 'In our seventh year of privacy donations, we concentrated on efforts to educate people about privacy.',
 			donations => {
 				col1 => [
-					{amount => '$100,000', recipient => 'Freedom of the Press Foundation', url => 'https://freedom.press'},
+					{amount => '$200,000', recipient => 'Freedom of the Press Foundation', url => 'https://freedom.press'},
 					{amount => '$75,000', recipient => 'World Privacy Forum', url => 'https://www.worldprivacyforum.org'},
 					{amount => '$29,000', recipient => 'Open Whisper Systems', url => 'https://signal.org'},
 					{amount => '$25,000', recipient => 'Privacy Rights Clearinghouse', url => 'https://www.privacyrights.org'},
