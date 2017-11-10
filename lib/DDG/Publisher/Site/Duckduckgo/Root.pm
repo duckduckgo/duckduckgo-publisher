@@ -351,7 +351,7 @@ sub pages {{
 					{amount => '$2,500', recipient => 'Center for Democracy & Technology', url => 'https://cdt.org/'},
 					{amount => '$1,000', recipient => 'Restore the Fourth', url => 'https://restorethe4th.com/'},
 					{amount => '$1,000', recipient => 'Center for Digital Democracy (CDD)', url => 'https://www.democraticmedia.org/'},
-					{amount => '$1,000', recipient => 'Patent Privacy Rights', url => 'https://patientprivacyrights.org/'},
+					{amount => '$1,000', recipient => 'Patient Privacy Rights', url => 'https://patientprivacyrights.org/'},
 					{amount => '$1,000', recipient => 'Online Trust Alliance (OTA)', url => 'https://otalliance.org/'},
 					{amount => '$1,000', recipient => 'Tech Freedom', url => 'http://techfreedom.org/'},
 					{amount => '$1,000', recipient => 'Demand Progress', url => 'https://demandprogress.org/'},
