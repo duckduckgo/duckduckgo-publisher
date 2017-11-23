@@ -12,7 +12,7 @@
 		<div class="blk__text">
 			<h2 class="hd-lg"><: l("About This Page") :></h2>
 			<hr class="hr"/>
-			<p>This is a largely technical document, outlining common elements, styles, and conventions designed for use on DuckDuckGo &mdash; either on the results page itself via <a href="http://duckduckhack.com">instant answers</a>, or on static pages just like this one.</p>
+			<p>This is a largely technical document, outlining common elements, styles, and conventions designed for use on DuckDuckGo &mdash; either on the results page itself via <a href="https://duckduckhack.com">instant answers</a>, or on static pages just like this one.</p>
 			<h3 class="hd-md"><: l("Table of Contents") :></h3>
 			<ul>
 				<li><a href="#buttons" class="js-anchor-link"><: l("Buttons") :></a></li>

@@ -21,8 +21,8 @@
 				<h4>DuckDuckGo sites:</h4>
 				<ul>
 					<li><a href="https://duckduckgo.com/">Homepage</a></li>
-					<li><a href="http://donttrack.us/">DontTrack.us</a></li>
-					<li><a href="http://dontbubble.us/">DontBubble.us</a></li>
+					<li><a href="https://donttrack.us/">DontTrack.us</a></li>
+					<li><a href="https://dontbubble.us/">DontBubble.us</a></li>
 					<li><a href="https://duck.co/help/">Help</a></li>
 					<li><a href="https://duck.co/">Forum</a></li>
 					<li><a href="http://cafepress.com/duckduckgo">Store</a></li>
@@ -36,10 +36,10 @@
 				<ul>
 					<li><a href="https://twitter.com/duckduckgo">Twitter</a> <a href="https://twitter.com/duckduckgo/team/members">(Team)</a></li>
 					<li><a href="https://facebook.com/duckduckgo">Facebook</a></li>
-					<li><a href="http://www.reddit.com/r/duckduckgo">/r/duckduckgo</a></li>
+					<li><a href="https://www.reddit.com/r/duckduckgo/">/r/duckduckgo</a></li>
 					<li><a href="https://identi.ca/duckduckgo">identi.ca</a></li>
 					<li><a href="https://joindiaspora.com/u/duckduckgo">diaspora</a></li>
-					<li><a href="http://webchat.freenode.net/?channels=duckduckgo">IRC Channel</a></li>
+					<li><a href="https://webchat.freenode.net/?channels=duckduckgo">IRC Channel</a></li>
 					<li><a href="https://github.com/duckduckgo">GitHub</a></li>
 					<li><a href="http://duckpan.org/">DuckPAN</a></li>
 				</ul>
@@ -53,7 +53,7 @@
 			<p class="footer-nav"><a href="/">Home</a> <a href="https://duckduckgo.com/privacy">Privacy</a> <a href="https://duckduckgo.com/feedback">Feedback</a></p>
 		</div>
 		<div class="twothird">
-			<p>Powered by <a href="http://www.perl.org/" target="_perl">Perl</a> Delivered by <a href="http://nginx.org/" target="_nginx">nginx</a> Source at <a href="https://github.com/duckduckgo/community-platform" target="_github">github</a> &copy; <a href="https://duckduckgo.com">DuckDuckGo, Inc.</a></p>			
+			<p>Powered by <a href="https://www.perl.org" target="_perl">Perl</a> Delivered by <a href="https://nginx.org/" target="_nginx">nginx</a> Source at <a href="https://github.com/duckduckgo/community-platform" target="_github">github</a> &copy; <a href="https://duckduckgo.com">DuckDuckGo, Inc.</a></p>
 		</div>
 	</div>
 </div>

@@ -3,7 +3,7 @@
 
 <div class="frame-wrap" id="fig1" name="fig1">
 	<div class="frame"><span class="fig"><: l('Fig. %d',1) :></span>
-		<a href="http://imgur.com/rDkxC1A" target="_imgur"><img src="images/fish.jpg" alt="<: lp('alt','hay there fish') :>" /></a>
+		<a href="https://imgur.com/rDkxC1A" target="_imgur"><img src="images/fish.jpg" alt="<: lp('alt','hay there fish') :>" /></a>
 	</div>
 </div>
 
@@ -11,7 +11,7 @@
 
 <div class="frame-wrap" id="fig2" name="fig2">
 	<div class="frame"><span class="fig"><: l('Fig. %d',2) :></span>
-		<a href="http://owni.eu/2011/05/12/e-spying-state-sponsored-intrusion/" target="_owni"><img src="images/ladycomputer.jpg" alt="<: lp('alt',"ever feel like there's someone watching over your shoulder?") :>" /></a>
+		<a href="https://owni.eu/2011/05/12/e-spying-state-sponsored-intrusion/" target="_owni"><img src="images/ladycomputer.jpg" alt="<: lp('alt',"ever feel like there's someone watching over your shoulder?") :>" /></a>
 	</div>
 </div>
 
@@ -76,7 +76,7 @@
 
 <div class="frame-wrap" id="fig10" name="fig10">
 	<div class="frame"><span class="fig"><: l('Fig. %d',10) :></span>
-		<a href="http://www.bibliopolis.com/books/images/clients/bibliomania/75540.jpg" target="_bibliopolis"><img src="images/thats-not-all.jpg" alt="<: lp('alt',"that's not all, folks!") :>" /></a>
+		<a href="https://www.bibliopolis.com/books/images/clients/bibliomania/75540.jpg" target="_bibliopolis"><img src="images/thats-not-all.jpg" alt="<: lp('alt',"that's not all, folks!") :>" /></a>
 	</div>
 </div>
 
@@ -84,7 +84,7 @@
 
 <div class="frame-wrap" id="fig11" name="fig11">
 	<div class="frame"><span class="fig">', l('Fig. %d',11), '</span>
-		<a href="http://www.google.com/transparencyreport/userdatarequests/" target="_googlerequests"><img src="images/google-requests.png" alt="', lp('alt','number of legal requests made to Google for user history - a chart that just keeps growing'), '" /></a>
+		<a href="https://www.google.com/transparencyreport/userdatarequests/" target="_googlerequests"><img src="images/google-requests.png" alt="', lp('alt','number of legal requests made to Google for user history - a chart that just keeps growing'), '" /></a>
 	</div>
 </div>
 
@@ -96,7 +96,7 @@
 	</div>
 </div>
 
-<h4><: l("Your browser's \"private\" mode %swon't help you.%s",'<a href="http://privatebrowsingmyths.com/" target="_privatebrowsingmyths">','</a>') :></h4>
+<h4><: l("Your browser's \"private\" mode %swon't help you.%s",'<a href="https://privatebrowsingmyths.com/" target="_privatebrowsingmyths">','</a>') :></h4>
 
 <div class="frame-wrap" id="fig13" name="fig13">
 	<div class="frame"><span class="fig"><: l('Fig. %d',13) :></span>

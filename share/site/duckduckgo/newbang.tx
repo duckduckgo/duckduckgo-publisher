@@ -229,7 +229,7 @@ function validate_form (){
 <br>!&nbsp;<input type="text" name="bang_command" size="10">
 
 <div style="padding-top:20px;"></div>
-<: l('Bang url, e.g. %s','http://duckduckgo.com/?q={{{s}}}') :>:
+<: l('Bang url, e.g. %s','https://duckduckgo.com/?q={{{s}}}') :>:
 <br><small>&nbsp; <: l('Mark where the search goes with {{{s}}}') :></small>
 <br><input type="text" name="bang_url" size="40">
 
