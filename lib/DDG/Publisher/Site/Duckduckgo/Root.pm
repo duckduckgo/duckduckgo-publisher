@@ -55,7 +55,7 @@ sub pages {{
 		},{
 			date => 'February 26, 2011',
 			title => '2011 Donations',
-			snippet => 'We rely on a lot of great free and open-source projects to keep our wings flapping. So we decided to start giving back, donating to nginx, FreeBSD, Tor, Clamwin, Tahoe-LAFS and OpenSSH.',
+			snippet => 'We rely on a lot of great free and open-source projects to keep our wings flapping. So we decided to start giving back, donating to nginx, FreeBSD, Tor Project, Clamwin, Tahoe-LAFS and OpenSSH.',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
@@ -341,7 +341,7 @@ sub pages {{
 					{amount => '$75,000', recipient => 'World Privacy Forum', url => 'https://www.worldprivacyforum.org'},
 					{amount => '$29,000', recipient => 'Open Whisper Systems', url => 'https://signal.org'},
 					{amount => '$25,000', recipient => 'Privacy Rights Clearinghouse', url => 'https://www.privacyrights.org'},
-					{amount => '$25,000', recipient => 'TOR Project', url => 'https://www.torproject.org'},
+					{amount => '$25,000', recipient => 'Tor Project', url => 'https://www.torproject.org'},
 					{amount => '$25,000', recipient => 'The Electronic Frontier Foundation', url => 'https://www.eff.org'},
 					{amount => '$5,000', recipient => 'American Civil Liberties Union (ACLU)', url => 'https://www.aclu.org'},
 					{amount => '$5,000', recipient => 'Access Now', url => 'https://www.accessnow.org'},
@@ -368,7 +368,7 @@ sub pages {{
 					{amount => '$25,000', recipient => 'Freenet', url => 'https://freenetproject.org'},
 					{amount => '$25,000', recipient => 'OpenBSD Foundation', url => 'http://www.openbsdfoundation.org'},
 					{amount => '$25,000', recipient => 'CrypTech', url => 'https://cryptech.is'},
-					{amount => '$25,000', recipient => 'TOR Project', url => 'https://www.torproject.org'},
+					{amount => '$25,000', recipient => 'Tor Project', url => 'https://www.torproject.org'},
 				],
 				col2 => [
 					{amount => '$25,000', recipient => 'Fight for the Future', url => 'https://www.fightforthefuture.org'},
@@ -436,7 +436,7 @@ sub pages {{
 			donations => {
 				col1 => [
 					{amount => '$6000', recipient => 'Multiple Perl Events', url => 'https://www.perl.org/'},
-					{amount => '$940', recipient => 'TOR Project', url => 'https://www.torproject.org'},
+					{amount => '$940', recipient => 'Tor Project', url => 'https://www.torproject.org'},
 					{amount => '$940', recipient => 'Wikimedia foundation', url => 'https://wikimediafoundation.org/wiki/Home'},
 					{amount => '$940', recipient => 'unhosted.org', url => 'https://unhosted.org'},
 				],
@@ -455,7 +455,7 @@ sub pages {{
 				col1 => [
 					{amount => '$482', recipient => 'nginx', url => 'https://www.nginx.com'},
 					{amount => '$475', recipient => 'FreeBSD', url => 'https://www.freebsd.org'},
-					{amount => '$238', recipient => 'TOR Project', url => 'https://www.torproject.org'},
+					{amount => '$238', recipient => 'Tor Project', url => 'https://www.torproject.org'},
 				],
 				col2 => [
 					{amount => '$238', recipient => 'Clamwin', url => 'http://www.clamwin.com'},
