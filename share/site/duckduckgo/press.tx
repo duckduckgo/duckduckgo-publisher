@@ -17,32 +17,40 @@
 			<p class="press__content__subtitle">With our roots as the search engine that doesn't track you, we've expanded what we do to protect you no matter where you go on the Internet.</p>
 			<hr class="press__hr">
 			<div class="press-facts__cards gw">
-				<div class="press-facts__card g quarter bg-clr--white">
-					<h3>15</h3>
-					<h4 class="tx-up">Billion</h4>
-					<p class="press-facts__card__text tx-up">private<br />searches<br />served</p>
-					<img src="/assets/press/search.svg" alt="" class="press-facts__card__icon">
+				<div class="g quarter">
+					<div class="press-facts__card bg-clr--white">
+						<h3>15</h3>
+						<h4 class="tx-up">Billion</h4>
+						<p class="press-facts__card__text tx-up">private<br />searches<br />served</p>
+						<img src="/assets/press/search.svg" alt="" class="press-facts__card__icon">
+					</div>
 				</div>
 
-				<div class="press-facts__card g quarter bg-clr--white">
-					<h3>1</h3>
-					<h4 class="tx-up">Download</h4>
-					<p class="press-facts__card__text tx-up">privacy,<br />simplified</p>
-					<img src="/assets/press/people.svg" alt="" class="press-facts__card__icon">
+				<div class="g quarter">
+					<div class="press-facts__card bg-clr--white">
+						<h3>1</h3>
+						<h4 class="tx-up">Download</h4>
+						<p class="press-facts__card__text tx-up">privacy,<br />simplified</p>
+						<img src="/assets/press/people.svg" alt="" class="press-facts__card__icon">
+					</div>
 				</div>
 
-				<div class="press-facts__card g quarter bg-clr--white">
-					<h3>2008</h3>
-					<h4 class="tx-up">Founded</h4>
-					<p class="press-facts__card__text tx-up">ten years &<br />counting</p>
-					<img src="/assets/press/egg.svg" alt="" class="press-facts__card__icon">
+				<div class="g quarter">
+					<div class="press-facts__card bg-clr--white">
+						<h3>2008</h3>
+						<h4 class="tx-up">Founded</h4>
+						<p class="press-facts__card__text tx-up">ten years &<br />counting</p>
+						<img src="/assets/press/egg.svg" alt="" class="press-facts__card__icon">
+					</div>
 				</div>
 
-				<div class="press-facts__card g quarter bg-clr--white">
-					<h3>$800</h3>
-					<h4 class="tx-up">Thousand</h4>
-					<p class="press-facts__card__text tx-up">yearly<br />privacy<br />donations</p>
-					<img src="/assets/press/money.svg" alt="" class="press-facts__card__icon">
+				<div class="g quarter">
+					<div class="press-facts__card bg-clr--white">
+						<h3>$800</h3>
+						<h4 class="tx-up">Thousand</h4>
+						<p class="press-facts__card__text tx-up">yearly<br />privacy<br />donations</p>
+						<img src="/assets/press/money.svg" alt="" class="press-facts__card__icon">
+					</div>
 				</div>
 			</div>
 		</div>
