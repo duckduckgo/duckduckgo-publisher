@@ -1,0 +1,115 @@
+<!-- Hero -->
+<div class="press__hero blk blk--hero bg-clr--blue">
+	<div class="cw--c">
+		<h1 class="press__hero__title hd-hr tx-clr--white">DuckDuckGo Press Kit</h1>
+		<p class="press__hero__text tx-clr--white">DuckDuckGo is an Internet privacy company that enables you to seamlessly take control of your personal information online, without any tradeoffs.</p>
+	</div>
+	<!-- <img class="press__hero__img" src="/assets/press/background.svg"> -->
+	<!-- <img class="press__hero__img press__hero__img--cropped" src="/assets/press/background_cropped.svg"> -->
+</div>
+
+
+<!-- Fast Facts -->
+<div class="blk blk--alt blk--content press-facts">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="press__content__title">Fast Facts</h2>
+			<p class="press__content__subtitle">With our roots as the search engine that doesn't track you, we've expanded what we do to protect you no matter where you go on the Internet.</p>
+			<hr class="press__hr">
+			<div class="press-facts__cards gw">
+				<div class="press-facts__card g quarter">
+					<h3>15</h3>
+					<h4 class="tx-up">Billion</h4>
+					<p class="tx-up">private<br />searches<br />served</p>
+					<img src="/assets/press/search.svg" alt="" class="press-facts__card__icon">
+				</div>
+
+				<div class="press-facts__card g quarter">
+					<h3>1</h3>
+					<h4 class="tx-up">Download</h4>
+					<p class="tx-up">privacy,<br />simplified</p>
+					<img src="/assets/press/people.svg" alt="" class="press-facts__card__icon">
+				</div>
+
+				<div class="press-facts__card g quarter">
+					<h3>2008</h3>
+					<h4 class="tx-up">Founded</h4>
+					<p class="tx-up">ten years &<br />counting</p>
+					<img src="/assets/press/egg.svg" alt="" class="press-facts__card__icon">
+				</div>
+
+				<div class="press-facts__card g quarter">
+					<h3>$800</h3>
+					<h4 class="tx-up">Thousand</h4>
+					<p class="tx-up">yearly<br />privacy<br />donations</p>
+					<img src="/assets/press/money.svg" alt="" class="press-facts__card__icon">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Press Kit Assets -->
+<div class="blk blk--alt blk--content press-assets">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="press__content__title">Fast Kit Assets</h2>
+			<p class="press__content__subtitle">Download brand materials, images, and other info</p>
+			<hr class="press__hr">
+			<div class="gw">
+				<div class="half">
+					<img class="press-assets__icon">
+					<h2 class="press-assets__heading hd-md">Brand Material</h2>
+					<p class="press-assets__text">Logo pack, color pallets, and brand-related assets</p>
+					<a href="#" class="press-assets__text btn btn--primary tx-up">Download</a>
+				</div>
+
+				<div class="half">
+					<img class="press-assets__icon">
+					<h2 class="press-assets__heading hd-md">Photos and Text</h2>
+					<p class="press-assets__text">Employee photos and info about the company founder, Gabriel Weinberg</p>
+					<a href="#" class="press-assets__text btn btn--primary tx-up">Download</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Our Mission -->
+<div class="blk blk--alt blk--content press-mission">
+	<div class="cw--c">
+		<div class="blk__text">
+			<h2 class="press__content__title">Our Mission</h2>
+			<p class="press__content__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
+			<hr class="press__hr">
+
+			<!-- Blog Cards -->
+			<div class="press-blog js-press-blog blk__text"></div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Latest Tweets -->
+<div class="blk blk--content press-twitter">
+	<div class="cw--c">
+		<div class="blk__text">
+		</div>
+	</div>
+</div>
+
+
+<!-- Contact Info -->
+<div class="blk blk--alt blk--content press-contact">
+	<div class="cw--c">
+		<div class="blk__text">
+			<img class="press-contact__icon">
+			<h2>Contact Us</h2>
+			<a href="mailto:press@duckduckgo.com" class="press-contact__btn btn btn--primary tx-up">press@duckduckgo.com</a>
+			<p class="press-contact__text">The internet shouldn't feel so creepy, and getting the privacy people want online should be as simple as closing the blinds.</p>
+		</div>
+		<img class="press-contact__img">
+	</div>
+</div>
