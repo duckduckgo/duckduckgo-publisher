@@ -20,7 +20,7 @@
 				<div class="g quarter">
 					<div class="press__card bg-clr--white">
 						<h3 class="press__card__title">15</h3>
-						<h4 class="tx-up">Billion</h4>
+						<h4 class="tx-up press__card__subtitle">Billion</h4>
 						<p class="press__card__text tx-up">private<br />searches<br />served</p>
 						<img src="/assets/press/search.svg" alt="" class="press__card__icon">
 					</div>
@@ -29,7 +29,7 @@
 				<div class="g quarter">
 					<div class="press__card bg-clr--white">
 						<h3 class="press__card__title">1</h3>
-						<h4 class="tx-up">Download</h4>
+						<h4 class="tx-up press__card__subtitle">Download</h4>
 						<p class="press__card__text tx-up">privacy,<br />simplified</p>
 						<img src="/assets/press/people.svg" alt="" class="press__card__icon">
 					</div>
@@ -38,7 +38,7 @@
 				<div class="g quarter">
 					<div class="press__card bg-clr--white">
 						<h3 class="press__card__title">2008</h3>
-						<h4 class="tx-up">Founded</h4>
+						<h4 class="tx-up press__card__subtitle">Founded</h4>
 						<p class="press__card__text tx-up">ten years &<br />counting</p>
 						<img src="/assets/press/egg.svg" alt="" class="press__card__icon">
 					</div>
@@ -47,7 +47,7 @@
 				<div class="g quarter">
 					<div class="press__card bg-clr--white">
 						<h3 class="press__card__title">$800</h3>
-						<h4 class="tx-up">Thousand</h4>
+						<h4 class="tx-up press__card__subtitle">Thousand</h4>
 						<p class="press__card__text tx-up">yearly<br />privacy<br />donations</p>
 						<img src="/assets/press/money.svg" alt="" class="press__card__icon">
 					</div>
