@@ -113,7 +113,7 @@
 	<div class="cw--c">
 		<div class="blk__text">
 			<img class="press-contact__icon">
-			<h2>Contact Us</h2>
+			<h2 class="press__content__title">Contact Us</h2>
 			<a href="mailto:press@duckduckgo.com" class="press__btn--contact btn btn--primary tx-up">press@duckduckgo.com</a>
 			<p class="press-contact__text">The internet shouldn't feel so creepy, and getting the privacy people want online should be as simple as closing the blinds.</p>
 		</div>
