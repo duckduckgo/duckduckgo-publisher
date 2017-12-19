@@ -77,7 +77,7 @@
 					<img class="press__col__icon">
 					<h2 class="press__col__heading hd-md">Photos and Text</h2>
 					<p class="press__col__text">Employee photos and info about the company founder, Gabriel Weinberg</p>
-					<a href="#" class="press__col__btn btn btn--primary tx-up">Download</a>
+					<a href="#" class="press__btn btn btn--primary tx-up">Download</a>
 				</div>
 			</div>
 		</div>
@@ -103,8 +103,7 @@
 <!-- Latest Tweets -->
 <div class="blk blk--content press-twitter">
 	<div class="cw--c">
-		<div class="blk__text">
-		</div>
+		<div class="blk__text js-press-twitter"></div>
 	</div>
 </div>
 
@@ -115,7 +114,7 @@
 		<div class="blk__text">
 			<img class="press-contact__icon">
 			<h2>Contact Us</h2>
-			<a href="mailto:press@duckduckgo.com" class="press-contact__btn btn btn--primary tx-up">press@duckduckgo.com</a>
+			<a href="mailto:press@duckduckgo.com" class="press__btn--contact btn btn--primary tx-up">press@duckduckgo.com</a>
 			<p class="press-contact__text">The internet shouldn't feel so creepy, and getting the privacy people want online should be as simple as closing the blinds.</p>
 		</div>
 		<img class="press-contact__img">
