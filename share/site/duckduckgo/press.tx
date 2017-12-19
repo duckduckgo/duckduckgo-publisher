@@ -70,14 +70,14 @@
 					<img class="press__col__icon">
 					<h2 class="press__col__heading hd-md">Brand Material</h2>
 					<p class="press__col__text">Logo pack, color pallets, and brand-related assets</p>
-					<a href="#" class="press__col__text btn btn--primary tx-up">Download</a>
+					<a href="#" class="press__col__btn btn btn--primary tx-up">Download</a>
 				</div>
 
 				<div class="press__col">
 					<img class="press__col__icon">
 					<h2 class="press__col__heading hd-md">Photos and Text</h2>
 					<p class="press__col__text">Employee photos and info about the company founder, Gabriel Weinberg</p>
-					<a href="#" class="press__col__text btn btn--primary tx-up">Download</a>
+					<a href="#" class="press__col__btn btn btn--primary tx-up">Download</a>
 				</div>
 			</div>
 		</div>
