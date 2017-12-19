@@ -472,7 +472,8 @@ sub pages {{
 		no_content_internal => 1,
 		no_spacer => 1,
 		hero_header => 1,
-		hero_header_text => 1
+		hero_header_text => 1,
+		js_page_type => 'Press',
 	}
 }}
 
