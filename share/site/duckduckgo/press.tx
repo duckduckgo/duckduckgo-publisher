@@ -10,7 +10,7 @@
 
 
 <!-- Fast Facts -->
-<div class="press__content blk blk--alt blk--content press-facts">
+<div class="press__content blk blk--alt blk--content press__facts">
 	<div class="cw--c">
 		<div class="blk__text">
 			<h2 class="press__content__title">Fast Facts</h2>
@@ -59,7 +59,7 @@
 
 
 <!-- Press Kit Assets -->
-<div class="blk blk--alt blk--content press-assets">
+<div class="blk blk--alt blk--content press__assets">
 	<div class="cw--c">
 		<div class="blk__text">
 			<h2 class="press__content__title">Press Kit Assets</h2>
@@ -86,7 +86,7 @@
 
 
 <!-- Our Mission -->
-<div class="blk blk--alt blk--content press-mission">
+<div class="blk blk--alt blk--content press__mission">
 	<div class="cw--c">
 		<div class="blk__text">
 			<h2 class="press__content__title">Our Mission</h2>
@@ -94,14 +94,14 @@
 			<hr class="press__hr">
 
 			<!-- Blog Cards -->
-			<div class="press-blog js-press-blog blk__text"></div>
+			<div class="press__blog js-press-blog blk__text"></div>
 		</div>
 	</div>
 </div>
 
 
 <!-- Latest Tweets -->
-<div class="blk blk--content press-twitter">
+<div class="blk blk--content press__twitter">
 	<div class="cw--c">
 		<div class="blk__text js-press-twitter"></div>
 	</div>
@@ -109,14 +109,14 @@
 
 
 <!-- Contact Info -->
-<div class="blk blk--alt blk--content press-contact">
+<div class="blk blk--alt blk--content press__contact">
 	<div class="cw--c">
 		<div class="blk__text">
-			<img class="press-contact__icon">
+			<img class="press__contact__icon">
 			<h2 class="press__content__title">Contact Us</h2>
 			<a href="mailto:press@duckduckgo.com" class="press__btn--contact btn btn--primary tx-up">press@duckduckgo.com</a>
-			<p class="press-contact__text">The internet shouldn't feel so creepy, and getting the privacy people want online should be as simple as closing the blinds.</p>
+			<p class="press__contact__text">The internet shouldn't feel so creepy, and getting the privacy people want online should be as simple as closing the blinds.</p>
 		</div>
-		<img class="press-contact__img">
+		<img class="press__contact__img">
 	</div>
 </div>
