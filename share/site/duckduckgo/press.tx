@@ -65,19 +65,19 @@
 			<h2 class="press__content__title">Press Kit Assets</h2>
 			<p class="press__content__subtitle">Download brand materials, images, and other info</p>
 			<hr class="press__hr">
-			<div class="gw">
-				<div class="half">
-					<img class="press-assets__icon">
-					<h2 class="press-assets__heading hd-md">Brand Material</h2>
-					<p class="press-assets__text">Logo pack, color pallets, and brand-related assets</p>
-					<a href="#" class="press-assets__text btn btn--primary tx-up">Download</a>
+			<div class="press__col__wrap">
+				<div class="pres__col">
+					<img class="press__col__icon">
+					<h2 class="press__col__heading hd-md">Brand Material</h2>
+					<p class="press__col__text">Logo pack, color pallets, and brand-related assets</p>
+					<a href="#" class="press__col__text btn btn--primary tx-up">Download</a>
 				</div>
 
-				<div class="half">
-					<img class="press-assets__icon">
-					<h2 class="press-assets__heading hd-md">Photos and Text</h2>
-					<p class="press-assets__text">Employee photos and info about the company founder, Gabriel Weinberg</p>
-					<a href="#" class="press-assets__text btn btn--primary tx-up">Download</a>
+				<div class="press__col">
+					<img class="press__col__icon">
+					<h2 class="press__col__heading hd-md">Photos and Text</h2>
+					<p class="press__col__text">Employee photos and info about the company founder, Gabriel Weinberg</p>
+					<a href="#" class="press__col__text btn btn--primary tx-up">Download</a>
 				</div>
 			</div>
 		</div>
