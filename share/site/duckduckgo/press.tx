@@ -14,33 +14,33 @@
 			<hr class="press__hr">
 			<h3 class="press__content__title--small tx-up">Fast Facts</h3>
 			<div class="flex-row">
-				<div class="fact__card bg-clr--white">
+				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/traffic">
 					<h3 class="fact__card__title">16+</h3>
 					<h4 class="tx-up fact__card__subtitle">Billion</h4>
 					<p class="fact__card__text tx-up">private<br />searches<br />served</p>
 					<img src="/assets/press/search.svg" alt="" class="fact__card__icon">
-				</div>
+				</a>
 
-				<div class="fact__card bg-clr--white">
+				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about">
 					<h3 class="fact__card__title">45</h3>
 					<h4 class="tx-up fact__card__subtitle">Employees</h4>
 					<p class="fact__card__text tx-up">making it<br />happen</p>
 					<img src="/assets/press/people.svg" alt="" class="fact__card__icon">
-				</div>
+				</a>
 
-				<div class="fact__card bg-clr--white">
+				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about">
 					<h3 class="fact__card__title">2008</h3>
 					<h4 class="tx-up fact__card__subtitle">Founded</h4>
 					<p class="fact__card__text tx-up">ten years &<br />counting</p>
 					<img src="/assets/press/egg.svg" alt="" class="fact__card__icon">
-				</div>
+				</a>
 
-				<div class="fact__card bg-clr--white">
+				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/donations">
 					<h3 class="fact__card__title">$800K</h3>
 					<h4 class="tx-up fact__card__subtitle">donated</h4>
 					<p class="fact__card__text tx-up">yearly<br />privacy<br />donations</p>
 					<img src="/assets/press/money.svg" alt="" class="fact__card__icon">
-				</div>
+				</a>
 			</div>
 		</div>
 	</div>
