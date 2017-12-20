@@ -321,7 +321,16 @@ sub pages {{
 		no_spacer => 1,
 		no_content_internal => 1,
 		js_skip_init => 1
-	},
+        },
+        addons => sub {
+            nav_footer => 1,
+            no_footer_arrow => 1,
+            copyright_footer => 1,
+            no_content_internal => 1,
+            no_spacer => 1,
+            hero_header => 1,
+            hero_header_text => 1,
+        },
 	donations => sub {
 		nav_footer => 1,
 		no_footer_arrow => 1,
