@@ -12,33 +12,33 @@
 		<p class="press__hero__subtext tx-clr--slate-light">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where you go on the Internet.</p>
 		<hr class="press__hr">
 		<h3 class="press__content__title--small tx-up">Fast Facts</h3>
-		<div class="press__cards">
-			<div class="press__card bg-clr--white">
-				<h3 class="press__card__title">16+</h3>
-				<h4 class="tx-up press__card__subtitle">Billion</h4>
-				<p class="press__card__text tx-up">private<br />searches<br />served</p>
-				<img src="/assets/press/search.svg" alt="" class="press__card__icon">
+		<div class="flex-row">
+			<div class="fact__card bg-clr--white">
+				<h3 class="fact__card__title">16+</h3>
+				<h4 class="tx-up fact__card__subtitle">Billion</h4>
+				<p class="fact__card__text tx-up">private<br />searches<br />served</p>
+				<img src="/assets/press/search.svg" alt="" class="fact__card__icon">
 			</div>
 
-			<div class="press__card bg-clr--white">
-				<h3 class="press__card__title">45</h3>
-				<h4 class="tx-up press__card__subtitle">Employees</h4>
-				<p class="press__card__text tx-up">making it<br />happen</p>
-				<img src="/assets/press/people.svg" alt="" class="press__card__icon">
+			<div class="fact__card bg-clr--white">
+				<h3 class="fact__card__title">45</h3>
+				<h4 class="tx-up fact__card__subtitle">Employees</h4>
+				<p class="fact__card__text tx-up">making it<br />happen</p>
+				<img src="/assets/press/people.svg" alt="" class="fact__card__icon">
 			</div>
 
-			<div class="press__card bg-clr--white">
-				<h3 class="press__card__title">2008</h3>
-				<h4 class="tx-up press__card__subtitle">Founded</h4>
-				<p class="press__card__text tx-up">ten years &<br />counting</p>
-				<img src="/assets/press/egg.svg" alt="" class="press__card__icon">
+			<div class="fact__card bg-clr--white">
+				<h3 class="fact__card__title">2008</h3>
+				<h4 class="tx-up fact__card__subtitle">Founded</h4>
+				<p class="fact__card__text tx-up">ten years &<br />counting</p>
+				<img src="/assets/press/egg.svg" alt="" class="fact__card__icon">
 			</div>
 
-			<div class="press__card bg-clr--white">
-				<h3 class="press__card__title">$800K</h3>
-				<h4 class="tx-up press__card__subtitle">donated</h4>
-				<p class="press__card__text tx-up">yearly<br />privacy<br />donations</p>
-				<img src="/assets/press/money.svg" alt="" class="press__card__icon">
+			<div class="fact__card bg-clr--white">
+				<h3 class="fact__card__title">$800K</h3>
+				<h4 class="tx-up fact__card__subtitle">donated</h4>
+				<p class="fact__card__text tx-up">yearly<br />privacy<br />donations</p>
+				<img src="/assets/press/money.svg" alt="" class="fact__card__icon">
 			</div>
 		</div>
 	</div>
@@ -55,7 +55,7 @@
 
 			<!-- Blog Cards -->
 			<h3 class="press__content__title--small tx-up">we have a lot to say</h3>
-			<div class="press__blog js-press-blog blk__text"></div>
+			<div class="flex-row press__blog js-press-blog"></div>
 		</div>
 	</div>
 </div>
@@ -76,25 +76,25 @@
 			<h2 class="press__content__title">Press Materials</h2>
 			<p class="press__content__subtitle">Download brand materials, images, or contact us.</p>
 			<hr class="press__hr">
-			<div class="press__col__wrap">
-				<div class="press__col">
-					<img src="/assets/press/money.svg" alt="" class="press__col__icon">
-					<h2 class="press__col__heading hd-md">Brand & Logo</h2>
-					<p class="press__col__text">Downlad the latest logos, color palletes, and brand-related assets.</p>
+			<div class="flex-row">
+				<div class="material__card">
+					<img src="/assets/press/money.svg" alt="" class="material__card__icon">
+					<h2 class="material__card__title hd-md">Brand & Logo</h2>
+					<p class="material__card__text">Downlad the latest logos, color palletes, and brand-related assets.</p>
 					<a href="#" class="press__btn btn btn--primary tx-up">download</a>
 				</div>
 
-				<div class="press__col">
-					<img src="/assets/press/money.svg" alt="" class="press__col__icon">
-					<h2 class="press__col__heading hd-md">Photos & More</h2>
-					<p class="press__col__text">Check out photos and other information about our global team.</p>
+				<div class="material__card">
+					<img src="/assets/press/money.svg" alt="" class="material__card__icon">
+					<h2 class="material__card__title hd-md">Photos & More</h2>
+					<p class="material__card__text">Check out photos and other information about our global team.</p>
 					<a href="#" class="press__btn btn btn--primary tx-up">download</a>
 				</div>
 
-				<div class="press__col">
-					<img src="/assets/press/money.svg" alt="" class="press__col__icon">
-					<h2 class="press__col__heading hd-md">Contact Us</h2>
-					<p class="press__col__text">Reach out for further inquiries, interview requests, or just say hi.</p>
+				<div class="material__card">
+					<img src="/assets/press/money.svg" alt="" class="material__card__icon">
+					<h2 class="material__card__title hd-md">Contact Us</h2>
+					<p class="material__card__text">Reach out for further inquiries, interview requests, or just say hi.</p>
 					<a href="mailto:press@duckduckgo.com" class="press__btn btn btn--primary tx-up">press@duckduckgo.com</a>
 				</div>
 			</div>
