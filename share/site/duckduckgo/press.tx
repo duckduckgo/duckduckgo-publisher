@@ -1,44 +1,46 @@
 <!-- Hero -->
 <div class="press__hero blk blk--hero">
 	<div class="cw--c">
-		<h1 class="press__hero__title hd-hr tx-clr--slate">DuckDuckGo</h1>
-		<p class="press__hero__text tx-clr--white tx-clr--slate-light">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
+		<div class="blk__text">
+			<h1 class="press__hero__title hd-hr tx-clr--slate">DuckDuckGo</h1>
+			<p class="press__hero__text tx-clr--white tx-clr--slate-light">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
 
-		<!-- <img class="press__hero__img" src="/assets/press/background.svg"> -->
-		<!-- <img class="press__hero__img press__hero__img--cropped" src="/assets/press/background_cropped.svg"> -->
+			<!-- <img class="press__hero__img" src="/assets/press/background.svg"> -->
+			<!-- <img class="press__hero__img press__hero__img--cropped" src="/assets/press/background_cropped.svg"> -->
 
 
-		<!-- Fast Facts -->
-		<p class="press__hero__subtext tx-clr--slate-light">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where you go on the Internet.</p>
-		<hr class="press__hr">
-		<h3 class="press__content__title--small tx-up">Fast Facts</h3>
-		<div class="flex-row">
-			<div class="fact__card bg-clr--white">
-				<h3 class="fact__card__title">16+</h3>
-				<h4 class="tx-up fact__card__subtitle">Billion</h4>
-				<p class="fact__card__text tx-up">private<br />searches<br />served</p>
-				<img src="/assets/press/search.svg" alt="" class="fact__card__icon">
-			</div>
+			<!-- Fast Facts -->
+			<p class="press__hero__subtext tx-clr--slate-light">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where you go on the Internet.</p>
+			<hr class="press__hr">
+			<h3 class="press__content__title--small tx-up">Fast Facts</h3>
+			<div class="flex-row">
+				<div class="fact__card bg-clr--white">
+					<h3 class="fact__card__title">16+</h3>
+					<h4 class="tx-up fact__card__subtitle">Billion</h4>
+					<p class="fact__card__text tx-up">private<br />searches<br />served</p>
+					<img src="/assets/press/search.svg" alt="" class="fact__card__icon">
+				</div>
 
-			<div class="fact__card bg-clr--white">
-				<h3 class="fact__card__title">45</h3>
-				<h4 class="tx-up fact__card__subtitle">Employees</h4>
-				<p class="fact__card__text tx-up">making it<br />happen</p>
-				<img src="/assets/press/people.svg" alt="" class="fact__card__icon">
-			</div>
+				<div class="fact__card bg-clr--white">
+					<h3 class="fact__card__title">45</h3>
+					<h4 class="tx-up fact__card__subtitle">Employees</h4>
+					<p class="fact__card__text tx-up">making it<br />happen</p>
+					<img src="/assets/press/people.svg" alt="" class="fact__card__icon">
+				</div>
 
-			<div class="fact__card bg-clr--white">
-				<h3 class="fact__card__title">2008</h3>
-				<h4 class="tx-up fact__card__subtitle">Founded</h4>
-				<p class="fact__card__text tx-up">ten years &<br />counting</p>
-				<img src="/assets/press/egg.svg" alt="" class="fact__card__icon">
-			</div>
+				<div class="fact__card bg-clr--white">
+					<h3 class="fact__card__title">2008</h3>
+					<h4 class="tx-up fact__card__subtitle">Founded</h4>
+					<p class="fact__card__text tx-up">ten years &<br />counting</p>
+					<img src="/assets/press/egg.svg" alt="" class="fact__card__icon">
+				</div>
 
-			<div class="fact__card bg-clr--white">
-				<h3 class="fact__card__title">$800K</h3>
-				<h4 class="tx-up fact__card__subtitle">donated</h4>
-				<p class="fact__card__text tx-up">yearly<br />privacy<br />donations</p>
-				<img src="/assets/press/money.svg" alt="" class="fact__card__icon">
+				<div class="fact__card bg-clr--white">
+					<h3 class="fact__card__title">$800K</h3>
+					<h4 class="tx-up fact__card__subtitle">donated</h4>
+					<p class="fact__card__text tx-up">yearly<br />privacy<br />donations</p>
+					<img src="/assets/press/money.svg" alt="" class="fact__card__icon">
+				</div>
 			</div>
 		</div>
 	</div>
