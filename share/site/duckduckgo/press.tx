@@ -111,6 +111,6 @@
 		<div class="blk__text">
 			<p class="press__message__text tx-clr--slate">The internet shouldn't feel so creepy, and getting the privacy people want online should be as simple as closing the blinds.</p>
 		</div>
-		<img class="press__contact__img">
+		<img class="press__message__image" src="/assets/press/celebrate.svg">
 	</div>
 </div>
