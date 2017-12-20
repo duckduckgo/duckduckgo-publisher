@@ -18,28 +18,28 @@
 					<h3 class="fact__card__title">16+</h3>
 					<h4 class="tx-up fact__card__subtitle">Billion</h4>
 					<p class="fact__card__text tx-up">private<br />searches<br />served</p>
-					<img src="/assets/press/search.svg" alt="" class="fact__card__icon">
+					<img src="/assets/press/searches.svg" alt="" class="fact__card__icon">
 				</a>
 
 				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about">
 					<h3 class="fact__card__title">45</h3>
 					<h4 class="tx-up fact__card__subtitle">Employees</h4>
 					<p class="fact__card__text tx-up">making it<br />happen</p>
-					<img src="/assets/press/people.svg" alt="" class="fact__card__icon">
+					<img src="/assets/press/emplyees.svg" alt="" class="fact__card__icon">
 				</a>
 
 				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about">
 					<h3 class="fact__card__title">2008</h3>
 					<h4 class="tx-up fact__card__subtitle">Founded</h4>
 					<p class="fact__card__text tx-up">ten years &<br />counting</p>
-					<img src="/assets/press/egg.svg" alt="" class="fact__card__icon">
+					<img src="/assets/press/founded.svg" alt="" class="fact__card__icon">
 				</a>
 
 				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/donations">
 					<h3 class="fact__card__title">$800K</h3>
 					<h4 class="tx-up fact__card__subtitle">donated</h4>
 					<p class="fact__card__text tx-up">yearly<br />privacy<br />donations</p>
-					<img src="/assets/press/money.svg" alt="" class="fact__card__icon">
+					<img src="/assets/press/donate.svg" alt="" class="fact__card__icon">
 				</a>
 			</div>
 		</div>
@@ -80,21 +80,21 @@
 			<hr class="press__hr">
 			<div class="flex-row">
 				<div class="asset__card">
-					<img src="/assets/press/money.svg" alt="" class="asset__card__icon">
+					<img src="/assets/press/brand.svg" alt="" class="asset__card__icon">
 					<h2 class="asset__card__title hd-md">Brand & Logo</h2>
 					<p class="asset__card__text">Downlad the latest logos, color palletes, and brand-related assets.</p>
 					<a href="#" class="press__btn btn btn--primary tx-up">download</a>
 				</div>
 
 				<div class="asset__card">
-					<img src="/assets/press/money.svg" alt="" class="asset__card__icon">
+					<img src="/assets/press/more.svg" alt="" class="asset__card__icon">
 					<h2 class="asset__card__title hd-md">Photos & More</h2>
 					<p class="asset__card__text">Check out photos and other information about our global team.</p>
 					<a href="#" class="press__btn btn btn--primary tx-up">download</a>
 				</div>
 
 				<div class="asset__card">
-					<img src="/assets/press/money.svg" alt="" class="asset__card__icon">
+					<img src="/assets/press/contact.svg" alt="" class="asset__card__icon">
 					<h2 class="asset__card__title hd-md">Contact Us</h2>
 					<p class="asset__card__text">Reach out for further inquiries, interview requests, or just say hi.</p>
 					<a href="mailto:press@duckduckgo.com" class="press__btn btn btn--primary tx-up">press@duckduckgo.com</a>
