@@ -1,1 +1,45 @@
-<div></div>
+<section class="blk blk--hero addons__hero">
+  <div class="cw--c">
+    <div class="addons__hero-container">
+      <h1 class="addons__title">Privacy, simplified.</h1>
+      <h2 class="addons__subtitle">Seamlessly take control of your personal information no matter where the internet takes you.</h2>
+    </div>
+  </div>
+</section>
+<section class="addons__content">
+  <div class="cw--c">
+    <div class="gw">
+        <div class="g fifty"></div>
+        <div class="g fifty">
+          <img src="/assets/illo-2.svg">
+          <h2 class="addons__section-title">Privacy, at a glance.</h2>
+          <p class="addons__section-text">The Privacy Grade shows you how much a site can be trusted, before and after our Privacy Protection is applied.</p>
+        </div>
+        <div class="g fifty">
+          <img src="/assets/illo-3.svg">
+          <h2 class="addons__section-title">Smarter encryption.</h2>
+          <p class="addons__section-text">We force sites to use encrypted connections when available, protecting your data from prying eyes.</p>
+        </div>
+        <div class="g fifty"></div>
+        <div class="g fifty"></div>
+        <div class="g fifty">
+          <img src="/assets/illo-3.svg">
+          <h2 class="addons__section-title">Block advertising trackers.</h2>
+          <p class="addons__section-text">Our tracker blocker stops advertisers from tracking you on the sites you visit. The internet just got less creepy.</p>
+        </div>
+        <div class="g fifty">
+          <img src="/assets/illo-2.svg">
+          <h2 class="addons__section-title">Privacy, at a glance.</h2>
+          <p class="addons__section-text">The Privacy Grade shows you how much a site can be trusted, before and after our Privacy Protection is applied.</p>
+        </div>
+        <div class="g fifty"></div>
+    </div>
+  </div>
+</section>
+<section class="addons__footer">
+  <div class="cw--c">
+    <img src="/assets/illo-5-purple.svg">
+    <h1 class="addons__title">Privacy, simplified.</h1>
+    <h2 class="addons__subtitle">Seamlessly take control of your personal information on mobile, too.</h2>
+  </div>
+</section>

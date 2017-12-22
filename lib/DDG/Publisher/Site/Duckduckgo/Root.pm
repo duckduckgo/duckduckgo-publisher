@@ -330,6 +330,7 @@ sub pages {{
             no_spacer => 1,
             hero_header => 1,
             hero_header_text => 1,
+            no_search_header => 0,
         },
 	donations => sub {
 		nav_footer => 1,
