@@ -21,34 +21,27 @@ sub pages {{
 		ddg_events => [{
 			date => 'February 29, 2008',
 			title => 'We Hatched',
-			snippet => 'DuckDuckGo began as an idea for a better search experience with more instant answers and less spam. We hatched out of a few servers in a dusty basement.',
+			snippet => 'DuckDuckGo hatched out of a few servers in a dusty basement.',
 			type => 'company',
 			icon => 'idea-b',
 			year => '2008',
 		},{
 			date => 'September 25, 2008',
 			title => 'Launch!',
-			snippet => 'Within the year, DuckDuckGo was announced to the Hacker News and reddit communities. We made it out with only minor troll scars.',
+			snippet => 'Within the year, DuckDuckGo was announced on Hacker News and reddit. We made it out with only minor troll scars.',
 			type => 'news',
 			icon => 'launch',
 		},{
 			date => 'January 22, 2009',
 			title => 'Anonymous',
-			snippet => 'We decided to make a bold move and not collect or share any of your personal information.',
+			snippet => 'We decided to make a bold move and not track search histories. Tracking is creepy.',
 			type => 'news',
 			icon => 'privacy',
 			year => '2009',
 		},{
-			date => 'July 21, 2010',
-			title => 'Duck.co',
-			snippet => 'With the launch of our community site duck.co, you now had a place to flock and really make DuckDuckGo the people’s search engine.',
-			type => 'news',
-			icon => 'community',
-			year => '2010',
-		},{
 			date => 'January 11, 2011',
 			title => 'The Billboard',
-			snippet => 'We told the world “Google tracks you. We don’t” with a billboard in their backyard.',
+			snippet => "We told the world \“Google tracks you. We don’t\” with a billboard in their backyard. Hello, World!",
 			type => 'news',
 			icon => 'billboard',
 			year => '2011',
@@ -62,7 +55,7 @@ sub pages {{
 		},{
 			date => 'November 30, 2011',
 			title => 'Employee #1',
-			snippet => 'For years our founder Gabriel was the only full-timer. Caine Tighe changed all that, coming on board as our first official employee and jedi master.',
+			snippet => 'For years our founder Gabriel was the only full-timer. Caine Tighe changed all that, coming on board as our first official employee and Jedi Master.',
 			type => 'company',
 			icon => 'growth',
 		},{
@@ -92,15 +85,9 @@ sub pages {{
 			subtype => 'foss',
 			icon => 'love',
 		},{
-			date => 'May 1, 2012',
-			title => 'DuckDuckHack',
-			snippet => 'Our vision of getting you the best instant answers from the best sources finally merged with our vibrant community when we introduced DuckDuckHack: our open-source platform where anyone can suggest or create instant answers for our results.',
-			type => 'news',
-			icon => 'community',
-		},{
 			date => 'February 25, 2013',
 			title => '2013 Donations',
-			snippet => 'Our 3rd year of open-source donations were under the theme of “fix tracking.” The company portion went to the OpenStreetMap Foundation and the Electronic Frontier Foundation. The community directed donations to Riseup, F-Droid, NoScript, Cryptocat, and Javascript Blocker. ',
+			snippet => 'Our 3rd year of donations were under the theme of “fix tracking.” The company portion went to the OpenStreetMap Foundation and the Electronic Frontier Foundation. The community directed donations to Riseup, F-Droid, NoScript, Cryptocat, and Javascript Blocker.',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
@@ -114,19 +101,13 @@ sub pages {{
 		},{
 			date => 'June 17, 2013',
 			title => '3,000,000',
-			snippet => 'Just eight days after hitting two million searches per day, we added another million. To put this in perspective, it took 1,445 days to get to one million from the day we launched.',
+			snippet => 'Just 8 days after hitting two million searches per day, we added another million. To put this in perspective, it took 1,445 days to get to one million from the day we launched.',
 			type => 'traffic',
 			icon => 'growth',
 		},{
-			date => 'June 27, 2013',
-			title => 'Search & Stories',
-			snippet => 'DuckDuckGo delivers an app that gives you the most interesting stories of the day packed with a convenient way to search. TIME ranked it in their, “Top 50 iPhone apps of 2013.”',
-			type => 'news',
-			icon => 'stories',
-		},{
 			date => 'February 26, 2014',
 			title => '5,000,000',
-			snippet => 'Five million direct searches in one day. That’s 150 million a month, 1.825 billion a year!',
+			snippet => 'Five million direct searches in one day. That’s 150 million a month!',
 			type => 'traffic',
 			icon => 'growth',
 			year => '2014',
@@ -140,13 +121,13 @@ sub pages {{
 		},{
 			date => 'March 17, 2014',
 			title => 'Employee #10',
-			snippet => 'We have thousands of fewer employees than the big guys, but each one is part of our family and grew out of our community. Brian Stoner joined us just in time!',
+			snippet => 'We have thousands of fewer employees than the big guys, and so everyone is an essential member of our team. Brian Stoner joined us just in time!',
 			type => 'company',
 			icon => 'growth',
 		},{
 			date => 'May 19, 2014',
 			title => 'Reimagined',
-			snippet => 'DuckDuckGo launches a reimagined and redesigned search engine with a refined look and a focus on smarter answers.',
+			snippet => "DuckDuckGo launches a reimagined and redesigned search engine with a refined look and a focus on smarter answers. And, of course, we still don't track you.",
 			type => 'company',
 			icon => 'design',
 		},{
@@ -158,13 +139,13 @@ sub pages {{
 		},{
 			date => 'November 10, 2014',
 			title => 'Firefox',
-			snippet => 'Mozilla adds DuckDuckGo as a built-in option to Firefox and Firefox OS. Do you think we’ll ever get into Chrome?',
+			snippet => 'Mozilla adds DuckDuckGo as a built-in option to Firefox. Do you think we’ll ever get into Chrome?',
 			type => 'company',
 			icon => 'growth',
 		},{
 			date => 'March 20, 2015',
 			title => '2015 Donations',
-			snippet => 'For our fifth year of free and open source donations, we divided $125,000 equally over five projects: SecureDrop, Privacy Badger, GPGTools, Tails, and Girl Develop It.',
+			snippet => 'For our fifth year of donations, we divided $125,000 equally over five projects: SecureDrop, Privacy Badger, GPGTools, Tails, and Girl Develop It.',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
@@ -172,13 +153,13 @@ sub pages {{
 		},{
 			date => 'June 22, 2015',
 			title => '10,000,000',
-			snippet => 'Boom! 10 million searches in a single day (10,210,082 to be exact). To celebrate, we’re giving away 10,000 DuckDuckGo T-shirts!',
+			snippet => 'Boom! 10 million searches in a single day (10,210,082 to be exact). To celebrate, we gave away DuckDuckGo T-shirts!',
 			type => 'traffic',
 			icon => 'growth',
 		},{
 			date => 'May 3, 2016',
 			title => '2016 Donations',
-			snippet => 'For our sixth year of free and open source donations, we divided $225,000 equally over nine projects: SecureDrop, Freenet, OpenBSD Foundation, CrypTech, Tor Project, Fight for the Future, VeraCrypt, LEAP, GPGTools.',
+			snippet => 'For our sixth year of donations, we divided $225,000 equally over nine projects: SecureDrop, Freenet, OpenBSD Foundation, CrypTech, Tor Project, Fight for the Future, VeraCrypt, LEAP, GPGTools.',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
@@ -190,19 +171,19 @@ sub pages {{
 			type => 'traffic',
 			icon => 'growth',
 		},{
-			date => 'February 6, 2017',
-			title => '15,000,000',
-			snippet => '15 million searches in a single day (15,106,357 to be exact). More and more privacy conscious searchers have #ComeToTheDuckSide.',
-			type => 'traffic',
-			icon => 'growth',
-			year => '2017',
-		},{
 			date => 'February 10, 2017',
 			title => '2017 Donations',
-			snippet => 'For our seventh year of free and open source donations, we divided $300,000 over sixteen projects including: Freedom of the Press Foundation, World Privacy Forum, Open Whisper Systems, Privacy Rights Clearinghouse, Tor Project and Electronic Frontier Foundation (EFF).',
+			snippet => 'For our seventh year of donations, we divided $400,000 over sixteen projects including: Freedom of the Press Foundation, World Privacy Forum, Open Whisper Systems, Privacy Rights Clearinghouse, Tor Project and Electronic Frontier Foundation (EFF).',
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
+			year => '2017',
+		},{
+			date => 'November 13, 2017',
+			title => '20,000,000',
+			snippet => 'Over 20 million searches in a single day. More and more privacy conscious searchers have #ComeToTheDuckSide.',
+			type => 'traffic',
+			icon => 'growth',
 		}],
 
 		news_articles => [{
