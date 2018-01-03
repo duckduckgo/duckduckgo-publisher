@@ -89,21 +89,21 @@
 			<div class="flex-row">
 				<div class="asset__card">
 					<img src="/assets/press/brand.svg" alt="" class="asset__card__icon">
-					<h2 class="asset__card__title hd-md">Brand & Logo</h2>
+					<h2 class="asset__card__title">Brand & Logo</h2>
 					<p class="asset__card__text">Downlad the latest logos, color palletes, and brand-related assets.</p>
 					<a href="#" class="press__btn btn btn--primary tx-up">download</a>
 				</div>
 
 				<div class="asset__card">
 					<img src="/assets/press/more.svg" alt="" class="asset__card__icon">
-					<h2 class="asset__card__title hd-md">Photos & More</h2>
+					<h2 class="asset__card__title">Photos & More</h2>
 					<p class="asset__card__text">Check out photos and other information about our global team.</p>
 					<a href="#" class="press__btn btn btn--primary tx-up">download</a>
 				</div>
 
 				<div class="asset__card">
 					<img src="/assets/press/contact.svg" alt="" class="asset__card__icon">
-					<h2 class="asset__card__title hd-md">Contact Us</h2>
+					<h2 class="asset__card__title">Contact Us</h2>
 					<p class="asset__card__text">Reach out for further inquiries, interview requests, or just say hi.</p>
 					<a href="mailto:press@duckduckgo.com" class="press__btn btn btn--primary tx-up">press@duckduckgo.com</a>
 				</div>
