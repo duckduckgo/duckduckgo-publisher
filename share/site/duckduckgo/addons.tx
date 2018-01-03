@@ -9,30 +9,44 @@
 <section class="addons__content">
   <div class="cw--c">
     <div class="gw">
+      <div class="addons__section-container">
         <div class="g fifty"></div>
+        <div class="g fifty">
+          <div class="addons__section-container--left">
+               <img src="/assets/illo-2.svg">
+               <h2 class="addons__section-title">Privacy, at a glance.</h2>
+               <p class="addons__section-text">The Privacy Grade shows you how much a site can be trusted, before and after our Privacy Protection is applied.</p>
+          </div>
+        </div>
+      </div>
+      <div class="addons__section-container">
+        <div class="g fifty">
+          <div class="addons__section-container--right">
+            <img src="/assets/illo-3.svg">
+            <h2 class="addons__section-title">Smarter encryption.</h2>
+            <p class="addons__section-text">We force sites to use encrypted connections when available, protecting your data from prying eyes.</p>
+          </div>
+        </div>
+        <div class="g fifty"></div>
+      </div>
+      <div class="addons__section-container">
+        <div class="g fifty"></div>
+        <div class="g fifty">
+          <div class="addons__section-container--left">
+            <img src="/assets/illo-3.svg">
+            <h2 class="addons__section-title">Block advertising trackers.</h2>
+            <p class="addons__section-text">Our tracker blocker stops advertisers from tracking you on the sites you visit. The internet just got less creepy.</p>
+          </div>
+        </div>
+      </div>
+      <div class="addons__section-container">
         <div class="g fifty">
           <img src="/assets/illo-2.svg">
           <h2 class="addons__section-title">Privacy, at a glance.</h2>
           <p class="addons__section-text">The Privacy Grade shows you how much a site can be trusted, before and after our Privacy Protection is applied.</p>
         </div>
-        <div class="g fifty">
-          <img src="/assets/illo-3.svg">
-          <h2 class="addons__section-title">Smarter encryption.</h2>
-          <p class="addons__section-text">We force sites to use encrypted connections when available, protecting your data from prying eyes.</p>
-        </div>
         <div class="g fifty"></div>
-        <div class="g fifty"></div>
-        <div class="g fifty">
-          <img src="/assets/illo-3.svg">
-          <h2 class="addons__section-title">Block advertising trackers.</h2>
-          <p class="addons__section-text">Our tracker blocker stops advertisers from tracking you on the sites you visit. The internet just got less creepy.</p>
-        </div>
-        <div class="g fifty">
-          <img src="/assets/illo-2.svg">
-          <h2 class="addons__section-title">Privacy, at a glance.</h2>
-          <p class="addons__section-text">The Privacy Grade shows you how much a site can be trusted, before and after our Privacy Protection is applied.</p>
-        </div>
-        <div class="g fifty"></div>
+      </div>
     </div>
   </div>
 </section>
