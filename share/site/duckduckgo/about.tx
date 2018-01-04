@@ -75,8 +75,8 @@ Smarter search without the tracking.
         </div>
 	</div>
 </div>
+<a class="anchor" name="team"></a>
 <div class="map no-js__hide">
-	<a class="anchor" name="team"></a>
 	<h2 class="abt__title map__title">Meet Our Global Team</h2>
 	<div class="js-team-map"></div>
 </div>
