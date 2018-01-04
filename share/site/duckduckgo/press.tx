@@ -3,13 +3,13 @@
 	<div class="cw--c">
 		<div class="blk__text">
 			<h1 class="press__hero__title hd-hr tx-clr--slate">DuckDuckGo</h1>
-			<p class="press__hero__subtext tx-clr--slate-light">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where the Internet takes you.</p>
+			<p class="press__hero__text tx-clr--slate-light">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where the Internet takes you.</p>
 			<!-- <img class="press__hero__img" src="/assets/press/background.svg"> -->
 			<!-- <img class="press__hero__img press__hero__img--cropped" src="/assets/press/background_cropped.svg"> -->
 
 
 			<!-- Fast Facts -->
-			<p class="press__hero__text tx-clr--white tx-clr--slate-light">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
+			<p class="press__hero__subtext tx-clr--white tx-clr--slate-light">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
 			<hr class="press__hr">
 			<h3 class="press__content__title--small tx-up">Fast Facts</h3>
 			<div class="flex-row press__facts">
