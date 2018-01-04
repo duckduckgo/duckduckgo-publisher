@@ -23,7 +23,7 @@
 					</div>
 				</a>
 
-				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about">
+				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about#team">
 					<h3 class="fact__card__title">45</h3>
 					<h4 class="tx-up fact__card__subtitle">Employees</h4>
 					<div class="press__card__footer">
