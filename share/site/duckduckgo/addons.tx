@@ -1,6 +1,7 @@
 <section class="blk blk--hero addons__hero">
   <div class="cw--c">
     <div class="addons__hero-container">
+      <img class="addons__logo" src="/assets/logo_header.v107.min.svg">
       <h1 class="addons__title">Privacy, simplified.</h1>
       <h2 class="addons__subtitle">Seamlessly take control of your personal information no matter where the internet takes you.</h2>
     </div>
@@ -10,8 +11,8 @@
   <div class="cw--c">
     <div class="gw">
       <div class="addons__section-container">
-        <div class="g fifty"></div>
-        <div class="g fifty">
+        <div class="g fifty whole--screen-s"></div>
+        <div class="g fifty whole--screen-s">
           <div class="addons__section-container--left">
                <img src="/assets/illo-2.svg">
                <h2 class="addons__section-title">Privacy, at a glance.</h2>
