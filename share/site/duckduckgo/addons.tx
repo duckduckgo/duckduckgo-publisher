@@ -1,11 +1,14 @@
 <section class="blk blk--hero addons__hero">
   <div class="cw--c">
     <div class="addons__hero-container">
-      <img class="addons__logo" src="/assets/logo_header.v107.min.svg">
+      <a href="/"><img class="addons__logo" src="/assets/logo_header.v107.min.svg"></a>
       <h1 class="addons__title">Privacy, simplified.</h1>
       <h2 class="addons__subtitle">Seamlessly take control of your personal information no matter where the internet takes you.</h2>
     </div>
   </div>
+</section>
+<section class="blk blk--hero addons__subhero">
+
 </section>
 <section class="addons__content">
   <div class="cw--c">
