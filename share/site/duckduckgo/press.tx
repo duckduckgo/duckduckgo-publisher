@@ -2,8 +2,10 @@
 <div class="press__hero blk blk--hero">
 	<div class="cw--c">
 		<div class="blk__text">
-			<h1 class="press__hero__title hd-hr tx-clr--slate">DuckDuckGo</h1>
-			<p class="press__hero__text tx-clr--slate-light">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where the Internet takes you.</p>
+			<img class="press__hero__logo" src="/assets/press/dax-logo.svg">
+			<h1 class="press__hero__title hd-hr tx-clr--slate">Privacy, simplified.</h1>
+			<p class="press__hero__text tx-clr--slate-light">Seemlessly take control of your information
+wherever the Internet takes you.</p>
 			<!-- <img class="press__hero__img" src="/assets/press/background.svg"> -->
 			<!-- <img class="press__hero__img press__hero__img--cropped" src="/assets/press/background_cropped.svg"> -->
 
