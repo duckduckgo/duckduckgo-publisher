@@ -6,13 +6,13 @@
 <!--[if IE 9]>    <html class="ie9 lt-ie10 no-js" lang="<: $f.locale :>"> <![endif]-->
 <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="<: $f.locale :>"><!--<![endif]-->
 
-  <head>
-    <: include "head.tx" :>
-  </head>
-  <body id="pg-<: $f.filebase :>" class="page-<: $f.filebase :><: if $homepage { :> body--home<: } :>">
+<head>
+	<: include "head.tx" :>
+</head>
+<body id="pg-<: $f.filebase :>" class="page-<: $f.filebase :><: if $homepage { :> body--home<: } :>">
 	<: if !$no_js { include "head_js.tx" } :>
 	<div class="site-wrapper <: if $homepage { :> site-wrapper--home<: } else { :> site-wrapper--static<: } :>  js-site-wrapper">
-	<: if !$no_wrapper { :> 
+	<: if !$no_wrapper { :>
 	  <: if !$no_header { include "header.tx" } :>
 	  <div id="content_wrapper" class="content-wrap">
 	  <: if !$no_content_internal { :>
@@ -23,13 +23,13 @@
 		  <: if $homepage { :>
 			<: include "header_homepage.tx" :>
 			<div id="<:# content_wrapper_homepage :>" class="content-wrap--home">
-			  <div id="content_homepage" class="content--home">
+				<div id="content_homepage" class="content--home">
 				<div class="cw--c">
 					<: include "_logo_homepage.tx" :>
 					<div class="search-wrap--home">
 						<: include "search_form_homepage.tx" :>
 					</div>
-				
+
 		  <: } :>
 		<: } :>
 
@@ -42,20 +42,22 @@
 		  </div> <!-- content_wrapper_homepage //-->
 		  <: include "footer_homepage.tx" :>
 		<: } :>
-	    
+
 	<: } else { :>
 		 <: if !$no_spacer { :><div id="bottom_spacing2"></div><:}:>
 		 <: if !$no_content_internal { :>
 			</div> <!-- content_internal //-->
 		 </div> <!-- content //-->
 		 <: } :>
-		<: if $nav_footer { :> 
+		<: if $nav_footer { :>
 			<: include "footer_nav.tx" :>
-		<: } if $copyright_footer { :> 
+		<: } if $copyright_footer { :>
 			<: include "footer_copyright.tx" :>
+		<: } if $about_footer { :>
+			<: include "footer_about.tx" :>
 		<: } :>
 		</div> <!-- content_wrapper //-->
 	<: } :>
-    </div> <!-- site-wrapper -->
-  </body>
+	</div> <!-- site-wrapper -->
+ </body>
 </html>
