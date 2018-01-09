@@ -51,10 +51,10 @@
 		 <: } :>
 		<: if $nav_footer { :>
 			<: include "footer_nav.tx" :>
-		<: } if $copyright_footer { :>
-			<: include "footer_copyright.tx" :>
 		<: } if $about_footer { :>
 			<: include "footer_about.tx" :>
+		<: } if $copyright_footer { :>
+			<: include "footer_copyright.tx" :>
 		<: } :>
 		</div> <!-- content_wrapper //-->
 	<: } :>
