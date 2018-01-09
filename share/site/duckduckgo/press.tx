@@ -1,56 +1,54 @@
 <!-- Hero -->
 <div class="press__hero blk blk--hero">
 	<div class="cw--c">
-		<div class="blk__text">
-			<img class="press__hero__logo" src="/assets/press/dax-logo.svg">
-			<h1 class="press__hero__title hd-hr">Privacy, simplified.</h1>
-			<p class="press__hero__text">Seemlessly take control of your information
+		<img class="press__hero__logo" src="/assets/press/dax-logo.svg">
+		<h1 class="press__hero__title hd-hr">Privacy, simplified.</h1>
+		<p class="press__hero__text">Seemlessly take control of your information
 wherever the Internet takes you.</p>
-			<!-- <img class="press__hero__img" src="/assets/press/background.svg"> -->
-			<!-- <img class="press__hero__img press__hero__img--cropped" src="/assets/press/background_cropped.svg"> -->
+		<!-- <img class="press__hero__img" src="/assets/press/background.svg"> -->
+		<!-- <img class="press__hero__img press__hero__img--cropped" src="/assets/press/background_cropped.svg"> -->
 
 
-			<!-- Fast Facts -->
-			<p class="press__hero__subtext tx-clr--white tx-clr--slate-light">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
-			<hr class="press__hr">
-			<h3 class="press__content__title--small tx-up">Fast Facts</h3>
-			<div class="flex-row press__facts">
-				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/traffic">
-					<h3 class="fact__card__title">16+</h3>
-					<h4 class="tx-up fact__card__subtitle">Billion</h4>
-					<div class="fact__card__footer">
-						<p class="fact__card__text tx-up">private<br>searches<br>served</p>
-						<img src="/assets/press/searches.svg" alt="" class="fact__card__icon">
-					</div>
-				</a>
+		<!-- Fast Facts -->
+		<p class="press__hero__subtext tx-clr--white tx-clr--slate-light">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
+		<hr class="press__hr">
+		<h3 class="press__content__title--small tx-up">Fast Facts</h3>
+		<div class="flex-row press__facts">
+			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/traffic">
+				<h3 class="fact__card__title">16+</h3>
+				<h4 class="tx-up fact__card__subtitle">Billion</h4>
+				<div class="fact__card__footer">
+					<p class="fact__card__text tx-up">private<br>searches<br>served</p>
+					<img src="/assets/press/searches.svg" alt="" class="fact__card__icon">
+				</div>
+			</a>
 
-				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about#team">
-					<h3 class="fact__card__title">45</h3>
-					<h4 class="tx-up fact__card__subtitle">Employees</h4>
-					<div class="fact__card__footer">
-						<p class="fact__card__text tx-up">making it<br>happen</p>
-						<img src="/assets/press/employees.svg" alt="" class="fact__card__icon">
-					</div>
-				</a>
+			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about#team">
+				<h3 class="fact__card__title">45</h3>
+				<h4 class="tx-up fact__card__subtitle">Employees</h4>
+				<div class="fact__card__footer">
+					<p class="fact__card__text tx-up">making it<br>happen</p>
+					<img src="/assets/press/employees.svg" alt="" class="fact__card__icon">
+				</div>
+			</a>
 
-				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about">
-					<h3 class="fact__card__title">2008</h3>
-					<h4 class="tx-up fact__card__subtitle">Founded</h4>
-					<div class="fact__card__footer">
-						<p class="fact__card__text tx-up">ten years &amp;<br>counting</p>
-						<img src="/assets/press/founded.svg" alt="" class="fact__card__icon">
-					</div>
-				</a>
+			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about">
+				<h3 class="fact__card__title">2008</h3>
+				<h4 class="tx-up fact__card__subtitle">Founded</h4>
+				<div class="fact__card__footer">
+					<p class="fact__card__text tx-up">ten years &amp;<br>counting</p>
+					<img src="/assets/press/founded.svg" alt="" class="fact__card__icon">
+				</div>
+			</a>
 
-				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/donations">
-					<h3 class="fact__card__title">$800K</h3>
-					<h4 class="tx-up fact__card__subtitle">donated</h4>
-					<div class="fact__card__footer">
-						<p class="fact__card__text tx-up">yearly<br>privacy<br>donations</p>
-						<img src="/assets/press/donate.svg" alt="" class="fact__card__icon">
-					</div>
-				</a>
-			</div>
+			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/donations">
+				<h3 class="fact__card__title">$800K</h3>
+				<h4 class="tx-up fact__card__subtitle">donated</h4>
+				<div class="fact__card__footer">
+					<p class="fact__card__text tx-up">yearly<br>privacy<br>donations</p>
+					<img src="/assets/press/donate.svg" alt="" class="fact__card__icon">
+				</div>
+			</a>
 		</div>
 	</div>
 </div>
@@ -59,15 +57,13 @@ wherever the Internet takes you.</p>
 <!-- Our Mission -->
 <div class="blk blk--alt blk--content press__mission">
 	<div class="cw--c">
-		<div class="blk__text">
-			<h2 class="press__content__title">Our Mission</h2>
-			<p class="press__content__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
-			<hr class="press__hr">
+		<h2 class="press__content__title">Our Mission</h2>
+		<p class="press__content__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
+		<hr class="press__hr">
 
-			<!-- Blog Cards -->
-			<h3 class="press__content__title--small tx-up">we have a lot to say</h3>
-			<div class="flex-row press__blog js-press-blog"></div>
-		</div>
+		<!-- Blog Cards -->
+		<h3 class="press__content__title--small tx-up">we have a lot to say</h3>
+		<div class="flex-row press__blog js-press-blog"></div>
 	</div>
 </div>
 
@@ -75,7 +71,7 @@ wherever the Internet takes you.</p>
 <!-- Latest Tweets -->
 <div class="blk blk--content press__twitter">
 	<div class="cw--c">
-		<div class="blk__text js-press-twitter"></div>
+		<div class="js-press-twitter"></div>
 	</div>
 </div>
 
@@ -83,31 +79,29 @@ wherever the Internet takes you.</p>
 <!-- Press Kit Assets -->
 <div class="blk blk--alt blk--content press__assets">
 	<div class="cw--c">
-		<div class="blk__text">
-			<h2 class="press__content__title">Press Materials</h2>
-			<p class="press__content__subtitle">Download brand materials, images, or contact us.</p>
-			<hr class="press__hr">
-			<div class="flex-row">
-				<div class="asset__card">
-					<img src="/assets/press/brand.svg" alt="" class="asset__card__icon">
-					<h2 class="asset__card__title">Brand & Logo</h2>
-					<p class="asset__card__text">Downlad the latest logos, color palletes, and brand-related assets.</p>
-					<a href="#" class="press__btn btn btn--primary tx-up">download</a>
-				</div>
+		<h2 class="press__content__title">Press Materials</h2>
+		<p class="press__content__subtitle">Download brand materials, images, or contact us.</p>
+		<hr class="press__hr">
+		<div class="flex-row">
+			<div class="asset__card">
+				<img src="/assets/press/brand.svg" alt="" class="asset__card__icon">
+				<h2 class="asset__card__title">Brand & Logo</h2>
+				<p class="asset__card__text">Downlad the latest logos, color palletes, and brand-related assets.</p>
+				<a href="#" class="press__btn btn btn--primary tx-up">download</a>
+			</div>
 
-				<div class="asset__card">
-					<img src="/assets/press/more.svg" alt="" class="asset__card__icon">
-					<h2 class="asset__card__title">Photos & More</h2>
-					<p class="asset__card__text">Check out photos and other information about our global team.</p>
-					<a href="#" class="press__btn btn btn--primary tx-up">download</a>
-				</div>
+			<div class="asset__card">
+				<img src="/assets/press/more.svg" alt="" class="asset__card__icon">
+				<h2 class="asset__card__title">Photos & More</h2>
+				<p class="asset__card__text">Check out photos and other information about our global team.</p>
+				<a href="#" class="press__btn btn btn--primary tx-up">download</a>
+			</div>
 
-				<div class="asset__card">
-					<img src="/assets/press/contact.svg" alt="" class="asset__card__icon">
-					<h2 class="asset__card__title">Contact Us</h2>
-					<p class="asset__card__text">Reach out for further inquiries, interview requests, or just say hi.</p>
-					<a href="mailto:press@duckduckgo.com" class="press__btn btn btn--primary tx-up">press@duckduckgo.com</a>
-				</div>
+			<div class="asset__card">
+				<img src="/assets/press/contact.svg" alt="" class="asset__card__icon">
+				<h2 class="asset__card__title">Contact Us</h2>
+				<p class="asset__card__text">Reach out for further inquiries, interview requests, or just say hi.</p>
+				<a href="mailto:press@duckduckgo.com" class="press__btn btn btn--primary tx-up">press@duckduckgo.com</a>
 			</div>
 		</div>
 	</div>
@@ -117,9 +111,7 @@ wherever the Internet takes you.</p>
 <!-- Message -->
 <div class="blk blk--content press__message">
 	<div class="cw--c">
-		<div class="blk__text">
-			<p class="press__message__text tx-clr--slate">The Internet shouldn't feel so creepy,<br>and getting the privacy people want online<br>should be as simple as closing the blinds.</p>
-		</div>
+		<p class="press__message__text tx-clr--slate">The Internet shouldn't feel so creepy,<br>and getting the privacy people want online<br>should be as simple as closing the blinds.</p>
 		<img class="press__message__image" src="/assets/press/celebrate.svg">
 	</div>
 </div>
