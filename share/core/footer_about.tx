@@ -1,5 +1,5 @@
 <div class="blk  blk--foot  blk--foot--nav">
-	<div class="cw--c t-left">
+	<div class="cw--c t-left t-center--screen-s">
 		<div class="blk--foot__nav-col  quarter  half--screen-s">
 			<h5 class="blk--foot__nav-head">DuckDuckGo</h5>
 			<ul>
