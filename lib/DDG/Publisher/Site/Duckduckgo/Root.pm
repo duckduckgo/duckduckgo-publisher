@@ -323,9 +323,9 @@ sub pages {{
 		js_skip_init => 1
         },
         addons => sub {
-            nav_footer => 1,
+            nav_footer => 0,
             no_footer_arrow => 1,
-            copyright_footer => 1,
+            copyright_footer => 0,
             no_content_internal => 1,
             no_spacer => 1,
             no_search_header => 1,
