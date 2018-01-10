@@ -14,7 +14,7 @@
 	<div class="cw--c">
 		<div class="flex-row">
 			<div class="abt--message__text tx-clr--slate">
-				<h2 class="abt--content__title">You deserve privacy.</h2>
+				<h2 class="abt__title">You deserve privacy.</h2>
 				<p>Companies are <b>making money</b> off of <b>your private information</b> online without your consent.
 					<br>
 					The internet shouldn’t feel so <b>creepy</b> and getting the privacy you deserve online should be as <b>simple</b> as closing the blinds.</p>
@@ -30,7 +30,7 @@
 
 <div class="abt  abt--assets  blk  blk--alt  blk--content">
 	<div class="cw--c">
-		<h2 class="abt--content__title">It's time to take back your privacy!</h2>
+		<h2 class="abt__title">It's time to take back your privacy!</h2>
 		<div class="flex-row">
 			<div class="asset__card">
 				<img src="/assets/press/brand.svg" aria-hidden="true" class="asset__card__icon">
@@ -72,7 +72,7 @@
 					</noscript>
 					<img class="timeline__logo js-lazysvg no-js__hide" src="" data-src="/assets/about/brand.svg"/>
 					<img src="/assets/press/brand.svg" aria-hidden="true" class="asset__card__icon">
-					<h2 class="abt--content__title">You deserve privacy.</h2>
+					<h2 class="abt__title">You deserve privacy.</h2>
 					<p class="timeline__snippet">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where you go on the Internet. Check out our story.</p>
 				</div>
 			</div><:- for $ddg_events -> $event { -:><div class="timeline__panel  js-timeline-item" data-date="<: $event.date :>">
@@ -100,12 +100,12 @@
 <!-- Our Mission -->
 <div class="abt  abt--mission  blk  blk--alt  blk--content">
 	<div class="cw--c">
-		<h2 class="abt--content__title">Our Mission</h2>
-		<p class="abt--content__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
+		<h2 class="abt__title">Our Mission</h2>
+		<p class="abt__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
 		<hr class="abt--hr">
 
 		<!-- Blog Cards -->
-		<h3 class="abt--content__title--small tx-up">we have a lot to say</h3>
+		<h3 class="abt__title--small tx-up">we have a lot to say</h3>
 		<div class="flex-row abt--blog js-press-blog"></div>
 	</div>
 </div>
@@ -121,6 +121,6 @@
 <!-- Meet our Team -->
 <a class="anchor" name="team"></a>
 <div class="map no-js__hide">
-	<h2 class="abt--content__title">Meet our global team</h2>
+	<h2 class="abt__title">Meet our global team</h2>
 	<div class="js-team-map"></div>
 </div>
