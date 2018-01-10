@@ -28,28 +28,28 @@
 <!-- Take back your privacy...  -->
 <a class="anchor" name="newsletter"></a>
 
-<div class="abt  abt--assets  blk  blk--alt  blk--content">
+<div class="abt  abt--links  blk  blk--alt  blk--content">
 	<div class="cw--c">
 		<h2 class="abt__title">It's time to take back your privacy!</h2>
 		<div class="flex-row">
-			<div class="asset__card">
-				<img src="/assets/press/brand.svg" aria-hidden="true" class="asset__card__icon">
-				<h2 class="asset__card__title">Privacy, simplified.</h2>
-				<p class="asset__card__text">We don’t track you, and we stop others from tracking you, so you can Internet with peace of mind.</p>
+			<div class="links__card">
+				<img src="/assets/press/brand.svg" aria-hidden="true" class="links__card__icon">
+				<h2 class="links__card__title">Privacy, simplified.</h2>
+				<p class="links__card__text">We don’t track you, and we stop others from tracking you, so you can Internet with peace of mind.</p>
 				<a href="#" class="abt--btn btn btn--primary tx-up">get privacy essentials</a>
 			</div>
 
-			<div class="asset__card">
-				<img src="/assets/press/more.svg" aria-hidden="true" class="asset__card__icon">
-				<h2 class="asset__card__title">Search without being tracked.</h2>
-				<p class="asset__card__text">What you search for is your own business. Switch to the search engine that doesn’t track you.</p>
+			<div class="links__card">
+				<img src="/assets/press/more.svg" aria-hidden="true" class="links__card__icon">
+				<h2 class="links__card__title">Search without being tracked.</h2>
+				<p class="links__card__text">What you search for is your own business. Switch to the search engine that doesn’t track you.</p>
 				<a href="#" class="abt--btn btn btn--primary tx-up">search privately</a>
 			</div>
 
-			<div class="asset__card">
-				<img src="/assets/press/contact.svg" aria-hidden="true" class="asset__card__icon">
-				<h2 class="asset__card__title">Get our privacy tips.</h2>
-				<p class="asset__card__text">You deserve privacy online. And now with DuckDuckGo’s help, you can learn how to get it.</p>
+			<div class="links__card">
+				<img src="/assets/press/contact.svg" aria-hidden="true" class="links__card__icon">
+				<h2 class="links__card__title">Get our privacy tips.</h2>
+				<p class="links__card__text">You deserve privacy online. And now with DuckDuckGo’s help, you can learn how to get it.</p>
 				<a href="#" class="abt--btn btn btn--primary tx-up">stay informed</a>
 			</div>
 		</div>
@@ -71,7 +71,7 @@
 						<img class="timeline__logo" src="/assets/about/brand.svg" />
 					</noscript>
 					<img class="timeline__logo js-lazysvg no-js__hide" src="" data-src="/assets/about/brand.svg"/>
-					<img src="/assets/press/brand.svg" aria-hidden="true" class="asset__card__icon">
+					<img src="/assets/press/brand.svg" aria-hidden="true" class="links__card__icon">
 					<h2 class="abt__title">You deserve privacy.</h2>
 					<p class="timeline__snippet">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where you go on the Internet. Check out our story.</p>
 				</div>
