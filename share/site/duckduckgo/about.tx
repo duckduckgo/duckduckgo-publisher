@@ -1,25 +1,25 @@
 <!-- HERO -->
-<div class="blk blk--hero abt__hero">
+<div class="abt  abt--hero  blk  blk--hero">
 	<div class="cw--c">
-		<img class="abt__hero__logo" src="/assets/common/dax-logo.svg">
+		<img class="abt--hero__logo" src="/assets/common/dax-logo.svg">
 		<h1 class="hd-hr">Donating for&nbsp;Privacy</h1>
 		<p>At DuckDuckGo, every year since 2011 we've been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
 	</div>
-	<img class="abt__hero__img" src="/assets/common/hiker.svg">
-	<img class="abt__hero__img abt__hero__img--cropped" src="/assets/common/hiker_cropped.svg">
+	<img class="abt--hero__img" src="/assets/common/hiker.svg">
+	<img class="abt--hero__img abt--hero__img--cropped" src="/assets/common/hiker_cropped.svg">
 </div>
 
 <!-- You deserve privacy... -->
-<div class="blk blk--content abt__message">
+<div class="abt  abt--message  blk  blk--content">
 	<div class="cw--c">
 		<div class="flex-row">
-			<div class="abt__message__text tx-clr--slate">
-				<h2 class="abt__content__title">You deserve privacy.</h2>
+			<div class="abt--message__text tx-clr--slate">
+				<h2 class="abt--content__title">You deserve privacy.</h2>
 				<p>Companies are <b>making money</b> off of <b>your private information</b> online without your consent.
 					<br>
 					The internet shouldn’t feel so <b>creepy</b> and getting the privacy you deserve online should be as <b>simple</b> as closing the blinds.</p>
 			</div>
-			<img class="abt__message__image" src="/assets/about/monster-money.svg" aria-hidden="true">
+			<img class="abt--message__image" src="/assets/about/monster-money.svg" aria-hidden="true">
 		</div>
 	</div>
 </div>
@@ -28,29 +28,29 @@
 <!-- Take back your privacy...  -->
 <a class="anchor" name="newsletter"></a>
 
-<div class="blk blk--alt blk--content abt__assets">
+<div class="abt  abt--assets  blk  blk--alt  blk--content">
 	<div class="cw--c">
-		<h2 class="abt__content__title">It's time to take back your privacy!</h2>
+		<h2 class="abt--content__title">It's time to take back your privacy!</h2>
 		<div class="flex-row">
 			<div class="asset__card">
 				<img src="/assets/press/brand.svg" aria-hidden="true" class="asset__card__icon">
 				<h2 class="asset__card__title">Privacy, simplified.</h2>
 				<p class="asset__card__text">We don’t track you, and we stop others from tracking you, so you can Internet with peace of mind.</p>
-				<a href="#" class="abt__btn btn btn--primary tx-up">get privacy essentials</a>
+				<a href="#" class="abt--btn btn btn--primary tx-up">get privacy essentials</a>
 			</div>
 
 			<div class="asset__card">
 				<img src="/assets/press/more.svg" aria-hidden="true" class="asset__card__icon">
 				<h2 class="asset__card__title">Search without being tracked.</h2>
 				<p class="asset__card__text">What you search for is your own business. Switch to the search engine that doesn’t track you.</p>
-				<a href="#" class="abt__btn btn btn--primary tx-up">search privately</a>
+				<a href="#" class="abt--btn btn btn--primary tx-up">search privately</a>
 			</div>
 
 			<div class="asset__card">
 				<img src="/assets/press/contact.svg" aria-hidden="true" class="asset__card__icon">
 				<h2 class="asset__card__title">Get our privacy tips.</h2>
 				<p class="asset__card__text">You deserve privacy online. And now with DuckDuckGo’s help, you can learn how to get it.</p>
-				<a href="mailto:press@duckduckgo.com" class="abt__btn btn btn--primary tx-up">stay informed</a>
+				<a href="#" class="abt--btn btn btn--primary tx-up">stay informed</a>
 			</div>
 		</div>
 	</div>
@@ -72,7 +72,7 @@
 					</noscript>
 					<img class="timeline__logo js-lazysvg no-js__hide" src="" data-src="/assets/about/brand.svg"/>
 					<img src="/assets/press/brand.svg" aria-hidden="true" class="asset__card__icon">
-					<h2 class="abt__content__title">You deserve privacy.</h2>
+					<h2 class="abt--content__title">You deserve privacy.</h2>
 					<p class="timeline__snippet">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where you go on the Internet. Check out our story.</p>
 				</div>
 			</div><:- for $ddg_events -> $event { -:><div class="timeline__panel  js-timeline-item" data-date="<: $event.date :>">
@@ -98,21 +98,21 @@
 
 
 <!-- Our Mission -->
-<div class="blk blk--alt blk--content abt__mission">
+<div class="abt  abt--mission  blk  blk--alt  blk--content">
 	<div class="cw--c">
-		<h2 class="abt__content__title">Our Mission</h2>
-		<p class="abt__content__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
-		<hr class="abt__hr">
+		<h2 class="abt--content__title">Our Mission</h2>
+		<p class="abt--content__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
+		<hr class="abt--hr">
 
 		<!-- Blog Cards -->
-		<h3 class="abt__content__title--small tx-up">we have a lot to say</h3>
-		<div class="flex-row abt__blog js-press-blog"></div>
+		<h3 class="abt--content__title--small tx-up">we have a lot to say</h3>
+		<div class="flex-row abt--blog js-press-blog"></div>
 	</div>
 </div>
 
 
 <!-- Latest Tweets -->
-<div class="blk blk--content abt__twitter">
+<div class="abt  abt--twitter  blk  blk--content">
 	<div class="cw--c">
 		<div class="js-press-twitter"></div>
 	</div>
@@ -121,6 +121,6 @@
 <!-- Meet our Team -->
 <a class="anchor" name="team"></a>
 <div class="map no-js__hide">
-	<h2 class="abt__content__title">Meet our global team</h2>
+	<h2 class="abt--content__title">Meet our global team</h2>
 	<div class="js-team-map"></div>
 </div>
