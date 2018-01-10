@@ -2,8 +2,8 @@
 <div class="abt  abt--hero  blk  blk--hero">
 	<div class="cw--c">
 		<img class="abt--hero__logo" src="/assets/common/dax-logo.svg">
-		<h1 class="hd-hr">Donating for&nbsp;Privacy</h1>
-		<p>At DuckDuckGo, every year since 2011 we've been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
+		<h1 class="hd-hr">Welcome to DuckDuckGo</h1>
+		<p>We’re setting the new standard of trust online, empowering people to take control of their information.</p>
 	</div>
 	<img class="abt--hero__img" src="/assets/common/hiker.svg">
 	<img class="abt--hero__img abt--hero__img--cropped" src="/assets/common/hiker_cropped.svg">
