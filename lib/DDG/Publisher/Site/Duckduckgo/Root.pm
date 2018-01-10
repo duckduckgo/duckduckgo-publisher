@@ -10,8 +10,9 @@ sub path { '/' }
 
 sub pages {{
 	about => sub {
-		nav_footer => 1,
+		about_footer => 1,
 		copyright_footer => 1,
+		copyright_text => 'Privacy, simplified.',
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
