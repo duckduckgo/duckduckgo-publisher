@@ -124,34 +124,3 @@
 	<h2 class="abt__content__title">Meet our global team</h2>
 	<div class="js-team-map"></div>
 </div>
-<div class="abt  blk  blk--hero">
-	<a name="getinvolved" class="anchor js-anchor"></a>
-	<div class="cw--c">
-		<h2 class="abt__title">Get Involved</h2>
-		<p class="abt__sub">Our community is our extended team.
-<br>Join the community and help improve DuckDuckGo.</p>
-		<div class="abt__row">
-			<div class="abt__key  third  half--screen-m">
-				<a class="abt__key__title-link" href="/spread">
-					<noscript>
-						<img class="abt__key__icon" src="/assets/about/icons/love.png" />
-					</noscript>
-					<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/love">
-					<h3 class="abt__key__title">Share</h3>
-				</a>
-				<p>Everyone could use real privacy, but not everyone knows how to get it. Join the other DuckDuckGo users who are getting their friends and family to make the switch.</p>
-				<a class="abt__key__link" href="/spread">Share DuckDuckGo</a>
-			</div><div class="abt__key  third  half--screen-m">
-				<a class="abt__key__title-link" href="https://duck.co/translate">
-					<noscript>
-						<img class="abt__key__icon" src="/assets/about/icons/community.png" />
-					</noscript>
-					<img class="abt__key__icon  js-lazysvg  no-js__hide" src="" data-src="/assets/about/icons/community">
-					<h3 class="abt__key__title">Translate</h3>
-				</a>
-				<p>Our users are anonymous but we know they come from all corners of the world. Improve your search experience by translating DuckDuckGo into your preferred language.</p>
-				<a class="abt__key__link" href="https://duck.co/translate">Translate DuckDuckGo</a>
-			</div>
-		</div>
-	</div>
-</div>
