@@ -8,36 +8,67 @@
   </div>
 </section>
 <section class="blk blk--hero addons__subhero">
-
+  <div class="gw addons__subhero-container">
+    <div class="g third addons__subhero-desc">
+      <h1 class="addons__subhero-title">Protect your data.</h1>
+      <h2 class="addons__subhero-subtitle">Get to know the tools that help you control your online footprint.</h2>
+    </div>
+    <div class="g third"></div>
+    <div class="g third addons__subhero-blurb">
+      <section>
+        <blockquote class="addons__blurb-quotes">“Such great!”</blockquote>
+        <footer class="addons__blurb-publisher">—Publication</footer>
+      </section>
+      <section style="padding-top: 3em;">
+        <blockquote class="addons__blurb-quotes">“Much privacy!”</blockquote>
+        <footer class="addons__blurb-publisher">—Blog</footer>
+      </section>
+    </Div>
+  </div>
+  <div class="addons__hero-illustrations">
+    <img src="/assets/addons/mockup-hero.svg">
+  </div>
 </section>
 <section class="addons__content">
   <div class="cw--c">
     <div class="gw">
       <div class="addons__section-container">
-        <div class="g fifty whole--screen-s"></div>
+        <div class="g fifty whole--screen-s">
+          <img src="/assets/addons/mockup-a.svg">
+        </div>
         <div class="g fifty whole--screen-s">
           <div class="addons__section-container--left">
-               <img src="/assets/illo-2.svg">
-               <h2 class="addons__section-title">Privacy, at a glance.</h2>
-               <p class="addons__section-text">The Privacy Grade shows you how much a site can be trusted, before and after our Privacy Protection is applied.</p>
+            <div class="addons__section-illustration--glance">
+              <img src="/assets/addons/privacy-glance.svg">
+            </div>
+            <h2 class="addons__section-title">Privacy, at a glance.</h2>
+            <p class="addons__section-text">The Privacy Grade shows you how much a site can be trusted, before and after our Privacy Protection is applied.</p>
           </div>
         </div>
       </div>
       <div class="addons__section-container">
         <div class="g fifty">
           <div class="addons__section-container--right">
-            <img src="/assets/illo-3.svg">
+            <div class="addons__section-illustration--encryption">
+              <img src="/assets/addons/encryption.svg">
+            </div>
             <h2 class="addons__section-title">Smarter encryption.</h2>
             <p class="addons__section-text">We force sites to use encrypted connections when available, protecting your data from prying eyes.</p>
           </div>
         </div>
-        <div class="g fifty"></div>
+        <div class="g fifty">
+          <img src="/assets/addons/mockup-b.svg">
+        </div>
       </div>
       <div class="addons__section-container">
-        <div class="g fifty"></div>
+        <div class="g fifty">
+          <img src="/assets/addons/mockup-c.svg">
+        </div>
         <div class="g fifty">
           <div class="addons__section-container--left">
-            <img src="/assets/illo-3.svg">
+            <div class="addons__section-illustration--cash">
+              <img src="/assets/illo-3.svg">
+            </div>
             <h2 class="addons__section-title">Block advertising trackers.</h2>
             <p class="addons__section-text">Our tracker blocker stops advertisers from tracking you on the sites you visit. The internet just got less creepy.</p>
           </div>
@@ -45,11 +76,15 @@
       </div>
       <div class="addons__section-container">
         <div class="g fifty">
-          <img src="/assets/illo-2.svg">
+          <div class="addons__section-illustration">
+            <img src="/assets/illo-2.svg">
+          </div>
           <h2 class="addons__section-title">Privacy, at a glance.</h2>
           <p class="addons__section-text">The Privacy Grade shows you how much a site can be trusted, before and after our Privacy Protection is applied.</p>
         </div>
-        <div class="g fifty"></div>
+        <div class="g fifty">
+          <img src="/assets/addons/mockup-d.svg">
+        </div>
       </div>
     </div>
   </div>
@@ -57,7 +92,15 @@
 <section class="addons__footer">
   <div class="cw--c">
     <img src="/assets/illo-5-purple.svg">
-    <h1 class="addons__title">Privacy, simplified.</h1>
-    <h2 class="addons__subtitle">Seamlessly take control of your personal information on mobile, too.</h2>
+    <h1 class="addons__footer-title">Stop worrying, start browsing!</h1>
+    <h2 class="addons__footer-subtitle">Seamlessly take control of your personal information on mobile, too.</h2>
+  </div>
+  <div class="addons__install">
+    <a class="btn addons__button apple">
+      <img src="/assets/addons/apple-icon.svg">
+      App Store</a>
+    <a href="/" class="btn addons__button">
+      <img src="/assets/addons/google-play.svg">
+      Google Play</a>
   </div>
 </section>
