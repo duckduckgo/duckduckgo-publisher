@@ -70,8 +70,7 @@
 					<noscript>
 						<img class="timeline__logo" src="/assets/about/brand.svg" />
 					</noscript>
-					<img class="timeline__logo js-lazysvg no-js__hide" src="" data-src="/assets/about/brand.svg"/>
-					<img src="/assets/press/brand.svg" aria-hidden="true" class="links__card__icon">
+					<img class="timeline__logo js-lazysvg no-js__hide" src="" data-src="/assets/about/brand.svg" aria-hidden="true">
 					<h2 class="abt__title">You deserve privacy.</h2>
 					<p class="timeline__snippet">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where you go on the Internet. Check out our story.</p>
 				</div>
