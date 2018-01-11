@@ -62,7 +62,7 @@
 	<div class="cw--c">
 		<div class="timeline-slider  js-timeline-slider">
 			<!-- Prev Arrow -->
-			<div class="slider__arrow  slider--prev  js-timeline-prev"></div>
+			<div class="slider__arrow  slider--prev  js-timeline-prev ddgsi ddgsi-left"></div>
 			<!-- Slider Content -->
 			<div>
 				<div class="slider__window">
@@ -98,7 +98,7 @@
 				</div>
 			</div>
 			<!-- Next Arrow -->
-			<div class="slider__arrow  slider--next  js-timeline-next"></div>
+			<div class="slider__arrow  slider--next  js-timeline-next ddgsi ddgsi-right"></div>
 		</div>
 	</div>
 </div>
