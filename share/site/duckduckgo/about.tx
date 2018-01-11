@@ -58,7 +58,7 @@
 
 
 <!-- Timeline -->
-<div class="abt  abt--timeline  blk  blk--hero">
+<div class="abt  abt--timeline  blk">
 	<div class="timeline-slider  js-timeline-slider">
 		<div class="timeline-box-nav  js-timeline-box-nav">
 			<span class="timeline--nav  nav  nav--hero  nav--prev  js-timeline-prev"></span>
