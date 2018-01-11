@@ -73,13 +73,16 @@
 							</noscript>
 							<img class="timeline__logo js-lazysvg no-js__hide" src="" data-src="/assets/about/brand.svg" aria-hidden="true">
 							<h2 class="abt__title">You deserve privacy.</h2>
-							<p class="timeline__snippet">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where you go on the Internet. Check out our story.</p>
-						</div><:- for $ddg_events -> $event { -:><div class="timeline__panel  js-timeline-item" data-date="<: $event.date :>">
-							<img class="timeline__icon  js-lazysvg" src="" data-src="/assets/about/icons/<: if $event.icon { $event.icon } else { $event.type } :>" />
-							<h2 class="abt__title"><: $event.title :></h2>
-							<p class="abt__snippet"><: $event.snippet :></p>
-							<p class="timeline__date"><: $event.date :></p>
-						</div><:- } -:>
+							<p class="abt__subtitle">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where you go on the Internet. Check out our story.</p>
+						</div>
+						<:- for $ddg_events -> $event { -:>
+							<div class="timeline__panel  js-timeline-item" data-date="<: $event.date :>">
+								<img class="timeline__icon  js-lazysvg" src="" data-src="/assets/about/icons/<: if $event.icon { $event.icon } else { $event.type } :>" />
+								<h2 class="abt__title"><: $event.title :></h2>
+								<p class="abt__subtitle"><: $event.snippet :></p>
+								<p class="timeline__date"><: $event.date :></p>
+							</div>
+						<:- } -:>
 					</div>
 				</div>
 
@@ -87,11 +90,11 @@
 					<div class="timeline-nav__cw  js-timeline-nav">
 						<span class="timeline-nav__it  timeline-nav__it--start  is-active  js-timeline-nav-item  js-timeline-start"></span>
 						<:- for $ddg_events -> $event { -:>
-							<: if $event.year {:>
+							<:- if $event.year { -:>
 								<span class="timeline-nav__it  timeline-nav__it--year">
 									<span class="timeline-nav__it__text"><: $event.year :></span>
 								</span>
-							<: } :>
+							<:- } -:>
 							<span class="timeline-nav__it js-timeline-nav-item"></span>
 						<:- } -:>
 					</div>
@@ -109,7 +112,7 @@
 	<div class="cw--c">
 		<h2 class="abt__title">Our Mission</h2>
 		<p class="abt__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
-		<hr class="abt--hr">
+		<hr class="abt__hr">
 
 		<!-- Blog Cards -->
 		<h3 class="abt__title--small tx-up">we have a lot to say</h3>
