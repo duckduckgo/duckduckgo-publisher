@@ -39,7 +39,7 @@
 				<a href="#" class="abt__btn btn btn--primary tx-up">get privacy essentials</a>
 			</div>
 
-			<div class="links__card">
+			<div class="links__card--wide">
 				<img src="/assets/press/more.svg" aria-hidden="true" class="links__card__icon">
 				<h2 class="links__card__title">Search without being tracked.</h2>
 				<p class="links__card__text">What you search for is your own business. Switch to the search engine that doesn’t track you.</p>
