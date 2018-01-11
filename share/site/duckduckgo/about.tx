@@ -87,7 +87,11 @@
 			<div class="timeline-nav__cw  js-timeline-nav">
 				<span class="timeline-nav__it  timeline-nav__it--start  is-active  js-timeline-nav-item  js-timeline-start"></span>
 				<:- for $ddg_events -> $event { -:>
-					<: if $event.year {:><span class="timeline-nav__it  timeline-nav__it--year"><: $event.year :></span><: } :>
+					<: if $event.year {:>
+						<span class="timeline-nav__it  timeline-nav__it--year">
+							<span class="timeline-nav__it__text"><: $event.year :></span>
+						</span>
+					<: } :>
 					<span class="timeline-nav__it js-timeline-nav-item"></span>
 				<:- } -:>
 			</div>
