@@ -33,21 +33,21 @@
 		<h2 class="abt__title">It's time to take back your privacy!</h2>
 		<div class="flex-row">
 			<div class="links__card">
-				<img src="/assets/press/brand.svg" aria-hidden="true" class="links__card__icon">
+				<img src="/assets/about/brand.svg" aria-hidden="true" class="links__card__icon">
 				<h2 class="links__card__title">Privacy, simplified.</h2>
 				<p class="links__card__text">We don’t track you, and we stop others from tracking you, so you can Internet with peace of mind.</p>
 				<a href="#" class="abt__btn btn btn--primary tx-up">get privacy essentials</a>
 			</div>
 
 			<div class="links__card--wide">
-				<img src="/assets/press/more.svg" aria-hidden="true" class="links__card__icon">
+				<img src="/assets/about/more.svg" aria-hidden="true" class="links__card__icon">
 				<h2 class="links__card__title">Search without being tracked.</h2>
 				<p class="links__card__text">What you search for is your own business. Switch to the search engine that doesn’t track you.</p>
 				<a href="#" class="abt__btn btn btn--primary tx-up">search privately</a>
 			</div>
 
 			<div class="links__card">
-				<img src="/assets/press/contact.svg" aria-hidden="true" class="links__card__icon">
+				<img src="/assets/about/contact.svg" aria-hidden="true" class="links__card__icon">
 				<h2 class="links__card__title">Get our privacy tips.</h2>
 				<p class="links__card__text">You deserve privacy online. And now with DuckDuckGo’s help, you can learn how to get it.</p>
 				<a href="#" class="abt__btn btn btn--primary tx-up">stay informed</a>
