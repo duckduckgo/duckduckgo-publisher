@@ -64,7 +64,7 @@
 			<!-- Prev Arrow -->
 			<div class="slider__arrow  slider--prev  js-timeline-prev"></div>
 			<!-- Slider Content -->
-			<div class="slider__content">
+			<div class="slider__window">
 				<div class="slider__wrap  js-timeline-box">
 					<div class="timeline__panel  is-active  js-timeline-item" data-date="START">
 						<noscript>
