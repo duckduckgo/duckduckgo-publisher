@@ -116,7 +116,7 @@
 
 		<!-- Blog Cards -->
 		<h3 class="abt__title--small tx-up">we have a lot to say</h3>
-		<div class="flex-row abt--blog js-press-blog"></div>
+		<div class="flex-row abt--blog js-abt-blog"></div>
 	</div>
 </div>
 
@@ -124,7 +124,7 @@
 <!-- Latest Tweets -->
 <div class="abt  abt--twitter  blk  blk--content">
 	<div class="cw--c">
-		<div class="js-press-twitter"></div>
+		<div class="js-abt-twitter"></div>
 	</div>
 </div>
 
