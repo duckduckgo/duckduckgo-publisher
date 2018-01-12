@@ -79,7 +79,7 @@
 			<!-- Prev Arrow -->
 			<div class="slider__arrow  slider--prev  js-timeline-prev ddgsi ddgsi-left"></div>
 			<!-- Slider Content -->
-			<div>
+			<div class="whole--screen-s whole--screen-m">
 				<div class="slider__window">
 					<div class="slider__wrap  js-timeline-box">
 						<div class="timeline__panel  is-active  js-timeline-item" data-date="START">
