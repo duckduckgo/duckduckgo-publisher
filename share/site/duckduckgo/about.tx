@@ -1,12 +1,15 @@
 <!-- HERO -->
 <div class="abt  abt--hero  blk  blk--hero">
 	<div class="cw--c">
-		<img class="abt--hero__logo" src="/assets/common/dax-logo.svg">
+		<noscript>
+			<img class="abt--hero__logo" src="/assets/common/dax-logo.svg">
+		</noscript>
+		<img class="abt--hero__logo js-lazysvg" src="" data-src="/assets/common/dax-logo.svg">
 		<h1 class="abt--hero__title">Welcome to DuckDuckGo</h1>
 		<p class="abt--hero__text">We’re setting the new standard of trust online, empowering people to take control of their information.</p>
 	</div>
-	<img class="abt--hero__img" src="/assets/common/hiker.svg">
-	<img class="abt--hero__img abt--hero__img--cropped" src="/assets/common/hiker_cropped.svg">
+	<img src="" aria-hidden="true" class="abt--hero__img js-lazysvg" data-src="/assets/common/hiker.svg">
+	<img src="" aria-hidden="true" class="abt--hero__img abt--hero__img--cropped js-lazysvg" data-src="/assets/common/hiker_cropped.svg">
 </div>
 
 <!-- You deserve privacy... -->
@@ -19,7 +22,10 @@
 					<br><br>
 					The internet shouldn’t feel so <b>creepy</b> and getting the privacy you deserve online should be as <b>simple</b> as closing the blinds.</p>
 			</div>
-			<img class="abt--message__image" src="/assets/about/monster-money.svg" aria-hidden="true">
+			<noscript>
+				<img class="abt--message__image" src="/assets/about/monster-money.svg" aria-hidden="true">
+			</noscript>
+			<img class="abt--message__image js-lazysvg" src="" data-src="/assets/about/monster-money.svg" aria-hidden="true">
 		</div>
 	</div>
 </div>
@@ -33,21 +39,30 @@
 		<h2 class="abt__title">It's time to take back your privacy!</h2>
 		<div class="flex-row">
 			<div class="links__card">
-				<img src="/assets/about/brand.svg" aria-hidden="true" class="links__card__icon">
+				<noscript>
+					<img src="/assets/about/brand.svg" aria-hidden="true" class="links__card__icon">
+				</noscript>
+				<img src="" data-src="/assets/about/brand.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Privacy, simplified.</h2>
 				<p class="links__card__text">We don’t track you, and we stop others from tracking you, so you can Internet with peace of mind.</p>
 				<a href="#" class="abt__btn btn btn--primary tx-up">get privacy essentials</a>
 			</div>
 
 			<div class="links__card links__card--wide">
-				<img src="/assets/about/more.svg" aria-hidden="true" class="links__card__icon">
+				<noscript>
+					<img src="/assets/about/more.svg" aria-hidden="true" class="links__card__icon">
+				</noscript>
+				<img src="" data-src="/assets/about/more.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Search without being tracked.</h2>
 				<p class="links__card__text">What you search for is your own business. Switch to the search engine that doesn’t track you.</p>
 				<a href="#" class="abt__btn btn btn--primary tx-up">search privately</a>
 			</div>
 
 			<div class="links__card">
-				<img src="/assets/about/contact.svg" aria-hidden="true" class="links__card__icon">
+				<noscript>
+					<img src="/assets/about/contact.svg" aria-hidden="true" class="links__card__icon">
+				</noscript>
+				<img src="" data-src="/assets/about/contact.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Get our privacy tips.</h2>
 				<p class="links__card__text">You deserve privacy online. And now with DuckDuckGo’s help, you can learn how to get it.</p>
 				<a href="#" class="abt__btn btn btn--primary tx-up">stay informed</a>
@@ -116,13 +131,13 @@
 
 		<!-- Blog Cards -->
 		<h3 class="abt__title--small tx-up">we have a lot to say</h3>
-		<div class="flex-row abt--blog js-abt-blog"></div>
+		<div class="flex-row abt--blog js-abt-blog no-js__hide"></div>
 	</div>
 </div>
 
 
 <!-- Latest Tweets -->
-<div class="abt  abt--twitter  blk  blk--content">
+<div class="abt  abt--twitter  blk  blk--content  no-js__hide">
 	<div class="cw--c">
 		<div class="js-abt-twitter"></div>
 	</div>
@@ -130,7 +145,9 @@
 
 <!-- Meet our Team -->
 <a class="anchor" name="team"></a>
-<div class="map no-js__hide">
-	<h2 class="abt__title">Meet our global team</h2>
+<div class="abt  abt--map  blk  blk--content  blk--alt  map  no-js__hide">
+	<div class="cw--c">
+		<h2 class="abt__title">Meet our global team</h2>
+	</div>
 	<div class="js-team-map"></div>
 </div>
