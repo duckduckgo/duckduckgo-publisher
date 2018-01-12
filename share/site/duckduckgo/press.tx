@@ -1,16 +1,16 @@
 <!-- Hero -->
-<div class="press__hero blk blk--hero">
+<div class="press press--hero blk blk--hero">
 	<div class="cw--c">
-		<img class="press__hero__logo" src="/assets/press/dax-logo.svg" alt="DuckDuckGo Dax Logo">
-		<h1 class="press__hero__title hd-hr">Privacy, simplified.</h1>
-		<p class="press__hero__text">Seemlessly take control of your information
+		<img class="press--hero__logo" src="/assets/press/dax-logo.svg" alt="DuckDuckGo Dax Logo">
+		<h1 class="press--hero__title hd-hr">Privacy, simplified.</h1>
+		<p class="press--hero__text">Seemlessly take control of your information
 wherever the Internet takes you.</p>
-		<!-- <img class="press__hero__img" src="/assets/press/background.svg"> -->
-		<!-- <img class="press__hero__img press__hero__img--cropped" src="/assets/press/background_cropped.svg"> -->
+		<!-- <img class="press--hero__img" src="/assets/press/background.svg"> -->
+		<!-- <img class="press--hero__img press--hero__img--cropped" src="/assets/press/background_cropped.svg"> -->
 
 
 		<!-- Fast Facts -->
-		<p class="press__hero__subtext tx-clr--white tx-clr--slate-light">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
+		<p class="press--hero__subtext tx-clr--white tx-clr--slate-light">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
 		<hr class="press__hr">
 		<h3 class="press__title--small tx-up">Fast Facts</h3>
 		<div class="flex-row press__facts">
@@ -55,7 +55,7 @@ wherever the Internet takes you.</p>
 
 
 <!-- Our Mission -->
-<div class="blk blk--alt blk--content press__mission">
+<div class="press press--mission blk blk--alt blk--content">
 	<div class="cw--c">
 		<h2 class="press__title">Our Mission</h2>
 		<p class="press__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
@@ -69,7 +69,7 @@ wherever the Internet takes you.</p>
 
 
 <!-- Latest Tweets -->
-<div class="blk blk--content press__twitter">
+<div class="press press--twitter blk blk--content">
 	<div class="cw--c">
 		<div class="js-press-twitter"></div>
 	</div>
@@ -77,7 +77,7 @@ wherever the Internet takes you.</p>
 
 
 <!-- Press Materials -->
-<div class="blk blk--alt blk--content press__assets">
+<div class="press press--assets blk blk--alt blk--content">
 	<div class="cw--c">
 		<h2 class="press__title">Press Materials</h2>
 		<p class="press__subtitle">Download brand materials, images, or contact us.</p>
@@ -109,11 +109,11 @@ wherever the Internet takes you.</p>
 
 
 <!-- Message -->
-<div class="blk blk--content press__message">
+<div class="press press--message blk blk--content">
 	<div class="cw--c">
 		<div class="flex-row">
-			<p class="press__message__text tx-clr--slate">The Internet shouldn't feel so creepy, and getting the privacy people want online should be as simple as closing the blinds.</p>
-			<img class="press__message__image" src="/assets/press/celebrate.svg" aria-hidden="true">
+			<p class="press--message__text tx-clr--slate">The Internet shouldn't feel so creepy, and getting the privacy people want online should be as simple as closing the blinds.</p>
+			<img class="press--message__image" src="/assets/press/celebrate.svg" aria-hidden="true">
 		</div>
 	</div>
 </div>
