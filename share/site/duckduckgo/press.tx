@@ -45,7 +45,7 @@ wherever the Internet takes you.</p>
 				<h3 class="fact__card__title">$800K</h3>
 				<h4 class="tx-up fact__card__subtitle">donated</h4>
 				<div class="fact__card__footer">
-					<p class="fact__card__text tx-up">yearly<br>privacy<br>donations</p>
+					<p class="fact__card__text tx-up">privacy<br>donations</p>
 					<img src="/assets/press/donate.svg" aria-hidden="true" class="fact__card__icon">
 				</div>
 			</a>
