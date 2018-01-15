@@ -207,7 +207,7 @@ sub pages {{
 		},{
 			date => 'November 13, 2017',
 			title => '20,000,000',
-			snippet => 'Over 20 million searches in a single day. Privacy is mainstream and more and more privacy conscious people have <a href="https://twitter.com/search?q=%23ComeToTheDuckSide">#ComeToTheDuckSide.</a>',
+			snippet => 'Over 20 million searches in a single day. Privacy is mainstream and more and more privacy conscious people have #ComeToTheDuckSide.',
 			type => 'traffic',
 			icon => 'growth',
 			year => '2017',
