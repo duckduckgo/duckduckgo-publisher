@@ -14,7 +14,7 @@
 		<!-- Fast Facts -->
 	<div class="press--hero__bottom">
 		<div class="cw--c">
-			<p class="press--hero__subtext tx-clr--white tx-clr--slate-light">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
+			<p class="press--hero__subtext tx-clr--white">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
 			<hr class="press__hr">
 			<h3 class="press__title--small tx-up">Fast Facts</h3>
 			<div class="flex-row press__facts">
