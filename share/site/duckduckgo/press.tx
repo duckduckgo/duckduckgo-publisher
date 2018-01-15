@@ -3,11 +3,8 @@
 	<div class="cw--c">
 		<img class="press--hero__logo" src="/assets/press/dax-logo.svg" alt="DuckDuckGo Dax Logo">
 		<h1 class="press--hero__title hd-hr">Privacy, simplified.</h1>
-		<p class="press--hero__text">Seemlessly take control of your information
-wherever the Internet takes you.</p>
-		<!-- <img class="press--hero__img" src="/assets/press/background.svg"> -->
-		<!-- <img class="press--hero__img press--hero__img--cropped" src="/assets/press/background_cropped.svg"> -->
-
+		<p class="press--hero__text">Seemlessly take control of your information wherever the Internet takes you.</p>
+		<img class="press--hero__img" src="/assets/press/camping.svg">
 
 		<!-- Fast Facts -->
 		<p class="press--hero__subtext tx-clr--white tx-clr--slate-light">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
