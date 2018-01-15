@@ -40,13 +40,6 @@ sub pages {{
 			icon => 'privacy',
 			year => '2009',
 		},{
-			date => 'July 21, 2010',
-			title => 'Duck.co',
-			snippet => 'With the launch of our community site duck.co, you now had a place to flock and really make DuckDuckGo the people’s search engine.',
-			type => 'news',
-			icon => 'community',
-			year => '2010',
-		},{
 			date => 'January 11, 2011',
 			title => 'The Billboard',
 			snippet => 'We told the world “Google tracks you. We don’t” with a billboard in their backyard.',
@@ -93,12 +86,6 @@ sub pages {{
 			subtype => 'foss',
 			icon => 'love',
 		},{
-			date => 'May 1, 2012',
-			title => 'DuckDuckHack',
-			snippet => 'Our vision of getting you the best instant answers from the best sources finally merged with our vibrant community when we introduced DuckDuckHack: our open-source platform where anyone can suggest or create instant answers for our results.',
-			type => 'news',
-			icon => 'community',
-		},{
 			date => 'February 25, 2013',
 			title => '2013 Donations',
 			snippet => 'Our 3rd year of open-source donations were under the theme of “fix tracking.” The company portion went to the OpenStreetMap Foundation and the Electronic Frontier Foundation. The community directed donations to Riseup, F-Droid, NoScript, Cryptocat, and Javascript Blocker. ',
@@ -118,12 +105,6 @@ sub pages {{
 			snippet => 'Just eight days after hitting two million searches per day, we added another million. To put this in perspective, it took 1,445 days to get to one million from the day we launched.',
 			type => 'traffic',
 			icon => 'growth',
-		},{
-			date => 'June 27, 2013',
-			title => 'Search & Stories',
-			snippet => 'DuckDuckGo delivers an app that gives you the most interesting stories of the day packed with a convenient way to search. TIME ranked it in their, “Top 50 iPhone apps of 2013.”',
-			type => 'news',
-			icon => 'stories',
 		},{
 			date => 'February 26, 2014',
 			title => '5,000,000',
@@ -190,13 +171,6 @@ sub pages {{
 			snippet => 'We concluded the year by announcing we surpassed a cumulative count of 10 billion anonymous searches served, with over 4 billion in 2016!',
 			type => 'traffic',
 			icon => 'growth',
-		},{
-			date => 'February 6, 2017',
-			title => '15,000,000',
-			snippet => '15 million searches in a single day (15,106,357 to be exact). More and more privacy conscious searchers have #ComeToTheDuckSide.',
-			type => 'traffic',
-			icon => 'growth',
-			year => '2017',
 		},{
 			date => 'February 10, 2017',
 			title => '2017 Donations',
