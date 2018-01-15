@@ -9,24 +9,15 @@
 </section>
 <section class="blk blk--hero addons__subhero">
   <div class="gw addons__subhero-container">
-    <div class="g third addons__subhero-desc">
-      <h1 class="addons__subhero-title">Protect your data.</h1>
-      <h2 class="addons__subhero-subtitle">Get to know the tools that help you control your online footprint.</h2>
-    </div>
     <div class="g third"></div>
-    <div class="g third addons__subhero-blurb">
-      <section>
-        <blockquote class="addons__blurb-quotes">“Such great!”</blockquote>
-        <footer class="addons__blurb-publisher">—Publication</footer>
-      </section>
-      <section style="padding-top: 3em;">
-        <blockquote class="addons__blurb-quotes">“Much privacy!”</blockquote>
-        <footer class="addons__blurb-publisher">—Blog</footer>
-      </section>
+    <div class="g third"></div>
+    <div class="g third addons__subhero-desc">
+      <h1 class="addons__subhero-title">Privacy is your new default.</h1>
+      <h2 class="addons__subhero-subtitle">Protecting your personal data has never been this easy.</h2>
     </Div>
   </div>
   <div class="addons__hero-illustrations">
-    <img src="/assets/addons/mockup-hero.svg">
+    <img src="/assets/addons/product-screens.svg">
   </div>
 </section>
 <section class="addons__content">
