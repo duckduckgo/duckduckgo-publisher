@@ -35,7 +35,7 @@ sub pages {{
 		},{
 			date => 'January 22, 2009',
 			title => 'Anonymous',
-			snippet => 'We decided to make a bold move and not collect or share any of your personal information.',
+			snippet => 'We decided to make a bold move and not track your search history. Tracking is creepy.',
 			type => 'news',
 			icon => 'privacy',
 			year => '2009',
@@ -63,13 +63,13 @@ sub pages {{
 		},{
 			date => 'November 30, 2011',
 			title => 'Employee #1',
-			snippet => 'For years our founder Gabriel was the only full-timer. Caine Tighe changed all that, coming on board as our first official employee and jedi master.',
+			snippet => 'For years our founder Gabriel was the only full-timer. Caine Tighe changed all that, coming on board as our first official employee.',
 			type => 'company',
 			icon => 'growth',
 		},{
 			date => 'December 1, 2011',
 			title => 'Headquarters',
-			snippet => 'We finally moved out of Gabriel’s basement into our fortress in Paoli, PA, USA. It really does look like a castle!',
+			snippet => 'We finally moved out of Gabriel’s basement into our fortress in Paoli, PA. It really does look like a castle!',
 			type => 'company',
 			icon => 'company-b',
 		},{
@@ -141,13 +141,13 @@ sub pages {{
 		},{
 			date => 'March 17, 2014',
 			title => 'Employee #10',
-			snippet => 'We have thousands of fewer employees than the big guys, but each one is part of our family and grew out of our community. Brian Stoner joined us just in time!',
+			snippet => 'We have thousands of fewer employees than the big guys, and so everyone is an essential member of our team. Welcome Brian Stoner!',
 			type => 'company',
 			icon => 'growth',
 		},{
 			date => 'May 19, 2014',
 			title => 'Reimagined',
-			snippet => 'DuckDuckGo launches a reimagined and redesigned search engine with a refined look and a focus on smarter answers.',
+			snippet => "DuckDuckGo launches a redesigned search engine with a refined look and a focus on smarter answers. And, of course, we still don't track you.",
 			type => 'company',
 			icon => 'design',
 		},{
@@ -159,7 +159,7 @@ sub pages {{
 		},{
 			date => 'November 10, 2014',
 			title => 'Firefox',
-			snippet => 'Mozilla adds DuckDuckGo as a built-in option to Firefox and Firefox OS. Do you think we’ll ever get into Chrome?',
+			snippet => 'Mozilla adds DuckDuckGo as a built-in search option Firefox. Thank you! Do you think we’ll ever get into Chrome?',
 			type => 'company',
 			icon => 'growth',
 		},{
@@ -204,6 +204,13 @@ sub pages {{
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
+		},{
+			date => 'November 13, 2017',
+			title => '20,000,000',
+			snippet => 'Over 20 million searches in a single day. Privacy is mainstream and more and more privacy conscious people have <a href="https://twitter.com/search?q=%23ComeToTheDuckSide">#ComeToTheDuckSide.</a>',
+			type => 'traffic',
+			icon => 'growth',
+			year => '2017',
 		}],
 
 		news_articles => [{
