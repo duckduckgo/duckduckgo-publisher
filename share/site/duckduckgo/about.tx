@@ -1,15 +1,12 @@
 <!-- HERO -->
 <div class="abt  abt--hero  blk  blk--hero">
 	<div class="cw--c">
-		<noscript>
-			<img class="abt--hero__logo" src="/assets/common/dax-logo.svg">
-		</noscript>
-		<img class="abt--hero__logo js-lazysvg" src="" data-src="/assets/common/dax-logo.svg">
+		<img class="abt--hero__logo" src="/assets/common/dax-logo.svg">
 		<h1 class="abt--hero__title">Welcome to DuckDuckGo</h1>
 		<p class="abt--hero__text">We’re setting the new standard of trust online, empowering people to take control of their information.</p>
 	</div>
-	<img src="" aria-hidden="true" class="abt--hero__img js-lazysvg" data-src="/assets/common/hiker.svg">
-	<img src="" aria-hidden="true" class="abt--hero__img abt--hero__img--cropped js-lazysvg" data-src="/assets/common/hiker_cropped.svg">
+	<img aria-hidden="true" class="abt--hero__img" src="/assets/common/hiker.svg">
+	<img aria-hidden="true" class="abt--hero__img abt--hero__img--cropped" src="/assets/common/hiker_cropped.svg">
 </div>
 
 <!-- You deserve privacy... -->
