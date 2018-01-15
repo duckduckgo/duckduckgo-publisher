@@ -331,6 +331,7 @@ sub pages {{
             no_search_header => 0,
             hero_header => 1,
             hero_header_text => 1,
+            js_page_type => 'Addons',
         },
 	donations => sub {
 		nav_footer => 1,
