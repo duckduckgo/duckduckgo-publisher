@@ -6,12 +6,14 @@
 			<h1 class="press--hero__title hd-hr">Privacy, simplified.</h1>
 			<p class="press--hero__text">Seemlessly take control of your information wherever the Internet takes you.</p>
 		</div>
+	</div>
 
-		<!-- Image -->
-		<img class="press--hero__img" src="/assets/press/camping.svg">
+	<!-- Image -->
+	<img class="press--hero__img" src="/assets/press/camping.svg">
 
 		<!-- Fast Facts -->
-		<div class="press--hero__bottom">
+	<div class="press--hero__bottom">
+		<div class="cw--c">
 			<p class="press--hero__subtext tx-clr--white tx-clr--slate-light">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
 			<hr class="press__hr">
 			<h3 class="press__title--small tx-up">Fast Facts</h3>
