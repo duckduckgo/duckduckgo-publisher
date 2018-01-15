@@ -328,10 +328,9 @@ sub pages {{
             copyright_footer => 0,
             no_content_internal => 1,
             no_spacer => 1,
-            no_search_header => 1,
-            hero_header => 0,
-            hero_header_text => 0,
             no_search_header => 0,
+            hero_header => 1,
+            hero_header_text => 1,
         },
 	donations => sub {
 		nav_footer => 1,
