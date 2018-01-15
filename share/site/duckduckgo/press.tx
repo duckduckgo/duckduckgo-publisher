@@ -87,14 +87,14 @@ wherever the Internet takes you.</p>
 				<img src="/assets/press/brand.svg" aria-hidden="true" class="asset__card__icon">
 				<h2 class="asset__card__title">Brand & Logo</h2>
 				<p class="asset__card__text">Downlad the latest logos, color palletes, and brand-related assets.</p>
-				<a href="#" class="press__btn btn btn--primary tx-up">download</a>
+				<a href="/assets/press/DuckDuckGo-Logos.zip" class="press__btn btn btn--primary tx-up">download</a>
 			</div>
 
 			<div class="asset__card">
 				<img src="/assets/press/more.svg" aria-hidden="true" class="asset__card__icon">
 				<h2 class="asset__card__title">Photos & More</h2>
 				<p class="asset__card__text">Check out photos and other information about our global team.</p>
-				<a href="#" class="press__btn btn btn--primary tx-up">download</a>
+				<a href="/assets/press/DuckDuckGo-Photos.zip" class="press__btn btn btn--primary tx-up">download</a>
 			</div>
 
 			<div class="asset__card">
