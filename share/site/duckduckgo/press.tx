@@ -20,7 +20,7 @@ no matter where you go on the Internet.</p>
 			<h3 class="press__title--small tx-up">Fast Facts</h3>
 			<div class="flex-row press__facts">
 				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/traffic">
-					<img class="fact__card__icon" src="/assets/press/search-standalone-standalone.svg" aria-hidden="true">
+					<img class="fact__card__icon" src="/assets/press/search-standalone.svg" aria-hidden="true">
 					<h3 class="fact__card__title">16B</h3>
 					<h4 class="fact__card__subtitle">Private Searches</h4>
 					<span class="fact__card__text">And Counting</span>
