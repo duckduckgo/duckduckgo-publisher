@@ -126,7 +126,7 @@
 		<hr class="abt__hr">
 
 		<!-- Blog Cards -->
-		<h3 class="abt__title--small tx-up">we have a lot to say</h3>
+		<h3 class="abt__title--small tx-up">from our blog</h3>
 		<div class="flex-row abt--blog js-abt-blog no-js__hide"></div>
 	</div>
 </div>
