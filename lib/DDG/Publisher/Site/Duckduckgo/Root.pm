@@ -177,7 +177,7 @@ sub pages {{
 			snippet => 'We divided $400,000 over sixteen projects including: Freedom of the Press Foundation, World Privacy Forum, Open Whisper Systems, Privacy Rights Clearinghouse, Tor Project and the Electronic Frontier Foundation.',
 			type => 'company',
 			subtype => 'foss',
-			icon => 'gift',
+			icon => 'love',
 		},{
 			date => 'November 13, 2017',
 			title => '20,000,000',
