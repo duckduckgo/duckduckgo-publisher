@@ -322,7 +322,7 @@ sub pages {{
 		no_content_internal => 1,
 		js_skip_init => 1
         },
-        addons => sub {
+        app => sub {
             nav_footer => 0,
             no_footer_arrow => 1,
             copyright_footer => 0,
