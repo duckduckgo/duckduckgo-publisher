@@ -4,8 +4,8 @@
 		<h1 class="hd-hr">Donating for&nbsp;Privacy</h1>
 		<p>At DuckDuckGo, every year since 2011 we've been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
 	</div>
-	<img class="donations__hero__img" src="/assets/donations/background.svg">
-	<img class="donations__hero__img donations__hero__img--cropped" src="/assets/donations/background_cropped.svg">
+	<img class="donations__hero__img" src="/assets/common/hiker.svg">
+	<img class="donations__hero__img donations__hero__img--cropped" src="/assets/common/hiker_cropped.svg">
 </div>
 
 <div class="blk donations__cta">

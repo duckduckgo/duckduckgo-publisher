@@ -1,7 +1,7 @@
 <: include "meta/title.tx" { title => l('About DuckDuckGo') } :>
 
-<meta property="og:description" content="DuckDuckGo is the search engine that doesn't track you. We protect your search history from everyone – even us!">
-<meta name="description" content="DuckDuckGo is the search engine that doesn't track you. We protect your search history from everyone – even us!">
+<meta property="og:description" content="We're setting the new standard of trust online, empowering people to take control of their personal information.">
+<meta name="description" content="We're setting the new standard of trust online, empowering people to take control of their personal information.">
 
 <!-- mapbox -->
 <script src="/js/mapbox/mapbox-2.2.3.js"></script>
