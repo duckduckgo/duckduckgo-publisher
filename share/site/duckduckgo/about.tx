@@ -8,6 +8,7 @@
 	<img aria-hidden="true" class="abt--hero__img" src="/assets/common/hiker.svg">
 </div>
 
+
 <!-- You deserve privacy... -->
 <div class="abt  abt--message  blk  blk--content">
 	<div class="cw--c">
@@ -140,6 +141,7 @@
 	</div>
 </div>
 
+
 <!-- Meet our Team -->
 <a class="anchor" name="team"></a>
 <div class="abt  abt--map  blk  blk--content  blk--alt  map  no-js__hide">
@@ -147,4 +149,29 @@
 		<h2 class="abt__title">Meet our global team</h2>
 	</div>
 	<div class="js-team-map"></div>
+</div>
+
+
+<!-- Newsletter Signup -->
+<div class="abt  blk  blk--arr">
+	<div class="cw--c">
+		<a class="anchor" name="newsletter"></a>
+		<h2 class="abt__title">Sign up to Privacy Tips from DuckDuckGo!</h2>
+		<hr class="abt__hr">
+		<form class="frm--newsletter  abt__newsletter" action="https://duck.co/s/a" method="post" name="y">
+			<input type="hidden" name="page" value="1" />
+			<input type="hidden" name="campaign" value="b" />
+			<input type="hidden" name="flow" value="about" />
+			<input type="email" placeholder="Your email address" class="frm__input" name="email" />
+			<input type="submit" value="Subscribe" class="frm__btn  btn  btn--primary--alt" />
+		</form>
+		<p class="abt__sub t-xs">Your email address will not be shared or associated with anonymous searches. [<a href="https://spreadprivacy.com/google-search-history-4bae7619407d">Example message</a>]</p>
+		<div class="abt__social-media">
+			<p class="abt__social-media__cta text--secondary">Keep in touch via social media.</p>
+			<p class="abt__social-media__sites text--secondary">
+				<a href="https://twitter.com/duckduckgo" class="no-visited">Twitter</a> |
+				<a href="https://reddit.com/r/duckduckgo" class="no-visited">Reddit</a>
+			</p>
+		</div>
+	</div>
 </div>
