@@ -14,7 +14,8 @@
 		<!-- Fast Facts -->
 	<div class="press--hero__bottom">
 		<div class="cw--c">
-			<p class="press--hero__subtext tx-clr--white">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
+			<p class="press--hero__subtext tx-clr--white">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you
+no matter where you go on the Internet.</p>
 			<hr class="press__hr">
 			<h3 class="press__title--small tx-up">Fast Facts</h3>
 			<div class="flex-row press__facts">
