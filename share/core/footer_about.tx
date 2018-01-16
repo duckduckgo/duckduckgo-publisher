@@ -1,5 +1,5 @@
-<div class="blk  blk--foot  blk--foot--nav">
-	<div class="cw--c t-left t-center--screen-s flex-row">
+<div class="blk  blk--foot  blk--foot--nav blk--foot--about">
+	<div class="cw--c t-left flex-row">
 		<div class="blk--foot__nav-col  quarter  half--screen-s">
 			<h5 class="blk--foot__nav-head">DuckDuckGo</h5>
 			<ul>
@@ -7,6 +7,7 @@
 				<li><a href="https://duckduckgo.com/app">App</a></li>
 				<li><a href="https://duckduckgo.com/traffic">Traffic</a></li>
 				<li><a href="https://duckduckgo.com/privacy">Privacy</a></li>
+				<li><a href="https://duckduckgo.com/press">Press</a></li>
 			</ul>
 		</div>
 		<div class="blk--foot__nav-col  quarter  half--screen-s">
