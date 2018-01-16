@@ -103,7 +103,7 @@
 						<:- for $ddg_events -> $event { -:>
 							<:- if $event.year { -:>
 								<span class="timeline-nav__it js-timeline-nav-item  timeline-nav__it--year">
-									<span class="timeline-nav__it__text"><: $event.year :></span>
+									<div class="timeline-nav__it__text"><: $event.year :></div>
 								</span>
 							<:- } else {-:>
 								<span class="timeline-nav__it js-timeline-nav-item"></span>
