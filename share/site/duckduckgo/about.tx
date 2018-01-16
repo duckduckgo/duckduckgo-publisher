@@ -2,8 +2,8 @@
 <div class="abt  abt--hero  blk  blk--hero">
 	<div class="cw--c">
 		<img class="abt--hero__logo" src="/assets/common/dax-logo.svg">
-		<h1 class="abt--hero__title">DuckDuckGo</h1>
-		<p class="abt--hero__text">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
+		<h1 class="abt--hero__title">Welcome to DuckDuckGo</h1>
+		<p class="abt--hero__text">We’re setting the new standard of trust online, empowering people to take control of their information.</p>
 	</div>
 	<img aria-hidden="true" class="abt--hero__img" src="/assets/common/hiker.svg">
 </div>
