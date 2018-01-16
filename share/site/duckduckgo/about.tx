@@ -153,11 +153,11 @@
 
 
 <!-- Newsletter Signup -->
-<div class="abt  blk  blk--arr">
+<div class="abt  blk">
 	<div class="cw--c">
 		<a class="anchor" name="newsletter"></a>
 		<h2 class="abt__title">Sign up to Privacy Tips from DuckDuckGo!</h2>
-		<hr class="abt__hr">
+		<p class="abt__sub"></p>
 		<form class="frm--newsletter  abt__newsletter" action="https://duck.co/s/a" method="post" name="y">
 			<input type="hidden" name="page" value="1" />
 			<input type="hidden" name="campaign" value="b" />
