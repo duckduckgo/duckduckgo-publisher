@@ -9,7 +9,7 @@
 	</div>
 
 	<!-- Image -->
-	<div class="press--hero__img"></div>
+	<img class="press--hero__img" src="/assets/press/camping.svg">
 
 		<!-- Fast Facts -->
 	<div class="press--hero__bottom">
