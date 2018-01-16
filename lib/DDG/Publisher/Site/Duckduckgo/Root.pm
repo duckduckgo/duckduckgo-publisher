@@ -106,13 +106,6 @@ sub pages {{
 			type => 'traffic',
 			icon => 'growth',
 		},{
-			date => 'February 26, 2014',
-			title => '5,000,000',
-			snippet => 'Five million direct searches in one day. That’s 150 million a month, 1.825 billion a year!',
-			type => 'traffic',
-			icon => 'growth',
-			year => '2014',
-		},{
 			date => 'March 12, 2014',
 			title => '2014 Donations',
 			snippet => 'Needed more than ever, our 2014 donation theme was “secure communications,” donating to SecureDrop, NoiseTor, Lavabit, Riseup, Mailpile, and the Invisible Internet Project.',
