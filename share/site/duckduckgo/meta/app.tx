@@ -1,4 +1,12 @@
-<: include "meta/title.tx" { title => l('DuckDuckGo for Mobile') } :>
+<: include "meta/title.tx" { title => l('Privacy, simplified. — DuckDuckGo Browser Extension & Mobile App') } :>
 
-<meta property="og:description" content="Get the DuckDuckGo app for iOS or Android and start searching privately while mobile.">
-<meta name="description" content="Get the DuckDuckGo app for iOS or Android and start searching privately while mobile.">
+<meta property="og:description" content="Seamlessly take control of your personal information, no matter where the Internet takes you.">
+<meta name="description" content="Seamlessly take control of your personal information, no matter where the Internet takes you.">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" value="@duckduckgo">
+
+<meta property="og:url" content="https://duckduckgo.com/app" />
+<meta property="og:site_name" content="DuckDuckGo App" />
+<meta property="og:image" content="https://duckduckgo.com/assets/logo_social-media.png">
+<meta property="og:type" content="website" />

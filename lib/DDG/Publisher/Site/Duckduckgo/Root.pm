@@ -296,7 +296,18 @@ sub pages {{
 		no_spacer => 1,
 		no_content_internal => 1,
 		js_skip_init => 1
-	},
+        },
+        app => sub {
+            nav_footer => 0,
+            no_footer_arrow => 1,
+            copyright_footer => 0,
+            no_content_internal => 1,
+            no_spacer => 1,
+            no_search_header => 0,
+            hero_header => 1,
+            hero_header_text => 1,
+            js_page_type => 'Addons',
+        },
 	donations => sub {
 		nav_footer => 1,
 		no_footer_arrow => 1,
