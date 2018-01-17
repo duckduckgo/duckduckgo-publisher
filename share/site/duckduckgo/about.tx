@@ -70,7 +70,7 @@
 	<div class="cw--c">
 		<div class="timeline-slider  js-timeline-slider">
 			<!-- Prev Arrow -->
-			<div class="slider__arrow  slider--prev  js-timeline-prev ddgsi ddgsi-left"></div>
+			<div class="slider__arrow  slider--prev  js-timeline-prev  ddgsi  ddgsi-left"></div>
 			<!-- Slider Content -->
 			<div class="whole--screen-s whole--screen-m">
 				<div class="slider__window">
@@ -84,7 +84,7 @@
 							<p class="timeline__snippet">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where you go on the Internet. Check out our story.</p>
 						</div>
 						<:- for $ddg_events -> $event { -:>
-							<div class="timeline__panel  js-timeline-item" data-date="<: $event.date :>">
+							<div class="timeline__panel  js-timeline-item  no-js__hide" data-date="<: $event.date :>">
 								<img class="timeline__icon  js-lazysvg" src="" data-src="/assets/about/icons/<: if $event.icon { $event.icon } else { $event.type } :>" />
 								<h2 class="abt__title"><: $event.title :></h2>
 								<p class="abt__subtitle"><: $event.snippet :></p>
@@ -121,11 +121,12 @@
 	<div class="cw--c">
 		<h2 class="abt__title">Our Mission</h2>
 		<p class="abt__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
-		<hr class="abt__hr">
-
-		<!-- Blog Cards -->
-		<h3 class="abt__title--small tx-up">from our blog</h3>
-		<div class="flex-row abt--blog js-abt-blog no-js__hide"></div>
+		<div class="no-js__hide">
+			<hr class="abt__hr">
+			<!-- Blog Cards -->
+			<h3 class="abt__title--small tx-up">from our blog</h3>
+			<div class="flex-row abt--blog js-abt-blog"></div>
+		</div>
 	</div>
 </div>
 
