@@ -57,17 +57,19 @@ no matter where you go on the Internet.</p>
 	<div class="cw--c">
 		<h2 class="press__title">Our Mission</h2>
 		<p class="press__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
-		<hr class="press__hr">
+		<div class="no-js__hide">
+			<hr class="press__hr">
 
-		<!-- Blog Cards -->
-		<h3 class="press__title--small tx-up">from our blog</h3>
-		<div class="flex-row press__blog js-press-blog"></div>
+			<!-- Blog Cards -->
+			<h3 class="press__title--small tx-up">from our blog</h3>
+			<div class="flex-row press__blog js-press-blog"></div>
+		</div>
 	</div>
 </div>
 
 
 <!-- Latest Tweets -->
-<div class="press press--twitter blk blk--content">
+<div class="press press--twitter blk blk--content no-js__hide">
 	<div class="cw--c">
 		<div class="js-press-twitter"></div>
 	</div>
