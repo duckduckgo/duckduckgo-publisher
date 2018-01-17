@@ -35,7 +35,7 @@
 		<div class="flex-row">
 			<div class="links__card">
 				<noscript>
-					<img src="/assets/about/brand.svg" aria-hidden="true" class="links__card__icon">
+					<img src="/assets/about/privacy.svg" aria-hidden="true" class="links__card__icon">
 				</noscript>
 				<img src="" data-src="/assets/about/search-shield.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Privacy, simplified.</h2>
@@ -45,7 +45,7 @@
 
 			<div class="links__card">
 				<noscript>
-					<img src="/assets/about/more.svg" aria-hidden="true" class="links__card__icon">
+					<img src="/assets/about/search-shield.svg" aria-hidden="true" class="links__card__icon">
 				</noscript>
 				<img src="" data-src="/assets/about/privacy-tips-4.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Search privately.</h2>
@@ -55,7 +55,7 @@
 
 			<div class="links__card">
 				<noscript>
-					<img src="/assets/about/contact.svg" aria-hidden="true" class="links__card__icon">
+					<img src="/assets/about/privacy-tips-4.svg" aria-hidden="true" class="links__card__icon">
 				</noscript>
 				<img src="" data-src="/assets/about/contact.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Get privacy tips.</h2>
