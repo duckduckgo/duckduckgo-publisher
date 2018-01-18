@@ -15,7 +15,7 @@
 		<div class="flex-row">
 			<div class="abt--message__text">
 				<h2 class="abt__title">You deserve privacy.</h2>
-				<p class="abt__subtitle">Companies are <b>making money</b> off of <b>your private information</b> online without your consent.<br><br>The internet shouldn’t feel so <b>creepy</b> and getting the privacy you deserve online should be as <b>simple</b> as closing the blinds.</p>
+				<p class="abt__subtitle">Companies are <b>making money</b> off of <b>your private information</b> online without your consent.<br><br>The Internet shouldn’t feel so <b>creepy</b> and getting the privacy you deserve online should be as <b>simple</b> as closing the blinds.</p>
 			</div>
 			<noscript>
 				<img class="abt--message__image" src="/assets/about/monster-money-dark.svg" aria-hidden="true">
