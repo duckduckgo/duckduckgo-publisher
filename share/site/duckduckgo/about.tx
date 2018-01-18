@@ -4,7 +4,7 @@
 		<h1 class="abt--hero__title">Welcome to DuckDuckGo</h1>
 		<p class="abt--hero__text">We’re setting the new standard of trust online, empowering people to take control of their information.</p>
 	</div>
-	<img aria-hidden="true" class="abt--hero__img whole" src="/assets/common/hiker.svg">
+	<img class="abt--hero__img whole" src="/assets/common/hiker.svg" aria-hidden="true">
 </div>
 <div class="abt abt--hero-bottom blk">
 	<div class="cw--c">

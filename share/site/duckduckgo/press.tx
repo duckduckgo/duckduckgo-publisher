@@ -1,14 +1,12 @@
 <div class="press press--hero blk blk--hero">
-	<div class="cw--c">
-		<div class="press--hero__top">
-			<img class="press--hero__logo" src="/assets/press/dax-logo.svg" alt="DuckDuckGo Dax Logo">
-			<h1 class="press--hero__title hd-hr">DuckDuckGo Press Center</h1>
-			<p class="press--hero__text">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
-		</div>
+	<div class="cw--c press--hero__top">
+		<img class="press--hero__logo" src="/assets/press/dax-logo.svg" alt="DuckDuckGo Dax Logo">
+		<h1 class="press--hero__title hd-hr">DuckDuckGo Press Center</h1>
+		<p class="press--hero__text">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
 	</div>
-	<img class="press--hero__img" src="/assets/press/camping-updated.svg">
+	<img class="press--hero__img whole" src="/assets/press/camping-updated.svg" aria-hidden="true">
 </div>
-<div class="press blk press--hero-bottom">
+<div class="press press--hero-bottom blk">
 	<div class="cw--c">
 		<p class="press--hero__subtext tx-clr--white">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you
 			no matter where you go on the Internet.</p>
