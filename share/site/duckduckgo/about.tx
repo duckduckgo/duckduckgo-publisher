@@ -1,4 +1,3 @@
-<!-- Hero -->
 <div class="abt  abt--hero  blk  blk--hero">
 	<div class="cw--c">
 		<img class="abt--hero__logo" src="/assets/common/dax-logo.svg">
@@ -7,7 +6,6 @@
 	</div>
 	<img aria-hidden="true" class="abt--hero__img" src="/assets/about/hiker-updated.svg">
 </div>
-<!-- You deserve privacy... -->
 <div class="abt  abt--message  blk  blk--content">
 	<div class="cw--c">
 		<div class="flex-row">
@@ -22,7 +20,6 @@
 		</div>
 	</div>
 </div>
-<!-- Take back your privacy...  -->
 <div class="abt  abt--links  blk  blk--alt  blk--content">
 	<div class="cw--c">
 		<h2 class="abt__title">It's time to take back your privacy!</h2>
@@ -57,13 +54,10 @@
 		</div>
 	</div>
 </div>
-<!-- Timeline -->
 <div class="abt  abt--timeline  blk">
 	<div class="cw--c">
 		<div class="timeline-slider  js-timeline-slider">
-			<!-- Prev Arrow -->
 			<div class="slider__arrow  slider--prev  js-timeline-prev  ddgsi  ddgsi-left"></div>
-			<!-- Slider Content -->
 			<div class="whole--screen-s whole--screen-m">
 				<div class="slider__window">
 					<div class="slider__wrap  js-timeline-box">
@@ -100,31 +94,26 @@
 					</div>
 				</div>
 			</div>
-			<!-- Next Arrow -->
 			<div class="slider__arrow  slider--next  js-timeline-next ddgsi ddgsi-right"></div>
 		</div>
 	</div>
 </div>
-<!-- Our Mission -->
 <div class="abt  abt--mission  blk  blk--alt  blk--content">
 	<div class="cw--c">
 		<h2 class="abt__title">Our Mission</h2>
 		<p class="abt__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
 		<div class="no-js__hide">
 			<hr class="abt__hr">
-			<!-- Blog Cards -->
 			<h3 class="abt__title--small tx-up">from our blog</h3>
 			<div class="flex-row abt--blog js-abt-blog"></div>
 		</div>
 	</div>
 </div>
-<!-- Latest Tweets -->
 <div class="abt  abt--twitter  blk  blk--content  no-js__hide">
 	<div class="cw--c">
 		<div class="js-abt-twitter"></div>
 	</div>
 </div>
-<!-- Meet our Team -->
 <a class="anchor" name="team"></a>
 <div class="abt  abt--map  blk  blk--content  blk--alt  map  no-js__hide">
 	<div class="cw--c">
@@ -132,7 +121,6 @@
 	</div>
 	<div class="js-team-map"></div>
 </div>
-<!-- Newsletter Signup -->
 <div class="abt  abt--newsletter  blk">
 	<div class="cw--c">
 		<a class="anchor" name="newsletter"></a>
