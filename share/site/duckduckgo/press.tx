@@ -7,10 +7,11 @@
 		</div>
 	</div>
 	<img class="press--hero__img" src="/assets/press/camping-updated.svg">
-	<div class="press--hero__bottom">
-		<div class="cw--c">
-			<p class="press--hero__subtext tx-clr--white">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you
-no matter where you go on the Internet.</p>
+</div>
+<div class="press blk press--hero-bottom">
+	<div class="cw--c">
+		<p class="press--hero__subtext tx-clr--white">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you
+			no matter where you go on the Internet.</p>
 			<hr class="press__hr">
 			<h3 class="press__title--small tx-up">Fast Facts</h3>
 			<div class="flex-row press__facts">
@@ -41,7 +42,6 @@ no matter where you go on the Internet.</p>
 			</div>
 		</div>
 	</div>
-</div>
 <div class="press press--mission blk blk--alt blk--content">
 	<div class="cw--c">
 		<h2 class="press__title">Our Mission</h2>
