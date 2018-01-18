@@ -4,38 +4,38 @@
 		<h1 class="abt--hero__title">Welcome to DuckDuckGo</h1>
 		<p class="abt--hero__text">We’re setting the new standard of trust online, empowering people to take control of their information.</p>
 	</div>
-	<img aria-hidden="true" class="abt--hero__img" src="/assets/common/hiker.svg">
-	<div class="abt--hero__bottom">
-		<div class="cw--c">
-			<p class="abt--hero__subtext tx-clr--white"><b>You deserve privacy</b>. Companies are <b>making money</b> off of <b>your private information</b> online without your consent.<br><br>At DuckDuckGo, we don’t think the Internet should feel so <b>creepy</b> and getting the privacy you deserve online should be as <b>simple</b> as closing the blinds.</p>
-			<hr class="abt__hr">
-			<h3 class="abt__title--small tx-up">Fast Facts</h3>
-			<div class="flex-row abt__facts">
-				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/traffic">
-					<img class="fact__card__icon" src="/assets/press/search-standalone.svg" aria-hidden="true">
-					<h3 class="fact__card__title">16B</h3>
-					<h4 class="fact__card__subtitle">Private Searches</h4>
-					<span class="fact__card__text">And Counting</span>
-				</a>
-				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about#team">
-					<img class="fact__card__icon" src="/assets/press/privacy-standalone.svg" aria-hidden="true">
-					<h3 class="fact__card__title">45</h3>
-					<h4 class="fact__card__subtitle">Employees</h4>
-					<span class="fact__card__text">Making it happen</span>
-				</a>
-				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about">
-					<img class="fact__card__icon" src="/assets/press/launch-standalone.svg" aria-hidden="true">
-					<h3 class="fact__card__title">2008</h3>
-					<h4 class="fact__card__subtitle">Founded</h4>
-					<span class="fact__card__text">Ten Years &amp; Counting</span>
-				</a>
-				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/donations">
-					<img class="fact__card__icon" src="/assets/press/gift-standalone.svg" aria-hidden="true">
-					<h3 class="fact__card__title">$800K</h3>
-					<h4 class="fact__card__subtitle">Donated</h4>
-					<span class="fact__card__text">Privacy Donations</span>
-				</a>
-			</div>
+	<img aria-hidden="true" class="abt--hero__img whole" src="/assets/common/hiker.svg">
+</div>
+<div class="abt abt--hero-bottom blk">
+	<div class="cw--c">
+		<p class="abt--hero__subtext tx-clr--white"><b>You deserve privacy</b>. Companies are <b>making money</b> off of <b>your private information</b> online without your consent.<br><br>At DuckDuckGo, we don’t think the Internet should feel so <b>creepy</b> and getting the privacy you deserve online should be as <b>simple</b> as closing the blinds.</p>
+		<hr class="abt__hr">
+		<h3 class="abt__title--small tx-up">Fast Facts</h3>
+		<div class="flex-row abt__facts">
+			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/traffic">
+				<img class="fact__card__icon" src="/assets/press/search-standalone.svg" aria-hidden="true">
+				<h3 class="fact__card__title">16B</h3>
+				<h4 class="fact__card__subtitle">Private Searches</h4>
+				<span class="fact__card__text">And Counting</span>
+			</a>
+			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about#team">
+				<img class="fact__card__icon" src="/assets/press/privacy-standalone.svg" aria-hidden="true">
+				<h3 class="fact__card__title">45</h3>
+				<h4 class="fact__card__subtitle">Employees</h4>
+				<span class="fact__card__text">Making it happen</span>
+			</a>
+			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about">
+				<img class="fact__card__icon" src="/assets/press/launch-standalone.svg" aria-hidden="true">
+				<h3 class="fact__card__title">2008</h3>
+				<h4 class="fact__card__subtitle">Founded</h4>
+				<span class="fact__card__text">Ten Years &amp; Counting</span>
+			</a>
+			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/donations">
+				<img class="fact__card__icon" src="/assets/press/gift-standalone.svg" aria-hidden="true">
+				<h3 class="fact__card__title">$800K</h3>
+				<h4 class="fact__card__subtitle">Donated</h4>
+				<span class="fact__card__text">Privacy Donations</span>
+			</a>
 		</div>
 	</div>
 </div>
