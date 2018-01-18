@@ -7,8 +7,6 @@
 	</div>
 	<img aria-hidden="true" class="abt--hero__img" src="/assets/common/hiker-updated.svg">
 </div>
-
-
 <!-- You deserve privacy... -->
 <div class="abt  abt--message  blk  blk--content">
 	<div class="cw--c">
@@ -24,8 +22,6 @@
 		</div>
 	</div>
 </div>
-
-
 <!-- Take back your privacy...  -->
 <div class="abt  abt--links  blk  blk--alt  blk--content">
 	<div class="cw--c">
@@ -40,7 +36,6 @@
 				<p class="links__card__text">We don’t track you, and we stop others from tracking you, so you can Internet with peace of mind.</p>
 				<a href="https://duckduckgo.com/app" class="abt__btn btn btn--primary tx-up">get privacy essentials</a>
 			</div>
-
 			<div class="links__card">
 				<noscript>
 					<img src="/assets/about/search-shield.svg" aria-hidden="true" class="links__card__icon">
@@ -50,7 +45,6 @@
 				<p class="links__card__text">What you search for is your own business. Switch to the search engine that doesn’t track you.</p>
 				<a href="https://duckduckgo.com/" class="abt__btn btn btn--primary tx-up">search privately</a>
 			</div>
-
 			<div class="links__card">
 				<noscript>
 					<img src="/assets/about/privacy-tips-4.svg" aria-hidden="true" class="links__card__icon">
@@ -63,8 +57,6 @@
 		</div>
 	</div>
 </div>
-
-
 <!-- Timeline -->
 <div class="abt  abt--timeline  blk">
 	<div class="cw--c">
@@ -93,7 +85,6 @@
 						<:- } -:>
 					</div>
 				</div>
-
 				<div class="timeline-nav">
 					<div class="timeline-nav__cw  js-timeline-nav">
 						<span class="timeline-nav__it  timeline-nav__it--start  is-active  js-timeline-nav-item  js-timeline-start"></span>
@@ -114,8 +105,6 @@
 		</div>
 	</div>
 </div>
-
-
 <!-- Our Mission -->
 <div class="abt  abt--mission  blk  blk--alt  blk--content">
 	<div class="cw--c">
@@ -129,16 +118,12 @@
 		</div>
 	</div>
 </div>
-
-
 <!-- Latest Tweets -->
 <div class="abt  abt--twitter  blk  blk--content  no-js__hide">
 	<div class="cw--c">
 		<div class="js-abt-twitter"></div>
 	</div>
 </div>
-
-
 <!-- Meet our Team -->
 <a class="anchor" name="team"></a>
 <div class="abt  abt--map  blk  blk--content  blk--alt  map  no-js__hide">
@@ -147,8 +132,6 @@
 	</div>
 	<div class="js-team-map"></div>
 </div>
-
-
 <!-- Newsletter Signup -->
 <div class="abt  abt--newsletter  blk">
 	<div class="cw--c">

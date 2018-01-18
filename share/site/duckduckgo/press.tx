@@ -7,11 +7,9 @@
 			<p class="press--hero__text">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
 		</div>
 	</div>
-
 	<!-- Image -->
 	<img class="press--hero__img" src="/assets/press/camping-updated.svg">
-
-		<!-- Fast Facts -->
+	<!-- Fast Facts -->
 	<div class="press--hero__bottom">
 		<div class="cw--c">
 			<p class="press--hero__subtext tx-clr--white">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you
@@ -25,21 +23,18 @@ no matter where you go on the Internet.</p>
 					<h4 class="fact__card__subtitle">Private Searches</h4>
 					<span class="fact__card__text">And Counting</span>
 				</a>
-
 				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about#team">
 					<img class="fact__card__icon" src="/assets/press/privacy-standalone.svg" aria-hidden="true">
 					<h3 class="fact__card__title">45</h3>
 					<h4 class="fact__card__subtitle">Employees</h4>
 					<span class="fact__card__text">Making it happen</span>
 				</a>
-
 				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about">
 					<img class="fact__card__icon" src="/assets/press/launch-standalone.svg" aria-hidden="true">
 					<h3 class="fact__card__title">2008</h3>
 					<h4 class="fact__card__subtitle">Founded</h4>
 					<span class="fact__card__text">Ten Years &amp; Counting</span>
 				</a>
-
 				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/donations">
 					<img class="fact__card__icon" src="/assets/press/gift-standalone.svg" aria-hidden="true">
 					<h3 class="fact__card__title">$800K</h3>
@@ -50,8 +45,6 @@ no matter where you go on the Internet.</p>
 		</div>
 	</div>
 </div>
-
-
 <!-- Our Mission -->
 <div class="press press--mission blk blk--alt blk--content">
 	<div class="cw--c">
@@ -59,23 +52,18 @@ no matter where you go on the Internet.</p>
 		<p class="press__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
 		<div class="no-js__hide">
 			<hr class="press__hr">
-
 			<!-- Blog Cards -->
 			<h3 class="press__title--small tx-up">from our blog</h3>
 			<div class="flex-row press__blog js-press-blog"></div>
 		</div>
 	</div>
 </div>
-
-
 <!-- Latest Tweets -->
 <div class="press press--twitter blk blk--content no-js__hide">
 	<div class="cw--c">
 		<div class="js-press-twitter"></div>
 	</div>
 </div>
-
-
 <!-- Press Materials -->
 <div class="press press--assets blk blk--alt blk--content">
 	<div class="cw--c">
@@ -89,14 +77,12 @@ no matter where you go on the Internet.</p>
 				<p class="asset__card__text">Downlad the latest logos, color palletes, and brand-related assets.</p>
 				<a href="/assets/press/DuckDuckGo-Logos.zip" class="press__btn btn btn--primary tx-up">download</a>
 			</div>
-
 			<div class="asset__card">
 				<img src="/assets/press/photos.svg" aria-hidden="true" class="asset__card__icon">
 				<h2 class="asset__card__title">Photos & More</h2>
 				<p class="asset__card__text">Check out photos and other information about our global team.</p>
 				<a href="/assets/press/DuckDuckGo-Photos.zip" class="press__btn btn btn--primary tx-up">download</a>
 			</div>
-
 			<div class="asset__card">
 				<img src="/assets/press/contact.svg" aria-hidden="true" class="asset__card__icon">
 				<h2 class="asset__card__title">Contact Us</h2>
@@ -106,8 +92,6 @@ no matter where you go on the Internet.</p>
 		</div>
 	</div>
 </div>
-
-
 <!-- Message -->
 <div class="press press--message blk blk--content">
 	<div class="cw--c">
