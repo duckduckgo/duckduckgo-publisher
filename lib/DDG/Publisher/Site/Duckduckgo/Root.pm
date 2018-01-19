@@ -115,7 +115,7 @@ sub pages {{
 		},{
 			date => 'March 17, 2014',
 			title => 'Employee #10',
-			snippet => 'We have thousands of fewer employees than the big guys, and so everyone is an essential member of our team. Welcome Brian Stoner!',
+			snippet => 'The big guys have thousands more employees than us, and so everyone at DuckDuckGo is an essential member of the team. Welcome Brian Stoner!',
 			type => 'company',
 			icon => 'photos',
 		},{
