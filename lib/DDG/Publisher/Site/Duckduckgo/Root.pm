@@ -112,6 +112,7 @@ sub pages {{
 			type => 'company',
 			subtype => 'foss',
 			icon => 'gift',
+			year => '2014',
 		},{
 			date => 'March 17, 2014',
 			title => 'Employee #10',
@@ -171,13 +172,13 @@ sub pages {{
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
+			year => '2017',
 		},{
 			date => 'November 13, 2017',
 			title => '20,000,000',
 			snippet => 'Over 20 million searches in a single day. Privacy is mainstream and more and more privacy conscious people have #ComeToTheDuckSide.',
 			type => 'traffic',
 			icon => 'privacy',
-			year => '2017',
 		}],
 
 		news_articles => [{
