@@ -1,7 +1,7 @@
 <!-- Hero -->
 <div class="abt  abt--hero  blk  blk--hero">
 	<div class="cw--c">
-		<img class="abt--hero__logo" src="/assets/common/dax-logo.svg">
+		<img class="abt--hero__logo" src="/assets/common/icons/dax-logo.svg" alt="DuckDuckGo Dax Logo">
 		<h1 class="abt--hero__title">Welcome to DuckDuckGo</h1>
 		<p class="abt--hero__text">We’re setting the new standard of trust online, empowering people to take control of their information.</p>
 	</div>
@@ -15,25 +15,25 @@
 		<h3 class="abt__title--small tx-up">Fast Facts</h3>
 		<div class="flex-row abt__facts">
 			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/traffic">
-				<img class="fact__card__icon" src="/assets/press/search-standalone.svg" aria-hidden="true">
+				<img class="fact__card__icon" src="/assets/common/icons/search-standalone.svg" aria-hidden="true">
 				<h3 class="fact__card__title">16B</h3>
 				<h4 class="fact__card__subtitle">Private Searches</h4>
 				<span class="fact__card__text">And Counting</span>
 			</a>
 			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about#team">
-				<img class="fact__card__icon" src="/assets/press/privacy-standalone.svg" aria-hidden="true">
+				<img class="fact__card__icon" src="/assets/common/icons/privacy-standalone.svg" aria-hidden="true">
 				<h3 class="fact__card__title">45</h3>
 				<h4 class="fact__card__subtitle">Employees</h4>
 				<span class="fact__card__text">Making it happen</span>
 			</a>
 			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about">
-				<img class="fact__card__icon" src="/assets/press/launch-standalone.svg" aria-hidden="true">
+				<img class="fact__card__icon" src="/assets/common/icons/launch-standalone.svg" aria-hidden="true">
 				<h3 class="fact__card__title">2008</h3>
 				<h4 class="fact__card__subtitle">Founded</h4>
 				<span class="fact__card__text">Ten Years &amp; Counting</span>
 			</a>
 			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/donations">
-				<img class="fact__card__icon" src="/assets/press/gift-standalone.svg" aria-hidden="true">
+				<img class="fact__card__icon" src="/assets/common/icons/gift-standalone.svg" aria-hidden="true">
 				<h3 class="fact__card__title">$800K</h3>
 				<h4 class="fact__card__subtitle">Donated</h4>
 				<span class="fact__card__text">Privacy Donations</span>
@@ -52,15 +52,15 @@
 					<div class="slider__wrap  js-timeline-box">
 						<div class="timeline__panel  is-active  js-timeline-item" data-date="START">
 							<noscript>
-								<img class="timeline__logo" src="/assets/about/story.svg" />
+								<img class="timeline__logo" src="/assets/common/icons/story.svg" />
 							</noscript>
-							<img class="timeline__logo js-lazysvg no-js__hide" src="" data-src="/assets/about/story.svg" aria-hidden="true">
+							<img class="timeline__logo js-lazysvg no-js__hide" src="" data-src="/assets/common/icons/story.svg" aria-hidden="true">
 							<h2 class="abt__title">Our Story</h2>
 							<p class="timeline__snippet">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where you go on the Internet. Check out our story.</p>
 						</div>
 						<:- for $ddg_events -> $event { -:>
 							<div class="timeline__panel  js-timeline-item  no-js__hide" data-date="<: $event.date :>">
-								<img class="timeline__icon  js-lazysvg" src="" data-src="/assets/about/icons/<: if $event.icon { $event.icon } else { $event.type } :>" />
+								<img class="timeline__icon  js-lazysvg" src="" data-src="/assets/common/icons/icons/<: if $event.icon { $event.icon } else { $event.type } :>" />
 								<h2 class="abt__title"><: $event.title :></h2>
 								<p class="abt__subtitle"><: $event.snippet :></p>
 								<p class="timeline__date"><: $event.date :></p>
@@ -95,27 +95,27 @@
 		<div class="flex-row">
 			<div class="links__card">
 				<noscript>
-					<img src="/assets/about/privacy.svg" aria-hidden="true" class="links__card__icon">
+					<img src="/assets/common/icons/privacy.svg" aria-hidden="true" class="links__card__icon">
 				</noscript>
-				<img src="" data-src="/assets/about/privacy.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
+				<img src="" data-src="/assets/common/icons/privacy.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Privacy, simplified.</h2>
 				<p class="links__card__text">We don’t track you, and we stop others from tracking you, so you can Internet with peace of mind.</p>
 				<a href="https://duckduckgo.com/app" class="abt__btn btn btn--primary tx-up">get privacy essentials</a>
 			</div>
 			<div class="links__card">
 				<noscript>
-					<img src="/assets/about/search-shield.svg" aria-hidden="true" class="links__card__icon">
+					<img src="/assets/common/icons/search-shield.svg" aria-hidden="true" class="links__card__icon">
 				</noscript>
-				<img src="" data-src="/assets/about/search-shield.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
+				<img src="" data-src="/assets/common/icons/search-shield.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Search privately.</h2>
 				<p class="links__card__text">What you search for is your own business. Switch to the search engine that doesn’t track you.</p>
 				<a href="https://duckduckgo.com/" class="abt__btn btn btn--primary tx-up">search privately</a>
 			</div>
 			<div class="links__card">
 				<noscript>
-					<img src="/assets/about/privacy-tips-4.svg" aria-hidden="true" class="links__card__icon">
+					<img src="/assets/common/icons/privacy-tips-4.svg" aria-hidden="true" class="links__card__icon">
 				</noscript>
-				<img src="" data-src="/assets/about/privacy-tips-4.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
+				<img src="" data-src="/assets/common/icons/privacy-tips-4.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Get privacy tips.</h2>
 				<p class="links__card__text">You deserve privacy online. And now with DuckDuckGo’s help, you can learn how to get it.</p>
 				<a href="https://spreadprivacy.com/tag/device-privacy-tips/" class="abt__btn btn btn--primary tx-up">stay informed</a>
