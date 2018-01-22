@@ -1,3 +1,4 @@
+<!-- Hero -->
 <div class="press press--hero blk blk--hero">
 	<div class="cw--c press--hero__top">
 		<img class="press--hero__logo" src="/assets/press/dax-logo.svg" alt="DuckDuckGo Dax Logo">
@@ -6,11 +7,13 @@
 	</div>
 	<img class="press--hero__img whole" src="/assets/press/camping-updated.svg" aria-hidden="true">
 </div>
+
 <div class="press press--hero-bottom blk">
 	<div class="cw--c">
 		<p class="press--hero__subtext tx-clr--white">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you
 			no matter where you go on the Internet.</p>
 			<hr class="press__hr">
+			<!-- Fact Cards -->
 			<h3 class="press__title--small tx-up">Fast Facts</h3>
 			<div class="flex-row press__facts">
 				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/traffic">
@@ -40,6 +43,8 @@
 			</div>
 		</div>
 	</div>
+
+<!-- Mission -->
 <div class="press press--mission blk blk--alt blk--content">
 	<div class="cw--c">
 		<h2 class="press__title">Our Mission</h2>
@@ -47,15 +52,21 @@
 		<div class="no-js__hide">
 			<hr class="press__hr">
 			<h3 class="press__title--small tx-up">from our blog</h3>
+
+			<!-- Blog Cards -->
 			<div class="flex-row press__blog js-press-blog"></div>
 		</div>
 	</div>
 </div>
+
+<!-- Latest Tweets -->
 <div class="press press--twitter blk blk--content no-js__hide">
 	<div class="cw--c">
 		<div class="js-press-twitter"></div>
 	</div>
 </div>
+
+<!-- Press Materials -->
 <div class="press press--assets blk blk--alt blk--content">
 	<div class="cw--c">
 		<h2 class="press__title">Press Materials</h2>
@@ -83,6 +94,8 @@
 		</div>
 	</div>
 </div>
+
+<!-- Message -->
 <div class="press press--message blk blk--content">
 	<div class="cw--c">
 		<div class="flex-row">
