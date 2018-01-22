@@ -15,25 +15,25 @@
 		<h3 class="abt__title--small tx-up">Fast Facts</h3>
 		<div class="flex-row abt__facts">
 			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/traffic">
-				<img class="fact__card__icon" src="/assets/common/icons/search-standalone.svg" aria-hidden="true">
+				<img class="fact__card__icon" src="/assets/common/icons/search.svg" aria-hidden="true">
 				<h3 class="fact__card__title">16B</h3>
 				<h4 class="fact__card__subtitle">Private Searches</h4>
 				<span class="fact__card__text">And Counting</span>
 			</a>
 			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about#team">
-				<img class="fact__card__icon" src="/assets/common/icons/privacy-standalone.svg" aria-hidden="true">
+				<img class="fact__card__icon" src="/assets/common/icons/privacy.svg" aria-hidden="true">
 				<h3 class="fact__card__title">45</h3>
 				<h4 class="fact__card__subtitle">Employees</h4>
 				<span class="fact__card__text">Making it happen</span>
 			</a>
 			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about">
-				<img class="fact__card__icon" src="/assets/common/icons/launch-standalone.svg" aria-hidden="true">
+				<img class="fact__card__icon" src="/assets/common/icons/launch.svg" aria-hidden="true">
 				<h3 class="fact__card__title">2008</h3>
 				<h4 class="fact__card__subtitle">Founded</h4>
 				<span class="fact__card__text">Ten Years &amp; Counting</span>
 			</a>
 			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/donations">
-				<img class="fact__card__icon" src="/assets/common/icons/gift-standalone.svg" aria-hidden="true">
+				<img class="fact__card__icon" src="/assets/common/icons/gift.svg" aria-hidden="true">
 				<h3 class="fact__card__title">$800K</h3>
 				<h4 class="fact__card__subtitle">Donated</h4>
 				<span class="fact__card__text">Privacy Donations</span>
@@ -60,7 +60,7 @@
 						</div>
 						<:- for $ddg_events -> $event { -:>
 							<div class="timeline__panel  js-timeline-item  no-js__hide" data-date="<: $event.date :>">
-								<img class="timeline__icon  js-lazysvg" src="" data-src="/assets/common/icons/icons/<: if $event.icon { $event.icon } else { $event.type } :>" />
+								<img class="timeline__icon  js-lazysvg" src="" data-src="/assets/common/icons/<: if $event.icon { $event.icon } else { $event.type } :>" />
 								<h2 class="abt__title"><: $event.title :></h2>
 								<p class="abt__subtitle"><: $event.snippet :></p>
 								<p class="timeline__date"><: $event.date :></p>
@@ -95,9 +95,9 @@
 		<div class="flex-row">
 			<div class="links__card">
 				<noscript>
-					<img src="/assets/common/icons/privacy.svg" aria-hidden="true" class="links__card__icon">
+					<img src="/assets/common/icons/privacy-tips-2.svg" aria-hidden="true" class="links__card__icon">
 				</noscript>
-				<img src="" data-src="/assets/common/icons/privacy.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
+				<img src="" data-src="/assets/common/icons/privacy-tips-2.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Privacy, simplified.</h2>
 				<p class="links__card__text">We don’t track you, and we stop others from tracking you, so you can Internet with peace of mind.</p>
 				<a href="https://duckduckgo.com/app" class="abt__btn btn btn--primary tx-up">get privacy essentials</a>
