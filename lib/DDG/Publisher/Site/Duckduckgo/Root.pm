@@ -24,7 +24,7 @@ sub pages {{
 			title => 'We Hatched',
 			snippet => 'DuckDuckGo began as an idea for a better search engine experience. We hatched out of a few servers in a dusty basement.',
 			type => 'company',
-			icon => 'idea-b',
+			icon => 'idea-2',
 			year => '2008',
 		},{
 			date => 'September 25, 2008',
