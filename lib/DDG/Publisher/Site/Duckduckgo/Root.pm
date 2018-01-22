@@ -64,7 +64,6 @@ sub pages {{
 			title => 'Headquarters',
 			snippet => 'We finally moved out of Gabriel’s basement into our fortress in Paoli, PA. It really looks like a castle!',
 			type => 'company',
-			icon => 'company-b',
 		},{
 			date => 'January 16, 2012',
 			title => 'Redesign',
