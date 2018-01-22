@@ -17,8 +17,6 @@ sub pages {{
 		no_spacer => 1,
 		no_search_header => 1,
 		no_cw => 1,
-		hero_header => 1,
-		hero_header_text => 1,
 		js_page_type => 'About',
 		ddg_events => [{
 			date => 'February 29, 2008',
@@ -461,8 +459,6 @@ sub pages {{
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_search_header => 1,
-		hero_header => 1,
-		hero_header_text => 1,
 		js_page_type => 'Press',
 	}
 }}
