@@ -171,6 +171,6 @@
 			<input type="email" placeholder="Your email address" class="abt__input frm__input t-center" name="email" />
 			<input type="submit" value="Subscribe" class="abt__btn btn btn--primary btn--rounded tx-up" />
 		</form>
-		<p class="tx-clr--grey-dark t-xs">Your email address will not be shared or associated with anonymous searches. <a class="abt--newsletter__link" href="https://spreadprivacy.com/google-search-history-4bae7619407d">Example Message</a></p>
+		<p class="abt--newsletter__text tx-clr--grey-dark t-xs">Your email address will not be shared or associated with anonymous searches. <a class="abt--newsletter__link" href="https://spreadprivacy.com/google-search-history-4bae7619407d">Example Message</a></p>
 	</div>
 </div>
