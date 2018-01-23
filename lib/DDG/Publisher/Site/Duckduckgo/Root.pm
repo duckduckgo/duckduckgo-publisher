@@ -15,16 +15,16 @@ sub pages {{
 		copyright_text => 'Privacy, simplified.',
 		no_content_internal => 1,
 		no_spacer => 1,
-		no_cw => 1,
 		hero_header => 1,
-		hero_header_text => 1,
+		no_hero_header_icon => 1,
+		no_cw => 1,
 		js_page_type => 'About',
 		ddg_events => [{
 			date => 'February 29, 2008',
 			title => 'We Hatched',
 			snippet => 'DuckDuckGo began as an idea for a better search engine experience. We hatched out of a few servers in a dusty basement.',
 			type => 'company',
-			icon => 'idea-b',
+			icon => 'idea-2',
 			year => '2008',
 		},{
 			date => 'September 25, 2008',
@@ -64,7 +64,6 @@ sub pages {{
 			title => 'Headquarters',
 			snippet => 'We finally moved out of Gabriel’s basement into our fortress in Paoli, PA. It really looks like a castle!',
 			type => 'company',
-			icon => 'company-b',
 		},{
 			date => 'January 16, 2012',
 			title => 'Redesign',
@@ -112,6 +111,7 @@ sub pages {{
 			type => 'company',
 			subtype => 'foss',
 			icon => 'gift',
+			year => '2014',
 		},{
 			date => 'March 17, 2014',
 			title => 'Employee #10',
@@ -171,13 +171,13 @@ sub pages {{
 			type => 'company',
 			subtype => 'foss',
 			icon => 'love',
+			year => '2017',
 		},{
 			date => 'November 13, 2017',
 			title => '20,000,000',
 			snippet => 'Over 20 million searches in a single day. Privacy is mainstream and more and more privacy conscious people have #ComeToTheDuckSide.',
 			type => 'traffic',
 			icon => 'privacy',
-			year => '2017',
 		}],
 
 		news_articles => [{
@@ -296,18 +296,17 @@ sub pages {{
 		no_spacer => 1,
 		no_content_internal => 1,
 		js_skip_init => 1
-        },
-        app => sub {
-            nav_footer => 0,
-            no_footer_arrow => 1,
-            copyright_footer => 0,
-            no_content_internal => 1,
-            no_spacer => 1,
-            no_search_header => 0,
-            hero_header => 1,
-            hero_header_text => 1,
-            js_page_type => 'Addons',
-        },
+		},
+	app => sub {
+		nav_footer => 0,
+		no_footer_arrow => 1,
+		copyright_footer => 0,
+		no_content_internal => 1,
+		no_spacer => 1,
+		hero_header => 1,
+		no_hero_header_icon => 1,
+		js_page_type => 'Addons',
+	},
 	donations => sub {
 		nav_footer => 1,
 		no_footer_arrow => 1,
@@ -459,7 +458,7 @@ sub pages {{
 		no_content_internal => 1,
 		no_spacer => 1,
 		hero_header => 1,
-		hero_header_text => 1,
+		no_hero_header_icon => 1,
 		js_page_type => 'Press',
 	}
 }}
