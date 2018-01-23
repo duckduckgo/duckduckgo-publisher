@@ -149,8 +149,8 @@
 <a class="anchor" name="team"></a>
 <div class="abt  abt--map  blk  blk--content  blk--alt  map  no-js__hide">
 	<div class="cw--c">
-		<h2 class="abt__title">Meet our global team</h2>
 		<a class="abt--map__link tx-up" href="/hiring">we're hiring</a>
+		<h2 class="abt__title">Our Global Team</h2>
 	</div>
 	<div class="js-team-map"></div>
 </div>
