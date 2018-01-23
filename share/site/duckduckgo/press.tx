@@ -54,7 +54,7 @@
 			<h3 class="press__title--small tx-up">from our blog</h3>
 
 			<!-- Blog Cards -->
-			<div class="flex-row press__blog js-press-blog"></div>
+			<div class="press__blog js-press-blog"></div>
 		</div>
 	</div>
 </div>

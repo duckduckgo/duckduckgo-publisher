@@ -133,7 +133,7 @@
 			<hr class="abt__hr">
 			<h3 class="abt__title--small tx-up">from our blog</h3>
 			<!-- Blog Cards -->
-			<div class="flex-row abt--blog js-abt-blog"></div>
+			<div class="abt--blog js-abt-blog"></div>
 		</div>
 	</div>
 </div>
