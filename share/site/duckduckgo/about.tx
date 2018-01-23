@@ -169,8 +169,8 @@
 			<input type="hidden" name="campaign" value="b" />
 			<input type="hidden" name="flow" value="about" />
 			<input type="email" placeholder="Your email address" class="frm__input t-center--screen-xs" name="email" />
-			<input type="submit" value="Subscribe" class="abt__btn btn btn--primary" />
+			<input type="submit" value="Subscribe" class="abt__btn btn btn--primary btn--rounded" />
 		</form>
-		<p class="tx-clr--grey-dark t-xs">Your email address will not be shared or associated with anonymous searches. [<a href="https://spreadprivacy.com/google-search-history-4bae7619407d">Example message</a>]</p>
+		<p class="tx-clr--grey-dark t-xs">Your email address will not be shared or associated with anonymous searches. <a class="abt--newsletter__link" href="https://spreadprivacy.com/google-search-history-4bae7619407d">Example message</a></p>
 	</div>
 </div>
