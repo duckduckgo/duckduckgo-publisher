@@ -55,7 +55,7 @@
 								<img class="timeline__logo" src="/assets/common/icons/story.svg" />
 							</noscript>
 							<img class="timeline__logo js-lazysvg no-js__hide" src="" data-src="/assets/common/icons/story.svg" aria-hidden="true">
-							<h2 class="abt__title">Our story</h2>
+							<h2 class="abt__title">Our Story</h2>
 							<p class="timeline__snippet">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where you go on the Internet. Check out our story.</p>
 						</div>
 						<:- for $ddg_events -> $event { -:>
@@ -127,7 +127,7 @@
 <!-- Mission -->
 <div class="abt  abt--mission  blk  blk--alt  blk--content">
 	<div class="cw--c">
-		<h2 class="abt__title">Our mission</h2>
+		<h2 class="abt__title">Our Mission</h2>
 		<p class="abt__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
 		<div class="no-js__hide">
 			<hr class="abt__hr">
