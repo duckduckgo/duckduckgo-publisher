@@ -99,7 +99,10 @@
 <div class="press press--message blk blk--content">
 	<div class="cw--c">
 		<div class="flex-row">
-			<p class="press--message__text tx-clr--slate">The Internet shouldn't feel so creepy, and getting the privacy people want online should be as simple as closing the blinds.</p>
+			<div class="press--message__content">
+				<h2 class="press__title">You deserve privacy.</h2>
+				<p class="press--message__text tx-clr--slate">The Internet shouldn't feel so creepy, and getting the privacy you want online should be as simple as closing the blinds.</p>
+			</div>
 			<img class="press--message__image" src="/assets/press/closing-blinds.svg" aria-hidden="true">
 		</div>
 	</div>
