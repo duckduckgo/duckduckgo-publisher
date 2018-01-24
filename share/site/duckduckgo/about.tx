@@ -14,25 +14,25 @@
 		<hr class="abt__hr">
 		<h3 class="abt__title--small tx-up">Fast Facts</h3>
 		<div class="flex-row abt__facts">
-			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/traffic">
+			<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/traffic">
 				<img class="fact__card__icon" src="/assets/common/icons/standalone/search.svg" aria-hidden="true">
 				<h3 class="fact__card__title">16B</h3>
 				<h4 class="fact__card__subtitle">Private Searches</h4>
 				<span class="fact__card__text">And Counting</span>
 			</a>
-			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about#team">
+			<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/about#team">
 				<img class="fact__card__icon" src="/assets/common/icons/standalone/privacy.svg" aria-hidden="true">
 				<h3 class="fact__card__title">45</h3>
 				<h4 class="fact__card__subtitle">Employees</h4>
 				<span class="fact__card__text">Making it happen</span>
 			</a>
-			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about">
+			<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/about">
 				<img class="fact__card__icon" src="/assets/common/icons/standalone/launch.svg" aria-hidden="true">
 				<h3 class="fact__card__title">2008</h3>
 				<h4 class="fact__card__subtitle">Founded</h4>
 				<span class="fact__card__text">Ten Years &amp; Counting</span>
 			</a>
-			<a class="fact__card bg-clr--white" href="https://duckduckgo.com/donations">
+			<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/donations">
 				<img class="fact__card__icon" src="/assets/common/icons/standalone/gift.svg" aria-hidden="true">
 				<h3 class="fact__card__title">$800K</h3>
 				<h4 class="fact__card__subtitle">Donated</h4>
@@ -100,7 +100,7 @@
 				<img src="" data-src="/assets/common/icons/privacy-tips-2.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Privacy, simplified.</h2>
 				<p class="links__card__text">We don’t track you, and we stop others from tracking you, so you can Internet with peace of mind.</p>
-				<a href="https://duckduckgo.com/app" class="abt__btn btn btn--primary tx-up">get privacy essentials</a>
+				<a href="https://duckduckgo.com/app" class="abt__btn btn btn--primary tx-up js-static-link">get privacy essentials</a>
 			</div>
 			<div class="links__card">
 				<noscript>
@@ -109,7 +109,7 @@
 				<img src="" data-src="/assets/common/icons/search-shield.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Search privately.</h2>
 				<p class="links__card__text">What you search for is your own business. Switch to the search engine that doesn’t track you.</p>
-				<a href="https://duckduckgo.com/" class="abt__btn btn btn--primary tx-up">search privately</a>
+				<a href="https://duckduckgo.com/" class="abt__btn btn btn--primary tx-up js-static-link">search privately</a>
 			</div>
 			<div class="links__card">
 				<noscript>
@@ -118,7 +118,7 @@
 				<img src="" data-src="/assets/common/icons/privacy-tips-4.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Get privacy tips.</h2>
 				<p class="links__card__text">You deserve privacy online. And now with DuckDuckGo’s help, you can learn how to get it.</p>
-				<a href="https://spreadprivacy.com/tag/device-privacy-tips/" class="abt__btn btn btn--primary tx-up">stay informed</a>
+				<a href="https://spreadprivacy.com/tag/device-privacy-tips/" class="abt__btn btn btn--primary tx-up js-static-link">stay informed</a>
 			</div>
 		</div>
 	</div>
@@ -148,13 +148,13 @@
 <!-- Team Map -->
 <a class="anchor" name="team"></a>
 <div class="abt  abt--map  blk  blk--content  blk--alt  map  no-js__hide">
-	<a class="abt--map__link--right tx-up hide--screen-s" href="/hiring">we're hiring</a>
+	<a class="abt--map__link--right tx-up hide--screen-s js-static-link" href="/hiring">we're hiring</a>
 	<div class="cw--c">
 		<h2 class="abt__title">Our Global Team</h2>
 	</div>
 	<div class="js-team-map"></div>
 	<div class="cw--c hide show--screen-s">
-		<a class="abt--map__link tx-up" href="/hiring">we're hiring</a>
+		<a class="abt--map__link tx-up js-static-link" href="/hiring">we're hiring</a>
 	</div>
 </div>
 
