@@ -21,7 +21,7 @@
 		<div class="blk--foot__nav-col  half  whole--screen-s">
 			<h5 class="blk--foot__nav-head">About Us</h5>
 			<p>DuckDuckGo is an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs. With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where the Internet takes you.</p>
-			<a class="blk--foot__nav-link js-static-foot-link" data-linkType="footer" href="https://duckduckgo.com/about">Learn more about our story <span class="ddgsi ddgsi-right-sign"></span></a>
+			<a class="blk--foot__nav-link js-static-foot-link" href="https://duckduckgo.com/about">Learn more about our story <span class="ddgsi ddgsi-right-sign"></span></a>
 		</div>
 	</div>
 </div>
