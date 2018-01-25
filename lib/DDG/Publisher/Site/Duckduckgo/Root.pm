@@ -306,9 +306,9 @@ sub pages {{
 		hero_header => 1,
 		no_hero_header_icon => 1,
 		js_page_type => 'Addons',
-                about_footer => 1,
-                copyright_footer => 1,
-                copyright_text => 'Privacy, simplified.',
+		about_footer => 1,
+		copyright_footer => 1,
+		copyright_text => 'Privacy, simplified.',
 	},
 	donations => sub {
 		nav_footer => 1,
