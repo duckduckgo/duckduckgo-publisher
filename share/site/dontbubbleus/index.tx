@@ -59,7 +59,7 @@
 <h4><: l('you keep getting more and more') :></h4>
 <div class="frame-wrap" id="fig7" name="fig7">
 	<div class="frame"><span class="fig"><: l('Fig. %d',7) :></span>
-		<a target="_blank" href="http://www.funnyordie.com/videos/80a71ef8cb/more-cowbell">
+		<a target="_blank" href="https://www.funnyordie.com/videos/80a71ef8cb/more-cowbell">
 			<img src="images/filter33.jpg" alt="<: l('what this song needs ... is more cowbell') :>" />
 		</a>
 	</div>
@@ -102,7 +102,7 @@
 <div class="frame-wrap" id="fig10" name="fig10">
 	<div class="frame"><span class="fig"><: l('Fig. %d',10) :></span>
 		
-		<a target="_blank" href="http://www.amazon.com/Filter-Bubble-What-Internet-Hiding/product-reviews/1594203008/ref=cm_cr_pr_btm_helpful?ie=UTF8&showViewpoints=0">
+		<a target="_blank" href="https://www.amazon.com/Filter-Bubble-What-Internet-Hiding/product-reviews/1594203008/ref=cm_cr_pr_btm_helpful?ie=UTF8&showViewpoints=0">
 			<img src="images/filter6.png" alt="<: l('amazon review pointing out search distortions') :>" />
 		</a>
 		<p>(<: l('%s a Google search for "%s"',r('<a target="_blank" href="https://encrypted.google.com/search?hl=en&q=guns"><b>') ~ l('Try') ~ r('</b></a>'),'guns') :>)</p>
@@ -113,7 +113,7 @@
 <h2><: l('You are living in a Filter Bubble') :></h2>
 <div class="frame-wrap" id="fig11" name="fig11">
 	<div class="frame"><span class="fig"><: l('Fig. %d',11) :></span>
-		<a target="_blank" href="http://www.amazon.com/Filter-Bubble-What-Internet-Hiding/dp/1594203008/ref=sr_1_1?ie=UTF8&qid=1308070349&sr=8-1">
+		<a target="_blank" href="https://www.amazon.com/Filter-Bubble-What-Internet-Hiding/dp/1594203008/ref=sr_1_1?ie=UTF8&qid=1308070349&sr=8-1">
 			<img src="images/book.gif" alt="<: l('The Filter Bubble - What the internet is hiding from you') :>" />
 		</a>
 	</div>
@@ -154,7 +154,7 @@
 <h4><: l('which may limit your exposure to opposing information.') :></h4>
 <div class="frame-wrap" id="fig14" name="fig14">
 	<div class="frame"><span class="fig"><: l('Fig. %d',14) :></span>
-		<a target="_blank" href="http://xkcd.com/">
+		<a target="_blank" href="https://xkcd.com/">
 			<img src="images/filter18.png" alt="<: l('xkcd comic - someone is wrong on the internet!') :>" />
 		</a>
 	</div>
@@ -174,10 +174,10 @@
 	</div>
 </div>
 
-<h4><: l('across the Internet and even %s.',r('<a href="http://googleblog.blogspot.com/2009/12/personalized-search-for-everyone.html">') ~ l('when signed out') ~ r('</a>')) :></h4>
+<h4><: l('across the Internet and even %s.',r('<a href="https://googleblog.blogspot.com/2009/12/personalized-search-for-everyone.html">') ~ l('when signed out') ~ r('</a>')) :></h4>
 <div class="frame-wrap" id="fig17" name="fig17">
 	<div class="frame"><span class="fig"><: l('Fig. %d',17) :></span>
-		<a target="_blank" href="http://www.amazon.com/Filter-Bubble-What-Internet-Hiding/dp/1594203008/ref=sr_1_1?ie=UTF8&qid=1308070349&sr=8-1"><img src="images/filter8.jpg" alt="<: l('popular internet sites represented by bubbles') :>" /></a>
+		<a target="_blank" href="https://www.amazon.com/Filter-Bubble-What-Internet-Hiding/dp/1594203008/ref=sr_1_1?ie=UTF8&qid=1308070349&sr=8-1"><img src="images/filter8.jpg" alt="<: l('popular internet sites represented by bubbles') :>" /></a>
 	</div>
 </div>
 
@@ -215,7 +215,7 @@
 		<h3>&ldquo;<: l('Top 50 Best Websites') :>&rdquo;</h3>
 		</span>
 		</a>
-		<a href="http://searchengineland.com/could-duckduckgo-be-the-biggest-long-term-threat-to-google-118117"target="_sel" >
+		<a href="https://searchengineland.com/could-duckduckgo-be-the-biggest-long-term-threat-to-google-118117"target="_sel" >
 		<span class="half clear">
 		<img src="images/sel.png" alt="SearchEngineLand" />
 		</span>

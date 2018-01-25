@@ -22,23 +22,23 @@ pre {
 <div style="margin-bottom:30px;"></div>
 Our Instant Answer API gives you free access to many of our instant answers like:
 <a href="/?q=valley+forge+national+park&ia=about">topic summaries</a>
-(<a href="http://api.duckduckgo.com/?q=valley+forge+national+park&format=json&pretty=1">API example</a>),
+(<a href="https://api.duckduckgo.com/?q=valley+forge+national+park&format=json&pretty=1">API example</a>),
 <a href="/?q=simpsons+characters&ia=list">categories</a>
-(<a href="http://api.duckduckgo.com/?q=simpsons+characters&format=json&pretty=1">API example</a>),
+(<a href="https://api.duckduckgo.com/?q=simpsons+characters&format=json&pretty=1">API example</a>),
 <a href="/?q=apple&ia=meanings">disambiguation</a>
-(<a href="http://api.duckduckgo.com/?q=apple&format=json&pretty=1">API example</a>),
+(<a href="https://api.duckduckgo.com/?q=apple&format=json&pretty=1">API example</a>),
 and
 <a href="/bang.html">!bang redirects</a>
-(<a href="http://api.duckduckgo.com/?q=!imdb+rushmore&format=json&pretty=1&no_redirect=1">API example</a>).
+(<a href="https://api.duckduckgo.com/?q=!imdb+rushmore&format=json&pretty=1&no_redirect=1">API example</a>).
 
 <div style="margin-bottom:20px;"></div>
 This API does not include all of our links, however. That is, it is not a full search results API or a way to get DuckDuckGo results into your applications beyond our instant answers. Because of the way <a href="https://duck.co/help/results/sources">we generate our search results</a>, we unfortunately do not have the rights to fully syndicate our results, free or paid. For the same reason, we cannot allow framing our results without our branding. Please see <a href="https://duck.co/help/company/partnerships">our partnerships page</a> for more info on guidelines and getting in touch with us.
 
 <div style="margin-bottom:20px;"></div>
-Our long-term goal is for <a href="/tour">all of our instant answers</a> to be available through this open API. Many of these instant answers are open source via our <a href="http://duckduckhack.com/">DuckDuckHack</a> platform. Using that platform, you can add your own APIs and data sources as well.
+Our long-term goal is for <a href="/tour">all of our instant answers</a> to be available through this open API. Many of these instant answers are open source via our <a href="https://duckduckhack.com/">DuckDuckHack</a> platform. Using that platform, you can add your own APIs and data sources as well.
 
 <p style="margin-top: 20px;">
-Our instant answers come from a variety of sources, including <a href="https://www.wikipedia.org/">Wikipedia</a>, <a href="http://wikia.com/">Wikia</a>, <a href="https://www.crunchbase.com/">CrunchBase</a>, <a href="https://github.com">GitHub</a>, <a href="http://wikihow.com">WikiHow</a>, <a href="http://thefreedictionary.com">The Free Dictionary</a> &ndash; over 100 in total.
+Our instant answers come from a variety of sources, including <a href="https://www.wikipedia.org/">Wikipedia</a>, <a href="https://wikia.com/">Wikia</a>, <a href="https://www.crunchbase.com/">CrunchBase</a>, <a href="https://github.com">GitHub</a>, <a href="http://wikihow.com">WikiHow</a>, <a href="http://thefreedictionary.com">The Free Dictionary</a> &ndash; over 100 in total.
 
 <p style="margin-top: 20px;">
   This API serves <a href="/traffic.html">over 10,000,000 queries a day</a> for a variety of uses, e.g.:
@@ -52,7 +52,7 @@ Our instant answers come from a variety of sources, including <a href="https://w
 
 <p style="margin-top: 25px;">
 To consume it yourself, you can use one of the language libraries listed below or simply add '&format=json' (or xml if you prefer) onto any query URL in the api subdomain, e.g.
-<br><a href="http://api.duckduckgo.com/?q=DuckDuckGo&format=json&pretty=1">http://api.duckduckgo.com/?q=DuckDuckGo&format=json</a>
+<br><a href="https://api.duckduckgo.com/?q=DuckDuckGo&format=json&pretty=1">https://api.duckduckgo.com/?q=DuckDuckGo&format=json</a>
 
 <p style="margin-top: 25px;">
 Here are the requirements for use:
@@ -168,9 +168,9 @@ Type: ""
 
 <p style="margin-top: 5px;">
 <li class="small">Queries can be case sensitive e.g.
-<a href="/?q=blackberry">blackberry</a> (<a href="http://api.duckduckgo.com/?q=blackberry&format=json&pretty=1">API example</a>)
+<a href="/?q=blackberry">blackberry</a> (<a href="https://api.duckduckgo.com/?q=blackberry&format=json&pretty=1">API example</a>)
 vs
-<a href="/?q=BlackBerry">BlackBerry</a> (<a href="http://api.duckduckgo.com/?q=BlackBerry&format=json&pretty=1">API example</a>). In the first case (lowercase blackberry) it returns a disambiguation page; in the latter case (MixedCase BlackBerry) it returns info primarily about the device (inferring what you meant from the case).
+<a href="/?q=BlackBerry">BlackBerry</a> (<a href="https://api.duckduckgo.com/?q=BlackBerry&format=json&pretty=1">API example</a>). In the first case (lowercase blackberry) it returns a disambiguation page; in the latter case (MixedCase BlackBerry) it returns info primarily about the device (inferring what you meant from the case).
 
 <p style="margin-top: 5px;">
 <li class="small">This API can work over an encrypted (SSL/HTTPS) connection.
@@ -193,13 +193,13 @@ vs
 <li><a href="https://pypi.python.org/pypi/duckduckgo2/">Python library</a> by mikejs.
 <li><a href="http://dhruvbird.com/ddb/zc.html">Zero-click jQuery Search Widget</a> by <a href="https://twitter.com/dhruvbird">@dhruvbird</a> that provides info for you in iframe format.
 <li><a href="https://github.com/SiegfriedEhret/jddg">jddg jQuery plugin</a> [<a href="http://htmlpreview.github.io/?https://github.com/SiegfriedEhret/jddg/blob/master/demo/index.html">demo</a>] by <a href="https://ehret.me/">Siegfried Ehret</a>
-<li><a href="https://github.com/andrewrjones/ruby-duck-duck-go">Ruby Gem</a> by <a href="http://andrew-jones.com/">Andrew Jones</a>
+<li><a href="https://github.com/andrewrjones/ruby-duck-duck-go">Ruby Gem</a> by <a href="https://andrew-jones.com">Andrew Jones</a>
 <li><a href="https://github.com/ajanicij/goduckgo">Go library</a> by <a href="https://github.com/ajanicij">ajanicij</a>
 <li><a href="https://github.com/lukewendling/ddg-api">Node.js module</a> by <a href="http://lukewendling.com">Luke Wendling</a>
-<li><a href="https://github.com/jawerty/node-ddg">Node.js wrapper</a> by <a href="http://jawerty.github.io/">Jared Wright</a>
+<li><a href="https://github.com/jawerty/node-ddg">Node.js wrapper</a> by <a href="https://jawerty.github.io/">Jared Wright</a>
 <li><a href="https://www.npmjs.com/package/node-duckduckgo">Node.js module</a> by <a href="https://www.npmjs.com/~franckldx">Franck Ledoux</a>
 <li><a href="https://github.com/timkly/DuckDuckGo.Net">.Net library</a> by <a href="http://tk.id.au/">Tim Kelly</a>
-<li><a href="https://github.com/mwhittaker/duckduckgo-ocaml">OCaml Library</a> by <a href="http://mwhittaker.github.io/">Michael Whittaker</a>
+<li><a href="https://github.com/mwhittaker/duckduckgo-ocaml">OCaml Library</a> by <a href="https://mwhittaker.github.io/">Michael Whittaker</a>
 <li><a href="https://github.com/Aaronepower/ddg/">Rust library</a> by <a href="https://github.com/Aaronepower/">Aaron Power</a>
 <li><a href="https://github.com/dirkschumacher/duckduckr">R library</a> by <a href="https://github.com/dirkschumacher">Dirk Schumacher</a>
 <li>If you make another supporting library, we'll add it here!
@@ -237,7 +237,7 @@ Yes and no. We do not want to confuse users into thinking that your application 
 
 <p style="margin-top: 5px;">
 <span class="small">
-No, though many of the instant answers it provides are open source via our <a href="http://duckduckhack.com/">DuckDuckHack platform</a>, which is completely open source. For more information on DuckDuckGo open source, please see <a href="https://duck.co/help/open-source/opensource-overview">this help article</a>.
+No, though many of the instant answers it provides are open source via our <a href="https://duckduckhack.com/">DuckDuckHack platform</a>, which is completely open source. For more information on DuckDuckGo open source, please see <a href="https://duck.co/help/open-source/opensource-overview">this help article</a>.
 </span>
 
 
