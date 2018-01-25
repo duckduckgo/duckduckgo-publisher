@@ -16,25 +16,25 @@
 			<!-- Fact Cards -->
 			<h3 class="press__title--small tx-up">Fast Facts</h3>
 			<div class="flex-row press__facts">
-				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/traffic">
+				<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/traffic">
 					<img class="fact__card__icon" src="/assets/common/icons/standalone/search.svg" aria-hidden="true">
 					<h3 class="fact__card__title">16B</h3>
 					<h4 class="fact__card__subtitle">Private Searches</h4>
 					<span class="fact__card__text">And Counting</span>
 				</a>
-				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about#team">
+				<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/about#team">
 					<img class="fact__card__icon" src="/assets/common/icons/standalone/privacy.svg" aria-hidden="true">
 					<h3 class="fact__card__title">45</h3>
 					<h4 class="fact__card__subtitle">Employees</h4>
 					<span class="fact__card__text">Making it happen</span>
 				</a>
-				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/about">
+				<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/about">
 					<img class="fact__card__icon" src="/assets/common/icons/standalone/launch.svg" aria-hidden="true">
 					<h3 class="fact__card__title">2008</h3>
 					<h4 class="fact__card__subtitle">Founded</h4>
 					<span class="fact__card__text">Ten Years &amp; Counting</span>
 				</a>
-				<a class="fact__card bg-clr--white" href="https://duckduckgo.com/donations">
+				<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/donations">
 					<img class="fact__card__icon" src="/assets/common/icons/standalone/gift.svg" aria-hidden="true">
 					<h3 class="fact__card__title">$800K</h3>
 					<h4 class="fact__card__subtitle">Donated</h4>
@@ -77,19 +77,19 @@
 				<img src="/assets/common/icons/guidelines.svg" aria-hidden="true" class="asset__card__icon">
 				<h2 class="asset__card__title">Brand & Logo</h2>
 				<p class="asset__card__text">Download the latest logos, color palettes, and brand-related assets.</p>
-				<a href="/assets/press/DuckDuckGo-Brand-Logo.zip" class="press__btn btn btn--primary tx-up">download</a>
+				<a href="/assets/press/DuckDuckGo-Brand-Logo.zip" class="press__btn btn btn--primary tx-up js-static-link">download</a>
 			</div>
 			<div class="asset__card">
 				<img src="/assets/common/icons/photos.svg" aria-hidden="true" class="asset__card__icon">
 				<h2 class="asset__card__title">Photos & More</h2>
 				<p class="asset__card__text">Check out photos and other information about our global team.</p>
-				<a href="/assets/press/DuckDuckGo-Photos.zip" class="press__btn btn btn--primary tx-up">download</a>
+				<a href="/assets/press/DuckDuckGo-Photos.zip" class="press__btn btn btn--primary tx-up js-static-link">download</a>
 			</div>
 			<div class="asset__card">
 				<img src="/assets/common/icons/contact.svg" aria-hidden="true" class="asset__card__icon">
 				<h2 class="asset__card__title">Contact Us</h2>
 				<p class="asset__card__text">Reach out for further inquiries, interview requests, or just say hi.</p>
-				<a href="mailto:press@duckduckgo.com" class="press__btn btn btn--primary tx-up">press@duckduckgo.com</a>
+				<a href="mailto:press@duckduckgo.com" class="press__btn btn btn--primary tx-up js-static-link">press@duckduckgo.com</a>
 			</div>
 		</div>
 	</div>
@@ -99,7 +99,10 @@
 <div class="press press--message blk blk--content">
 	<div class="cw--c">
 		<div class="flex-row">
-			<p class="press--message__text tx-clr--slate">The Internet shouldn't feel so creepy, and getting the privacy people want online should be as simple as closing the blinds.</p>
+			<div class="press--message__content">
+				<h2 class="press__title">You deserve privacy.</h2>
+				<p class="press--message__text tx-clr--slate">The Internet shouldn't feel so creepy, and getting the privacy you want online should be as simple as closing the blinds.</p>
+			</div>
 			<img class="press--message__image" src="/assets/press/closing-blinds.svg" aria-hidden="true">
 		</div>
 	</div>
