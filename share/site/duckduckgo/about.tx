@@ -1,6 +1,6 @@
 <!-- Hero -->
 <div class="abt  abt--hero  blk  blk--hero">
-	<div class="cw--c">
+	<div class="cw--c abt--hero__top">
 		<img class="abt--hero__logo" src="/assets/common/dax-logo.svg" alt="DuckDuckGo Dax Logo">
 		<h1 class="abt--hero__title">Welcome to DuckDuckGo</h1>
 		<p class="abt--hero__text">We’re setting the new standard of trust online, empowering people to take control of their information.</p>
