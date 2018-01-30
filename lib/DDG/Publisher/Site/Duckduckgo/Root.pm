@@ -178,6 +178,12 @@ sub pages {{
 			snippet => 'Over 20 million searches in a single day. Privacy is mainstream and more and more privacy conscious people have #ComeToTheDuckSide.',
 			type => 'traffic',
 			icon => 'privacy',
+		},{
+			date => 'January 23, 2018',
+			title => 'Protection Beyond Search',
+			snippet => 'We extended our privacy protection beyond the search box with the launch of our new mobile app & browser extension, available on all major platforms.',
+			type => 'priacy',
+			icon => 'key',
 		}],
 
 		news_articles => [{
