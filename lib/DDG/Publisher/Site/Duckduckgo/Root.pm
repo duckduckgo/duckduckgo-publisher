@@ -183,7 +183,7 @@ sub pages {{
 			title => 'Protection Beyond Search',
 			snippet => 'We extended our privacy protection beyond the search box with the launch of our new mobile app & browser extension, available on all major platforms.',
 			type => 'priacy',
-			icon => 'key',
+			icon => 'privacy-tips-2',
 			year => '2018',
 		}],
 
