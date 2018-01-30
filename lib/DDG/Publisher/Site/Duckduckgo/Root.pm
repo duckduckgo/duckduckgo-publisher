@@ -184,6 +184,7 @@ sub pages {{
 			snippet => 'We extended our privacy protection beyond the search box with the launch of our new mobile app & browser extension, available on all major platforms.',
 			type => 'priacy',
 			icon => 'key',
+			year => '2018',
 		}],
 
 		news_articles => [{
