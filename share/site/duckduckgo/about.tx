@@ -8,7 +8,7 @@
 	<img class="abt--hero__img whole" src="/assets/about/hiker.svg" aria-hidden="true">
 </div>
 
-<div class="abt abt--hero-bottom blk">
+<div class="abt abt--hero-bottom blk blk--fact-cards">
 	<div class="cw--c">
 		<p class="abt--hero__subtext tx-clr--white"><b>You deserve privacy</b>. Companies are <b>making money</b> off of <b>your private information</b> online without your consent.<br><br>At DuckDuckGo, we don’t think the Internet should feel so <b>creepy</b> and getting the privacy you deserve online should be as <b>simple</b> as closing the blinds.</p>
 		<hr class="abt__hr">

@@ -8,7 +8,7 @@
 	<img class="press--hero__img whole" src="/assets/press/camping-updated.svg" aria-hidden="true">
 </div>
 
-<div class="press press--hero-bottom blk">
+<div class="press press--hero-bottom blk blk--fact-cards">
 	<div class="cw--c">
 		<p class="press--hero__subtext tx-clr--white">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you
 			no matter where you go on the Internet.</p>
