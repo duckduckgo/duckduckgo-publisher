@@ -15,30 +15,30 @@
 			<hr class="press__hr">
 			<!-- Fact Cards -->
 			<h3 class="press__title--small tx-up">Fast Facts</h3>
-			<div class="flex-row press__facts">
-				<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/traffic">
-					<img class="fact__card__icon" src="/assets/common/icons/standalone/search.svg" aria-hidden="true">
-					<h3 class="fact__card__title">16B</h3>
-					<h4 class="fact__card__subtitle">Private Searches</h4>
-					<span class="fact__card__text">And Counting</span>
+			<div class="fact-cards press__facts">
+				<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/traffic">
+					<img class="fact-card__icon" src="/assets/common/icons/standalone/search.svg" aria-hidden="true">
+					<h3 class="fact-card__title">16B</h3>
+					<h4 class="fact-card__subtitle">Private Searches</h4>
+					<span class="fact-card__text">And Counting</span>
 				</a>
-				<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/about#team">
-					<img class="fact__card__icon" src="/assets/common/icons/standalone/privacy.svg" aria-hidden="true">
-					<h3 class="fact__card__title">45</h3>
-					<h4 class="fact__card__subtitle">Employees</h4>
-					<span class="fact__card__text">Making it happen</span>
+				<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/about#team">
+					<img class="fact-card__icon" src="/assets/common/icons/standalone/privacy.svg" aria-hidden="true">
+					<h3 class="fact-card__title">45</h3>
+					<h4 class="fact-card__subtitle">Employees</h4>
+					<span class="fact-card__text">Making it happen</span>
 				</a>
-				<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/about">
-					<img class="fact__card__icon" src="/assets/common/icons/standalone/launch.svg" aria-hidden="true">
-					<h3 class="fact__card__title">2008</h3>
-					<h4 class="fact__card__subtitle">Founded</h4>
-					<span class="fact__card__text">Ten Years &amp; Counting</span>
+				<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/about">
+					<img class="fact-card__icon" src="/assets/common/icons/standalone/launch.svg" aria-hidden="true">
+					<h3 class="fact-card__title">2008</h3>
+					<h4 class="fact-card__subtitle">Founded</h4>
+					<span class="fact-card__text">Ten Years &amp; Counting</span>
 				</a>
-				<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/donations">
-					<img class="fact__card__icon" src="/assets/common/icons/standalone/gift.svg" aria-hidden="true">
-					<h3 class="fact__card__title">$800K</h3>
-					<h4 class="fact__card__subtitle">Donated</h4>
-					<span class="fact__card__text">Privacy Donations</span>
+				<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/donations">
+					<img class="fact-card__icon" src="/assets/common/icons/standalone/gift.svg" aria-hidden="true">
+					<h3 class="fact-card__title">$800K</h3>
+					<h4 class="fact-card__subtitle">Donated</h4>
+					<span class="fact-card__text">Privacy Donations</span>
 				</a>
 			</div>
 		</div>
