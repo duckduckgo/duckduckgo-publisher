@@ -95,9 +95,9 @@
 		<div class="flex-row">
 			<div class="links__card">
 				<noscript>
-					<img src="/assets/common/icons/privacy-tips-2.svg" aria-hidden="true" class="links__card__icon">
+					<img src="/assets/common/icons/devices.svg" aria-hidden="true" class="links__card__icon">
 				</noscript>
-				<img src="" data-src="/assets/common/icons/privacy-tips-2.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
+				<img src="" data-src="/assets/common/icons/devices.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Privacy, simplified.</h2>
 				<p class="links__card__text">Our app and browser extension stop you from being tracked, so you can Internet with peace of mind.</p>
 				<a href="https://duckduckgo.com/app" class="abt__btn btn btn--primary tx-up js-static-link">get privacy essentials</a>
