@@ -8,35 +8,35 @@
 	<img class="abt--hero__img whole" src="/assets/about/hiker.svg" aria-hidden="true">
 </div>
 
-<div class="abt abt--hero-bottom blk">
+<div class="abt abt--hero-bottom blk blk--fact-cards">
 	<div class="cw--c">
 		<p class="abt--hero__subtext tx-clr--white"><b>You deserve privacy</b>. Companies are <b>making money</b> off of <b>your private information</b> online without your consent.<br><br>At DuckDuckGo, we don’t think the Internet should feel so <b>creepy</b> and getting the privacy you deserve online should be as <b>simple</b> as closing the blinds.</p>
 		<hr class="abt__hr">
 		<h3 class="abt__title--small tx-up">Fast Facts</h3>
-		<div class="flex-row abt__facts">
-			<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/traffic">
-				<img class="fact__card__icon" src="/assets/common/icons/standalone/search.svg" aria-hidden="true">
-				<h3 class="fact__card__title">16B</h3>
-				<h4 class="fact__card__subtitle">Private Searches</h4>
-				<span class="fact__card__text">And Counting</span>
+		<div class="fact-cards abt__facts">
+			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/traffic">
+				<img class="fact-card__icon" src="/assets/common/icons/standalone/search.svg" aria-hidden="true">
+				<h3 class="fact-card__title">16B</h3>
+				<h4 class="fact-card__subtitle">Private Searches</h4>
+				<span class="fact-card__text">And Counting</span>
 			</a>
-			<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/about#team">
-				<img class="fact__card__icon" src="/assets/common/icons/standalone/privacy.svg" aria-hidden="true">
-				<h3 class="fact__card__title">45</h3>
-				<h4 class="fact__card__subtitle">Employees</h4>
-				<span class="fact__card__text">Making it happen</span>
+			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/about#team">
+				<img class="fact-card__icon" src="/assets/common/icons/standalone/privacy.svg" aria-hidden="true">
+				<h3 class="fact-card__title">45</h3>
+				<h4 class="fact-card__subtitle">Employees</h4>
+				<span class="fact-card__text">Making it happen</span>
 			</a>
-			<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/about">
-				<img class="fact__card__icon" src="/assets/common/icons/standalone/launch.svg" aria-hidden="true">
-				<h3 class="fact__card__title">2008</h3>
-				<h4 class="fact__card__subtitle">Founded</h4>
-				<span class="fact__card__text">Ten Years &amp; Counting</span>
+			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/about">
+				<img class="fact-card__icon" src="/assets/common/icons/standalone/launch.svg" aria-hidden="true">
+				<h3 class="fact-card__title">2008</h3>
+				<h4 class="fact-card__subtitle">Founded</h4>
+				<span class="fact-card__text">Ten Years &amp; Counting</span>
 			</a>
-			<a class="fact__card bg-clr--white js-static-link" href="https://duckduckgo.com/donations">
-				<img class="fact__card__icon" src="/assets/common/icons/standalone/gift.svg" aria-hidden="true">
-				<h3 class="fact__card__title">$800K</h3>
-				<h4 class="fact__card__subtitle">Donated</h4>
-				<span class="fact__card__text">Privacy Donations</span>
+			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/donations">
+				<img class="fact-card__icon" src="/assets/common/icons/standalone/gift.svg" aria-hidden="true">
+				<h3 class="fact-card__title">$800K</h3>
+				<h4 class="fact-card__subtitle">Donated</h4>
+				<span class="fact-card__text">Privacy Donations</span>
 			</a>
 		</div>
 	</div>
@@ -95,11 +95,11 @@
 		<div class="flex-row">
 			<div class="links__card">
 				<noscript>
-					<img src="/assets/common/icons/privacy-tips-2.svg" aria-hidden="true" class="links__card__icon">
+					<img src="/assets/common/icons/devices.svg" aria-hidden="true" class="links__card__icon">
 				</noscript>
-				<img src="" data-src="/assets/common/icons/privacy-tips-2.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
+				<img src="" data-src="/assets/common/icons/devices.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Privacy, simplified.</h2>
-				<p class="links__card__text">We don’t track you, and we stop others from tracking you, so you can Internet with peace of mind.</p>
+				<p class="links__card__text">Our app and browser extension stop you from being tracked, so you can Internet with peace of mind.</p>
 				<a href="https://duckduckgo.com/app" class="abt__btn btn btn--primary tx-up js-static-link">get privacy essentials</a>
 			</div>
 			<div class="links__card">
