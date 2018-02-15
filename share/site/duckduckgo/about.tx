@@ -99,7 +99,7 @@
 				</noscript>
 				<img src="" data-src="/assets/common/icons/privacy-tips-2.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
 				<h2 class="links__card__title">Privacy, simplified.</h2>
-				<p class="links__card__text">We don’t track you, and we stop others from tracking you, so you can Internet with peace of mind.</p>
+				<p class="links__card__text">Our app and browser extension stop you from being tracked, so you can Internet with peace of mind.</p>
 				<a href="https://duckduckgo.com/app" class="abt__btn btn btn--primary tx-up js-static-link">get privacy essentials</a>
 			</div>
 			<div class="links__card">
