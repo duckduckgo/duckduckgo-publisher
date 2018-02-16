@@ -15,7 +15,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="js-header-aside"></div>
+	<div class="header--aside js-header-aside"></div>
 </div>
 <: } if $hero_header { :>
 <div class="header-wrap--hero <: if $hero_alt { :>header-wrap--hero--alt<: } :> js-header-wrap">
@@ -26,7 +26,7 @@
 			<a href="<: $hero_header_link :>" class="header--hero__link" target="_ddg_header_link"><: l($hero_header_link_text) :></a>
 		<: } :>
 	</div>
-	<div class="js-header-aside"></div>
+	<div class="header--aside js-header-aside"></div>
 </div>
 <: } :>
 <div class="nav-menu--slideout  js-side-menu"></div>
