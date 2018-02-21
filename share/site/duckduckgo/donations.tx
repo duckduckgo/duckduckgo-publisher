@@ -1,7 +1,8 @@
-<img class="donations__hero__logo" src="/assets/common/dax-logo.svg">
+<img class="donations__hero__img" src="/assets/donations/trees.svg">
+
 <div class="blk blk--hero donations__hero">
-	<img class="donations__hero__img" src="/assets/donations/trees.svg">
 	<div class="cw--c">
+		<img class="donations__hero__logo" src="/assets/common/dax-logo.svg">
 		<h1 class="hd-hr">Donating for&nbsp;Privacy</h1>
 		<p>Every year since 2011, DuckDuckGo has been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
 	</div>
