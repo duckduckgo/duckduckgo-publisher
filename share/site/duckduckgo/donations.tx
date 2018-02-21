@@ -25,23 +25,28 @@
 				<div class="timeline__item">
 					<h3 class="timeline__year"><: $event.year :></h2>
 					<h2 class="timeline__title">
-						<span class="timeline__title__total"><: $event.total :></span
-						><img class="timeline__title__arrow-right" src="/assets/donations/arrow-right.svg"><div class="timeline__title__for">for</div
-						><span class="timeline__title__theme"><: $event.theme :></span>
+						<span class="timeline__title__total"><: $event.total :></span>
+						<img class="timeline__title__arrow-right" src="/assets/donations/arrow-right.svg"><div class="timeline__title__for">for</div>
+						<span class="timeline__title__theme"><: $event.theme :></span>
 					</h2>
-					<p class="timeline__snippet"><: $event.snippet :></p>
+					<p class="timeline__snippet"><: $event.snippet | raw :></p>
 
-					<ul class="timeline__donations"
-						><:- for $event.donations.col1 -> $donation { -:><li
-							><span class="donation__amount"><: $donation.amount :></span
-							><span class="donation__recipient"><a href="<: $donation.url :>"><: $donation.recipient :></a></span
-						></li><:- } -:>
-					</ul
-					><ul class="timeline__donations"
-						><:- for $event.donations.col2 -> $donation { -:><li
-							><span class="donation__amount"><: $donation.amount :></span
-							><span class="donation__recipient"><a href="<: $donation.url :>"><: $donation.recipient :></a></span
-						></li><:- } -:>
+					: macro donation_item -> $donation {
+						: if $donation.amount { 
+						<span class="donation__amount"><: $donation.amount :></span>
+						: }
+						<span class="donation__recipient"><a href="<: $donation.url :>"><: $donation.recipient :></a></span>
+					: }
+
+					<ul class="timeline__donations">
+					: for $event.donations.col1 -> $donation {
+						<li><:- donation_item($donation) -:></li>
+					: }
+					</ul>
+					<ul class="timeline__donations">
+						: for $event.donations.col1 -> $donation {
+							<li><:- donation_item($donation) -:></li>
+						: }
 					</ul>
 				</div>
 			<:- } -:>
