@@ -32,7 +32,7 @@
 					<p class="timeline__snippet"><: $event.snippet | raw :></p>
 
 					: macro donation_item -> $donation {
-						: if $donation.amount { 
+						: if $donation.amount {
 						<span class="donation__amount"><: $donation.amount :></span>
 						: }
 						<span class="donation__recipient"><a href="<: $donation.url :>"><: $donation.recipient :></a></span>
@@ -44,7 +44,7 @@
 					: }
 					</ul>
 					<ul class="timeline__donations">
-						: for $event.donations.col1 -> $donation {
+						: for $event.donations.col2 -> $donation {
 							<li><:- donation_item($donation) -:></li>
 						: }
 					</ul>

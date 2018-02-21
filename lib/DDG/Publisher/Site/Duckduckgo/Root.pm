@@ -358,7 +358,7 @@ sub pages {{
 					{recipient => 'Tails', url => 'https://tails.boum.org/'},
 					{recipient => 'The Calyx Institute', url => 'https://www.calyxinstitute.org/'},
 					{recipient => 'Tor Project', url => 'https://www.torproject.org'},
-					{recipient => 'Terms of Service; Didn’t Read', url => ''},
+					{recipient => 'Terms of Service; Didn’t Read', url => 'https://tosdr.org/'},
 					{recipient => 'World Privacy Forum', url => 'https://www.worldprivacyforum.org'},
 				]
 			}
