@@ -1,1 +1,3 @@
-<div class="header-wrap--home  js-header-wrap"></div>
+<div class="header-wrap--home  js-header-wrap">
+	<div class="header--aside js-header-aside"></div>
+</div>
