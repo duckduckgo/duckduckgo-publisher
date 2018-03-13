@@ -1,20 +1,18 @@
 <div class="blk blk--hero donations__hero">
 	<div class="cw--c">
-		<img class="donations__hero__logo" src="/assets/donations/dax-logo.svg">
+		<img class="donations__hero__logo" src="/assets/common/dax-logo.svg">
 		<h1 class="hd-hr">Donating for&nbsp;Privacy</h1>
-		<p>At DuckDuckGo, every year since 2011 we've been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
+		<p>Every year since 2011, DuckDuckGo has been donating to organizations that contribute to our vision of raising the standard of trust online.</p>
 	</div>
-	<img class="donations__hero__img" src="/assets/common/hiker.svg">
-	<img class="donations__hero__img donations__hero__img--cropped" src="/assets/common/hiker_cropped.svg">
 </div>
 
+<img class="donations__img whole" src="/assets/about/hiker.svg" aria-hidden="true">
 <div class="blk donations__cta">
-	<a class="donations__cta__btn__wrap js-anchor-link" href="#donations-list">
-		<img class="donations__cta__btn" src="/assets/donations/angle-down.svg">
-	</a>
-	<div class="cw--c">
-		<p class="donations__cta__text">Over <b>$800,000</b> in DuckDuckGo privacy donations</p>
-	</div>
+  <div class="cw--c">
+    <h1 class="donations__cta__header">Join the DuckDuckGo 2018 <br>Privacy Challenge!</h1>
+    <p class="donations__cta__subheader">Help DuckDuckGo set a new standard of trust online by joining the 2018 Privacy Challenge. We'll increase the impact of your donations by matching up to $500,000!</p>
+    <a href="https://www.crowdrise.com/duckduckgoprivacychallenge" class="donations__btn btn btn--primary tx-up">Learn More</a>
+  </div>
 </div>
 
 <a name="donations-list" class="anchor js-anchor"></a>
