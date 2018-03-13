@@ -328,6 +328,41 @@ sub pages {{
 		copyright_footer => 1,
 		copyright_text => 'Privacy, simplified.',
 		yearly_donations => [{
+			year => '2018',
+			total => '$500,000',
+			theme => 'Privacy Challenge',
+			snippet => 'Help us set a new standard of trust online by supporting privacy organizations through our <a href="https://www.crowdrise.com/duckduckgoprivacychallenge">2018 Privacy Challenge</a>. We\'ll increase the impact of your donations through matching and prizes up to $500,000!',
+			donations => {
+				col1 => [
+					{recipient => 'Access Now', url => 'https://www.accessnow.org'},
+					{recipient => 'American Civil Liberties Union (ACLU)', url => 'https://www.aclu.org'},
+					{recipient => 'Bits of Freedom', url => 'https://www.bof.nl/english/'},
+					{recipient => 'Californians for Consumer Privacy', url => ''},
+					{recipient => 'Center for Democracy & Technology', url => 'https://cdt.org/'},
+					{recipient => 'Demand Progress', url => 'https://demandprogress.org/'},
+					{recipient => 'Digital Privacy Alliance', url => 'https://digitalprivacyalliance.org/initiatives/'},
+					{recipient => 'Emerald Onion', url => 'https://emeraldonion.org/'},
+					{recipient => 'Fight for the Future', url => 'https://www.fightforthefuture.org/'},
+					{recipient => 'Freedom of the Press Foundation', url => 'https://freedom.press/'},
+					{recipient => 'Freenet Project', url => 'https://freenetproject.org/'},
+					{recipient => 'Internet Freedom Festival', url => 'https://internetfreedomfestival.org/'},
+				],
+				col2 => [
+					{recipient => 'Let’s Encrypt', url => 'https://letsencrypt.org/'},
+					{recipient => 'New Media Rights', url => 'https://www.newmediarights.org/'},
+					{recipient => 'Open Source Technology Improvement Fund', url => 'https://ostif.org/'},
+					{recipient => 'Patient Privacy Rights', url => 'https://patientprivacyrights.org/'},
+					{recipient => 'Privacy Rights Clearinghouse', url => 'https://www.privacyrights.org'},
+					{recipient => 'Restore the Fourth', url => 'https://restorethe4th.com/'},
+					{recipient => 'Riseup Labs', url => 'http://riseuplabs.org/'},
+					{recipient => 'Tails', url => 'https://tails.boum.org/'},
+					{recipient => 'The Calyx Institute', url => 'https://www.calyxinstitute.org/'},
+					{recipient => 'Tor Project', url => 'https://www.torproject.org'},
+					{recipient => 'Terms of Service; Didn’t Read', url => 'https://tosdr.org/'},
+					{recipient => 'World Privacy Forum', url => 'https://www.worldprivacyforum.org'},
+				]
+			}
+		},{
 			year => '2017',
 			total => '$400,000',
 			theme => 'Privacy Education',
