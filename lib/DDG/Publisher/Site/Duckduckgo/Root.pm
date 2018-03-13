@@ -328,38 +328,6 @@ sub pages {{
 		copyright_footer => 1,
 		copyright_text => 'Privacy, simplified.',
 		yearly_donations => [{
-			year => '2018',
-			total => '$500,000',
-			theme => 'Privacy Challenge',
-			snippet => 'Help us set a new standard of trust online by supporting privacy organizations through our <a href="https://www.crowdrise.com/duckduckgoprivacychallenge">2018 Privacy Challenge</a>. We\'ll increase the impact of your donations through matching and prizes up to $500,000!',
-			donations => {
-				col1 => [
-					{recipient => 'Access Now', url => 'https://www.crowdrise.com/access-now1'},
-					{recipient => 'American Civil Liberties Union (ACLU)', url => 'https://www.crowdrise.com/aclu-foundation'},
-					{recipient => 'Bits of Freedom', url => 'https://www.crowdrise.com/bits-of-freedom1'},
-					{recipient => 'Center for Democracy & Technology', url => 'https://www.crowdrise.com/center-for-democracy-and-technology'},
-					{recipient => 'Demand Progress', url => 'https://www.crowdrise.com/demand-progress'},
-					{recipient => 'Emerald Onion', url => 'https://www.crowdrise.com/emerald-onion'},
-					{recipient => 'Fight for the Future', url => 'https://www.crowdrise.com/fight-for-the-future'},
-					{recipient => 'Freedom of the Press Foundation', url => 'https://www.crowdrise.com/freedom-of-the-press-foundation1'},
-					{recipient => 'Freenet Project', url => 'https://www.crowdrise.com/freenet-project'},
-					{recipient => 'Internet Freedom Festival', url => 'https://www.crowdrise.com/internet-freedom-festival'},
-					{recipient => 'Let’s Encrypt', url => 'https://www.crowdrise.com/lets-encrypt'},
-				],
-				col2 => [
-					{recipient => 'New Media Rights', url => 'https://www.crowdrise.com/new-media-rights'},
-					{recipient => 'Open Source Technology Improvement Fund (OSTIF)', url => 'https://www.crowdrise.com/ostif1'},
-					{recipient => 'Privacy Rights Clearinghouse', url => 'https://www.crowdrise.com/privacy-rights-clearinghouse1'},
-					{recipient => 'Restore the 4th', url => 'https://www.crowdrise.com/restore-the-4th'},
-					{recipient => 'Riseup Labs', url => 'https://www.crowdrise.com/riseup-labs1'},
-					{recipient => 'Tails', url => 'https://www.crowdrise.com/tails-live'},
-					{recipient => 'The Calyx Institute', url => 'https://www.crowdrise.com/the-calyx-institute'},
-					{recipient => 'Tor Project', url => 'https://www.crowdrise.com/tor-project'},
-					{recipient => 'Terms of Service; Didn’t Read', url => 'https://www.crowdrise.com/tosdr'},
-					{recipient => 'World Privacy Forum', url => 'https://www.crowdrise.com/world-privacy-forum1'},
-				]
-			}
-		},{
 			year => '2017',
 			total => '$400,000',
 			theme => 'Privacy Education',
