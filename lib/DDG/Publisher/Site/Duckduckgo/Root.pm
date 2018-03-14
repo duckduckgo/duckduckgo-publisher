@@ -327,7 +327,7 @@ sub pages {{
 		about_footer => 1,
 		copyright_footer => 1,
 		copyright_text => 'Privacy, simplified.',
-                js_page_type => 'Donations',
+		js_page_type => 'Donations',
 		yearly_donations => [{
 			year => '2017',
 			total => '$400,000',
