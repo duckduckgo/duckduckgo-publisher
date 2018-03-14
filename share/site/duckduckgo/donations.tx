@@ -11,7 +11,7 @@
   <div class="cw--c">
     <h1 class="donations__cta__header">Join the DuckDuckGo 2018 <br>Privacy Challenge!</h1>
     <p class="donations__cta__subheader">Help DuckDuckGo set a new standard of trust online by joining the 2018 Privacy Challenge. We'll increase the impact of your donations by matching up to $500,000!</p>
-    <a href="https://www.crowdrise.com/duckduckgoprivacychallenge" class="donations__btn btn btn--primary tx-up">Learn More</a>
+    <a href="https://www.crowdrise.com/duckduckgoprivacychallenge" class="donations__btn btn btn--primary tx-up js-donations-cta" data-source="cta">Learn More</a>
   </div>
 </div>
 
