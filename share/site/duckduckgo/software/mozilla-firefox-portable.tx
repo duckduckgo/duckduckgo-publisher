@@ -1,0 +1,176 @@
+<!-- Hero -->
+<div class="abt  abt--hero  blk  blk--hero">
+	<div class="cw--c">
+		<img class="abt--hero__logo" src="/assets/common/dax-logo.svg" alt="DuckDuckGo Dax Logo">
+		<h1 class="abt--hero__title">Welcome to DuckDuckGo</h1>
+		<p class="abt--hero__text">We’re setting the new standard of trust online, empowering people to take control of their information.</p>
+	</div>
+	<img class="abt--hero__img whole" src="/assets/about/hiker.svg" aria-hidden="true">
+</div>
+
+<div class="abt abt--hero-bottom blk blk--fact-cards">
+	<div class="cw--c">
+		<p class="abt--hero__subtext tx-clr--white"><b>You deserve privacy</b>. Companies are <b>making money</b> off of <b>your private information</b> online without your consent.<br><br>At DuckDuckGo, we don’t think the Internet should feel so <b>creepy</b> and getting the privacy you deserve online should be as <b>simple</b> as closing the blinds.</p>
+		<hr class="abt__hr">
+		<h3 class="abt__title--small tx-up">Fast Facts</h3>
+		<div class="fact-cards abt__facts">
+			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/traffic">
+				<img class="fact-card__icon" src="/assets/common/icons/standalone/search.svg" aria-hidden="true">
+				<h3 class="fact-card__title">16B</h3>
+				<h4 class="fact-card__subtitle">Private Searches</h4>
+				<span class="fact-card__text">And Counting</span>
+			</a>
+			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/about#team">
+				<img class="fact-card__icon" src="/assets/common/icons/standalone/privacy.svg" aria-hidden="true">
+				<h3 class="fact-card__title">45</h3>
+				<h4 class="fact-card__subtitle">Employees</h4>
+				<span class="fact-card__text">Making it happen</span>
+			</a>
+			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/about">
+				<img class="fact-card__icon" src="/assets/common/icons/standalone/launch.svg" aria-hidden="true">
+				<h3 class="fact-card__title">2008</h3>
+				<h4 class="fact-card__subtitle">Founded</h4>
+				<span class="fact-card__text">Ten Years &amp; Counting</span>
+			</a>
+			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/donations">
+				<img class="fact-card__icon" src="/assets/common/icons/standalone/gift.svg" aria-hidden="true">
+				<h3 class="fact-card__title">$800K</h3>
+				<h4 class="fact-card__subtitle">Donated</h4>
+				<span class="fact-card__text">Privacy Donations</span>
+			</a>
+		</div>
+	</div>
+</div>
+
+<!-- Timeline -->
+<div class="abt  abt--timeline  blk">
+	<div class="cw--c">
+		<div class="timeline-slider  js-timeline-slider">
+			<div class="slider__arrow  slider--prev  js-timeline-prev  ddgsi  ddgsi-left"></div>
+			<div class="whole--screen-s whole--screen-m">
+				<div class="slider__window">
+					<div class="slider__wrap  js-timeline-box">
+						<div class="timeline__panel  is-active  js-timeline-item" data-date="START">
+							<noscript>
+								<img class="timeline__logo" src="/assets/common/icons/story.svg" />
+							</noscript>
+							<img class="timeline__logo js-lazysvg no-js__hide" src="" data-src="/assets/common/icons/story.svg" aria-hidden="true">
+							<h2 class="abt__title">Our Story</h2>
+							<p class="timeline__snippet">With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where you go on the Internet. Check out our story.</p>
+						</div>
+						<:- for $ddg_events -> $event { -:>
+							<div class="timeline__panel  js-timeline-item  no-js__hide" data-date="<: $event.date :>">
+								<img class="timeline__icon  js-lazysvg" src="" data-src="/assets/common/icons/<: if $event.icon { $event.icon } else { $event.type } :>" />
+								<h2 class="abt__title"><: $event.title :></h2>
+								<p class="abt__subtitle"><: $event.snippet :></p>
+								<p class="timeline__date"><: $event.date :></p>
+							</div>
+						<:- } -:>
+					</div>
+				</div>
+				<div class="timeline-nav">
+					<div class="timeline-nav__cw  js-timeline-nav">
+						<span class="timeline-nav__it  timeline-nav__it--start  is-active  js-timeline-nav-item  js-timeline-start"></span>
+						<:- for $ddg_events -> $event { -:>
+							<:- if $event.year { -:>
+								<span class="timeline-nav__it js-timeline-nav-item  timeline-nav__it--year">
+									<div class="timeline-nav__it__text"><: $event.year :></div>
+								</span>
+							<:- } else {-:>
+								<span class="timeline-nav__it js-timeline-nav-item"></span>
+							<:- } -:>
+						<:- } -:>
+					</div>
+				</div>
+			</div>
+			<div class="slider__arrow  slider--next  js-timeline-next ddgsi ddgsi-right"></div>
+		</div>
+	</div>
+</div>
+
+<!-- Link Cards -->
+<div class="abt  abt--links  blk  blk--alt  blk--content">
+	<div class="cw--c">
+		<h2 class="abt__title">It's time to take back your privacy!</h2>
+		<div class="flex-row">
+			<div class="links__card">
+				<noscript>
+					<img src="/assets/common/icons/devices.svg" aria-hidden="true" class="links__card__icon">
+				</noscript>
+				<img src="" data-src="/assets/common/icons/devices.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
+				<h2 class="links__card__title">Privacy, simplified.</h2>
+				<p class="links__card__text">Our app and browser extension stop you from being tracked, so you can Internet with peace of mind.</p>
+				<a href="https://duckduckgo.com/app" class="abt__btn btn btn--primary tx-up js-static-link">get privacy essentials</a>
+			</div>
+			<div class="links__card">
+				<noscript>
+					<img src="/assets/common/icons/search-shield.svg" aria-hidden="true" class="links__card__icon">
+				</noscript>
+				<img src="" data-src="/assets/common/icons/search-shield.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
+				<h2 class="links__card__title">Search privately.</h2>
+				<p class="links__card__text">What you search for is your own business. Switch to the search engine that doesn’t track you.</p>
+				<a href="https://duckduckgo.com/" class="abt__btn btn btn--primary tx-up js-static-link">search privately</a>
+			</div>
+			<div class="links__card">
+				<noscript>
+					<img src="/assets/common/icons/privacy-tips-4.svg" aria-hidden="true" class="links__card__icon">
+				</noscript>
+				<img src="" data-src="/assets/common/icons/privacy-tips-4.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
+				<h2 class="links__card__title">Get privacy tips.</h2>
+				<p class="links__card__text">You deserve privacy online. And now with DuckDuckGo’s help, you can learn how to get it.</p>
+				<a href="https://spreadprivacy.com/tag/device-privacy-tips/" class="abt__btn btn btn--primary tx-up js-static-link">stay informed</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Mission -->
+<div class="abt  abt--mission  blk  blk--alt  blk--content">
+	<div class="cw--c">
+		<h2 class="abt__title">Our Mission</h2>
+		<p class="abt__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
+		<div class="no-js__hide">
+			<hr class="abt__hr">
+			<h3 class="abt__title--small tx-up">from our blog</h3>
+			<!-- Blog Cards -->
+			<div class="abt--blog js-abt-blog"></div>
+		</div>
+	</div>
+</div>
+
+<!-- Twitter -->
+<div class="abt  abt--twitter  blk  blk--content  no-js__hide">
+	<div class="cw--c">
+		<div class="js-abt-twitter"></div>
+	</div>
+</div>
+
+<!-- Team Map -->
+<a class="anchor" name="team"></a>
+<div class="abt  abt--map  blk  blk--content  blk--alt  map  no-js__hide">
+	<a class="abt--map__link--right tx-up hide--screen-s js-static-link" href="/hiring">we're hiring</a>
+	<div class="cw--c">
+		<h2 class="abt__title">Our Global Team</h2>
+	</div>
+	<div class="js-team-map"></div>
+	<div class="cw--c hide show--screen-s">
+		<a class="abt--map__link tx-up js-static-link" href="/hiring">we're hiring</a>
+	</div>
+</div>
+
+<!-- Newsletter Form -->
+<div class="abt  abt--newsletter  blk">
+	<div class="cw--c">
+		<a class="anchor" name="newsletter"></a>
+		<h2 class="abt__title">Stay Informed</h2>
+		<p class="abt__subtitle">Sign up to receive Privacy Tips from DuckDuckGo.</p>
+		<form class="frm--newsletter" action="https://duck.co/s/a" method="post" name="y">
+			<input type="hidden" name="page" value="1" />
+			<input type="hidden" name="campaign" value="b" />
+			<input type="hidden" name="flow" value="about" />
+			<input type="email" placeholder="Your email address" class="abt__input frm__input t-center" name="email" />
+			<input type="submit" value="Subscribe" class="abt__btn btn btn--primary btn--rounded tx-up" />
+		</form>
+		<p class="abt--newsletter__text tx-clr--grey-dark t-xs">Your email address will not be shared or associated with anonymous searches. <a class="abt--newsletter__link" href="https://spreadprivacy.com/google-search-history-4bae7619407d">Example Message</a></p>
+	</div>
+</div>
