@@ -1,6 +1,6 @@
 <div class="content__internal">
     <div class="left-col">
-        <h1 class="pp__header"><: $product.name :>, Portable Edition</h1>
+        <h1 class="pp__title"><: $product.name :>, Portable Edition</h1>
 
         <hr class="pp__hr"/>
 
@@ -12,10 +12,15 @@
             <a href="#" class="breadcrumb__link--active"><: $product.name :></a>
         </div>
 
-        <div class="pp__slider">
-            : for $product.images -> $url {
-                <img src="<: $url :>" class="pp__slider__item">
-            : }
+        <div class="js-pp-slider">
+            <div class="slider">
+                <div class="js-pp-slider-wrap slider__wrap">
+                    : for $product.images -> $url {
+                        <img src="<: $url :>" class="js-pp-slider-item pp__slider__item">
+                    : }
+                </div>
+            </div>
+            <!-- nav will be generated here -->
         </div>
 
         <div class="pp__summary">
@@ -37,7 +42,7 @@
                 : }
             </ul>
         </div>
+        <img class="pp-ad" src="https://place.cat/c/460/400/" alt="">
     </div>
 
-    <img class="pp-ad" src="http://lorempixel.com/455/300/abstract" alt="">
 </div>

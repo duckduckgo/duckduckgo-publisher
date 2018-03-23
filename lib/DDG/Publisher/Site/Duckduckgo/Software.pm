@@ -28,8 +28,8 @@ sub pages {{
 			inst_size => '268MB',
 			images => [
 				'https://cdn.portableapps.com/FirefoxPortable.png',
-				'http://lorempixel.com/650/530/technics',
-				'http://lorempixel.com/650/530/technics'
+				'https://place.cat/c/650/530',
+				'https://place.cat/c/650/530',
 			],
 			summary => "Mozilla Firefox® is a fast, full-featured web browser that's easy to use. It has lots of great features including popup-blocking, tabbed-browsing, integrated search, improved privacy features, automatic updating and more. Plus, thanks to the PortableApps.com launcher bundled in the Mozilla Firefox, Portable Edition, it leaves no personal information behind on the machine you run it on, so you can take your favorite browser along with all your favorite bookmarks and extensions with you wherever you go. Firefox Portable is a dual-mode 32-bit and 64-bit app, ensuring Firefox runs as fast as possible on every PC.",
 			details => {
@@ -62,8 +62,8 @@ sub pages {{
 			inst_size => '15MB',
 			images => [
 				'https://cdn.portableapps.com/NotepadppPortable.png',
-				'http://lorempixel.com/650/530/technics',
-				'http://lorempixel.com/650/530/technics'
+				'https://place.cat/c/650/530',
+				'https://place.cat/c/650/530',
 			],
 			summary => "Notepad++ Portable is the handy Notepad++ text editor packaged as a portable app so you can do your development on the go. It has all the same great features of Notepad++ including support for multiple languages and an extensive plugin system, but there's nothing to install.",
 			details => {
