@@ -1,6 +1,43 @@
-<div class="sftw blk">
-	<div class="cw--c">
-		<h1 class="">Mozilla Firefox, Portable Edition</h1>
-	</div>
-</div>
+<div class="content-internal">
+    <div class="left-col">
+        <h1 class="pp__header"><: $product.name :>, Portable Edition</h1>
 
+        <hr class="pp__hr"/>
+
+        <div class="breadcrumb">
+            <a href="#" class="breadcrumb__link">Downloads</a>
+            <span class="breadcrumb__arrow ddgsi ddgsi-right"></span>
+            <a href="#" class="breadcrumb__link"><: $product.category :></a>
+            <span class="breadcrumb__arrow ddgsi ddgsi-right"></span>
+            <a href="#" class="breadcrumb__link--active"><: $product.name :></a>
+        </div>
+
+        <div class="pp__slider">
+            :- for $product.images -> $url {
+                <img src="<: $url :>" class="pp__slider__item">
+            :- }
+        </div>
+
+        <div class="pp__summary">
+            <h2 class="pp__summary__title">App Summary</h2>
+            <p class="pp__summary__text"><: $product.summary :></p>
+        </div>
+    </div>
+
+    <div class="right-col">
+        <a class="btn btn--primary pp__dl-btn" href="#">Download Version <: $product.version :></a>
+        <span class="pp__dl-info"><: $product.dl_size :> Download / <: $product.inst_size :> Installed</span>
+
+        <div class="pp__details">
+            <h3 class="pp__details__title">App Details</h3>
+            <hr class="pp__hr">
+            <ul class="pp__details__list">
+                : for $product.details.kv() -> $pair {
+                    <li class="pp__details__item"><b><: $pair.key :></b>: <: $pair.value :></li>
+                : }
+            </ul>
+        </div>
+    </div>
+
+    <img class="pp-ad" src="http://lorempixel.com/455/300/abstract" alt="">
+</div>
