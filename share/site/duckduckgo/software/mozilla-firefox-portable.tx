@@ -1,4 +1,4 @@
-<div class="content-internal">
+<div class="content__internal">
     <div class="left-col">
         <h1 class="pp__header"><: $product.name :>, Portable Edition</h1>
 
