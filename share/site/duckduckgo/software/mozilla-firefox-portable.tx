@@ -13,9 +13,9 @@
         </div>
 
         <div class="pp__slider">
-            :- for $product.images -> $url {
+            : for $product.images -> $url {
                 <img src="<: $url :>" class="pp__slider__item">
-            :- }
+            : }
         </div>
 
         <div class="pp__summary">
