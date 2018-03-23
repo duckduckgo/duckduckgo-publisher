@@ -17,7 +17,8 @@ sub pages {{
 		copyright_text => 'Privacy, simplified.',
 		no_content_internal => 1,
 		no_spacer => 1,
-		js_page_type => 'Apps',
+		js_page_type => 'Software',
+		page_class => 'product-page',
 
 		product => {
 			name => 'Mozila Firefox',
@@ -50,7 +51,8 @@ sub pages {{
 		copyright_text => 'Privacy, simplified.',
 		no_content_internal => 1,
 		no_spacer => 1,
-		js_page_type => 'Apps',
+		js_page_type => 'Software',
+		page_class => 'product-page',
 
 		product => {
 			name => 'Notepad++',
