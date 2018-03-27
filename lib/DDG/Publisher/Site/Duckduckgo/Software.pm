@@ -24,7 +24,10 @@ sub pages {{
 			name => 'Mozila Firefox',
 			version => '59.0.1',
 			category => 'Browsers',
-			dl_size => '74MB',
+			dl => {
+				size => '74MB',
+				url => 'FirefoxPortable_59.0.1_English.paf.exe'
+			},
 			inst_size => '268MB',
 			images => [
 				'https://cdn.portableapps.com/FirefoxPortable.png',
@@ -58,7 +61,10 @@ sub pages {{
 			name => 'Notepad++',
 			version => '7.5.4',
 			category => 'Development',
-			dl_size => '3MB',
+			dl => {
+				size => '3MB',
+				url => 'NotepadPlusPlusPortable_7.5.4.paf.exe'
+			},
 			inst_size => '15MB',
 			images => [
 				'https://cdn.portableapps.com/NotepadppPortable.png',
