@@ -1,85 +1,87 @@
-<div class="cw--c pp__top">
-    <div class="gw">
-        <div class="g sixty left-col">
-            <h1 class="pp__title"><: $product.name :>, Portable Edition</h1>
+<div class="js-product-page">
+    <div class="cw--c pp__top">
+        <div class="gw">
+            <div class="g sixty left-col">
+                <h1 class="pp__title"><: $product.name :>, Portable Edition</h1>
 
-            <hr class="pp__hr"/>
+                <hr class="pp__hr"/>
 
-            <div class="breadcrumb">
-                <a href="#" class="breadcrumb__link">Downloads</a>
-                <span class="breadcrumb__arrow ddgsi ddgsi-right"></span>
-                <a href="#" class="breadcrumb__link"><: $product.category :></a>
-                <span class="breadcrumb__arrow ddgsi ddgsi-right"></span>
-                <a href="#" class="breadcrumb__link--active"><: $product.name :></a>
-            </div>
-
-            <div class="js-pp-slider">
-                <div class="slider">
-                    <div class="js-pp-slider-wrap slider__wrap">
-                        : for $product.images -> $url {
-                            <img src="<: $url :>" class="js-pp-slider-item pp__slider__item">
-                        : }
-                    </div>
+                <div class="breadcrumb">
+                    <a href="#" class="breadcrumb__link">Downloads</a>
+                    <span class="breadcrumb__arrow ddgsi ddgsi-right"></span>
+                    <a href="#" class="breadcrumb__link"><: $product.category :></a>
+                    <span class="breadcrumb__arrow ddgsi ddgsi-right"></span>
+                    <a href="#" class="breadcrumb__link--active"><: $product.name :></a>
                 </div>
-                <!-- nav will be generated here -->
+
+                <div class="js-pp-slider">
+                    <div class="slider">
+                        <div class="js-pp-slider-wrap slider__wrap">
+                            : for $product.images -> $url {
+                                <img src="<: $url :>" class="js-pp-slider-item pp__slider__item">
+                            : }
+                        </div>
+                    </div>
+                    <!-- nav will be generated here -->
+                </div>
+
+                <div class="pp__summary">
+                    <h2 class="pp__summary__title">App Summary</h2>
+                    <p class="pp__summary__text"><: $product.summary :></p>
+                </div>
             </div>
 
-            <div class="pp__summary">
-                <h2 class="pp__summary__title">App Summary</h2>
-                <p class="pp__summary__text"><: $product.summary :></p>
-            </div>
-        </div>
+            <!-- <div class="col-sm-10 offset-md-1 offset-lg-0 col-lg-5 right-col"> -->
+            <div class="g forty right-col">
+                <a class="btn btn--primary pp__btn js-pp-dl-btn" href="#" data-url="<: $product.dl.url :>">Download Version <: $product.version :></a>
+                <span class="pp__dl-info"><: $product.dl.size :> Download / <: $product.inst_size :> Installed</span>
 
-        <!-- <div class="col-sm-10 offset-md-1 offset-lg-0 col-lg-5 right-col"> -->
-        <div class="g forty right-col">
-            <a class="btn btn--primary pp__dl-btn js-pp-dl-btn" href="#" data-url="<: $product.dl.url :>">Download Version <: $product.version :></a>
-            <span class="pp__dl-info"><: $product.dl.size :> Download / <: $product.inst_size :> Installed</span>
-
-            <div class="pp__details">
-                <h3 class="pp__details__title">App Details</h3>
-                <hr class="pp__hr">
-                <ul class="pp__details__list">
-                    : for $product.details.kv() -> $pair {
-                        <li class="pp__details__item"><b><: $pair.key :></b>: <: $pair.value :></li>
-                    : }
-                </ul>
+                <div class="pp__details">
+                    <h3 class="pp__details__title">App Details</h3>
+                    <hr class="pp__hr">
+                    <ul class="pp__details__list">
+                        : for $product.details.kv() -> $pair {
+                            <li class="pp__details__item"><b><: $pair.key :></b>: <: $pair.value :></li>
+                        : }
+                    </ul>
+                </div>
+                <img class="pp__ad" src="https://place.cat/c/460/400/" alt="">
             </div>
-            <img class="pp-ad" src="https://place.cat/c/460/400/" alt="">
         </div>
     </div>
-</div>
 
-<div class="blk blk--alt pp__more-apps">
-    <div class="cw--c">
-        <h2 class="pp__subtitle t-center">View All PortableApps</h2>
-        <div class="js-pp-more-apps row">
+    <div class="blk blk--alt pp__more-apps">
+        <div class="cw--c">
+            <h2 class="pp__subtitle t-center">View All PortableApps</h2>
+            <div class="js-pp-more-apps flex-row">
 
-            <!-- TODO: Replace blog-card with media-card -->
-            <!-- <a href="#" class="js-pp-card-link blog-card bg-clr--white col-sm-12 col-md-10 col-lg-4 offset-md-1" data-id="0"> -->
-            <a href="#" class="js-pp-card-link blog-card bg-clr--white" data-id="0">
-                <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)">
-                </div>
-                <div class="blog-card__content">
-                    <h3 class="blog-card__title">PortableApps.com Platform 14.4.3</h3>
-                    <p class="blog-card__topic tx-up">Utilities</p>
-                </div>
-            </a>
-            <a href="#" class="js-pp-card-link blog-card bg-clr--white" data-id="0">
-                <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)">
-                </div>
-                <div class="blog-card__content">
-                    <h3 class="blog-card__title">Opera, Portable Edition</h3>
-                    <p class="blog-card__topic tx-up">Browsers</p>
-                </div>
-            </a>
-            <a href="#" class="js-pp-card-link blog-card bg-clr--white" data-id="0">
-                <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)">
-                </div>
-                <div class="blog-card__content">
-                    <h3 class="blog-card__title">Mozilla Firefox, Portable Edition</h3>
-                    <p class="blog-card__topic tx-up">Browsers</p>
-                </div>
-            </a>
+                <!-- TODO: Replace blog-card with media-card -->
+                <!-- <a href="#" class="js-pp-card-link blog-card bg-clr--white col-sm-12 col-md-10 col-lg-4 offset-md-1" data-id="0"> -->
+                <a href="#" class="js-pp-card-link blog-card bg-clr--white" data-id="0">
+                    <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)">
+                    </div>
+                    <div class="blog-card__content">
+                        <h3 class="blog-card__title">PortableApps.com Platform 14.4.3</h3>
+                        <p class="blog-card__topic tx-up">Utilities</p>
+                    </div>
+                </a>
+                <a href="#" class="js-pp-card-link blog-card bg-clr--white" data-id="0">
+                    <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)">
+                    </div>
+                    <div class="blog-card__content">
+                        <h3 class="blog-card__title">Opera, Portable Edition</h3>
+                        <p class="blog-card__topic tx-up">Browsers</p>
+                    </div>
+                </a>
+                <a href="#" class="js-pp-card-link blog-card bg-clr--white" data-id="0">
+                    <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)">
+                    </div>
+                    <div class="blog-card__content">
+                        <h3 class="blog-card__title">Mozilla Firefox, Portable Edition</h3>
+                        <p class="blog-card__topic tx-up">Browsers</p>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </div>
