@@ -1,4 +1,4 @@
-<div class="js-product-page">
+<div class="js-product-page">
     <div class="cw--c pp__top">
         <div class="gw">
             <div class="g sixty left-col">
@@ -18,7 +18,7 @@
                     <div class="slider">
                         <div class="js-pp-slider-wrap slider__wrap">
                             : for $product.images -> $url {
-                                <img src="<: $url :>" class="js-pp-slider-item pp__slider__item">
+                                <img data-src="<: $url :>" class="js-pp-slider-item pp__slider__item js-lazyload">
                             : }
                         </div>
                     </div>
@@ -33,8 +33,9 @@
 
             <!-- <div class="col-sm-10 offset-md-1 offset-lg-0 col-lg-5 right-col"> -->
             <div class="g forty right-col">
-                <a class="btn btn--primary pp__btn js-pp-dl-btn" href="#" data-url="<: $product.dl.url :>">Download Version <: $product.version :></a>
-                <span class="pp__dl-info"><: $product.dl.size :> Download / <: $product.inst_size :> Installed</span>
+                <div class="btn btn--primary pp__btn js-pp-dl-btn">Download Version <: $product.version :></div>
+                <span class="js-pp-dl-info pp__dl-info"><: $product.dl.size :> Download / <: $product.inst_size :> Installed</span>
+                
 
                 <div class="pp__details">
                     <h3 class="pp__details__title">App Details</h3>
@@ -45,7 +46,7 @@
                         : }
                     </ul>
                 </div>
-                <img class="pp__ad" src="https://place.cat/c/460/400/" alt="">
+                <img class="pp__ad js-lazyload" data-src="https://place.cat/c/460/400/" alt="">
             </div>
         </div>
     </div>
@@ -58,24 +59,21 @@
                 <!-- TODO: Replace blog-card with media-card -->
                 <!-- <a href="#" class="js-pp-card-link blog-card bg-clr--white col-sm-12 col-md-10 col-lg-4 offset-md-1" data-id="0"> -->
                 <a href="#" class="js-pp-card-link blog-card bg-clr--white" data-id="0">
-                    <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)">
-                    </div>
+                    <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)"></div>
                     <div class="blog-card__content">
                         <h3 class="blog-card__title">PortableApps.com Platform 14.4.3</h3>
                         <p class="blog-card__topic tx-up">Utilities</p>
                     </div>
                 </a>
                 <a href="#" class="js-pp-card-link blog-card bg-clr--white" data-id="0">
-                    <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)">
-                    </div>
+                    <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)"></div>
                     <div class="blog-card__content">
                         <h3 class="blog-card__title">Opera, Portable Edition</h3>
                         <p class="blog-card__topic tx-up">Browsers</p>
                     </div>
                 </a>
                 <a href="#" class="js-pp-card-link blog-card bg-clr--white" data-id="0">
-                    <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)">
-                    </div>
+                    <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)"></div>
                     <div class="blog-card__content">
                         <h3 class="blog-card__title">Mozilla Firefox, Portable Edition</h3>
                         <p class="blog-card__topic tx-up">Browsers</p>
@@ -85,3 +83,13 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+window.productData = {
+    name: "<: $product.name :>",
+    summary: "<: $product.summary :>",
+    url: "<: $product.url :>",
+    dlUrl: "<: $product.dl.url :>",
+    dlSize: "<: $product.dl.size :>",
+    instSize: "<: $product.inst_size :>"
+};
+</script>
