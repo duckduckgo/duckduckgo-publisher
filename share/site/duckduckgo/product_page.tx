@@ -2,28 +2,25 @@
     <div class="cw--c pp__top">
         <div class="gw">
             <div class="g sixty left-col">
-                <h1 class="pp__title"><: $product.name :>, Portable Edition</h1>
+                <h1 class="pp__title">
+                : if $product.title {
+                : $product.title
+                : } else {
+                <: $product.name :>, Portable Edition
+                : }
+                </h1>
 
                 <hr class="pp__hr"/>
 
                 <div class="breadcrumb">
-                    <a href="#" class="breadcrumb__link">Downloads</a>
+                    <span class="breadcrumb__link">Downloads</span>
                     <span class="breadcrumb__arrow ddgsi ddgsi-right"></span>
-                    <a href="#" class="breadcrumb__link"><: $product.category :></a>
+                    <span class="breadcrumb__link"><: $product.category :></span>
                     <span class="breadcrumb__arrow ddgsi ddgsi-right"></span>
                     <a href="#" class="breadcrumb__link--active"><: $product.name :></a>
                 </div>
 
-                <div class="js-pp-slider">
-                    <div class="slider">
-                        <div class="js-pp-slider-wrap slider__wrap">
-                            : for $product.images -> $url {
-                                <img data-src="<: $url :>" class="js-pp-slider-item pp__slider__item js-lazyload">
-                            : }
-                        </div>
-                    </div>
-                    <!-- nav will be generated here -->
-                </div>
+                <img class="pp__image js-lazyretina" data-src="/assets/software/screenshots/<: $product.asset_path :>.jpg">
 
                 <div class="pp__summary">
                     <h2 class="pp__summary__title">App Summary</h2>
@@ -31,11 +28,12 @@
                 </div>
             </div>
 
-            <!-- <div class="col-sm-10 offset-md-1 offset-lg-0 col-lg-5 right-col"> -->
             <div class="g forty right-col">
-                <div class="btn btn--primary pp__btn js-pp-dl-btn">Download Version <: $product.version :></div>
+                <div class="btn btn--primary pp__btn js-pp-dl-btn">
+                    <img class="pp__btn__icon" src="/assets/software/browsers/windows.svg">
+                    <span class="pp__btn__text">Download Version <: $product.version :></span>
+                </div>
                 <span class="js-pp-dl-info pp__dl-info"><: $product.dl.size :> Download / <: $product.inst_size :> Installed</span>
-                
 
                 <div class="pp__details">
                     <h3 class="pp__details__title">App Details</h3>
@@ -46,7 +44,7 @@
                         : }
                     </ul>
                 </div>
-                <img class="pp__ad js-lazyload" data-src="https://place.cat/c/460/400/" alt="">
+                <img class="pp__ad js-pp-ad js-lazyload" data-src="/assets/software/ads/{{name}}.svg">
             </div>
         </div>
     </div>
@@ -57,23 +55,22 @@
             <div class="js-pp-more-apps flex-row">
 
                 <!-- TODO: Replace blog-card with media-card -->
-                <!-- <a href="#" class="js-pp-card-link blog-card bg-clr--white col-sm-12 col-md-10 col-lg-4 offset-md-1" data-id="0"> -->
-                <a href="#" class="js-pp-card-link blog-card bg-clr--white" data-id="0">
-                    <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)"></div>
+                <a href="/software/portableapps" class="js-pp-card-link blog-card bg-clr--white" data-id="0">
+                    <img class="blog-card__image js-lazyretina" data-src="/assets/software/thumbnails/portableapps.jpg">
                     <div class="blog-card__content">
                         <h3 class="blog-card__title">PortableApps.com Platform 14.4.3</h3>
                         <p class="blog-card__topic tx-up">Utilities</p>
                     </div>
                 </a>
-                <a href="#" class="js-pp-card-link blog-card bg-clr--white" data-id="0">
-                    <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)"></div>
+                <a href="/software/q-dir-portable" class="js-pp-card-link blog-card bg-clr--white" data-id="1">
+                    <img class="blog-card__image js-lazyretina" data-src="/assets/software/thumbnails/q-dir.jpg">
                     <div class="blog-card__content">
-                        <h3 class="blog-card__title">Opera, Portable Edition</h3>
-                        <p class="blog-card__topic tx-up">Browsers</p>
+                        <h3 class="blog-card__title">Q-Dir, Portable Edition</h3>
+                        <p class="blog-card__topic tx-up">Utilities</p>
                     </div>
                 </a>
-                <a href="#" class="js-pp-card-link blog-card bg-clr--white" data-id="0">
-                    <div class="blog-card__image" style="background-image: url(https://place.cat/c/360/180)"></div>
+                <a href="/software/mozilla-firefox-portable" class="js-pp-card-link blog-card bg-clr--white" data-id="2">
+                    <img class="blog-card__image js-lazyretina" data-src="/assets/software/thumbnails/mozilla-firefox.jpg">
                     <div class="blog-card__content">
                         <h3 class="blog-card__title">Mozilla Firefox, Portable Edition</h3>
                         <p class="blog-card__topic tx-up">Browsers</p>
@@ -86,6 +83,8 @@
 <script type="text/javascript">
 window.productData = {
     name: "<: $product.name :>",
+    asset_path: "<: $product.asset_path :>",
+    version: "<: $product.version :>",
     summary: "<: $product.summary :>",
     url: "<: $product.url :>",
     dlUrl: "<: $product.dl.url :>",
