@@ -43,39 +43,6 @@ sub pages {{
 		}
 	},
 
-	"notepadpp-portable" => sub {
-		about_footer => 1,
-		no_footer_arrow => 1,
-		copyright_footer => 1,
-		copyright_text => 'Privacy, simplified.',
-		no_content_internal => 1,
-		no_spacer => 1,
-		js_page_type => 'Software',
-		page_class => 'product-page',
-
-		product => {
-			name => 'Notepad++',
-			asset_path => 'notepadpp',
-			version => '7.5.4',
-			category => 'Development',
-			url => 'https://portableapps.com/apps/development/notepadpp_portable',
-			dl => {
-				size => '3MB',
-				url => 'NotepadPlusPlusPortable_7.5.4.paf.exe'
-			},
-			inst_size => '15MB',
-			summary => "Notepad++ Portable is the handy Notepad++ text editor packaged as a portable app so you can do your development on the go. It has all the same great features of Notepad++ including support for multiple languages and an extensive plugin system, but there's nothing to install.",
-			details => {
-				'Publisher' => 'Notepad++ Team & PortableApps.com',
-				'Date updated' => '2018-01-02',
-				'System Requirements' => 'Windows XP/Vista/7/8/10',
-				'License' => 'Free / Open Source (GPL)',
-				'Source Code' => 'Launcher (included), Notepad++',
-				'MD5 Hash' => '4b3bab57e755782da408ad3fad5c22d3',
-			}
-		}
-	},
-
 	"q-dir-portable" => sub {
 		about_footer => 1,
 		no_footer_arrow => 1,
@@ -120,7 +87,7 @@ sub pages {{
 		page_class => 'product-page',
 
 		product => {
-			title => 'PortableApps Platform',
+			is_platform => 1,
 			name => 'PortableApps',
 			asset_path => 'portableapps',
 			version => '14.4.3',

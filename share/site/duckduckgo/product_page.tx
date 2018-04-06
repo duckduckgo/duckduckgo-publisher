@@ -2,13 +2,7 @@
     <div class="cw--c pp__top">
         <div class="gw">
             <div class="g sixty left-col">
-                <h1 class="pp__title">
-                : if $product.title {
-                : $product.title
-                : } else {
-                <: $product.name :>, Portable Edition
-                : }
-                </h1>
+                <h1 class="pp__title"><: $product.name :><: if $product.is_app {:>, Portable Edition<: } else { :> Platform<: } :></h1>
 
                 <hr class="pp__hr"/>
 
@@ -44,7 +38,7 @@
                         : }
                     </ul>
                 </div>
-                <img class="pp__ad js-pp-ad js-lazyload" data-src="/assets/software/ads/{{name}}.svg">
+                <img class="pp__ad js-pp-ad js-lazyretina" data-src="/assets/software/ads/{{name}}.jpg">
             </div>
         </div>
     </div>
@@ -55,21 +49,21 @@
             <div class="js-pp-more-apps flex-row">
 
                 <!-- TODO: Replace blog-card with media-card -->
-                <a href="/software/portableapps" class="js-pp-card-link blog-card bg-clr--white" data-id="0">
+                <a href="/software/portableapps" class="js-static-link blog-card bg-clr--white" data-id="0">
                     <img class="blog-card__image js-lazyretina" data-src="/assets/software/thumbnails/portableapps.jpg">
                     <div class="blog-card__content">
                         <h3 class="blog-card__title">PortableApps.com Platform 14.4.3</h3>
                         <p class="blog-card__topic tx-up">Utilities</p>
                     </div>
                 </a>
-                <a href="/software/q-dir-portable" class="js-pp-card-link blog-card bg-clr--white" data-id="1">
+                <a href="/software/q-dir-portable" class="js-static-link blog-card bg-clr--white" data-id="1">
                     <img class="blog-card__image js-lazyretina" data-src="/assets/software/thumbnails/q-dir.jpg">
                     <div class="blog-card__content">
                         <h3 class="blog-card__title">Q-Dir, Portable Edition</h3>
                         <p class="blog-card__topic tx-up">Utilities</p>
                     </div>
                 </a>
-                <a href="/software/mozilla-firefox-portable" class="js-pp-card-link blog-card bg-clr--white" data-id="2">
+                <a href="/software/mozilla-firefox-portable" class="js-static-link blog-card bg-clr--white" data-id="2">
                     <img class="blog-card__image js-lazyretina" data-src="/assets/software/thumbnails/mozilla-firefox.jpg">
                     <div class="blog-card__content">
                         <h3 class="blog-card__title">Mozilla Firefox, Portable Edition</h3>
@@ -79,11 +73,13 @@
             </div>
         </div>
     </div>
+    <iframe class="is-hidden js-pp-iframe"></iframe>
 </div>
 <script type="text/javascript">
 window.productData = {
     name: "<: $product.name :>",
     asset_path: "<: $product.asset_path :>",
+    isApp: "<: $product.is_app :>",
     version: "<: $product.version :>",
     summary: "<: $product.summary :>",
     url: "<: $product.url :>",
