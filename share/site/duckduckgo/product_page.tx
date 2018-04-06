@@ -38,7 +38,9 @@
                         : }
                     </ul>
                 </div>
-                <img class="pp__ad js-pp-ad js-lazyretina" data-src="/assets/software/ads/{{name}}.jpg">
+                <a href="/app" class="js-static-link pp__ad">
+                    <img class="pp__ad js-pp-ad js-lazyretina" data-src="/assets/software/ads/{{name}}.jpg">
+                </a>
             </div>
         </div>
     </div>
