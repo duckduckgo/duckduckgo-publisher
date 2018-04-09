@@ -92,7 +92,7 @@
 window.productData = {
     name: "<: $product.name :>",
     asset_path: "<: $product.asset_path :>",
-    isApp: "<: $product.is_app :>",
+    isApp: "<: not $product.is_platform :>",
     version: "<: $product.version :>",
     summary: "<: $product.summary :>",
     url: "<: $product.url :>",
