@@ -86,8 +86,8 @@
             </div>
         </div>
     </div>
-    <iframe class="is-hidden js-pp-iframe"></iframe>
 </div>
+<iframe class="is-hidden js-pp-iframe"></iframe>
 <script type="text/javascript">
 window.productData = {
     name: "<: $product.name :>",
