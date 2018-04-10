@@ -324,7 +324,7 @@ sub pages {{
 			year => '2018',
 			total => '$500,000',
 			theme => 'Privacy Challenge',
-			snippet => 'Help us set a new standard of trust online by supporting privacy organizations through our <a href="https://www.crowdrise.com/duckduckgoprivacychallenge">2018 Privacy Challenge</a>. We\'ll increase the impact of your donations through matching and prizes up to $500,000!',
+			snippet => 'For our eighth year of donations, we organized and donated to a <a href="https://www.crowdrise.com/duckduckgoprivacychallenge">privacy crowdfunding campaign</a> that benefited these twenty organizations that share our vision of raising the standard of trust online.',
 			donations => {
 				col1 => [
 					{recipient => 'Access Now', url => 'https://www.crowdrise.com/access-now1'},
@@ -337,9 +337,9 @@ sub pages {{
 					{recipient => 'Freenet Project', url => 'https://www.crowdrise.com/freenet-project'},
 					{recipient => 'Internet Freedom Festival', url => 'https://www.crowdrise.com/internet-freedom-festival'},
 					{recipient => 'Let’s Encrypt', url => 'https://www.crowdrise.com/lets-encrypt'},
+					{recipient => 'New Media Rights', url => 'https://www.crowdrise.com/new-media-rights'},
 				],
 				col2 => [
-					{recipient => 'New Media Rights', url => 'https://www.crowdrise.com/new-media-rights'},
 					{recipient => 'Open Source Technology Improvement Fund (OSTIF)', url => 'https://www.crowdrise.com/ostif1'},
 					{recipient => 'Privacy Rights Clearinghouse', url => 'https://www.crowdrise.com/privacy-rights-clearinghouse1'},
 					{recipient => 'Restore the 4th', url => 'https://www.crowdrise.com/restore-the-4th'},
