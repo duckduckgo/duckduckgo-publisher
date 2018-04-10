@@ -1,5 +1,6 @@
 package DDG::Publisher::Site::Duckduckgo::Root;
 
+use strict;
 use MooX;
 
 with qw(
