@@ -19,6 +19,7 @@ sub pages {{
 		no_spacer => 1,
 		js_page_type => 'Software',
 		page_class => 'product-page',
+		title => 'Mozilla Firefox, Portable Edition',
 
 		product => {
 			name => 'Mozilla Firefox',
@@ -52,6 +53,7 @@ sub pages {{
 		no_spacer => 1,
 		js_page_type => 'Software',
 		page_class => 'product-page',
+		title => 'Q-Dir, Portable Edition',
 
 		product => {
 			name => 'Q-Dir',
@@ -85,6 +87,7 @@ sub pages {{
 		no_spacer => 1,
 		js_page_type => 'Software',
 		page_class => 'product-page',
+		title => 'PortableApps Platform',
 
 		product => {
 			is_platform => 1,

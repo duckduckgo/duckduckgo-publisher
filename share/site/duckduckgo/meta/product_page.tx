@@ -1,0 +1,12 @@
+<: include "meta/title.tx" { title => $title }:>
+
+<meta property="og:description" content="<: $product.summary :>">
+<meta name="description" content="<: $product.summary :>">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" value="@duckduckgo">
+
+<meta property="og:url" content="https://duckduckgo.com/software/<:$filebase:>" />
+<meta property="og:site_name" content="<: $title :>" />
+<meta property="og:image" content="https://duckduckgo.com/assets/software/screenshots/<: $product.asset_path :>.jpg">
+<meta property="og:type" content="website" />
