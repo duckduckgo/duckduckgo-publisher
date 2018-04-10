@@ -328,7 +328,6 @@ sub pages {{
 			donations => {
 				col1 => [
 					{recipient => 'Access Now', url => 'https://www.crowdrise.com/access-now1'},
-					{recipient => 'American Civil Liberties Union (ACLU)', url => 'https://www.crowdrise.com/aclu-foundation'},
 					{recipient => 'Bits of Freedom', url => 'https://www.crowdrise.com/bits-of-freedom1'},
 					{recipient => 'Center for Democracy & Technology', url => 'https://www.crowdrise.com/center-for-democracy-and-technology'},
 					{recipient => 'Demand Progress', url => 'https://www.crowdrise.com/demand-progress'},
