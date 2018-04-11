@@ -344,7 +344,7 @@ sub pages {{
 					{recipient => 'Open Source Technology Improvement Fund (OSTIF)', url => 'https://ostif.org/'},
 					{recipient => 'Privacy Rights Clearinghouse', url => 'https://www.privacyrights.org'},
 					{recipient => 'Restore the Fourth', url => 'https://restorethe4th.com/'},
-					{recipient => 'Riseup Labs', url => 'http://riseuplabs.org/'},
+					{recipient => 'Riseup Labs', url => 'https://riseuplabs.org/'},
 					{recipient => 'Tails', url => 'https://tails.boum.org/'},
 					{recipient => 'The Calyx Institute', url => 'https://www.calyxinstitute.org/'},
 					{recipient => 'Tor Project', url => 'https://www.torproject.org'},
