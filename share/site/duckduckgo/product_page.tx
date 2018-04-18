@@ -2,18 +2,18 @@
     <div class="cw--c pp__top">
         <div class="gw">
             <div class="g sixty left-col">
-                <h1 class="pp__title t-center--screen-m"><: $product.name :><: if $product.is_platform {:> Platform <: } else { :> Portable Edition<: } :></h1>
+                <h1 class="pp__title t-center--screen-m"><: $product.name :><: if $product.is_platform {:> Platform <: } else { :>, Portable Edition<: } :></h1>
 
                 <hr class="pp__hr"/>
 
                 <div class="whole--screen-s fifty--screen-m t-center--screen-m block-mid--screen-m">
-                    <div class="breadcrumb">
+                    <!-- <div class="breadcrumb">
                         <span class="breadcrumb__link">Downloads</span>
                         <span class="breadcrumb__arrow ddgsi ddgsi-right"></span>
                         <span class="breadcrumb__link"><: $product.category :></span>
                         <span class="breadcrumb__arrow ddgsi ddgsi-right"></span>
                         <a href="#" class="breadcrumb__link--active"><: $product.name :></a>
-                    </div>
+                    </div> -->
                     <div class="hide show--screen-m mg--double">
                         <div class="btn btn--primary pp__btn js-pp-dl-btn">
                             <img class="pp__btn__icon" src="/assets/software/browsers/windows.svg">
@@ -23,7 +23,7 @@
                     </div>
                 </div>
 
-                <img class="pp__image js-lazyretina" data-src="/assets/software/screenshots/<: $product.asset_path :>.jpg">
+                <img class="pp__image js-lazyretina mg-top--double" data-src="/assets/software/screenshots/<: $product.asset_path :>.jpg">
 
                 <div class="pp__summary">
                     <h2 class="pp__summary__title">App Summary</h2>
