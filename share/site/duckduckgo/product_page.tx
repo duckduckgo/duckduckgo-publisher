@@ -96,7 +96,7 @@ window.productData = {
     version: "<: $product.version :>",
     summary: "<: $product.summary :>",
     url: "<: $product.url :>",
-    dlUrl: "<: $product.dl.url :>",
+    dlFilename: "<: $product.dl.filename :>",
     dlSize: "<: $product.dl.size :>",
     instSize: "<: $product.inst_size :>"
 };

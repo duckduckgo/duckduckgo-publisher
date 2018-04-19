@@ -34,7 +34,7 @@ sub pages {{
 			url => 'https://portableapps.com/apps/internet/firefox_portable',
 			dl => {
 				size => '74MB',
-				url => 'FirefoxPortable_59.0.2_English.paf.exe'
+				filename => 'FirefoxPortable/FirefoxPortable_59.0.2_English.paf.exe'
 			},
 			inst_size => '268MB',
 			summary => "Mozilla Firefox® is a fast, full-featured web browser that's easy to use. It has lots of great features including popup-blocking, tabbed-browsing, integrated search, improved privacy features, automatic updating and more. Plus, thanks to the PortableApps.com launcher bundled in the Mozilla Firefox, Portable Edition, it leaves no personal information behind on the machine you run it on, so you can take your favorite browser along with all your favorite bookmarks and extensions with you wherever you go. Firefox Portable is a dual-mode 32-bit and 64-bit app, ensuring Firefox runs as fast as possible on every PC.",
@@ -56,22 +56,22 @@ sub pages {{
 		product => {
 			name => 'Q-Dir',
 			asset_path => 'q-dir',
-			version => '6.98.1',
+			version => '6.99',
 			category => 'Utilities',
 			url => 'https://portableapps.com/apps/development/q-dir-portable',
 			dl => {
 				size => '1MB',
-				url => 'Q-DirPortable_6.98.1.paf.exe'
+				filename => 'Q-DirPortable/Q-DirPortable_6.99.1.paf.exe'
 			},
 			inst_size => '2MB',
 			summary => "Q-Dir (the Quad Explorer) makes your files and folder easy to manage. It provides fast and easy access to your hard disks, network folders, USB-Sticks, floppy disks and other storage devices. The 32-bit and 64-bit versions of Q-Dir are included and the correct one automatically used.",
 			details => {
 				'Publisher' => 'Nenad Hrg & PortableApps.com',
-				'Date Updated' => '2018-04-03',
+				'Date Updated' => '2018-04-16',
 				'System Requirements' => 'Windows XP, Vista, 7, 8, 10 & WINE',
 				'License' => 'Freeware (Personal and business use)',
 				'Source' => 'Launcher (included), PortableApps.com Installer',
-				'MD5 Hash' => '47e232d5be62b495dbe1cdd5a789aa09'
+				'MD5 Hash' => '0928948507ae511c9a1713449cf21ff9'
 			}
 		}
 	},
@@ -89,7 +89,7 @@ sub pages {{
 			url => 'https://portableapps.com/download',
 			dl => {
 				size => '4MB',
-				url => 'PortableApps.com_Platform_Setup_14.4.3.paf.exe'
+				filename => 'pacplatform/PortableApps.com_Platform_Setup_14.4.3.paf.exe'
 			},
 			inst_size => '10MB',
 			summary => "The PortableApps.com Platform™ is a full-featured portable software system that ties all your portable apps together and lets you build your own custom portable app suite for use in your synced cloud folder, on your local PC, or on a portable USB drive.",
