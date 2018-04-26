@@ -1,5 +1,6 @@
 package DDG::Publisher::Site::Duckduckgo;
 
+use strict;
 use MooX;
 use DDGC::Locale::DuckduckgoDuckduckgo;
 
@@ -11,6 +12,7 @@ sub default_hostname { 'duckduckgo.com' }
 
 sub dirs_classes {qw(
 	Root
+	Software
 )}
 
 sub locale_package { 'DDGC::Locale::DuckduckgoDuckduckgo' }
