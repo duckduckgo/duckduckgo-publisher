@@ -43,10 +43,7 @@
                     </ul>
                 </div>
                 <a href="/app" class="js-static-link pp__ad">
-                    <img class="pp__ad pp__ad--small js-pp-ad js-lazyretina" data-src="/assets/software/ads/ad-{{name}}-small.jpg">
-                    <img class="pp__ad pp__ad--medium js-pp-ad js-lazyretina" data-src="/assets/software/ads/ad-{{name}}-medium.jpg">
-                    <img class="pp__ad pp__ad--large js-pp-ad js-lazyretina" data-src="/assets/software/ads/ad-{{name}}-large.jpg">
-                    <img class="pp__ad pp__ad--xlarge js-pp-ad js-lazyretina" data-src="/assets/software/ads/ad-{{name}}-extra-large.jpg">
+                    <img class="pp__cta js-pp-cta js-lazyretina" data-src="/assets/software/img/img-{{name}}.jpg">
                 </a>
             </div>
         </div>
