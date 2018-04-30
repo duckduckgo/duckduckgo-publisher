@@ -318,7 +318,7 @@ sub pages {{
                         no_spacer => 1,
                         hero_header => 1,
                         no_hero_header_icon => 0,
-                        #js_page_type => 'Newsletter',
+                        js_page_type => 'Newsletter',
                         about_footer => 1,
                         copyright_footer => 1,
                         copyright_text => 'Privacy, simplified.',

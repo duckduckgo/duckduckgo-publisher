@@ -1,9 +1,70 @@
-<div class="course blk  blk--hero">
-  <section class="course--hero cw--c">
-    <h1 class="course--hero__title">DuckDuckGo Privacy Crash Course</h1>
-    <p class="course--hero__subtitle">Learn about the basics of protecting your online privacy right in your inbox.</p>
+<div class="course">
+  <section class="course--hero-container">
+    <section class="course--hero cw--c">
+      <h1 class="course--hero__title">DuckDuckGo Privacy Crash Course</h1>
+      <p class="course--hero__subtitle">Learn about the basics of protecting your online privacy right in your inbox.</p>
+    </section>
+    <section class="course--form">
+      <form class="course--form__container" action="https://duck.co/s/a" method="post" name="y">
+        <input name="page" value="1" type="hidden">
+        <input name="campaign" value="b" type="hidden">
+        <input name="flow" value="about" type="hidden">
+        <input placeholder="Enter your email address" class="frm__input" name="from" type="email">
+        <input value="SUBSCRIBE NOW" class="frm__btn  btn  btn--primary btn--rounded" type="submit">
+      </form>
+      <p class="course--form__notice">
+        Your email address will not be shared or associated with anonymous searches. <a href="https://spreadprivacy.com/delete-google-search-history/" class="course--form__link">Example Message</a>
+      </p>
+    </section>
   </section>
-  <section class="course--form">
-
+  <section class="course--peek cw--c">
+    <h1 class="course--peek__title">Sneak Peek</h1>
+    <hr class="course--hr">
+    <div class="js-course-blog course--peek__blog"></div>
+  </section>
+  <section class="course--testimonial cw--c">
+    <h1 class="course--testimonial__title">What People Are Saying</h1>
+    <hr class="course--hr">
+    <div class="course--testimonial__post">
+      <div class="course--testimonial__post__image-container">
+        <img src="/assets/course/trinefalbe.jpg" class="course--testimonial__post__image"/>
+      </div>
+      <div class="course--testimonial__post__text-container">
+        <p class="course--testimonial__post__text">Most useful newsletter I’ve received for a long time is today’s from @duckduckgo: “How to live without Google”. Awesome work, people!</p>
+        <div class="course--testimonial__post__author">
+          <p class="course--testimonial__post__name">Trine Falbe</p>
+          <p class="course--testimonial__post__twitter">@trinefalbe</p>
+        </div>
+      </div>
+    </div>
+    <div class="course--testimonial__post">
+      <div class="course--testimonial__post__image-container">
+        <img src="/assets/course/siddhantgoel.jpg" class="course--testimonial__post__image"/>
+      </div>
+      <div class="course--testimonial__post__text-container">
+        <p class="course--testimonial__post__text">The @duckduckgo privacy newsletter is brilliant. The only one where I end up reading the *entire* email. #privacy #newsletter</p>
+        <div class="course--testimonial__post__author">
+          <p class="course--testimonial__post__name">Siddhant Goel</p>
+          <p class="course--testimonial__post__twitter">@siddhantgoel</p>
+        </div>
+      </div>
+    </div>
+    <div class="course--testimonial__post">
+      <div class="course--testimonial__post__image-container">
+        <img src="/assets/course/renardecoeur.jpg" class="course--testimonial__post__image"/>
+      </div>
+      <div class="course--testimonial__post__text-container">
+        <p class="course--testimonial__post__text">Everyone should just subscribe to @duckduckgo 's newsletter! only one I really read. #newsletter #privacy</p>
+        <div class="course--testimonial__post__author">
+          <p class="course--testimonial__post__name">Svenja | スヱニヤ</p>
+          <p class="course--testimonial__post__twitter">@renardecoeur</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="course--cta cw--c">
+    <h1 class="course--cta__title">Ready to get started?</h1>
+    <h2 class="course--cta__subtitle">Get your first privacy guide as soon as you subscribe.</h2>
+    <input value="SUBSCRIBE NOW" class="frm__btn  btn  btn--primary btn--rounded" type="submit">
   </section>
 </div>
