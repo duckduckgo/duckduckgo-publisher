@@ -2,7 +2,7 @@
   <section class="course--hero-container">
     <section class="course--hero cw--c">
       <h1 class="course--hero__title">DuckDuckGo Privacy Crash Course</h1>
-      <p class="course--hero__subtitle">Learn about the basics of protecting your online privacy right in your inbox.</p>
+      <p class="course--hero__subtitle">Learn about protecting your online privacy.</p>
     </section>
     <section class="course--form">
       <form class="course--form__container" action="https://duck.co/s/a" method="post" name="y">
@@ -37,7 +37,7 @@
           <p class="course--testimonial__post__text">Most useful newsletter I’ve received for a long time is today’s from @duckduckgo: “How to live without Google”. Awesome work, people!</p>
           <div class="course--testimonial__post__author">
             <p class="course--testimonial__post__name">Trine Falbe</p>
-            <p class="course--testimonial__post__twitter">@trinefalbe</p>
+            <p class="course--testimonial__post__twitter"><a href="https://twitter.com/trinefalbe/status/909678992315297792" class="course--link">@trinefalbe</a></p>
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@
           <p class="course--testimonial__post__text">The @duckduckgo privacy newsletter is brilliant. The only one where I end up reading the *entire* email. #privacy #newsletter</p>
           <div class="course--testimonial__post__author">
             <p class="course--testimonial__post__name">Siddhant Goel</p>
-            <p class="course--testimonial__post__twitter">@siddhantgoel</p>
+            <p class="course--testimonial__post__twitter"><a href="https://twitter.com/siddhantgoel/status/903330121565790208" class="course--link">@siddhantgoel</a></p>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
           <p class="course--testimonial__post__text">Everyone should just subscribe to @duckduckgo 's newsletter! only one I really read. #newsletter #privacy</p>
           <div class="course--testimonial__post__author">
             <p class="course--testimonial__post__name">Svenja | スヱニヤ</p>
-            <p class="course--testimonial__post__twitter">@renardecoeur</p>
+            <p class="course--testimonial__post__twitter"><a href="https://twitter.com/renardecoeur/status/902199957721161730" class="course--link">@renardecoeur</a></p>
           </div>
         </div>
       </div>
@@ -70,8 +70,8 @@
   <div class="course--cta-container">
     <section class="course--cta cw--c">
       <h1 class="course--cta__title">Ready to get started?</h1>
-      <h2 class="course--cta__subtitle">Get your first privacy guide as soon as you subscribe.</h2>
-      <input value="SUBSCRIBE NOW" class="frm__btn  btn  btn--primary btn--rounded js-course-cta" type="submit">
+      <h2 class="course--cta__subtitle">Get your first message right now.</h2>
+      <input value="SUBSCRIBE" class="frm__btn  btn  btn--primary btn--rounded js-course-cta" type="submit">
     </section>
   </div>
 </div>
