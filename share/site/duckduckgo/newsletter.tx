@@ -16,12 +16,15 @@
         Your email address will not be shared or associated with anonymous searches. <a href="https://spreadprivacy.com/delete-google-search-history/" class="course--form__link">Example Message</a>
       </p>
     </section>
+    <img src="/assets/course/skyline.svg" class="course--bg" />
   </section>
-  <section class="course--peek cw--c">
-    <h1 class="course--peek__title">Sneak Peek</h1>
-    <hr class="course--hr">
-    <div class="js-course-blog course--peek__blog"></div>
-  </section>
+  <div class="course--peek-container">
+    <section class="course--peek cw--c">
+      <h1 class="course--peek__title">Sneak Peek</h1>
+      <hr class="course--hr">
+      <div class="js-course-blog course--peek__blog"></div>
+    </section>
+  </div>
   <section class="course--testimonial cw--c">
     <h1 class="course--testimonial__title">What People Are Saying</h1>
     <hr class="course--hr">
