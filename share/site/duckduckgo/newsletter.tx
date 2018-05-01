@@ -9,7 +9,7 @@
         <input name="page" value="1" type="hidden">
         <input name="campaign" value="b" type="hidden">
         <input name="flow" value="about" type="hidden">
-        <input placeholder="Enter your email address" class="frm__input" name="from" type="email">
+        <input placeholder="Enter your email address" class="frm__input" name="email" type="email" required>
         <input value="SUBSCRIBE NOW" class="frm__btn  btn  btn--primary btn--rounded" type="submit">
       </form>
       <p class="course--form__notice">
@@ -65,6 +65,6 @@
   <section class="course--cta cw--c">
     <h1 class="course--cta__title">Ready to get started?</h1>
     <h2 class="course--cta__subtitle">Get your first privacy guide as soon as you subscribe.</h2>
-    <input value="SUBSCRIBE NOW" class="frm__btn  btn  btn--primary btn--rounded" type="submit">
+    <input value="SUBSCRIBE NOW" class="frm__btn  btn  btn--primary btn--rounded js-course-cta" type="submit">
   </section>
 </div>
