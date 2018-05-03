@@ -313,7 +313,6 @@ sub pages {{
 	    newsletter => sub {
 		nav_footer => 0,
 		no_footer_arrow => 1,
-		copyright_footer => 0,
 		no_content_internal => 1,
 		no_spacer => 1,
 		hero_header => 1,
