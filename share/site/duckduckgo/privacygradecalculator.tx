@@ -1,22 +1,26 @@
 
 <!-- Hero -->
-<div class="pgcalculator pgcalculator--hero blk blk--hero">
-	<div class="cw--c pgcalculator--hero__top">
-		<img class="pgcalculator--hero__logo" src="/assets/common/dax-logo.svg" alt="DuckDuckGo Dax Logo">
-		<h1 class="pgcalculator--hero__title hd-hr">DuckDuckGo Press Center</h1>
-		<p class="pgcalculator--hero__text">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
-	</div>
-	<img class="pgcalculator--hero__img whole" src="/assets/pgcalculator/camping-updated.svg" aria-hidden="true">
+<div class="page-static pgcalculator pgcalculator--hero blk static--hero">
+	<div class="cw--c static static--hero__top">
+		<img class="static--hero__logo" src="/assets/common/dax-logo.svg" alt="DuckDuckGo Dax Logo">
+		<h1 class="static--hero__title hd-hr">Privacy Grade Calculator</h1>
+		<p class="static--hero__text">
+            Find out in more detail how we calculated a D privacy grade for Twitter. </br>
+            Play around with the contributing factors to interactively see how privacy grades are calculated! </br>
+            <a href="#" class="pgcalculator--learn">Learn more.</a>
+        </p>
+     </div>
+	<img class="static--hero__img whole" src="/assets/pgcalculator/camping-updated.svg" aria-hidden="true">
 </div>
 
-<div class="pgcalculator pgcalculator--hero-bottom blk blk--calculator-header-card">
+<div class="pgcalculator static--hero-bottom blk blk--calculator-header-card">
 	<div class="cw--c">
 		</div>
 	</div>
 
 <!-- Privacy Grade Calculator -->
 <div class="pgcalculator  pgcalculator--mission  blk  blk--alt  blk--content">
-	<div class="cw--c">
+	<div class="cw--c js-pgcalculator-content">
 	</div>
 </div>
 
@@ -33,6 +37,9 @@
 			<input type="email" placeholder="Your email address" class="pgcalculator__input frm__input t-center" name="email" />
 			<input type="submit" value="Subscribe" class="pgcalculator__btn btn btn--primary btn--rounded tx-up" />
 		</form>
-		<p class="pgcalculator--newsletter__text tx-clr--grey-dark t-xs">Your email address will not be shared or associated with anonymous searches. <a class="pgcalculator--newsletter__link" href="https://spreadprivacy.com/google-search-history-4bae7619407d">Example Message</a></p>
+		<p class="pgcalculator--newsletter__text tx-clr--grey-dark t-xs">
+            Your email address will not be shared or associated with anonymous searches. 
+            <a class="pgcalculator--newsletter__link" href="https://spreadprivacy.com/google-search-history-4bae7619407d">Example Message</a>
+        </p>
 	</div>
 </div>
