@@ -18,7 +18,7 @@
 	<div class="header--aside js-header-aside"></div>
 </div>
 <: } if $hero_header { :>
-<div class="header-wrap--hero <: if $hero_alt { :>header-wrap--hero--alt<: } :> js-header-wrap">
+<div class="header-wrap--hero <: if $hero_alt { :>header-wrap--hero--alt<: } :> <: if $hero_purple { :>header-wrap--hero--purple<: } :> js-header-wrap">
 	<div class="header--hero  cw <: if !$no_search_header { :> js-show-header <: } :>">
 		<: if !$no_hero_header_icon { :><i class="header--hero__loupe"></i><: } :>
 		<: if $hero_header_text { :><span class="header--hero__text"><: l('Try a search!') :></span><: } :>

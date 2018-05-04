@@ -1,7 +1,7 @@
 
-<div class="page-static">
+<div class="page-static pgcalculator">
      <!-- Hero -->
-     <div class="static pgcalculator pgcalculator--hero blk static--hero">
+     <div class="static blk static--hero">
      	<div class="cw--c static static--hero__top">
      		<img class="static--hero__logo" src="/assets/common/dax-logo.svg" alt="DuckDuckGo Dax Logo">
      		<h1 class="static--hero__title hd-hr">Privacy Grade Calculator</h1>

@@ -506,6 +506,7 @@ sub pages {{
 		no_content_internal => 1,
 		no_spacer => 1,
 		hero_header => 1,
+        hero_purple => 1,
 		no_hero_header_icon => 1,
 		js_page_type => 'PrivacyGradeCalculator',
 	}
