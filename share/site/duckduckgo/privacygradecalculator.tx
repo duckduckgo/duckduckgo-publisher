@@ -6,12 +6,10 @@
      		<img class="static--hero__logo" src="/assets/common/dax-logo.svg" alt="DuckDuckGo Dax Logo">
      		<h1 class="static--hero__title hd-hr">Privacy Grade Calculator</h1>
      		<p class="static--hero__text">
-                 Find out in more detail how we calculated a D privacy grade for Twitter. </br>
-                 Play around with the contributing factors to interactively see how privacy grades are calculated! </br>
-                 <a href="#" class="pgcalculator--learn">Learn more.</a>
+                 Learn how we calculated the privacy grade for this site.</br>
+                 Tweak the settings and see how each impacts the grade.
              </p>
           </div>
-     	<img class="static--hero__img whole" src="/assets/pgcalculator/camping-updated.svg" aria-hidden="true">
      </div>
      
      <div class="pgcalculator static--hero-bottom blk blk--calculator-header-card">
