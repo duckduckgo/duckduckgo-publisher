@@ -58,7 +58,7 @@
                 <a href="/software/portableapps" class="js-static-link blog-card bg-clr--white" data-id="0">
                     <img class="blog-card__image js-lazyretina" data-src="/assets/software/thumbnails/portableapps.jpg">
                     <div class="blog-card__content">
-                        <h3 class="blog-card__title">PortableApps.com Platform 14.4.3</h3>
+                        <h3 class="blog-card__title">PortableApps.com Platform</h3>
                         <p class="blog-card__topic tx-up">Utilities</p>
                     </div>
                 </a>
