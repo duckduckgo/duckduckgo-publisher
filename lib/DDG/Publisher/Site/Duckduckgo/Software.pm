@@ -67,7 +67,7 @@ sub pages {{
 			summary => "Q-Dir (the Quad Explorer) makes your files and folder easy to manage. It provides fast and easy access to your hard disks, network folders, USB-Sticks, floppy disks and other storage devices. The 32-bit and 64-bit versions of Q-Dir are included and the correct one automatically used.",
 			details => {
 				'Publisher' => 'Nenad Hrg & PortableApps.com',
-				'Date Updated' => '2018-04-30',
+				'Date Updated' => '2018-05-09',
 				'System Requirements' => 'Windows XP, Vista, 7, 8, 10 & WINE',
 				'License' => 'Freeware (Personal and business use)',
 				'Source' => 'Launcher (included), PortableApps.com Installer',
@@ -95,7 +95,7 @@ sub pages {{
 			summary => "The PortableApps.com Platform™ is a full-featured portable software system that ties all your portable apps together and lets you build your own custom portable app suite for use in your synced cloud folder, on your local PC, or on a portable USB drive.",
 			details => {
 				'Publisher' => 'PortableApps.com',
-				'Date Updated' => '2018-05-07',
+				'Date Updated' => '2018-05-09',
 				'System Requirements' => 'Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Vista, Windows XP, Linux, Unix, BSD, etc via Wine & Mac OS X via CrossOver, Wineskin, WineBottler, PlayOnMac',
 				'License' => 'Free / Open Source (GPL, some MIT, some CC images, trademarks and trade dress not included)',
 				'Source' => 'PortableApps.com Platform (Menu, App Store, etc)',
