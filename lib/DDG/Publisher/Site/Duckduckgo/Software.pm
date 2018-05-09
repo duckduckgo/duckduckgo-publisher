@@ -40,7 +40,7 @@ sub pages {{
 			summary => "Mozilla Firefox® is a fast, full-featured web browser that's easy to use. It has lots of great features including popup-blocking, tabbed-browsing, integrated search, improved privacy features, automatic updating and more. Plus, thanks to the PortableApps.com launcher bundled in the Mozilla Firefox, Portable Edition, it leaves no personal information behind on the machine you run it on, so you can take your favorite browser along with all your favorite bookmarks and extensions with you wherever you go. Firefox Portable is a dual-mode 32-bit and 64-bit app, ensuring Firefox runs as fast as possible on every PC.",
 			details => {
 				'Publisher' => 'Mozilla & PortableApps.com (John T. Haller)',
-				'Date Updated' => '2018-03-28',
+				'Date Updated' => '2018-05-09',
 				'System Requirements' => 'Windows 7, 8, 10 & WINE',
 				'License' => 'Open Source (MPL/GPL/LGPL under Mozilla EULA)',
 				'Source' => 'Launcher (included), Firefox',
@@ -67,7 +67,7 @@ sub pages {{
 			summary => "Q-Dir (the Quad Explorer) makes your files and folder easy to manage. It provides fast and easy access to your hard disks, network folders, USB-Sticks, floppy disks and other storage devices. The 32-bit and 64-bit versions of Q-Dir are included and the correct one automatically used.",
 			details => {
 				'Publisher' => 'Nenad Hrg & PortableApps.com',
-				'Date Updated' => '2018-05-09',
+				'Date Updated' => '2018-04-30',
 				'System Requirements' => 'Windows XP, Vista, 7, 8, 10 & WINE',
 				'License' => 'Freeware (Personal and business use)',
 				'Source' => 'Launcher (included), PortableApps.com Installer',
