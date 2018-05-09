@@ -24,19 +24,19 @@ my %page_defaults = (
 sub pages {{
 	"mozilla-firefox-portable" => sub {
 		%page_defaults,
-		
+
 		title => 'Mozilla Firefox, Portable Edition',
 		product => {
 			name => 'Mozilla Firefox',
 			asset_path => 'mozilla-firefox',
-			version => '59.0.3',
+			version => '60.0',
 			category => 'Browsers',
 			url => 'https://portableapps.com/apps/internet/firefox_portable',
 			dl => {
-				size => '74MB',
-				filename => 'FirefoxPortable/FirefoxPortable_59.0.3_English.paf.exe'
+				size => '76MB',
+				filename => 'FirefoxPortable/FirefoxPortable_60.0_English.paf.exe'
 			},
-			inst_size => '268MB',
+			inst_size => '275MB',
 			summary => "Mozilla Firefox® is a fast, full-featured web browser that's easy to use. It has lots of great features including popup-blocking, tabbed-browsing, integrated search, improved privacy features, automatic updating and more. Plus, thanks to the PortableApps.com launcher bundled in the Mozilla Firefox, Portable Edition, it leaves no personal information behind on the machine you run it on, so you can take your favorite browser along with all your favorite bookmarks and extensions with you wherever you go. Firefox Portable is a dual-mode 32-bit and 64-bit app, ensuring Firefox runs as fast as possible on every PC.",
 			details => {
 				'Publisher' => 'Mozilla & PortableApps.com (John T. Haller)',
