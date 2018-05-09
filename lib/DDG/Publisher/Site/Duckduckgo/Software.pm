@@ -99,7 +99,7 @@ sub pages {{
 				'System Requirements' => 'Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Vista, Windows XP, Linux, Unix, BSD, etc via Wine & Mac OS X via CrossOver, Wineskin, WineBottler, PlayOnMac',
 				'License' => 'Free / Open Source (GPL, some MIT, some CC images, trademarks and trade dress not included)',
 				'Source' => 'PortableApps.com Platform (Menu, App Store, etc)',
-				'MD5 Hash' => 'd943f0cef698e8f5561f8f2aa38c9ab4'
+				'MD5 Hash' => '5d1d44275c25a0d0455d93417d08ed80'
 			}
 		}
 	}
