@@ -79,10 +79,10 @@ sub pages {{
 	"portableapps" => sub {
 		%page_defaults,
 
-		title => 'PortableApps Platform',
+		title => 'PortableApps.com Platform',
 		product => {
 			is_platform => 1,
-			name => 'PortableApps',
+			name => 'PortableApps.com',
 			asset_path => 'portableapps',
 			version => '15.0.1',
 			category => 'Utilities',
