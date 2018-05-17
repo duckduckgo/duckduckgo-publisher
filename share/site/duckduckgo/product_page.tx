@@ -16,7 +16,7 @@
                     </div>
                 </div>
 
-                <img class="pp__image js-lazyretina mg-top--double" data-src="/assets/software/screenshots/<: $product.asset_path :>.jpg">
+                <img class="pp__image js-lazyload mg-top--double" data-src="/assets/software/screenshots/<: $product.asset_path :>.jpg">
 
                 <div class="pp__summary text-left">
                     <h2 class="pp__summary__title">App Summary</h2>
@@ -56,21 +56,21 @@
 
                 <!-- TODO: Replace blog-card with media-card -->
                 <a href="/software/portableapps" class="js-static-link blog-card bg-clr--white" data-id="0">
-                    <img class="blog-card__image js-lazyretina" data-src="/assets/software/thumbnails/portableapps.jpg">
+                    <img class="blog-card__image js-lazyload" data-src="/assets/software/thumbnails/portableapps.jpg">
                     <div class="blog-card__content">
                         <h3 class="blog-card__title">PortableApps.com Platform</h3>
                         <p class="blog-card__topic tx-up">Utilities</p>
                     </div>
                 </a>
                 <a href="/software/q-dir-portable" class="js-static-link blog-card bg-clr--white" data-id="1">
-                    <img class="blog-card__image js-lazyretina" data-src="/assets/software/thumbnails/q-dir.jpg">
+                    <img class="blog-card__image js-lazyload" data-src="/assets/software/thumbnails/q-dir.jpg">
                     <div class="blog-card__content">
                         <h3 class="blog-card__title">Q-Dir, Portable Edition</h3>
                         <p class="blog-card__topic tx-up">Utilities</p>
                     </div>
                 </a>
                 <a href="/software/mozilla-firefox-portable" class="js-static-link blog-card bg-clr--white" data-id="2">
-                    <img class="blog-card__image js-lazyretina" data-src="/assets/software/thumbnails/mozilla-firefox.jpg">
+                    <img class="blog-card__image js-lazyload" data-src="/assets/software/thumbnails/mozilla-firefox.jpg">
                     <div class="blog-card__content">
                         <h3 class="blog-card__title">Mozilla Firefox, Portable Edition</h3>
                         <p class="blog-card__topic tx-up">Browsers</p>
