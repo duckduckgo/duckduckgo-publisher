@@ -84,12 +84,12 @@ sub pages {{
 			is_platform => 1,
 			name => 'PortableApps.com',
 			asset_path => 'portableapps',
-			version => '15.0.1',
+			version => '15.0.2',
 			category => 'Utilities',
 			url => 'https://portableapps.com/download',
 			dl => {
 				size => '5MB',
-				filename => 'pacplatform/PortableApps.com_Platform_Setup_15.0.1.paf.exe'
+				filename => 'pacplatform/PortableApps.com_Platform_Setup_15.0.2.paf.exe'
 			},
 			inst_size => '12MB',
 			summary => "The PortableApps.com Platform™ is a full-featured portable software system that ties all your portable apps together and lets you build your own custom portable app suite for use in your synced cloud folder, on your local PC, or on a portable USB drive.",
@@ -99,7 +99,7 @@ sub pages {{
 				'System Requirements' => 'Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Vista, Windows XP, Linux, Unix, BSD, etc via Wine & Mac OS X via CrossOver, Wineskin, WineBottler, PlayOnMac',
 				'License' => 'Free / Open Source (GPL, some MIT, some CC images, trademarks and trade dress not included)',
 				'Source' => 'PortableApps.com Platform (Menu, App Store, etc)',
-				'MD5 Hash' => '69d2cc00eca10a517793671eda48a4a0'
+				'MD5 Hash' => 'c02fc058be0e9985cc56aa4073a207af'
 			}
 		}
 	}
