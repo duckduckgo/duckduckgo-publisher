@@ -25,7 +25,6 @@ sub pages {{
 	"mozilla-firefox-portable" => sub {
 		%page_defaults,
 
-		title => 'Mozilla Firefox, Portable Edition',
 		product => {
 			name => 'Mozilla Firefox',
 			asset_path => 'mozilla-firefox',
@@ -52,7 +51,6 @@ sub pages {{
 	"q-dir-portable" => sub {
 		%page_defaults,
 
-		title => 'Q-Dir, Portable Edition',
 		product => {
 			name => 'Q-Dir',
 			asset_path => 'q-dir',
@@ -79,10 +77,9 @@ sub pages {{
 	"portableapps" => sub {
 		%page_defaults,
 
-		title => 'PortableApps.com Platform',
 		product => {
 			is_platform => 1,
-			name => 'PortableApps.com',
+			name => 'PortableApps.com Platform',
 			asset_path => 'portableapps',
 			version => '15.0.2',
 			category => 'Utilities',

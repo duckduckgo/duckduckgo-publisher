@@ -2,7 +2,7 @@
     <div class="cw--c pp__top">
         <div class="gw">
             <div class="g whole left-col">
-                <h1 class="pp__title text-center"><: $product.name :><: if $product.is_platform {:> Platform <: } else { :>, Portable Edition<: } :></h1>
+                <h1 class="pp__title text-center"><: $product.name :><: if !$product.is_platform { :>, Portable Edition<: } :></h1>
 
                 <hr class="pp__hr"/>
 
