@@ -509,6 +509,17 @@ sub pages {{
 		hero_header => 1,
 		no_hero_header_icon => 1,
 		js_page_type => 'Press',
+	},
+	software => sub {
+		about_footer => 1,
+		software_footer => 1,
+		no_footer_arrow => 1,
+		copyright_footer => 1,
+		copyright_text => 'Privacy, simplified.',
+		no_content_internal => 1,
+		no_spacer => 1,
+		js_page_type => 'Software',
+		page_class => 'product-page',
 	}
 }}
 
