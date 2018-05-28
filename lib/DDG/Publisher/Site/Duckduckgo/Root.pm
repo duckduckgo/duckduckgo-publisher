@@ -10,9 +10,9 @@ with qw(
 sub path { '/' }
 
 my %page_defaults = (
+	hero_header => 1,
 	no_content_internal => 1,
 	no_spacer => 1,
-	no_footer_arrow => 1,
 	about_footer => 1,
 	copyright_footer => 1,
 );
@@ -20,7 +20,6 @@ my %page_defaults = (
 sub pages {{
 	about => sub {
 		%page_defaults,
-		hero_header => 1,
 		no_hero_header_icon => 1,
 		js_page_type => 'About',
 		ddg_events => [{
@@ -219,9 +218,7 @@ sub pages {{
 	},
 	bang => sub {
 		%page_defaults,
-
 		no_cw => 1,
-		hero_header => 1,
 		hero_header_text => 1,
 		js_page_type => 'Bang',
 		js_bang_version => 1
@@ -238,9 +235,7 @@ sub pages {{
 	},
 	styleguide => sub {
 		%page_defaults,
-
 		no_cw => 1,
-		hero_header => 1,
 		hero_header_text => 1,
 		css_serp => 1,
 		icons => ['alert','arrow-down','arrow-left','arrow-right','arrow-top','arrow-up','check','check-sign','circle','clock','close','close-bold','cloudsave','comment','cry','down','download','eye','football','grid','heart','home','info','left','left-big','left-sign','less-sign','loupe','marker','menu','minus','more','more-sign','move','music','news','next','pause','play','plus','prev','region','right','right-big','right-sign','star','swap','t-down','t-left','t-right','t-up','up','upload','uploaded','user','users',],
@@ -297,20 +292,17 @@ sub pages {{
 	},
 	app => sub {
 		%page_defaults,
-		hero_header => 1,
 		no_hero_header_icon => 1,
 		js_page_type => 'Addons',
 		copyright_footer => 1,
 	},
 	newsletter => sub {
 		%page_defaults,
-		hero_header => 1,
 		no_hero_header_icon => 0,
 		js_page_type => 'Newsletter',
 	},
 	donations => sub {
 		%page_defaults,
-		hero_header => 1,
 		no_hero_header_icon => 1,
 		js_page_type => 'Donations',
 		yearly_donations => [{
@@ -481,7 +473,6 @@ sub pages {{
 	},
 	press => sub {
 		%page_defaults,
-		hero_header => 1,
 		no_hero_header_icon => 1,
 		js_page_type => 'Press',
 	}
