@@ -13,42 +13,46 @@
 	<: if !$no_js { include "head_js.tx" } :>
 	<div class="site-wrapper <: if $homepage { :> site-wrapper--home<: } else { :> site-wrapper--static<: } :>  js-site-wrapper">
 	<: if !$no_wrapper { :>
-	  <: if !$no_header { include "header.tx" } :>
-	  <div id="content_wrapper" class="content-wrap">
-	  <: if !$no_content_internal { :>
-		<div id="content" class="content<: if !$no_cw { :>  cw<: } :>">
-			<div id="content_internal" class="content__internal">
-	  <: } :>
-		<: } else {:>
-		  <: if $homepage { :>
+		<: if !$no_header { :>
+			<: if $transparent_header { :>
+				<: include "header.tx" :>
+			<: } else {:>
+				<: include "header.tx" :>
+			<: } :>
+		<: } :>
+		<div id="content_wrapper" class="content-wrap">
+		<: if !$no_content_internal { :>
+			<div id="content" class="content<: if !$no_cw { :>  cw<: } :>">
+				<div id="content_internal" class="content__internal">
+		<: } :>
+	<: } else {:>
+		<: if $homepage { :>
 			<: include "header_homepage.tx" :>
 			<div id="<:# content_wrapper_homepage :>" class="content-wrap--home">
 				<div id="content_homepage" class="content--home">
-				<div class="cw--c">
-					<: include "_logo_homepage.tx" :>
-					<div class="search-wrap--home">
-						<: include "search_form_homepage.tx" :>
-					</div>
-
-		  <: } :>
+					<div class="cw--c">
+						<: include "_logo_homepage.tx" :>
+						<div class="search-wrap--home">
+							<: include "search_form_homepage.tx" :>
+						</div>
 		<: } :>
+	<: } :>
 
-		<: include $maintemplate :>
+						<: include $maintemplate :>
 
 	<: if $no_wrapper { :>
 		<: if $homepage { :>
-				</div> <!-- cw -->
-			 </div> <!-- content_homepage //-->
-		  </div> <!-- content_wrapper_homepage //-->
-		  <: include "footer_homepage.tx" :>
+					</div> <!-- cw -->
+				</div> <!-- content_homepage //-->
+			</div> <!-- content_wrapper_homepage //-->
+			<: include "footer_homepage.tx" :>
 		<: } :>
-
 	<: } else { :>
-		 <: if !$no_spacer { :><div id="bottom_spacing2"></div><:}:>
-		 <: if !$no_content_internal { :>
-			</div> <!-- content_internal //-->
-		 </div> <!-- content //-->
-		 <: } :>
+		<: if !$no_spacer { :><div id="bottom_spacing2"></div><:}:>
+		<: if !$no_content_internal { :>
+				</div> <!-- content_internal //-->
+			</div> <!-- content //-->
+		<: } :>
 		<: if $software_footer { :>
 			<: include "footer_software.tx" :>
 		<: } :>
