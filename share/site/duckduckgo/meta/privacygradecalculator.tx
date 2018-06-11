@@ -1,0 +1,9 @@
+<: include "meta/title.tx" { title => l('Privacy Grade Calculator') } :>
+
+<meta property="og:description" content="Learn how we calculated the privacy grade for this site.
+Tweak the settings and see how each impacts the grade.">
+<meta name="description" content="Learn how we calculated the privacy grade for this site.
+Tweak the settings and see how each impacts the grade.">
+
+<!-- Privacy Grade transpiled node module -->
+<script src="/js/privacy-grade.js"></script>
