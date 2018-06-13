@@ -1,7 +1,7 @@
 <: include "meta/title.tx" { title => l('DuckDuckGo Privacy Crash Course') } :>
 
-<meta property="og:description" content="Learn about protecting your online privacy.">
-<meta name="description" content="Learn about protecting your online privacy.">
+<meta property="og:description" content="Sign up for our newsletter and learn about protecting your online privacy.">
+<meta name="description" content="Sign up for our newsletter and learn about protecting your online privacy.">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 
 <meta name="twitter:card" content="summary_large_image">
