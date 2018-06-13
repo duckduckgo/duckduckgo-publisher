@@ -16,6 +16,8 @@
 		<: if !$no_header { :>
 			<: if $transparent_header { :>
 				<: include "header.tx" :>
+			<: } else if $flex_header { :>
+				<: include "header_flex.tx" :>
 			<: } else {:>
 				<: include "header.tx" :>
 			<: } :>

@@ -1,0 +1,22 @@
+<div id="header_wrapper" class="header-wrap py-2 <: if $hero_header { :> header-wrap--with-hero <: } :> js-header-wrap">
+	<div id="header" class="header container d-flex align-items-center">
+		<div class="header__search-wrap d-flex align-items-center p-0">
+			<a href="/" class="header__logo m-0">DuckDuckGo</a>
+			<div class="header__content  header__search  search-wrap--header">
+				<: if !$no_search_header { :>
+				<form id="search_form" class="search  search--header  js-search-form" name="x" action="<: if $absolute_search_url { :>https://duckduckgo.com<: } :>/">
+					<input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" class="search__input  js-search-input" placeholder="<: l('Search DuckDuckGo'):>" />
+					<input id="search_button" class="search__button  js-search-button" type="submit" tabindex="2" value="S" />
+					<input id="search_form_input_clear" class="search__clear  empty  js-search-clear" type="button" tabindex="3" value="X" />
+					<div id="search_elements_hidden" class="search__hidden  js-search-hidden"></div>
+				</form>
+				<: } :>
+				<: if $no_search_header { :>
+				<span class="h3 text-white font-weight-normal">DuckDuckGo</span>
+				<: } :>
+			</div>
+		</div>
+		<div class="ml-auto js-header-aside"></div>
+	</div>
+</div>
+<div class="nav-menu--slideout  js-side-menu"></div>
