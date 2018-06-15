@@ -6,7 +6,11 @@
 <link rel="canonical" href="https://duckduckgo.com<: $url :>">
 
 <link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_FILE || '/style.css' :>" type="text/css">
+<: if $homepage { :>
+<link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_4_FILE || '/home.css' :>" type="text/css">
+<: } else {:>
 <link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_2_FILE || '/static.css' :>" type="text/css">
+<: } :>
 <: if $css_serp { :>
 <link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_3_FILE || '/serp.css' :>" type="text/css">
 <: } :>
