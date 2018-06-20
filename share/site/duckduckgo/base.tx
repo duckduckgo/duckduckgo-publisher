@@ -14,9 +14,9 @@
 	<div class="site-wrapper <: if $homepage { :> site-wrapper--home<: } else { :> site-wrapper--static<: } :>  js-site-wrapper">
 	<: if !$no_wrapper { :>
 		<: if !$no_header { :>
-			<: } if $flex_header { :>
+			<: if $flex_header { :>
 				<: include "header_flex.tx" :>
-			<: } else {:>
+			<: } else { :>
 				<: include "header.tx" :>
 			<: } :>
 		<: } :>
@@ -25,7 +25,7 @@
 			<div id="content" class="content<: if !$no_cw { :>  cw<: } :>">
 				<div id="content_internal" class="content__internal">
 		<: } :>
-	<: } else {:>
+	<: } else { :>
 		<: if $homepage { :>
 			<: include "header_homepage.tx" :>
 			<div id="<:# content_wrapper_homepage :>" class="content-wrap--home">

@@ -10,13 +10,12 @@
 					<input id="search_form_input_clear" class="search__clear  empty  js-search-clear" type="button" tabindex="3" value="X" />
 					<div id="search_elements_hidden" class="search__hidden  js-search-hidden"></div>
 				</form>
-				<: } :>
-				<: if $no_search_header { :>
+				<: } else { :>
 				<span class="h3 text-white font-weight-normal">DuckDuckGo</span>
 				<: } :>
 			</div>
 		</div>
-		<div class="ml-auto js-header-aside"></div>
+		<div class="ml-auto js-header-aside d-flex align-items-center"></div>
 	</div>
 </div>
 <div class="nav-menu--slideout  js-side-menu"></div>
