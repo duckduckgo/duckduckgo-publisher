@@ -54,22 +54,22 @@ sub pages {{
 		product => {
 			name => 'Q-Dir',
 			asset_path => 'q-dir',
-			version => '7.06',
+			version => '7.07',
 			category => 'Utilities',
 			url => 'https://portableapps.com/apps/development/q-dir-portable',
 			dl => {
 				size => '1MB',
-				filename => 'Q-DirPortable/Q-DirPortable_7.06.paf.exe'
+				filename => 'Q-DirPortable/Q-DirPortable_7.07.paf.exe'
 			},
 			inst_size => '3MB',
 			summary => "Q-Dir (the Quad Explorer) makes your files and folder easy to manage. It provides fast and easy access to your hard disks, network folders, USB-Sticks, floppy disks and other storage devices. The 32-bit and 64-bit versions of Q-Dir are included and the correct one automatically used.",
 			details => {
 				'Publisher' => 'Nenad Hrg & PortableApps.com',
-				'Date Updated' => '2018-05-30',
+				'Date Updated' => '2018-06-20',
 				'System Requirements' => 'Windows XP, Vista, 7, 8, 10 & WINE',
 				'License' => 'Freeware (Personal and business use)',
 				'Source' => 'Launcher (included), PortableApps.com Installer',
-				'MD5 Hash' => 'ef39928737c0fbc681e13c12190f0d59'
+				'MD5 Hash' => '7cbb2e7394993b1067836a9a3f81e97b'
 			}
 		}
 	},
