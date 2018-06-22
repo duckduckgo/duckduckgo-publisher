@@ -5,11 +5,11 @@ var i;
 function fill_subcat(i){
 d.y.bang_subcat.options.length = 0;
 if (i > 0) {
-    d.y.bang_subcat.style.visibility = 'visible';
+    d.y.bang_subcat.className = '';
 }
 switch(i){
 case 0:
-  d.y.bang_subcat.style.visibility = 'hidden';
+  d.y.bang_subcat.className = 'invisible';
   break;
 case 1:
   d.y.bang_subcat.options[0] =new Option('<: js(l('Choose subcategory')) :>','')
