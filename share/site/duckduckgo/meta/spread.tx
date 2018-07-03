@@ -1,12 +1,12 @@
 <: include "meta/title.tx" { title => l('Help Spread DuckDuckGo') } :>
 
-<meta property="og:description" content="Friends Don’t Let Friends Get Tracked!">
-<meta name="description" content="Friends Don’t Let Friends Get Tracked!">
+<meta property="og:description" content="Friends don’t let friends get tracked.">
+<meta name="description" content="Friends don’t let friends get tracked.">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" value="@duckduckgo">
 <meta property="og:url" content="https://duckduckgo.com/spread">
-<meta property="og:title" content="Help Spread DuckDuckGo">
-<meta property="og:site_name" content="Help Spread DuckDuckGo">
+<meta property="og:title" content="Help Spread DuckDuckGo!">
+<meta property="og:site_name" content="Help Spread DuckDuckGo!">
 <meta property="og:image" content="https://duckduckgo.com/assets/spread/social.png">
