@@ -254,6 +254,10 @@ sub pages {{
 		no_cw => 1,
 		hero_header => 1,
 		hero_header_text => 1,
+		no_hero_header_icon => 1,
+		hero_header_text => 0,
+		hero_alt => 1,
+		no_search_header => 1,
 		js_page_type => 'Spread',
                 copyright_text => 'Privacy, simplified.'
 	},

@@ -19,7 +19,12 @@
 </div>
 <: } if $hero_header { :>
 <div class="header-wrap--hero <: if $hero_alt { :>header-wrap--hero--alt<: } :> js-header-wrap">
-	<div class="header--hero  cw <: if !$no_search_header { :> js-show-header <: } :>">
+  <div class="header--hero  cw <: if !$no_search_header { :> js-show-header <: } :>">
+		<: if $hero_alt { :>
+			<a href="/" class="header--hero__logo">
+				<img src="/assets/logo_header.v107.min.svg" alt="DuckDuckGo Logo" class="header--hero__img"/>
+			</a>
+		<: } :>
 		<: if !$no_hero_header_icon { :><i class="header--hero__loupe"></i><: } :>
 		<: if $hero_header_text { :><span class="header--hero__text"><: l('Try a search!') :></span><: } :>
 		<: if $hero_header_link { :>
