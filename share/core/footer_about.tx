@@ -1,6 +1,6 @@
 <div class="blk blk--foot blk--foot--nav blk--foot--about">
 	<div class="container">
-		<div class="row justify-content-center">
+		<div class="row justify-content-center pb-4 mb-3">
 			<div class="col-md-5 col-sm-10">
 				<div class="row">
 					<div class="blk--foot__col col-6">
