@@ -259,7 +259,8 @@ sub pages {{
 		hero_alt => 1,
 		no_search_header => 1,
 		js_page_type => 'Spread',
-                copyright_text => 'Privacy, simplified.'
+		about_footer => 1,
+		copyright_text => 'Privacy, simplified.'
 	},
 	iframe => sub {
 		copyright_footer => 0,
