@@ -162,7 +162,7 @@
 <div class="abt  abt--newsletter  blk">
 	<div class="cw--c">
 		<a class="anchor" name="newsletter"></a>
-		<h2 class="abt__title">Take our Privacy Crash Course!</h2>
+		<h2 class="abt__title">Get a Crash Course on Privacy</h2>
 		<p class="abt__subtitle">Sign up for our newsletter and learn about protecting your online privacy.</p>
 		<form class="frm--newsletter" action="https://duck.co/s/a" method="post" name="y">
 			<input type="hidden" name="page" value="1" />
