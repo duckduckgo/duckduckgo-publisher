@@ -1,27 +1,35 @@
-<div class="blk  blk--foot  blk--foot--nav blk--foot--about">
-	<div class="cw--c t-left flex-row">
-		<div class="blk--foot__nav-col  quarter  half--screen-s">
-			<h5 class="blk--foot__nav-head">DuckDuckGo</h5>
-			<ul>
-				<li><a class="js-static-foot-link" href="https://duckduckgo.com/about">About</a></li>
-				<li><a class="js-static-foot-link" href="https://duckduckgo.com/app">App</a></li>
-				<li><a class="js-static-foot-link" href="https://duckduckgo.com/traffic">Traffic</a></li>
-				<li><a class="js-static-foot-link" href="https://duckduckgo.com/privacy">Privacy</a></li>
-				<li><a class="js-static-foot-link" href="https://duckduckgo.com/press">Press</a></li>
-			</ul>
-		</div>
-		<div class="blk--foot__nav-col  quarter  half--screen-s">
-			<h5 class="blk--foot__nav-head">Follow Us</h5>
-			<ul>
-				<li><a class="js-static-foot-link" href="https://spreadprivacy.com/">Blog</a></li>
-				<li><a class="js-static-foot-link" href="https://twitter.com/duckduckgo">Twitter</a></li>
-				<li><a class="js-static-foot-link" href="https://reddit.com/r/duckduckgo">Reddit</a></li>
-			</ul>
-		</div>
-		<div class="blk--foot__nav-col  half  whole--screen-s">
-			<h5 class="blk--foot__nav-head">About Us</h5>
-			<p>DuckDuckGo is an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs. With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you no matter where the Internet takes you.</p>
-			<a class="blk--foot__nav-link js-static-foot-link" href="https://duckduckgo.com/about">Learn more about our story <span class="ddgsi ddgsi-right-sign"></span></a>
+<div class="blk blk--foot blk--foot--nav blk--foot--about">
+	<div class="container">
+		<div class="row justify-content-center pb-4 mb-3">
+			<div class="col-md-5 col-sm-10">
+				<div class="row">
+					<div class="blk--foot__col col-6">
+						<h5 class="blk--foot__nav-head">DuckDuckGo</h5>
+						<ul>
+							<li><a class="js-static-foot-link" href="https://duckduckgo.com/about">About</a></li>
+							<li><a class="js-static-foot-link" href="https://duckduckgo.com/app">App</a></li>
+							<li><a class="js-static-foot-link" href="https://duckduckgo.com/traffic">Traffic</a></li>
+							<li><a class="js-static-foot-link" href="https://duckduckgo.com/privacy">Privacy</a></li>
+							<li><a class="js-static-foot-link" href="https://duckduckgo.com/press">Press</a></li>
+						</ul>
+					</div>
+					<div class="blk--foot__col col-6">
+						<h5 class="blk--foot__nav-head">Follow Us</h5>
+						<ul>
+							<li><a class="js-static-foot-link" href="https://spreadprivacy.com/">Blog</a></li>
+							<li><a class="js-static-foot-link" href="https://twitter.com/duckduckgo">Twitter</a></li>
+							<li><a class="js-static-foot-link" href="https://reddit.com/r/duckduckgo">Reddit</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="blk--foot__about blk--foot__col pt-4 pt-md-0 col-md-5 col-sm-10">
+				<h5 class="blk--foot__nav-head">About Us</h5>
+				<p class="pb-3">DuckDuckGo is an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs. With our roots as the search engine that doesn’t track you, we’ve expanded what we do to protect you
+					no matter where the Internet takes you.</p>
+				<a class="blk--foot__nav-link js-static-foot-link" href="https://duckduckgo.com/about">Learn more about our story <span class="ddgsi ddgsi-right-sign"></span></a>
+			</div>
 		</div>
 	</div>
 </div>
+

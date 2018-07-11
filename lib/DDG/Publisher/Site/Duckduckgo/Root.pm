@@ -248,13 +248,19 @@ sub pages {{
 		colors => ['white','silver-light','silver','silver-dark','platinum-light','platinum','platinum-dark','platinum-darker','grey-light','grey','grey-dark','slate-light','slate','red-light','red','red-dark','blue-light','blue','blue-dark','green','gold','purple',],
 	},
 	spread => sub {
-		copyright_footer => 2,
+		copyright_footer => 1,
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
 		hero_header => 1,
 		hero_header_text => 1,
+		no_hero_header_icon => 1,
+		hero_header_text => 0,
+		hero_alt => 1,
+		no_search_header => 1,
 		js_page_type => 'Spread',
+		about_footer => 1,
+		copyright_text => 'Privacy, simplified.'
 	},
 	iframe => sub {
 		copyright_footer => 0,
