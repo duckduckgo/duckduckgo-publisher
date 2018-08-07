@@ -4,7 +4,7 @@
 				<: if $copyright_text { :>
 					<: l($copyright_text) :>
 				<: } else { :>
-					<: l("The search engine that doesn't track you.") :>
+					<: l('Privacy, simplified') :>
 				<: } :>
 			</p>
 	</div>

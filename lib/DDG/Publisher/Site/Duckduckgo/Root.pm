@@ -9,16 +9,18 @@ with qw(
 
 sub path { '/' }
 
+my %page_defaults = (
+	hero_header => 1,
+	no_content_internal => 1,
+	no_spacer => 1,
+	about_footer => 1,
+	copyright_footer => 1,
+);
+
 sub pages {{
 	about => sub {
-		about_footer => 1,
-		copyright_footer => 1,
-		copyright_text => 'Privacy, simplified.',
-		no_content_internal => 1,
-		no_spacer => 1,
-		hero_header => 1,
+		%page_defaults,
 		no_hero_header_icon => 1,
-		no_cw => 1,
 		js_page_type => 'About',
 		ddg_events => [{
 			date => 'February 29, 2008',
@@ -215,13 +217,8 @@ sub pages {{
 		}]
 	},
 	bang => sub {
-		copyright_footer => 1,
-		nav_footer => 1,
-		no_footer_arrow => 1,
-		no_content_internal => 1,
-		no_spacer => 1,
+		%page_defaults,
 		no_cw => 1,
-		hero_header => 1,
 		hero_header_text => 1,
 		js_page_type => 'Bang',
 		js_bang_version => 1
@@ -237,11 +234,8 @@ sub pages {{
 		js_include_g => 1,
 	},
 	styleguide => sub {
-		copyright_footer => 1,
-		no_content_internal => 1,
-		no_spacer => 1,
+		%page_defaults,
 		no_cw => 1,
-		hero_header => 1,
 		hero_header_text => 1,
 		css_serp => 1,
 		icons => ['alert','arrow-down','arrow-left','arrow-right','arrow-top','arrow-up','check','check-sign','circle','clock','close','close-bold','cloudsave','comment','cry','down','download','eye','football','grid','heart','home','info','left','left-big','left-sign','less-sign','loupe','marker','menu','minus','more','more-sign','move','music','news','next','pause','play','plus','prev','region','right','right-big','right-sign','star','swap','t-down','t-left','t-right','t-up','up','upload','uploaded','user','users',],
@@ -263,7 +257,6 @@ sub pages {{
 		copyright_text => 'Privacy, simplified.'
 	},
 	iframe => sub {
-		copyright_footer => 0,
 		no_content_internal => 1,
 		no_spacer => 1,
 		no_cw => 1,
@@ -302,42 +295,21 @@ sub pages {{
 		no_spacer => 1,
 		no_content_internal => 1,
 		js_skip_init => 1
-		},
+	},
 	app => sub {
-		nav_footer => 0,
-		no_footer_arrow => 1,
-		copyright_footer => 0,
-		no_content_internal => 1,
-		no_spacer => 1,
-		hero_header => 1,
+		%page_defaults,
 		no_hero_header_icon => 1,
 		js_page_type => 'Addons',
-		about_footer => 1,
 		copyright_footer => 1,
-		copyright_text => 'Privacy, simplified.',
-	    },
-	    newsletter => sub {
-		nav_footer => 0,
-		no_footer_arrow => 1,
-		no_content_internal => 1,
-		no_spacer => 1,
-		hero_header => 1,
+	},
+	newsletter => sub {
+		%page_defaults,
 		no_hero_header_icon => 0,
 		js_page_type => 'Newsletter',
-		about_footer => 1,
-		copyright_footer => 1,
-		copyright_text => 'Privacy, simplified.',
-	    },
+	},
 	donations => sub {
-		no_content_internal => 1,
-		no_spacer => 1,
-		hero_header => 1,
+		%page_defaults,
 		no_hero_header_icon => 1,
-		nav_footer => 0,
-		no_footer_arrow => 1,
-		about_footer => 1,
-		copyright_footer => 1,
-		copyright_text => 'Privacy, simplified.',
 		js_page_type => 'Donations',
 		yearly_donations => [{
 			year => '2018',
@@ -507,13 +479,7 @@ sub pages {{
 		}],
 	},
 	press => sub {
-		about_footer => 1,
-		no_footer_arrow => 1,
-		copyright_footer => 1,
-		copyright_text => 'Privacy, simplified.',
-		no_content_internal => 1,
-		no_spacer => 1,
-		hero_header => 1,
+		%page_defaults,
 		no_hero_header_icon => 1,
 		js_page_type => 'Press',
 	},
