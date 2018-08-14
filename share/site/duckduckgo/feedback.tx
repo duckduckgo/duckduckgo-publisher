@@ -44,7 +44,7 @@
 
 	<div class="fb-step  fb-step--active">
 		<i class="fb-step__icon  ddgi-bug"></i>
-		<a href="https://duck.co/feedback/bug/" class="fb-step__body  fb-step__body--btn"><: l("I need to report a bug!") :></a>
+		<a href="https://hackerone.com/duckduckgo" class="fb-step__body  fb-step__body--btn"><: l("I need to report a security issue.") :></a>
 		<i class="fb-step__arrow  ddgi-arrow-right"></i>
 	</div>
 
