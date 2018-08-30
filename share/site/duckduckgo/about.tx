@@ -16,7 +16,7 @@
 		<div class="fact-cards abt__facts">
 			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/traffic">
 				<img class="fact-card__icon" src="/assets/common/icons/standalone/search.svg" aria-hidden="true">
-				<h3 class="fact-card__title">16B</h3>
+				<h3 class="fact-card__title">21B</h3>
 				<h4 class="fact-card__subtitle">Private Searches</h4>
 				<span class="fact-card__text">And Counting</span>
 			</a>
