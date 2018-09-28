@@ -133,10 +133,20 @@ kl =
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('Auto-load:') :>
+<: l('Auto-load Images:') :>
 </td>
 <td class="ctd">
 <: l('%s for %s','kc = 1',lp('setting','On')) :>;
+<: l('%s for %s','-1',lp('setting','Off')) :>.
+</td>
+</tr>
+
+<tr>
+<td class="ctd" style="padding-right:15px;" align="right" valign="top">
+<: l('Auto-load Results:') :>
+</td>
+<td class="ctd">
+<: l('%s for %s','kav = 1',lp('setting','On')) :>;
 <: l('%s for %s','-1',lp('setting','Off')) :>.
 </td>
 </tr>
