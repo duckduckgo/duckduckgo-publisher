@@ -18,13 +18,13 @@
 			<div class="fact-cards press__facts">
 				<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/traffic">
 					<img class="fact-card__icon" src="/assets/common/icons/standalone/search.svg" aria-hidden="true">
-					<h3 class="fact-card__title">21B</h3>
+					<h3 class="fact-card__title">22B</h3>
 					<h4 class="fact-card__subtitle">Private Searches</h4>
 					<span class="fact-card__text">And Counting</span>
 				</a>
 				<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/about#team">
 					<img class="fact-card__icon" src="/assets/common/icons/standalone/privacy.svg" aria-hidden="true">
-					<h3 class="fact-card__title">53</h3>
+					<h3 class="fact-card__title">55</h3>
 					<h4 class="fact-card__subtitle">Employees</h4>
 					<span class="fact-card__text">Making it happen</span>
 				</a>
