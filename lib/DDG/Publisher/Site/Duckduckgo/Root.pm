@@ -80,7 +80,7 @@ sub pages {{
 			title => '1,000,000!',
 			snippet => 'Reaching 1 million searches a day was a major milestone for us, having steadily grown from 100 to 1,000 to 10,000 to 100,000 and finally to 1,000,000. That’s more than 10 searches a second!',
 			type => 'traffic',
-			icon => 'launch-large',
+			icon => 'milestone',
 		},{
 			date => 'March 7, 2012',
 			title => '2012 Donations',
@@ -101,13 +101,13 @@ sub pages {{
 			title => '2,000,000',
 			snippet => '483 days after reaching one million, we doubled our daily searches. This milestone happened days after people started sharing private alternatives (like us) in the wake of the NSA revelations. ',
 			type => 'traffic',
-			icon => '',
+			icon => 'milestone',
 		},{
 			date => 'June 17, 2013',
 			title => '3,000,000',
 			snippet => 'Just eight days after hitting two million searches per day, we added another million. To put this in perspective, it took 1,445 days to get to one million from the day we launched.',
 			type => 'traffic',
-			icon => 'launch-large',
+			icon => 'milestone',
 		},{
 			date => 'March 12, 2014',
 			title => '2014 Donations',
@@ -153,7 +153,7 @@ sub pages {{
 			title => '10,000,000',
 			snippet => 'Boom! 10 million searches in a single day (10,210,082 to be exact). To celebrate, we gave away a ton of DuckDuckGo T-shirts!',
 			type => 'traffic',
-			icon => 'launch-large',
+			icon => 'milestone',
 		},{
 			date => 'May 3, 2016',
 			title => '2016 Donations',
@@ -167,7 +167,7 @@ sub pages {{
 			title => '10 Billion Searches!',
 			snippet => 'We concluded 2016 with over four billion anonymous searches served, surpassing a cumulative count of ten billion!',
 			type => 'traffic',
-			icon => 'leader',
+			icon => 'milestone',
 		},{
 			date => 'February 10, 2017',
 			title => '2017 Donations',
@@ -181,7 +181,7 @@ sub pages {{
 			title => '20,000,000',
 			snippet => 'Over 20 million searches in a single day. Privacy is mainstream and more and more privacy conscious people have #ComeToTheDuckSide.',
 			type => 'traffic',
-			icon => 'woman',
+			icon => 'milestone',
 		},{
 			date => 'January 23, 2018',
 			title => 'Protection Beyond Search',

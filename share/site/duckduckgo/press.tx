@@ -17,7 +17,7 @@
 			<h3 class="press__title--small tx-up">Fast Facts</h3>
 			<div class="fact-cards press__facts">
 				<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/traffic">
-					<img class="fact-card__icon" src="/assets/icons/private-searches.svg" aria-hidden="true">
+					<img class="fact-card__icon" src="/assets/icons/beanstalk.svg" aria-hidden="true">
 					<h3 class="fact-card__title">22B</h3>
 					<h4 class="fact-card__subtitle">Private Searches</h4>
 					<span class="fact-card__text">And Counting</span>
@@ -29,13 +29,13 @@
 					<span class="fact-card__text">Making it happen</span>
 				</a>
 				<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/about">
-					<img class="fact-card__icon" src="/assets/icons/launch-small.svg" aria-hidden="true">
+					<img class="fact-card__icon" src="/assets/icons/launch-large.svg" aria-hidden="true">
 					<h3 class="fact-card__title">2008</h3>
 					<h4 class="fact-card__subtitle">Founded</h4>
 					<span class="fact-card__text">Ten Years &amp; Counting</span>
 				</a>
 				<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/donations">
-					<img class="fact-card__icon" src="/assets/icons/donations.svg" aria-hidden="true">
+					<img class="fact-card__icon" src="/assets/icons/donations-blue-large.svg" aria-hidden="true">
 					<h3 class="fact-card__title">$1.3M</h3>
 					<h4 class="fact-card__subtitle">Donated</h4>
 					<span class="fact-card__text">Privacy Donations</span>
