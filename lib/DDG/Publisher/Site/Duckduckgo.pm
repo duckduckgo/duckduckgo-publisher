@@ -2,7 +2,7 @@ package DDG::Publisher::Site::Duckduckgo;
 
 use strict;
 use MooX;
-use DDGC::Locale::DuckduckgoDuckduckgo;
+use DDG::Locale;
 
 with qw(
 	DDG::Publisher::SiteRole
@@ -15,8 +15,8 @@ sub dirs_classes {qw(
 	Software
 )}
 
-sub locale_package { 'DDGC::Locale::DuckduckgoDuckduckgo' }
-sub locale_dist { 'DDGC-Locale-DuckduckgoDuckduckgo' }
-sub locale_domain { 'duckduckgo-duckduckgo' }
+sub locale_package { 'DDG::Locale' }
+sub locale_dist { '' }
+sub locale_domain { 'duckduckgo' }
 
 1;
