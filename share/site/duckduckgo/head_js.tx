@@ -2,8 +2,8 @@
 var settings_js_version = "<: $asset_path :><: $ENV.DDG_DYNAMIC_SETTINGS_JS_FILE || '/set.js' :>",
     locale = "<: $f.locale :>";
 </script>
-<script type="text/javascript" src="<: $asset_path :>/locales/<: $f.locale :>/LC_MESSAGES/<: $s.locale_domain :>+sprintf+gettext+locale-simple.<: $locale_package_version :>.js"></script>
 <script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_LIBS_JS_FILE  || '/libs.js' :>"></script>
+<script type="text/javascript" src="/locale/<: $f.locale :>/<: $s.locale_domain :><: $f.locale_js_version :>.js"></script>
 <script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_UTILS_JS_FILE  || '/utils.js' :>"></script>
 <script type="text/javascript" src="<: $asset_path :><: $ENV.DDG_DYNAMIC_JS_FILE || '/base.js' :>"></script>
 <: if $js_include_g { :>
