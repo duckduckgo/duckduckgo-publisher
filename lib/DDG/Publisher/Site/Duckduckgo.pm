@@ -2,7 +2,6 @@ package DDG::Publisher::Site::Duckduckgo;
 
 use strict;
 use MooX;
-use DDG::Locale;
 
 with qw(
 	DDG::Publisher::SiteRole
