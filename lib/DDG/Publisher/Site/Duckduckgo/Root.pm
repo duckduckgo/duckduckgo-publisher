@@ -137,7 +137,7 @@ sub pages {{
 		},{
 			date => 'November 10, 2014',
 			title => 'Firefox',
-			snippet => "Mozilla adds DuckDuckGo as a built-in search option to Firefox. Thank you! Do you think we’ll ever get into Chrome? Don't hold your breath.",
+			snippet => "Mozilla adds DuckDuckGo as a built-in search option to Firefox. Thank you! Do you think we’ll ever get into Chrome?",
 			type => 'company',
 			icon => 'firefox',
 		},{
