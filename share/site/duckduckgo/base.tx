@@ -53,9 +53,6 @@
 				</div> <!-- content_internal //-->
 			</div> <!-- content //-->
 		<: } :>
-		<: if $software_footer { :>
-			<: include "footer_software.tx" :>
-		<: } :>
 		<: if $nav_footer { :>
 			<: include "footer_nav.tx" :>
 		<: } else if $about_footer { :>

@@ -1,5 +1,0 @@
-<div class="blk  blk--foot blk--border<: if $software_footer > 1 { :>  blk--foot--alt<: } :>">
-	<div class="cw--c">
-			<p class="js-balance">While we strive to ensure the software available on this site is safe and secure, we recommend you scan the software with a virus scanner to ensure the software is safe and does what it claims to. If you have any security concerns to report, please <a href="mailto:foss@duckduckgo.com">contact us.</a></p>
-	</div>
-</div>
