@@ -11,7 +11,6 @@ sub default_hostname { 'duckduckgo.com' }
 
 sub dirs_classes {qw(
 	Root
-	Software
 )}
 
 sub locale_package { 'DDG::Locale' }
