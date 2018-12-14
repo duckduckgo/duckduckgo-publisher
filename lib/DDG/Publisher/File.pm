@@ -147,7 +147,7 @@ sub _build_content {
 	#
 	my $dist_dir = $self->dir->site->locale_dist
 	    ? dist_dir($self->dir->site->locale_dist)
-	    : '/usr/local/ddg.cache/locales/';
+	    : '/usr/local/ddg.cache/locale/';
 	l_dir($dist_dir);
 	ltd($self->dir->site->locale_domain);
 	l_lang($self->locale);
