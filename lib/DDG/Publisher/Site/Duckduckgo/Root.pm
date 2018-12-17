@@ -228,7 +228,9 @@ sub pages {{
 		no_wrapper => 1,
 		homepage => 1,
 	},
-	newbang => sub {},
+	newbang => sub {
+		js_page_type => 'NewBang'
+	},
 	params => sub {},
 	settings => sub {
 		js_skip_init => 1,
