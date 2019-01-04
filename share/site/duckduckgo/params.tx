@@ -272,25 +272,6 @@ kj =
 
 <tr>
 <td class="ctd" style="padding-right:15px;" align="right" valign="top">
-<: l('Highlight:') :>
-</td>
-<td class="ctd">
-ky =
-<ul>
-<li><: l('%s for %s','e',l('Grey')) :> (<: lp('setting','default') :>)
-<li><: l('%s for %s','-1',lp('setting','Off')) :>
-<li><: l('%s for %s','g',l('Green')) :>
-<li><: l('%s for %s','b',l('Blue')) :>
-<li><: l('%s for %s','t',l('Tan')) :>
-<li><: l('%s for %s','y',l('Yellow')) :>
-<li><: l('%s for %s','p',l('Pink')) :>
-<li><: l('or write out the color code you want, e.g. %s (%s is an encoded %s char).','%23395323','%23','#') :>
-</ul>
-</td>
-</tr>
-
-<tr>
-<td class="ctd" style="padding-right:15px;" align="right" valign="top">
 <: l('URLs:') :>
 </td>
 <td class="ctd">
