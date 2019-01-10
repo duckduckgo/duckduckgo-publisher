@@ -133,13 +133,22 @@ has content => (
 );
 sub uncached_content { shift->_build_content }
 
+has locale_js_version => ( is => 'lazy' );
+sub _build_locale_js_version {
+	my ( $self ) = @_;
+	$self->dir->site->locale_metadata->{ $self->locale }->{js_version} || 999;
+}
+
 sub _build_content {
 	my ( $self ) = @_;
 
 	#
 	# setting locale for the localilzation (see L<Locale::Simple>)
 	#
-	l_dir(dist_dir($self->dir->site->locale_dist));
+	my $dist_dir = $self->dir->site->locale_dist
+	    ? dist_dir($self->dir->site->locale_dist)
+	    : '/usr/local/ddg.cache/locale/';
+	l_dir($dist_dir);
 	ltd($self->dir->site->locale_domain);
 	l_lang($self->locale);
 

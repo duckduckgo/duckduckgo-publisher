@@ -137,10 +137,16 @@ sub load_locale_package {
 	load_class($self->locale_package) unless (is_class_loaded($self->locale_package));
 }
 
-sub locales {
+has locale_metadata => ( is => 'lazy' );
+sub _build_locale_metadata {
 	my ( $self ) = @_;
 	$self->load_locale_package;
-	return (keys %{$self->locale_package->locales});
+	$self->locale_package->locales;
+}
+
+sub locales {
+	my ( $self ) = @_;
+	return (keys %{$self->locale_metadata});
 }
 
 =attr template_engine
