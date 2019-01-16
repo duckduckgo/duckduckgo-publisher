@@ -318,7 +318,7 @@ sub pages {{
 			year => '2018',
 			total => '$500,000',
 			theme => 'Privacy Challenge',
-			snippet => 'For our eighth year of donations, we organized and donated to a <a href="https://www.crowdrise.com/duckduckgoprivacychallenge">privacy crowdfunding campaign</a> that benefited these twenty organizations that share our vision of raising the standard of trust online.',
+			snippet => 'For our eighth year of donations, we organized and donated to a <a href="https://www.crowdrise.com/duckduckgoprivacychallenge">privacy crowdfunding campaign</a> that benefited these 21 organizations that share our vision of raising the standard of trust online.',
 			donations => {
 				col1 => [
 					{amount => '$76,571', recipient => 'Demand Progress', url => 'https://demandprogress.org'},
