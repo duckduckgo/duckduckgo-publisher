@@ -229,7 +229,8 @@ sub pages {{
 		homepage => 1,
 	},
 	newbang => sub {
-		js_page_type => 'NewBang'
+		js_page_type => 'NewBang',
+		js_bang_version => 1
 	},
 	params => sub {},
 	settings => sub {
