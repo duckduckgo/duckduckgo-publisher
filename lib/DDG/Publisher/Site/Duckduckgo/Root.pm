@@ -36,12 +36,12 @@ sub pages {{
 			type => 'news',
 			icon => 'launch-small',
 		},{
-			date => 'January 22, 2009',
+			date => 'March 15, 2010',
 			title => 'Anonymous',
 			snippet => 'We decided to make a bold move and not track your search history. Tracking is creepy.',
 			type => 'news',
 			icon => 'woman',
-			year => '2009',
+			year => '2010',
 		},{
 			date => 'January 11, 2011',
 			title => 'The Billboard',
