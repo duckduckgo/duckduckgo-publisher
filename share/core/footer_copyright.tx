@@ -4,7 +4,7 @@
 				<: if $copyright_text { :>
 					<: l($copyright_text) :>
 				<: } else { :>
-					<: l('Privacy, simplified') :>
+					<: l('Privacy, simplified.') :>
 				<: } :>
                                 &bull; 20 Paoli Pike, Paoli, PA 19301.
 			</p>
