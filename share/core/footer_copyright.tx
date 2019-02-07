@@ -7,7 +7,7 @@
 					<: l('Privacy, simplified.') :>
 				<: } :>
 
-                                <: if $add_address { :>
+                                <: if $footer_show_address { :>
                                    &bull; 20 Paoli Pike, Paoli, PA 19301.
                                 <: } :>
 			</p>
