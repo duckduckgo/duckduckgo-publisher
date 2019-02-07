@@ -22,6 +22,7 @@ sub pages {{
 		%page_defaults,
 		no_hero_header_icon => 1,
 		js_page_type => 'About',
+		footer_show_address => 1,
 		ddg_events => [{
 			date => 'February 29, 2008',
 			title => 'We Hatched',
