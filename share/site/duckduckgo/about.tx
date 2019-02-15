@@ -151,7 +151,7 @@
 		<a class="btn btn--primary btn--rounded abt--map__link--right tx-up hide--screen-s js-static-link" href="/hiring">we're hiring</a>
 		<h2 class="abt__title">Our Global Team</h2>
         <div class="abt--map__team">
-            <img class="abt--map__team__image" src="/hiring/images/duckduckgo_team.jpg" alt="DuckDuckGo Team">
+            <img class="abt--map__team__image" src="/hiring/images/duckduckgo_team.png" alt="DuckDuckGo Team Map">
         </div>
 	<div class="cw--c hide show--screen-s">
 		<a class="btn btn--primary btn--rounded abt--map__link tx-up js-static-link" href="/hiring">we're hiring</a>
