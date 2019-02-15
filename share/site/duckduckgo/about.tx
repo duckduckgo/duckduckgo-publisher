@@ -147,14 +147,14 @@
 
 <!-- Team Map -->
 <a class="anchor" name="team"></a>
-<div class="abt  abt--map  blk  blk--content  blk--alt  map  no-js__hide">
-	<div class="cw--c">
-		<a class="abt--map__link--right tx-up hide--screen-s js-static-link" href="/hiring">we're hiring</a>
+<div class="abt  abt--map  blk  blk--content  blk--alt">
+		<a class="btn btn--primary btn--rounded abt--map__link--right tx-up hide--screen-s js-static-link" href="/hiring">we're hiring</a>
 		<h2 class="abt__title">Our Global Team</h2>
-	</div>
-	<div class="js-team-map"></div>
+        <div class="abt--map__team">
+            <img class="abt--map__team__image" src="/hiring/images/duckduckgo_team.jpg" alt="DuckDuckGo Team">
+        </div>
 	<div class="cw--c hide show--screen-s">
-		<a class="abt--map__link tx-up js-static-link" href="/hiring">we're hiring</a>
+		<a class="btn btn--primary btn--rounded abt--map__link tx-up js-static-link" href="/hiring">we're hiring</a>
 	</div>
 </div>
 
