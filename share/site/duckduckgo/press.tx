@@ -90,7 +90,7 @@
 				<h2 class="asset__card__title">Contact Us</h2>
 				<p class="asset__card__text">Reach out for press inquiries, including interview requests.</p>
 				<a href="mailto:press@duckduckgo.com" class="press__btn btn btn--primary tx-up js-static-link">press@duckduckgo.com</a>
-				<div class="tx--13 mg--small tx-clr--grey-dark">
+				<div class="tx--13 mg--small tx-clr--grey-dark press__alt-email">
 					For all non-press inquiries, please use <a href="mailto:open@duckduckgo.com">open@duckduckgo.com</a>
 				</div>
 			</div>
