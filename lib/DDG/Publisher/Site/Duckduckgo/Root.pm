@@ -498,6 +498,7 @@ sub pages {{
     chrome_newtab => sub {
         %page_defaults,
         about_footer => 0,
+        no_search_header => 1,
         no_hero_header_icon => 1,
         copyright_footer => 0,
         js_page_type => 'NewTab'
