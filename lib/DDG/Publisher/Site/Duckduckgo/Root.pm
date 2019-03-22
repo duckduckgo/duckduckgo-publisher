@@ -311,7 +311,6 @@ sub pages {{
 		%page_defaults,
 		no_hero_header_icon => 1,
 		js_page_type => 'Addons',
-		copyright_footer => 1,
 		about_footer => 0,
 		copyright_footer => 0,
 	},
