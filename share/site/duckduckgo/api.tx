@@ -32,7 +32,7 @@ and
 (<a href="https://api.duckduckgo.com/?q=!imdb+rushmore&format=json&pretty=1&no_redirect=1">API example</a>).
 
 <div style="margin-bottom:20px;"></div>
-This API does not include all of our links, however. That is, it is not a full search results API or a way to get DuckDuckGo results into your applications beyond our instant answers. Because of the way <a href="https://duck.co/help/results/sources">we generate our search results</a>, we unfortunately do not have the rights to fully syndicate our results, free or paid. For the same reason, we cannot allow framing our results without our branding. Please see <a href="https://duck.co/help/company/partnerships">our partnerships page</a> for more info on guidelines and getting in touch with us.
+This API does not include all of our links, however. That is, it is not a full search results API or a way to get DuckDuckGo results into your applications beyond our instant answers. Because of the way <a href="https://help.duckduckgo.com/results/sources">we generate our search results</a>, we unfortunately do not have the rights to fully syndicate our results, free or paid. For the same reason, we cannot allow framing our results without our branding. Please see <a href="https://help.duckduckgo.com/company/partnerships">our partnerships page</a> for more info on guidelines and getting in touch with us.
 
 <div style="margin-bottom:20px;"></div>
 Our long-term goal is for <a href="/tour">all of our instant answers</a> to be available through this open API. Many of these instant answers are open source via our <a href="https://duckduckhack.com/">DuckDuckHack</a> platform. Using that platform, you can add your own APIs and data sources as well.
@@ -58,8 +58,8 @@ To consume it yourself, you can use one of the language libraries listed below o
 Here are the requirements for use:
 <ul>
 <li>Attribution in each place you use our API for both us and any underlying source. For the source, you can link to the source's relevant detail page. For us, you can say <a href="/">Results from DuckDuckGo</a> with our logo (and link to the specific result page).
-<li>Non-commercial use unless you get <a href="https://duck.co/help/company/partnerships">email approval from us</a> (though we're generally fine with anything that isn't sketchy).
-<li>Use a descriptive <a href="https://duck.co/help/privacy/t">t parameter</a>, i.e. append &t=nameofapp to your requests.
+<li>Non-commercial use unless you get <a href="https://help.duckduckgo.com/company/partnerships/">email approval from us</a> (though we're generally fine with anything that isn't sketchy).
+<li>Use a descriptive <a href="https://help.duckduckgo.com/privacy/t/">t parameter</a>, i.e. append &t=nameofapp to your requests.
 </ul>
 
 Our overall goal is to get more people using DuckDuckGo, so please keep that in mind as well.
@@ -228,7 +228,7 @@ Not all of our instant answers are available right now via this API for a variet
 
 <p style="margin-top: 5px;">
 <span class="small">
-Yes and no. We do not want to confuse users into thinking that your application was made by us. Please see <a href="https://duck.co/help/company/partnerships">our partnerships page</a> for more info on guidelines and getting in touch with us.
+Yes and no. We do not want to confuse users into thinking that your application was made by us. Please see <a href="https://help.duckduckgo.com/company/partnerships/">our partnerships page</a> for more info on guidelines and getting in touch with us.
 </span>
 
 
@@ -237,7 +237,7 @@ Yes and no. We do not want to confuse users into thinking that your application 
 
 <p style="margin-top: 5px;">
 <span class="small">
-No, though many of the instant answers it provides are open source via our <a href="https://duckduckhack.com/">DuckDuckHack platform</a>, which is completely open source. For more information on DuckDuckGo open source, please see <a href="https://duck.co/help/open-source/opensource-overview">this help article</a>.
+No, though many of the instant answers it provides are open source via our <a href="https://duckduckhack.com/">DuckDuckHack platform</a>, which is completely open source. For more information on DuckDuckGo open source, please see <a href="https://help.duckduckgo.com/open-source/opensource-overview/">this help article</a>.
 </span>
 
 
@@ -246,9 +246,9 @@ No, though many of the instant answers it provides are open source via our <a hr
 
 <p style="margin-top: 5px;">
 <span class="small">
-We simply do not have the resources to support high queries per second (QPS) for a single machine. Generally, this isn't a problem because our API is designed to be used client-side by individual users after they take some specific action (like a search or right-click). We also get a lot of botnet attacks. As a result, there is automatic throttling for API requests that will probably not effect you if you use the API in a distributed fashion (i.e. on your application's front-end). For specific situations we also provide higher limits. If you feel you may be in such a situation, please <a href="https://duck.co/help/company/partnerships">reach out</a>. For legal limits, please see above for attribution and other requirements.
+We simply do not have the resources to support high queries per second (QPS) for a single machine. Generally, this isn't a problem because our API is designed to be used client-side by individual users after they take some specific action (like a search or right-click). We also get a lot of botnet attacks. As a result, there is automatic throttling for API requests that will probably not effect you if you use the API in a distributed fashion (i.e. on your application's front-end). For specific situations we also provide higher limits. If you feel you may be in such a situation, please <a href="https://help.duckduckgo.com/company/partnerships/">reach out</a>. For legal limits, please see above for attribution and other requirements.
 </span>
 
 
 <p style="margin-top: 25px;">
-If you have more questions, please <a href="https://duck.co/help/company/partnerships">let us know</a>.
+If you have more questions, please <a href="https://help.duckduckgo.com/company/partnerships/">let us know</a>.

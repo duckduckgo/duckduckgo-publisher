@@ -1,6 +1,6 @@
   <div id="dest-boxes">
     <div class="feedback-dest">
-			<a href="https://duck.co/help">
+			<a href="https://help.duckduckgo.com/">
 				<img src="/assets/logos/logo_feedback.help.png" class="feedback-dest__img" alt="Dax the Helpful Doctor" />
 				<div class="feedback-dest__body">
 					<h2 class="feedback-dest__title"><: l('Help') :></h2>

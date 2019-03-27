@@ -22,7 +22,7 @@ pre {
 <: l('Feel free to adjust the settings below. Then, just copy and paste the code into your website.') :>
 
 <div style="margin-bottom:15px;"></div>
-Because of the way <a href="https://duck.co/help/results/sources">we generate our search results</a>, we do not have the syndication rights to allow you to host our results on your site (e.g. in a frame). When your users click on the results they will be instead taken to our site. Please see <a href="https://duck.co/help/company/partnerships">our partnerships page</a> for more info on guidelines and getting in touch with us.
+Because of the way <a href="https://help.duckduckgo.com/results/sources/">we generate our search results</a>, we do not have the syndication rights to allow you to host our results on your site (e.g. in a frame). When your users click on the results they will be instead taken to our site. Please see <a href="https://help.duckduckgo.com/company/partnerships/">our partnerships page</a> for more info on guidelines and getting in touch with us.
 
 <div style="margin-bottom:30px;"></div>
 <iframe id="code_frame" src="/search.html" style="overflow:hidden;margin:0;padding:0;width:550px;height:39px;" frameborder="0"></iframe>
