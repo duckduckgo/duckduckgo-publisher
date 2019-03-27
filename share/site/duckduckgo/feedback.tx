@@ -50,36 +50,12 @@
 
 	<div class="fb-step fb-step--active">
 		<i class="fb-step__icon ddgi-dax"></i>
-		<a href="https://duck.co/feedback/partner/" class="fb-step__body fb-step__body--btn"><: l("I'd like to learn about partnerships with DuckDuckGo.") :></a>
+		<a href="https://help.duckduckgo.com/company/partnerships/" class="fb-step__body fb-step__body--btn"><: l("I'd like to learn about partnerships with DuckDuckGo.") :></a>
 		<i class="fb-step__arrow ddgi-arrow-right"></i>
 	</div>
 
 	<div class="fb-step  fb-step--active">
-		<i class="fb-step__icon  ddgi-sad-search"></i>
-		<a href="https://duck.co/feedback/relevancy/" class="fb-step__body  fb-step__body--btn"><: l("I'd like to report bad relevancy.") :></a>
-		<i class="fb-step__arrow  ddgi-arrow-right"></i>
-	</div>
-
-	<div class="fb-step  fb-step--active">
 		<i class="fb-step__icon  ddgi-bang"></i>
-		<a href="https://duck.co/feedback/bang/" class="fb-step__body  fb-step__body--btn"><: l("I'd like to submit a new !bang.") :></a>
-		<i class="fb-step__arrow  ddgi-arrow-right"></i>
-	</div>
-
-	<div class="fb-step  fb-step--active">
-		<i class="fb-step__icon  ddgi-coffee"></i>
-		<a href="https://duck.co/feedback/feature/" class="fb-step__body  fb-step__body--btn"><: l("I've got a feature request.") :></a>
-		<i class="fb-step__arrow  ddgi-arrow-right"></i>
-	</div>
-
-	<div class="fb-step  fb-step--active">
-		<i class="fb-step__icon  ddgi-heart"></i>
-		<a href="https://duck.co/feedback/love/" class="fb-step__body  fb-step__body--btn"><: l("I want to tell you about something I love.") :></a>
-		<i class="fb-step__arrow  ddgi-arrow-right"></i>
-	</div>
-
-	<div class="fb-step  fb-step--active">
-		<i class="fb-step__icon  ddgi-trash"></i>
-		<a href="https://duck.co/feedback/nolove/" class="fb-step__body  fb-step__body--btn"><: l("I want to tell you about something I don't love.") :></a>
+		<a href="https://duckduckgo.com/newbang" class="fb-step__body  fb-step__body--btn"><: l("I'd like to submit a new !bang.") :></a>
 		<i class="fb-step__arrow  ddgi-arrow-right"></i>
 	</div>
