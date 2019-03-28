@@ -307,6 +307,13 @@ sub pages {{
 		js_page_type => 'Addons',
 		copyright_footer => 1,
 	},
+	app_info => sub {
+		%page_defaults,
+		no_hero_header_icon => 1,
+		js_page_type => 'Addons',
+		about_footer => 0,
+		copyright_footer => 0,
+	},
 	newsletter => sub {
 		%page_defaults,
 		no_hero_header_icon => 0,
