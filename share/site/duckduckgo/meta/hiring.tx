@@ -1,0 +1,8 @@
+<: include "meta/title.tx" { title => l('DuckDuckGo is Hiring!') } :>
+
+<meta property="og:description" content="Join the team at DuckDuckGo! Find out about our company culture, hiring process, and open positions.">
+<meta name="description" content="Join the team at DuckDuckGo! Find out about our company culture, hiring process, and open positions.">
+
+<link rel="stylesheet" href="/hiring-old/css/tachyons.min.css">
+<link rel="stylesheet" href="/hiring-old/css/overrides.css?cache=2">
+<link rel="stylesheet" href="/hiring-old/css/hiring.css">

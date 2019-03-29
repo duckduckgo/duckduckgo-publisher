@@ -495,6 +495,13 @@ sub pages {{
 		no_hero_header_icon => 1,
 		js_page_type => 'Press',
 	},
+	hiring => sub {
+		no_wrapper => 1,
+		no_header => 1,
+		no_content_internal => 1,
+		no_css => 1,
+		js_page_type => 'Hiring',
+	},
 }}
 
 sub statics {{
