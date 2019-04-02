@@ -497,14 +497,12 @@ sub pages {{
 	},
     chrome_newtab => sub {
         %page_defaults,
+        no_header => 0,
+        no_search_header => 1,
+        no_wrapper => 1,
         about_footer => 0,
         copyright_footer => 0,
         nav_footer => 0,
-        no_cw => 1,
-        no_header => 1,
-        no_hero_header_icon => 1,
-        no_search_header => 1,
-        no_wrapper => 1,
         js_page_type => 'NewTab',
     }
 }}
