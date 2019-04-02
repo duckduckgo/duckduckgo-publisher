@@ -1,1 +1,7 @@
-<div class="js-newtab-page"></div>
+<div class="newtab__wrapper js-newtab-page">
+    <: include "_logo_homepage.tx" :>
+
+    <div class="search-wrap--home">
+        <: include "search_form_homepage.tx" :>
+    </div>
+</div>
