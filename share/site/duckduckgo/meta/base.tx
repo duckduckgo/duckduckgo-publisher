@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="<: $ENV.DDG_DYNAMIC_CSS_3_FILE || '/serp.css' :>" type="text/css">
 <: } :>
 
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 24x24 32x32 64x64"/>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32"/>
 <link rel="apple-touch-icon" href="/assets/icons/meta/DDG-iOS-icon_60x60.png"/>
 <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/meta/DDG-iOS-icon_76x76.png"/>
 <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/meta/DDG-iOS-icon_120x120.png"/>
