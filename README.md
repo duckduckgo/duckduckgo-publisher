@@ -2,7 +2,7 @@
 
 # Installation
 
-You require the following libraries of https://duckpan.org/
+You require the following libraries of https://duck.co/
 
  - DDG
  - DDGC::Locale::DuckduckgoDuckduckgo
