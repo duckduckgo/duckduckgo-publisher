@@ -4,6 +4,7 @@
 		<img class="press--hero__logo" src="/assets/common/dax-logo.svg" alt="DuckDuckGo Dax Logo">
 		<h1 class="press--hero__title hd-hr">DuckDuckGo Press Center</h1>
 		<p class="press--hero__text">We are an Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</p>
+		<a class="press--hero__btn press__btn btn btn--primary tx-up js-anchor-link" href="#press-materials">jump to press materials</a>
 	</div>
 	<img class="press--hero__img whole" src="/assets/press/camping-updated.svg" aria-hidden="true">
 </div>
@@ -67,6 +68,7 @@
 </div>
 
 <!-- Press Materials -->
+<a name="press-materials" class="anchor js-anchor"></a>
 <div class="press press--assets blk blk--alt blk--content">
 	<div class="cw--c">
 		<h2 class="press__title">Press Materials</h2>
