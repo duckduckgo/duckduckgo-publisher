@@ -136,7 +136,7 @@
 </div>
 
 <div class="abt abt--follow blk blk--content no-js__hide blk--alt">
-	<div class="no-js__hide">
+	<div class="cw--c">
 		<h2 class="abt__title">From Our Blog</h2>
 		<h3 class="abt__subtitle">At SpreadPrivacy.com, we publish privacy education, tips, and original research, along with DuckDuckGo news.</h3>
 		<div class="abt--blog js-abt-blog"></div>
@@ -156,7 +156,7 @@
 	<div class="cw--c">
 		<h2 class="abt__title">Our Global Team</h2>
 		<h3 class="abt__subtitle">DuckDuckGo is an international community of extraordinary individuals, coming together on a mission to set a new standard of trust online.</h3>
-		<a class="btn btn--primary btn--rounded abt--map__link tx-up js-static-link" href="/hiring">we're hiring</a>
+		<a class="abt__btn btn btn--primary btn--rounded abt--map__link tx-up js-static-link" href="/hiring">we're hiring</a>
 	</div>
 	<div class="abt--map__team">
 		<img class="abt--map__team__image" src="/hiring/images/duckduckgo_team.png" alt="DuckDuckGo Team Map">
