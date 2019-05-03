@@ -4,4 +4,6 @@
     <div class="search-wrap--home">
         <: include "search_form_homepage.tx" :>
     </div>
+
+    <div class="tag-home tag-home--slide no-js__hide js-tag-home"></div>
 </div>
