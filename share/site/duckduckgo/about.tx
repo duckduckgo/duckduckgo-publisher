@@ -20,13 +20,13 @@
 				<h4 class="fact-card__subtitle">Private Searches</h4>
 				<span class="fact-card__text">And Counting</span>
 			</a>
-                        <a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/about">
+                        <a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/traffic">
 				<img class="fact-card__icon" src="/assets/icons/beanstalk.svg" aria-hidden="true">
 				<h3 class="fact-card__title">1B</h3>
 				<h4 class="fact-card__subtitle">Searches / Month</h4>
 				<span class="fact-card__text">And Growing</span>
 			</a>
-			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/about#team">
+			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/hiring">
 				<img class="fact-card__icon" src="/assets/icons/employees.svg" aria-hidden="true">
 				<h3 class="fact-card__title">62</h3>
 				<h4 class="fact-card__subtitle">Employees</h4>
