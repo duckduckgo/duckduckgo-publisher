@@ -503,6 +503,7 @@ sub pages {{
         about_footer => 0,
         copyright_footer => 0,
         nav_footer => 0,
+        page_class => 'body--home',
         js_page_type => 'NewTab',
     }
 }}
