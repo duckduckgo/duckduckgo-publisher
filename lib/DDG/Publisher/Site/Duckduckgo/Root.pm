@@ -190,6 +190,26 @@ sub pages {{
 			type => 'privacy',
 			icon => 'privacy-simplified',
 			year => '2018',
+		},{
+			date => 'April 10th, 2018',
+			title => '2018 Donations',
+			snippet => 'For our eighth year of donations, we organized and donated to a privacy crowdfunding campaign that benefited 21 organizations that share our vision of raising the standard of trust online.',
+			type => 'company',
+			subtype => 'foss',
+			icon => 'love',
+		},{
+			date => 'January 15, 2019',
+			title => 'Apple Maps',
+			snippet => 'DuckDuckGo map and local searches are now anonymously enhanced by Apple Maps, providing a valuable combination of mapping and privacy.',
+			type => 'company',
+			icon => 'design',
+		},{
+			date => 'February 1, 2019',
+			title => '1 Billion Monthly Searches!',
+			snippet => 'We started 2019 by breaking 1 billion searches a month for the first time!',
+			type => 'company',
+			icon => 'milestone',
+			year => '2019'
 		}],
 
 		news_articles => [{
