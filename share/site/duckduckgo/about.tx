@@ -153,7 +153,8 @@
 <!-- Team Map -->
 <a class="anchor" name="team"></a>
 <div class="abt  abt--map  blk  blk--content  blk--alt">
-	<div class="cw--c">
+  <div class="cw--c">
+		<img src="/assets/icons/team.svg" aria-hidden="true" class="fact-card__icon">
 		<h2 class="abt__title">Our Global Team</h2>
 		<h3 class="abt__subtitle">DuckDuckGo is an international community of extraordinary individuals, coming together on a mission to set a new standard of trust online.</h3>
 		<a class="abt__btn btn btn--primary btn--rounded abt--map__link tx-up js-static-link" href="/hiring">we're hiring</a>
