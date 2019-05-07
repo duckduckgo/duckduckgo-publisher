@@ -20,17 +20,17 @@
 				<h4 class="fact-card__subtitle">Private Searches</h4>
 				<span class="fact-card__text">And Counting</span>
 			</a>
-			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/about#team">
+                        <a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/traffic">
+				<img class="fact-card__icon" src="/assets/icons/beanstalk.svg" aria-hidden="true">
+				<h3 class="fact-card__title">1B</h3>
+				<h4 class="fact-card__subtitle">Searches / Month</h4>
+				<span class="fact-card__text">And Growing</span>
+			</a>
+			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/hiring">
 				<img class="fact-card__icon" src="/assets/icons/employees.svg" aria-hidden="true">
 				<h3 class="fact-card__title">62</h3>
 				<h4 class="fact-card__subtitle">Employees</h4>
 				<span class="fact-card__text">Making it happen</span>
-			</a>
-			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/about">
-				<img class="fact-card__icon" src="/assets/icons/beanstalk.svg" aria-hidden="true">
-				<h3 class="fact-card__title">2008</h3>
-				<h4 class="fact-card__subtitle">Founded</h4>
-				<span class="fact-card__text">Ten Years &amp; Counting</span>
 			</a>
 			<a class="fact-card bg-clr--white js-static-link" href="https://duckduckgo.com/donations">
 				<img class="fact-card__icon" src="/assets/icons/donations-blue-large.svg" aria-hidden="true">
@@ -41,6 +41,53 @@
 		</div>
 	</div>
 </div>
+
+<!-- Mission -->
+<div class="abt  abt--mission  blk  blk--alt  blk--content">
+  <div class="cw--c">
+		<img class="fact-card__icon" src="/assets/icons/milestone.svg" aria-hidden="true">
+		<h2 class="abt__title">Our Mission</h2>
+		<p class="abt__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
+	<hr class="abt__hr">
+	</div>
+</div>
+
+<!-- Link Cards -->
+<div class="abt  abt--links  blk  blk--alt  blk--content">
+	<div class="cw--c">
+		<h2 class="abt__title">It's time to take back your privacy!</h2>
+		<div class="flex-row">
+			<div class="links__card">
+				<noscript>
+					<img src="/assets/icons/privacy-simplified.svg" aria-hidden="true" class="links__card__icon">
+				</noscript>
+				<img src="" data-src="/assets/icons/privacy-simplified.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
+				<h2 class="links__card__title">Privacy, simplified.</h2>
+				<p class="links__card__text">Our app and browser extension stop you from being tracked, so you can Internet with peace of mind.</p>
+				<a href="https://duckduckgo.com/app" class="abt__btn btn btn--primary tx-up js-static-link">get privacy essentials</a>
+			</div>
+			<div class="links__card">
+				<noscript>
+					<img src="/assets/icons/private-search.svg" aria-hidden="true" class="links__card__icon">
+				</noscript>
+				<img src="" data-src="/assets/icons/private-search.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
+				<h2 class="links__card__title">Search privately.</h2>
+				<p class="links__card__text">What you search for is your own business. Switch to the search engine that doesn’t track you.</p>
+				<a href="https://duckduckgo.com/" class="abt__btn btn btn--primary tx-up js-static-link">search privately</a>
+			</div>
+			<div class="links__card">
+				<noscript>
+					<img src="/assets/icons/privacy-tips.svg" aria-hidden="true" class="links__card__icon">
+				</noscript>
+				<img src="" data-src="/assets/icons/privacy-tips.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
+				<h2 class="links__card__title">Get privacy tips.</h2>
+				<p class="links__card__text">You deserve privacy online. And now with DuckDuckGo’s help, you can learn how to get it.</p>
+				<a href="https://spreadprivacy.com/tag/device-privacy-tips/" class="abt__btn btn btn--primary tx-up js-static-link">stay informed</a>
+			</div>
+		</div>
+	</div>
+</div>
+
 
 <!-- Timeline -->
 <div class="abt  abt--timeline  blk">
@@ -88,54 +135,12 @@
 	</div>
 </div>
 
-<!-- Link Cards -->
-<div class="abt  abt--links  blk  blk--alt  blk--content">
+<div class="abt abt--follow blk blk--content no-js__hide blk--alt">
 	<div class="cw--c">
-		<h2 class="abt__title">It's time to take back your privacy!</h2>
-		<div class="flex-row">
-			<div class="links__card">
-				<noscript>
-					<img src="/assets/icons/privacy-simplified.svg" aria-hidden="true" class="links__card__icon">
-				</noscript>
-				<img src="" data-src="/assets/icons/privacy-simplified.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
-				<h2 class="links__card__title">Privacy, simplified.</h2>
-				<p class="links__card__text">Our app and browser extension stop you from being tracked, so you can Internet with peace of mind.</p>
-				<a href="https://duckduckgo.com/app" class="abt__btn btn btn--primary tx-up js-static-link">get privacy essentials</a>
-			</div>
-			<div class="links__card">
-				<noscript>
-					<img src="/assets/icons/private-search.svg" aria-hidden="true" class="links__card__icon">
-				</noscript>
-				<img src="" data-src="/assets/icons/private-search.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
-				<h2 class="links__card__title">Search privately.</h2>
-				<p class="links__card__text">What you search for is your own business. Switch to the search engine that doesn’t track you.</p>
-				<a href="https://duckduckgo.com/" class="abt__btn btn btn--primary tx-up js-static-link">search privately</a>
-			</div>
-			<div class="links__card">
-				<noscript>
-					<img src="/assets/icons/privacy-tips.svg" aria-hidden="true" class="links__card__icon">
-				</noscript>
-				<img src="" data-src="/assets/icons/privacy-tips.svg" aria-hidden="true" class="links__card__icon js-lazysvg">
-				<h2 class="links__card__title">Get privacy tips.</h2>
-				<p class="links__card__text">You deserve privacy online. And now with DuckDuckGo’s help, you can learn how to get it.</p>
-				<a href="https://spreadprivacy.com/tag/device-privacy-tips/" class="abt__btn btn btn--primary tx-up js-static-link">stay informed</a>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Mission -->
-<div class="abt  abt--mission  blk  blk--alt  blk--content">
-	<div class="cw--c">
-		<h2 class="abt__title">Our Mission</h2>
-		<p class="abt__subtitle">Too many people believe that you simply can't expect privacy on the Internet. We disagree and have made it our mission to set a new standard of trust online.</p>
-		<div class="no-js__hide">
-			<hr class="abt__hr">
-			<h3 class="abt__title--small tx-up">from our blog</h3>
-			<!-- Blog Cards -->
-			<div class="abt--blog js-abt-blog"></div>
-		</div>
-	</div>
+		<h2 class="abt__title">From Our Blog</h2>
+		<h3 class="abt__subtitle">At SpreadPrivacy.com, we publish privacy education, tips, and original research, along with DuckDuckGo news.</h3>
+		<div class="abt--blog js-abt-blog"></div>
+	</div>
 </div>
 
 <!-- Twitter -->
@@ -148,13 +153,14 @@
 <!-- Team Map -->
 <a class="anchor" name="team"></a>
 <div class="abt  abt--map  blk  blk--content  blk--alt">
-		<a class="btn btn--primary btn--rounded abt--map__link--right tx-up hide--screen-s js-static-link" href="/hiring">we're hiring</a>
+  <div class="cw--c">
+		<img src="/assets/icons/team.svg" aria-hidden="true" class="fact-card__icon">
 		<h2 class="abt__title">Our Global Team</h2>
-        <div class="abt--map__team">
-            <img class="abt--map__team__image" src="/hiring/images/duckduckgo_team.png" alt="DuckDuckGo Team Map">
-        </div>
-	<div class="cw--c hide show--screen-s">
-		<a class="btn btn--primary btn--rounded abt--map__link tx-up js-static-link" href="/hiring">we're hiring</a>
+		<h3 class="abt__subtitle">DuckDuckGo is an international community of extraordinary individuals, coming together on a mission to set a new standard of trust online.</h3>
+		<a class="abt__btn btn btn--primary btn--rounded abt--map__link tx-up js-static-link" href="/hiring">we're hiring</a>
+	</div>
+	<div class="abt--map__team">
+		<img class="abt--map__team__image" src="/hiring/images/duckduckgo_team.png" alt="DuckDuckGo Team Map">
 	</div>
 </div>
 
